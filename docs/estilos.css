@@ -1,7 +1,10 @@
 /* Mapa Sanitário V2 — documento de revisão
-   Estilos sóbrios, legíveis em claro e escuro, pensados para leitura longa e para impressão. */
+   Estilos sóbrios, pensados para leitura longa e para impressão.
+   O tema (cosmo) é só claro: as cores abaixo não mudam com o modo escuro do sistema,
+   senão as caixas escurecem e o texto do tema continua escuro. */
 
 :root {
+  color-scheme: light;
   --ms-texto: #1f2933;
   --ms-apagado: #6b7a89;
   --ms-regra: #d9dee3;
@@ -14,28 +17,6 @@
   --ms-mantem: #6b7a89;
   --ms-decidir: #c0392b;
   --ms-parqueado: #5b6b7a;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --ms-texto: #e6eaee;
-    --ms-apagado: #9aa8b5;
-    --ms-regra: #3a454f;
-    --ms-fundo-enunciado: #202a32;
-    --ms-borda-enunciado: #9aa8b5;
-    --ms-fundo-nota: #2a2a22;
-    --ms-borda-nota: #d4b63c;
-  }
-}
-
-:root[data-theme="dark"] {
-  --ms-texto: #e6eaee;
-  --ms-apagado: #9aa8b5;
-  --ms-regra: #3a454f;
-  --ms-fundo-enunciado: #202a32;
-  --ms-borda-enunciado: #9aa8b5;
-  --ms-fundo-nota: #2a2a22;
-  --ms-borda-nota: #d4b63c;
 }
 
 /* Secções do formulário */
@@ -80,6 +61,13 @@ h4 {
 .mantem { color: var(--ms-mantem); }
 .decidir { color: var(--ms-decidir); }
 .parqueado { color: var(--ms-parqueado); }
+
+/* No índice lateral as etiquetas quebram a linha; ficam só no corpo do texto */
+
+#TOC .etiqueta,
+.sidebar-navigation .etiqueta {
+  display: none;
+}
 
 /* O que é lido ao respondente */
 
