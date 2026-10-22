@@ -1,0 +1,8 @@
+/.quarto/
+/_book/
+/*.html
+.DS_Store
+Thumbs.db
+~$*
+
+**/*.quarto_ipynb

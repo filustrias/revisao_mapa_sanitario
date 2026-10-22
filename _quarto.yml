@@ -1,0 +1,36 @@
+project:
+  type: book
+  output-dir: docs
+  resources:
+    - .nojekyll
+
+lang: pt
+
+book:
+  title: "Mapa Sanitário — proposta de revisão do formulário"
+  subtitle: "Ficha de Cadastramento de Unidades Sanitárias · versão 2 · documento para revisão"
+  author: "GEPE/MINSA · OMS Angola · projecto HIIP"
+  date: today
+  date-format: long
+  search: true
+  sidebar:
+    style: docked
+    collapse-level: 2
+  chapters:
+    - index.qmd
+    - formulario.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: estilos.css
+    toc: true
+    toc-depth: 3
+    toc-title: "Nesta página"
+    toc-expand: 2
+    number-sections: false
+    anchor-sections: true
+    link-external-newwindow: true
+    fontsize: 1.02rem
+    linestretch: 1.55
+    fig-cap-location: bottom

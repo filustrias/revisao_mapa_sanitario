@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="GEPE/MINSA · OMS Angola · projecto HIIP">
+
+<title>Mapa Sanitário — proposta de revisão do formulário</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./formulario.html" rel="next">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9e6cd2081c11e0b552d17e92d8743ed7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-title">Nota de apresentação e orientações de leitura</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Mapa Sanitário — proposta de revisão do formulário</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Procurar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Nota de apresentação e orientações de leitura</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./formulario.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">O formulário, com comentários</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#o-que-é-este-documento" id="toc-o-que-é-este-documento" class="nav-link active" data-scroll-target="#o-que-é-este-documento">O que é este documento</a></li>
+  <li><a href="#um-formulário-único-para-toda-a-rede" id="toc-um-formulário-único-para-toda-a-rede" class="nav-link" data-scroll-target="#um-formulário-único-para-toda-a-rede">Um formulário único para toda a rede</a></li>
+  <li><a href="#como-ler-um-quesito" id="toc-como-ler-um-quesito" class="nav-link" data-scroll-target="#como-ler-um-quesito">Como ler um quesito</a></li>
+  <li><a href="#três-convenções-que-atravessam-todo-o-formulário" id="toc-três-convenções-que-atravessam-todo-o-formulário" class="nav-link" data-scroll-target="#três-convenções-que-atravessam-todo-o-formulário">Três convenções que atravessam todo o formulário</a></li>
+  <li><a href="#o-que-se-mantém" id="toc-o-que-se-mantém" class="nav-link" data-scroll-target="#o-que-se-mantém">O que se mantém</a></li>
+  <li><a href="#os-indicadores-internacionais" id="toc-os-indicadores-internacionais" class="nav-link" data-scroll-target="#os-indicadores-internacionais">Os indicadores internacionais</a></li>
+  <li><a href="#o-que-ficou-parqueado-e-porquê" id="toc-o-que-ficou-parqueado-e-porquê" class="nav-link" data-scroll-target="#o-que-ficou-parqueado-e-porquê">O que ficou parqueado, e porquê</a></li>
+  <li><a href="#decisões-que-esta-revisão-deve-tomar" id="toc-decisões-que-esta-revisão-deve-tomar" class="nav-link" data-scroll-target="#decisões-que-esta-revisão-deve-tomar">Decisões que esta revisão deve tomar</a></li>
+  <li><a href="#pendências-a-pedir-ao-minsa" id="toc-pendências-a-pedir-ao-minsa" class="nav-link" data-scroll-target="#pendências-a-pedir-ao-minsa">Pendências a pedir ao MINSA</a></li>
+  <li><a href="#como-enviar-comentários" id="toc-como-enviar-comentários" class="nav-link" data-scroll-target="#como-enviar-comentários">Como enviar comentários</a></li>
+  <li><a href="#uma-nota-final-sobre-o-tom-desta-proposta" id="toc-uma-nota-final-sobre-o-tom-desta-proposta" class="nav-link" data-scroll-target="#uma-nota-final-sobre-o-tom-desta-proposta">Uma nota final sobre o tom desta proposta</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mapa Sanitário — proposta de revisão do formulário</h1>
+<p class="subtitle lead">Ficha de Cadastramento de Unidades Sanitárias · versão 2 · documento para revisão</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>GEPE/MINSA · OMS Angola · projecto HIIP </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">22 de outubro de 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="o-que-é-este-documento" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-é-este-documento">O que é este documento</h2>
+<p>Este documento apresenta a proposta de revisão da <strong>Ficha de Cadastramento de Unidades Sanitárias</strong> do Mapa Sanitário — a versão 19_01, de Janeiro de 2019, e o respectivo Guião de Preenchimento, de Abril de 2019, ambos do GEPE/MINSA — na forma em que ela será efectivamente aplicada: como formulário.</p>
+<p>O capítulo seguinte mostra, secção a secção e quesito a quesito, <strong>o que será perguntado, por que palavras, com que opções de resposta, e o que acontece a seguir a cada resposta</strong>. É deliberadamente o formulário e não o relatório sobre o formulário: a sequência é a que o inquiridor percorrerá, os enunciados estão escritos para serem lidos em voz alta, e os saltos estão assinalados onde ocorrem.</p>
+<p>O que este documento <strong>não</strong> é: não é a justificação técnica de cada decisão de desenho. Essa está na matriz de decisão da adaptação, uma folha de cálculo com uma linha por quesito e catorze colunas, que registra o item original, o item proposto, o tipo de mudança, o indicador gerado, a explicação da decisão e o seu estado. A matriz é a fonte; este documento é a face legível dela. Quando um comentário aqui diz que um quesito foi reformulado, a razão completa está na coluna «Explicação» da linha correspondente da matriz.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Estado da proposta.</strong> As secções 0 a 7 estão transcritas por inteiro, incluindo a secção 7 — serviços oferecidos. Os domínios 8 a 13 estão escritos na matriz e serão transcritos na próxima edição; o fim do formulário identifica-os com o respectivo volume. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="um-formulário-único-para-toda-a-rede" class="level2">
+<h2 class="anchored" data-anchor-id="um-formulário-único-para-toda-a-rede">Um formulário único para toda a rede</h2>
+<p>Este é um ponto que convém fixar antes de qualquer leitura, porque sem ele o documento parece desproporcionado.</p>
+<p><strong>O formulário é um só e serve toda a rede de unidades sanitárias</strong> — do posto de saúde ao hospital central. Não há versões diferentes por tipo de unidade, e isso é uma opção de desenho e não uma falta de cuidado. A razão é analítica: a quase totalidade dos indicadores internacionais que a proposta permite calcular tem como denominador «entre todas as unidades sanitárias». Se filtrássemos as perguntas pelo tipo de unidade, esses indicadores deixariam de ser calculáveis para a rede de cuidados de saúde primários — que é precisamente a rede que o projecto quer medir.</p>
+<p><strong>Em consequência, a maior parte das perguntas não será feita à maior parte das unidades.</strong> O formulário tem perguntas-porta: quando a resposta à porta é negativa, o bloco que depende dela é inteiramente saltado. Na versão digital o salto é automático e o inquiridor nem vê as perguntas; na versão em papel exige uma instrução de salto bem visível ao lado da caixa.</p>
+<p>Vale ver isto com números concretos, porque é a diferença entre um formulário longo e um formulário pesado.</p>
+<p><strong>Num centro de saúde típico</strong>, sem laboratório completo, sem imagiologia, sem internamento, sem bloco operatório e sem banco de urgência com espaço próprio, fecham-se de uma vez:</p>
+<ul>
+<li>a porta geral do laboratório (quesito 7.2.1) fecha os quatro blocos de exames — <strong>69 caixas</strong> — e a pergunta do destino da amostra, <strong>mais 1</strong>; sobram as 11 linhas dos testes rápidos, que são exactamente aquilo que um centro de saúde faz;</li>
+<li>a porta da imagiologia (7.2.A.0) fecha a grelha dos exames de imagem — <strong>8 caixas</strong>;</li>
+<li>a porta dos partos (7.3.7) fecha as duas caixas de CONU, a grelha das nove funções-sinal e a cobertura permanente — <strong>12 caixas</strong>;</li>
+<li>a porta da cirurgia (7.1.29) fecha os procedimentos e as especialidades cirúrgicas — <strong>11 caixas</strong>;</li>
+<li>a porta do internamento (8.0.1) fecha a decomposição das camas por enfermaria e por sexo — <strong>15 caixas</strong> — e, na secção de gestão, o bloco de revisão de casos e de óbitos;</li>
+<li>a porta das doenças não transmissíveis, se a unidade não as acompanhar, fecha <strong>12 caixas</strong>; a do cancro, <strong>4</strong>; a dos sobreviventes de violência, <strong>11</strong>; a do recém-nascido pequeno ou doente, <strong>10</strong>.</li>
+</ul>
+<p>Só nestes blocos são mais de <strong>150 caixas que a unidade não vê</strong>. Um posto de saúde fecha ainda mais: sem vacinação de rotina com periodicidade fixa saltam as 19 caixas dos antigénios; sem tratamento antirretroviral saltam 7; sem serviços de tuberculose, 7.</p>
+<p><strong>O inverso também acontece.</strong> A secção 9 da Ficha — aparelhos médico-cirúrgicos, 39 caixas — é hoje dirigida apenas a centros e postos de saúde, por instrução expressa do Guião (folha 17), pelo que um hospital não a percorre. O formulário adapta-se nos dois sentidos.</p>
+<p>A leitura prática, para a revisão: <strong>não avalie o volume total, avalie o volume por tipo de unidade.</strong> A pergunta útil não é «são muitas perguntas?», mas «quantas destas perguntas chegam de facto a um posto de saúde do Cuanza Sul, e são as certas?».</p>
+</section>
+<section id="como-ler-um-quesito" class="level2">
+<h2 class="anchored" data-anchor-id="como-ler-um-quesito">Como ler um quesito</h2>
+<p>Cada quesito é apresentado sempre com a mesma estrutura.</p>
+<p><strong>O código</strong> é o da Ficha 19_01 sempre que o quesito já existe, e nada foi renumerado — com uma única excepção, assinalada no lugar. Quando um quesito é novo, recebe um código que o prende ao quesito de que depende: 7.3.1.2 é a grelha dos antigénios que depende da porta 7.3.1; 7.2.C.I é o primeiro bloco de exames que depende da porta do laboratório. Os códigos são a referência estável para comentar: um comentário que diga «7.3.6.1.14» é inequívoco, um que diga «aquela pergunta da mutilação genital» obriga a procurar.</p>
+<p><strong>A etiqueta</strong> diz, de relance, o estado do quesito:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Etiqueta</th>
+<th>Significado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="etiqueta novo">NOVO</span></td>
+<td>Não existe na Ficha 19_01</td>
+</tr>
+<tr class="even">
+<td><span class="etiqueta alterado">ALTERADO</span></td>
+<td>Existe, e muda o enunciado, as opções ou ambos</td>
+</tr>
+<tr class="odd">
+<td><span class="etiqueta mantem">MANTÉM-SE</span></td>
+<td>Existe e não se propõe alteração</td>
+</tr>
+<tr class="even">
+<td><span class="etiqueta decidir">A DECIDIR</span></td>
+<td>Escrito, mas a inclusão depende desta revisão</td>
+</tr>
+<tr class="odd">
+<td><span class="etiqueta parqueado">PARQUEADO</span></td>
+<td>Fica para uma fase posterior, com a razão indicada</td>
+</tr>
+</tbody>
+</table>
+<p><strong>O enunciado</strong>, em caixa cinzenta, é o que se lê ao respondente, palavra por palavra. <strong>As instruções ao inquiridor</strong>, em itálico, não são lidas em voz alta. <strong>As opções de resposta</strong> aparecem numeradas com os códigos que irão para o sistema. <strong>A nota</strong>, em caixa amarela, diz o que acontece com cada resposta — o salto que provoca, a porta que abre ou fecha, a verificação que o sistema deve assinalar, e, quando o quesito mudou, o que era antes numa frase.</p>
+<p><strong>A linha do indicador</strong>, discreta, no fim, diz qual o indicador internacional que o quesito alimenta. Serve para quem quiser verificar; quem estiver a revisar o conteúdo da pergunta pode ignorá-la sem perder nada.</p>
+</section>
+<section id="três-convenções-que-atravessam-todo-o-formulário" class="level2">
+<h2 class="anchored" data-anchor-id="três-convenções-que-atravessam-todo-o-formulário">Três convenções que atravessam todo o formulário</h2>
+<p><strong>Primeira: a porta é a actividade, não o órgão.</strong> Sempre que um bloco depende de a unidade fazer alguma coisa, a pergunta-porta pergunta pela actividade e não pela existência do serviço, do departamento ou da comissão. A porta do laboratório não é «tem laboratório?» mas «realiza exames, recolhe amostras ou encaminha doentes?». A porta da urgência não é «tem banco de urgência?» mas «atende doentes em situação de urgência, mesmo sem espaço próprio?». A porta da revisão de óbitos não é «tem comissão de óbitos?» mas «realiza revisões formais de óbitos?».</p>
+<p>Isto não é uma subtileza de redacção. Se a porta fosse o órgão, perderíamos exactamente as unidades que fazem o trabalho sem o órgão formal — que são a maioria da rede de cuidados primários. Um centro de saúde que atende urgências na própria consulta ficaria contado como unidade sem atendimento de urgência. As caixas dos órgãos mantêm-se, em paralelo, nas listas próprias: o laboratório como serviço continua na lista da secção 7.2, as comissões continuam na lista da 7.4. O órgão e a actividade convivem porque respondem a perguntas diferentes.</p>
+<p><strong>Segunda: é a resposta que decide o percurso, nunca o tipo de unidade.</strong> Nenhum salto deste formulário é accionado pelo tipo de unidade sanitária, e há razão para isso em cada caso: há postos com camas e centros de saúde sem internamento; há centros de saúde que seguem trezentos hipertensos e hospitais que não têm cardiologista. O percurso é decidido pelo que a unidade responde sobre si mesma.</p>
+<p><strong>Terceira: quase tudo é autorreferido.</strong> A arquitectura da proposta assenta em perguntas declaradas, respondidas pelo responsável da unidade, porque é isso que torna possível um censo de toda a rede. A observação física aparece em três lugares apenas — a contagem de camas e de macas, a grelha de verificação do equipamento básico, e o estado dos aparelhos —, e esses estão assinalados. Cada quesito indica o seu modo de recolha, e a secção 0 tem um campo (0.5) que registra se a unidade foi efectivamente visitada: sem ele, na análise, não se distingue «não tem» de «não foi verificado».</p>
+</section>
+<section id="o-que-se-mantém" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-se-mantém">O que se mantém</h2>
+<p>A proposta é de revisão e não de substituição, e isso deve ser visível na leitura. Em concreto:</p>
+<ul>
+<li><strong>nenhum código foi reatribuído</strong>, com uma única excepção: na secção 11, a lista das pessoas contactadas desce de 11.1 para 11.2, para que o responsável da unidade possa abrir a secção. É a única renumeração em toda a proposta;</li>
+<li><strong>as listas nomeadas da Ficha mantêm-se por inteiro</strong> — as 28 especialidades clínicas, os 7 tipos de veículo, os 15 tipos de aparelho, os 17 serviços e órgãos de gestão, os 15 serviços gerais, as 17 actividades de saúde pública. Nenhuma foi encurtada;</li>
+<li><strong>as contagens da Ficha mantêm-se</strong>, mesmo quando excedem o que o instrumento internacional pede. A Ficha conta aparelhos e veículos; o HHFA apenas verifica a presença de um. A contagem é contributo próprio do Mapa Sanitário e é informação de gestão logística que nenhum instrumento internacional recolhe;</li>
+<li><strong>as definições do Guião foram conservadas e, em muitos casos, trazidas para dentro da pergunta</strong>. Um padrão repete-se com frequência suficiente para merecer nota: há instruções no Guião que o formulário impresso não tem onde acolher. O Guião manda registar as camas guardadas em armazém «aparte» e não há caixa para isso; manda registar a data da visita anterior e prevê uma caixa «nunca visitada» que o formulário impresso não tem; manda especificar a quantidade de ADECOS e não há campo; manda classificar a consulta pré-natal como «completa, incompleta ou não é realizada» e oferece uma caixa de 0-1. Em todos estes casos a proposta limita-se a dar lugar no formulário àquilo que a instrução já pede.</li>
+</ul>
+</section>
+<section id="os-indicadores-internacionais" class="level2">
+<h2 class="anchored" data-anchor-id="os-indicadores-internacionais">Os indicadores internacionais</h2>
+<p>A linha discreta no fim de cada quesito refere o <strong>HHFA</strong> — <em>Harmonized Health Facility Assessment</em>, o instrumento de avaliação de unidades sanitárias da OMS, com 2 604 indicadores organizados em cinco dimensões. A marca <strong>PHC: Sim</strong> identifica os indicadores que pertencem ao conjunto reduzido definido para os cuidados de saúde primários.</p>
+<p>Duas notas de leitura que evitam mal-entendidos.</p>
+<p>A primeira: <strong>a maior parte dos indicadores que esta proposta gera não pertence ao conjunto PHC</strong>. Toda a subárea de disponibilidade de serviços do HHFA — 62 indicadores — está marcada «PHC: Não». Isto é consequência da arquitectura autorreferida e foi uma troca aceite desde o início: muitos indicadores internacionalmente comparáveis sem observação física, em vez de poucos indicadores do conjunto PHC com observação física. É a primeira pergunta que um técnico da OMS fará ao ver a proposta, e por isso convém estar escrita.</p>
+<p>A segunda: <strong>onde o conjunto PHC de facto está</strong> é nas tabelas de disponibilidade de serviço da dimensão 3, que são perguntas declaradas e não observadas. A secção 7.3 — saúde pública, promoção e prevenção — gera por si 34 indicadores marcados PHC: Sim, sem uma única observação física. A conclusão prática é que a secção 7.3 é a de maior retorno em comparabilidade internacional de todo o instrumento, e isso deve pesar se houver de escolher onde investir esforço de recolha.</p>
+</section>
+<section id="o-que-ficou-parqueado-e-porquê" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-ficou-parqueado-e-porquê">O que ficou parqueado, e porquê</h2>
+<p>Três famílias de informação ficaram deliberadamente fora desta versão, todas pela mesma razão: dependem de <strong>verificação física</strong> e a arquitectura é autorreferida. Não são esquecimentos e estão assinaladas no texto.</p>
+<p><strong>Medicamentos</strong> (quesito 7.2.10). O que o HHFA pede à farmácia não é a existência do serviço mas a presença observada dos produtos na prateleira, dentro da validade: 199 linhas de produto, e os indicadores contam apenas o produto visto e válido. É a tabela de maior rendimento para os cuidados primários — 37 indicadores, todos PHC: Sim — e merece decisão própria. Quatro medicamentos entram desde já, porque a Ficha já os pergunta como actividade de programa: a vitamina A, o albendazol, os sais de reidratação oral e o alimento terapêutico, todos na secção 7.3.</p>
+<p><strong>Cadeia de frio</strong> (quesito 7.3.1.4). Exige ver o frigorífico a funcionar e ler o termómetro no dia da visita. A contagem de geleiras e arcas, que a Ficha já faz na secção 9, mantém-se intacta.</p>
+<p><strong>Esterilização e controlo de infecções</strong> (quesito 7.2.14). O HHFA não pergunta se existe esterilização: pergunta qual o método, se o autoclave funciona no dia da visita, se há indicador de processo e se o pessoal foi formado.</p>
+<p>Ficam ainda parqueados, para o bloco de gestão e finanças que será desenhado depois, o orçamento próprio (0.2), a cadeia de arquivo e reporte de dados, o comité de gestão e o bloco de manutenção de infraestrutura e de equipamento (7.5.8).</p>
+</section>
+<section id="decisões-que-esta-revisão-deve-tomar" class="level2">
+<h2 class="anchored" data-anchor-id="decisões-que-esta-revisão-deve-tomar">Decisões que esta revisão deve tomar</h2>
+<p>Estas são as questões em aberto. Estão assinaladas no texto com a etiqueta <span class="etiqueta decidir">A DECIDIR</span> e é sobre elas que o parecer dos revisores é mais necessário.</p>
+<ol type="1">
+<li><strong>Rupturas de stock de vacinas</strong> (7.3.1.3). Acrescentar uma coluna à grelha dos antigénios, perguntando se houve ruptura nos últimos 3 meses, dá 11 indicadores por 11 caixas — e a ruptura é a única parte da família dos medicamentos que não exige verificação física, porque é memória de quem responde. Custa fazer a grelha do PAV passar de 18 para 29 caixas. Recomendação: incluir, mas só para os antigénios do calendário infantil de rotina.</li>
+<li><strong>Cuidados ao recém-nascido pequeno ou doente</strong> (7.3.8.2). São 11 caixas para 14 indicadores, tudo declarado, com uma subárea internacional fechada e nada a inventar. É a maior lacuna da proposta no que respeita ao recém-nascido.</li>
+<li><strong>Interrupção da gravidez</strong> (7.1.E.3.7 e 7.1.E.3.8). As duas linhas são as do instrumento internacional e devem ser confirmadas contra o quadro legal angolano antes de irem a terreno. Se a prestação não for legalmente possível, as duas linhas saem.</li>
+<li><strong>Âmbito da secção 9</strong> (aparelhos médico-cirúrgicos). O Guião restringe a secção a centros e postos de saúde, com fundamento. Mantendo a restrição, os 14 indicadores da tabela correspondente passam a existir apenas para centros e postos, e perde-se a leitura no topo da árvore de referência.</li>
+<li><strong>Frota ao nível municipal</strong> (secção 10). Para a maioria das unidades de cuidados primários, o que decide a evacuação de um doente não é a unidade ter viatura própria mas o município ter uma viatura disponível — e a Ficha não recolhe a frota municipal de ninguém.</li>
+<li><strong>Unidades de ensino</strong> (7.4.8 e 7.4.9). Falta um quesito que registre se a unidade acolhe formação de estudantes, internos, médicos em especialização ou técnicos de saúde.</li>
+<li><strong>Bloco de manutenção</strong> (7.5.8). São cerca de 25 caixas para 23 indicadores, cobrindo a manutenção de 9 sistemas de infraestrutura e de 11 tipos de equipamento. Está parqueado, mas a decisão de o activar agora é legítima.</li>
+</ol>
+</section>
+<section id="pendências-a-pedir-ao-minsa" class="level2">
+<h2 class="anchored" data-anchor-id="pendências-a-pedir-ao-minsa">Pendências a pedir ao MINSA</h2>
+<p>Cinco normas nacionais são invocadas pela proposta e não estão em nosso poder. Cada uma melhora a leitura do dado sem alterar a lista de perguntas, e por isso escrevemos sem esperar por elas — mas convém pedi-las em paralelo.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pendência</th>
+<th>Para quê</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Definição do INSP dos <strong>Laboratórios tipo I e tipo II</strong>, a que o Guião se refere na folha 13</td>
+<td>Transforma a leitura do laboratório de descritiva — «esta unidade realiza 14 dos 82 exames» — em cumprimento: «este centro de saúde realiza 11 dos 20 exames exigidos a um Laboratório tipo I»</td>
+</tr>
+<tr class="even">
+<td><strong>Lista Nacional de Medicamentos Essenciais</strong>, com o exigido a cada nível da rede</td>
+<td>Única forma defensável de encurtar as 199 linhas do instrumento internacional para o que faz sentido num posto de saúde</td>
+</tr>
+<tr class="odd">
+<td><strong>Calendário nacional de vacinação</strong> em vigor</td>
+<td>Confirmar as 19 linhas de antigénios, retirando os que Angola não utiliza e acrescentando os que faltem</td>
+</tr>
+<tr class="even">
+<td><strong>Populações-chave definidas pelo PNLS</strong> para a profilaxia pré-exposição</td>
+<td>Fixar a grelha de 7.3.10.2</td>
+</tr>
+<tr class="odd">
+<td><strong>Norma nacional sobre atendimento a sobreviventes de violência sexual</strong>, se existir</td>
+<td>Ancorar o enunciado do bloco 7.1.E, que de outro modo cria expectativa de capacidade sem base normativa</td>
+</tr>
+<tr class="even">
+<td><strong>Nomenclatura nacional de carreiras da saúde</strong></td>
+<td>Fechar a lista de categorias profissionais de 11.1.3, que servirá também o futuro bloco de pessoal</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="como-enviar-comentários" class="level2">
+<h2 class="anchored" data-anchor-id="como-enviar-comentários">Como enviar comentários</h2>
+<p>Os comentários são recolhidos <strong>em paralelo</strong>, na matriz de decisão da adaptação, que tem para esse efeito uma coluna própria — «Comentários dos revisores» — ao lado da coluna «Explicação». Cada linha da matriz corresponde a um quesito deste documento e tem o mesmo código.</p>
+<p>Para que um comentário seja accionável, basta que diga <strong>o código do quesito</strong> e <strong>o que deve mudar</strong>. Três exemplos do tipo de observação mais útil:</p>
+<ul>
+<li>«7.3.1.2 — retirar as linhas 15 e 17, Angola não utiliza vacina da gripe nem pneumocócica no adulto»;</li>
+<li>«7.2.C.II.5 — o teste oral de tolerância à glicose não se faz em nenhum centro de saúde, retirar»;</li>
+<li>«7.1.A — o enunciado deve dizer “nos últimos 3 meses” e não “há mais de 3 meses”, está invertido».</li>
+</ul>
+<p>São igualmente úteis, e talvez mais, os comentários sobre <strong>sequência e carga de resposta</strong>: se um bloco está no lugar errado do percurso, se uma porta deveria vir antes, se uma grelha é longa demais para ser respondida com cuidado no fim de uma visita de duas horas.</p>
+</section>
+<section id="uma-nota-final-sobre-o-tom-desta-proposta" class="level2">
+<h2 class="anchored" data-anchor-id="uma-nota-final-sobre-o-tom-desta-proposta">Uma nota final sobre o tom desta proposta</h2>
+<p>A Ficha 19_01 e o seu Guião são um instrumento sólido e, em dois lugares, mais exigente do que o padrão internacional: a Ficha <strong>conta</strong> camas, aparelhos e veículos, enquanto o instrumento da OMS se limita a verificar a presença de um. Essa granularidade é informação de planeamento que não existe em nenhum instrumento internacional e foi integralmente preservada.</p>
+<p>A proposta faz três coisas, e nenhuma delas é substituir: dá lugar no formulário a instruções que o Guião já contém e que o impresso não acolhe; desdobra caixas únicas que hoje empacotam várias informações numa só resposta; e acrescenta perguntas onde a comparação internacional fica barata. Onde o instrumento actual já está certo, não se tocou.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./formulario.html" class="pagination-link" aria-label="O formulário, com comentários">
+        <span class="nav-page-text"><span class="chapter-title">O formulário, com comentários</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

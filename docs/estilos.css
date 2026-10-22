@@ -1,0 +1,168 @@
+/* Mapa Sanitário V2 — documento de revisão
+   Estilos sóbrios, legíveis em claro e escuro, pensados para leitura longa e para impressão. */
+
+:root {
+  --ms-texto: #1f2933;
+  --ms-apagado: #6b7a89;
+  --ms-regra: #d9dee3;
+  --ms-fundo-enunciado: #f6f8f9;
+  --ms-borda-enunciado: #26323b;
+  --ms-fundo-nota: #fbf9f2;
+  --ms-borda-nota: #b7950b;
+  --ms-novo: #1e8449;
+  --ms-alterado: #b7950b;
+  --ms-mantem: #6b7a89;
+  --ms-decidir: #c0392b;
+  --ms-parqueado: #5b6b7a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ms-texto: #e6eaee;
+    --ms-apagado: #9aa8b5;
+    --ms-regra: #3a454f;
+    --ms-fundo-enunciado: #202a32;
+    --ms-borda-enunciado: #9aa8b5;
+    --ms-fundo-nota: #2a2a22;
+    --ms-borda-nota: #d4b63c;
+  }
+}
+
+:root[data-theme="dark"] {
+  --ms-texto: #e6eaee;
+  --ms-apagado: #9aa8b5;
+  --ms-regra: #3a454f;
+  --ms-fundo-enunciado: #202a32;
+  --ms-borda-enunciado: #9aa8b5;
+  --ms-fundo-nota: #2a2a22;
+  --ms-borda-nota: #d4b63c;
+}
+
+/* Secções do formulário */
+
+h2 {
+  border-top: 2px solid var(--ms-borda-enunciado);
+  padding-top: 0.9rem;
+  margin-top: 3rem;
+}
+
+h3 {
+  margin-top: 2.2rem;
+  font-size: 1.12rem;
+  font-weight: 600;
+}
+
+h4 {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ms-apagado);
+}
+
+/* Etiquetas de estado do quesito */
+
+.etiqueta {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.12rem 0.45rem;
+  border-radius: 3px;
+  border: 1px solid currentColor;
+  vertical-align: 0.18em;
+  margin-left: 0.4rem;
+  white-space: nowrap;
+}
+
+.novo { color: var(--ms-novo); }
+.alterado { color: var(--ms-alterado); }
+.mantem { color: var(--ms-mantem); }
+.decidir { color: var(--ms-decidir); }
+.parqueado { color: var(--ms-parqueado); }
+
+/* O que é lido ao respondente */
+
+.enunciado {
+  background: var(--ms-fundo-enunciado);
+  border-left: 3px solid var(--ms-borda-enunciado);
+  padding: 0.75rem 1rem;
+  margin: 0.9rem 0;
+  font-size: 1.04rem;
+}
+
+.enunciado p { margin-bottom: 0.5rem; }
+.enunciado p:last-child { margin-bottom: 0; }
+
+/* Instrução ao inquiridor, não lida em voz alta */
+
+.instrucao {
+  font-size: 0.9rem;
+  color: var(--ms-apagado);
+  font-style: italic;
+  margin: 0.4rem 0 0.9rem 0;
+}
+
+/* Opções de resposta */
+
+.respostas {
+  margin: 0.6rem 0 0.9rem 0;
+}
+
+.respostas ol, .respostas ul {
+  margin-bottom: 0.3rem;
+}
+
+.respostas li { margin-bottom: 0.12rem; }
+
+/* Lista de linhas de uma grelha */
+
+.grelha {
+  font-size: 0.95rem;
+  margin: 0.6rem 0 0.9rem 0;
+}
+
+.grelha li { margin-bottom: 0.1rem; }
+
+/* Comentário: o que acontece com cada resposta */
+
+.nota {
+  background: var(--ms-fundo-nota);
+  border-left: 3px solid var(--ms-borda-nota);
+  padding: 0.7rem 1rem;
+  margin: 0.9rem 0 1.6rem 0;
+  font-size: 0.94rem;
+}
+
+.nota p { margin-bottom: 0.45rem; }
+.nota p:last-child { margin-bottom: 0; }
+
+/* Linha do indicador, discreta */
+
+.indicador {
+  font-size: 0.84rem;
+  color: var(--ms-apagado);
+  margin: -0.4rem 0 1.4rem 0;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Contagem de campos */
+
+.campos {
+  font-size: 0.84rem;
+  color: var(--ms-apagado);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Legenda */
+
+table.legenda { font-size: 0.92rem; }
+
+@media print {
+  .nota, .enunciado { break-inside: avoid; }
+  h2 { break-before: page; }
+}
+
+@media (max-width: 600px) {
+  .enunciado, .nota { padding-left: 0.7rem; padding-right: 0.7rem; }
+}
