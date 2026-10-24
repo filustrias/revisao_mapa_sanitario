@@ -12,6 +12,8 @@
   --ms-borda-enunciado: #26323b;
   --ms-fundo-nota: #fbf9f2;
   --ms-borda-nota: #b7950b;
+  --ms-fundo-medir: #eef5fb;
+  --ms-borda-medir: #1f5f99;
   --ms-novo: #1e8449;
   --ms-alterado: #b7950b;
   --ms-mantem: #6b7a89;
@@ -84,6 +86,39 @@ h4 {
 
 .enunciado p { margin-bottom: 0.5rem; }
 .enunciado p:last-child { margin-bottom: 0; }
+
+/* O que o quesito permite medir: vem antes da pergunta, para que a revisão parta do indicador */
+
+.medir, .medir-seccao {
+  background: var(--ms-fundo-medir);
+  border: 1px solid var(--ms-borda-medir);
+  border-left: 4px solid var(--ms-borda-medir);
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  margin: 0.9rem 0;
+  font-size: 0.95rem;
+}
+
+.medir p:first-child, .medir-seccao p:first-child {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--ms-borda-medir);
+  margin-bottom: 0.35rem;
+}
+
+.medir p { margin-bottom: 0.4rem; }
+
+/* Última linha: a fonte do indicador, discreta */
+.medir p:last-child {
+  font-size: 0.82rem;
+  color: var(--ms-apagado);
+  margin-bottom: 0;
+}
+
+.medir-seccao { margin: 1.2rem 0 1.6rem 0; }
+.medir-seccao table { font-size: 0.9rem; margin: 0.4rem 0 0.2rem 0; background: transparent; }
 
 /* Instrução ao inquiridor, não lida em voz alta */
 

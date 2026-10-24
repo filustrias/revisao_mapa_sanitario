@@ -4,11 +4,34 @@ title: "Secção 4 — Construção"
 
 {{< include ../_legenda.qmd >}}
 
-Todos os campos se mantêm. As mudanças são de instrução: dizer o que conta e o que não conta em cada contagem, e dar código próprio ao «não sabe» para que a ausência de dado não seja registada como zero.
+Todos os campos se mantêm. As mudanças são de instrução e de categorias: dizer o que conta e o que não conta em cada contagem, usar a mesma medida de superfície nos edifícios e nas residências, separar tijolo de bloco no material de construção, e dar código próprio ao «não sabe» para que a ausência de dado não seja registada como zero.
 
-[8 campos.]{.campos}
+[7 campos.]{.campos}
+
+::: {.medir-seccao}
+**O que esta secção permite medir**
+
+**Indicadores do HHFA: nenhum.** O catálogo do HHFA não tem indicadores de número de edifícios, de área construída, de idade dos edifícios nem de material de construção. Os indicadores de estrutura física do HHFA — defeitos em paredes, tectos e pavimentos, sala a sala — correspondem à secção 5 e não a esta.
+
+**Medidas próprias do Mapa Sanitário**, que nenhum instrumento internacional recolhe:
+
+| Quesito | O que se obtém |
+|---|---|
+| 4.1 e 4.2 | Número de edifícios e área coberta de cada unidade sanitária |
+| 4.3 e 4.4 | Número de residências para trabalhadores e respectiva área coberta |
+| 4.5 e 4.6 | Distribuição das unidades sanitárias por período de construção |
+| 4.7 | Distribuição das unidades sanitárias pelo material predominante das paredes |
+:::
 
 ## 4.1 e 4.2 Edifícios e superfície da unidade [ALTERADO]{.etiqueta .alterado}
+
+::: {.medir}
+**O que este quesito permite medir**
+
+Número de edifícios e área coberta de cada unidade sanitária, agregáveis por município e por província. Comparada com a secção 5.2 — metros quadrados por estado de conservação —, a área coberta permite estimar a área a reabilitar.
+
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 ::: {.enunciado}
 **4.1** Quantos edifícios, no total, compõem esta unidade sanitária?
@@ -30,6 +53,14 @@ Contar todos os edifícios dentro do recinto utilizados pela unidade, incluindo 
 
 ## 4.3 e 4.4 Residências dos trabalhadores [ALTERADO]{.etiqueta .alterado}
 
+::: {.medir}
+**O que este quesito permite medir**
+
+Número de residências para trabalhadores de cada unidade sanitária e respectiva área coberta, na mesma medida usada para os edifícios da unidade em 4.2.
+
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
 ::: {.enunciado}
 **4.3** Quantas residências para trabalhadores existem no recinto desta unidade ou sob a sua responsabilidade?
 
@@ -41,10 +72,20 @@ Contar todos os edifícios dentro do recinto utilizados pela unidade, incluindo 
 :::
 
 ::: {.nota}
-Mantém-se o que existe, acrescentando «ou sob a sua responsabilidade», porque há unidades com residências fora do recinto que são, para todos os efeitos, suas. É informação com peso directo na retenção de pessoal em zonas rurais.
+**Porque mudou.** Acrescenta-se «ou sob a sua responsabilidade», porque há unidades com residências fora do recinto que são, para todos os efeitos, suas. É informação com peso directo na retenção de pessoal em zonas rurais.
+
+**A mesma medida nos dois quesitos.** A Ficha pede a «superfície» dos edifícios da unidade em 4.2 e a «superfície útil» das residências em 4.4, que são medidas diferentes — área coberta e área interior utilizável. A proposta usa a área coberta nos dois, dita na própria pergunta, para que 4.2 e 4.4 sejam comparáveis entre si e com a soma dos metros quadrados de 5.2. *Decisão aprovada a 15/10.*
 :::
 
 ## 4.5 e 4.6 Ano e período de construção [ALTERADO]{.etiqueta .alterado} [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.medir}
+**O que este quesito permite medir**
+
+Distribuição das unidades sanitárias por período de construção do edifício principal, comparável com as quatro edições anteriores do Mapa Sanitário.
+
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 ::: {.enunciado}
 **4.5** Em que ano foi concluída a construção do edifício principal desta unidade?
@@ -68,10 +109,18 @@ Mantém-se o que existe, acrescentando «ou sob a sua responsabilidade», porque
 :::
 
 ::: {.nota}
-O período (4.6) mantém-se exactamente como está, incluindo as cinco categorias, que correspondem a ciclos reconhecíveis de investimento público. No ano (4.5) acrescenta-se a instrução sobre reconstrução e o código 9998, porque o campo é hoje «não obrigatório» e fica em branco com frequência — e um branco não se distingue de um desconhecimento.
+As cinco categorias do período (4.6) mantêm-se sem alteração: correspondem a ciclos reconhecíveis da história e do investimento público angolanos, e mudá-las quebraria a série das quatro edições. Acrescenta-se apenas o código 98. No ano (4.5) acrescenta-se a instrução sobre reconstrução, que decide o caso dos edifícios coloniais reabilitados, e o código 9998, porque o campo é «não obrigatório» e fica em branco com frequência — e um branco não se distingue de um desconhecimento.
 :::
 
 ## 4.7 Material de construção [ALTERADO]{.etiqueta .alterado}
+
+::: {.medir}
+**O que este quesito permite medir**
+
+Distribuição das unidades sanitárias pelo material predominante das paredes exteriores do edifício principal — informação de base para estimar custos de reabilitação.
+
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 ::: {.enunciado}
 Qual é o material predominante das paredes exteriores do edifício principal?
@@ -91,5 +140,5 @@ Marcar uma única opção — o material que cobre a maior parte da superfície 
 :::
 
 ::: {.nota}
-**Porque mudou.** A Ficha junta numa só opção «tijolo – bloco», que são materiais com durabilidade e custo de manutenção diferentes. Separá-los não acrescenta caixa nenhuma e melhora a leitura para efeitos de planeamento de reabilitação. O enunciado passa a dizer «paredes exteriores» e «predominante», que é o critério que o preenchimento já usa sem estar escrito.
+**Porque mudou.** A Ficha junta numa só opção «tijolo – bloco», que são materiais com durabilidade, comportamento térmico e custo de reabilitação diferentes. As cinco categorias passam a seis, e a conversão para a série histórica é directa: as novas 3 e 4 juntam-se na antiga 3. A instrução de predominância resolve o caso do edifício com paredes de materiais diferentes. *Decisão aprovada a 15/10.*
 :::
