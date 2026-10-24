@@ -4,11 +4,35 @@ title: "Secção 6 — Água, energia, saneamento e resíduos"
 
 {{< include ../_legenda.qmd >}}
 
-A estrutura da Ficha — uma fonte **principal** e as **outras** fontes, em cada quesito — mantém-se por inteiro, e é boa: capta a precariedade do abastecimento melhor do que uma pergunta única. O que se altera são as listas de categorias, alinhadas com as definições internacionais de fonte melhorada e de saneamento melhorado, e acrescentam-se cinco perguntas de disponibilidade efectiva, que são o que converte a declaração em indicador.
+A estrutura da Ficha — uma fonte **principal** e as **outras** fontes, em cada quesito — mantém-se por inteiro, e é boa: capta a precariedade do abastecimento melhor do que uma pergunta única. O que se altera são as listas de categorias, alinhadas com as definições internacionais de fonte melhorada e de saneamento melhorado, e acrescentam-se quatro perguntas de disponibilidade efectiva, que são o que converte a declaração em indicador, e duas sobre normas e formação em gestão de resíduos.
 
 [19 campos.]{.campos}
 
+::: {.medir-seccao}
+**O que esta secção permite medir**
+
+**7 indicadores do HHFA**, 3 deles do conjunto de cuidados primários (PHC: sim). A secção produz os indicadores de água, electricidade e saneamento melhorados, de destino final seguro dos resíduos e de normas e formação em gestão de resíduos. A estrutura Principal + Outras da Ficha, que regista também as fontes e modos de reserva, é informação própria do Mapa: o HHFA pergunta apenas pela fonte mais utilizada.
+
+| Quesito | O que se obtém | Indicadores do HHFA |
+|---|---|---|
+| 6.1 e 6.1.3 | Unidades sanitárias com fonte de água melhorada e água disponível no recinto | 2.1.1.1.2 |
+| 6.2 e 6.2.3 | Unidades sanitárias com electricidade regular | 2.1.1.1.1 |
+| 6.3 | Unidades sanitárias com saneamento melhorado acessível a utentes e pessoal | 2.1.1.1.3 |
+| 6.4 | Modo de recolha do lixo comum | nenhum · medida própria do Mapa |
+| 6.5, 6.6, 6.5.3 e 6.5.4 | Unidades sanitárias com destino final seguro dos resíduos cortantes e dos infecciosos | 2.5.1.1.12 e 2.5.1.1.13 |
+| 6.5.5 e 6.5.6 | Unidades sanitárias com normas escritas e com pessoal formado em gestão de resíduos | 2.5.1.1.2 e 2.5.1.1.4 |
+| 6.7.1 e 6.7.2 | Unidades sanitárias com tratamento de águas residuais e se este funciona | nenhum · medida própria do Mapa |
+:::
+
 ## 6.1 Fonte de água [ALTERADO]{.etiqueta .alterado}
+
+::: {.medir}
+**O que este quesito permite medir**
+
+Junto com 6.1.3, a «Percentagem de unidades sanitárias com fonte de água melhorada». Contam como fontes melhoradas as categorias 01 a 05, 07 e 09 a 12; não contam o poço e a nascente não protegidos (06 e 08) nem a água de superfície (13). As «Outras» fontes mostram de que depende a unidade quando a principal falha — informação própria do Mapa.
+
+Indicador do HHFA: 2.1.1.1.2 · cuidados primários (PHC): sim
+:::
 
 ::: {.enunciado}
 Qual é a fonte de água mais utilizada por esta unidade sanitária neste momento? E que outras fontes utiliza quando a principal não está disponível?
@@ -32,8 +56,17 @@ Marcar uma única na coluna «Principal». Se a resposta for diferente para o in
 11. Carroça com pequeno depósito
 12. Camião cisterna
 13. Água de superfície
+
+<!-- -->
+
 96. Outra
+
+<!-- -->
+
 00. Não tem
+
+<!-- -->
+
 98. Não sabe
 :::
 
@@ -42,6 +75,14 @@ Marcar uma única na coluna «Principal». Se a resposta for diferente para o in
 :::
 
 ## 6.1.3 Água disponível no recinto [NOVO]{.etiqueta .novo}
+
+::: {.medir}
+**O que este quesito permite medir**
+
+Fecha o indicador «Percentagem de unidades sanitárias com fonte de água melhorada»: conta como sim quando a fonte principal de 6.1 é melhorada **e** a resposta aqui não é 3 nem 4. Ter fonte melhorada não basta — a água tem de estar disponível no edifício ou no recinto.
+
+Indicador do HHFA: 2.1.1.1.2 · cuidados primários (PHC): sim
+:::
 
 ::: {.enunciado}
 Há água proveniente dessa fonte disponível no recinto da unidade, dentro do edifício ou dentro do recinto?
@@ -66,6 +107,14 @@ Se sim, perguntar: posso ver a água que está disponível hoje? A água pode es
 
 ## 6.2 Fonte de electricidade [MANTÉM-SE]{.etiqueta .mantem}
 
+::: {.medir}
+**O que este quesito permite medir**
+
+Junto com 6.2.3, a «Percentagem de unidades sanitárias com electricidade». As fontes de reserva, na coluna «Outras», mostram quantas unidades têm alternativa quando a principal falha.
+
+Indicador do HHFA: 2.1.1.1.1 · cuidados primários (PHC): sim
+:::
+
 ::: {.enunciado}
 Qual é a fonte de electricidade mais utilizada por esta unidade? E que fontes de reserva existem, para os períodos em que a principal falha?
 :::
@@ -75,6 +124,9 @@ Qual é a fonte de electricidade mais utilizada por esta unidade? E que fontes d
 2. Painéis solares
 3. Gerador
 4. Não tem
+
+<!-- -->
+
 96. Outra
 :::
 
@@ -83,6 +135,14 @@ As categorias mantêm-se — são adequadas e correspondem às do instrumento in
 :::
 
 ## 6.2.3 Disponibilidade de electricidade nos últimos 7 dias [NOVO]{.etiqueta .novo}
+
+::: {.medir}
+**O que este quesito permite medir**
+
+Fecha o indicador «Percentagem de unidades sanitárias com electricidade»: conta como sim quando 6.2 é diferente de «não tem» **e** a resposta aqui é 1 ou 2 — isto é, sem cortes de mais de 2 horas nos últimos 7 dias, durante o horário de funcionamento. Ter fonte não basta: o indicador pede continuidade.
+
+Indicador do HHFA: 2.1.1.1.1 · cuidados primários (PHC): sim
+:::
 
 ::: {.enunciado}
 Nos últimos 7 dias, houve electricidade — da fonte principal ou de qualquer fonte de reserva — em todos os momentos em que esta unidade esteve aberta ao público?
@@ -106,6 +166,14 @@ Ler as três opções.
 
 ## 6.3 Saneamento [ALTERADO]{.etiqueta .alterado}
 
+::: {.medir}
+**O que este quesito permite medir**
+
+A «Percentagem de unidades sanitárias com instalações sanitárias melhoradas acessíveis a utentes e pessoal». Conta como sim quando a resposta é 1, 2 ou 4 — autoclismo ligado a rede de esgotos ou a fossa séptica, ou latrina melhorada ventilada.
+
+Indicador do HHFA: 2.1.1.1.3 · cuidados primários (PHC): não
+:::
+
 ::: {.enunciado}
 Existe no recinto desta unidade um sanitário ou latrina que possa ser utilizado pelos utentes da consulta externa ou pelo pessoal?
 :::
@@ -122,14 +190,25 @@ Se sim, perguntar: de que tipo é? Posso vê-lo? Se houver vários, considerar o
 5. Latrina simples com laje
 6. Latrina sem laje ou de fossa aberta
 7. Não existe sanitário nem latrina
+
+<!-- -->
+
 96. Outra
 :::
 
 ::: {.nota}
-**Porque mudou.** As quatro categorias da Ficha são casa de banho, latrina, latrina melhorada e outra. A lista nova é a internacional e traz a definição dentro da própria opção, para que a distinção entre «latrina» e «latrina melhorada» se faça da mesma maneira em todas as unidades. O indicador de saneamento melhorado cumpre-se com as categorias 1, 2 ou 4.
+**Porque mudou.** As quatro categorias da Ficha são casa de banho, latrina, latrina melhorada e outra. A lista nova é a internacional e traz a definição dentro da própria opção, para que a distinção entre «latrina» e «latrina melhorada» se faça da mesma maneira em todas as unidades. O indicador de saneamento melhorado cumpre-se com as categorias 1, 2 ou 4. As definições das oito categorias serão escritas no Guião revisto. *Decisão aprovada a 15/10.*
 :::
 
 ## 6.4 Recolha de resíduos comuns [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.medir}
+**O que este quesito permite medir**
+
+Distribuição das unidades sanitárias pelo modo de recolha do lixo comum, incluindo as que não têm recolha organizada. O HHFA não recolhe esta informação.
+
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 ::: {.enunciado}
 Como é feita a recolha do lixo comum desta unidade? E que outros modos de recolha existem?
@@ -139,7 +218,13 @@ Como é feita a recolha do lixo comum desta unidade? E que outros modos de recol
 1. Serviços Administrativos Municipais
 2. Empresa terciarizada
 3. Serviços comunitários
+
+<!-- -->
+
 96. Outra
+
+<!-- -->
+
 00. Não há recolha organizada
 :::
 
@@ -148,6 +233,14 @@ Categorias mantidas. Acrescenta-se apenas o código 00, para que a ausência de 
 :::
 
 ## 6.5 e 6.6 Destino final dos resíduos [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.medir}
+**O que este quesito permite medir**
+
+A partir do destino dos resíduos hospitalares (6.6), e com 6.5.3 e 6.5.4, a «Percentagem de unidades sanitárias com destino final seguro dos resíduos cortantes» e a «Percentagem de unidades sanitárias com destino final seguro dos resíduos infecciosos não cortantes». O que decide é se o destino é adequado — recolha e tratamento fora da unidade, incineração, aterro — ou não, como a queima ao ar livre. O destino dos resíduos comuns (6.5) é medida própria do Mapa.
+
+Indicadores do HHFA: 2.5.1.1.12 (PHC: não) e 2.5.1.1.13 (PHC: sim)
+:::
 
 ::: {.enunciado}
 **6.5** Qual é o destino final dos resíduos comuns produzidos nesta unidade?
@@ -170,6 +263,14 @@ Categorias mantidas nas duas. O quesito 6.6 é o único da secção 6 sem coluna
 
 ## 6.5.3 e 6.5.4 O meio de tratamento funciona e tem combustível [NOVO]{.etiqueta .novo}
 
+::: {.medir}
+**O que este quesito permite medir**
+
+Completa os indicadores de destino final seguro dos resíduos cortantes e dos resíduos infecciosos não cortantes: quando o destino é a incineração, só conta como seguro se o incinerador estiver a funcionar e tiver combustível. Dá também, por si só, a lista dos meios de tratamento parados.
+
+Indicadores do HHFA: 2.5.1.1.12 (PHC: não) e 2.5.1.1.13 (PHC: sim)
+:::
+
 ::: {.enunciado}
 **6.5.3** O incinerador ou outro meio de tratamento de resíduos desta unidade estava a funcionar hoje?
 
@@ -190,6 +291,14 @@ Pedir para ver. Se o destino indicado em 6.5 e 6.6 não envolver tratamento na u
 :::
 
 ## 6.5.5 e 6.5.6 Normas e formação em gestão de resíduos [NOVO]{.etiqueta .novo}
+
+::: {.medir}
+**O que este quesito permite medir**
+
+Dois indicadores: a «Percentagem de unidades sanitárias com normas de gestão de resíduos sanitários» (6.5.5), que conta como sim apenas quando as normas são observadas (resposta 1), e a «Percentagem de unidades sanitárias com pessoal formado em gestão de resíduos sanitários» (6.5.6), que conta como sim quando pelo menos um profissional recebeu formação nos últimos 2 anos.
+
+Indicadores do HHFA: 2.5.1.1.2 e 2.5.1.1.4 · PHC: não
+:::
 
 ::: {.enunciado}
 **6.5.5** Existem nesta unidade normas escritas ou instruções de trabalho sobre a gestão de resíduos sanitários?
@@ -212,6 +321,14 @@ Duas caixas, dois indicadores, e a ligação ao bloco de prevenção e controlo 
 
 ## 6.7.1 e 6.7.2 Tratamento de águas residuais [ALTERADO]{.etiqueta .alterado}
 
+::: {.medir}
+**O que este quesito permite medir**
+
+Número de unidades sanitárias com estação ou sistema de tratamento de águas residuais e, destas, quantas o tiveram a funcionar nos últimos 30 dias, com as causas de não funcionamento. O HHFA não recolhe esta informação.
+
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
 ::: {.enunciado}
 **6.7.1** Existe nesta unidade uma estação ou sistema de tratamento de águas residuais?
 
@@ -224,9 +341,5 @@ Duas caixas, dois indicadores, e a ligação ao bloco de prevenção e controlo 
 :::
 
 ::: {.nota}
-Os dois campos mantêm-se, incluindo a especificação da causa, que o Guião já pede. Acrescenta-se o período de referência — «nos últimos 30 dias» — porque «funciona» sem período não é verificável.
-:::
-
-::: {.indicador}
-Secção 6 — alimenta 2.1.1.1.1 (electricidade), 2.1.1.1.2 (água melhorada), 2.1.1.1.3 (saneamento melhorado), 2.5.1.1.2 e 2.5.1.1.4 (normas e formação em resíduos) e 2.5.1.1.12 e 2.5.1.1.13 (destino adequado de cortantes e de infecciosos).
+Os dois campos mantêm-se, incluindo a especificação da causa, que o Guião já pede. Acrescenta-se o período de referência — «nos últimos 30 dias» — porque «funciona» sem período não é verificável. E a proposta harmoniza a codificação das duas perguntas: na Ficha, 6.7.1 tem Não = 1 e Sim = 2, e 6.7.2 tem Sim = 1 e Não = 2; passa a ser Sim = 1 e Não = 2 nas duas, para que a mesma resposta tenha sempre o mesmo código.
 :::

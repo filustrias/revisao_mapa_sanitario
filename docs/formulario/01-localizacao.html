@@ -256,8 +256,58 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>Quase toda a secção se mantém como está. As únicas mudanças são um protocolo de leitura para as coordenadas, um campo para a precisão do aparelho e uma caixa para a classificação urbano/rural, que hoje é inferida da localização administrativa.</p>
 <p><span class="campos">16 campos.</span></p>
+<div class="medir-seccao">
+<p><strong>O que esta secção permite medir</strong></p>
+<p><strong>Indicadores do HHFA: 7</strong>, todos de densidade — unidades sanitárias e camas por habitante —, dos quais <strong>3 são PHC: sim</strong>. Entram no cálculo pela categoria da unidade (1.6) e pela localização (1.7 e 1.8), sempre em conjunto com a população do quesito 3.1. O resto da secção identifica a unidade e dá os estratificadores de toda a análise.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Quesito</th>
+<th>O que se obtém</th>
+<th>Indicadores do HHFA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1.1 a 1.5</td>
+<td>Identificação da unidade e estratificação por província, município, comuna e bairro</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>1.6</td>
+<td>Estratificação de todos os indicadores por categoria da unidade; definição das unidades de cuidados primários</td>
+<td>1.1.1.1.2</td>
+</tr>
+<tr class="odd">
+<td>1.7 e 1.8</td>
+<td>Localização exacta da unidade, base das densidades e do acesso geográfico</td>
+<td>1.1.1.1.1 a 1.1.1.1.4 · 1.4.1.1.1 a 1.4.1.1.3</td>
+</tr>
+<tr class="even">
+<td>1.8.1</td>
+<td>Qualidade de cada leitura de coordenadas</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>1.9</td>
+<td>Desagregação de todos os indicadores por zona urbana, rural e periurbana</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+</div>
 <section id="a-1.5-localização-administrativa-e-nome-da-unidade-mantém-se" class="level2">
 <h2 class="anchored" data-anchor-id="a-1.5-localização-administrativa-e-nome-da-unidade-mantém-se">1.1 a 1.5 Localização administrativa e nome da unidade <span class="etiqueta mantem">MANTÉM-SE</span></h2>
+<div class="medir">
+<p><strong>O que este quesito permite medir</strong></p>
+<p>Identificação de cada unidade sanitária e a sua localização administrativa. Permite ler todos os indicadores por província, município, comuna e bairro, e o nome com o código do Mapa Sanitário é a chave de ligação a qualquer outra base de dados do sector.</p>
+<p>Indicador do HHFA: nenhum · identificador e estratificador da análise</p>
+</div>
 <div class="enunciado">
 <p><strong>1.1</strong> Província · <strong>1.2</strong> Município · <strong>1.3</strong> Comuna ou distrito urbano · <strong>1.4</strong> Aldeia rural ou bairro urbano · <strong>1.5</strong> Nome da unidade sanitária</p>
 </div>
@@ -270,6 +320,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="categoria-da-unidade-mantém-se" class="level2">
 <h2 class="anchored" data-anchor-id="categoria-da-unidade-mantém-se">1.6 Categoria da unidade <span class="etiqueta mantem">MANTÉM-SE</span></h2>
+<div class="medir">
+<p><strong>O que este quesito permite medir</strong></p>
+<p>Permite ler todos os indicadores por nível de cuidados. O HHFA pede que a sua lista genérica de tipos de unidade seja substituída pela lista nacional, que em Angola é esta. É também a categoria que decide que unidades contam como de cuidados primários no indicador «Número de unidades de cuidados primários por 10 000 habitantes».</p>
+<p>Indicador do HHFA: 1.1.1.1.2 · cuidados primários (PHC): sim · e estratificador principal da análise</p>
+</div>
 <div class="enunciado">
 <p>Categoria da unidade, segundo a classificação do Mapa Sanitário.</p>
 </div>
@@ -282,6 +337,25 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="e-1.8-coordenadas-alterado" class="level2">
 <h2 class="anchored" data-anchor-id="e-1.8-coordenadas-alterado">1.7 e 1.8 Coordenadas <span class="etiqueta alterado">ALTERADO</span></h2>
+<div class="medir">
+<p><strong>O que este quesito permite medir</strong></p>
+<p>Localização exacta de cada unidade sanitária, base para calcular distâncias e o acesso geográfico. Os indicadores de densidade do HHFA contam unidades e camas por habitante numa área geográfica; com a coordenada, cada unidade é atribuída à área certa e as densidades podem calcular-se para qualquer recorte do território, sempre com a população do quesito 3.1.</p>
+<details>
+<summary>
+Ver os 7 indicadores
+</summary>
+<ul>
+<li>1.1.1.1.1 — Número de unidades sanitárias por 10 000 habitantes · PHC: sim</li>
+<li>1.1.1.1.2 — Número de unidades de cuidados primários por 10 000 habitantes · PHC: sim</li>
+<li>1.1.1.1.3 — Número de camas de internamento por 10 000 habitantes · PHC: sim</li>
+<li>1.1.1.1.4 — Número de camas de maternidade por 1 000 grávidas · PHC: não</li>
+<li>1.4.1.1.1 — Índice de densidade de unidades sanitárias · PHC: não</li>
+<li>1.4.1.1.2 — Índice de densidade de camas de internamento · PHC: não</li>
+<li>1.4.1.1.3 — Índice de densidade de camas de maternidade · PHC: não</li>
+</ul>
+</details>
+<p>Indicadores do HHFA: 1.1.1.1.1 a 1.1.1.1.4 e 1.4.1.1.1 a 1.4.1.1.3 · PHC: sim em 1.1.1.1.1 a 1.1.1.1.3, não nos restantes</p>
+</div>
 <div class="enunciado">
 <p><strong>1.7</strong> Latitude · <strong>1.8</strong> Longitude, em graus decimais.</p>
 </div>
@@ -291,12 +365,14 @@ ul.task-list li input[type="checkbox"] {
 <div class="nota">
 <p><strong>Porque mudou.</strong> As duas caixas mantêm-se. Ao formato que o Guião fixa — «em graus decimais» — acrescenta-se um protocolo de leitura: o local onde se faz a leitura e o tempo de estabilização do aparelho. Sem protocolo, a mesma unidade pode ficar a 200 metros de si mesma entre duas rondas, e os cálculos de distância e de acesso geográfico deixam de ser comparáveis.</p>
 </div>
-<div class="indicador">
-<p>Alimenta 1.1.1.1.1 a 1.1.1.1.4 e 1.4.1.1.1 a 1.4.1.1.3, estes últimos cruzados com a população adstrita do quesito 3.1.</p>
-</div>
 </section>
 <section id="precisão-da-leitura-novo" class="level2">
 <h2 class="anchored" data-anchor-id="precisão-da-leitura-novo">1.8.1 Precisão da leitura <span class="etiqueta novo">NOVO</span></h2>
+<div class="medir">
+<p><strong>O que este quesito permite medir</strong></p>
+<p>Precisão de cada leitura de coordenadas. Permite excluir da análise as leituras de má qualidade, em vez de as usar sem saber.</p>
+<p>Indicador do HHFA: nenhum · qualifica a leitura de 1.7 e 1.8</p>
+</div>
 <div class="enunciado">
 <p>Precisão indicada pelo aparelho, em metros.</p>
 </div>
@@ -311,6 +387,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="zona-urbana-rural-ou-periurbana-novo" class="level2">
 <h2 class="anchored" data-anchor-id="zona-urbana-rural-ou-periurbana-novo">1.9 Zona urbana, rural ou periurbana <span class="etiqueta novo">NOVO</span></h2>
+<div class="medir">
+<p><strong>O que este quesito permite medir</strong></p>
+<p>Classificação de cada unidade em zona urbana, rural ou periurbana. Permite desagregar por estas três zonas todos os indicadores do formulário.</p>
+<p>Indicador do HHFA: nenhum · estratificador da análise</p>
+</div>
 <div class="enunciado">
 <p>Esta unidade sanitária situa-se numa zona urbana, rural ou periurbana?</p>
 </div>

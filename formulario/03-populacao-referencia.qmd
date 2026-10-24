@@ -8,7 +8,65 @@ title: "Secção 3 — População e sistema de referência"
 
 [19 campos.]{.campos}
 
+::: {.medir-seccao}
+**O que esta secção permite medir**
+
+**Indicadores do HHFA: 27**, todos pela população do quesito 3.1, que é o seu denominador — 4 de densidade de unidades e camas, 20 de densidade de pessoal e 3 índices de densidade —, dos quais **23 são PHC: sim**. O bloco parqueado do funcionamento da referência (3.4 a 3.9) daria mais 5, todos PHC: sim.
+
+O resto da secção cria uma classe de indicadores de **rede** — distância e tempo por tipo de referência, por época do ano e por meio de transporte — que não tem equivalente no catálogo do HHFA e é, por inteiro, contributo próprio do Mapa Sanitário. Com o código do nó superior em todas as unidades, o censo produz o mapa da rede nacional de referência.
+
+| Quesito | O que se obtém | Indicadores do HHFA |
+|---|---|---|
+| 3.1 | População da área de abrangência directa — denominador das densidades | 27 (1.1.1.1.1 a 1.1.1.1.4 · 1.2.2.1.1 a 1.2.2.4.8 · 1.4.1.1.1 a 1.4.1.1.3) |
+| 3.1.1 e 3.1.2 | Origem e ano de cada estimativa da população | — |
+| 3.1.3 | Total de controlo da árvore de referência | — |
+| 3.2.1 a 3.2.3 | Nó superior de cada unidade — a árvore nacional de referência | — |
+| 3.2.4 a 3.2.9 | Meio de transporte, distância e tempo ao nó superior, na época seca e na das chuvas | — |
+| 3.3.1 a 3.3.6 | Referência lateral por grupo de doentes, com a rede obstétrica em separado | — |
+| 3.4 a 3.9 | Funcionamento do sistema de referência (parqueado) | 2.7.1.1.1 a 2.7.1.1.5 |
+:::
+
 ## 3.1 População adstrita [ALTERADO]{.etiqueta .alterado}
+
+::: {.medir}
+**O que este quesito permite medir**
+
+População da área de abrangência directa de cada unidade. É o denominador dos indicadores de densidade do HHFA — unidades sanitárias, camas e pessoal por habitante. A população de cada nó da rede passa a calcular-se a partir da árvore de referência — a própria mais a das unidades que lhe referem doentes —, sem contar ninguém duas vezes.
+
+<details><summary>Ver os 27 indicadores</summary>
+
+- 1.1.1.1.1 — Número de unidades sanitárias por 10 000 habitantes · PHC: sim
+- 1.1.1.1.2 — Número de unidades de cuidados primários por 10 000 habitantes · PHC: sim
+- 1.1.1.1.3 — Número de camas de internamento por 10 000 habitantes · PHC: sim
+- 1.1.1.1.4 — Número de camas de maternidade por 1 000 grávidas · PHC: não
+- 1.2.2.1.1 — Médicos por 10 000 habitantes · PHC: sim
+- 1.2.2.1.2 — Profissionais paramédicos por 10 000 habitantes · PHC: sim
+- 1.2.2.1.3 — Profissionais de enfermagem e de partos por 10 000 habitantes · PHC: sim
+- 1.2.2.1.4 — Parteiras por 10 000 habitantes · PHC: sim
+- 1.2.2.2.1 — Médicos de clínica geral por 10 000 habitantes · PHC: sim
+- 1.2.2.2.2 — Especialistas em medicina familiar por 10 000 habitantes · PHC: sim
+- 1.2.2.3.1 — Médicos especialistas (todas as especialidades) por 10 000 habitantes · PHC: sim
+- 1.2.2.3.2 — Especialistas do grupo médico por 10 000 habitantes · PHC: sim
+- 1.2.2.3.3 — Pediatras por 10 000 habitantes · PHC: sim
+- 1.2.2.3.4 — Obstetras e ginecologistas por 10 000 habitantes · PHC: sim
+- 1.2.2.3.5 — Especialistas do grupo cirúrgico por 10 000 habitantes · PHC: sim
+- 1.2.2.3.6 — Psiquiatras por 10 000 habitantes · PHC: sim
+- 1.2.2.4.1 — Médicos dentistas por 10 000 habitantes · PHC: sim
+- 1.2.2.4.2 — Farmacêuticos por 10 000 habitantes · PHC: sim
+- 1.2.2.4.3 — Profissionais de saúde ambiental, saúde ocupacional e higiene por 10 000 habitantes · PHC: sim
+- 1.2.2.4.4 — Fisioterapeutas por 10 000 habitantes · PHC: sim
+- 1.2.2.4.5 — Terapeutas ocupacionais por 10 000 habitantes · PHC: sim
+- 1.2.2.4.6 — Dietistas e nutricionistas por 10 000 habitantes · PHC: sim
+- 1.2.2.4.7 — Audiologistas e terapeutas da fala por 10 000 habitantes · PHC: sim
+- 1.2.2.4.8 — Optometristas e ópticos por 10 000 habitantes · PHC: sim
+- 1.4.1.1.1 — Índice de densidade de unidades sanitárias · PHC: não
+- 1.4.1.1.2 — Índice de densidade de camas de internamento · PHC: não
+- 1.4.1.1.3 — Índice de densidade de camas de maternidade · PHC: não
+
+</details>
+
+Indicadores do HHFA: 1.1.1.1.1 a 1.1.1.1.4, 1.2.2.1.1 a 1.2.2.4.8 e 1.4.1.1.1 a 1.4.1.1.3, como denominador · PHC: sim em 23, não em 1.1.1.1.4 e 1.4.1.1.1 a 1.4.1.1.3
+:::
 
 ::: {.enunciado}
 Qual é a população total residente na área de abrangência **directa** desta unidade sanitária, de acordo com a estimativa mais recente de que a unidade dispõe?
@@ -30,6 +88,14 @@ Não incluir a população das áreas servidas por unidades que referem doentes 
 
 ## 3.1.1 e 3.1.2 Origem e ano da estimativa [NOVO]{.etiqueta .novo}
 
+::: {.medir}
+**O que este quesito permite medir**
+
+Origem e ano de cada estimativa da população. Permitem decidir, na análise, que estimativas usar, e corrigir por crescimento populacional quando se comparam edições.
+
+Indicador do HHFA: nenhum · qualifica o denominador de 27 indicadores
+:::
+
 ::: {.enunciado}
 **3.1.1** De onde provém essa estimativa da população?
 
@@ -43,7 +109,13 @@ Não incluir a população das áreas servidas por unidades que referem doentes 
   3. Registo ou recenseamento feito pela própria unidade
   4. Estimativa da Direcção Municipal de Saúde
   5. Estimativa da Direcção Provincial de Saúde
+
+  <!-- -->
+
   96. Outra *(especificar)*
+
+  <!-- -->
+
   98. Não sabe
 - **3.1.2**: ano, 4 dígitos
 :::
@@ -53,6 +125,14 @@ Não incluir a população das áreas servidas por unidades que referem doentes 
 :::
 
 ## 3.1.3 Unidades que referem para esta [NOVO]{.etiqueta .novo}
+
+::: {.medir}
+**O que este quesito permite medir**
+
+Total de controlo da árvore de referência. Confrontado com o número de unidades que indicam esta como nó superior, mostra se faltam fichas e em que município procurar.
+
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 ::: {.enunciado}
 Quantas unidades sanitárias referem habitualmente doentes para esta unidade?
@@ -71,6 +151,14 @@ Contar apenas as unidades que têm esta como referência de nível superior. Ano
 :::
 
 ## 3.2.1 a 3.2.3 Nó superior da referência [ALTERADO]{.etiqueta .alterado}
+
+::: {.medir}
+**O que este quesito permite medir**
+
+A unidade para onde cada unidade transfere os doentes que precisam de cuidados de nível superior. Com o código do Mapa Sanitário, a árvore de referência nacional reconstrói-se a partir das fichas — e com ela, por exemplo, a proporção de postos cujo centro de referência tem laboratório ou assiste partos.
+
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 ::: {.enunciado}
 **3.2.1** Para que unidade sanitária são habitualmente transferidos os doentes desta unidade que necessitam de cuidados de nível superior?
@@ -94,6 +182,14 @@ Obrigatório, e um só. Categoria segundo a lista do Mapa Sanitário.
 
 ## 3.2.4 a 3.2.9 Distância e tempo ao nó superior [ALTERADO]{.etiqueta .alterado}
 
+::: {.medir}
+**O que este quesito permite medir**
+
+Distância e tempo de cada unidade à sua referência superior, na época seca e na época das chuvas, e o meio de transporte de facto usado. Lido em conjunto com o indicador do HHFA «Percentagem de unidades sanitárias com sistema de transporte de emergência para doentes» (2.1.1.1.7, PHC: sim), recolhido nos serviços gerais, identifica as zonas sem evacuação exequível.
+
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
 ::: {.enunciado}
 **3.2.4** Qual é o meio de transporte mais frequentemente utilizado para transferir doentes desta unidade, nos últimos 12 meses?
 
@@ -112,13 +208,16 @@ A distância é medida pela estrada efectivamente percorrida, não em linha rect
   4. Motorizada
   5. Transporte público ou particular pago pelo doente
   6. A pé ou em maca
+
+  <!-- -->
+
   96. Outro
 - **3.2.5** a **3.2.7**: quilómetros, 3 dígitos
 - **3.2.8** e **3.2.9**: minutos, 3 dígitos; **997** se intransitável, **998** se não sabe
 :::
 
 ::: {.nota}
-**Porque mudou.** Os quatro campos da Ficha mantêm-se no essencial e ganham o que lhes falta. A decomposição em asfalto e picada já é pedida pelo Guião; o que não existia era a instrução de que a distância é pela estrada e não em linha recta, sem a qual os números não são comparáveis. **O acrescento decisivo é a época das chuvas** (3.2.9): numa boa parte do país a referência que leva 40 minutos em Agosto leva três horas em Fevereiro, ou não é possível — e é essa a situação que um plano de investimentos precisa de ver. O código 997 registra a intransitabilidade sem a confundir com um tempo muito longo.
+**Porque mudou.** Os quatro campos da Ficha mantêm-se no essencial e ganham o que lhes falta. A decomposição em asfalto e picada já é pedida pelo Guião; o que não existia era a instrução de que a distância é pela estrada e não em linha recta, sem a qual os números não são comparáveis. **O acrescento decisivo é a época das chuvas** (3.2.9): numa boa parte do país a referência que leva 40 minutos em Agosto leva três horas em Fevereiro, ou não é possível — e é essa a situação que um plano de investimentos precisa de ver. O código 997 regista a intransitabilidade sem a confundir com um tempo muito longo.
 
 **O meio de transporte** (3.2.4) é novo e pergunta pelo que de facto se usa, não pelo que deveria usar-se. A opção 5, transporte pago pelo doente, e a opção 6, a pé ou em maca, são as respostas que hoje não têm onde ser dadas.
 
@@ -126,6 +225,14 @@ A distância é medida pela estrada efectivamente percorrida, não em linha rect
 :::
 
 ## 3.3.1 a 3.3.6 Referência lateral [ALTERADO]{.etiqueta .alterado}
+
+::: {.medir}
+**O que este quesito permite medir**
+
+Para que grupos de doentes cada unidade usa uma referência diferente da superior, para onde, a que distância e em quanto tempo. Permite mapear a rede obstétrica separadamente da rede geral.
+
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 ::: {.enunciado}
 **3.3.1** Esta unidade envia habitualmente algum grupo específico de doentes para uma unidade diferente da indicada em 3.2.1? Se sim, para que tipo de doentes?
@@ -141,25 +248,42 @@ A distância é medida pela estrada efectivamente percorrida, não em linha rect
   3. Cirurgia
   4. Saúde mental
   5. Tuberculose
+
+  <!-- -->
+
   96. Outro *(especificar)*
 - **3.3.2** a **3.3.4**: como no nó superior
 - **3.3.5** e **3.3.6**: quilómetros e minutos, 3 dígitos; 997 intransitável, 998 não sabe
 :::
 
 ::: {.nota}
-**Porque mudou.** A segunda fila da Ficha passa a ser uma referência qualificada: além de saber para onde, passa a saber-se **para quem**. O próprio Guião dá o exemplo — o envio das grávidas ao Centro Materno Infantil — mas não recolhe o motivo, pelo que hoje a segunda unidade de referência é um dado sem interpretação possível.
+**Porque mudou.** A segunda fila da Ficha passa a ser uma referência qualificada: além de saber para onde, passa a saber-se **para quem**. O próprio Guião dá o exemplo — o envio das grávidas ao Centro Materno Infantil —, e a proposta passa a recolher o motivo, para que a segunda unidade de referência possa ser interpretada.
 
 **Regra de desenho.** Se o motivo indicado em 3.3.1 for obstetrícia e maternidade, aplica-se o protocolo completo de distância, como no nó superior — asfalto, picada e época das chuvas. É a referência em que o tempo decide o desfecho.
 :::
 
 ## 3.4 a 3.9 Funcionamento do sistema de referência [PARQUEADO]{.etiqueta .parqueado}
 
-::: {.nota}
-Fica para o bloco de gestão o funcionamento do sistema de referência: se existe sistema estabelecido, se há normas de referência e de contrarreferência, se as referências feitas são registadas e se há informação de retorno. Com ele fica também o quesito 3.9, sobre o acesso a viatura em condições de funcionamento e a motorista 24 horas.
+::: {.medir}
+**O que este quesito permite medir**
 
-São cinco indicadores que fecham uma subárea inteira (2.7.1.1.1 a 2.7.1.1.5), mais dois do transporte, e todos são autorreferidos — pelo que o parqueamento é por volume e sequência, não por exigir observação. É candidato natural a entrar nesta ronda, se a revisão o considerar.
+Se o sistema de referência funciona, e não apenas para onde se refere: se existe sistema estabelecido, normas escritas de referência e de contrarreferência, registo dos doentes referidos e informação de retorno. Corresponde à subárea inteira de sistemas de referência do HHFA. Nas normas e no registo, o indicador conta apenas o documento observado.
+
+<details><summary>Ver os 5 indicadores</summary>
+
+- 2.7.1.1.1 — Percentagem de unidades sanitárias com sistema para referir doentes a outras unidades · PHC: sim
+- 2.7.1.1.2 — Percentagem de unidades sanitárias com normas ou protocolos de referência · PHC: sim
+- 2.7.1.1.3 — Percentagem de unidades sanitárias com normas ou protocolos de contrarreferência · PHC: sim
+- 2.7.1.1.4 — Percentagem de unidades sanitárias com registo das referências feitas · PHC: sim
+- 2.7.1.1.5 — Percentagem de unidades sanitárias que recebem habitualmente informação de retorno sobre os doentes referidos · PHC: sim
+
+</details>
+
+Indicadores do HHFA: 2.7.1.1.1 a 2.7.1.1.5, se o bloco entrar · PHC: sim (todos)
 :::
 
-::: {.indicador}
-A secção 3 cria uma classe de indicadores de **rede** — distância e tempo por tipo de referência, por época do ano e por meio de transporte — que não tem equivalente no inventário do HHFA e é, por inteiro, contributo próprio do Mapa Sanitário.
+::: {.nota}
+Fica para o bloco de gestão o funcionamento do sistema de referência: se existe sistema estabelecido, se há normas de referência e de contrarreferência, se as referências feitas são registadas e se há informação de retorno. O quesito 3.9, sobre o acesso a viatura em condições de funcionamento e a motorista 24 horas, corresponde ao indicador 2.7.1.1.6, que se obtém também dos quesitos 7.5.1 e 7.5.1.1, nos serviços gerais.
+
+São cinco indicadores que fecham uma subárea inteira (2.7.1.1.1 a 2.7.1.1.5). Dois são declarados — a existência do sistema e a informação de retorno —, e três pedem para ver o documento: as normas de referência, as normas de contrarreferência e o registo das referências feitas. Em recolha sem visita, estes três ficam vazios para a unidade. É candidato natural a entrar nesta ronda, se a revisão o considerar.
 :::
