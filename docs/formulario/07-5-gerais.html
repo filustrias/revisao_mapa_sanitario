@@ -343,8 +343,10 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <!-- Botão «Comentar» ao lado de cada quesito.
      Abre o Google Forms com o quesito, o nome e o email já preenchidos.
-     FORMULARIO é o link pré-preenchido do Google Forms, gerado com os valores
-     QUESITO, NOME e EMAIL nos três campos; o script substitui-os. -->
+     FORMULARIO é o link pré-preenchido do Google Forms, com os valores
+     QUESITO, NOME e EMAIL nos três campos; o script substitui-os.
+     Os números entry.* identificam os campos Quesito, Nome e apelido e Email:
+     se esses campos forem apagados e recriados no Forms, os números mudam. -->
 <dialog id="ms-identificacao">
   <form method="dialog">
     <p><strong>Identificação de quem comenta</strong></p>
@@ -360,7 +362,8 @@ ul.task-list li input[type="checkbox"] {
 
 <script>
 (function () {
-  const FORMULARIO = "CONFIGURAR";
+  const FORMULARIO = "https://docs.google.com/forms/d/e/1FAIpQLSfDjFs-JRnTNzo1DE_NoSEvp5mqZXCytSXS4VRUtO22RGqAlA/viewform?usp=pp_url"
+    + "&entry.419732026=QUESITO&entry.1840941699=NOME&entry.145179400=EMAIL";
   if (!FORMULARIO.startsWith("https://")) return;
 
   const CHAVE = "ms-revisor";
@@ -389,15 +392,17 @@ ul.task-list li input[type="checkbox"] {
     dialogo.showModal();
   }
 
-  dialogo.addEventListener("close", function () {
-    if (dialogo.returnValue === "ok") {
-      const quem = { nome: campo("nome").value.trim(), email: campo("email").value.trim() };
-      try { localStorage.setItem(CHAVE, JSON.stringify(quem)); } catch (e) {}
-      if (pendente) abrir(pendente, quem);
-      aoMudar();
-    }
+  // O formulário abre-se no próprio clique em «Continuar» (e não no fecho da janela),
+  // para que o navegador não o trate como janela não pedida
+  dialogo.querySelector("form").addEventListener("submit", function (ev) {
+    if (!ev.submitter || ev.submitter.value !== "ok") return;
+    const quem = { nome: campo("nome").value.trim(), email: campo("email").value.trim() };
+    try { localStorage.setItem(CHAVE, JSON.stringify(quem)); } catch (e) {}
+    if (pendente) abrir(pendente, quem);
     pendente = null;
+    aoMudar();
   });
+  dialogo.addEventListener("close", function () { pendente = null; });
 
   function comentar(quesito) {
     const quem = revisor();

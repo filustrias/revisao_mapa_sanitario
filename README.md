@@ -51,6 +51,12 @@ respectivo volume.
 
 ## Comentários
 
-Os comentários dos revisores são recolhidos **na matriz**, na coluna «Comentários dos
-revisores». Cada quesito deste documento tem o mesmo código da linha correspondente da
-matriz. Um comentário accionável indica o código do quesito e o que deve mudar.
+Cada quesito tem um botão **💬 Comentar**, e cada capítulo um botão para comentários gerais.
+O botão abre um Google Forms com o quesito, o nome e o email de quem comenta já preenchidos
+(o nome e o email são pedidos uma vez e guardados no navegador). As respostas caem numa
+folha de cálculo ligada ao formulário, uma linha por comentário.
+
+Cada quesito deste documento tem o mesmo código da linha correspondente da matriz, e é por
+esse código que os comentários se cruzam com a coluna «Comentários dos revisores». Por isso,
+**não renumerar quesitos a meio de uma rodada de revisão**, e não apagar nem recriar os campos
+Quesito, Nome e apelido e Email do formulário (os identificadores mudariam; ver `comentar.html`).
