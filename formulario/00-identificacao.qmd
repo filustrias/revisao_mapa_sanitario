@@ -21,7 +21,7 @@ Qual é a data em que esta ficha foi preenchida ou em que esta unidade sanitári
 :::
 
 ::: {.nota}
-**Porque mudou.** As três caixas e os códigos mantêm-se. O enunciado passa a dizer explicitamente que a data é a desta recolha, porque o Guião descreve este campo de outra maneira: na apresentação da estrutura da ficha (folha 2) diz que o cabeçalho contém «a informação da data da visita **anterior** à Unidade», e mostra uma quarta caixa, «Marcar se a unidade nunca foi visitada anteriormente», que não existe no formulário impresso. São duas leituras do mesmo campo. A proposta acolhe as duas: 0.1 é a data desta recolha, e a data da visita anterior ganha lugar próprio em 0.7.
+**Porque mudou.** As três caixas e os códigos mantêm-se. O enunciado passa a dizer explicitamente que a data é a desta recolha, porque o Guião, na apresentação da estrutura da ficha (folha 2), prevê também o registo da data da visita **anterior** à unidade e de uma caixa «Marcar se a unidade nunca foi visitada anteriormente». A proposta dá lugar às duas informações: 0.1 é a data desta recolha, e a data da visita anterior ganha lugar próprio em 0.7.
 
 **Consequência.** Sem este campo bem definido, nenhuma expressão de período de referência do instrumento — «no dia da visita», «no último mês», «nos últimos 3 meses» — é interpretável.
 

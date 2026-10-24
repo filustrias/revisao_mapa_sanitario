@@ -47,7 +47,7 @@ Efectuar a leitura à entrada principal do edifício principal, ao ar livre, com
 :::
 
 ::: {.nota}
-**Porque mudou.** As duas caixas mantêm-se. O que se acrescenta é o protocolo de leitura, que hoje não existe: o Guião diz apenas «em graus decimais», sem indicar o local da leitura nem o tempo de estabilização. Sem protocolo, a mesma unidade pode ficar a 200 metros de si mesma entre duas rondas, e os cálculos de distância e de acesso geográfico deixam de ser comparáveis.
+**Porque mudou.** As duas caixas mantêm-se. Ao formato que o Guião fixa — «em graus decimais» — acrescenta-se um protocolo de leitura: o local onde se faz a leitura e o tempo de estabilização do aparelho. Sem protocolo, a mesma unidade pode ficar a 200 metros de si mesma entre duas rondas, e os cálculos de distância e de acesso geográfico deixam de ser comparáveis.
 :::
 
 ::: {.indicador}

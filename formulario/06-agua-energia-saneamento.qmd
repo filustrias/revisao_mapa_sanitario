@@ -126,7 +126,7 @@ Se sim, perguntar: de que tipo é? Posso vê-lo? Se houver vários, considerar o
 :::
 
 ::: {.nota}
-**Porque mudou.** As quatro categorias da Ficha — casa de banho, latrina, latrina melhorada, outra — **não são definidas em nenhum lugar do Guião**, e sem definição a distinção entre «latrina» e «latrina melhorada» fica ao critério de cada inquiridor. A lista nova é a internacional e traz a definição dentro da própria opção. O indicador de saneamento melhorado cumpre-se com as categorias 1, 2 ou 4.
+**Porque mudou.** As quatro categorias da Ficha são casa de banho, latrina, latrina melhorada e outra. A lista nova é a internacional e traz a definição dentro da própria opção, para que a distinção entre «latrina» e «latrina melhorada» se faça da mesma maneira em todas as unidades. O indicador de saneamento melhorado cumpre-se com as categorias 1, 2 ou 4.
 :::
 
 ## 6.4 Recolha de resíduos comuns [MANTÉM-SE]{.etiqueta .mantem}

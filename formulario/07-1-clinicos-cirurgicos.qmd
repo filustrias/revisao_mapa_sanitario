@@ -36,8 +36,6 @@ Para cada linha:
 **O enunciado fixa o critério** de atendimento regular — dia marcado, profissional habilitado, não suspenso há mais de 3 meses — que hoje fica ao critério de quem responde.
 
 **Verificação a programar.** Uma unidade que declara especialista numa especialidade e zero especialistas no quadro é uma inconsistência que o sistema deve assinalar, quando o bloco de pessoal for desenhado.
-
-**Nota de cortesia para o GEPE.** Três designações da Ficha têm grafia a corrigir numa próxima revisão: «Cardiología», «Inmunohematolgia» e «Cirugía».
 :::
 
 ::: {.indicador}

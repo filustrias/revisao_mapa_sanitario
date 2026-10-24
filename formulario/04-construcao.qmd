@@ -25,7 +25,7 @@ Contar todos os edifícios dentro do recinto utilizados pela unidade, incluindo 
 :::
 
 ::: {.nota}
-**Porque mudou.** O Guião diz apenas «sem contar as Residências dos Trabalhadores». Faltava dizer o resto: se os edifícios de apoio contam (contam) e se as ruínas contam (não contam). Sem isso, duas unidades iguais dão números diferentes.
+**Porque mudou.** Mantém-se a regra do Guião — «sem contar as Residências dos Trabalhadores» — e acrescenta-se a regra para dois casos frequentes no terreno: os edifícios de apoio contam, as ruínas não contam. Assim, duas unidades iguais dão o mesmo número.
 :::
 
 ## 4.3 e 4.4 Residências dos trabalhadores [ALTERADO]{.etiqueta .alterado}

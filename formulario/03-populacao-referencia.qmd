@@ -89,9 +89,7 @@ Obrigatório, e um só. Categoria segundo a lista do Mapa Sanitário.
 :::
 
 ::: {.nota}
-**Porque mudou.** A Ficha oferece duas filas iguais para duas unidades de referência, sem dizer o que distingue uma da outra. A proposta separa o nó superior, que é obrigatório e único, da referência lateral de 3.3, que é opcional e definida por grupo de doentes. O acrescento com mais consequência é **3.2.3, o código**: com ele, a árvore de referência nacional passa a ser reconstruível a partir das fichas, sem depender da grafia com que cada unidade escreve o nome do hospital de destino.
-
-**Pendência menor a registar.** A sexta categoria aparece como «HR» na Ficha e como «HN» no Guião. Convém uniformizar.
+**Porque mudou.** A Ficha oferece duas filas para duas unidades de referência. A proposta dá a cada uma um papel próprio e separa o nó superior, que é obrigatório e único, da referência lateral de 3.3, que é opcional e definida por grupo de doentes. O acrescento com mais consequência é **3.2.3, o código**: com ele, a árvore de referência nacional passa a ser reconstruível a partir das fichas, sem depender da grafia com que cada unidade escreve o nome do hospital de destino.
 :::
 
 ## 3.2.4 a 3.2.9 Distância e tempo ao nó superior [ALTERADO]{.etiqueta .alterado}

@@ -141,7 +141,7 @@ Porta: pelo menos uma linha dos blocos 7.2.C respondida com o código 2.
 :::
 
 ::: {.nota}
-**Pendência para o GEPE, com consequência directa neste bloco.** O Guião invoca na folha 11 a definição do INSP dos **Laboratórios tipo I e tipo II** e não a reproduz. Com essa norma, três coisas mudam: o agrupamento passa a ser por nível em vez de por disciplina clínica; a leitura passa de descritiva — «esta unidade realiza 14 dos 82 exames» — a cumprimento — «este centro de saúde realiza 11 dos 20 exames exigidos a um Laboratório tipo I»; e a pergunta «quem decidiu que um centro de saúde deve fazer TSH?» passa a ter resposta. Escrevemos já com o agrupamento clínico porque, se a norma chegar, a lista de exames não muda — muda apenas o agrupamento.
+**Pendência para o GEPE, com consequência directa neste bloco.** O Guião remete, na folha 11, para a definição do INSP dos **Laboratórios tipo I e tipo II**. Com o texto dessa norma, três coisas mudam: o agrupamento passa a ser por nível em vez de por disciplina clínica; a leitura passa de descritiva — «esta unidade realiza 14 dos 82 exames» — a cumprimento — «este centro de saúde realiza 11 dos 20 exames exigidos a um Laboratório tipo I»; e a pergunta «quem decidiu que um centro de saúde deve fazer TSH?» passa a ter resposta. Escrevemos já com o agrupamento clínico porque, se a norma chegar, a lista de exames não muda — muda apenas o agrupamento.
 :::
 
 ::: {.indicador}

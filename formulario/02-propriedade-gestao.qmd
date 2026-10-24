@@ -52,7 +52,7 @@ Pode ser diferente do proprietário indicado em 2.1. Marcar uma única opção.
 :::
 
 ::: {.nota}
-**Porque mudou.** A Ficha oferece «pública, privada, mista, outra», o que deixa sem resposta a pergunta que importa à descentralização: **qual** nível público gere a unidade. A distinção entre gestão provincial e gestão municipal é central ao desenho da reforma dos cuidados primários e não é recolhida hoje por nenhum instrumento. O enunciado passa também a dizer por palavras que a gestão pode não coincidir com a propriedade — o que o Guião não diz e gera confusão no preenchimento.
+**Porque mudou.** A Ficha oferece «pública, privada, mista, outra», o que deixa sem resposta a pergunta que importa à descentralização: **qual** nível público gere a unidade. A distinção entre gestão provincial e gestão municipal é central ao desenho da reforma dos cuidados primários e não é recolhida hoje por nenhum instrumento. O enunciado passa também a dizer por palavras que a gestão pode não coincidir com a propriedade, para facilitar o preenchimento.
 :::
 
 ::: {.indicador}

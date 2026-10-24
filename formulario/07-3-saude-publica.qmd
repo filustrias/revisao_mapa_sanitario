@@ -249,7 +249,7 @@ Para cada caixa: 1 Sim · 2 Não · 98 Não sabe
 ::: {.nota}
 **Duas caixas que já existem, cinco indicadores, dois deles PHC: Sim, e nem uma palavra a mudar: é o melhor custo-benefício de toda a secção.** A Ficha e o instrumento internacional usam aqui exactamente a mesma categoria, e as definições do Guião coincidem com as internacionais — CONU-B como antibióticos, ocitocina e anticonvulsivante parenterais, remoção manual da placenta e de restos ovulares; CONU-C como tudo o B mais cirurgia, isto é, cesariana e transfusão.
 
-A única diferença é que o Guião enumera cinco das sete funções-sinal do CONU-B, deixando de fora o parto assistido instrumental e a reanimação do recém-nascido — que a grelha seguinte vem acrescentar.
+Às cinco funções-sinal do CONU-B enumeradas no Guião, a grelha seguinte junta o parto assistido instrumental e a reanimação do recém-nascido, que completam as sete da definição internacional.
 
 **Nota de articulação com a avaliação EmONC** conduzida em paralelo: estes dois quesitos e a grelha seguinte são o ponto de contacto entre os dois instrumentos, e convirá que as definições sejam as mesmas nos dois.
 :::
@@ -590,7 +590,7 @@ Esta unidade sanitária presta serviços de prevenção da transmissão vertical
 ::: {.nota}
 Mantém-se o código e a posição na Ficha; muda apenas o enunciado, que passa a dizer por palavras aquilo que o Guião já define, e separa a mãe do recém-nascido nas opções, porque são duas prestações com cadeias distintas.
 
-**Uma precisão de vocabulário:** a profilaxia ao recém-nascido exposto não é tratamento de uma criança seropositiva, e o enunciado evita essa confusão, que a redacção actual permite.
+**Uma precisão de vocabulário:** a profilaxia ao recém-nascido exposto não é tratamento de uma criança seropositiva, e o enunciado passa a distinguir as duas situações.
 
 **Ampliação não incluída:** a grelha completa da transmissão vertical (13 linhas) daria mais 13 indicadores, todos PHC: Não, e quatro dessas linhas já entram pela grelha pré-natal de 7.3.6.1.
 :::
@@ -624,7 +624,7 @@ Esta unidade sanitária presta algum serviço relacionado com a tuberculose — 
 :::
 
 ::: {.nota}
-**Porque mudou.** A caixa da Ficha é hoje especificamente o DOTS — o Guião define-a como «tratamento anti-TB, directamente observável, de acordo com as normas do PNLTB» —, o que é uma definição estreita e deixa de fora a unidade que diagnostica e refere, ou que faz rastreio de contactos sem administrar o tratamento observado.
+**Porque mudou.** A caixa da Ficha é hoje especificamente o DOTS — o Guião define-a como «tratamento anti-TB, directamente observável, de acordo com as normas do PNLTB» —, uma definição específica, que não abrange a unidade que diagnostica e refere, ou que faz rastreio de contactos sem administrar o tratamento observado.
 
 A porta alarga-se para qualquer serviço de tuberculose, e **o DOTS propriamente dito passa a ser uma linha da grelha de 7.3.13.2, onde conserva integralmente a definição do Guião**. Nada se perde e a leitura fica mais fina: passa a ser possível separar as unidades que diagnosticam das que tratam, que é a distinção que organiza a rede de tuberculose.
 :::
