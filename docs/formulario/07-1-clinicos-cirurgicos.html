@@ -484,6 +484,18 @@ ul.task-list li input[type="checkbox"] {
   </form>
 </dialog>
 
+<!-- O Google Forms abre aqui, por cima do documento, e a janela fecha-se sozinha depois do envio -->
+<dialog id="ms-formulario">
+  <div class="ms-formulario-topo">
+    <span class="ms-formulario-titulo"></span>
+    <a class="ms-formulario-separador" target="_blank" rel="noopener">abrir num separador ↗</a>
+    <button type="button" class="ms-formulario-fechar" aria-label="Fechar">✕</button>
+  </div>
+  <div class="ms-formulario-carregar">A carregar o formulário…</div>
+  <iframe title="Formulário de comentário"></iframe>
+  <div class="ms-formulario-feito" hidden="">✓ Comentário registado</div>
+</dialog>
+
 <script>
 (function () {
   const FORMULARIO = "https://docs.google.com/forms/d/e/1FAIpQLSfDjFs-JRnTNzo1DE_NoSEvp5mqZXCytSXS4VRUtO22RGqAlA/viewform?usp=pp_url"
@@ -505,13 +517,47 @@ ul.task-list li input[type="checkbox"] {
     return quem && quem.nome && quem.email && quem.instituicao;
   }
 
+  // Janela do formulário. O iframe carrega uma vez ao abrir; a carga seguinte é a página
+  // de confirmação do Google (o formulário tem uma só página e valida sem recarregar)
+  const janela = document.getElementById("ms-formulario");
+  const moldura = janela.querySelector("iframe");
+  const feito = janela.querySelector(".ms-formulario-feito");
+  let cargas = 0;
+  let botaoActual = null;
+
+  function fecharJanela() {
+    if (janela.open) janela.close();
+  }
+
+  janela.addEventListener("close", function () {
+    cargas = -1;
+    moldura.src = "about:blank";
+  });
+  janela.querySelector(".ms-formulario-fechar").addEventListener("click", fecharJanela);
+
+  moldura.addEventListener("load", function () {
+    if (!janela.open || cargas < 0) return;
+    cargas += 1;
+    janela.classList.add("ms-carregado");
+    if (cargas < 2) return;
+    feito.hidden = false;
+    if (botaoActual) botaoActual.classList.add("ms-comentado");
+    setTimeout(fecharJanela, 1600);
+  });
+
   function abrir(quesito, quem) {
     const url = FORMULARIO
       .replace("QUESITO", encodeURIComponent(quesito))
       .replace("NOME", encodeURIComponent(quem.nome))
       .replace("EMAIL", encodeURIComponent(quem.email))
       .replace("INSTITUICAO", encodeURIComponent(quem.instituicao));
-    window.open(url, "_blank", "noopener");
+    janela.querySelector(".ms-formulario-titulo").textContent = quesito;
+    janela.querySelector(".ms-formulario-separador").href = url;
+    feito.hidden = true;
+    janela.classList.remove("ms-carregado");
+    cargas = 0;
+    moldura.src = url + "&embedded=true";
+    janela.showModal();
   }
 
   function identificar(quesito) {
@@ -523,18 +569,21 @@ ul.task-list li input[type="checkbox"] {
     dialogo.showModal();
   }
 
-  // O formulário abre-se no próprio clique em «Continuar» (e não no fecho da janela),
-  // para que o navegador não o trate como janela não pedida
+  // A janela do formulário só se abre depois de a de identificação fechar
+  // (duas janelas modais não podem estar abertas ao mesmo tempo)
+  let aAbrir = null;
   dialogo.querySelector("form").addEventListener("submit", function (ev) {
     if (!ev.submitter || ev.submitter.value !== "ok") return;
     const quem = { nome: campo("nome").value.trim(), email: campo("email").value.trim(),
                    instituicao: campo("instituicao").value };
     try { localStorage.setItem(CHAVE, JSON.stringify(quem)); } catch (e) {}
-    if (pendente) abrir(pendente, quem);
-    pendente = null;
+    if (pendente) aAbrir = [pendente, quem];
     aoMudar();
   });
-  dialogo.addEventListener("close", function () { pendente = null; });
+  dialogo.addEventListener("close", function () {
+    pendente = null;
+    if (aAbrir) { abrir(aAbrir[0], aAbrir[1]); aAbrir = null; }
+  });
 
   function comentar(quesito) {
     const quem = revisor();
@@ -553,7 +602,7 @@ ul.task-list li input[type="checkbox"] {
     b.className = "ms-comentar";
     b.textContent = "💬 " + rotulo;
     b.title = "Comentar: " + quesito;
-    b.addEventListener("click", function () { comentar(quesito); });
+    b.addEventListener("click", function () { botaoActual = b; comentar(quesito); });
     return b;
   }
 

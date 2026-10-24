@@ -52,7 +52,8 @@ respectivo volume.
 ## Comentários
 
 Cada quesito tem um botão **💬 Comentar**, e cada capítulo um botão para comentários gerais.
-O botão abre um Google Forms com o quesito e com o nome, o email e a instituição de quem comenta
+O botão abre o Google Forms numa janela por cima do documento, que se fecha sozinha depois do
+envio, com o quesito e com o nome, o email e a instituição de quem comenta
 já preenchidos (estes três são pedidos uma vez e guardados no navegador). As respostas caem numa
 folha de cálculo ligada ao formulário, uma linha por comentário.
 
