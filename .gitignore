@@ -1,6 +1,7 @@
 /.quarto/
 /_book/
 /*.html
+!/comentar.html
 .DS_Store
 Thumbs.db
 ~$*
