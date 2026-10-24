@@ -411,17 +411,29 @@ ul.task-list li input[type="checkbox"] {
 
 </main> <!-- /main -->
 <!-- Botão «Comentar» ao lado de cada quesito.
-     Abre o Google Forms com o quesito, o nome e o email já preenchidos.
+     Abre o Google Forms com o quesito, o nome, o email e a instituição já preenchidos.
      FORMULARIO é o link pré-preenchido do Google Forms, com os valores
-     QUESITO, NOME e EMAIL nos três campos; o script substitui-os.
-     Os números entry.* identificam os campos Quesito, Nome e apelido e Email:
-     se esses campos forem apagados e recriados no Forms, os números mudam. -->
+     QUESITO, NOME, EMAIL e INSTITUICAO nos quatro campos; o script substitui-os.
+     Os números entry.* identificam esses campos: se forem apagados e recriados
+     no Forms, os números mudam.
+     As opções de instituição têm de ser escritas exactamente como no Forms,
+     senão a escolha não chega preenchida. -->
 <dialog id="ms-identificacao">
   <form method="dialog">
     <p><strong>Identificação de quem comenta</strong></p>
-    <p class="ms-dialogo-ajuda">O nome e o email ficam guardados neste navegador e são preenchidos em cada comentário.</p>
+    <p class="ms-dialogo-ajuda">Pedidos uma só vez: ficam guardados neste navegador e são preenchidos em cada comentário.</p>
     <label>Nome e apelido<input name="nome" required="" autocomplete="name"></label>
     <label>Email<input name="email" type="email" required="" autocomplete="email"></label>
+    <label>Instituição
+      <select name="instituicao" required="">
+        <option value="">Escolher…</option>
+        <option>GEPE</option>
+        <option>DNSP</option>
+        <option>DNH</option>
+        <option>Direção provincial</option>
+        <option>Unidade sanitária</option>
+      </select>
+    </label>
     <div class="ms-dialogo-botoes">
       <button value="cancelar" formnovalidate="">Cancelar</button>
       <button value="ok" class="ms-primario">Continuar</button>
@@ -432,7 +444,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 (function () {
   const FORMULARIO = "https://docs.google.com/forms/d/e/1FAIpQLSfDjFs-JRnTNzo1DE_NoSEvp5mqZXCytSXS4VRUtO22RGqAlA/viewform?usp=pp_url"
-    + "&entry.419732026=QUESITO&entry.1840941699=NOME&entry.145179400=EMAIL";
+    + "&entry.419732026=QUESITO&entry.1840941699=NOME&entry.145179400=EMAIL&entry.519699642=INSTITUICAO";
   if (!FORMULARIO.startsWith("https://")) return;
 
   const CHAVE = "ms-revisor";
@@ -445,19 +457,26 @@ ul.task-list li input[type="checkbox"] {
     try { return JSON.parse(localStorage.getItem(CHAVE)) || null; } catch (e) { return null; }
   }
 
+  // Identificação guardada antes de existir o campo da instituição conta como incompleta
+  function completo(quem) {
+    return quem && quem.nome && quem.email && quem.instituicao;
+  }
+
   function abrir(quesito, quem) {
     const url = FORMULARIO
       .replace("QUESITO", encodeURIComponent(quesito))
       .replace("NOME", encodeURIComponent(quem.nome))
-      .replace("EMAIL", encodeURIComponent(quem.email));
+      .replace("EMAIL", encodeURIComponent(quem.email))
+      .replace("INSTITUICAO", encodeURIComponent(quem.instituicao));
     window.open(url, "_blank", "noopener");
   }
 
   function identificar(quesito) {
-    const quem = revisor();
+    const quem = revisor() || {};
     pendente = quesito;
-    campo("nome").value = quem ? quem.nome : "";
-    campo("email").value = quem ? quem.email : "";
+    campo("nome").value = quem.nome || "";
+    campo("email").value = quem.email || "";
+    campo("instituicao").value = quem.instituicao || "";
     dialogo.showModal();
   }
 
@@ -465,7 +484,8 @@ ul.task-list li input[type="checkbox"] {
   // para que o navegador não o trate como janela não pedida
   dialogo.querySelector("form").addEventListener("submit", function (ev) {
     if (!ev.submitter || ev.submitter.value !== "ok") return;
-    const quem = { nome: campo("nome").value.trim(), email: campo("email").value.trim() };
+    const quem = { nome: campo("nome").value.trim(), email: campo("email").value.trim(),
+                   instituicao: campo("instituicao").value };
     try { localStorage.setItem(CHAVE, JSON.stringify(quem)); } catch (e) {}
     if (pendente) abrir(pendente, quem);
     pendente = null;
@@ -475,7 +495,7 @@ ul.task-list li input[type="checkbox"] {
 
   function comentar(quesito) {
     const quem = revisor();
-    if (quem) abrir(quesito, quem); else identificar(quesito);
+    if (completo(quem)) abrir(quesito, quem); else identificar(quesito);
   }
 
   function textoDo(titulo) {
@@ -512,7 +532,7 @@ ul.task-list li input[type="checkbox"] {
   mudar.addEventListener("click", function (ev) { ev.preventDefault(); identificar(null); });
   aoMudar = function () {
     const quem = revisor();
-    mudar.textContent = quem ? "a comentar como " + quem.nome + " · mudar" : "";
+    mudar.textContent = completo(quem) ? "a comentar como " + quem.nome + " (" + quem.instituicao + ") · mudar" : "";
   };
   aoMudar();
   linha.appendChild(mudar);

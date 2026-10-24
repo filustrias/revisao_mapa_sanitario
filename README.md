@@ -52,11 +52,12 @@ respectivo volume.
 ## Comentários
 
 Cada quesito tem um botão **💬 Comentar**, e cada capítulo um botão para comentários gerais.
-O botão abre um Google Forms com o quesito, o nome e o email de quem comenta já preenchidos
-(o nome e o email são pedidos uma vez e guardados no navegador). As respostas caem numa
+O botão abre um Google Forms com o quesito e com o nome, o email e a instituição de quem comenta
+já preenchidos (estes três são pedidos uma vez e guardados no navegador). As respostas caem numa
 folha de cálculo ligada ao formulário, uma linha por comentário.
 
 Cada quesito deste documento tem o mesmo código da linha correspondente da matriz, e é por
 esse código que os comentários se cruzam com a coluna «Comentários dos revisores». Por isso,
 **não renumerar quesitos a meio de uma rodada de revisão**, e não apagar nem recriar os campos
-Quesito, Nome e apelido e Email do formulário (os identificadores mudariam; ver `comentar.html`).
+Quesito, Nome e apelido, Email e Instituição do formulário, nem mudar o texto das opções de
+Instituição sem o mudar também em `comentar.html` (os identificadores mudariam; ver `comentar.html`).
