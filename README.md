@@ -9,7 +9,10 @@ GEPE/MINSA · OMS Angola · projecto HIIP
 | Ficheiro | Conteúdo |
 |---|---|
 | `index.qmd` | Nota de apresentação e orientações de leitura — o que é o documento, como ler um quesito, as convenções de desenho, o que ficou parqueado, as decisões em aberto, as pendências a pedir ao MINSA e como enviar comentários |
-| `formulario.qmd` | O formulário, quesito a quesito: enunciado, opções de resposta e comentário sobre o que acontece com cada resposta |
+| `formulario.qmd` | Página de entrada do formulário, com a lista dos capítulos |
+| `formulario/` | O formulário, um capítulo por secção (a secção 7 dividida nos seus cinco blocos), quesito a quesito: enunciado, opções de resposta e comentário sobre o que acontece com cada resposta |
+| `_legenda.qmd` | Legenda das caixas e etiquetas, incluída no topo de cada capítulo |
+| `comentar.html` | Botão «Comentar» ao lado de cada quesito, que abre o Google Forms com o quesito, o nome e o email preenchidos; o link do formulário configura-se em `FORMULARIO` |
 | `_quarto.yml` | Configuração do livro |
 | `estilos.css` | Estilos do documento |
 
@@ -43,7 +46,7 @@ população e referência, construção, estado físico, água e saneamento, e o
 de serviços oferecidos).
 
 Por transcrever: domínios 8 a 13 (camas, aparelhos médico-cirúrgicos, meios de transporte,
-responsáveis e contactos, conectividade), identificados no fim de `formulario.qmd` com o
+responsáveis e contactos, conectividade), identificados em `formulario/08-13-por-transcrever.qmd` com o
 respectivo volume.
 
 ## Comentários

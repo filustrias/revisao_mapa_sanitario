@@ -1,0 +1,146 @@
+---
+title: "7.4 — Serviços de gestão"
+---
+
+{{< include ../_legenda.qmd >}}
+
+A lista dos 17 serviços e órgãos de gestão mantém-se por inteiro, com os mesmos códigos e as mesmas designações, incluindo todas as comissões nomeadas. O que muda é a escala — de 0-1 para três níveis — e acrescentam-se três blocos que perguntam pela **actividade** desses órgãos, não pela sua existência.
+
+[37 campos, contra 19 na Ficha 19_01.]{.campos}
+
+## 7.4.1 a 7.4.17 · Lista dos serviços e órgãos de gestão [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+Vou ler uma lista de serviços e órgãos de gestão. Para cada um, diga-me se existe nesta unidade sanitária e se esteve em funcionamento nos últimos 3 meses.
+:::
+
+::: {.grelha}
+7.4.1 Admissão e arquivo clínico-estatístico · 7.4.2 Direcção geral · 7.4.3 Direcção clínica · 7.4.4 Direcção pedagógica · 7.4.5 Administração · 7.4.6 Chefias · 7.4.7 Recursos humanos · 7.4.8 Escola de formação de técnicos de saúde · 7.4.9.1 Núcleo de formação permanente — campo de estágio médico · 7.4.9.2 Núcleo de formação permanente — campo de estágio de enfermagem · 7.4.10 Informática e estatística · 7.4.11 Assistência social · 7.4.12 Comissão de ética e deontologia · 7.4.13 Comissão de infecções hospitalares · 7.4.14 Comissão de óbitos hospitalares · 7.4.15 Comissão de medicamentos · 7.4.16 Comissão de segurança no trabalho · 7.4.17 Comissão de disciplina e auditoria
+:::
+
+::: {.respostas}
+Para cada linha:
+
+1. Existe e funcionou nos últimos 3 meses
+2. Existe mas não funcionou nos últimos 3 meses
+3. Não existe
+:::
+
+::: {.nota}
+**Porque mudou.** A escala de três níveis capta, sem acrescentar caixa nenhuma, a situação mais comum na rede: **a comissão existe no papel e não se reúne.** Com uma caixa de 0-1, essa unidade responde o mesmo que a unidade onde a comissão trabalha todas as semanas.
+
+**Todas as comissões nomeadas se mantêm**, por decisão expressa, incluindo as que não têm equivalente no instrumento internacional.
+:::
+
+## 7.4.14 · Revisão de casos e de óbitos [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+**Porta:** respondem apenas as unidades que declararam ter internamento no quesito 8.0.1.
+
+**7.4.14.1** Esta unidade sanitária realiza rotineiramente revisões formais de casos de doentes que não faleceram, em que o manejo individual do doente é analisado quanto à qualidade e ao potencial de melhoria?
+
+**7.4.14.2** Com que frequência são realizadas essas revisões formais de casos?
+
+**7.4.14.3** Foi realizada alguma revisão formal de caso nos últimos 3 meses completos?
+
+**7.4.14.4** Esta unidade sanitária realiza revisões formais de óbitos relativamente a qualquer morte ocorrida na unidade?
+
+**7.4.14.5** Esta unidade sanitária realiza revisões formais de óbitos para algum dos seguintes tipos de morte ocorrida na unidade? — óbito materno · óbito neonatal · óbito nas 24 horas seguintes a uma intervenção cirúrgica
+
+**7.4.14.6** Foi realizada alguma revisão formal de óbito nos últimos 3 meses completos?
+:::
+
+::: {.respostas}
+- **7.4.14.1**: 1 Sim · 2 Não → *passar a 7.4.14.4*
+- **7.4.14.2**: 1 Pelo menos semanalmente · 2 Pelo menos mensalmente · 3 Pelo menos trimestralmente · 4 Sem periodicidade definida
+- **7.4.14.3**: 1 Sim · 2 Não
+- **7.4.14.4**: 1 Sim · 2 Não · 3 Nunca houve óbito nesta unidade → *se 2 ou 3, terminar o bloco*
+- **7.4.14.5**: para cada uma das três linhas, 1 Sim · 2 Não
+- **7.4.14.6**: 1 Sim · 2 Não
+:::
+
+::: {.nota}
+**É a aplicação mais clara da regra de que a porta é a actividade e não o órgão.** A porta deste bloco não é a existência da Comissão de Óbitos Hospitalares (quesito 7.4.14 da lista acima), mas a realização efectiva de revisões — porque **uma unidade pode revisar óbitos maternos sem ter comissão constituída, e é precisamente dela que queremos saber**. A caixa da comissão mantém-se, em paralelo, na lista de três níveis.
+
+**A porta é o internamento e não o tipo de unidade**, pela razão transversal: o denominador dos indicadores é «entre todas as unidades», pelo que filtrar por tipo de unidade tornaria os indicadores incalculáveis para a rede de cuidados primários.
+
+**As perguntas 7.4.14.3 e 7.4.14.6 são a verificação da declaração:** separam «realizamos rotineiramente» de «realizámos de facto nos últimos 3 meses», que é a diferença entre um sistema a funcionar e um sistema no regulamento.
+:::
+
+## 7.4.13 · Estrutura de gestão da prevenção e controlo de infecções [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+**7.4.13.1** Vou perguntar sobre a estrutura de gestão da prevenção e controlo de infecções desta unidade sanitária. Para cada item, diga-me se se aplica nesta unidade. — comissão técnica de prevenção e controlo de infecções · reuniões multidisciplinares onde os resultados de prevenção e controlo de infecções são reportados ou analisados
+
+**7.4.13.2** Quando foi a reunião mais recente da comissão de prevenção e controlo de infecções, ou com a pessoa responsável por essa área? Pode ser uma reunião técnica ou uma reunião interdisciplinar em que os resultados tenham sido discutidos.
+:::
+
+::: {.respostas}
+- **7.4.13.1**: para cada linha, 1 Sim · 2 Não · 98 Não sabe → *se ambas as linhas forem 2, não fazer 7.4.13.2*
+- **7.4.13.2**: 1 No último mês · 2 Há 2 a 3 meses · 3 Há 4 a 6 meses · 4 Há mais de 6 meses · 98 Não sabe
+:::
+
+::: {.nota}
+Mesmo desenho: a actividade, não o órgão. A segunda linha de 7.4.13.1 — reuniões multidisciplinares onde os resultados são analisados — é a que capta as unidades sem comissão constituída que, apesar disso, discutem infecções. **É a parte do bloco de prevenção e controlo de infecções que se responde por declaração;** o resto desse bloco, que exige observação, fica parqueado.
+:::
+
+## 7.4.18 · Garantia e melhoria da qualidade [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+**7.4.18.1** Esta unidade sanitária realiza rotineiramente actividades de garantia de qualidade em alguma área de serviço? Entende-se por isso algum sistema formal de revisão, ou de comparação do trabalho ou dos sistemas com uma norma.
+
+**7.4.18.2** Esse sistema é aplicado em toda a unidade ou apenas em serviços específicos?
+
+**7.4.18.3** Esta unidade sanitária tem uma comissão de garantia de qualidade?
+
+**7.4.18.4** Com que frequência se reúne essa comissão?
+
+**7.4.18.5** Quando foi a reunião mais recente dessa comissão?
+
+**7.4.18.6** Existe documentação que mostre que a informação de garantia de qualidade é analisada? Pode ser documentação produzida pela comissão ou por outro órgão de gestão, como um relatório ou a acta de uma reunião.
+
+**7.4.18.7** Esta unidade sanitária tem um ponto focal para melhoria da qualidade e segurança do doente?
+
+**7.4.18.8** O senhor, ou algum profissional desta unidade, recebeu formação em melhoria da qualidade ou em segurança do doente nos últimos 2 anos?
+
+**7.4.18.9** Esta unidade sanitária recebe apoio de parceiros externos na implementação de sistemas e actividades de garantia ou melhoria da qualidade?
+:::
+
+::: {.instrucao}
+7.4.18.6: se sim, pedir para ver a documentação.
+:::
+
+::: {.respostas}
+- **7.4.18.1**: 1 Sim · 2 Não → *terminar o bloco*
+- **7.4.18.2**: 1 Em toda a unidade · 2 Apenas em serviços específicos
+- **7.4.18.3**: 1 Sim · 2 Não → *passar a 7.4.18.6*
+- **7.4.18.4**: 1 Pelo menos mensalmente · 2 Pelo menos a cada 3 meses · 3 Pelo menos a cada 6 meses · 4 Menos de uma vez a cada 6 meses · 98 Não sabe
+- **7.4.18.5**: 1 No último mês · 2 Há 2 a 3 meses · 3 Há 4 a 6 meses · 4 Há mais de 6 meses · 98 Não sabe
+- **7.4.18.6**: 1 Sim, observado · 2 Sim, referido, não visto · 3 Não
+- **7.4.18.7** e **7.4.18.8**: 1 Sim · 2 Não
+- **7.4.18.9**: 1 Sim · 2 Não · 98 Não sabe
+:::
+
+::: {.nota}
+**Quesito inteiramente novo**, e o único acrescento desta subsecção que não tem correspondência em nenhuma caixa da Ficha. A garantia de qualidade é a área onde a Ficha tem menos informação e onde o instrumento internacional tem mais: nove caixas autorreferidas, sem exigir observação, e um dos indicadores é o único da família que é PHC: Sim.
+
+O quesito **7.4.18.6** é o que separa um sistema real de um sistema declarado: pede documentação, e distingue «observado» de «referido, não visto».
+:::
+
+## 7.4.1 + 7.4.10 e 7.4.2 + 7.4.6 · Arquivo, reporte e comité de gestão [PARQUEADO]{.etiqueta .parqueado}
+
+::: {.nota}
+As caixas mantêm-se na lista de três níveis. Ficam para o domínio de gestão dois blocos completos:
+
+**Cadeia de arquivo, registo e reporte de dados** (a partir de 7.4.1 e 7.4.10) — cerca de 12 campos.
+
+**Equipa ou comissão de gestão** (a partir de 7.4.2 e 7.4.6) — periodicidade e data das reuniões, plano operacional escrito e referência ao plano nas decisões, e sistema de rotina de participação da comunidade na gestão — cerca de 6 campos.
+:::
+
+## Duas pendências desta subsecção
+
+::: {.nota}
+**7.4.15 — Comissão de Medicamentos.** A verificar se corresponde à comissão de aquisições do instrumento internacional; se corresponder, a caixa que já existe passa a gerar indicador sem qualquer alteração.
+
+**7.4.8 e 7.4.9 — estatuto de unidade de ensino.** Falta um quesito que registre se esta unidade sanitária acolhe formação de estudantes, internos, médicos em especialização ou técnicos de saúde em formação. A Ficha tem as caixas dos órgãos (escola de formação, núcleo de formação permanente), mas não a pergunta sobre o estatuto.
+:::

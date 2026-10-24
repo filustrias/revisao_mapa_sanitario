@@ -1,0 +1,89 @@
+---
+title: "Secção 1 — Localização"
+---
+
+{{< include ../_legenda.qmd >}}
+
+Quase toda a secção se mantém como está. As únicas mudanças são um protocolo de leitura para as coordenadas, um campo para a precisão do aparelho e uma caixa para a classificação urbano/rural, que hoje é inferida da localização administrativa.
+
+[16 campos.]{.campos}
+
+## 1.1 a 1.5 Localização administrativa e nome da unidade [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.enunciado}
+**1.1** Província · **1.2** Município · **1.3** Comuna ou distrito urbano · **1.4** Aldeia rural ou bairro urbano · **1.5** Nome da unidade sanitária
+:::
+
+::: {.instrucao}
+Registar designação e código do Mapa Sanitário. Seleccionar do menu auxiliar, como manda o Guião (folha 4). As caixas em cinzento são codificadas posteriormente pelo GEPE. Os campos 1.3 e 1.4 preenchem-se se conhecidos.
+:::
+
+::: {.nota}
+São os estratificadores de toda a análise e o identificador da unidade. Nada a alterar.
+:::
+
+## 1.6 Categoria da unidade [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.enunciado}
+Categoria da unidade, segundo a classificação do Mapa Sanitário.
+:::
+
+::: {.instrucao}
+Categoria actualmente atribuída e indicada no Mapa Sanitário actual.
+:::
+
+::: {.nota}
+É o **estratificador principal** de toda a análise: é por esta caixa que todos os indicadores se leem por tipo de unidade. Mantém-se exactamente como está. Note-se que a categoria **não** decide nenhum salto do formulário — essa é uma regra transversal da proposta, e a razão está na nota de apresentação.
+:::
+
+## 1.7 e 1.8 Coordenadas [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+**1.7** Latitude · **1.8** Longitude, em graus decimais.
+:::
+
+::: {.instrucao}
+Efectuar a leitura à entrada principal do edifício principal, ao ar livre, com o aparelho estável durante pelo menos 60 segundos. Registar em graus decimais, com cinco casas decimais.
+:::
+
+::: {.nota}
+**Porque mudou.** As duas caixas mantêm-se. O que se acrescenta é o protocolo de leitura, que hoje não existe: o Guião diz apenas «em graus decimais», sem indicar o local da leitura nem o tempo de estabilização. Sem protocolo, a mesma unidade pode ficar a 200 metros de si mesma entre duas rondas, e os cálculos de distância e de acesso geográfico deixam de ser comparáveis.
+:::
+
+::: {.indicador}
+Alimenta 1.1.1.1.1 a 1.1.1.1.4 e 1.4.1.1.1 a 1.4.1.1.3, estes últimos cruzados com a população adstrita do quesito 3.1.
+:::
+
+## 1.8.1 Precisão da leitura [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+Precisão indicada pelo aparelho, em metros.
+:::
+
+::: {.respostas}
+- Campo numérico, 3 dígitos
+:::
+
+::: {.nota}
+Uma caixa que qualifica a leitura anterior. Uma coordenada com precisão de 4 metros e uma com precisão de 300 metros não servem para o mesmo, e hoje são indistinguíveis no ficheiro.
+:::
+
+## 1.9 Zona urbana, rural ou periurbana [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+Esta unidade sanitária situa-se numa zona urbana, rural ou periurbana?
+:::
+
+::: {.instrucao}
+Usar a classificação administrativa em vigor; em caso de dúvida, perguntar ao respondente.
+:::
+
+::: {.respostas}
+1. Urbana
+2. Rural
+3. Periurbana
+:::
+
+::: {.nota}
+**Para que serve.** Hoje esta informação é inferida da localização administrativa, o que funciona mal nas periferias das capitais provinciais. Uma caixa própria permite desagregar por urbano e rural todos os indicadores do formulário — que é a desagregação mais pedida em qualquer análise de equidade no acesso.
+:::

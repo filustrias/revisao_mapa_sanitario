@@ -1,0 +1,74 @@
+---
+title: "Secção 5 — Estado físico"
+---
+
+{{< include ../_legenda.qmd >}}
+
+É uma das secções com maior ganho em relação ao esforço, e pela mesma razão que se repete ao longo da proposta: **o Guião já manda fazer o que o formulário não tem onde registar.** A folha 8 do Guião define os critérios do estado físico elemento a elemento — fundação, estrutura, pavimento, paredes, cobertura, tecto falso e latrina — e a Ficha oferece uma única caixa para o resultado. E manda especificar, nas Observações, os metros quadrados em cada estado, «para calcular os custos da reabilitação», num campo de texto livre.
+
+[12 campos.]{.campos}
+
+## 5.1 Estado físico do edifício principal [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+Considerando a fundação, a estrutura, o pavimento, as paredes, a cobertura, o tecto falso e a latrina do edifício principal, e aplicando os critérios detalhados do Guião, qual das seguintes situações melhor descreve o seu estado actual?
+:::
+
+::: {.instrucao}
+Ler todas as opções antes de marcar. Marcar uma única opção.
+:::
+
+::: {.respostas}
+1. Bom estado — só requer manutenção
+2. Reabilitação ligeira — a estrutura não apresenta danos, mas há imperfeições
+3. Reabilitação pesada — a estrutura apresenta danos mas é segura
+4. Construção ou reconstrução — a estrutura é perigosa ou impede o funcionamento
+:::
+
+::: {.nota}
+As quatro categorias mantêm-se com a redacção da Ficha. O que muda é o enunciado, que nomeia os sete elementos a considerar, para que a classificação deixe de depender de quem leu o Guião.
+:::
+
+## 5.1.1 a 5.1.7 Estado por elemento construtivo [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+Para cada elemento construtivo do edifício principal, indique o estado, aplicando os critérios do Guião.
+:::
+
+::: {.respostas}
+- **5.1.1** Fundação · **5.1.2** Estrutura · **5.1.3** Pavimento · **5.1.4** Paredes · **5.1.5** Cobertura · **5.1.6** Tecto falso · **5.1.7** Latrina
+- Para cada elemento:
+  1. Bom estado
+  2. Reabilitação ligeira
+  3. Reabilitação pesada
+  4. Reconstrução
+  97. Não se aplica (latrina inexistente)
+:::
+
+::: {.nota}
+**O que acontece com estas respostas.** Sete caixas que transformam o juízo de 5.1 em dado. A caixa de 5.1 continua a ser respondida, e passa a poder ser confrontada com os sete elementos que a definem. Mais importante para o planeamento: **uma unidade classificada globalmente como «reabilitação ligeira» pode ter a cobertura a precisar de reconstrução** — e é essa a informação que decide uma ordem de trabalhos, não a classificação global.
+
+**Nota de fronteira.** O instrumento internacional faz um exercício diferente e muito mais pesado — defeitos sala a sala, com 196 indicadores. Não é comparável e não foi adoptado.
+:::
+
+## 5.2 Superfície por estado [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+Qual é a superfície coberta, em metros quadrados, que se encontra em cada um dos estados seguintes?
+:::
+
+::: {.respostas}
+- **5.2.1** Bom estado
+- **5.2.2** A necessitar de reabilitação ligeira
+- **5.2.3** A necessitar de reabilitação pesada
+- **5.2.4** A necessitar de reconstrução
+- Quatro campos numéricos de 4 dígitos (m²)
+:::
+
+::: {.nota}
+**Origem.** É literalmente o que o Guião manda fazer no campo 5.2: «especificar o nº de m2 em bom estado, de reabilitação ligeira, de reabilitação pesada e de reconstrução. A especificação dos m2 serve para calcular os custos da reabilitação/manutenção necessários». A Ficha dá para isso um campo de **texto livre**, de onde nenhum custo se calcula.
+
+**Consequência.** Com quatro caixas numéricas, a estimativa de custo de reabilitação da rede passa a ser calculável directamente a partir do Mapa Sanitário. É provavelmente o ganho mais directo de toda a proposta para o plano de investimentos.
+
+**Verificação a programar.** A soma de 5.2.1 a 5.2.4 deve ser igual a 4.2.
+:::

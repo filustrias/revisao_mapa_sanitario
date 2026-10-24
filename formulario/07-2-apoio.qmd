@@ -1,0 +1,396 @@
+---
+title: "7.2 — Serviços de apoio"
+---
+
+{{< include ../_legenda.qmd >}}
+
+Hoje são catorze caixas de 0-1, uma por serviço. A primeira delas — «1. Laboratório» — é a que mais se transforma: passa a sete blocos, porque uma caixa única não distingue a unidade que faz hemograma da que faz carga viral, nem a que envia a amostra da que simplesmente não faz o exame.
+
+As portas são aqui especialmente importantes. **Um posto de saúde responde a 12 caixas e termina a subsecção; um centro de saúde com laboratório responde cerca de 30; só um hospital provincial percorre as 122.**
+
+[122 campos, contra 16 na Ficha 19_01 — 82 no laboratório, contra 1, e 40 nos restantes serviços de apoio, contra 15.]{.campos}
+
+## 7.2.C.0 · Testes rápidos de diagnóstico [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+Vou perguntar por testes rápidos de diagnóstico, que são realizados no momento da consulta e cujo resultado fica disponível de imediato, sem necessidade de laboratório. Para cada um, diga-me se é realizado nesta unidade sanitária.
+:::
+
+::: {.instrucao}
+Considere a situação habitual dos últimos 3 meses, e não uma falha pontual de stock. **Este bloco não tem porta: é feito a todas as unidades sanitárias, incluindo postos de saúde.**
+:::
+
+::: {.grelha}
+1 Teste rápido de diagnóstico do VIH · 2 Autoteste do VIH · 3 Teste rápido de sífilis · 4 Teste rápido de hepatite B (HBsAg) · 5 Teste rápido de hepatite C (anti-HCV) · 6 Teste rápido de gravidez na urina · 7 Glicemia capilar · 8 Teste rápido de diagnóstico de malária (TDR) · 9 Fita reagente de urina — proteínas · 10 Fita reagente de urina — glicose · 11 Fita reagente de urina — corpos cetónicos
+:::
+
+::: {.respostas}
+Para cada linha: 1 Sim, realizado nesta unidade sanitária · 2 Não
+:::
+
+::: {.nota}
+**Porque não tem porta, e porque vem primeiro.** É exactamente aquilo que um posto de saúde faz, e é por aqui que um posto que só tem teste rápido de malária cumpre o indicador de capacidade de diagnóstico de malária. Colocá-lo antes da porta do laboratório — como faz o instrumento internacional — garante que nenhuma unidade perde estas onze linhas por responder «não» a uma pergunta sobre laboratório.
+
+**A escala é de sim ou não, e não de três níveis**, por uma razão de desenho: a opção «amostra enviada para fora» é impossível num teste de ponto de atendimento, que por definição é feito ali.
+:::
+
+::: {.indicador}
+1.3.3.3.3 (malária, pela via do teste rápido) · 1.3.3.3.4 (sífilis) · 1.3.3.3.5 (VIH) · 1.3.3.3.7 (gravidez) · 1.3.3.3.8, 1.3.3.3.9 e 1.3.3.3.10 (tiras de urina). O autoteste do VIH, as hepatites B e C e a glicemia capilar são contributo próprio.
+:::
+
+## 7.2.1 · Porta geral do laboratório [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+Para além dos testes rápidos que acabei de perguntar, esta unidade sanitária realiza algum exame de laboratório, recolhe amostras para serem analisadas noutro local, ou encaminha doentes para realizarem exames noutra unidade?
+:::
+
+::: {.respostas}
+1. Sim
+2. Não → *se Não, saltar para 7.2.A (imagiologia)*
+:::
+
+::: {.nota}
+**É a porta de 37 indicadores.** Segue a regra transversal de que a porta é a actividade e não o órgão: se fosse «tem laboratório», a unidade que não faz exames mas encaminha doentes ficaria de fora — e é precisamente dela que queremos saber. A caixa do laboratório como **serviço** mantém-se, em paralelo, na lista dos serviços de apoio.
+
+**A definição do Guião deixa de ser um critério implícito de marcação e passa a ser verificável item a item.** O Guião exige, para marcar «Laboratório», no mínimo gota espessa, hemoglobina ou hematócrito e análises simples de fezes e urina (folha 11): a gota espessa está em 7.2.C.IV, a hemoglobina em 7.2.C.I, e as análises de fezes e urina em 7.2.C.IV.
+:::
+
+## 7.2.C.I a 7.2.C.IV · Os quatro blocos de exames [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+Vou perguntar por exames de laboratório. Para cada um, diga-me qual destas três situações descreve o que acontece habitualmente nesta unidade sanitária: o exame é realizado aqui; a amostra é recolhida aqui e enviada para análise noutro local, regressando o resultado a esta unidade; ou o exame não é realizado por nenhuma destas vias.
+:::
+
+::: {.instrucao}
+Considere a situação habitual dos últimos 3 meses, e não uma falha pontual de reagente. Enunciado comum aos quatro blocos.
+:::
+
+::: {.respostas}
+Para cada linha:
+
+1. Realizado nesta unidade sanitária
+2. Amostra recolhida aqui e enviada para fora, com retorno do resultado
+3. Não realizado por nenhuma destas vias
+98. Não sabe
+:::
+
+### 7.2.C.I · Hematologia e imuno-hematologia — 10 linhas
+
+::: {.grelha}
+**7.2.C.I.0 Porta de grupo:** qualquer exame de glóbulos brancos e vermelhos → *se 2 ou 3, saltar para 7.2.C.II* · 1 Hematócrito ou dosagem de hemoglobina · 2 Contagem de leucócitos · 3 Contagem de plaquetas · 4 Hemograma completo · 5 Velocidade de hemossedimentação (VHS) · 6 Tempo de protrombina (TAP/INR) · 7 Tempo de tromboplastina parcial activada (TTPa) · 8 Electroforese de hemoglobina · 9 Pesquisa de hemoglobina S
+:::
+
+::: {.nota}
+A porta de grupo é a do próprio instrumento internacional e salta os sete itens seguintes quando a unidade não faz nenhum exame de glóbulos. A **electroforese de hemoglobina** e a **pesquisa de hemoglobina S** são acrescento próprio: justificam-se num país com prevalência de drepanocitose e nenhum instrumento internacional as recolhe. O eritrograma foi omitido por redundância com o hematócrito e o hemograma completo.
+:::
+
+### 7.2.C.II · Bioquímica — 24 linhas
+
+::: {.grelha}
+**7.2.C.II.0 Porta de grupo:** qualquer exame de bioquímica do sangue → *se 2 ou 3, saltar para 7.2.C.III* · 1 Ionograma — sódio e potássio · 2 Cálcio · 3 Fósforo · 4 Glicose · 5 Teste oral de tolerância à glicose · 6 Hemoglobina glicada (HbA1c) · 7 Creatinina · 8 Ureia · 9 Clearance de creatinina · 10 Ácido úrico · 11 Albumina · 12 Bilirrubinas total e fracções · 13 Transaminases (TGO/AST e TGP/ALT) · 14 Fosfatase alcalina · 15 Colesterol total · 16 Perfil lipídico — HDL, LDL e triglicerídeos · 17 Amilase ou lipase · 18 pH e gases no sangue · 19 Marcador cardíaco — CK ou troponina · 20 Ferro sérico · 21 Ferritina · 22 Transferrina · 23 TSH e T4 livre
+:::
+
+::: {.nota}
+O maior bloco da secção e o de maior rendimento: dez indicadores directos. Os acrescentos à lista internacional têm justificação clínica local — o ferro, a ferritina e a transferrina na investigação da anemia; o cálcio, o fósforo e o ácido úrico no seguimento da doença renal; o clearance de creatinina e o teste oral de tolerância à glicose no manejo crónico. O instrumento internacional agrupa transaminases e fosfatase alcalina num único item; aqui são duas linhas, o que mantém o indicador e acrescenta precisão.
+:::
+
+### 7.2.C.III · Grupo sanguíneo e serologias — 20 linhas
+
+::: {.grelha}
+**7.2.C.III.0 Porta de grupo:** qualquer exame de grupo sanguíneo ou serologia → *se 2 ou 3, saltar para 7.2.C.IV* · 1 Tipagem sanguínea ABO · 2 Factor Rh · 3 Prova de compatibilidade por aglutinação directa · 4 Coombs indirecto · 5 VDRL ou outro teste de sífilis que não seja teste rápido · 6 HBsAg laboratorial · 7 Anti-HBs · 8 Anti-HCV laboratorial · 9 **Carga viral do VIH** · 10 **Contagem de CD4** · 11 Antigénio criptocócico · 12 PCR para COVID-19 · 13 Toxoplasmose IgG · 14 Toxoplasmose IgM · 15 Proteína C reactiva · 16 ASLO · 17 Factor reumatóide · 18 Anticorpos antinucleares (FAN) · 19 Anti-TPO
+:::
+
+::: {.nota}
+A **carga viral do VIH** e a **contagem de CD4** são os dois únicos indicadores deste bloco marcados PHC: Sim. Num país com tratamento antirretroviral descentralizado, saber quais as unidades que conseguem medir carga viral é decisão de investimento directa. O instrumento internacional agrupa as hepatites B e C num item cada, sem distinguir antigénio de anticorpo; aqui separam-se o HBsAg e o anti-HBs, que têm leituras clínicas diferentes.
+:::
+
+### 7.2.C.IV · Microbiologia, parasitologia e outros — 15 linhas
+
+::: {.grelha}
+Sem porta de grupo, porque o instrumento internacional também não lhe dá nenhuma. · 1 Microscopia a fresco · 2 Microscopia com coloração de Gram · 3 **Exame parasitológico de fezes** · 4 Urina tipo II — sumária de urina com sedimento · 5 **Gota espessa para diagnóstico de malária** · 6 **Baciloscopia da expectoração com coloração de Ziehl-Neelsen** · 7 **Teste molecular rápido para tuberculose** — Xpert MTB/RIF, TrueNat ou equivalente · 8 Cultura de qualquer amostra · 9 Hemocultura · 10 Antibiograma · 11 Teste de Kato Katz para helmintas · 12 Pesquisa de sangue oculto nas fezes · 13 Teste de HPV · 14 Antigénio específico da próstata (PSA) · 15 Biópsia de tecido ou de amostra
+:::
+
+::: {.nota}
+O **exame parasitológico de fezes** é o item que o Guião exige no seu mínimo para marcar «Laboratório» (folha 11). A separação da tuberculose em **baciloscopia** e **teste molecular**, e da malária em **gota espessa** (aqui) e **teste rápido** (em 7.2.C.0), é deliberada: o indicador cumpre-se por qualquer das vias, e passamos a saber qual — que é o que decide onde colocar um GeneXpert.
+:::
+
+## 7.2.C.V · Destino da amostra ou do doente [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+Quando a amostra é recolhida aqui e enviada para análise noutro local, qual é o destino habitual?
+:::
+
+::: {.instrucao}
+Porta: pelo menos uma linha dos blocos 7.2.C respondida com o código 2.
+:::
+
+::: {.respostas}
+1. A unidade de referência indicada em 3.2.2
+2. Outra unidade pública do Serviço Nacional de Saúde, diferente da unidade de referência
+3. Um laboratório privado
+96. Outro *(especificar)*
+97. Não se aplica
+:::
+
+::: {.nota}
+**Contributo próprio e ligação directa à árvore de referência do domínio 3.** Procurei no inventário internacional e não existe nenhum indicador sobre o destino da amostra ou do doente quando o exame não se faz na unidade.
+
+É uma só pergunta, e não uma coluna por exame, porque a escala de três níveis já diz, exame por exame, se a amostra sai — o que falta é o destino, e o destino é quase sempre o mesmo. Se a primeira ronda mostrar muita dispersão na opção 96, abre-se uma coluna de destino em cada linha na ronda seguinte, ao custo de mais 49 campos.
+
+**Nota de leitura.** A opção 3 das linhas 7.2.C — «não realizado por nenhuma destas vias» — é a mais importante de todas, porque distingue a unidade que não faz o exame mas garante o acesso da unidade onde o exame simplesmente não acontece. É essa diferença que mede acesso efectivo em vez de capacidade instalada.
+:::
+
+::: {.nota}
+**Pendência para o GEPE, com consequência directa neste bloco.** O Guião invoca na folha 11 a definição do INSP dos **Laboratórios tipo I e tipo II** e não a reproduz. Com essa norma, três coisas mudam: o agrupamento passa a ser por nível em vez de por disciplina clínica; a leitura passa de descritiva — «esta unidade realiza 14 dos 82 exames» — a cumprimento — «este centro de saúde realiza 11 dos 20 exames exigidos a um Laboratório tipo I»; e a pergunta «quem decidiu que um centro de saúde deve fazer TSH?» passa a ter resposta. Escrevemos já com o agrupamento clínico porque, se a norma chegar, a lista de exames não muda — muda apenas o agrupamento.
+:::
+
+::: {.indicador}
+Laboratório — 39 indicadores: a subárea 1.3.3.3 completa (17), a subárea 3.7.1.1 completa (20), e 2 do tratamento antirretroviral (carga viral e CD4, ambos PHC: Sim).
+:::
+
+## 7.2.A · Imagiologia [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+**Porta (7.2.A.0).** Esta unidade sanitária realiza algum exame de imagem — ecografia, raio X ou outro —, ou encaminha doentes para os realizarem noutra unidade sanitária?
+:::
+
+::: {.respostas}
+1. Sim
+2. Não → *se Não, saltar para 7.2.B*
+:::
+
+::: {.enunciado}
+Vou perguntar por exames de imagem. Para cada um, diga-me qual destas três situações descreve o que acontece habitualmente nesta unidade sanitária: o exame é realizado aqui; o doente é encaminhado para o realizar noutra unidade, regressando o resultado a esta unidade; ou o exame não é obtido por nenhuma destas vias.
+:::
+
+::: {.instrucao}
+Considere a situação habitual dos últimos 3 meses, e não uma avaria pontual do aparelho.
+:::
+
+::: {.grelha}
+1 Ecografia · 2 Raio X · 3 Fluoroscopia · 4 Mamografia · 5 Tomografia computorizada (TAC) · 6 Angiografia ou cateterismo · 7 Ressonância magnética · 8 Medicina nuclear
+:::
+
+::: {.respostas}
+Para cada linha: 1 Realizado nesta unidade · 2 Doente encaminhado para outra unidade, com retorno do resultado · 3 Não obtido por nenhuma destas vias · 98 Não sabe
+:::
+
+::: {.nota}
+**Porque mudou.** A Ficha tem uma única caixa para toda a imagiologia. Oito linhas dão a tabela internacional completa, e os indicadores contam apenas a opção 1, o que preserva o significado internacional. A opção 2 é o acrescento nosso e é a que serve o país, porque distingue a unidade que garante o acesso por encaminhamento daquela onde o exame não acontece.
+
+**Articula-se com o domínio 9**, onde se **contam** os aparelhos de ecografia e de raio X: aqui mede-se a oferta do exame, lá o inventário do equipamento.
+
+**Verificação a programar.** Assinalar quando a unidade declara realizar ecografia ou raio X e conta zero aparelhos correspondentes no domínio 9.
+:::
+
+::: {.indicador}
+1.3.3.1.1 a 1.3.3.1.8 — tabela completa, 8 indicadores.
+:::
+
+## 7.2.B · Procedimentos e tecnologias [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+Vou perguntar por alguns procedimentos e tecnologias. Para cada um, diga-me se é realizado nesta unidade sanitária.
+:::
+
+::: {.instrucao}
+Considere a situação habitual dos últimos 3 meses.
+:::
+
+::: {.grelha}
+1 **Desfibrilhação** · 2 Electrocardiograma (ECG) · 3 Electroencefalograma (EEG) · 4 Incubadora para recém-nascidos · 5 Fototerapia do recém-nascido · 6 Radioterapia · 7 Diálise renal · 8 Ventilação mecânica · 9 Transfusão de sangue · 10 Colonoscopia · 11 **Administração de oxigénio**
+:::
+
+::: {.respostas}
+Para cada linha: 1 Sim, realizado nesta unidade sanitária · 2 Não · 98 Não sabe
+:::
+
+::: {.nota}
+Três destas onze linhas substituem três caixas da Ficha e dizem o mesmo com o mesmo esforço de resposta — a **diálise**, a **radioterapia** e a **hemoterapia**, que passa a chamar-se transfusão de sangue por ser o termo mais claro. As outras oito são ganho líquido, a uma caixa por indicador.
+
+**Duas linhas merecem destaque:** a desfibrilhação é o **único indicador PHC: Sim de toda esta subárea**, e a administração de oxigénio é a tecnologia de maior rendimento clínico num centro de saúde.
+
+A escala é de sim ou não porque nenhum destes procedimentos se faz por encaminhamento com retorno de resultado: ou se faz aqui, ou o doente é transferido — e a transferência está tratada na árvore de referência do domínio 3.
+:::
+
+::: {.indicador}
+1.3.3.2.1 a 1.3.3.2.11 — tabela completa, 11 indicadores.
+:::
+
+## 7.2.D · Outros serviços de apoio [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+Para cada um dos serviços seguintes, diga-me se existe nesta unidade sanitária e está em funcionamento.
+:::
+
+::: {.grelha}
+1 Anatomia patológica · 2 Anestesia · 3 Reabilitação — fisioterapia, terapia ocupacional, terapia da fala ou adaptação de próteses e ortóteses · 4 Bloco operatório · 5 **Número** de blocos operatórios em condições de utilização · 6 Gases medicinais canalizados · 7 Banco de sangue · 8 **Cuidados paliativos** — controlo da dor e acompanhamento de doentes em fim de vida, no ambulatório ou no domicílio
+:::
+
+::: {.respostas}
+Para cada linha: 1 Sim, em funcionamento · 2 Não · 98 Não sabe
+
+Linha 5: número de 00 a 99, só se a linha 4 for 1.
+:::
+
+::: {.nota}
+Sete das oito caixas são as da Ficha e mantêm-se com o mesmo sentido; muda apenas o enunciado, que passa a dizer «em funcionamento» por palavras em vez de o deixar implícito no título da coluna.
+
+**Duas precisões e um acrescento.** A reabilitação ganha a definição internacional, mais larga do que a fisioterapia — sem a escrever, a caixa é marcada apenas por quem tem gabinete de fisioterapia. O número de blocos operatórios ganha «em condições de utilização». E o acrescento são os **cuidados paliativos**, uma caixa e um indicador, e é a oferta de cuidados primários que mais falta na Ficha: o controlo da dor no doente oncológico avançado faz-se no centro de saúde e no domicílio, não no hospital.
+:::
+
+::: {.indicador}
+1.3.2.10.1 (reabilitação) · 1.3.2.9.1 (cuidados paliativos).
+:::
+
+## 7.2.E · Serviços de urgência [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+**Porta (7.2.E.1).** Esta unidade sanitária presta atendimento a doentes em situação de urgência, mesmo que não tenha um banco de urgência com espaço próprio?
+:::
+
+::: {.respostas}
+1. Sim
+2. Não → *se Não, saltar para a secção 7.3*
+98. Não sabe
+:::
+
+::: {.nota}
+**É a aplicação mais consequente da regra de que a porta é a actividade e não o órgão.** A Ficha só tem as duas caixas do Banco de Urgência, pelo que hoje um centro de saúde que atende urgências na própria consulta — o que é a regra na rede de cuidados primários — fica contado como unidade sem atendimento de urgência. Com esta porta passa a entrar no numerador de um indicador PHC: Sim.
+:::
+
+::: {.enunciado}
+**7.2.E.2** Existe nesta unidade sanitária um banco ou unidade de urgência com espaço próprio, distinto das salas de consulta? E, se Sim: durante quantas horas por dia funciona habitualmente?
+:::
+
+::: {.respostas}
+- **7.2.E.2.1**: 1 Sim · 2 Não
+- **7.2.E.2.2**: número de horas por dia, 00 a 24 — só se 7.2.E.2.1 for 1
+:::
+
+::: {.nota}
+**É aqui que as duas caixas da Ficha — «Só Diurno» e «24 Horas» — se resolvem numa pergunta e um número.** Ganha-se em três frentes. Desaparece a ambiguidade: hoje as duas caixas podem ser marcadas ao mesmo tempo, ou nenhuma. O número contém as duas categorias da Ficha e todas as que ficam entre elas — as 12 horas, as 16 horas, o fim de semana só de manhã —, que é a realidade da maior parte da rede. E o indicador internacional calcula-se de «igual a 24», pelo que perguntar as horas dá o indicador **e** o gradiente.
+
+**Correspondência com a série histórica:** «Só Diurno» passa a ser um valor entre 01 e 23, e «24 Horas» passa a ser 24.
+:::
+
+::: {.enunciado}
+**7.2.E.3** Existe nesta unidade sanitária um sistema formal de triagem dos doentes que chegam em situação de urgência, com critérios escritos de prioridade?
+:::
+
+::: {.respostas}
+1. Sim · 2 Não · 98 Não sabe
+:::
+
+::: {.nota}
+Uma caixa, um indicador **PHC: Sim**, e é o quesito de maior rendimento de todo o bloco em relação ao esforço. Mede aquilo que mais determina o desfecho de um doente grave que chega a uma unidade com fila: se é visto por ordem de gravidade ou por ordem de chegada. A precisão «com critérios escritos» está no enunciado de propósito, para que a resposta não seja marcada por quem faz triagem informal pelo bom senso do enfermeiro de turno — que é prática corrente e meritória, mas não é um sistema.
+:::
+
+::: {.enunciado}
+**7.2.E.4** O banco de urgência tem pessoal próprio, afecto permanentemente ao serviço, ou é assegurado por profissionais em rotação vindos de outros serviços da unidade?
+:::
+
+::: {.respostas}
+1. Tem pessoal próprio afecto permanentemente
+2. É assegurado por profissionais em rotação de outros serviços
+3. Combina as duas situações
+98. Não sabe
+:::
+
+::: {.nota}
+O indicador conta apenas a opção 1. A pergunta foi escrita com três opções em vez de duas porque **a situação mista é a mais frequente na rede** — um núcleo permanente reforçado por rotação nos turnos da noite — e porque uma escala de sim ou não obrigaria quem responde a escolher arbitrariamente. É a diferença entre um serviço de urgência com competência acumulada e um serviço assegurado por quem passa por lá.
+:::
+
+::: {.enunciado}
+**7.2.E.5** Durante as 24 horas do dia, está permanentemente presente na unidade — e não apenas de chamada — pessoal clínico para atender urgências?
+:::
+
+::: {.respostas}
+- **7.2.E.5.1** Médico ou outro clínico habilitado a prescrever · **7.2.E.5.2** Enfermeiro
+- Para cada caixa: 1 Sim, presente na unidade 24 horas por dia · 2 Presente apenas em parte do dia · 3 Apenas de chamada · 4 Não · 98 Não sabe
+:::
+
+::: {.nota}
+O indicador exige as duas condições ao mesmo tempo — um médico ou clínico de nível intermédio **e** um enfermeiro. A distinção entre «presente na unidade» e «de chamada» está no enunciado e nas opções porque é a diferença que decide o atendimento de uma emergência às três da manhã, e porque sem ela a resposta tende a ser afirmativa em qualquer unidade onde haja um profissional contactável. As opções 2 e 3 não entram no indicador, mas distinguem a unidade que está perto de cumprir da que está longe.
+:::
+
+::: {.enunciado}
+**7.2.E.6** Em caso de necessidade de transferir um doente de urgência, esta unidade sanitária tem acesso rápido a transporte, a qualquer hora do dia ou da noite?
+:::
+
+::: {.respostas}
+1. Sim, ambulância estacionada nesta unidade sanitária
+2. Sim, ambulância chamada de outro local
+3. Sim, outro veículo
+4. Não
+98. Não sabe
+:::
+
+::: {.nota}
+Indicador **PHC: Sim** por uma caixa. **Fecha pelo lado da urgência a discussão sobre a frota:** o que importa não é a unidade ter viatura própria, mas conseguir transporte quando precisa — e a opção 2, a ambulância chamada de outro local, é precisamente a resposta da maior parte dos centros de saúde. Articula-se com o domínio 10 (frota da unidade), com 3.9 (viatura e motorista 24 horas) e com 7.5.1 (transporte de emergência nos serviços gerais): três leituras do mesmo problema, cada uma na sua secção, sem duplicação de campo.
+:::
+
+::: {.enunciado}
+**7.2.E.7** Quando um doente de urgência é transferido para outra unidade sanitária, é habitualmente acompanhado durante o transporte por um médico ou por um enfermeiro desta unidade?
+:::
+
+::: {.respostas}
+1. Sim, habitualmente · 2 Apenas em alguns casos · 3 Não · 98 Não sabe
+:::
+
+::: {.nota}
+Indicador **PHC: Sim**. Mede a qualidade do próprio acto de referir, que é a operação mais frequente e mais crítica da rede: um doente transferido sem acompanhamento clínico perde, no caminho, a vigilância que justificava a transferência. A opção 2 não entra no indicador e fica porque é a resposta honesta da maior parte das unidades — acompanha-se quando há pessoal disponível —, e porque a distância entre «alguns casos» e «habitualmente» é um problema de dotação de pessoal, não de equipamento.
+:::
+
+::: {.enunciado}
+**7.2.E.8** Durante quantas horas por dia estão habitualmente disponíveis para o atendimento de urgência os seguintes serviços de apoio?
+:::
+
+::: {.respostas}
+- **7.2.E.8.1** Farmácia ou dispensa de medicamentos · **7.2.E.8.2** Exames de imagem · **7.2.E.8.3** Exames de laboratório
+- Para cada caixa: número de horas por dia, 00 a 24 · **97** o serviço não existe nesta unidade · **98** não sabe
+:::
+
+::: {.nota}
+Pergunta-se o **número de horas** e não sim ou não, porque os três indicadores calculam-se de «igual a 24» — exactamente como em 7.2.E.2 — e portanto o número dá o indicador e o gradiente pelo mesmo esforço de resposta.
+
+**O valor está menos em cada um deles e mais no conjunto:** um banco de urgência aberto 24 horas com laboratório aberto 8 horas é uma unidade que não consegue investigar o doente grave de madrugada, e essa combinação não é visível em nenhum dos três indicadores lido isoladamente. A opção 97 evita que uma unidade sem laboratório seja contada como unidade com laboratório fechado.
+:::
+
+::: {.indicador}
+Urgência — subárea 3.5.1.1 completa, 10 indicadores, dos quais 4 PHC: Sim (qualquer serviço de urgência, transporte 24 horas, acompanhamento na referência e triagem formal), mais 1.3.2.8.1 e 1.3.2.8.2.
+:::
+
+## 7.2.10 · Farmácia [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}
+
+::: {.enunciado}
+Existe nesta unidade sanitária um serviço de farmácia em funcionamento?
+:::
+
+::: {.respostas}
+1. Sim, em funcionamento · 2 Não
+:::
+
+::: {.nota}
+**Mantém-se como caixa única.** O horário de funcionamento para a urgência é recolhido em 7.2.E.8.1, e a disponibilidade de medicamentos fica para o bloco próprio.
+
+**Razão do parqueamento.** O que o instrumento internacional pede à farmácia não é a existência do serviço, é a presença **observada** dos produtos na prateleira, dentro da validade: 199 linhas de produto em dez grupos, mais blocos condicionais de malária, tuberculose e antirretrovirais. Os indicadores contam apenas o produto visto e válido, pelo que a escala colapsa sem observação. É a tabela de maior rendimento para os cuidados primários — 37 indicadores, todos PHC: Sim — e merece decisão própria.
+
+**Pendência aberta.** Está pedida ao MINSA a Lista Nacional de Medicamentos Essenciais com a indicação do exigido a cada nível da rede. Sem ela, as 199 linhas são demasiadas para um posto de saúde e não há critério defensável para as encurtar.
+:::
+
+## 7.2.14 · Esterilização [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}
+
+::: {.enunciado}
+Existe nesta unidade sanitária um serviço de esterilização em funcionamento?
+:::
+
+::: {.respostas}
+1. Sim, em funcionamento · 2 Não
+:::
+
+::: {.nota}
+Parqueado para o bloco de prevenção e controlo de infecções, e não por omissão: é o quesito em que a distância entre a existência do serviço e a sua eficácia é maior. O instrumento internacional não pergunta se existe esterilização — pergunta qual o método, se o autoclave está a funcionar no dia da visita, se há indicador de processo e se o pessoal foi formado. Nenhuma destas perguntas se responde sem observação.
+
+**Remissão a registar:** o quesito 9.1.1 do domínio 9 é o **esterilizador** enquanto equipamento, contado no inventário; este 7.2.14 é a esterilização enquanto **serviço**. Não se sobrepõem e nenhum substitui o outro.
+:::

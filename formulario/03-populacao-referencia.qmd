@@ -1,0 +1,167 @@
+---
+title: "Secção 3 — População e sistema de referência"
+---
+
+{{< include ../_legenda.qmd >}}
+
+É a secção com a maior reformulação de toda a proposta, e a única que cria uma classe nova de informação: a **árvore de referência**. Hoje a Ficha recolhe duas unidades de referência em duas filas iguais, sem distinguir o que são, e quatro números de distância sem instrução de medição. A proposta separa o nó superior — obrigatório, um só — da referência lateral, opcional e por grupo de doentes, e acrescenta o código do Mapa Sanitário de cada unidade de destino, o que torna a árvore nacional reconstruível a partir das fichas.
+
+[19 campos.]{.campos}
+
+## 3.1 População adstrita [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+Qual é a população total residente na área de abrangência **directa** desta unidade sanitária, de acordo com a estimativa mais recente de que a unidade dispõe?
+:::
+
+::: {.instrucao}
+Não incluir a população das áreas servidas por unidades que referem doentes para esta unidade; essa população é contada na ficha de cada uma dessas unidades. Anotar 999998 se a unidade não dispuser de estimativa.
+:::
+
+::: {.respostas}
+- Campo numérico, 6 dígitos
+:::
+
+::: {.nota}
+**Porque mudou.** A caixa é a mesma. O que se acrescenta é a palavra «directa» e a instrução que a explica, porque sem elas a mesma população é contada várias vezes ao longo da árvore de referência — o hospital municipal declara a população do município, e cada centro de saúde do município declara a sua. Somando as fichas, a população do país aparece duas ou três vezes. O código 999998 para «não dispõe de estimativa» evita que a ausência de dado seja registada como zero.
+
+**Consequência.** É o denominador de 27 indicadores, incluindo as 20 densidades de pessoal por habitante.
+:::
+
+## 3.1.1 e 3.1.2 Origem e ano da estimativa [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+**3.1.1** De onde provém essa estimativa da população?
+
+**3.1.2** A que ano se refere essa estimativa?
+:::
+
+::: {.respostas}
+- **3.1.1**:
+  1. Censo nacional
+  2. Projecção do Instituto Nacional de Estatística
+  3. Registo ou recenseamento feito pela própria unidade
+  4. Estimativa da Direcção Municipal de Saúde
+  5. Estimativa da Direcção Provincial de Saúde
+  96. Outra *(especificar)*
+  98. Não sabe
+- **3.1.2**: ano, 4 dígitos
+:::
+
+::: {.nota}
+**Para que serve.** Duas caixas que qualificam o denominador de 27 indicadores. Uma densidade de enfermeiros por habitante calculada sobre uma projecção do INE de 2024 e outra calculada sobre um recenseamento feito pela unidade em 2016 não são comparáveis, e hoje não há como distingui-las.
+:::
+
+## 3.1.3 Unidades que referem para esta [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+Quantas unidades sanitárias referem habitualmente doentes para esta unidade?
+:::
+
+::: {.instrucao}
+Contar apenas as unidades que têm esta como referência de nível superior. Anotar 00 se nenhuma.
+:::
+
+::: {.respostas}
+- Campo numérico, 2 dígitos
+:::
+
+::: {.nota}
+É o total de controlo da árvore de referência: permite confrontar o que cada unidade declara receber com o que as outras declaram enviar. Divergências entre os dois lados são informação sobre o funcionamento real da rede, não erros a corrigir.
+:::
+
+## 3.2.1 a 3.2.3 Nó superior da referência [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+**3.2.1** Para que unidade sanitária são habitualmente transferidos os doentes desta unidade que necessitam de cuidados de nível superior?
+
+**3.2.2** Designação dessa unidade. **3.2.3** Código do Mapa Sanitário dessa unidade.
+:::
+
+::: {.instrucao}
+Obrigatório, e um só. Categoria segundo a lista do Mapa Sanitário.
+:::
+
+::: {.respostas}
+- **3.2.1** Categoria: lista de 6 (CS, CMI, CSR, HM, HP e hospital de referência ou nacional)
+- **3.2.2** Designação: texto
+- **3.2.3** Código: 6 dígitos
+:::
+
+::: {.nota}
+**Porque mudou.** A Ficha oferece duas filas iguais para duas unidades de referência, sem dizer o que distingue uma da outra. A proposta separa o nó superior, que é obrigatório e único, da referência lateral de 3.3, que é opcional e definida por grupo de doentes. O acrescento com mais consequência é **3.2.3, o código**: com ele, a árvore de referência nacional passa a ser reconstruível a partir das fichas, sem depender da grafia com que cada unidade escreve o nome do hospital de destino.
+
+**Pendência menor a registar.** A sexta categoria aparece como «HR» na Ficha e como «HN» no Guião. Convém uniformizar.
+:::
+
+## 3.2.4 a 3.2.9 Distância e tempo ao nó superior [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+**3.2.4** Qual é o meio de transporte mais frequentemente utilizado para transferir doentes desta unidade, nos últimos 12 meses?
+
+**3.2.5** Distância total em quilómetros pelo percurso habitual. **3.2.6** Quantos desses quilómetros são em estrada asfaltada. **3.2.7** Quantos são em estrada de terra ou picada. **3.2.8** Tempo em minutos na época seca. **3.2.9** Tempo em minutos na época das chuvas.
+:::
+
+::: {.instrucao}
+A distância é medida pela estrada efectivamente percorrida, não em linha recta.
+:::
+
+::: {.respostas}
+- **3.2.4**:
+  1. Ambulância desta unidade
+  2. Ambulância de outra unidade ou da Direcção Municipal
+  3. Viatura ligeira
+  4. Motorizada
+  5. Transporte público ou particular pago pelo doente
+  6. A pé ou em maca
+  96. Outro
+- **3.2.5** a **3.2.7**: quilómetros, 3 dígitos
+- **3.2.8** e **3.2.9**: minutos, 3 dígitos; **997** se intransitável, **998** se não sabe
+:::
+
+::: {.nota}
+**Porque mudou.** Os quatro campos da Ficha mantêm-se no essencial e ganham o que lhes falta. A decomposição em asfalto e picada já é pedida pelo Guião; o que não existia era a instrução de que a distância é pela estrada e não em linha recta, sem a qual os números não são comparáveis. **O acrescento decisivo é a época das chuvas** (3.2.9): numa boa parte do país a referência que leva 40 minutos em Agosto leva três horas em Fevereiro, ou não é possível — e é essa a situação que um plano de investimentos precisa de ver. O código 997 registra a intransitabilidade sem a confundir com um tempo muito longo.
+
+**O meio de transporte** (3.2.4) é novo e pergunta pelo que de facto se usa, não pelo que deveria usar-se. A opção 5, transporte pago pelo doente, e a opção 6, a pé ou em maca, são as respostas que hoje não têm onde ser dadas.
+
+**Verificação a programar.** A soma de 3.2.6 e 3.2.7 deve ser igual a 3.2.5.
+:::
+
+## 3.3.1 a 3.3.6 Referência lateral [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+**3.3.1** Esta unidade envia habitualmente algum grupo específico de doentes para uma unidade diferente da indicada em 3.2.1? Se sim, para que tipo de doentes?
+
+**3.3.2** Categoria. **3.3.3** Designação. **3.3.4** Código do Mapa Sanitário. **3.3.5** Distância total em quilómetros. **3.3.6** Tempo em minutos na época seca.
+:::
+
+::: {.respostas}
+- **3.3.1**:
+  0. Não → *se Não, saltar para a secção 4*
+  1. Obstetrícia e maternidade
+  2. Pediatria
+  3. Cirurgia
+  4. Saúde mental
+  5. Tuberculose
+  96. Outro *(especificar)*
+- **3.3.2** a **3.3.4**: como no nó superior
+- **3.3.5** e **3.3.6**: quilómetros e minutos, 3 dígitos; 997 intransitável, 998 não sabe
+:::
+
+::: {.nota}
+**Porque mudou.** A segunda fila da Ficha passa a ser uma referência qualificada: além de saber para onde, passa a saber-se **para quem**. O próprio Guião dá o exemplo — o envio das grávidas ao Centro Materno Infantil — mas não recolhe o motivo, pelo que hoje a segunda unidade de referência é um dado sem interpretação possível.
+
+**Regra de desenho.** Se o motivo indicado em 3.3.1 for obstetrícia e maternidade, aplica-se o protocolo completo de distância, como no nó superior — asfalto, picada e época das chuvas. É a referência em que o tempo decide o desfecho.
+:::
+
+## 3.4 a 3.9 Funcionamento do sistema de referência [PARQUEADO]{.etiqueta .parqueado}
+
+::: {.nota}
+Fica para o bloco de gestão o funcionamento do sistema de referência: se existe sistema estabelecido, se há normas de referência e de contrarreferência, se as referências feitas são registadas e se há informação de retorno. Com ele fica também o quesito 3.9, sobre o acesso a viatura em condições de funcionamento e a motorista 24 horas.
+
+São cinco indicadores que fecham uma subárea inteira (2.7.1.1.1 a 2.7.1.1.5), mais dois do transporte, e todos são autorreferidos — pelo que o parqueamento é por volume e sequência, não por exigir observação. É candidato natural a entrar nesta ronda, se a revisão o considerar.
+:::
+
+::: {.indicador}
+A secção 3 cria uma classe de indicadores de **rede** — distância e tempo por tipo de referência, por época do ano e por meio de transporte — que não tem equivalente no inventário do HHFA e é, por inteiro, contributo próprio do Mapa Sanitário.
+:::

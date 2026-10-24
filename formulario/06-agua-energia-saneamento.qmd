@@ -1,0 +1,232 @@
+---
+title: "Secção 6 — Água, energia, saneamento e resíduos"
+---
+
+{{< include ../_legenda.qmd >}}
+
+A estrutura da Ficha — uma fonte **principal** e as **outras** fontes, em cada quesito — mantém-se por inteiro, e é boa: capta a precariedade do abastecimento melhor do que uma pergunta única. O que se altera são as listas de categorias, alinhadas com as definições internacionais de fonte melhorada e de saneamento melhorado, e acrescentam-se cinco perguntas de disponibilidade efectiva, que são o que converte a declaração em indicador.
+
+[19 campos.]{.campos}
+
+## 6.1 Fonte de água [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+Qual é a fonte de água mais utilizada por esta unidade sanitária neste momento? E que outras fontes utiliza quando a principal não está disponível?
+:::
+
+::: {.instrucao}
+Marcar uma única na coluna «Principal». Se a resposta for diferente para o internamento e para o ambulatório, indicar a do internamento. Nas «Outras», marcar tantas quantas corresponder.
+:::
+
+::: {.respostas}
+01. Canalizada para dentro do edifício
+02. Canalizada para o recinto
+03. Torneira ou fontanário público
+04. Furo
+05. Poço protegido
+06. Poço não protegido
+07. Nascente protegida
+08. Nascente não protegida
+09. Água da chuva
+10. Água engarrafada
+11. Carroça com pequeno depósito
+12. Camião cisterna
+13. Água de superfície
+96. Outra
+00. Não tem
+98. Não sabe
+:::
+
+::: {.nota}
+**Porque mudou.** A Ficha tem cinco categorias e junta em «furo ou poço» situações que a definição internacional separa: um poço protegido é fonte melhorada, um poço não protegido não é. Com a lista actual, o indicador de fonte melhorada não é calculável. A lista nova é a do instrumento internacional e a estrutura Principal + Outras da Ficha é integralmente conservada.
+:::
+
+## 6.1.3 Água disponível no recinto [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+Há água proveniente dessa fonte disponível no recinto da unidade, dentro do edifício ou dentro do recinto?
+:::
+
+::: {.instrucao}
+Se sim, perguntar: posso ver a água que está disponível hoje? A água pode estar canalizada ou em recipiente.
+:::
+
+::: {.respostas}
+1. Sim, observada dentro do edifício
+2. Sim, observada no recinto
+3. Sim, referida mas não vista
+4. Não, ou disponível apenas fora do recinto
+:::
+
+::: {.nota}
+**O que acontece com cada resposta.** O indicador de água melhorada cumpre-se quando a categoria de 6.1 é melhorada **e** a resposta aqui é 1 ou 2. As respostas 3 e 4 não o cumprem: uma unidade com furo no papel e sem água na torneira não tem água.
+
+**Porque é necessário.** É a diferença entre ter uma fonte e ter água. Uma caixa separa as duas coisas.
+:::
+
+## 6.2 Fonte de electricidade [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.enunciado}
+Qual é a fonte de electricidade mais utilizada por esta unidade? E que fontes de reserva existem, para os períodos em que a principal falha?
+:::
+
+::: {.respostas}
+1. Rede geral
+2. Painéis solares
+3. Gerador
+4. Não tem
+96. Outra
+:::
+
+::: {.nota}
+As categorias mantêm-se — são adequadas e correspondem às do instrumento internacional. A estrutura Principal + Outras mantém-se e é aqui especialmente útil: a combinação «rede geral como principal, gerador e solar como reserva» é a situação real de muitas unidades e hoje já é captada.
+:::
+
+## 6.2.3 Disponibilidade de electricidade nos últimos 7 dias [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+Nos últimos 7 dias, houve electricidade — da fonte principal ou de qualquer fonte de reserva — em todos os momentos em que esta unidade esteve aberta ao público?
+:::
+
+::: {.instrucao}
+Ler as três opções.
+:::
+
+::: {.respostas}
+1. Sempre disponível, sem interrupções
+2. Muitas vezes disponível, com interrupções de menos de 2 horas por dia
+3. Algumas vezes disponível, com interrupções frequentes ou de mais de 2 horas por dia
+:::
+
+::: {.nota}
+**O que acontece com cada resposta.** O indicador de unidades com electricidade cumpre-se quando 6.2 é diferente de «não tem» **e** a resposta aqui é 1 ou 2. A resposta 3 não o cumpre.
+
+**Porque é necessário.** Pela mesma razão da água: ter ligação à rede não é ter electricidade. E este campo articula-se com a cadeia de frio do PAV — uma unidade com geleira e com interrupções de mais de duas horas por dia tem um problema de conservação de vacinas que nenhum inventário de equipamento revela.
+:::
+
+## 6.3 Saneamento [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+Existe no recinto desta unidade um sanitário ou latrina que possa ser utilizado pelos utentes da consulta externa ou pelo pessoal?
+:::
+
+::: {.instrucao}
+Se sim, perguntar: de que tipo é? Posso vê-lo? Se houver vários, considerar o tipo mais moderno.
+:::
+
+::: {.respostas}
+1. Autoclismo ligado a rede de esgotos
+2. Autoclismo ligado a fossa séptica
+3. Autoclismo ligado a destino aberto ou desconhecido
+4. Latrina melhorada ventilada — com laje e tubo de ventilação
+5. Latrina simples com laje
+6. Latrina sem laje ou de fossa aberta
+7. Não existe sanitário nem latrina
+96. Outra
+:::
+
+::: {.nota}
+**Porque mudou.** As quatro categorias da Ficha — casa de banho, latrina, latrina melhorada, outra — **não são definidas em nenhum lugar do Guião**, e sem definição a distinção entre «latrina» e «latrina melhorada» fica ao critério de cada inquiridor. A lista nova é a internacional e traz a definição dentro da própria opção. O indicador de saneamento melhorado cumpre-se com as categorias 1, 2 ou 4.
+:::
+
+## 6.4 Recolha de resíduos comuns [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.enunciado}
+Como é feita a recolha do lixo comum desta unidade? E que outros modos de recolha existem?
+:::
+
+::: {.respostas}
+1. Serviços Administrativos Municipais
+2. Empresa terciarizada
+3. Serviços comunitários
+96. Outra
+00. Não há recolha organizada
+:::
+
+::: {.nota}
+Categorias mantidas. Acrescenta-se apenas o código 00, para que a ausência de recolha organizada seja uma resposta e não um branco.
+:::
+
+## 6.5 e 6.6 Destino final dos resíduos [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.enunciado}
+**6.5** Qual é o destino final dos resíduos comuns produzidos nesta unidade?
+
+**6.6** E qual é o destino final dos resíduos hospitalares — cortantes, perfurantes e infecciosos?
+:::
+
+::: {.instrucao}
+Marcar o destino da maior parte destes resíduos.
+:::
+
+::: {.respostas}
+- **6.5**: 1 Incinerador · 2 Aterro sanitário · 3 Queimar ao ar livre · 96 Outra · 98 Não sabe
+- **6.6**: 1 Empresa especializada · 2 Aterro sanitário · 3 Queimar ao ar livre · 96 Outra · 98 Não sabe
+:::
+
+::: {.nota}
+Categorias mantidas nas duas. O quesito 6.6 é o único da secção 6 sem coluna «Outros», e assim permanece.
+:::
+
+## 6.5.3 e 6.5.4 O meio de tratamento funciona e tem combustível [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+**6.5.3** O incinerador ou outro meio de tratamento de resíduos desta unidade estava a funcionar hoje?
+
+**6.5.4** Havia hoje combustível disponível para o incinerador?
+:::
+
+::: {.instrucao}
+Pedir para ver. Se o destino indicado em 6.5 e 6.6 não envolver tratamento na unidade, anotar 97.
+:::
+
+::: {.respostas}
+- **6.5.3**: 1 Sim, observado a funcionar · 2 Não estava a funcionar · 97 Não se aplica · 98 Não sabe
+- **6.5.4**: 1 Sim, observado · 2 Não · 97 Não se aplica · 98 Não sabe
+:::
+
+::: {.nota}
+**O que acontece com cada resposta.** O destino adequado dos resíduos cortantes e dos resíduos infecciosos só conta para o indicador **se** o meio de tratamento estiver a funcionar e tiver combustível. Um incinerador parado por falta de gasóleo é, na prática, queima ao ar livre — e é essa a situação que estas duas caixas tornam visível.
+:::
+
+## 6.5.5 e 6.5.6 Normas e formação em gestão de resíduos [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+**6.5.5** Existem nesta unidade normas escritas ou instruções de trabalho sobre a gestão de resíduos sanitários?
+
+**6.5.6** Nos últimos 2 anos, algum profissional que actualmente trabalha nesta unidade recebeu formação em gestão de resíduos sanitários?
+:::
+
+::: {.instrucao}
+6.5.5: se sim, pedir para ver.
+:::
+
+::: {.respostas}
+- **6.5.5**: 1 Sim, observadas · 2 Sim, referidas mas não vistas · 3 Não existem
+- **6.5.6**: 1 Sim · 2 Não · 98 Não sabe
+:::
+
+::: {.nota}
+Duas caixas, dois indicadores, e a ligação ao bloco de prevenção e controlo de infecções — que fica parqueado, mas de que estas duas perguntas são a parte que se responde por declaração.
+:::
+
+## 6.7.1 e 6.7.2 Tratamento de águas residuais [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+**6.7.1** Existe nesta unidade uma estação ou sistema de tratamento de águas residuais?
+
+**6.7.2** Se existe, esteve a funcionar nos últimos 30 dias? Se não, qual a causa?
+:::
+
+::: {.respostas}
+- **6.7.1**: 1 Sim · 2 Não → *se Não, saltar para a secção 7*
+- **6.7.2**: 1 Sim · 2 Não *(especificar causa)* · 97 Não se aplica · 98 Não sabe
+:::
+
+::: {.nota}
+Os dois campos mantêm-se, incluindo a especificação da causa, que o Guião já pede. Acrescenta-se o período de referência — «nos últimos 30 dias» — porque «funciona» sem período não é verificável.
+:::
+
+::: {.indicador}
+Secção 6 — alimenta 2.1.1.1.1 (electricidade), 2.1.1.1.2 (água melhorada), 2.1.1.1.3 (saneamento melhorado), 2.5.1.1.2 e 2.5.1.1.4 (normas e formação em resíduos) e 2.5.1.1.12 e 2.5.1.1.13 (destino adequado de cortantes e de infecciosos).
+:::

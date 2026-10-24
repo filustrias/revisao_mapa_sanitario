@@ -1,0 +1,60 @@
+---
+title: "Secção 2 — Propriedade e gestão"
+---
+
+{{< include ../_legenda.qmd >}}
+
+As duas caixas mantêm-se. Em ambas se amplia a lista de opções, porque as categorias actuais agrupam situações que importa distinguir, e se separa por palavras a propriedade da gestão.
+
+[2 campos.]{.campos}
+
+## 2.1 Propriedade [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+A quem pertence esta unidade sanitária, isto é, quem é o proprietário das instalações e do equipamento?
+:::
+
+::: {.instrucao}
+Marcar uma única opção.
+:::
+
+::: {.respostas}
+1. Pública — Serviço Nacional de Saúde
+2. Pública — Polícia ou Forças Armadas
+3. Pública — outra instituição do Estado (universidade, empresa pública)
+4. Privada não lucrativa — confissão religiosa ou missão
+5. Privada não lucrativa — organização não governamental ou associação
+6. Privada lucrativa
+96. Outra *(especificar)*
+:::
+
+::: {.nota}
+**Porque mudou.** A Ficha tem quatro opções e junta numa só — «privada não lucrativa» — a missão religiosa e a organização não governamental, que em Angola têm padrões de financiamento, de pessoal e de permanência muito diferentes. Separá-las custa zero caixas e dá uma leitura que hoje não existe. Acrescenta-se ainda a propriedade pública não pertencente ao Serviço Nacional de Saúde que não seja militar.
+:::
+
+## 2.2 Gestão [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+Que entidade é responsável pela gestão corrente desta unidade — isto é, quem toma as decisões de política, nomeia a direcção e exerce a supervisão?
+:::
+
+::: {.instrucao}
+Pode ser diferente do proprietário indicado em 2.1. Marcar uma única opção.
+:::
+
+::: {.respostas}
+1. Pública — Ministério ou Direcção Nacional
+2. Pública — Direcção Provincial de Saúde
+3. Pública — Administração Municipal
+4. Privada
+5. Mista (parceria público-privada)
+96. Outra *(especificar)*
+:::
+
+::: {.nota}
+**Porque mudou.** A Ficha oferece «pública, privada, mista, outra», o que deixa sem resposta a pergunta que importa à descentralização: **qual** nível público gere a unidade. A distinção entre gestão provincial e gestão municipal é central ao desenho da reforma dos cuidados primários e não é recolhida hoje por nenhum instrumento. O enunciado passa também a dizer por palavras que a gestão pode não coincidir com a propriedade — o que o Guião não diz e gera confusão no preenchimento.
+:::
+
+::: {.indicador}
+Nenhuma destas duas caixas entra num numerador: são variáveis de desagregação. A caixa de propriedade corresponde à Q115 do HHFA, que alimenta 1.1.1.1.2 — unidades de cuidados primários por 10 000 habitantes.
+:::

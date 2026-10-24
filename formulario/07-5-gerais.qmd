@@ -1,0 +1,99 @@
+---
+title: "7.5 — Serviços gerais"
+---
+
+{{< include ../_legenda.qmd >}}
+
+É a subsecção que menos muda, e isso é um bom sinal: a lista dos 15 serviços gerais está adequada. As alterações são a escala de três níveis, duas remissões para evitar duplicação, o número de gavetas mortuárias e o desenvolvimento do Gabinete do Utente.
+
+[20 campos, contra 19 na Ficha 19_01, contando que dois quesitos saem para outros domínios.]{.campos}
+
+## 7.5.1 e 7.5.1.1 · Transporte de emergência [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+**7.5.1** Esta unidade sanitária tem acesso a uma ambulância ou a outro veículo em condições de funcionamento para o transporte de emergência de doentes — quer esteja estacionado nesta unidade, quer possa ser chamado de outro local?
+
+**7.5.1.1** Esse veículo está disponível hoje, em condições de funcionamento, com combustível e com motorista?
+:::
+
+::: {.instrucao}
+7.5.1.1: se o respondente não tiver a certeza, pedir que confirme com quem saiba.
+:::
+
+::: {.respostas}
+- **7.5.1**: 1 Sim, ambulância · 2 Sim, outro tipo de veículo · 3 Não → *passar a 7.5.2*
+- **7.5.1.1**: 1 Sim · 2 Não · 98 Não sabe
+:::
+
+::: {.nota}
+O enunciado inclui expressamente o veículo **chamado de outro local**, porque é essa a situação da maior parte dos centros de saúde — e uma pergunta sobre veículo próprio deixaria essas unidades contadas como unidades sem transporte de emergência.
+
+**7.5.1.1 é a verificação da declaração:** ter acesso a uma ambulância e ter uma ambulância com combustível e motorista hoje são coisas diferentes. Articula-se com 7.2.E.6 (urgência), com 3.9 (sistema de referência) e com o domínio 10 (frota), sem duplicação de campo.
+:::
+
+## 7.5.2 a 7.5.18 · Lista dos serviços gerais [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+Vou ler uma lista de serviços gerais de apoio. Para cada um, diga-me se existe nesta unidade sanitária e se esteve em funcionamento nos últimos 3 meses.
+:::
+
+::: {.grelha}
+7.5.2 Cozinha · 7.5.3 Refeitório ou cantina · 7.5.4 Lavandaria · 7.5.5.1 Morgue · 7.5.6 Higiene e limpeza · 7.5.8 Manutenção · 7.5.9 Segurança · 7.5.10 Salão de actos · 7.5.11 Biblioteca · 7.5.12 Residência · 7.5.13 Capela · 7.5.14 Parqueamento · 7.5.15 Ajardinamento · 7.5.17 Videovigilância · 7.5.18 Gabinete do utente
+:::
+
+::: {.respostas}
+Para cada linha: 1 Existe e funcionou nos últimos 3 meses · 2 Existe mas não funcionou nos últimos 3 meses · 3 Não existe
+:::
+
+::: {.nota}
+Mesma razão de 7.4: a escala de três níveis distingue o serviço que existe e funciona do que existe no organigrama. A lista mantém-se por inteiro, incluindo os serviços sem equivalente internacional — capela, ajardinamento, salão de actos —, que são informação de gestão patrimonial com valor próprio.
+:::
+
+## 7.5.5.2 · Gavetas mortuárias [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.enunciado}
+Quantas gavetas mortuárias tem a morgue desta unidade sanitária?
+:::
+
+::: {.respostas}
+- Número inteiro, 0 a 99 · **97** não tem morgue
+:::
+
+## 7.5.18.1 e 7.5.18.2 · Gabinete do Utente [NOVO]{.etiqueta .novo}
+
+::: {.enunciado}
+**7.5.18.1** Existe nesta unidade sanitária um procedimento de rotina para recolher ou reportar a opinião dos utentes?
+
+**7.5.18.2** Com que frequência é analisada a opinião dos utentes?
+:::
+
+::: {.instrucao}
+7.5.18.1: se sim, pedir para ver notas ou relatórios relativos à opinião dos utentes.
+:::
+
+::: {.respostas}
+- **7.5.18.1**: 1 Sim, observado · 2 Sim, referido, não visto · 3 Não → *não fazer 7.5.18.2*
+- **7.5.18.2**: 1 Pelo menos mensalmente · 2 Pelo menos a cada 3 meses · 3 Pelo menos a cada 6 meses · 4 Menos de uma vez a cada 6 meses · 98 Não sabe
+:::
+
+::: {.nota}
+O Gabinete do Utente existe na Ficha como caixa e passa a ter o seu conteúdo medido: não se pergunta apenas se existe, mas se a opinião dos utentes é de facto recolhida e analisada, e com que periodicidade. É a única porta de entrada do instrumento para a perspectiva de quem usa os serviços.
+:::
+
+## 7.5.7 e 7.5.16 · Duas remissões [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.nota}
+**7.5.7** é desenvolvido no domínio 13, Conectividade e meios informáticos. **7.5.16** é desenvolvido nos quesitos 6.5 e 6.6, no domínio 6. Em 7.5 ficam apenas as linhas de remissão, sem caixa a preencher, para que a informação não seja recolhida duas vezes.
+:::
+
+## 7.5.8 · Bloco de manutenção [PARQUEADO]{.etiqueta .parqueado}
+
+::: {.nota}
+A caixa de 7.5.8 mantém-se na lista de três níveis. O bloco completo — cerca de 25 campos para 23 indicadores — fica para o domínio de gestão e é a porta de entrada para duas subáreas inteiras:
+
+**Manutenção de sistemas de infraestrutura** — se é feita manutenção preventiva ou correctiva, se existe plano de manutenção, e uma lista de 9 sistemas: electricidade, água, saneamento e esgotos, incinerador, ventilação ou ar condicionado, oxigénio central, altifalantes e comunicações, extintores e computadores, cada um com a escala «rotineiramente / às vezes, não rotineiramente / nunca / não aplicável».
+
+**Manutenção de equipamento médico, de esterilização e de laboratório** — se é feita inspecção, teste ou manutenção preventiva, se existe plano conforme as recomendações do fabricante, e uma lista de 11 equipamentos: tanques ou concentradores de oxigénio, ventiladores, frigoríficos de vacinas, medicamentos ou sangue, incubadoras, autoclaves eléctricas, esterilizadores eléctricos de calor seco, analisador de hematologia, analisador de bioquímica, aparelho de raios X, TAC e ecógrafo.
+
+**É candidato legítimo a entrar nesta ronda**, e está na lista de decisões da nota de apresentação: a manutenção é o lugar onde a diferença entre a contagem de equipamento (domínio 9) e a sua verificação se explica.
+:::

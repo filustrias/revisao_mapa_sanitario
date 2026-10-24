@@ -1,0 +1,95 @@
+---
+title: "Secção 4 — Construção"
+---
+
+{{< include ../_legenda.qmd >}}
+
+Todos os campos se mantêm. As mudanças são de instrução: dizer o que conta e o que não conta em cada contagem, e dar código próprio ao «não sabe» para que a ausência de dado não seja registada como zero.
+
+[8 campos.]{.campos}
+
+## 4.1 e 4.2 Edifícios e superfície da unidade [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+**4.1** Quantos edifícios, no total, compõem esta unidade sanitária?
+
+**4.2** Qual é a superfície total coberta desses edifícios, em metros quadrados?
+:::
+
+::: {.instrucao}
+Contar todos os edifícios dentro do recinto utilizados pela unidade, incluindo os de apoio — armazém, cozinha, lavandaria, morgue. Não contar residências dos trabalhadores, que são contadas em 4.3. Não contar edifícios em ruína ou sem qualquer utilização.
+:::
+
+::: {.respostas}
+- **4.1**: 2 dígitos · **4.2**: 4 dígitos, **9998** se não souber
+:::
+
+::: {.nota}
+**Porque mudou.** O Guião diz apenas «sem contar as Residências dos Trabalhadores». Faltava dizer o resto: se os edifícios de apoio contam (contam) e se as ruínas contam (não contam). Sem isso, duas unidades iguais dão números diferentes.
+:::
+
+## 4.3 e 4.4 Residências dos trabalhadores [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+**4.3** Quantas residências para trabalhadores existem no recinto desta unidade ou sob a sua responsabilidade?
+
+**4.4** Qual é a superfície total coberta dessas residências, em metros quadrados?
+:::
+
+::: {.respostas}
+- **4.3**: 2 dígitos · **4.4**: 4 dígitos, **9998** se não souber
+:::
+
+::: {.nota}
+Mantém-se o que existe, acrescentando «ou sob a sua responsabilidade», porque há unidades com residências fora do recinto que são, para todos os efeitos, suas. É informação com peso directo na retenção de pessoal em zonas rurais.
+:::
+
+## 4.5 e 4.6 Ano e período de construção [ALTERADO]{.etiqueta .alterado} [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.enunciado}
+**4.5** Em que ano foi concluída a construção do edifício principal desta unidade?
+
+**4.6** Em que período foi construído o edifício principal?
+:::
+
+::: {.instrucao}
+4.5: se o edifício foi substancialmente reconstruído, indicar o ano da reconstrução. 4.6: ler as opções; serve para classificar os casos em que o ano exacto não é conhecido.
+:::
+
+::: {.respostas}
+- **4.5**: 4 dígitos · **9998** Não sabe
+- **4.6**:
+  1. Colonial
+  2. 1976–2002
+  3. 2003–2008
+  4. 2009–2014
+  5. 2015 em diante
+  98. Não sabe
+:::
+
+::: {.nota}
+O período (4.6) mantém-se exactamente como está, incluindo as cinco categorias, que correspondem a ciclos reconhecíveis de investimento público. No ano (4.5) acrescenta-se a instrução sobre reconstrução e o código 9998, porque o campo é hoje «não obrigatório» e fica em branco com frequência — e um branco não se distingue de um desconhecimento.
+:::
+
+## 4.7 Material de construção [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado}
+Qual é o material predominante das paredes exteriores do edifício principal?
+:::
+
+::: {.instrucao}
+Marcar uma única opção — o material que cobre a maior parte da superfície das paredes.
+:::
+
+::: {.respostas}
+1. Pau a pique
+2. Adobe
+3. Tijolo cozido
+4. Bloco de cimento
+5. Betão
+96. Outro *(especificar)*
+:::
+
+::: {.nota}
+**Porque mudou.** A Ficha junta numa só opção «tijolo – bloco», que são materiais com durabilidade e custo de manutenção diferentes. Separá-los não acrescenta caixa nenhuma e melhora a leitura para efeitos de planeamento de reabilitação. O enunciado passa a dizer «paredes exteriores» e «predominante», que é o critério que o preenchimento já usa sem estar escrito.
+:::

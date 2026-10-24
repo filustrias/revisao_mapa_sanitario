@@ -18,12 +18,31 @@ book:
     collapse-level: 2
   chapters:
     - index.qmd
-    - formulario.qmd
+    - part: formulario.qmd
+      chapters:
+        - formulario/00-identificacao.qmd
+        - formulario/01-localizacao.qmd
+        - formulario/02-propriedade-gestao.qmd
+        - formulario/03-populacao-referencia.qmd
+        - formulario/04-construcao.qmd
+        - formulario/05-estado-fisico.qmd
+        - formulario/06-agua-energia-saneamento.qmd
+    - part: formulario/07-servicos.qmd
+      chapters:
+        - formulario/07-1-clinicos-cirurgicos.qmd
+        - formulario/07-2-apoio.qmd
+        - formulario/07-3-saude-publica.qmd
+        - formulario/07-4-gestao.qmd
+        - formulario/07-5-gerais.qmd
+    - part: "Por transcrever"
+      chapters:
+        - formulario/08-13-por-transcrever.qmd
 
 format:
   html:
     theme: cosmo
     css: estilos.css
+    include-after-body: comentar.html
     toc: true
     toc-depth: 3
     toc-title: "Nesta página"

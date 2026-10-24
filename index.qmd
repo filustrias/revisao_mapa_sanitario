@@ -11,7 +11,7 @@ O capítulo seguinte mostra, secção a secção e quesito a quesito, **o que se
 O que este documento **não** é: não é a justificação técnica de cada decisão de desenho. Essa está na matriz de decisão da adaptação, uma folha de cálculo com uma linha por quesito e catorze colunas, que registra o item original, o item proposto, o tipo de mudança, o indicador gerado, a explicação da decisão e o seu estado. A matriz é a fonte; este documento é a face legível dela. Quando um comentário aqui diz que um quesito foi reformulado, a razão completa está na coluna «Explicação» da linha correspondente da matriz.
 
 ::: {.callout-note appearance="simple"}
-**Estado da proposta.** As secções 0 a 7 estão transcritas por inteiro, incluindo a secção 7 — serviços oferecidos. Os domínios 8 a 13 estão escritos na matriz e serão transcritos na próxima edição; o fim do formulário identifica-os com o respectivo volume. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.
+**Estado da proposta.** A secção 7 — serviços oferecidos — está escrita por inteiro. Os domínios 0 a 6 e 8 a 13 estão escritos. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.
 :::
 
 ## Um formulário único para toda a rede
@@ -67,7 +67,7 @@ Isto não é uma subtileza de redacção. Se a porta fosse o órgão, perderíam
 
 **Segunda: é a resposta que decide o percurso, nunca o tipo de unidade.** Nenhum salto deste formulário é accionado pelo tipo de unidade sanitária, e há razão para isso em cada caso: há postos com camas e centros de saúde sem internamento; há centros de saúde que seguem trezentos hipertensos e hospitais que não têm cardiologista. O percurso é decidido pelo que a unidade responde sobre si mesma.
 
-**Terceira: quase tudo é autorreferido.** A arquitectura da proposta assenta em perguntas declaradas, respondidas pelo responsável da unidade, porque é isso que torna possível um censo de toda a rede. A observação física aparece em três lugares apenas — a contagem de camas e de macas, a grelha de verificação do equipamento básico, e o estado dos aparelhos —, e esses estão assinalados. Cada quesito indica o seu modo de recolha, e a secção 0 tem um campo (0.5) que registra se a unidade foi efectivamente visitada: sem ele, na análise, não se distingue «não tem» de «não foi verificado».
+**Terceira: quase tudo é autorreferido.** A arquitectura da proposta assenta em perguntas declaradas, respondidas pelo responsável da unidade, porque é isso que torna possível um censo de toda a rede. A observação física aparece em poucos lugares, todos assinalados no texto: a contagem de camas e de macas, a grelha de verificação do equipamento básico, o estado dos aparelhos, a água disponível no recinto (6.1.3), o incinerador e o seu combustível (6.5.3 e 6.5.4), e três dos cinco quesitos do sistema de referência (3.5, 3.6 e 3.7), que pedem para ver o documento e cujos indicadores contam apenas a resposta «observado». Cada quesito indica o seu modo de recolha, e a secção 0 tem um campo (0.5) que registra se a unidade foi efectivamente visitada: sem ele, na análise, não se distingue «não tem» de «não foi verificado».
 
 ## O que se mantém
 
