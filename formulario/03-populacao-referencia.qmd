@@ -66,15 +66,19 @@ Indicadores do HHFA: 1.1.1.1.1 a 1.1.1.1.4, 1.2.2.1.1 a 1.2.2.4.8 e 1.4.1.1.1 a 
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Qual é a população total residente na área de abrangência **directa** desta unidade sanitária, de acordo com a estimativa mais recente de que a unidade dispõe?
 :::
 
-::: {.instrucao}
-Não incluir a população das áreas servidas por unidades que referem doentes para esta unidade; essa população é contada na ficha de cada uma dessas unidades. Anotar 999998 se a unidade não dispuser de estimativa.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Não incluir a população das áreas servidas por unidades que referem doentes para esta unidade; essa população é contada na ficha de cada uma dessas unidades. Anotar 999998 se a unidade não dispuser de estimativa.
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - Campo numérico, 6 dígitos
 :::
 
@@ -95,13 +99,17 @@ Indicador do HHFA: nenhum · qualifica o denominador de 27 indicadores
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **3.1.1** De onde provém essa estimativa da população?
 
 **3.1.2** A que ano se refere essa estimativa?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - **3.1.1**:
   1. Censo nacional
   2. Projecção do Instituto Nacional de Estatística
@@ -134,15 +142,19 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Quantas unidades sanitárias referem habitualmente doentes para esta unidade?
 :::
 
-::: {.instrucao}
-Contar apenas as unidades que têm esta como referência de nível superior. Anotar 00 se nenhuma.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Contar apenas as unidades que têm esta como referência de nível superior. Anotar 00 se nenhuma.
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - Campo numérico, 2 dígitos
 :::
 
@@ -161,17 +173,21 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **3.2.1** Para que unidade sanitária são habitualmente transferidos os doentes desta unidade que necessitam de cuidados de nível superior?
 
 **3.2.2** Designação dessa unidade. **3.2.3** Código do Mapa Sanitário dessa unidade.
 :::
 
-::: {.instrucao}
-Obrigatório, e um só. Categoria segundo a lista do Mapa Sanitário.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Preenchimento obrigatório: indicar uma só unidade de referência superior. Categoria segundo a lista do Mapa Sanitário.
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - **3.2.1** Categoria: lista de 6 (CS, CMI, CSR, HM, HP e hospital de referência ou nacional)
 - **3.2.2** Designação: texto
 - **3.2.3** Código: 6 dígitos
@@ -192,17 +208,21 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **3.2.4** Qual é o meio de transporte mais frequentemente utilizado para transferir doentes desta unidade, nos últimos 12 meses?
 
 **3.2.5** Distância total em quilómetros pelo percurso habitual. **3.2.6** Quantos desses quilómetros são em estrada asfaltada. **3.2.7** Quantos são em estrada de terra ou picada. **3.2.8** Tempo em minutos na época seca. **3.2.9** Tempo em minutos na época das chuvas.
 :::
 
-::: {.instrucao}
-A distância é medida pela estrada efectivamente percorrida, não em linha recta.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — A distância é medida pela estrada efectivamente percorrida, não em linha recta.
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - **3.2.4**:
   1. Ambulância desta unidade
   2. Ambulância de outra unidade ou da Direcção Municipal
@@ -237,15 +257,19 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **3.3.1** Esta unidade envia habitualmente algum grupo específico de doentes para uma unidade diferente da indicada em 3.2.1? Se sim, para que tipo de doentes?
 
 **3.3.2** Categoria. **3.3.3** Designação. **3.3.4** Código do Mapa Sanitário. **3.3.5** Distância total em quilómetros. **3.3.6** Tempo em minutos na época seca.
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - **3.3.1**:
-  0. Não → *se Não, saltar para a secção 4*
+  0. Não
   1. Obstetrícia e maternidade
   2. Pediatria
   3. Cirurgia
@@ -257,6 +281,10 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
   96. Outro *(especificar)*
 - **3.3.2** a **3.3.4**: como no nó superior
 - **3.3.5** e **3.3.6**: quilómetros e minutos, 3 dígitos; 997 intransitável, 998 não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 3.3.1 for «Não», saltar para a secção 4.
 :::
 
 ::: {.nota}

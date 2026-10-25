@@ -33,16 +33,18 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário; nenhum instrume
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Vou ler uma lista de especialidades clínicas. Para cada uma, diga-me se esta unidade sanitária oferece atendimento regular nessa especialidade. Se oferece: quantos especialistas atendem nesse serviço, quantos turnos de atendimento há por semana, e se os doentes marcam a consulta directamente ou precisam de uma carta de encaminhamento de outro serviço.
 :::
 
-::: {.instrucao}
-Não considerar atendimentos ocasionais nem consultas suspensas há mais de 3 meses. Se a resposta na coluna A for «Não», passar à especialidade seguinte.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Quatro perguntas por especialidade (colunas A a D). Não considerar atendimentos ocasionais nem consultas suspensas há mais de 3 meses. Se a resposta na coluna A for «Não», passar à especialidade seguinte.
 :::
 
-::: {.grelha}
-Quatro perguntas por especialidade.
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
 
 - **A · Oferece atendimento?** 1 Sim · 2 Não
 - **B · Quantos especialistas atendem neste serviço?** número, 2 dígitos — **00** se o atendimento é prestado por outro profissional, sem especialista nessa área
@@ -118,9 +120,7 @@ Indicadores do HHFA: 1.3.2.4.1 a 1.3.2.4.4
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor · não ler para o respondente]{.rotulo}
-
-Se a resposta for «Não», saltar para 7.1.C.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 7.1.C.
 :::
 
 ::: {.enunciado .rotulado}
@@ -130,9 +130,7 @@ Para cada uma das três condições seguintes, diga-me quais destas funções s�
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor · não ler para o respondente]{.rotulo}
-
-Ler as condições uma a uma e, para cada uma, as quatro funções. Em cada uma das 12 células da grelha (3 condições × 4 funções), marcar 1 Sim ou 2 Não.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler as condições uma a uma e, para cada uma, as quatro funções. Em cada uma das 12 células da grelha (3 condições × 4 funções), marcar 1 Sim ou 2 Não.
 :::
 
 ::: {.grelha .rotulado}
@@ -162,13 +160,17 @@ Indicadores do HHFA: 1.3.2.5.1 e 1.3.2.5.2
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.1.C.1** Esta unidade sanitária presta algum serviço de diagnóstico, tratamento ou seguimento de transtornos mentais, incluindo depressão, ansiedade, psicose ou uso problemático de álcool e outras substâncias?
 
 **7.1.C.2** E de doenças neurológicas, incluindo epilepsia?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada uma: 1 Sim · 2 Não
 :::
 
@@ -187,22 +189,39 @@ Indicadores do HHFA: 1.3.2.4.5 a 1.3.2.4.9
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **Porta.** Esta unidade sanitária presta algum serviço relacionado com cancro — rastreio, diagnóstico, tratamento, seguimento ou cuidados de suporte?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Sim
-2. Não → *se Não, saltar para 7.1.E*
+2. Não
 :::
 
-::: {.enunciado}
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 7.1.E.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 E para cada uma das localizações seguintes?
 :::
 
-::: {.respostas}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 - **7.1.D.1** Cancro do colo do útero · **7.1.D.2** Cancro da mama · **7.1.D.3** Cancro colorrectal · **7.1.D.4** Cancro da próstata
-- Para cada localização: 1 Sim · 2 Não
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Para cada localização: 1 Sim · 2 Não
 :::
 
 ::: {.nota}
@@ -238,34 +257,50 @@ Indicadores do HHFA: 3.6.3.1.1 a 3.6.3.1.10 e 1.3.2.6.1 a 1.3.2.6.3
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **Porta (7.1.E.0).** Esta unidade sanitária presta algum serviço a sobreviventes de violação, de violência sexual ou de violência por parceiro íntimo, ou a crianças vítimas de maus-tratos?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Sim
-2. Não → *se Não, saltar para 7.1.F*
+2. Não
 
 <!-- -->
 
 98. Não sabe
 :::
 
-::: {.enunciado}
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 7.1.F.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.1.E.1** Esta unidade sanitária presta serviços a sobreviventes de violação ou de violência sexual ou por parceiro íntimo?
 
 **7.1.E.2** E a crianças afectadas por maus-tratos?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada caixa: 1 Sim · 2 Não · 98 Não sabe
 :::
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.1.E.3** Para cada prestação seguinte, diga-me se é habitualmente oferecida aos sobreviventes de violação ou de violência por parceiro íntimo nesta unidade sanitária.
 :::
 
-::: {.grelha}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 1. Avaliação e exame forense
 2. Imunização contra a hepatite B
 3. **Profilaxia pós-exposição (PEP) ao VIH**
@@ -276,15 +311,21 @@ Para cada caixa: 1 Sim · 2 Não · 98 Não sabe
 8. Serviços de interrupção da gravidez
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada linha: 1 Sim · 2 Não · 98 Não sabe
 :::
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.1.E.4** Está sempre disponível nesta unidade sanitária um profissional de saúde do mesmo sexo do sobrevivente, para realizar o exame ou para estar presente na sala durante o exame?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Sim
 2. Não
 
@@ -326,28 +367,44 @@ Indicadores do HHFA: 1.3.2.7.1 a 1.3.2.7.7
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **Porta (7.1.29).** Esta unidade sanitária realiza algum procedimento cirúrgico, de pequena ou de grande cirurgia?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Sim
-2. Não → *se Não, saltar para 7.2*
+2. Não
 :::
 
-::: {.enunciado}
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 7.2.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.1.29.1** Realiza procedimentos de pequena cirurgia, isto é, efectuados sob anestesia local, sem necessidade de bloco operatório?
 
 **7.1.29.2** Realiza procedimentos de grande cirurgia, isto é, efectuados sob anestesia geral ou regional, em bloco operatório?
 
 **7.1.29.3** Realiza circuncisão masculina médica voluntária?
 
-**7.1.29.4** Dos três procedimentos seguintes, quais foram realizados nesta unidade nos últimos 12 meses? *Ler os três:* a) cesariana; b) laparotomia; c) tratamento de fractura exposta de osso longo.
+**7.1.29.4** Dos três procedimentos seguintes, quais foram realizados nesta unidade nos últimos 12 meses? a) cesariana; b) laparotomia; c) tratamento de fractura exposta de osso longo.
 
 **7.1.30 a 7.1.34** Realiza procedimentos cirúrgicos em alguma das seguintes áreas de especialidade? Cirurgia pediátrica · maxilofacial · vascular · neurocirurgia · plástica e queimados.
 :::
 
-::: {.respostas}
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em 7.1.29.4, ler os três procedimentos e marcar Sim ou Não para cada um.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Todas as caixas: 1 Sim · 2 Não
 :::
 

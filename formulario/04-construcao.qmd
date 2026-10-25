@@ -31,17 +31,21 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **4.1** Quantos edifícios, no total, compõem esta unidade sanitária?
 
 **4.2** Qual é a superfície total coberta desses edifícios, em metros quadrados?
 :::
 
-::: {.instrucao}
-Contar todos os edifícios dentro do recinto utilizados pela unidade, incluindo os de apoio — armazém, cozinha, lavandaria, morgue. Não contar residências dos trabalhadores, que são contadas em 4.3. Não contar edifícios em ruína ou sem qualquer utilização.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Contar todos os edifícios dentro do recinto utilizados pela unidade, incluindo os de apoio — armazém, cozinha, lavandaria, morgue. Não contar residências dos trabalhadores, que são contadas em 4.3. Não contar edifícios em ruína ou sem qualquer utilização.
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - **4.1**: 2 dígitos · **4.2**: 4 dígitos, **9998** se não souber
 :::
 
@@ -60,13 +64,17 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **4.3** Quantas residências para trabalhadores existem no recinto desta unidade ou sob a sua responsabilidade?
 
 **4.4** Qual é a superfície total coberta dessas residências, em metros quadrados?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - **4.3**: 2 dígitos · **4.4**: 4 dígitos, **9998** se não souber
 :::
 
@@ -87,17 +95,21 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **4.5** Em que ano foi concluída a construção do edifício principal desta unidade?
 
 **4.6** Em que período foi construído o edifício principal?
 :::
 
-::: {.instrucao}
-4.5: se o edifício foi substancialmente reconstruído, indicar o ano da reconstrução. 4.6: ler as opções; serve para classificar os casos em que o ano exacto não é conhecido.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — 4.5: se o edifício foi substancialmente reconstruído, indicar o ano da reconstrução. 4.6: ler as opções; serve para classificar os casos em que o ano exacto não é conhecido.
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - **4.5**: 4 dígitos · **9998** Não sabe
 - **4.6**:
   1. Colonial
@@ -126,15 +138,19 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Qual é o material predominante das paredes exteriores do edifício principal?
 :::
 
-::: {.instrucao}
-Marcar uma única opção — o material que cobre a maior parte da superfície das paredes.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar uma única opção — o material que cobre a maior parte da superfície das paredes.
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Pau a pique
 2. Adobe
 3. Tijolo cozido

@@ -43,14 +43,22 @@ Indicadores do HHFA: 3.2.1.1.1 · 1.3.2.2.1
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Esta unidade sanitária realiza vacinação de rotina, com periodicidade fixa, mesmo que não seja todos os dias?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Sim
-2. Não, apenas em campanhas → *saltar para 7.3.5*
-3. Não → *saltar para 7.3.5*
+2. Não, apenas em campanhas
+3. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não, apenas em campanhas» ou «Não», saltar para 7.3.5.
 :::
 
 ::: {.nota}
@@ -70,11 +78,15 @@ Indicadores do HHFA: 3.2.1.1.6 · 3.2.1.1.7 · 3.2.1.1.8
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Com que periodicidade é realizada a vacinação de rotina das crianças nesta unidade sanitária?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Todos os dias de funcionamento
 2. Semanalmente
 3. Mensalmente
@@ -134,15 +146,17 @@ Indicadores do HHFA: 3.2.1.1.2 a 3.2.1.1.5 · 3.2.1.1.9 a 3.2.1.1.25 · 1.3.2.2.
 
 </details>
 
-::: {.enunciado}
-Para cada vacina seguinte, diga-me se é habitualmente administrada nesta unidade sanitária.
-:::
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
 
-::: {.instrucao}
+Para cada vacina seguinte, diga-me se é habitualmente administrada nesta unidade sanitária.
+
 Considere os últimos 3 meses, e não uma falha pontual de stock.
 :::
 
-::: {.grelha}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 **Dose ao nascer:** 1 Hepatite B · 2 BCG · 3 VOP dose zero.
 
 **Lactente, menos de 1 ano:** 4 BCG · 5 VOP · 6 Pentavalente DTP-Hib-HepB · 7 Rotavírus · 8 VPI · 9 Sarampo · 10 Pneumocócica.
@@ -154,7 +168,9 @@ Considere os últimos 3 meses, e não uma falha pontual de stock.
 **Linha adicional para Angola:** 19 Febre amarela.
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada linha: 1 Sim, habitualmente administrada · 2 Não · 98 Não sabe
 :::
 
@@ -193,12 +209,25 @@ Indicadores do HHFA, se a coluna for incluída: 3.2.1.4.1 a 3.2.1.4.11
 
 </details>
 
-::: {.enunciado}
-Coluna (B) opcional, a acrescentar à grelha de 7.3.1.2: nos últimos 3 meses, houve algum período em que esta vacina não estivesse disponível nesta unidade sanitária?
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Coluna (B) opcional, a acrescentar à grelha de 7.3.1.2. Fazer esta pergunta apenas em 11 das 18 linhas (BCG, VOP, VPI, pentavalente, sarampo, rotavírus, pneumocócica, HPV, raiva, COVID-19, hepatite B).
 :::
 
-::: {.respostas}
-1. Sim · 2 Não · 98 Não sabe — em 11 das 18 linhas (BCG, VOP, VPI, pentavalente, sarampo, rotavírus, pneumocócica, HPV, raiva, COVID-19, hepatite B)
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Nos últimos 3 meses, houve algum período em que esta vacina não estivesse disponível nesta unidade sanitária?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
 :::
 
 ::: {.nota}
@@ -239,12 +268,21 @@ Indicadores do HHFA: 3.1.8.1.1 · 1.3.2.1.1
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Esta unidade sanitária presta cuidados preventivos ou curativos a crianças menores de 5 anos?
 :::
 
-::: {.respostas}
-1. Sim · 2 Não → *saltar para 7.3.6*
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 7.3.6.
 :::
 
 ::: {.nota}
@@ -278,15 +316,21 @@ Indicadores do HHFA: 3.1.8.1.2 a 3.1.8.1.12
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Para cada serviço seguinte, diga-me se é habitualmente prestado a crianças menores de 5 anos nesta unidade sanitária.
 :::
 
-::: {.grelha}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 1 Monitorização do crescimento, com peso e registo no cartão infantil · 2 Diagnóstico ou tratamento da malnutrição · 3 Tratamento em ambulatório da malnutrição aguda grave, com alimento terapêutico · 4 Tratamento em ambulatório da malnutrição moderada, com suplementos alimentares · 5 Tratamento em internamento da malnutrição grave · 6 Suplementação de rotina com vitamina A · 7 Desparasitação de rotina com albendazol ou mebendazol · 8 Diagnóstico e tratamento da anemia · 9 Diagnóstico e tratamento da diarreia com sais de reidratação oral e zinco · 10 Diagnóstico e tratamento de primeira linha da malária · 11 Diagnóstico da malária com teste de sangue · 12 Entrega de rede mosquiteira tratada de longa duração, ou de voucher para a obter
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada linha: 1 Sim, habitualmente prestado · 2 Não · 98 Não sabe
 :::
 
@@ -307,18 +351,26 @@ Indicadores do HHFA: 3.1.2.1.1 · 1.3.2.1.4
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Nesta unidade sanitária realiza-se consulta pré-natal?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Sim, completa
 2. Sim, incompleta
-3. Não é realizada → *saltar para 7.3.7*
+3. Não é realizada
 
 <!-- -->
 
 98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não é realizada», saltar para 7.3.7.
 :::
 
 ::: {.nota}
@@ -357,15 +409,21 @@ Indicadores do HHFA: 3.1.2.1.2 a 3.1.2.1.15
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Para cada prestação seguinte, diga-me se faz habitualmente parte da consulta pré-natal nesta unidade sanitária.
 :::
 
-::: {.grelha}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 1 Suplementação com ferro · 2 Suplementação com ácido fólico · 3 Tratamento intermitente preventivo da malária (TIP) · 4 Entrega de rede mosquiteira tratada, ou de voucher, à grávida · 5 Vacina antitetânica · 6 Vigilância da doença hipertensiva da gravidez · 7 Pesquisa de proteínas na urina · 8 Suplementação com cálcio nas grávidas com risco de pré-eclâmpsia · 9 Aspirina em baixa dose nas grávidas com risco de pré-eclâmpsia · 10 Testagem do VIH · 11 Testagem da sífilis · 12 Tratamento da sífilis · 13 Diagnóstico e tratamento de outras infecções de transmissão sexual · 14 Aconselhamento para prevenção da mutilação genital feminina
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada linha: 1 Sim, faz parte habitualmente · 2 Não · 98 Não sabe
 :::
 
@@ -388,12 +446,25 @@ Indicadores do HHFA: 3.1.3.1.1 · 1.3.2.1.6
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 São atendidos partos nesta unidade sanitária, em sala de partos própria?
 :::
 
-::: {.respostas}
-1. Sim · 2 Não → *saltar para 7.3.8* · 98 Não sabe
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 7.3.8.
 :::
 
 ::: {.nota}
@@ -423,13 +494,17 @@ Indicadores do HHFA: 3.1.3.1.3 · 3.1.3.1.5 · 3.1.4.1.1 · 1.3.2.1.7 · 1.3.2.1
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.3.7.1** Esta unidade tem capacidade para Cuidados Obstétricos e Neonatais de Urgência Básicos (CONU-B)?
 
 **7.3.7.2** E para Cuidados Obstétricos e Neonatais de Urgência Completos (CONU-C)?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada caixa: 1 Sim · 2 Não · 98 Não sabe
 :::
 
@@ -452,15 +527,21 @@ Indicadores do HHFA: 3.1.3.1.4 · 3.1.4.1.2 · 3.1.4.1.3 · 3.1.4.1.4
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Para cada prestação seguinte, diga-me se foi realizada nesta unidade sanitária pelo menos uma vez nos últimos 3 meses.
 :::
 
-::: {.grelha}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 1 Administração parenteral de antibióticos · 2 Administração parenteral de uterotónicos (ocitocina) · 3 Administração parenteral de anticonvulsivantes (sulfato de magnésio) · 4 Remoção manual da placenta · 5 Remoção de restos ovulares · 6 Parto vaginal assistido com ventosa ou fórceps · 7 Reanimação do recém-nascido com insuflador e máscara · 8 Cesariana · 9 Transfusão de sangue
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada linha: 1 Sim, realizada nos últimos 3 meses · 2 Não realizada · 98 Não sabe
 :::
 
@@ -481,11 +562,15 @@ Indicador do HHFA: 3.1.3.1.2
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Os partos são atendidos nesta unidade sanitária 24 horas por dia e todos os dias da semana, por pessoal qualificado — médico, enfermeiro ou parteira com formação?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Sim, 24 horas por dia e todos os dias
 2. Sim, mas com pessoal qualificado de chamada fora do horário
 3. Não
@@ -512,11 +597,15 @@ Indicadores do HHFA: 3.1.6.1.1 · 1.3.2.1.12
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Nesta unidade sanitária realiza-se consulta pós-parto à mãe, ao recém-nascido, ou a ambos?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Sim, à mãe e ao recém-nascido
 2. Sim, apenas à mãe
 3. Sim, apenas ao recém-nascido
@@ -544,23 +633,38 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **Porta (7.3.8.1.0).** Nesta unidade sanitária é realizado algum rastreio ao recém-nascido?
 :::
 
-::: {.respostas}
-1. Sim · 2 Não → *saltar para 7.3.8.2*
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
 :::
 
-::: {.enunciado}
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 7.3.8.2.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Para cada rastreio seguinte, diga-me qual destas três situações descreve o que acontece habitualmente nesta unidade sanitária: o rastreio é realizado aqui; a amostra é recolhida aqui e enviada para análise noutro local, regressando o resultado; ou o rastreio não é obtido por nenhuma destas vias.
 :::
 
-::: {.grelha}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 1 **Rastreio metabólico por punção do calcanhar em papel de filtro (teste do pezinho)** — hipotiroidismo congénito, fenilcetonúria, hiperplasia congénita da suprarrenal e fibrose cística · 2 Pesquisa de hemoglobinopatias no recém-nascido (drepanocitose) · 3 Rastreio auditivo neonatal, por emissões otoacústicas ou potenciais evocados · 4 Rastreio ocular, por reflexo pupilar e teste do reflexo vermelho · 5 Rastreio de cardiopatia congénita crítica por oximetria de pulso nos membros superior e inferior · 6 Rastreio da displasia do desenvolvimento da anca, por manobras de Ortolani e Barlow · 7 Determinação do grupo sanguíneo e factor Rh do recém-nascido · 8 Rastreio da sífilis congénita no recém-nascido de mãe com sífilis
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada linha: 1 Realizado nesta unidade · 2 Amostra recolhida aqui e enviada para fora, com retorno do resultado · 3 Não obtido por nenhuma destas vias · 98 Não sabe
 :::
 
@@ -604,21 +708,33 @@ Indicadores do HHFA, se o bloco for incluído: 3.1.7.1.1 a 3.1.7.1.11 · 1.3.2.1
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **Porta.** Esta unidade sanitária presta cuidados em internamento ao recém-nascido pequeno ou doente? E, se sim, existe uma unidade de cuidados especiais para esse fim?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Sim, com unidade de cuidados especiais
 2. Sim, sem unidade de cuidados especiais
-3. Não → *terminar o bloco*
+3. Não
 :::
 
-::: {.grelha}
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», terminar o bloco.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 1 Método canguru · 2 Método canguru efectivamente praticado nos últimos 3 meses · 3 Alimentação alternativa quando o recém-nascido não consegue mamar · 4 Protecção térmica · 5 Administração de oxigénio · 6 Reidratação intravenosa · 7 Exsanguineotransfusão · 8 Ventilação artificial · 9 Antibióticos injectáveis para sépsis neonatal · 10 Fototerapia para icterícia neonatal
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada linha: 1 Sim, rotineiramente disponível quando necessário · 2 Não · 98 Não sabe
 :::
 
@@ -661,23 +777,38 @@ Indicadores do HHFA: 3.1.1.1.1 a 3.1.1.1.14 · 1.3.2.1.3
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **Porta.** Esta unidade sanitária oferece serviços de planeamento familiar?
 :::
 
-::: {.respostas}
-1. Sim · 2 Não → *saltar para 7.3.10*
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
 :::
 
-::: {.enunciado}
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 7.3.10.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Para cada método seguinte, diga-me se é habitualmente fornecido nesta unidade sanitária.
 :::
 
-::: {.grelha}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 1 Pílula combinada de estrogénio e progestagénio · 2 Pílula só de progestagénio · 3 Injectável combinado · 4 Injectável só de progestagénio · 5 Preservativo masculino · 6 Preservativo feminino · 7 Dispositivo intra-uterino (DIU) · 8 Implante subcutâneo · 9 Contracepção de emergência · 10 Colar do ciclo · 11 Esterilização masculina · 12 Esterilização feminina
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada linha: 1 Sim, habitualmente fornecido · 2 Não · 98 Não sabe
 :::
 
@@ -698,12 +829,25 @@ Indicadores do HHFA: 3.2.4.1.1 · 1.3.2.3.2 · 1.3.2.3.3
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **Porta.** Esta unidade sanitária realiza aconselhamento e testagem do VIH?
 :::
 
-::: {.respostas}
-1. Sim · 2 Não → *saltar para 7.3.12* · 98 Não sabe
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 7.3.12.
 :::
 
 ::: {.nota}
@@ -731,13 +875,22 @@ Indicadores do HHFA: 3.2.4.1.2 a 3.2.4.1.4 · 3.2.7.1.2 · 3.2.7.1.3
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 A quem é habitualmente oferecida a testagem do VIH nesta unidade sanitária?
 :::
 
-::: {.respostas}
-- 1 Crianças menores de 5 anos · 2 Crianças de 5 a 14 anos · 3 Adolescentes e adultos
-- Para cada linha: 1 Sim · 2 Não · 98 Não sabe
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+1 Crianças menores de 5 anos · 2 Crianças de 5 a 14 anos · 3 Adolescentes e adultos
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Para cada linha: 1 Sim · 2 Não · 98 Não sabe
 :::
 
 ::: {.nota}
@@ -755,29 +908,43 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.3.10.2.1** Esta unidade sanitária fornece profilaxia pré-exposição (PrEP) ao VIH a pessoas com risco elevado de infecção?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Sim, inicia e segue
 2. Sim, apenas segue quem iniciou noutra unidade
-3. Não → *saltar para 7.3.10.3*
+3. Não
 
 <!-- -->
 
 98. Não sabe
 :::
 
-::: {.enunciado}
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 7.3.10.3.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 E a que grupos é habitualmente oferecida a PrEP nesta unidade sanitária?
 :::
 
-::: {.grelha}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 2 Parceiro ou parceira de pessoa com VIH em casal serodiscordante · 3 Grávidas e lactantes com risco elevado · 4 Adolescentes e jovens com risco elevado · 5 Trabalhadoras e trabalhadores do sexo · 6 Outras populações-chave definidas pelo PNLS
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada linha: 1 Sim · 2 Não · 98 Não sabe
 :::
 
@@ -802,7 +969,9 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.3.10.3.1** Esta unidade sanitária fornece profilaxia pós-exposição (PEP) ao VIH ao pessoal de saúde após exposição ocupacional, como um acidente com material biológico ou picão?
 
 **7.3.10.3.2** E após exposição sexual de risco que não decorra de violência?
@@ -810,7 +979,9 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 **7.3.10.3.3** Existe nesta unidade sanitária um protocolo escrito de PEP, que inclua a janela de 72 horas e o esquema a utilizar?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - **7.3.10.3.1** e **7.3.10.3.2**: 1 Sim, a qualquer hora do dia ou da noite · 2 Sim, apenas no horário de funcionamento · 3 Não · 98 Não sabe
 - **7.3.10.3.3**: 1 Sim, observado · 2 Sim, referido, não visto · 3 Não
 :::
@@ -836,12 +1007,25 @@ Indicadores do HHFA: 3.2.5.1.1 · 1.3.2.3.5
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Esta unidade sanitária presta serviços de tratamento antirretroviral de longa duração, ou de seguimento de doentes já em tratamento?
 :::
 
-::: {.respostas}
-1. Sim · 2 Não → *saltar para 7.3.11* · 98 Não sabe
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 7.3.11.
 :::
 
 ::: {.nota}
@@ -871,13 +1055,22 @@ Indicadores do HHFA: 3.2.5.1.2 a 3.2.5.1.4 · 3.2.7.1.1 · 3.2.7.1.4 · 3.2.7.1.
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 A que grupos é habitualmente prestado o tratamento antirretroviral nesta unidade sanitária?
 :::
 
-::: {.respostas}
-- 1 Crianças menores de 5 anos · 2 Crianças de 5 a 14 anos · 3 Adolescentes e adultos
-- Para cada linha: 1 Sim, início e seguimento · 2 Sim, apenas seguimento de doentes já em tratamento · 3 Não · 98 Não sabe
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+1 Crianças menores de 5 anos · 2 Crianças de 5 a 14 anos · 3 Adolescentes e adultos
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Para cada linha: 1 Sim, início e seguimento · 2 Sim, apenas seguimento de doentes já em tratamento · 3 Não · 98 Não sabe
 :::
 
 ::: {.nota}
@@ -897,15 +1090,21 @@ Indicadores do HHFA: 3.2.5.1.5 · 3.2.5.1.6 · 3.2.5.1.7
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Para cada prestação seguinte, diga-me se é habitualmente feita nesta unidade sanitária aos doentes em tratamento antirretroviral.
 :::
 
-::: {.grelha}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 1 Aconselhamento de adesão ao tratamento · 2 Seguimento clínico do doente em tratamento · 3 Seguimento da adesão ao longo do tempo · 4 Prescrição ou dispensa dos antirretrovirais
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada linha: 1 Sim · 2 Não · 98 Não sabe
 :::
 
@@ -926,11 +1125,15 @@ Indicadores do HHFA: 3.2.8.1.1 · 1.3.2.1.5
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Esta unidade sanitária presta serviços de prevenção da transmissão vertical do VIH — isto é, antirretrovirais à grávida ou à puérpera seropositiva, e profilaxia ao recém-nascido exposto?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Sim, à mãe e ao recém-nascido
 2. Sim, apenas à mãe
 3. Sim, apenas ao recém-nascido
@@ -960,12 +1163,21 @@ Indicadores do HHFA: 3.2.6.1.1 · 1.3.2.3.4
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Esta unidade sanitária presta cuidados e apoio a pessoas que vivem com VIH, para além do tratamento antirretroviral — por exemplo tratamento de infecções oportunistas, profilaxia, aconselhamento ou apoio nutricional?
 :::
 
-::: {.respostas}
-1. Sim · 2 Não · 98 Não sabe
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
 :::
 
 ::: {.nota}
@@ -983,12 +1195,25 @@ Indicadores do HHFA: 3.2.3.1.1 · 1.3.2.3.7
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Esta unidade sanitária presta algum serviço relacionado com a tuberculose — diagnóstico, tratamento, seguimento de doentes, ou rastreio de contactos?
 :::
 
-::: {.respostas}
-1. Sim · 2 Não → *saltar para 7.3.14.A* · 98 Não sabe
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 7.3.14.A.
 :::
 
 ::: {.nota}
@@ -1008,11 +1233,15 @@ Indicadores do HHFA: 3.2.3.1.3 · 1.3.2.3.8
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Esta unidade sanitária realiza exames de diagnóstico da tuberculose, recolhe amostras para serem analisadas noutro local, ou encaminha doentes para as realizarem noutra unidade?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Realizados nesta unidade sanitária
 2. Amostra recolhida aqui e enviada para fora, com retorno do resultado
 3. Doente encaminhado para outra unidade
@@ -1040,15 +1269,21 @@ Indicadores do HHFA: 3.2.3.1.4 a 3.2.3.1.6 · 1.3.2.3.9
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Para cada prestação seguinte, diga-me se é habitualmente feita nesta unidade sanitária aos doentes com tuberculose.
 :::
 
-::: {.grelha}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 1 Seguimento clínico e prescrição dos medicamentos anti-TB · 2 Redispensa dos medicamentos anti-TB nas consultas de seguimento · 3 Apoio à adesão, incluindo o tratamento directamente observado (DOTS), de acordo com as normas do PNLTB
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada linha: 1 Sim · 2 Não · 98 Não sabe
 :::
 
@@ -1069,7 +1304,9 @@ Indicadores do HHFA: 3.2.3.1.7 · 3.2.3.1.2 · 3.2.3.1.9
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.3.13.3** A todos os doentes com tuberculose diagnosticada nesta unidade sanitária é oferecida, como rotina, a testagem do VIH?
 
 **7.3.13.4** Esta unidade sanitária presta algum serviço a doentes com tuberculose resistente aos medicamentos?
@@ -1077,7 +1314,9 @@ Indicadores do HHFA: 3.2.3.1.7 · 3.2.3.1.2 · 3.2.3.1.9
 **7.3.13.5** Existe nesta unidade sanitária um quarto ou enfermaria de isolamento dedicado, para doentes com tuberculose ou outra infecção de transmissão aérea?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - **7.3.13.3**: 1 Sim, como rotina a todos · 2 Apenas a alguns · 3 Não · 98 Não sabe
 - **7.3.13.4**: 1 Sim · 2 Não · 98 Não sabe
 - **7.3.13.5**: 1 Sim · 2 Não · 97 A unidade não tem internamento · 98 Não sabe
@@ -1115,29 +1354,61 @@ Indicadores do HHFA: 3.2.2.1.1 a 3.2.2.1.6 · 3.2.2.1.8 · 1.3.2.3.1
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **Porta (7.3.14.A).** Esta unidade sanitária presta algum serviço relacionado com a malária — diagnóstico, tratamento ou prevenção?
 :::
 
-::: {.respostas}
-1. Sim · 2 Não → *saltar para 7.3.15* · 98 Não sabe
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
 :::
 
-::: {.enunciado}
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 7.3.15.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.3.14.B** Como é habitualmente diagnosticada a malária nesta unidade sanitária? Indique todas as vias utilizadas.
 :::
 
-::: {.grelha}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 1 Teste rápido de diagnóstico (TDR) · 2 Microscopia — gota espessa ou esfregaço · 3 **Apenas por sinais e sintomas clínicos, sem teste**
 :::
 
-::: {.enunciado}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Para cada linha: 1 Sim, via utilizada · 2 Não · 98 Não sabe
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.3.14.C** Esta unidade sanitária trata casos de malária, de acordo com o protocolo nacional?
 :::
 
-::: {.respostas}
-- **7.3.14.B**: para cada linha, 1 Sim, via utilizada · 2 Não · 98 Não sabe
-- **7.3.14.C**: 1 Sim, casos simples e casos graves · 2 Sim, apenas casos simples · 3 Não, apenas refere · 98 Não sabe
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, casos simples e casos graves
+2. Sim, apenas casos simples
+3. Não, apenas refere
+
+<!-- -->
+
+98. Não sabe
 :::
 
 ::: {.nota}
@@ -1159,12 +1430,21 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Esta unidade sanitária distribui redes mosquiteiras tratadas de longa duração de forma regular, isto é, durante mais de 6 meses no ano?
 :::
 
-::: {.respostas}
-1. Sim · 2 Não · 98 Não sabe
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
 :::
 
 ::: {.nota}
@@ -1184,17 +1464,21 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.3.15** A partir desta unidade sanitária realizam-se periodicamente brigadas móveis de vacinação na área de referência, a 10 km ou mais?
 
 **7.3.16** E equipas avançadas de vacinação na área de referência, a menos de 10 km?
 :::
 
-::: {.instrucao}
-Em ambos: inclui postos avançados. Exclui campanhas de vacinação e brigadas organizadas pela delegação ou secção municipal, mesmo com participação de pessoal desta unidade.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em ambos: inclui postos avançados. Exclui campanhas de vacinação e brigadas organizadas pela delegação ou secção municipal, mesmo com participação de pessoal desta unidade.
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada: 1 Sim · 2 Não · 98 Não sabe
 :::
 
@@ -1217,15 +1501,23 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.3.17** Existem Agentes de Desenvolvimento Comunitário e de Saúde (ADECOS) a trabalhar a partir desta unidade sanitária?
 
 **7.3.17.0** Se sim, quantos?
 :::
 
-::: {.respostas}
-- **7.3.17**: 1 Sim · 2 Não → *saltar para 7.4*
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **7.3.17**: 1 Sim · 2 Não
 - **7.3.17.0**: número, 000 a 999
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 7.3.17 for «Não», não perguntar 7.3.17.0 e saltar para 7.4.
 :::
 
 ::: {.nota}
@@ -1256,15 +1548,21 @@ Indicadores do HHFA: 3.1.1.1.15 · 3.1.2.1.16 · 3.1.8.1.13 · 3.2.2.1.7 · 3.2.
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Para cada área seguinte, diga-me se existe articulação regular entre esta unidade sanitária e os ADECOS — por exemplo encaminhamento de casos, contra-referência, seguimento conjunto de doentes ou reuniões periódicas.
 :::
 
-::: {.grelha}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 1 Planeamento familiar · 2 Consulta pré-natal · 3 Cuidados à criança menor de 5 anos · 4 Malária · 5 Tuberculose · 6 VIH
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada linha: 1 Sim, articulação regular · 2 Não · 98 Não sabe
 :::
 

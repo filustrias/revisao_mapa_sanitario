@@ -34,11 +34,15 @@ Indicador do HHFA: nenhum · data de referência da recolha
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Qual é a data em que esta ficha foi preenchida ou em que esta unidade sanitária foi visitada?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - **0.1.1** Dia — 01 a 31
 - **0.1.2** Mês — 01 a 12
 - **0.1.3** Ano — quatro dígitos
@@ -63,13 +67,17 @@ Indicador do HHFA: nenhum · medida de planeamento e de qualidade do dado
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **0.3** A que hora começou o preenchimento desta ficha?
 
 **0.4** A que hora terminou o preenchimento desta ficha?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - Cada uma em horas e minutos, no formato de 24 horas (hh:mm)
 :::
 
@@ -90,11 +98,15 @@ Indicador do HHFA: nenhum · condiciona o denominador dos indicadores observados
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 De que forma foi feita esta recolha de dados?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Presencial, com visita às instalações e observação dos itens
 2. Presencial, sem observação dos itens
 3. Autorreferido em papel, enviado ao GEPE
@@ -123,11 +135,15 @@ Indicador do HHFA: nenhum · define o universo de todos os indicadores
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Qual era a situação desta unidade sanitária no momento da recolha?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Encontrada e em funcionamento
 2. Encontrada, mas fechada ou inactiva à data da recolha
 3. Encontrada, mas em obras ou a funcionar em instalações provisórias
@@ -152,15 +168,19 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Qual foi a data da visita anterior a esta unidade sanitária?
 :::
 
-::: {.instrucao}
-Se a unidade nunca foi visitada anteriormente, marcar a caixa 0.7.4 e deixar as restantes em branco.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a unidade nunca foi visitada anteriormente, marcar a caixa 0.7.4 e deixar as restantes em branco.
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - **0.7.1** Dia — 01 a 31
 - **0.7.2** Mês — 01 a 12
 - **0.7.3** Ano — quatro dígitos
@@ -186,11 +206,15 @@ Indicador do HHFA: nenhum · rastreabilidade da recolha
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Quem recolheu os dados desta ficha?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - **0.8.1** Nome e apelidos — texto
 - **0.8.2** Instituição ou nível a que pertence:
   1. GEPE, nível central
@@ -222,11 +246,15 @@ Indicador do HHFA: nenhum nesta fase · quesito parqueado
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Esta unidade sanitária tem orçamento próprio?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Tem orçamento próprio
 
 <!-- -->

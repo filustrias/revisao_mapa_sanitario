@@ -29,15 +29,19 @@ Indicador do HHFA: nenhum · estratificador da análise
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 A quem pertence esta unidade sanitária, isto é, quem é o proprietário das instalações e do equipamento?
 :::
 
-::: {.instrucao}
-Marcar uma única opção.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar uma única opção.
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Pública — Serviço Nacional de Saúde
 2. Pública — Polícia ou Forças Armadas
 3. Pública — outra instituição do Estado (universidade, empresa pública)
@@ -65,15 +69,19 @@ Indicador do HHFA: nenhum · estratificador da análise
 
 </details>
 
-::: {.enunciado}
-Que entidade é responsável pela gestão corrente desta unidade — isto é, quem toma as decisões de política, nomeia a direcção e exerce a supervisão?
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Que entidade é responsável pela gestão corrente desta unidade — isto é, quem toma as decisões de política, nomeia a direcção e exerce a supervisão? Pode ser diferente do proprietário indicado em 2.1.
 :::
 
-::: {.instrucao}
-Pode ser diferente do proprietário indicado em 2.1. Marcar uma única opção.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar uma única opção.
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Pública — Ministério ou Direcção Nacional
 2. Pública — Direcção Provincial de Saúde
 3. Pública — Administração Municipal

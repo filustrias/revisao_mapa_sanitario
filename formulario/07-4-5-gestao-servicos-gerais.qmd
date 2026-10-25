@@ -38,15 +38,21 @@ Indicadores do HHFA: 4.1.1.2.1, 4.1.1.2.2, 4.1.1.2.3 e 4.1.1.2.8
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Vou ler uma lista de serviços e órgãos de gestão. Para cada um, diga-me se existe nesta unidade sanitária e se esteve em funcionamento nos últimos 3 meses.
 :::
 
-::: {.grelha}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 7.4.1 Admissão e arquivo clínico-estatístico · 7.4.2 Direcção geral · 7.4.3 Direcção clínica · 7.4.4 Direcção pedagógica · 7.4.5 Administração · 7.4.6 Chefias · 7.4.7 Recursos humanos · 7.4.8 Escola de formação de técnicos de saúde · 7.4.9.1 Núcleo de formação permanente — campo de estágio médico · 7.4.9.2 Núcleo de formação permanente — campo de estágio de enfermagem · 7.4.10 Informática e estatística · 7.4.11 Assistência social · 7.4.12 Comissão de ética e deontologia · 7.4.13 Comissão de infecções hospitalares · 7.4.14 Comissão de óbitos hospitalares · 7.4.15 Comissão de medicamentos · 7.4.16 Comissão de segurança no trabalho · 7.4.17 Comissão de disciplina e auditoria
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada linha:
 
 1. Existe e funcionou nos últimos 3 meses
@@ -82,8 +88,12 @@ Indicadores do HHFA: 4.4.3.1.1 a 4.4.3.1.6
 
 </details>
 
-::: {.enunciado}
-**Porta:** respondem apenas as unidades que declararam ter internamento no quesito 8.0.1.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Fazer este bloco apenas nas unidades que declararam ter internamento no quesito 8.0.1.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
 
 **7.4.14.1** Esta unidade sanitária realiza rotineiramente revisões formais de casos de doentes que não faleceram, em que o manejo individual do doente é analisado quanto à qualidade e ao potencial de melhoria?
 
@@ -98,13 +108,21 @@ Indicadores do HHFA: 4.4.3.1.1 a 4.4.3.1.6
 **7.4.14.6** Foi realizada alguma revisão formal de óbito nos últimos 3 meses completos?
 :::
 
-::: {.respostas}
-- **7.4.14.1**: 1 Sim · 2 Não → *passar a 7.4.14.4*
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **7.4.14.1**: 1 Sim · 2 Não
 - **7.4.14.2**: 1 Pelo menos semanalmente · 2 Pelo menos mensalmente · 3 Pelo menos trimestralmente · 4 Sem periodicidade definida
 - **7.4.14.3**: 1 Sim · 2 Não
-- **7.4.14.4**: 1 Sim · 2 Não · 3 Nunca houve óbito nesta unidade → *se 2 ou 3, terminar o bloco*
+- **7.4.14.4**: 1 Sim · 2 Não · 3 Nunca houve óbito nesta unidade
 - **7.4.14.5**: para cada uma das três linhas, 1 Sim · 2 Não
 - **7.4.14.6**: 1 Sim · 2 Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em 7.4.14.1, se a resposta for «Não», passar a 7.4.14.4.
+
+Em 7.4.14.4, se a resposta for «Não» ou «Nunca houve óbito nesta unidade», terminar o bloco.
 :::
 
 ::: {.nota}
@@ -126,15 +144,23 @@ Indicadores do HHFA: 4.4.1.1.4 a 4.4.1.1.6
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.4.13.1** Vou perguntar sobre a estrutura de gestão da prevenção e controlo de infecções desta unidade sanitária. Para cada item, diga-me se se aplica nesta unidade. — comissão técnica de prevenção e controlo de infecções · reuniões multidisciplinares onde os resultados de prevenção e controlo de infecções são reportados ou analisados
 
 **7.4.13.2** Quando foi a reunião mais recente da comissão de prevenção e controlo de infecções, ou com a pessoa responsável por essa área? Pode ser uma reunião técnica ou uma reunião interdisciplinar em que os resultados tenham sido discutidos.
 :::
 
-::: {.respostas}
-- **7.4.13.1**: para cada linha, 1 Sim · 2 Não · 98 Não sabe → *se ambas as linhas forem 2, não fazer 7.4.13.2*
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **7.4.13.1**: para cada linha, 1 Sim · 2 Não · 98 Não sabe
 - **7.4.13.2**: 1 No último mês · 2 Há 2 a 3 meses · 3 Há 4 a 6 meses · 4 Há mais de 6 meses · 98 Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não» nas duas linhas de 7.4.13.1, não fazer 7.4.13.2.
 :::
 
 ::: {.nota}
@@ -164,7 +190,9 @@ Indicadores do HHFA: 4.4.2.3.1 a 4.4.2.3.4 e 4.4.2.3.6 a 4.4.2.3.8
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.4.18.1** Esta unidade sanitária realiza rotineiramente actividades de garantia de qualidade em alguma área de serviço? Entende-se por isso algum sistema formal de revisão, ou de comparação do trabalho ou dos sistemas com uma norma.
 
 **7.4.18.2** Esse sistema é aplicado em toda a unidade ou apenas em serviços específicos?
@@ -184,19 +212,25 @@ Indicadores do HHFA: 4.4.2.3.1 a 4.4.2.3.4 e 4.4.2.3.6 a 4.4.2.3.8
 **7.4.18.9** Esta unidade sanitária recebe apoio de parceiros externos na implementação de sistemas e actividades de garantia ou melhoria da qualidade?
 :::
 
-::: {.instrucao}
-7.4.18.6: se sim, pedir para ver a documentação.
-:::
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
 
-::: {.respostas}
-- **7.4.18.1**: 1 Sim · 2 Não → *terminar o bloco*
+- **7.4.18.1**: 1 Sim · 2 Não
 - **7.4.18.2**: 1 Em toda a unidade · 2 Apenas em serviços específicos
-- **7.4.18.3**: 1 Sim · 2 Não → *passar a 7.4.18.6*
+- **7.4.18.3**: 1 Sim · 2 Não
 - **7.4.18.4**: 1 Pelo menos mensalmente · 2 Pelo menos a cada 3 meses · 3 Pelo menos a cada 6 meses · 4 Menos de uma vez a cada 6 meses · 98 Não sabe
 - **7.4.18.5**: 1 No último mês · 2 Há 2 a 3 meses · 3 Há 4 a 6 meses · 4 Há mais de 6 meses · 98 Não sabe
 - **7.4.18.6**: 1 Sim, observado · 2 Sim, referido, não visto · 3 Não
 - **7.4.18.7** e **7.4.18.8**: 1 Sim · 2 Não
 - **7.4.18.9**: 1 Sim · 2 Não · 98 Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em 7.4.18.1, se a resposta for «Não», terminar o bloco.
+
+Em 7.4.18.3, se a resposta for «Não», passar a 7.4.18.6.
+
+Em 7.4.18.6, se a resposta for sim, pedir para ver a documentação antes de marcar «Sim, observado» ou «Sim, referido, não visto».
 :::
 
 ::: {.nota}
@@ -263,19 +297,25 @@ Indicador do HHFA: 2.1.1.1.7
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.5.1** Esta unidade sanitária tem acesso a uma ambulância ou a outro veículo em condições de funcionamento para o transporte de emergência de doentes — quer esteja estacionado nesta unidade, quer possa ser chamado de outro local?
 
 **7.5.1.1** Esse veículo está disponível hoje, em condições de funcionamento, com combustível e com motorista?
 :::
 
-::: {.instrucao}
-7.5.1.1: se o respondente não tiver a certeza, pedir que confirme com quem saiba.
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **7.5.1**: 1 Sim, ambulância · 2 Sim, outro tipo de veículo · 3 Não
+- **7.5.1.1**: 1 Sim · 2 Não · 98 Não sabe
 :::
 
-::: {.respostas}
-- **7.5.1**: 1 Sim, ambulância · 2 Sim, outro tipo de veículo · 3 Não → *passar a 7.5.2*
-- **7.5.1.1**: 1 Sim · 2 Não · 98 Não sabe
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em 7.5.1, se a resposta for «Não», passar a 7.5.2.
+
+Em 7.5.1.1, se o respondente não tiver a certeza, pedir que confirme com quem saiba.
 :::
 
 ::: {.nota}
@@ -305,15 +345,21 @@ Indicadores do HHFA: 4.1.1.2.5 a 4.1.1.2.7, 4.3.1.2.1 e 4.3.1.2.2
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Vou ler uma lista de serviços gerais de apoio. Para cada um, diga-me se existe nesta unidade sanitária e se esteve em funcionamento nos últimos 3 meses.
 :::
 
-::: {.grelha}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
 7.5.2 Cozinha · 7.5.3 Refeitório ou cantina · 7.5.4 Lavandaria · 7.5.5.1 Morgue · 7.5.6 Higiene e limpeza · 7.5.8 Manutenção · 7.5.9 Segurança · 7.5.10 Salão de actos · 7.5.11 Biblioteca · 7.5.12 Residência · 7.5.13 Capela · 7.5.14 Parqueamento · 7.5.15 Ajardinamento · 7.5.17 Videovigilância · 7.5.18 Gabinete do utente
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 Para cada linha: 1 Existe e funcionou nos últimos 3 meses · 2 Existe mas não funcionou nos últimos 3 meses · 3 Não existe
 :::
 
@@ -332,11 +378,15 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Quantas gavetas mortuárias tem a morgue desta unidade sanitária?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - Número inteiro, 0 a 99 · **97** não tem morgue
 :::
 
@@ -351,19 +401,25 @@ Indicador do HHFA: 4.4.2.3.10
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **7.5.18.1** Existe nesta unidade sanitária um procedimento de rotina para recolher ou reportar a opinião dos utentes?
 
 **7.5.18.2** Com que frequência é analisada a opinião dos utentes?
 :::
 
-::: {.instrucao}
-7.5.18.1: se sim, pedir para ver notas ou relatórios relativos à opinião dos utentes.
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **7.5.18.1**: 1 Sim, observado · 2 Sim, referido, não visto · 3 Não
+- **7.5.18.2**: 1 Pelo menos mensalmente · 2 Pelo menos a cada 3 meses · 3 Pelo menos a cada 6 meses · 4 Menos de uma vez a cada 6 meses · 98 Não sabe
 :::
 
-::: {.respostas}
-- **7.5.18.1**: 1 Sim, observado · 2 Sim, referido, não visto · 3 Não → *não fazer 7.5.18.2*
-- **7.5.18.2**: 1 Pelo menos mensalmente · 2 Pelo menos a cada 3 meses · 3 Pelo menos a cada 6 meses · 4 Menos de uma vez a cada 6 meses · 98 Não sabe
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em 7.5.18.1, se a resposta for sim, pedir para ver notas ou relatórios relativos à opinião dos utentes antes de marcar «Sim, observado» ou «Sim, referido, não visto».
+
+Em 7.5.18.1, se a resposta for «Não», não fazer 7.5.18.2.
 :::
 
 ::: {.nota}

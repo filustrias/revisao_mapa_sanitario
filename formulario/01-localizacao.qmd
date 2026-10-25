@@ -32,12 +32,14 @@ Indicador do HHFA: nenhum · identificador e estratificador da análise
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **1.1** Província · **1.2** Município · **1.3** Comuna ou distrito urbano · **1.4** Aldeia rural ou bairro urbano · **1.5** Nome da unidade sanitária
 :::
 
-::: {.instrucao}
-Registar designação e código do Mapa Sanitário. Seleccionar do menu auxiliar, como manda o Guião (folha 4). As caixas em cinzento são codificadas posteriormente pelo GEPE. Os campos 1.3 e 1.4 preenchem-se se conhecidos.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Registar designação e código do Mapa Sanitário. Seleccionar do menu auxiliar, como manda o Guião (folha 4). As caixas em cinzento são codificadas posteriormente pelo GEPE. Os campos 1.3 e 1.4 preenchem-se se conhecidos.
 :::
 
 ::: {.nota}
@@ -55,12 +57,14 @@ Indicador do HHFA: 1.1.1.1.2 · e estratificador principal da análise
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Categoria da unidade, segundo a classificação do Mapa Sanitário.
 :::
 
-::: {.instrucao}
-Categoria actualmente atribuída e indicada no Mapa Sanitário actual.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Registar a categoria actualmente atribuída à unidade, tal como indicada no Mapa Sanitário actual.
 :::
 
 ::: {.nota}
@@ -90,12 +94,14 @@ Indicadores do HHFA: 1.1.1.1.1 a 1.1.1.1.4 e 1.4.1.1.1 a 1.4.1.1.3 em 1.1.1.1.1 
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 **1.7** Latitude · **1.8** Longitude, em graus decimais.
 :::
 
-::: {.instrucao}
-Efectuar a leitura à entrada principal do edifício principal, ao ar livre, com o aparelho estável durante pelo menos 60 segundos. Registar em graus decimais, com cinco casas decimais.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Efectuar a leitura à entrada principal do edifício principal, ao ar livre, com o aparelho estável durante pelo menos 60 segundos. Registar em graus decimais, com cinco casas decimais.
 :::
 
 ::: {.nota}
@@ -113,11 +119,15 @@ Indicador do HHFA: nenhum · qualifica a leitura de 1.7 e 1.8
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Precisão indicada pelo aparelho, em metros.
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 - Campo numérico, 3 dígitos
 :::
 
@@ -136,15 +146,19 @@ Indicador do HHFA: nenhum · estratificador da análise
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
 Esta unidade sanitária situa-se numa zona urbana, rural ou periurbana?
 :::
 
-::: {.instrucao}
-Usar a classificação administrativa em vigor; em caso de dúvida, perguntar ao respondente.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Usar a classificação administrativa em vigor; em caso de dúvida, perguntar ao respondente.
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
 1. Urbana
 2. Rural
 3. Periurbana

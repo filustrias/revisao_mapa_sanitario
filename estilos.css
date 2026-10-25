@@ -167,11 +167,21 @@ details.medir-seccao table td:first-child { white-space: nowrap; }
   background: #f1f1f1;
   border: 1px dashed var(--ms-apagado);
   border-radius: 4px;
-  padding: 0.6rem 1rem;
-  margin: 0.6rem 0 0.9rem 0;
+  padding: 0.45rem 0.9rem;
+  margin: 0.5rem 0 0.8rem 0;
   font-size: 0.92rem;
 }
-.instrucao.rotulado .rotulo { color: var(--ms-apagado); }
+.instrucao.rotulado p { margin-bottom: 0.3rem; }
+
+/* Na instrução, o rótulo vai na mesma linha do texto, para poupar espaço */
+.rotulo.em-linha {
+  display: inline;
+  font-size: inherit;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ms-apagado);
+}
 .instrucao.rotulado p:last-child { margin-bottom: 0; }
 
 .respostas.rotulado,
