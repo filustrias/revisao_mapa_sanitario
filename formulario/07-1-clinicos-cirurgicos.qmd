@@ -42,15 +42,38 @@ Não considerar atendimentos ocasionais nem consultas suspensas há mais de 3 me
 :::
 
 ::: {.grelha}
-As mesmas 28 linhas da Ficha: 1 Medicina geral · 2 Medicina interna · 3 Pediatria · 4 Neonatologia · 5 Ginecologia e obstetrícia · 6 Cuidados intensivos · 7 Cardiologia · 8 Dermatologia · 9 Endocrinologia · 10 Estomatologia · 11 Fisiatria · 12 Gastroenterologia · 13 Reumatologia · 14 Geriatria · 15 Hematologia · 16 Infecciologia · 17 Imuno-hematologia · 18 Nefrologia · 19 Neurologia · 20 Nutrição · 21 Oftalmologia · 22 Oncologia · 23 Orto-traumatologia · 24 Otorrinolaringologia · 25 Pneumologia · 26 Psiquiatria · 27 Psicologia · 28 Urologia.
-:::
+Uma única resposta por linha.
 
-::: {.respostas}
-Para cada linha:
-
-1. Sim, com médico especialista nessa área
-2. Sim, mas sem médico especialista — atendimento prestado por outro profissional
-3. Não existe atendimento nessa especialidade
+| Código | Especialidade | 1 · Sim, com médico especialista nessa área | 2 · Sim, sem médico especialista (outro profissional) | 3 · Não existe atendimento |
+|---|---|:-:|:-:|:-:|
+| 7.1.1 | Medicina geral | ☐ | ☐ | ☐ |
+| 7.1.2 | Medicina interna | ☐ | ☐ | ☐ |
+| 7.1.3 | Pediatria | ☐ | ☐ | ☐ |
+| 7.1.4 | Neonatologia | ☐ | ☐ | ☐ |
+| 7.1.5 | Ginecologia e obstetrícia | ☐ | ☐ | ☐ |
+| 7.1.6 | Cuidados intensivos | ☐ | ☐ | ☐ |
+| 7.1.7 | Cardiologia | ☐ | ☐ | ☐ |
+| 7.1.8 | Dermatologia | ☐ | ☐ | ☐ |
+| 7.1.9 | Endocrinologia | ☐ | ☐ | ☐ |
+| 7.1.10 | Estomatologia | ☐ | ☐ | ☐ |
+| 7.1.11 | Fisiatria | ☐ | ☐ | ☐ |
+| 7.1.12 | Gastroenterologia | ☐ | ☐ | ☐ |
+| 7.1.13 | Reumatologia | ☐ | ☐ | ☐ |
+| 7.1.14 | Geriatria | ☐ | ☐ | ☐ |
+| 7.1.15 | Hematologia | ☐ | ☐ | ☐ |
+| 7.1.16 | Infecciologia | ☐ | ☐ | ☐ |
+| 7.1.17 | Imuno-hematologia | ☐ | ☐ | ☐ |
+| 7.1.18 | Nefrologia | ☐ | ☐ | ☐ |
+| 7.1.19 | Neurologia | ☐ | ☐ | ☐ |
+| 7.1.20 | Nutrição | ☐ | ☐ | ☐ |
+| 7.1.21 | Oftalmologia | ☐ | ☐ | ☐ |
+| 7.1.22 | Oncologia | ☐ | ☐ | ☐ |
+| 7.1.23 | Orto-traumatologia | ☐ | ☐ | ☐ |
+| 7.1.24 | Otorrinolaringologia | ☐ | ☐ | ☐ |
+| 7.1.25 | Pneumologia | ☐ | ☐ | ☐ |
+| 7.1.26 | Psiquiatria | ☐ | ☐ | ☐ |
+| 7.1.27 | Psicologia | ☐ | ☐ | ☐ |
+| 7.1.28 | Urologia | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota}
@@ -87,13 +110,13 @@ Para cada uma das três condições seguintes, diga-me quais destas funções s�
 :::
 
 ::: {.grelha}
-Condições: **hipertensão arterial e outras doenças cardiovasculares** · **diabetes** · **doença respiratória crónica** (asma e doença pulmonar obstrutiva crónica).
+Três condições × quatro funções: em cada uma das 12 células, marcar **1 Sim** ou **2 Não**.
 
-Funções, para cada condição: (a) diagnóstico da condição nesta unidade · (b) início e ajuste de tratamento nesta unidade · (c) seguimento regular dos doentes já diagnosticados, com dia marcado · (d) aconselhamento ao doente para o autocuidado da condição.
-:::
-
-::: {.respostas}
-Para cada uma das 12 funções: 1 Sim · 2 Não
+| Condição | (a) Diagnóstico da condição nesta unidade | (b) Início e ajuste de tratamento nesta unidade | (c) Seguimento regular dos doentes já diagnosticados, com dia marcado | (d) Aconselhamento ao doente para o autocuidado |
+|---|:-:|:-:|:-:|:-:|
+| Hipertensão arterial e outras doenças cardiovasculares | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não |
+| Diabetes | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não |
+| Doença respiratória crónica (asma e doença pulmonar obstrutiva crónica) | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não |
 :::
 
 ::: {.nota}
