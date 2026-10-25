@@ -41,11 +41,11 @@ feita primeiro na matriz e só depois transcrita para aqui, para que as duas nã
 
 ## Estado
 
-Transcritos: secções 0 a 10 (identificação da recolha, localização, propriedade e gestão,
+Transcritos: secções 0 a 12 (identificação da recolha, localização, propriedade e gestão,
 população e referência, construção, estado físico, água e saneamento, serviços oferecidos,
-recursos cama, aparelhos médico-cirúrgicos e meios de transporte).
+recursos cama, aparelhos médico-cirúrgicos, meios de transporte, responsáveis e contactos).
 
-Por transcrever: domínios 11 a 13 (responsáveis e contactos, conectividade), identificados em `formulario/11-13-por-transcrever.qmd`
+Por transcrever: domínio 13 (conectividade), identificado em `formulario/13-por-transcrever.qmd`
 com o respectivo volume.
 
 ## Comentários

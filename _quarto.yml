@@ -36,7 +36,8 @@ book:
     - formulario/08-recursos-cama.qmd
     - formulario/09-aparelhos.qmd
     - formulario/10-transportes.qmd
-    - formulario/11-13-por-transcrever.qmd
+    - formulario/11-12-responsaveis.qmd
+    - formulario/13-por-transcrever.qmd
 
 format:
   html:

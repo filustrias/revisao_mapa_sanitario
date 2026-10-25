@@ -14,7 +14,7 @@
     "href": "index.html#o-que-é-este-documento",
     "title": "Mapa Sanitário — proposta de revisão do formulário",
     "section": "",
-    "text": "Estado da proposta. As secções 0 a 10 estão transcritas por inteiro. Os domínios 11 a 13 estão escritos na matriz e serão transcritos a seguir; a página «Domínios 11 a 13» identifica-os com o respectivo volume. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.",
+    "text": "Estado da proposta. As secções 0 a 12 estão transcritas por inteiro. O domínio 13 está escrito na matriz e será transcrito a seguir; a página «Domínio 13» identifica-o com o respectivo volume. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Nota de apresentação e orientações de leitura</span>"
     ]
@@ -124,7 +124,7 @@
     "href": "formulario.html",
     "title": "O formulário, com comentários",
     "section": "",
-    "text": "DicaLegenda\n\n\n\n\n\nCaixa cinzenta: o que se lê ao respondente. Itálico: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.\nEtiquetas: NOVO não existe na Ficha 19_01 · ALTERADO existe e muda · MANTÉM-SE existe e não muda · A DECIDIR depende desta revisão · PARQUEADO fica para depois.\n\n\n\nO formulário está dividido num capítulo por secção, pela ordem em que o inquiridor o percorre. A secção 7 — serviços oferecidos — é a mais longa: os serviços clínicos, de apoio e de saúde pública (7.1 a 7.3) têm um capítulo cada, e a gestão e os serviços gerais (7.4 e 7.5) estão juntos num capítulo próprio. Cada capítulo pode ser lido e discutido por si, numa sessão de revisão.\nCada quesito tem ao lado um botão 💬 Comentar, que abre um formulário curto já com o código do quesito preenchido. Os comentários vão para a mesma folha de respostas, um por linha, e são depois cruzados com a matriz pelo código.\n\n\n\nCapítulo\nConteúdo\n\n\n\n\nSecção 0\nIdentificação da recolha\n\n\nSecção 1\nLocalização\n\n\nSecção 2\nPropriedade e gestão\n\n\nSecção 3\nPopulação e sistema de referência\n\n\nSecção 4\nConstrução\n\n\nSecção 5\nEstado físico\n\n\nSecção 6\nÁgua, energia, saneamento e resíduos\n\n\nSecção 7\nServiços oferecidos — 7.1 clínicos e cirúrgicos · 7.2 apoio · 7.3.1 vacinação · 7.3 saúde pública\n\n\nSecções 7.4 e 7.5\nGestão e serviços gerais\n\n\nSecção 8\nRecursos cama e similares\n\n\nSecção 9\nAparelhos médico-cirúrgicos\n\n\nSecção 10\nMeios de transporte\n\n\nDomínios 11 a 13\nPor transcrever nesta edição",
+    "text": "DicaLegenda\n\n\n\n\n\nCaixa cinzenta: o que se lê ao respondente. Itálico: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.\nEtiquetas: NOVO não existe na Ficha 19_01 · ALTERADO existe e muda · MANTÉM-SE existe e não muda · A DECIDIR depende desta revisão · PARQUEADO fica para depois.\n\n\n\nO formulário está dividido num capítulo por secção, pela ordem em que o inquiridor o percorre. A secção 7 — serviços oferecidos — é a mais longa: os serviços clínicos, de apoio e de saúde pública (7.1 a 7.3) têm um capítulo cada, e a gestão e os serviços gerais (7.4 e 7.5) estão juntos num capítulo próprio. Cada capítulo pode ser lido e discutido por si, numa sessão de revisão.\nCada quesito tem ao lado um botão 💬 Comentar, que abre um formulário curto já com o código do quesito preenchido. Os comentários vão para a mesma folha de respostas, um por linha, e são depois cruzados com a matriz pelo código.\n\n\n\nCapítulo\nConteúdo\n\n\n\n\nSecção 0\nIdentificação da recolha\n\n\nSecção 1\nLocalização\n\n\nSecção 2\nPropriedade e gestão\n\n\nSecção 3\nPopulação e sistema de referência\n\n\nSecção 4\nConstrução\n\n\nSecção 5\nEstado físico\n\n\nSecção 6\nÁgua, energia, saneamento e resíduos\n\n\nSecção 7\nServiços oferecidos — 7.1 clínicos e cirúrgicos · 7.2 apoio · 7.3.1 vacinação · 7.3 saúde pública\n\n\nSecções 7.4 e 7.5\nGestão e serviços gerais\n\n\nSecção 8\nRecursos cama e similares\n\n\nSecção 9\nAparelhos médico-cirúrgicos\n\n\nSecção 10\nMeios de transporte\n\n\nSecções 11 e 12\nResponsável da unidade e pessoas que responderam\n\n\nDomínio 13\nPor transcrever nesta edição",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>O formulário, com comentários</span>"
     ]
@@ -1605,13 +1605,63 @@
     ]
   },
   {
-    "objectID": "formulario/11-13-por-transcrever.html",
-    "href": "formulario/11-13-por-transcrever.html",
-    "title": "Domínios 11 a 13 — por transcrever nesta edição",
+    "objectID": "formulario/11-12-responsaveis.html",
+    "href": "formulario/11-12-responsaveis.html",
+    "title": "Secções 11 e 12 — Responsável da unidade e pessoas que responderam",
     "section": "",
-    "text": "Os domínios seguintes estão integralmente escritos na matriz de decisão da adaptação e serão transcritos para este formato na próxima edição do documento. Ficam aqui identificados com o respectivo volume, para que a leitura da proposta não pareça incompleta onde não está.\n\n\n\n\n\n\n\n\nDomínio\nConteúdo\nCampos propostos / na Ficha\n\n\n\n\n11 e 12\nResponsáveis e contactos — o responsável técnico da unidade, as pessoas que responderam ao inquérito, o responsável do preenchimento\n34 / 24\n\n\n13\nConectividade e meios informáticos — computadores, internet, telefone, sistemas de informação em uso\n36\n\n\n\nEm síntese, o conjunto da proposta soma cerca de 650 campos para toda a rede — número que só faz sentido lido com a nota sobre as portas e os saltos: nenhuma unidade sanitária responde a mais do que uma fracção deles.\nUma observação sobre estes domínios, que a revisão pode já considerar sem esperar pela transcrição:\nOs domínios 11 e 12 não geram nem devem gerar indicador. A sua função é permitir contactar as pessoas certas quando surgir um problema com os dados recolhidos, e é por esse critério que devem ser avaliados.",
+    "text": "11.1 Responsável da unidade sanitária NOVO\nQuem responde pela unidade sanitária, quem respondeu ao inquérito e quem é o responsável pelo preenchimento da ficha, com os respectivos contactos.\n34 campos, contra 24 na Ficha 19_01.",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Domínios 11 a 13 — por transcrever nesta edição</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Secções 11 e 12 — Responsável da unidade e pessoas que responderam</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/11-12-responsaveis.html#responsável-da-unidade-sanitária-novo",
+    "href": "formulario/11-12-responsaveis.html#responsável-da-unidade-sanitária-novo",
+    "title": "Secções 11 e 12 — Responsável da unidade e pessoas que responderam",
+    "section": "",
+    "text": "Pergunta · ler ao respondente\nQuem é o gerente, chefe ou responsável desta unidade sanitária?\n\n\nOpções de resposta\n\n11.1.1 Nome e apelidos — texto\n11.1.2 Cargo que ocupa:\n\nDirector\nDirector clínico\nChefe de unidade\nEnfermeiro responsável\nAdministrador\n\n\n\nOutro (especificar)\n\n11.1.3 Categoria profissional — lista fechada, a definir (ver a pendência no fim da secção)\n11.1.4 Telefone — texto\n11.1.5 E-mail — texto\n\n\n\nPara que serve. Identifica quem responde pela unidade: é a pessoa a contactar quando uma dúvida diz respeito ao conjunto dos dados e não a um quesito, e pode não ser quem respondeu ao inquérito. Passa a ser o primeiro quesito da secção.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Secções 11 e 12 — Responsável da unidade e pessoas que responderam</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/11-12-responsaveis.html#pessoas-que-responderam-ao-inquérito-alterado",
+    "href": "formulario/11-12-responsaveis.html#pessoas-que-responderam-ao-inquérito-alterado",
+    "title": "Secções 11 e 12 — Responsável da unidade e pessoas que responderam",
+    "section": "11.2 Pessoas que responderam ao inquérito ALTERADO",
+    "text": "11.2 Pessoas que responderam ao inquérito ALTERADO\n\nCampo · preenchido pelo inquiridor\nPessoas desta unidade sanitária que responderam ao inquérito ou que comunicaram os dados.\n\n\nInstrução ao inquiridor (não ler para o respondente) — Registar até cinco pessoas. Na última coluna, marcar o papel principal de cada uma: 1 Respondeu a quesitos · 2 Mostrou instalações, equipamento ou documentos · 3 Preencheu o formulário · 4 Autorizou a recolha.\n\n\nGrelha de resposta\n\n\n\n\n\n\n\n\n\n\n\nN.º\nNome e apelidos\nFunção que ocupa\nTelefone\nE-mail\nPapel principal no preenchimento\n\n\n\n\n1\n\n\n\n\n☐ 1 ☐ 2 ☐ 3 ☐ 4\n\n\n2\n\n\n\n\n☐ 1 ☐ 2 ☐ 3 ☐ 4\n\n\n3\n\n\n\n\n☐ 1 ☐ 2 ☐ 3 ☐ 4\n\n\n4\n\n\n\n\n☐ 1 ☐ 2 ☐ 3 ☐ 4\n\n\n5\n\n\n\n\n☐ 1 ☐ 2 ☐ 3 ☐ 4\n\n\n\n\n\nPorque mudou. As cinco linhas e as quatro colunas da Ficha mantêm-se. O código passa de 11.1 para 11.2, para que o responsável da unidade abra a secção. A quinta coluna é nova: quando um valor precisar de ser confirmado, diz a quem telefonar e sobre que parte da ficha. O Guião já distingue «as pessoas que preencheram ou comunicaram os dados» (folha 20).",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Secções 11 e 12 — Responsável da unidade e pessoas que responderam</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/11-12-responsaveis.html#responsável-do-preenchimento-mantém-se",
+    "href": "formulario/11-12-responsaveis.html#responsável-do-preenchimento-mantém-se",
+    "title": "Secções 11 e 12 — Responsável da unidade e pessoas que responderam",
+    "section": "12.1 Responsável do preenchimento MANTÉM-SE",
+    "text": "12.1 Responsável do preenchimento MANTÉM-SE\n\nCampo · preenchido pelo inquiridor\nResponsável pelo preenchimento desta ficha.\n\n\nGrelha de resposta\n\n\n\nNome e apelidos\nFunção que ocupa\nTelefone\nE-mail\n\n\n\n\n\n\n\n\n\n\n\n\n\nMantém-se exactamente como está, incluindo o título e os códigos. Enquanto 11.2 nomeia todas as pessoas que responderam, até cinco, 12.1 identifica a pessoa que responde pela ficha no seu todo.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Secções 11 e 12 — Responsável da unidade e pessoas que responderam</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/11-12-responsaveis.html#pendência-desta-secção",
+    "href": "formulario/11-12-responsaveis.html#pendência-desta-secção",
+    "title": "Secções 11 e 12 — Responsável da unidade e pessoas que responderam",
+    "section": "Pendência desta secção",
+    "text": "Pendência desta secção\n\nLista de categorias profissionais (11.1.3). A lista fechada deve seguir a nomenclatura nacional das carreiras da saúde. A mesma lista servirá também o futuro bloco sobre o pessoal da unidade, pelo que convém defini-la uma só vez com o GEPE e usá-la nos dois lugares.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Secções 11 e 12 — Responsável da unidade e pessoas que responderam</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/13-por-transcrever.html",
+    "href": "formulario/13-por-transcrever.html",
+    "title": "Domínio 13 — por transcrever nesta edição",
+    "section": "",
+    "text": "O domínio seguinte está integralmente escrito na matriz de decisão da adaptação e será transcrito para este formato a seguir. Fica aqui identificado com o respectivo volume.\n\n\n\n\n\n\n\n\nDomínio\nConteúdo\nCampos propostos / na Ficha\n\n\n\n\n13\nConectividade e meios informáticos — computadores, internet, telefone, sistemas de informação em uso\n36\n\n\n\nEm síntese, o conjunto da proposta soma cerca de 650 campos para toda a rede — número que só faz sentido lido com a nota sobre as portas e os saltos: nenhuma unidade sanitária responde a mais do que uma fracção deles.",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Domínio 13 — por transcrever nesta edição</span>"
     ]
   }
 ]

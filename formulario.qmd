@@ -22,4 +22,5 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 8](formulario/08-recursos-cama.qmd) | Recursos cama e similares |
 | [Secção 9](formulario/09-aparelhos.qmd) | Aparelhos médico-cirúrgicos |
 | [Secção 10](formulario/10-transportes.qmd) | Meios de transporte |
-| [Domínios 11 a 13](formulario/11-13-por-transcrever.qmd) | Por transcrever nesta edição |
+| [Secções 11 e 12](formulario/11-12-responsaveis.qmd) | Responsável da unidade e pessoas que responderam |
+| [Domínio 13](formulario/13-por-transcrever.qmd) | Por transcrever nesta edição |
