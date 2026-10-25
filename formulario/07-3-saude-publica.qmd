@@ -4,16 +4,15 @@ title: "7.3 — Saúde pública, promoção e prevenção"
 
 {{< include ../_legenda.qmd >}}
 
-Hoje são 17 caixas de 0-1, uma por programa ou actividade. É a subsecção com maior transformação e, ao mesmo tempo, a de maior retorno em comparabilidade internacional de todo o instrumento, **sem uma única observação física**.
+Hoje são 17 caixas de 0-1, uma por programa ou actividade. A vacinação, primeiro bloco desta secção, está num capítulo próprio. É a subsecção com maior transformação e, ao mesmo tempo, a de maior retorno em comparabilidade internacional de todo o instrumento, **sem uma única observação física**.
 
-[131 campos, contra 20 na Ficha 19_01.]{.campos}
+[111 campos, contra 19 na Ficha 19_01.]{.campos}
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
 
 | Quesito | O que se obtém |
 |---|---|
-| 7.3.1 a 7.3.1.2 | Unidades que vacinam, periodicidade e antigénios oferecidos (29 indicadores do HHFA) |
 | 7.3.5 e 7.3.5.1 | Cuidados à criança menor de 5 anos, serviço a serviço (13 indicadores do HHFA) |
 | 7.3.6 e 7.3.6.1 | Consulta pré-natal e as suas prestações (16 indicadores do HHFA) |
 | 7.3.7 a 7.3.7.4 | Partos, CONU-B e CONU-C, funções-sinal, cobertura 24 horas (12 indicadores do HHFA) |
@@ -29,233 +28,6 @@ Hoje são 17 caixas de 0-1, uma por programa ou actividade. É a subsecção com
 | 7.3.8.1, 7.3.10.2, 7.3.10.3, 7.3.14, 7.3.15 e 7.3.16, 7.3.17 | Rastreios do recém-nascido, PrEP, PEP, distribuição de redes, actividade extramural, número de ADECOS (medida própria do Mapa Sanitário) |
 
 </details>
-
-## 7.3.1 · Vacinação — porta do PAV [ALTERADO]{.etiqueta .alterado}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Percentagem de unidades sanitárias que oferecem qualquer serviço de imunização. É a porta do bloco do PAV: quem responde «Não» ou «Não, apenas em campanhas» salta as grelhas da vacinação.
-
-A mesma caixa dá também o indicador correspondente na lista geral de serviços disponíveis do HHFA.
-
-Indicadores do HHFA: 3.2.1.1.1 · 1.3.2.2.1
-
-</details>
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Esta unidade sanitária realiza vacinação de rotina, com periodicidade fixa, mesmo que não seja todos os dias?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Sim
-2. Não, apenas em campanhas
-3. Não
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não, apenas em campanhas» ou «Não», saltar para 7.3.5.
-:::
-
-::: {.nota}
-**Porque mudou.** A definição do Guião (folha 12) empacota três critérios numa só caixa: «a menores de 5 anos, com todos os antigénios (= Posto Fixo de Vacinação); será considerado afirmativo se são realizadas vacinações de rotina na US com periodicidade fixa, mesmo que não seja diária» — grupo de idade, completude dos antigénios e periodicidade. Os três ficam distribuídos por três quesitos: a periodicidade em 7.3.1.1, a completude em 7.3.1.2, e o grupo de idade resolve-se na própria grelha.
-
-**A opção 2 é nova** e serve a leitura que o Guião já implica: uma unidade que só vacina em campanhas não é um posto fixo de vacinação, mas também não é uma unidade onde nada acontece.
-:::
-
-## 7.3.1.1 · Periodicidade da vacinação de rotina [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Percentagem de unidades que fazem vacinação infantil de rotina todos os dias, todas as semanas, ou todos os meses ou trimestres — três indicadores a partir de uma só pergunta. A opção 1 dá o indicador diário, a opção 2 o semanal, e as opções 3 e 4, juntas, o mensal ou trimestral.
-
-Indicadores do HHFA: 3.2.1.1.6 · 3.2.1.1.7 · 3.2.1.1.8
-
-</details>
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Com que periodicidade é realizada a vacinação de rotina das crianças nesta unidade sanitária?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Todos os dias de funcionamento
-2. Semanalmente
-3. Mensalmente
-4. Trimestralmente
-5. Com outra periodicidade *(especificar)*
-
-<!-- -->
-
-98. Não sabe
-:::
-
-::: {.nota}
-Uma caixa, três indicadores. O Guião já manda avaliar a periodicidade — «mesmo que não seja diária» — mas não dá ao inquiridor onde a registar, pelo que hoje essa informação entra na decisão de marcar a caixa de 7.3.1 e perde-se.
-
-**É provavelmente o dado mais útil de todo o bloco do PAV** para a rede de cuidados primários: a distância entre vacinar todos os dias e vacinar uma vez por mês é a distância entre uma mãe que leva a criança quando pode e uma mãe que tem de acertar com o dia certo — e explica oportunidades perdidas de vacinação sem que nada falte na unidade.
-:::
-
-## 7.3.1.2 · Antigénios oferecidos [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Percentagem de unidades que administram cada vacina, antigénio a antigénio e por momento do calendário — dose ao nascer, lactente, criança, adolescente ou adulto. São 24 indicadores: 17, um por antigénio; 4 agregados por grupo de idade, calculados a partir da grelha; e 3 na lista geral de serviços disponíveis.
-
-A linha 11 (reforços do calendário infantil) e a linha 19 (febre amarela) não têm indicador do HHFA: servem a leitura nacional.
-
-<details><summary>Ver os 24 indicadores</summary>
-
-- 3.2.1.1.9 — vacina da hepatite B, dose ao nascer (linha 1)
-- 3.2.1.1.10 — BCG, dose ao nascer (linha 2)
-- 3.2.1.1.11 — vacina oral da poliomielite (VOP), dose ao nascer (linha 3)
-- 3.2.1.1.12 — BCG, lactente (linha 4)
-- 3.2.1.1.13 — VOP, lactente (linha 5)
-- 3.2.1.1.14 — DTP, lactente (linha 6)
-- 3.2.1.1.15 — rotavírus, lactente (linha 7)
-- 3.2.1.1.16 — vacina inactivada da poliomielite (VPI), lactente (linha 8)
-- 3.2.1.1.17 — sarampo, lactente ou criança (linha 9)
-- 3.2.1.1.18 — pneumocócica, lactente ou criança (linha 10)
-- 3.2.1.1.19 — COVID-19, criança (linha 12)
-- 3.2.1.1.20 — antitetânica, adolescente ou adulto (linha 14)
-- 3.2.1.1.21 — HPV, adolescente ou adulto (linha 13)
-- 3.2.1.1.22 — gripe, adolescente ou adulto (linha 15)
-- 3.2.1.1.23 — COVID-19, adolescente ou adulto (linha 16)
-- 3.2.1.1.24 — pneumocócica, adolescente ou adulto (linha 17)
-- 3.2.1.1.25 — hepatite B, adolescente ou adulto (linha 18)
-- 3.2.1.1.2 — qualquer dose ao nascer
-- 3.2.1.1.3 — qualquer vacina do lactente
-- 3.2.1.1.4 — qualquer vacina da criança
-- 3.2.1.1.5 — qualquer vacina de adolescente ou adulto
-- 1.3.2.2.2 — imunização do lactente (menos de 1 ano), na lista geral de serviços disponíveis
-- 1.3.2.2.3 — imunização da criança (1 a 5 anos), na lista geral
-- 1.3.2.2.4 — imunização de adolescente ou adulto, na lista geral
-
-</details>
-
-Indicadores do HHFA: 3.2.1.1.2 a 3.2.1.1.5 · 3.2.1.1.9 a 3.2.1.1.25 · 1.3.2.2.2 a 1.3.2.2.4
-
-</details>
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Para cada vacina seguinte, diga-me se é habitualmente administrada nesta unidade sanitária.
-
-Considere os últimos 3 meses, e não uma falha pontual de stock.
-:::
-
-::: {.grelha .rotulado}
-[Grelha de resposta]{.rotulo}
-
-**Dose ao nascer:** 1 Hepatite B · 2 BCG · 3 VOP dose zero.
-
-**Lactente, menos de 1 ano:** 4 BCG · 5 VOP · 6 Pentavalente DTP-Hib-HepB · 7 Rotavírus · 8 VPI · 9 Sarampo · 10 Pneumocócica.
-
-**Criança de 1 a 5 anos:** 11 Reforços do calendário infantil · 12 COVID-19.
-
-**Adolescente ou adulto:** 13 HPV · 14 Antitetânica · 15 Gripe · 16 COVID-19 · 17 Pneumocócica · 18 Hepatite B.
-
-**Linha adicional para Angola:** 19 Febre amarela.
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Sim, habitualmente administrada · 2 Não · 98 Não sabe
-:::
-
-::: {.nota}
-**Vinte e quatro indicadores por dezoito caixas — o maior rendimento por campo de toda a proposta.** Deixa de se saber apenas quantas unidades vacinam e passa a saber-se **qual o antigénio que falta e onde**, que é a pergunta a que um plano de reforço da imunização tem de responder.
-
-A **febre amarela** é acrescento próprio, por ser doença com transmissão em Angola e não constar da lista internacional.
-
-**Pendência a abrir com o PAV:** confirmar estas dezanove linhas contra o calendário nacional de vacinação em vigor, retirando os antigénios que Angola não utiliza e acrescentando os que faltem. Retirar uma linha custa apenas o indicador correspondente e não afecta nenhum dos outros.
-:::
-
-## 7.3.1.3 · Rupturas de stock por antigénio [A DECIDIR]{.etiqueta .decidir}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Se a coluna for incluída: percentagem de unidades que tiveram ruptura de stock de cada vacina nos últimos 3 meses — 11 indicadores, um por vacina, que completam a subárea 3.2.1.4 do HHFA. Só entram na contagem da secção se a coluna for aprovada.
-
-<details><summary>Ver os 11 indicadores</summary>
-
-- 3.2.1.4.1 — ruptura de stock: BCG
-- 3.2.1.4.2 — VOP
-- 3.2.1.4.3 — VPI
-- 3.2.1.4.4 — pentavalente DTP-Hib-HepB
-- 3.2.1.4.5 — sarampo
-- 3.2.1.4.6 — rotavírus
-- 3.2.1.4.7 — pneumocócica
-- 3.2.1.4.8 — HPV
-- 3.2.1.4.9 — raiva
-- 3.2.1.4.10 — COVID-19
-- 3.2.1.4.11 — hepatite B
-
-</details>
-
-Indicadores do HHFA, se a coluna for incluída: 3.2.1.4.1 a 3.2.1.4.11
-
-</details>
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Coluna (B) opcional, a acrescentar à grelha de 7.3.1.2. Fazer esta pergunta apenas em 11 das 18 linhas (BCG, VOP, VPI, pentavalente, sarampo, rotavírus, pneumocócica, HPV, raiva, COVID-19, hepatite B).
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Nos últimos 3 meses, houve algum período em que esta vacina não estivesse disponível nesta unidade sanitária?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Sim
-2. Não
-
-<!-- -->
-
-98. Não sabe
-:::
-
-::: {.nota}
-**É a única decisão de peso deste bloco.**
-
-*A favor:* 11 indicadores por 11 campos, todos autorreferidos, e a ruptura de stock é provavelmente a causa mais frequente de oportunidade perdida de vacinação — mede-se a cadeia de abastecimento sem precisar de observar a geleira. A ruptura é a única parte da família dos medicamentos que não exige verificação física, porque é memória de quem responde e não contagem de prateleira.
-
-*Contra:* faz passar a grelha do PAV de 18 para 29 campos.
-
-*Recomendação:* incluir, mas só para os antigénios do calendário infantil de rotina que Angola utiliza — o que, feita a confirmação com o PAV, deve reduzir as 11 linhas a 7 ou 8.
-:::
-
-## 7.3.1.4 · Cadeia de frio [PARQUEADO]{.etiqueta .parqueado}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Nada nesta fase. Na fase da observação, a cadeia de frio alimentará a tabela de prontidão da imunização do HHFA (3.2.1.2: 31 indicadores), em particular a caixa térmica ou porta-vacinas com acumuladores, o frigorífico funcional, o dispositivo de monitorização da temperatura e a temperatura mantida entre 2 e 8 °C, e ainda a manutenção de rotina dos frigoríficos.
-
-Indicadores do HHFA nesta fase: nenhum · parqueados: 3.2.1.2.6 a 3.2.1.2.9 · 4.1.2.2.4
-
-</details>
-
-::: {.nota}
-Parqueada para a fase da observação. **Não é omissão, é fronteira de módulo:** a tabela de prontidão da imunização tem 31 indicadores e exige ver o frigorífico a funcionar, ler o termómetro no dia da visita e verificar as vacinas na prateleira.
-
-**Remissões.** A contagem de geleiras e arcas está no quesito 9.1.2 do domínio 9 — e é contributo próprio, porque o instrumento internacional não conta geleiras, verifica uma. A energia que as alimenta está no quesito 6.2.3. A manutenção de frigoríficos está no bloco 7.5.8, também parqueado.
-:::
 
 ## 7.3.5 · Puericultura — porta dos cuidados à criança [ALTERADO]{.etiqueta .alterado}
 
@@ -325,13 +97,20 @@ Para cada serviço seguinte, diga-me se é habitualmente prestado a crianças me
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Monitorização do crescimento, com peso e registo no cartão infantil · 2 Diagnóstico ou tratamento da malnutrição · 3 Tratamento em ambulatório da malnutrição aguda grave, com alimento terapêutico · 4 Tratamento em ambulatório da malnutrição moderada, com suplementos alimentares · 5 Tratamento em internamento da malnutrição grave · 6 Suplementação de rotina com vitamina A · 7 Desparasitação de rotina com albendazol ou mebendazol · 8 Diagnóstico e tratamento da anemia · 9 Diagnóstico e tratamento da diarreia com sais de reidratação oral e zinco · 10 Diagnóstico e tratamento de primeira linha da malária · 11 Diagnóstico da malária com teste de sangue · 12 Entrega de rede mosquiteira tratada de longa duração, ou de voucher para a obter
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Sim, habitualmente prestado · 2 Não · 98 Não sabe
+| Código | Serviço | 1 · Sim, habitualmente prestado | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 7.3.5.1.1 | Monitorização do crescimento, com peso e registo no cartão infantil | ☐ | ☐ | ☐ |
+| 7.3.5.1.2 | Diagnóstico ou tratamento da malnutrição | ☐ | ☐ | ☐ |
+| 7.3.5.1.3 | Tratamento em ambulatório da malnutrição aguda grave, com alimento terapêutico | ☐ | ☐ | ☐ |
+| 7.3.5.1.4 | Tratamento em ambulatório da malnutrição moderada, com suplementos alimentares | ☐ | ☐ | ☐ |
+| 7.3.5.1.5 | Tratamento em internamento da malnutrição grave | ☐ | ☐ | ☐ |
+| 7.3.5.1.6 | Suplementação de rotina com vitamina A | ☐ | ☐ | ☐ |
+| 7.3.5.1.7 | Desparasitação de rotina com albendazol ou mebendazol | ☐ | ☐ | ☐ |
+| 7.3.5.1.8 | Diagnóstico e tratamento da anemia | ☐ | ☐ | ☐ |
+| 7.3.5.1.9 | Diagnóstico e tratamento da diarreia com sais de reidratação oral e zinco | ☐ | ☐ | ☐ |
+| 7.3.5.1.10 | Diagnóstico e tratamento de primeira linha da malária | ☐ | ☐ | ☐ |
+| 7.3.5.1.11 | Diagnóstico da malária com teste de sangue | ☐ | ☐ | ☐ |
+| 7.3.5.1.12 | Entrega de rede mosquiteira tratada de longa duração, ou de voucher para a obter | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota}
@@ -418,13 +197,22 @@ Para cada prestação seguinte, diga-me se faz habitualmente parte da consulta p
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Suplementação com ferro · 2 Suplementação com ácido fólico · 3 Tratamento intermitente preventivo da malária (TIP) · 4 Entrega de rede mosquiteira tratada, ou de voucher, à grávida · 5 Vacina antitetânica · 6 Vigilância da doença hipertensiva da gravidez · 7 Pesquisa de proteínas na urina · 8 Suplementação com cálcio nas grávidas com risco de pré-eclâmpsia · 9 Aspirina em baixa dose nas grávidas com risco de pré-eclâmpsia · 10 Testagem do VIH · 11 Testagem da sífilis · 12 Tratamento da sífilis · 13 Diagnóstico e tratamento de outras infecções de transmissão sexual · 14 Aconselhamento para prevenção da mutilação genital feminina
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Sim, faz parte habitualmente · 2 Não · 98 Não sabe
+| Código | Prestação | 1 · Sim, faz parte habitualmente | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 7.3.6.1.1 | Suplementação com ferro | ☐ | ☐ | ☐ |
+| 7.3.6.1.2 | Suplementação com ácido fólico | ☐ | ☐ | ☐ |
+| 7.3.6.1.3 | Tratamento intermitente preventivo da malária (TIP) | ☐ | ☐ | ☐ |
+| 7.3.6.1.4 | Entrega de rede mosquiteira tratada, ou de voucher, à grávida | ☐ | ☐ | ☐ |
+| 7.3.6.1.5 | Vacina antitetânica | ☐ | ☐ | ☐ |
+| 7.3.6.1.6 | Vigilância da doença hipertensiva da gravidez | ☐ | ☐ | ☐ |
+| 7.3.6.1.7 | Pesquisa de proteínas na urina | ☐ | ☐ | ☐ |
+| 7.3.6.1.8 | Suplementação com cálcio nas grávidas com risco de pré-eclâmpsia | ☐ | ☐ | ☐ |
+| 7.3.6.1.9 | Aspirina em baixa dose nas grávidas com risco de pré-eclâmpsia | ☐ | ☐ | ☐ |
+| 7.3.6.1.10 | Testagem do VIH | ☐ | ☐ | ☐ |
+| 7.3.6.1.11 | Testagem da sífilis | ☐ | ☐ | ☐ |
+| 7.3.6.1.12 | Tratamento da sífilis | ☐ | ☐ | ☐ |
+| 7.3.6.1.13 | Diagnóstico e tratamento de outras infecções de transmissão sexual | ☐ | ☐ | ☐ |
+| 7.3.6.1.14 | Aconselhamento para prevenção da mutilação genital feminina | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota}
@@ -505,7 +293,14 @@ Indicadores do HHFA: 3.1.3.1.3 · 3.1.3.1.5 · 3.1.4.1.1 · 1.3.2.1.7 · 1.3.2.1
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-Para cada caixa: 1 Sim · 2 Não · 98 Não sabe
+Para cada caixa:
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
 :::
 
 ::: {.nota}
@@ -536,13 +331,17 @@ Para cada prestação seguinte, diga-me se foi realizada nesta unidade sanitári
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Administração parenteral de antibióticos · 2 Administração parenteral de uterotónicos (ocitocina) · 3 Administração parenteral de anticonvulsivantes (sulfato de magnésio) · 4 Remoção manual da placenta · 5 Remoção de restos ovulares · 6 Parto vaginal assistido com ventosa ou fórceps · 7 Reanimação do recém-nascido com insuflador e máscara · 8 Cesariana · 9 Transfusão de sangue
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Sim, realizada nos últimos 3 meses · 2 Não realizada · 98 Não sabe
+| Código | Prestação | 1 · Sim, realizada nos últimos 3 meses | 2 · Não realizada | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 7.3.7.3.1 | Administração parenteral de antibióticos | ☐ | ☐ | ☐ |
+| 7.3.7.3.2 | Administração parenteral de uterotónicos (ocitocina) | ☐ | ☐ | ☐ |
+| 7.3.7.3.3 | Administração parenteral de anticonvulsivantes (sulfato de magnésio) | ☐ | ☐ | ☐ |
+| 7.3.7.3.4 | Remoção manual da placenta | ☐ | ☐ | ☐ |
+| 7.3.7.3.5 | Remoção de restos ovulares | ☐ | ☐ | ☐ |
+| 7.3.7.3.6 | Parto vaginal assistido com ventosa ou fórceps | ☐ | ☐ | ☐ |
+| 7.3.7.3.7 | Reanimação do recém-nascido com insuflador e máscara | ☐ | ☐ | ☐ |
+| 7.3.7.3.8 | Cesariana | ☐ | ☐ | ☐ |
+| 7.3.7.3.9 | Transfusão de sangue | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota}
@@ -659,13 +458,16 @@ Para cada rastreio seguinte, diga-me qual destas três situações descreve o qu
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 **Rastreio metabólico por punção do calcanhar em papel de filtro (teste do pezinho)** — hipotiroidismo congénito, fenilcetonúria, hiperplasia congénita da suprarrenal e fibrose cística · 2 Pesquisa de hemoglobinopatias no recém-nascido (drepanocitose) · 3 Rastreio auditivo neonatal, por emissões otoacústicas ou potenciais evocados · 4 Rastreio ocular, por reflexo pupilar e teste do reflexo vermelho · 5 Rastreio de cardiopatia congénita crítica por oximetria de pulso nos membros superior e inferior · 6 Rastreio da displasia do desenvolvimento da anca, por manobras de Ortolani e Barlow · 7 Determinação do grupo sanguíneo e factor Rh do recém-nascido · 8 Rastreio da sífilis congénita no recém-nascido de mãe com sífilis
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Realizado nesta unidade · 2 Amostra recolhida aqui e enviada para fora, com retorno do resultado · 3 Não obtido por nenhuma destas vias · 98 Não sabe
+| Código | Rastreio | 1 · Realizado nesta unidade | 2 · Amostra recolhida aqui e enviada para fora, com retorno do resultado | 3 · Não obtido por nenhuma destas vias | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|:-:|
+| 7.3.8.1.1 | **Rastreio metabólico por punção do calcanhar em papel de filtro (teste do pezinho)** — hipotiroidismo congénito, fenilcetonúria, hiperplasia congénita da suprarrenal e fibrose cística | ☐ | ☐ | ☐ | ☐ |
+| 7.3.8.1.2 | Pesquisa de hemoglobinopatias no recém-nascido (drepanocitose) | ☐ | ☐ | ☐ | ☐ |
+| 7.3.8.1.3 | Rastreio auditivo neonatal, por emissões otoacústicas ou potenciais evocados | ☐ | ☐ | ☐ | ☐ |
+| 7.3.8.1.4 | Rastreio ocular, por reflexo pupilar e teste do reflexo vermelho | ☐ | ☐ | ☐ | ☐ |
+| 7.3.8.1.5 | Rastreio de cardiopatia congénita crítica por oximetria de pulso nos membros superior e inferior | ☐ | ☐ | ☐ | ☐ |
+| 7.3.8.1.6 | Rastreio da displasia do desenvolvimento da anca, por manobras de Ortolani e Barlow | ☐ | ☐ | ☐ | ☐ |
+| 7.3.8.1.7 | Determinação do grupo sanguíneo e factor Rh do recém-nascido | ☐ | ☐ | ☐ | ☐ |
+| 7.3.8.1.8 | Rastreio da sífilis congénita no recém-nascido de mãe com sífilis | ☐ | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota}
@@ -729,13 +531,18 @@ Indicadores do HHFA, se o bloco for incluído: 3.1.7.1.1 a 3.1.7.1.11 · 1.3.2.1
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Método canguru · 2 Método canguru efectivamente praticado nos últimos 3 meses · 3 Alimentação alternativa quando o recém-nascido não consegue mamar · 4 Protecção térmica · 5 Administração de oxigénio · 6 Reidratação intravenosa · 7 Exsanguineotransfusão · 8 Ventilação artificial · 9 Antibióticos injectáveis para sépsis neonatal · 10 Fototerapia para icterícia neonatal
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Sim, rotineiramente disponível quando necessário · 2 Não · 98 Não sabe
+| Código | Cuidado | 1 · Sim, rotineiramente disponível quando necessário | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 7.3.8.2.1 | Método canguru | ☐ | ☐ | ☐ |
+| 7.3.8.2.2 | Método canguru efectivamente praticado nos últimos 3 meses | ☐ | ☐ | ☐ |
+| 7.3.8.2.3 | Alimentação alternativa quando o recém-nascido não consegue mamar | ☐ | ☐ | ☐ |
+| 7.3.8.2.4 | Protecção térmica | ☐ | ☐ | ☐ |
+| 7.3.8.2.5 | Administração de oxigénio | ☐ | ☐ | ☐ |
+| 7.3.8.2.6 | Reidratação intravenosa | ☐ | ☐ | ☐ |
+| 7.3.8.2.7 | Exsanguineotransfusão | ☐ | ☐ | ☐ |
+| 7.3.8.2.8 | Ventilação artificial | ☐ | ☐ | ☐ |
+| 7.3.8.2.9 | Antibióticos injectáveis para sépsis neonatal | ☐ | ☐ | ☐ |
+| 7.3.8.2.10 | Fototerapia para icterícia neonatal | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota}
@@ -803,13 +610,20 @@ Para cada método seguinte, diga-me se é habitualmente fornecido nesta unidade 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Pílula combinada de estrogénio e progestagénio · 2 Pílula só de progestagénio · 3 Injectável combinado · 4 Injectável só de progestagénio · 5 Preservativo masculino · 6 Preservativo feminino · 7 Dispositivo intra-uterino (DIU) · 8 Implante subcutâneo · 9 Contracepção de emergência · 10 Colar do ciclo · 11 Esterilização masculina · 12 Esterilização feminina
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Sim, habitualmente fornecido · 2 Não · 98 Não sabe
+| Código | Método | 1 · Sim, habitualmente fornecido | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 7.3.9.1 | Pílula combinada de estrogénio e progestagénio | ☐ | ☐ | ☐ |
+| 7.3.9.2 | Pílula só de progestagénio | ☐ | ☐ | ☐ |
+| 7.3.9.3 | Injectável combinado | ☐ | ☐ | ☐ |
+| 7.3.9.4 | Injectável só de progestagénio | ☐ | ☐ | ☐ |
+| 7.3.9.5 | Preservativo masculino | ☐ | ☐ | ☐ |
+| 7.3.9.6 | Preservativo feminino | ☐ | ☐ | ☐ |
+| 7.3.9.7 | Dispositivo intra-uterino (DIU) | ☐ | ☐ | ☐ |
+| 7.3.9.8 | Implante subcutâneo | ☐ | ☐ | ☐ |
+| 7.3.9.9 | Contracepção de emergência | ☐ | ☐ | ☐ |
+| 7.3.9.10 | Colar do ciclo | ☐ | ☐ | ☐ |
+| 7.3.9.11 | Esterilização masculina | ☐ | ☐ | ☐ |
+| 7.3.9.12 | Esterilização feminina | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota}
@@ -884,13 +698,11 @@ A quem é habitualmente oferecida a testagem do VIH nesta unidade sanitária?
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Crianças menores de 5 anos · 2 Crianças de 5 a 14 anos · 3 Adolescentes e adultos
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Sim · 2 Não · 98 Não sabe
+| Código | Grupo de idade | 1 · Sim | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 7.3.10.1.1 | Crianças menores de 5 anos | ☐ | ☐ | ☐ |
+| 7.3.10.1.2 | Crianças de 5 a 14 anos | ☐ | ☐ | ☐ |
+| 7.3.10.1.3 | Adolescentes e adultos | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota}
@@ -939,13 +751,13 @@ E a que grupos é habitualmente oferecida a PrEP nesta unidade sanitária?
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-2 Parceiro ou parceira de pessoa com VIH em casal serodiscordante · 3 Grávidas e lactantes com risco elevado · 4 Adolescentes e jovens com risco elevado · 5 Trabalhadoras e trabalhadores do sexo · 6 Outras populações-chave definidas pelo PNLS
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Sim · 2 Não · 98 Não sabe
+| Código | Grupo | 1 · Sim | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 7.3.10.2.2 | Parceiro ou parceira de pessoa com VIH em casal serodiscordante | ☐ | ☐ | ☐ |
+| 7.3.10.2.3 | Grávidas e lactantes com risco elevado | ☐ | ☐ | ☐ |
+| 7.3.10.2.4 | Adolescentes e jovens com risco elevado | ☐ | ☐ | ☐ |
+| 7.3.10.2.5 | Trabalhadoras e trabalhadores do sexo | ☐ | ☐ | ☐ |
+| 7.3.10.2.6 | Outras populações-chave definidas pelo PNLS | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota}
@@ -982,8 +794,21 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- **7.3.10.3.1** e **7.3.10.3.2**: 1 Sim, a qualquer hora do dia ou da noite · 2 Sim, apenas no horário de funcionamento · 3 Não · 98 Não sabe
-- **7.3.10.3.3**: 1 Sim, observado · 2 Sim, referido, não visto · 3 Não
+**7.3.10.3.1** e **7.3.10.3.2**:
+
+1. Sim, a qualquer hora do dia ou da noite
+2. Sim, apenas no horário de funcionamento
+3. Não
+
+<!-- -->
+
+98. Não sabe
+
+**7.3.10.3.3**:
+
+1. Sim, observado
+2. Sim, referido, não visto
+3. Não
 :::
 
 ::: {.nota}
@@ -1064,13 +889,11 @@ A que grupos é habitualmente prestado o tratamento antirretroviral nesta unidad
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Crianças menores de 5 anos · 2 Crianças de 5 a 14 anos · 3 Adolescentes e adultos
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Sim, início e seguimento · 2 Sim, apenas seguimento de doentes já em tratamento · 3 Não · 98 Não sabe
+| Código | Grupo de idade | 1 · Sim, início e seguimento | 2 · Sim, apenas seguimento de doentes já em tratamento | 3 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|:-:|
+| 7.3.12.1.1 | Crianças menores de 5 anos | ☐ | ☐ | ☐ | ☐ |
+| 7.3.12.1.2 | Crianças de 5 a 14 anos | ☐ | ☐ | ☐ | ☐ |
+| 7.3.12.1.3 | Adolescentes e adultos | ☐ | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota}
@@ -1099,13 +922,12 @@ Para cada prestação seguinte, diga-me se é habitualmente feita nesta unidade 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Aconselhamento de adesão ao tratamento · 2 Seguimento clínico do doente em tratamento · 3 Seguimento da adesão ao longo do tempo · 4 Prescrição ou dispensa dos antirretrovirais
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Sim · 2 Não · 98 Não sabe
+| Código | Prestação | 1 · Sim | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 7.3.12.2.1 | Aconselhamento de adesão ao tratamento | ☐ | ☐ | ☐ |
+| 7.3.12.2.2 | Seguimento clínico do doente em tratamento | ☐ | ☐ | ☐ |
+| 7.3.12.2.3 | Seguimento da adesão ao longo do tempo | ☐ | ☐ | ☐ |
+| 7.3.12.2.4 | Prescrição ou dispensa dos antirretrovirais | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota}
@@ -1278,13 +1100,11 @@ Para cada prestação seguinte, diga-me se é habitualmente feita nesta unidade 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Seguimento clínico e prescrição dos medicamentos anti-TB · 2 Redispensa dos medicamentos anti-TB nas consultas de seguimento · 3 Apoio à adesão, incluindo o tratamento directamente observado (DOTS), de acordo com as normas do PNLTB
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Sim · 2 Não · 98 Não sabe
+| Código | Prestação | 1 · Sim | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 7.3.13.2.1 | Seguimento clínico e prescrição dos medicamentos anti-TB | ☐ | ☐ | ☐ |
+| 7.3.13.2.2 | Redispensa dos medicamentos anti-TB nas consultas de seguimento | ☐ | ☐ | ☐ |
+| 7.3.13.2.3 | Apoio à adesão, incluindo o tratamento directamente observado (DOTS), de acordo com as normas do PNLTB | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota}
@@ -1317,9 +1137,34 @@ Indicadores do HHFA: 3.2.3.1.7 · 3.2.3.1.2 · 3.2.3.1.9
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- **7.3.13.3**: 1 Sim, como rotina a todos · 2 Apenas a alguns · 3 Não · 98 Não sabe
-- **7.3.13.4**: 1 Sim · 2 Não · 98 Não sabe
-- **7.3.13.5**: 1 Sim · 2 Não · 97 A unidade não tem internamento · 98 Não sabe
+**7.3.13.3**:
+
+1. Sim, como rotina a todos
+2. Apenas a alguns
+3. Não
+
+<!-- -->
+
+98. Não sabe
+
+**7.3.13.4**:
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+
+**7.3.13.5**:
+
+1. Sim
+2. Não
+
+<!-- -->
+
+97. A unidade não tem internamento
+98. Não sabe
 :::
 
 ::: {.nota}
@@ -1384,13 +1229,11 @@ Indicadores do HHFA: 3.2.2.1.1 a 3.2.2.1.6 · 3.2.2.1.8 · 1.3.2.3.1
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Teste rápido de diagnóstico (TDR) · 2 Microscopia — gota espessa ou esfregaço · 3 **Apenas por sinais e sintomas clínicos, sem teste**
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Sim, via utilizada · 2 Não · 98 Não sabe
+| Código | Via de diagnóstico | 1 · Sim, via utilizada | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 7.3.14.B.1 | Teste rápido de diagnóstico (TDR) | ☐ | ☐ | ☐ |
+| 7.3.14.B.2 | Microscopia — gota espessa ou esfregaço | ☐ | ☐ | ☐ |
+| 7.3.14.B.3 | **Apenas por sinais e sintomas clínicos, sem teste** | ☐ | ☐ | ☐ |
 :::
 
 ::: {.enunciado .rotulado}
@@ -1479,7 +1322,14 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-Para cada: 1 Sim · 2 Não · 98 Não sabe
+Para cada:
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
 :::
 
 ::: {.nota}
@@ -1512,8 +1362,12 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- **7.3.17**: 1 Sim · 2 Não
-- **7.3.17.0**: número, 000 a 999
+**7.3.17**:
+
+1. Sim
+2. Não
+
+**7.3.17.0**: número, 000 a 999
 :::
 
 ::: {.instrucao .rotulado}
@@ -1557,13 +1411,14 @@ Para cada área seguinte, diga-me se existe articulação regular entre esta uni
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Planeamento familiar · 2 Consulta pré-natal · 3 Cuidados à criança menor de 5 anos · 4 Malária · 5 Tuberculose · 6 VIH
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Sim, articulação regular · 2 Não · 98 Não sabe
+| Código | Área | 1 · Sim, articulação regular | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 7.3.17.1.1 | Planeamento familiar | ☐ | ☐ | ☐ |
+| 7.3.17.1.2 | Consulta pré-natal | ☐ | ☐ | ☐ |
+| 7.3.17.1.3 | Cuidados à criança menor de 5 anos | ☐ | ☐ | ☐ |
+| 7.3.17.1.4 | Malária | ☐ | ☐ | ☐ |
+| 7.3.17.1.5 | Tuberculose | ☐ | ☐ | ☐ |
+| 7.3.17.1.6 | VIH | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota}

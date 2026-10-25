@@ -234,6 +234,10 @@ ol + ol { margin-top: 0.12rem; }
 .grelha td, .grelha th { padding: 0.3rem 0.5rem; }
 .grelha td:first-child { font-variant-numeric: tabular-nums; }
 .grelha td[style*="center"], .grelha td.center { white-space: nowrap; color: var(--ms-apagado); }
+/* As colunas das opções (centradas) ficam só com a largura necessária; o item fica com o resto */
+.grelha th[style*="center"], .grelha td[style*="center"] { width: 1%; }
+/* Nas tabelas com coluna de código, a coluna do item (a segunda, não centrada) não fica estreita */
+.grelha td:nth-child(2):not([style*="center"]) { min-width: 13rem; }
 
 /* Comentário: o que acontece com cada resposta */
 
