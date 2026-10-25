@@ -469,7 +469,7 @@ Para cada rastreio seguinte, diga-me qual destas três situações descreve o qu
 :::
 
 ::: {.nota}
-**Bloco inteiramente novo e sem indicador internacional.** Verifiquei os três instrumentos: a Ficha não tem rastreios neonatais, o Guião não os menciona, e o instrumento internacional também não — procurei no inventário completo dos 2 604 indicadores por rastreio neonatal, punção do calcanhar, papel de filtro, hipotiroidismo congénito, fenilcetonúria, drepanocitose, rastreio auditivo e metabólico. **A única coincidência é falsa:** o papel de filtro que lá aparece serve o diagnóstico precoce do VIH no lactente exposto, não o rastreio metabólico, e o oxímetro de pulso aparece só como equipamento, nunca como teste de rastreio. É uma lacuna do instrumento internacional e não do Mapa.
+**Bloco inteiramente novo e sem indicador internacional.** Os rastreios do recém-nascido não têm indicador no instrumento internacional: o papel de filtro que lá aparece serve o diagnóstico precoce do VIH no lactente exposto, e o oxímetro de pulso aparece só como equipamento. O bloco responde a uma prioridade nacional.
 
 A escala de três níveis é a mesma dos blocos de laboratório, pela mesma razão: num rastreio em papel de filtro o que importa é saber se a amostra sai e o resultado volta.
 
@@ -544,7 +544,7 @@ Indicadores do HHFA, se o bloco for incluído: 3.1.7.1.1 a 3.1.7.1.11 · 1.3.2.1
 :::
 
 ::: {.nota}
-**Este bloco não foi pedido e fica registado para decisão.** Surgiu da verificação dos rastreios neonatais: ao procurar rastreio no instrumento internacional encontrei esta subárea, que é a maior lacuna da proposta no que respeita ao recém-nascido.
+**Fica registado para decisão.** Corresponde a uma subárea do instrumento internacional sobre o recém-nascido pequeno ou doente, que a proposta ainda não cobre.
 
 É **declarada** — não exige observação —, são 11 campos para 14 indicadores com uma subárea internacional fechada, e **nada há a inventar: as perguntas existem, estão validadas e têm indicador**. Ao contrário dos rastreios de 7.3.8.1, aqui o retorno é imediato.
 
@@ -759,7 +759,7 @@ E a que grupos é habitualmente oferecida a PrEP nesta unidade sanitária?
 :::
 
 ::: {.nota}
-**Bloco inteiramente novo e sem indicador internacional de contrapartida.** Procurei «PrEP» e «pre-exposure» no questionário internacional e não há uma única ocorrência; no inventário de indicadores existe apenas um, sobre utentes de pré-natal com PrEP recebida, que pertence ao módulo de revisão de registos clínicos e se apura lendo processos — está fora do alcance de um cadastro.
+**Bloco inteiramente novo e sem indicador internacional de contrapartida.** O instrumento internacional só mede a PrEP lendo processos clínicos de utentes de pré-natal, o que está fora do alcance de um cadastro.
 
 **O argumento para a incluir é nacional e não internacional:** a PrEP consta das recomendações da OMS e, num país com tratamento antirretroviral descentralizado, saber onde ela existe é informação directa para as decisões do programa.
 
@@ -814,7 +814,7 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 **Remissão importante, para não duplicar:** o PEP após violação ou violência sexual é a linha 7.1.E.3.3 e **não se repete aqui** — é lá que gera o indicador internacional. As duas leituras devem ser coerentes: uma unidade que declara PEP aqui e não o declara em 7.1.E.3.3 é uma inconsistência a assinalar.
 
-**O PEP ocupacional é a ausência mais surpreendente do instrumento internacional neste tema:** é a profilaxia que protege o próprio pessoal de saúde, pertence ao mesmo universo da segurança no trabalho que a comissão de 7.4.16, e não tem pergunta em nenhum módulo — procurei «needle-stick» e «occupational exposure» e não há ocorrências.
+**A PEP ocupacional não tem pergunta no instrumento internacional.** É a profilaxia que protege o próprio pessoal de saúde e pertence ao mesmo universo da segurança no trabalho que a comissão de 7.4.16.
 
 A escala pergunta pelo horário porque a janela é de 72 horas e, na prática, um acidente ocorre em turno: uma unidade que só fornece PEP de manhã fornece PEP a uma fracção dos casos. **Depende do bloco de medicamentos, que está parqueado** — sem antirretrovirais em stock a declaração não se verifica.
 :::
@@ -1333,7 +1333,7 @@ Para cada:
 ::: {.nota}
 Mantêm-se integralmente, com as definições do Guião — incluindo as três exclusões, que são o que dá sentido à resposta — trazidas para dentro da pergunta. As duas caixas continuam separadas porque **medem esforços logísticos de ordem diferente**: uma unidade que faz equipas avançadas perto e não faz brigadas longe tem um problema de transporte, não de organização.
 
-**É contributo próprio e importante:** procurei no inventário e o instrumento internacional não tem nenhum indicador de actividade extramural ou de brigada móvel organizada pela unidade — é um inventário do que acontece **dentro** da unidade. Para uma avaliação de cuidados primários num país com a densidade populacional de Angola, isto é uma lacuna do instrumento internacional e não do Mapa.
+**Contributo próprio do Mapa Sanitário.** O instrumento internacional não tem indicador de actividade extramural ou de brigada móvel organizada pela unidade, que é uma parte importante dos cuidados primários num país com a densidade populacional de Angola.
 
 **Articula-se com o domínio 10:** as motorizadas e as bicicletas da Ficha são, em muitas unidades, o meio exacto com que isto se faz.
 :::

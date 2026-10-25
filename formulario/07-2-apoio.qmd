@@ -336,7 +336,7 @@ Quando a amostra é recolhida aqui e enviada para análise noutro local, qual é
 :::
 
 ::: {.nota}
-**Contributo próprio e ligação directa à árvore de referência do domínio 3.** Procurei no inventário internacional e não existe nenhum indicador sobre o destino da amostra ou do doente quando o exame não se faz na unidade.
+**Contributo próprio e ligação directa à árvore de referência do domínio 3.** O instrumento internacional não tem indicador sobre o destino da amostra ou do doente quando o exame não se faz na unidade.
 
 É uma só pergunta, e não uma coluna por exame, porque a escala de três níveis já diz, exame por exame, se a amostra sai — o que falta é o destino, e o destino é quase sempre o mesmo. Se a primeira ronda mostrar muita dispersão na opção 96, abre-se uma coluna de destino em cada linha na ronda seguinte, ao custo de mais 49 campos.
 
