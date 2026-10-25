@@ -49,7 +49,7 @@ Esta unidade sanitária realiza vacinação de rotina, com periodicidade fixa, m
 :::
 
 ::: {.nota}
-**Porque mudou.** A definição do Guião (folha 12) empacota três critérios numa só caixa: «a menores de 5 anos, com todos os antigénios (= Posto Fixo de Vacinação); será considerado afirmativo se são realizadas vacinações de rotina na US com periodicidade fixa, mesmo que não seja diária» — grupo de idade, completude dos antigénios e periodicidade. Os três ficam distribuídos por três quesitos: a periodicidade em 7.3.1.1, a completude em 7.3.1.2, e o grupo de idade resolve-se na própria grelha.
+**Porque mudou.** A definição do Guião (folha 12) reúne três critérios: «a menores de 5 anos, com todos os antigénios (= Posto Fixo de Vacinação); será considerado afirmativo se são realizadas vacinações de rotina na US com periodicidade fixa, mesmo que não seja diária» — grupo de idade, completude dos antigénios e periodicidade. A proposta aproveita-a e dá a cada critério o seu quesito: a periodicidade em 7.3.1.1, a completude em 7.3.1.2, e o grupo de idade resolve-se na própria grelha.
 
 **A opção 2 é nova** e serve a leitura que o Guião já implica: uma unidade que só vacina em campanhas não é um posto fixo de vacinação, mas também não é uma unidade onde nada acontece.
 :::
@@ -86,7 +86,7 @@ Com que periodicidade é realizada a vacinação de rotina das crianças nesta u
 :::
 
 ::: {.nota}
-Uma caixa, três indicadores. O Guião já manda avaliar a periodicidade — «mesmo que não seja diária» — mas não dá ao inquiridor onde a registar, pelo que hoje essa informação entra na decisão de marcar a caixa de 7.3.1 e perde-se.
+Uma caixa, três indicadores. Aproveita a instrução do Guião, que já manda avaliar a periodicidade — «mesmo que não seja diária» —, e passa a registá-la, para que fique disponível na análise.
 
 **É provavelmente o dado mais útil de todo o bloco do PAV** para a rede de cuidados primários: a distância entre vacinar todos os dias e vacinar uma vez por mês é a distância entre uma mãe que leva a criança quando pode e uma mãe que tem de acertar com o dia certo — e explica oportunidades perdidas de vacinação sem que nada falte na unidade.
 :::

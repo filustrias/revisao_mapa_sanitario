@@ -48,7 +48,7 @@ Considerando a fundação, a estrutura, o pavimento, as paredes, a cobertura, o 
 :::
 
 ::: {.nota}
-As quatro categorias mantêm-se com a redacção da Ficha. O que muda é o enunciado, que nomeia os sete elementos a considerar, para que a classificação deixe de depender de quem leu o Guião.
+As quatro categorias mantêm-se com a redacção da Ficha. O que muda é o enunciado, que nomeia os sete elementos a considerar, para que todos os inquiridores apliquem os critérios do Guião aos mesmos elementos.
 :::
 
 ## 5.1.1 a 5.1.7 Estado por elemento construtivo [NOVO]{.etiqueta .novo}
@@ -117,7 +117,7 @@ Qual é a superfície coberta, em metros quadrados, que se encontra em cada um d
 :::
 
 ::: {.nota}
-**Origem.** É literalmente o que o Guião manda fazer no campo 5.2: «especificar o nº de m2 em bom estado, de reabilitação ligeira, de reabilitação pesada e de reconstrução. A especificação dos m2 serve para calcular os custos da reabilitação/manutenção necessários». A Ficha dá para isso um campo de **texto livre**, de onde nenhum custo se calcula.
+**Origem.** É literalmente o que o Guião manda fazer no campo 5.2: «especificar o nº de m2 em bom estado, de reabilitação ligeira, de reabilitação pesada e de reconstrução. A especificação dos m2 serve para calcular os custos da reabilitação/manutenção necessários». A proposta dá a cada uma das quatro parcelas uma caixa numérica própria, para que os metros quadrados se possam somar.
 
 **Consequência.** Com quatro caixas numéricas, a estimativa de custo de reabilitação da rede passa a ser calculável directamente a partir do Mapa Sanitário. É provavelmente o ganho mais directo de toda a proposta para o plano de investimentos.
 

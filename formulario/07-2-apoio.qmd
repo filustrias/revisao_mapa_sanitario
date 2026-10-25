@@ -409,7 +409,7 @@ Para cada linha: 1 Realizado nesta unidade · 2 Doente encaminhado para outra un
 :::
 
 ::: {.nota}
-**Porque mudou.** A Ficha tem uma única caixa para toda a imagiologia. Oito linhas dão a tabela internacional completa, e os indicadores contam apenas a opção 1, o que preserva o significado internacional. A opção 2 é o acrescento nosso e é a que serve o país, porque distingue a unidade que garante o acesso por encaminhamento daquela onde o exame não acontece.
+**Porque mudou.** A caixa da imagiologia desdobra-se em oito linhas, que dão a tabela internacional completa; os indicadores contam apenas a opção 1, o que preserva o significado internacional. A opção 2 é o acrescento nosso e é a que serve o país, porque distingue a unidade que garante o acesso por encaminhamento daquela onde o exame não acontece.
 
 **Articula-se com o domínio 9**, onde se **contam** os aparelhos de ecografia e de raio X: aqui mede-se a oferta do exame, lá o inventário do equipamento.
 
@@ -507,9 +507,9 @@ Linha 5: número de 00 a 99.
 :::
 
 ::: {.nota}
-Sete das oito caixas são as da Ficha e mantêm-se com o mesmo sentido; muda apenas o enunciado, que passa a dizer «em funcionamento» por palavras em vez de o deixar implícito no título da coluna.
+Sete das oito caixas são as da Ficha e mantêm-se com o mesmo sentido; muda apenas o enunciado, que passa a dizer «em funcionamento» por palavras.
 
-**Duas precisões e um acrescento.** A reabilitação ganha a definição internacional, mais larga do que a fisioterapia — sem a escrever, a caixa é marcada apenas por quem tem gabinete de fisioterapia. O número de blocos operatórios ganha «em condições de utilização». E o acrescento são os **cuidados paliativos**, uma caixa e um indicador, e é a oferta de cuidados primários que mais falta na Ficha: o controlo da dor no doente oncológico avançado faz-se no centro de saúde e no domicílio, não no hospital.
+**Duas precisões e um acrescento.** A reabilitação ganha a definição internacional, mais larga do que a fisioterapia — escrita no enunciado, a caixa abrange também quem faz reabilitação sem gabinete de fisioterapia. O número de blocos operatórios ganha «em condições de utilização». E o acrescento são os **cuidados paliativos**, uma caixa e um indicador, uma oferta própria dos cuidados primários: o controlo da dor no doente oncológico avançado faz-se no centro de saúde e no domicílio, não no hospital.
 :::
 
 ## 7.2.E · Serviços de urgência [NOVO]{.etiqueta .novo}
@@ -558,7 +558,7 @@ Indicadores do HHFA: 3.5.1.1.1 a 3.5.1.1.10, 1.3.2.8.1 e 1.3.2.8.2
 :::
 
 ::: {.nota}
-**É a aplicação mais consequente da regra de que a porta é a actividade e não o órgão.** A Ficha só tem as duas caixas do Banco de Urgência, pelo que hoje um centro de saúde que atende urgências na própria consulta — o que é a regra na rede de cuidados primários — fica contado como unidade sem atendimento de urgência. Com esta porta passa a entrar no numerador do indicador do HHFA.
+**É a aplicação mais consequente da regra de que a porta é a actividade e não o órgão.** Com esta porta, o centro de saúde que atende urgências na própria consulta — o que é a regra na rede de cuidados primários — passa a contar como unidade com atendimento de urgência, ao lado das que têm Banco de Urgência, e entra no numerador do indicador do HHFA.
 :::
 
 ::: {.enunciado .rotulado}
@@ -579,7 +579,7 @@ Indicadores do HHFA: 3.5.1.1.1 a 3.5.1.1.10, 1.3.2.8.1 e 1.3.2.8.2
 :::
 
 ::: {.nota}
-**É aqui que as duas caixas da Ficha — «Só Diurno» e «24 Horas» — se resolvem numa pergunta e um número.** Ganha-se em três frentes. Desaparece a ambiguidade: hoje as duas caixas podem ser marcadas ao mesmo tempo, ou nenhuma. O número contém as duas categorias da Ficha e todas as que ficam entre elas — as 12 horas, as 16 horas, o fim de semana só de manhã —, que é a realidade da maior parte da rede. E o indicador internacional calcula-se de «igual a 24», pelo que perguntar as horas dá o indicador **e** o gradiente.
+**É aqui que as duas caixas da Ficha — «Só Diurno» e «24 Horas» — se resolvem numa pergunta e um número.** Ganha-se em três frentes. A resposta é sempre uma só. O número contém as duas categorias da Ficha e todas as que ficam entre elas — as 12 horas, as 16 horas, o fim de semana só de manhã —, que é a realidade da maior parte da rede. E o indicador internacional calcula-se de «igual a 24», pelo que perguntar as horas dá o indicador **e** o gradiente.
 
 **Correspondência com a série histórica:** «Só Diurno» passa a ser um valor entre 01 e 23, e «24 Horas» passa a ser 24.
 :::

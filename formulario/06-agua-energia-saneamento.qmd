@@ -73,7 +73,7 @@ Qual é a fonte de água mais utilizada por esta unidade sanitária neste moment
 :::
 
 ::: {.nota}
-**Porque mudou.** A Ficha tem cinco categorias e junta em «furo ou poço» situações que a definição internacional separa: um poço protegido é fonte melhorada, um poço não protegido não é. Com a lista actual, o indicador de fonte melhorada não é calculável. A lista nova é a do instrumento internacional e a estrutura Principal + Outras da Ficha é integralmente conservada.
+**Porque mudou.** As cinco categorias da Ficha desdobram-se na lista do instrumento internacional, que distingue situações reunidas na Ficha em «furo ou poço»: um poço protegido é fonte melhorada, um poço não protegido não é. É esta distinção que permite calcular o indicador de fonte melhorada. A lista nova é a do instrumento internacional e a estrutura Principal + Outras da Ficha é integralmente conservada.
 :::
 
 ## 6.1.3 Água disponível no recinto [NOVO]{.etiqueta .novo}
@@ -396,5 +396,5 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 :::
 
 ::: {.nota}
-Os dois campos mantêm-se, incluindo a especificação da causa, que o Guião já pede. Acrescenta-se o período de referência — «nos últimos 30 dias» — porque «funciona» sem período não é verificável. E a proposta harmoniza a codificação das duas perguntas: na Ficha, 6.7.1 tem Não = 1 e Sim = 2, e 6.7.2 tem Sim = 1 e Não = 2; passa a ser Sim = 1 e Não = 2 nas duas, para que a mesma resposta tenha sempre o mesmo código.
+Os dois campos mantêm-se, incluindo a especificação da causa, que o Guião já pede. Acrescenta-se o período de referência — «nos últimos 30 dias» — porque «funciona» sem período não é verificável. E a codificação passa a ser Sim = 1 e Não = 2 nas duas perguntas, para que a mesma resposta tenha sempre o mesmo código; na conversão para a série histórica, recorde-se que na Ficha 6.7.1 usa Não = 1 e Sim = 2.
 :::

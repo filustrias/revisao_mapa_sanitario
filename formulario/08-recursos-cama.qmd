@@ -55,7 +55,7 @@ Esta unidade sanitária tem internamento, isto é, doentes que pernoitam na unid
 :::
 
 ::: {.nota}
-**Porque é necessária.** A Ficha passa directamente à contagem de camas. Com a porta, uma unidade sem internamento salta as perguntas sobre camas de internamento e responde apenas às que se aplicam a todas as unidades.
+**Porque é necessária.** A porta antecede a contagem de camas: com ela, uma unidade sem internamento salta as perguntas sobre camas de internamento e responde apenas às que se aplicam a todas as unidades.
 :::
 
 ## 8.1.1 Camas de internamento de adulto [ALTERADO]{.etiqueta .alterado}
@@ -117,7 +117,7 @@ Número inteiro (0–999) · **998** Não sabe
 :::
 
 ::: {.nota}
-**Porque é necessária.** A Ficha não separa as camas pediátricas. Aqui contam-se pelo tamanho da cama; em 8.2 contam-se também pela enfermaria. As duas leituras servem fins diferentes e ambas ficam disponíveis.
+**Porque é necessária.** As camas pediátricas passam a ter contagem própria. Aqui contam-se pelo tamanho da cama; em 8.2 contam-se também pela enfermaria. As duas leituras servem fins diferentes e ambas ficam disponíveis.
 :::
 
 ## 8.1.3 Berços para recém-nascidos [ALTERADO]{.etiqueta .alterado}
@@ -171,7 +171,7 @@ Número inteiro (0–999) · **998** Não sabe
 :::
 
 ::: {.nota}
-**Para que serve.** A distância entre as camas autorizadas e as instaladas é informação de planeamento que hoje não é recolhida.
+**Para que serve.** A distância entre as camas autorizadas e as instaladas é informação de planeamento que passa a ficar disponível.
 
 **Verificação a programar.** Assinalar quando 8.1.1 for maior que 8.1.4.
 :::
@@ -227,7 +227,7 @@ Quantas camas de internamento, instaladas e disponíveis no dia da visita, exist
 :::
 
 ::: {.nota}
-**Porque é necessária.** A Ficha conta o total de camas sem as distribuir por enfermaria. A distribuição mostra que serviços de internamento cada unidade tem de facto e com que dimensão.
+**Porque é necessária.** Ao total de camas da Ficha acrescenta-se a distribuição por enfermaria, que mostra que serviços de internamento cada unidade tem de facto e com que dimensão.
 
 **Verificações a programar.** A soma das linhas de adulto não pode exceder 8.1.1; a linha 11 não pode exceder 8.1.2; a linha 12 não pode exceder 8.1.3.
 :::
@@ -295,7 +295,7 @@ Para cada uma: número inteiro (0–999) · **998** Não sabe
 :::
 
 ::: {.nota}
-**Porque mudou.** O Guião já distingue a observação até 24 horas da curta estadia até 72 horas; a Ficha tem uma só caixa para as duas. Passam a ter uma caixa cada.
+**Porque mudou.** O Guião já distingue a observação até 24 horas da curta estadia até 72 horas; a proposta segue essa distinção e dá uma caixa a cada uma.
 :::
 
 ## 8.3.3 Camas de observação com pernoita [NOVO]{.etiqueta .novo}
@@ -354,7 +354,7 @@ Para cada um dos seguintes equipamentos, quantos existem nesta unidade sanitári
 :::
 
 ::: {.nota}
-**Porque mudou.** A Ficha conta marquesas de parto e cadeiras de estomatologia junto das camas. Aqui separam-se: a cama é lugar de estadia, a maca é lugar de exame. Acrescentam-se a maca para exame físico e a maca ou mesa para exame ginecológico, e a coluna «a funcionar» estende a todos os equipamentos a indicação do Guião sobre o estado de funcionamento da cadeira de estomatologia.
+**Porque mudou.** As marquesas de parto e as cadeiras de estomatologia, que a Ficha conta junto das camas, passam a ter pergunta própria: a cama é lugar de estadia, a maca é lugar de exame. Acrescentam-se a maca para exame físico e a maca ou mesa para exame ginecológico, e a coluna «a funcionar» estende a todos os equipamentos a indicação do Guião sobre o estado de funcionamento da cadeira de estomatologia.
 :::
 
 ## 8.5 Camas em armazém ou fora de uso [NOVO]{.etiqueta .novo}
@@ -381,7 +381,7 @@ Número inteiro (0–999) · **998** Não sabe
 :::
 
 ::: {.nota}
-**Porque é necessária.** O Guião manda registar «aparte» as camas guardadas em armazém. Uma caixa própria dá-lhes lugar no formulário e evita que entrem na contagem de 8.1.1.
+**Porque é necessária.** Como o Guião prevê, as camas guardadas em armazém registam-se «aparte»: passam a ter caixa própria, que evita que entrem na contagem de 8.1.1.
 :::
 
 ## 8.6 Outros recursos de estadia ou de exame [ALTERADO]{.etiqueta .alterado}
@@ -408,7 +408,7 @@ Designação (texto) · Número inteiro (0–999)
 :::
 
 ::: {.nota}
-**Porque mudou.** A Ficha tem cinco linhas abertas. Com as camas por enfermaria e por sexo, a observação, a curta estadia e os equipamentos de exame em perguntas próprias, uma linha aberta é suficiente.
+**Porque mudou.** As cinco linhas abertas da Ficha passam a uma: com as camas por enfermaria e por sexo, a observação, a curta estadia e os equipamentos de exame em perguntas próprias, uma linha aberta é suficiente.
 :::
 
 ## 8.7 Observações [MANTÉM-SE]{.etiqueta .mantem}

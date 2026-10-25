@@ -161,5 +161,5 @@ Qual é o material predominante das paredes exteriores do edifício principal?
 :::
 
 ::: {.nota}
-**Porque mudou.** A Ficha junta numa só opção «tijolo – bloco», que são materiais com durabilidade, comportamento térmico e custo de reabilitação diferentes. As cinco categorias passam a seis, e a conversão para a série histórica é directa: as novas 3 e 4 juntam-se na antiga 3. A instrução de predominância resolve o caso do edifício com paredes de materiais diferentes. *Decisão aprovada a 15/10.*
+**Porque mudou.** A opção «tijolo – bloco» desdobra-se em duas, porque são materiais com durabilidade, comportamento térmico e custo de reabilitação diferentes. As cinco categorias passam a seis, e a conversão para a série histórica é directa: as novas 3 e 4 juntam-se na antiga 3. A instrução de predominância resolve o caso do edifício com paredes de materiais diferentes. *Decisão aprovada a 15/10.*
 :::

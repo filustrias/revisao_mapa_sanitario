@@ -82,9 +82,9 @@ Vou ler uma lista de especialidades clínicas. Para cada uma, diga-me se esta un
 :::
 
 ::: {.nota}
-**Porque mudou.** A Ficha pergunta apenas se há atendimento em cada especialidade. Com uma só caixa, um centro de saúde onde o clínico geral acompanha hipertensos uma manhã por semana e um hospital com três cardiologistas em consulta diária marcam ambos «cardiologia: 1». As quatro perguntas separam a **existência** da oferta, a sua **dimensão** — especialistas e turnos de atendimento — e a **forma de acesso**. O número de especialistas, com o código 00, conserva a distinção entre atendimento por especialista e por outro profissional.
+**Porque mudou.** A pergunta da Ficha — se há atendimento em cada especialidade — mantém-se e ganha a companhia de outras três, para que se possa distinguir um centro de saúde onde o clínico geral acompanha hipertensos uma manhã por semana de um hospital com três cardiologistas em consulta diária. As quatro perguntas separam a **existência** da oferta, a sua **dimensão** — especialistas e turnos de atendimento — e a **forma de acesso**. O número de especialistas, com o código 00, conserva a distinção entre atendimento por especialista e por outro profissional.
 
-**O enunciado fixa o critério** de atendimento regular — dias marcados na semana, não suspenso há mais de 3 meses — que hoje fica ao critério de quem responde.
+**O enunciado fixa o critério** de atendimento regular — dias marcados na semana, não suspenso há mais de 3 meses —, para que todas as unidades respondam com a mesma régua.
 
 **Verificação a programar.** O número de especialistas declarado aqui deverá ser coerente com o quadro de pessoal da unidade, quando o bloco de pessoal for desenhado.
 
