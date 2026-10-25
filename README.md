@@ -41,12 +41,9 @@ feita primeiro na matriz e só depois transcrita para aqui, para que as duas nã
 
 ## Estado
 
-Transcritos: secções 0 a 12 (identificação da recolha, localização, propriedade e gestão,
-população e referência, construção, estado físico, água e saneamento, serviços oferecidos,
-recursos cama, aparelhos médico-cirúrgicos, meios de transporte, responsáveis e contactos).
-
-Por transcrever: domínio 13 (conectividade), identificado em `formulario/13-por-transcrever.qmd`
-com o respectivo volume.
+Todas as secções estão transcritas. A propriedade e a entidade gestora (antiga secção 2) estão no
+capítulo de gestão (7.4), e os responsáveis e contactos (antigas secções 11 e 12) na finalização da
+recolha, na secção 0. A reordenação e a renumeração das secções estão em discussão.
 
 ## Comentários
 

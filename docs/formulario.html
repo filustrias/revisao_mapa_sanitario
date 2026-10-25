@@ -133,11 +133,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./formulario/02-propriedade-gestao.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Secção 2 — Propriedade e gestão</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./formulario/03-populacao-referencia.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Secção 3 — População e sistema de referência</span></a>
   </div>
 </li>
@@ -209,12 +204,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./formulario/11-12-responsaveis.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Secções 11 e 12 — Responsável da unidade e pessoas que responderam</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./formulario/13-por-transcrever.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Domínio 13 — por transcrever nesta edição</span></a>
+  <a href="./formulario/13-conectividade.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Secção 13 — Conectividade e meios informáticos</span></a>
   </div>
 </li>
     </ul>
@@ -276,59 +266,51 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td><a href="./formulario/00-identificacao.html">Secção 0</a></td>
-<td>Identificação da recolha</td>
+<td>Identificação e finalização da recolha</td>
 </tr>
 <tr class="even">
 <td><a href="./formulario/01-localizacao.html">Secção 1</a></td>
 <td>Localização</td>
 </tr>
 <tr class="odd">
-<td><a href="./formulario/02-propriedade-gestao.html">Secção 2</a></td>
-<td>Propriedade e gestão</td>
-</tr>
-<tr class="even">
 <td><a href="./formulario/03-populacao-referencia.html">Secção 3</a></td>
 <td>População e sistema de referência</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./formulario/04-construcao.html">Secção 4</a></td>
 <td>Construção</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./formulario/05-estado-fisico.html">Secção 5</a></td>
 <td>Estado físico</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./formulario/06-agua-energia-saneamento.html">Secção 6</a></td>
 <td>Água, energia, saneamento e resíduos</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./formulario/07-servicos.html">Secção 7</a></td>
 <td>Serviços oferecidos — <a href="./formulario/07-1-clinicos-cirurgicos.html">7.1</a> clínicos e cirúrgicos · <a href="./formulario/07-2-apoio.html">7.2</a> apoio · <a href="./formulario/07-3-1-vacinacao.html">7.3.1</a> vacinação · <a href="./formulario/07-3-saude-publica.html">7.3</a> saúde pública</td>
 </tr>
-<tr class="odd">
-<td><a href="./formulario/07-4-5-gestao-servicos-gerais.html">Secções 7.4 e 7.5</a></td>
-<td>Gestão e serviços gerais</td>
-</tr>
 <tr class="even">
+<td><a href="./formulario/07-4-5-gestao-servicos-gerais.html">Secções 7.4 e 7.5</a></td>
+<td>Gestão (com a propriedade e a entidade gestora) e serviços gerais</td>
+</tr>
+<tr class="odd">
 <td><a href="./formulario/08-recursos-cama.html">Secção 8</a></td>
 <td>Recursos cama e similares</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./formulario/09-aparelhos.html">Secção 9</a></td>
 <td>Aparelhos médico-cirúrgicos</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./formulario/10-transportes.html">Secção 10</a></td>
 <td>Meios de transporte</td>
 </tr>
-<tr class="odd">
-<td><a href="./formulario/11-12-responsaveis.html">Secções 11 e 12</a></td>
-<td>Responsável da unidade e pessoas que responderam</td>
-</tr>
 <tr class="even">
-<td><a href="./formulario/13-por-transcrever.html">Domínio 13</a></td>
-<td>Por transcrever nesta edição</td>
+<td><a href="./formulario/13-conectividade.html">Secção 13</a></td>
+<td>Conectividade e meios informáticos</td>
 </tr>
 </tbody>
 </table>
@@ -378,6 +360,25 @@ ul.task-list li input[type="checkbox"] {
   <iframe title="Formulário de comentário"></iframe>
   <div class="ms-formulario-feito" hidden="">✓ Comentário registado</div>
 </dialog>
+
+<script>
+// Indicadores do HHFA: escondidos para os revisores; ?hhfa=1 mostra-os e lembra a escolha, ?hhfa=0 volta a escondê-los
+(function () {
+  const CHAVE = "ms-ver-hhfa";
+  const p = new URLSearchParams(location.search).get("hhfa");
+  try {
+    if (p === "1") localStorage.setItem(CHAVE, "1");
+    if (p === "0") localStorage.removeItem(CHAVE);
+    if (localStorage.getItem(CHAVE) !== "1") return;
+  } catch (e) { if (p !== "1") return; }
+  document.documentElement.classList.add("ver-hhfa");
+  const a = document.createElement("a");
+  a.className = "ms-aviso-hhfa";
+  a.href = location.pathname + "?hhfa=0";
+  a.textContent = "Indicadores do HHFA visíveis · esconder";
+  document.body.appendChild(a);
+})();
+</script>
 
 <script>
 (function () {

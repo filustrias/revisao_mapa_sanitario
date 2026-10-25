@@ -10,17 +10,15 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 
 | Capítulo | Conteúdo |
 |---|---|
-| [Secção 0](formulario/00-identificacao.qmd) | Identificação da recolha |
+| [Secção 0](formulario/00-identificacao.qmd) | Identificação e finalização da recolha |
 | [Secção 1](formulario/01-localizacao.qmd) | Localização |
-| [Secção 2](formulario/02-propriedade-gestao.qmd) | Propriedade e gestão |
 | [Secção 3](formulario/03-populacao-referencia.qmd) | População e sistema de referência |
 | [Secção 4](formulario/04-construcao.qmd) | Construção |
 | [Secção 5](formulario/05-estado-fisico.qmd) | Estado físico |
 | [Secção 6](formulario/06-agua-energia-saneamento.qmd) | Água, energia, saneamento e resíduos |
 | [Secção 7](formulario/07-servicos.qmd) | Serviços oferecidos — [7.1](formulario/07-1-clinicos-cirurgicos.qmd) clínicos e cirúrgicos · [7.2](formulario/07-2-apoio.qmd) apoio · [7.3.1](formulario/07-3-1-vacinacao.qmd) vacinação · [7.3](formulario/07-3-saude-publica.qmd) saúde pública |
-| [Secções 7.4 e 7.5](formulario/07-4-5-gestao-servicos-gerais.qmd) | Gestão e serviços gerais |
+| [Secções 7.4 e 7.5](formulario/07-4-5-gestao-servicos-gerais.qmd) | Gestão (com a propriedade e a entidade gestora) e serviços gerais |
 | [Secção 8](formulario/08-recursos-cama.qmd) | Recursos cama e similares |
 | [Secção 9](formulario/09-aparelhos.qmd) | Aparelhos médico-cirúrgicos |
 | [Secção 10](formulario/10-transportes.qmd) | Meios de transporte |
-| [Secções 11 e 12](formulario/11-12-responsaveis.qmd) | Responsável da unidade e pessoas que responderam |
-| [Domínio 13](formulario/13-por-transcrever.qmd) | Por transcrever nesta edição |
+| [Secção 13](formulario/13-conectividade.qmd) | Conectividade e meios informáticos |

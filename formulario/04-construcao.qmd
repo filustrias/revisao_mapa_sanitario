@@ -11,10 +11,10 @@ Número e área dos edifícios da unidade e das residências do pessoal, períod
 
 | Quesito | O que se obtém |
 |---|---|
-| 4.1 e 4.2 | Número de edifícios e área coberta de cada unidade sanitária |
-| 4.3 e 4.4 | Número de residências para trabalhadores e respectiva área coberta |
-| 4.5 e 4.6 | Distribuição das unidades sanitárias por período de construção |
-| 4.7 | Distribuição das unidades sanitárias pelo material predominante das paredes |
+| 4.1 e 4.2 | Número de edifícios e área coberta de cada unidade sanitária [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 4.3 e 4.4 | Número de residências para trabalhadores e respectiva área coberta [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 4.5 e 4.6 | Distribuição das unidades sanitárias por período de construção [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 4.7 | Distribuição das unidades sanitárias pelo material predominante das paredes [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
@@ -25,7 +25,9 @@ Número e área dos edifícios da unidade e das residências do pessoal, períod
 
 Número de edifícios e área coberta de cada unidade sanitária, agregáveis por município e por província. Comparada com a secção 5.2 — metros quadrados por estado de conservação —, a área coberta permite estimar a área a reabilitar.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -58,7 +60,9 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 Número de residências para trabalhadores de cada unidade sanitária e respectiva área coberta, na mesma medida usada para os edifícios da unidade em 4.2.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -89,7 +93,9 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 Distribuição das unidades sanitárias por período de construção do edifício principal, comparável com as quatro edições anteriores do Mapa Sanitário.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -132,7 +138,9 @@ As cinco categorias do período (4.6) mantêm-se sem alteração: correspondem a
 
 Distribuição das unidades sanitárias pelo material predominante das paredes exteriores do edifício principal — informação de base para estimar custos de reabilitação.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 

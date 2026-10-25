@@ -42,6 +42,25 @@
 </dialog>
 
 <script>
+// Indicadores do HHFA: escondidos para os revisores; ?hhfa=1 mostra-os e lembra a escolha, ?hhfa=0 volta a escondê-los
+(function () {
+  const CHAVE = "ms-ver-hhfa";
+  const p = new URLSearchParams(location.search).get("hhfa");
+  try {
+    if (p === "1") localStorage.setItem(CHAVE, "1");
+    if (p === "0") localStorage.removeItem(CHAVE);
+    if (localStorage.getItem(CHAVE) !== "1") return;
+  } catch (e) { if (p !== "1") return; }
+  document.documentElement.classList.add("ver-hhfa");
+  const a = document.createElement("a");
+  a.className = "ms-aviso-hhfa";
+  a.href = location.pathname + "?hhfa=0";
+  a.textContent = "Indicadores do HHFA visíveis · esconder";
+  document.body.appendChild(a);
+})();
+</script>
+
+<script>
 (function () {
   const FORMULARIO = "https://docs.google.com/forms/d/e/1FAIpQLSfDjFs-JRnTNzo1DE_NoSEvp5mqZXCytSXS4VRUtO22RGqAlA/viewform?usp=pp_url"
     + "&entry.419732026=QUESITO&entry.1840941699=NOME&entry.145179400=EMAIL&entry.519699642=INSTITUICAO";

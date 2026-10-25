@@ -133,11 +133,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../formulario/02-propriedade-gestao.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Secção 2 — Propriedade e gestão</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../formulario/03-populacao-referencia.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Secção 3 — População e sistema de referência</span></a>
   </div>
 </li>
@@ -209,12 +204,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../formulario/11-12-responsaveis.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Secções 11 e 12 — Responsável da unidade e pessoas que responderam</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../formulario/13-por-transcrever.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Domínio 13 — por transcrever nesta edição</span></a>
+  <a href="../formulario/13-conectividade.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Secção 13 — Conectividade e meios informáticos</span></a>
   </div>
 </li>
     </ul>
@@ -276,19 +266,19 @@ O que esta secção permite medir
 <tbody>
 <tr class="odd">
 <td>4.1 e 4.2</td>
-<td>Número de edifícios e área coberta de cada unidade sanitária</td>
+<td>Número de edifícios e área coberta de cada unidade sanitária <span class="hhfa">(medida própria do Mapa Sanitário)</span></td>
 </tr>
 <tr class="even">
 <td>4.3 e 4.4</td>
-<td>Número de residências para trabalhadores e respectiva área coberta</td>
+<td>Número de residências para trabalhadores e respectiva área coberta <span class="hhfa">(medida própria do Mapa Sanitário)</span></td>
 </tr>
 <tr class="odd">
 <td>4.5 e 4.6</td>
-<td>Distribuição das unidades sanitárias por período de construção</td>
+<td>Distribuição das unidades sanitárias por período de construção <span class="hhfa">(medida própria do Mapa Sanitário)</span></td>
 </tr>
 <tr class="even">
 <td>4.7</td>
-<td>Distribuição das unidades sanitárias pelo material predominante das paredes</td>
+<td>Distribuição das unidades sanitárias pelo material predominante das paredes <span class="hhfa">(medida própria do Mapa Sanitário)</span></td>
 </tr>
 </tbody>
 </table>
@@ -300,7 +290,9 @@ O que esta secção permite medir
 O que este quesito permite medir
 </summary>
 <p>Número de edifícios e área coberta de cada unidade sanitária, agregáveis por município e por província. Comparada com a secção 5.2 — metros quadrados por estado de conservação —, a área coberta permite estimar a área a reabilitar.</p>
+<div class="hhfa">
 <p>Indicador do HHFA: nenhum · medida própria do Mapa Sanitário</p>
+</div>
 </details>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
@@ -327,7 +319,9 @@ O que este quesito permite medir
 O que este quesito permite medir
 </summary>
 <p>Número de residências para trabalhadores de cada unidade sanitária e respectiva área coberta, na mesma medida usada para os edifícios da unidade em 4.2.</p>
+<div class="hhfa">
 <p>Indicador do HHFA: nenhum · medida própria do Mapa Sanitário</p>
+</div>
 </details>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
@@ -352,7 +346,9 @@ O que este quesito permite medir
 O que este quesito permite medir
 </summary>
 <p>Distribuição das unidades sanitárias por período de construção do edifício principal, comparável com as quatro edições anteriores do Mapa Sanitário.</p>
+<div class="hhfa">
 <p>Indicador do HHFA: nenhum · medida própria do Mapa Sanitário</p>
+</div>
 </details>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
@@ -391,7 +387,9 @@ O que este quesito permite medir
 O que este quesito permite medir
 </summary>
 <p>Distribuição das unidades sanitárias pelo material predominante das paredes exteriores do edifício principal — informação de base para estimar custos de reabilitação.</p>
+<div class="hhfa">
 <p>Indicador do HHFA: nenhum · medida própria do Mapa Sanitário</p>
+</div>
 </details>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
@@ -464,6 +462,25 @@ O que este quesito permite medir
   <iframe title="Formulário de comentário"></iframe>
   <div class="ms-formulario-feito" hidden="">✓ Comentário registado</div>
 </dialog>
+
+<script>
+// Indicadores do HHFA: escondidos para os revisores; ?hhfa=1 mostra-os e lembra a escolha, ?hhfa=0 volta a escondê-los
+(function () {
+  const CHAVE = "ms-ver-hhfa";
+  const p = new URLSearchParams(location.search).get("hhfa");
+  try {
+    if (p === "1") localStorage.setItem(CHAVE, "1");
+    if (p === "0") localStorage.removeItem(CHAVE);
+    if (localStorage.getItem(CHAVE) !== "1") return;
+  } catch (e) { if (p !== "1") return; }
+  document.documentElement.classList.add("ver-hhfa");
+  const a = document.createElement("a");
+  a.className = "ms-aviso-hhfa";
+  a.href = location.pathname + "?hhfa=0";
+  a.textContent = "Indicadores do HHFA visíveis · esconder";
+  document.body.appendChild(a);
+})();
+</script>
 
 <script>
 (function () {

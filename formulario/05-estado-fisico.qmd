@@ -11,9 +11,9 @@ Estado de conservação do edifício principal, no conjunto e elemento a element
 
 | Quesito | O que se obtém |
 |---|---|
-| 5.1 | Distribuição das unidades sanitárias pelo estado físico do edifício principal, comparável com as edições anteriores |
-| 5.1.1 a 5.1.7 | Estado de cada elemento construtivo — fundação, estrutura, pavimento, paredes, cobertura, tecto falso e latrina — por unidade sanitária |
-| 5.2 | Metros quadrados em cada estado de conservação, base para estimar os custos de reabilitação |
+| 5.1 | Distribuição das unidades sanitárias pelo estado físico do edifício principal, comparável com as edições anteriores [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 5.1.1 a 5.1.7 | Estado de cada elemento construtivo — fundação, estrutura, pavimento, paredes, cobertura, tecto falso e latrina — por unidade sanitária [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 5.2 | Metros quadrados em cada estado de conservação, base para estimar os custos de reabilitação [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
@@ -24,7 +24,9 @@ Estado de conservação do edifício principal, no conjunto e elemento a element
 
 Distribuição das unidades sanitárias pelo estado físico do edifício principal, em quatro categorias — de «bom estado» a «construção ou reconstrução» —, agregável por município e por província e comparável com as edições anteriores do Mapa Sanitário, porque as categorias se mantêm.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -58,7 +60,9 @@ As quatro categorias mantêm-se com a redacção da Ficha. O que muda é o enunc
 
 O estado de cada um dos sete elementos construtivos do edifício principal. Em vez de saber apenas que uma unidade precisa de reabilitação, passa a saber-se o que precisa de obra — o que permite orçamentar por tipo de intervenção e agrupar obras do mesmo tipo, por exemplo todas as coberturas de um município.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -96,7 +100,9 @@ Para cada elemento construtivo do edifício principal, indique o estado, aplican
 
 Área coberta, em metros quadrados, em cada estado de conservação. É o dado que o Guião pede «para calcular os custos da reabilitação/manutenção necessários», agora em números que se podem somar por unidade, por município e para toda a rede. A soma das quatro parcelas deve ser igual à área coberta registada em 4.2.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 

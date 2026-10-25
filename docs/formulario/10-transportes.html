@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../formulario/11-12-responsaveis.html" rel="next">
+<link href="../formulario/13-conectividade.html" rel="next">
 <link href="../formulario/09-aparelhos.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -133,11 +133,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../formulario/02-propriedade-gestao.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Secção 2 — Propriedade e gestão</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../formulario/03-populacao-referencia.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Secção 3 — População e sistema de referência</span></a>
   </div>
 </li>
@@ -209,12 +204,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../formulario/11-12-responsaveis.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Secções 11 e 12 — Responsável da unidade e pessoas que responderam</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../formulario/13-por-transcrever.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Domínio 13 — por transcrever nesta edição</span></a>
+  <a href="../formulario/13-conectividade.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Secção 13 — Conectividade e meios informáticos</span></a>
   </div>
 </li>
     </ul>
@@ -277,7 +267,7 @@ O que esta secção permite medir
 <tbody>
 <tr class="odd">
 <td>10.1.1 a 10.1.10</td>
-<td>Frota de cada unidade por tipo de veículo: em funcionamento, avariada com reparação ao alcance da unidade e avariada sem reparação possível</td>
+<td>Frota de cada unidade por tipo de veículo: em funcionamento, avariada com reparação ao alcance da unidade e avariada sem reparação possível <span class="hhfa">(medida própria do Mapa Sanitário)</span></td>
 </tr>
 <tr class="even">
 <td>10.2</td>
@@ -285,7 +275,7 @@ O que esta secção permite medir
 </tr>
 <tr class="odd">
 <td>10.3.1 e 10.3.2</td>
-<td>Unidades com plano de manutenção de rotina dos veículos e que o cumprem</td>
+<td>Unidades com plano de manutenção de rotina dos veículos e que o cumprem <span class="hhfa">(2 indicadores do HHFA)</span></td>
 </tr>
 </tbody>
 </table>
@@ -297,6 +287,9 @@ O que esta secção permite medir
 O que este quesito permite medir
 </summary>
 <p>Frota de cada unidade sanitária por tipo de veículo e por estado. As colunas 1 e 2 somadas dão o número de veículos funcionais tal como o Guião o define, o que mantém a série das edições anteriores; a coluna 2 mostra, além disso, quantos veículos voltariam a circular com uma reparação ao alcance da unidade.</p>
+<div class="hhfa">
+<p>Indicador do HHFA: nenhum · medida própria do Mapa Sanitário</p>
+</div>
 </details>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
@@ -456,6 +449,9 @@ O que este quesito permite medir
 O que este quesito permite medir
 </summary>
 <p>Percentagem de unidades sanitárias com plano de manutenção de rotina para algum dos seus veículos e percentagem das que o cumprem rotineiramente. Lida com a coluna das avarias de 10.1, mostra se o problema da frota tende a agravar-se ou a resolver-se.</p>
+<div class="hhfa">
+<p>Indicadores do HHFA: 4.1.2.3.1 (plano de manutenção de rotina) · 4.1.2.3.2 (cumprimento rotineiro do plano)</p>
+</div>
 </details>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
@@ -540,6 +536,25 @@ O que este quesito permite medir
   <iframe title="Formulário de comentário"></iframe>
   <div class="ms-formulario-feito" hidden="">✓ Comentário registado</div>
 </dialog>
+
+<script>
+// Indicadores do HHFA: escondidos para os revisores; ?hhfa=1 mostra-os e lembra a escolha, ?hhfa=0 volta a escondê-los
+(function () {
+  const CHAVE = "ms-ver-hhfa";
+  const p = new URLSearchParams(location.search).get("hhfa");
+  try {
+    if (p === "1") localStorage.setItem(CHAVE, "1");
+    if (p === "0") localStorage.removeItem(CHAVE);
+    if (localStorage.getItem(CHAVE) !== "1") return;
+  } catch (e) { if (p !== "1") return; }
+  document.documentElement.classList.add("ver-hhfa");
+  const a = document.createElement("a");
+  a.className = "ms-aviso-hhfa";
+  a.href = location.pathname + "?hhfa=0";
+  a.textContent = "Indicadores do HHFA visíveis · esconder";
+  document.body.appendChild(a);
+})();
+</script>
 
 <script>
 (function () {
@@ -1088,8 +1103,8 @@ O que este quesito permite medir
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../formulario/11-12-responsaveis.html" class="pagination-link" aria-label="Secções 11 e 12 — Responsável da unidade e pessoas que responderam">
-        <span class="nav-page-text"><span class="chapter-title">Secções 11 e 12 — Responsável da unidade e pessoas que responderam</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../formulario/13-conectividade.html" class="pagination-link" aria-label="Secção 13 — Conectividade e meios informáticos">
+        <span class="nav-page-text"><span class="chapter-title">Secção 13 — Conectividade e meios informáticos</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

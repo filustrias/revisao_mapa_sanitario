@@ -11,8 +11,8 @@ Número de aparelhos médico-cirúrgicos de cada tipo e, nas unidades visitadas,
 
 | Quesito | O que se obtém |
 |---|---|
-| 9.1.1 a 9.1.15 | Número de aparelhos de cada tipo em condições de utilização, em cada unidade e na rede |
-| 9.1.16 a 9.1.23 e colunas A e B | Equipamento básico na área de atendimento, observado e a funcionar, item a item; proporção do equipamento básico reunida em cada unidade e unidades com todos os itens |
+| 9.1.1 a 9.1.15 | Número de aparelhos de cada tipo em condições de utilização, em cada unidade e na rede [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 9.1.16 a 9.1.23 e colunas A e B | Equipamento básico na área de atendimento, observado e a funcionar, item a item; proporção do equipamento básico reunida em cada unidade e unidades com todos os itens [(14 indicadores do HHFA)]{.hhfa} |
 | 9.2 | Observações e outros equipamentos relevantes |
 
 </details>
@@ -23,6 +23,10 @@ Número de aparelhos médico-cirúrgicos de cada tipo e, nas unidades visitadas,
 <summary>O que este quesito permite medir</summary>
 
 Número de aparelhos de cada tipo em condições de utilização em cada unidade sanitária. Somado por município e província, orienta a distribuição de equipamento na rede.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -70,6 +74,10 @@ Para cada um dos aparelhos seguintes, indique quantas unidades existem nesta uni
 <summary>O que este quesito permite medir</summary>
 
 Presença e funcionamento de doze itens de equipamento básico na área principal de atendimento, nas unidades visitadas, e a proporção desse equipamento reunida em cada unidade. Conta apenas o aparelho observado e a funcionar (coluna A = 1 e coluna B = 1). Comparada com a contagem de 9.1.1 a 9.1.15, mostra a dimensão dos problemas de manutenção.
+
+::: {.hhfa}
+Indicadores do HHFA: 2.2.1.1.1 a 2.2.1.1.12 (um por item) · 2.2.1.1.13 (média de itens disponíveis) · 2.2.1.1.14 (unidades com todos os itens)
+:::
 
 </details>
 

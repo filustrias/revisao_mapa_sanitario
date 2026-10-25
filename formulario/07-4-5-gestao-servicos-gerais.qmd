@@ -2,24 +2,109 @@
 title: "Secções 7.4 e 7.5 — Gestão e serviços gerais"
 ---
 
-Serviços e órgãos de gestão, revisão de casos e de óbitos, prevenção e controlo de infecções e garantia de qualidade; serviços gerais da unidade, como o transporte de emergência, a cozinha, a lavandaria, a morgue e o gabinete do utente.
+Propriedade e entidade gestora da unidade, orçamento próprio, serviços e órgãos de gestão, revisão de casos e de óbitos, prevenção e controlo de infecções e garantia de qualidade; serviços gerais da unidade, como o transporte de emergência, a cozinha, a lavandaria, a morgue e o gabinete do utente.
 
 ## 7.4 — Serviços de gestão {.bloco}
 
-[37 campos, contra 19 na Ficha 19_01.]{.campos}
+[40 campos, contra 22 na Ficha 19_01, incluindo a propriedade e a entidade gestora (2.1 e 2.2) e o orçamento próprio (0.2).]{.campos}
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
 
 | Quesito | O que se obtém |
 |---|---|
-| 7.4.1 a 7.4.17 | Existência e funcionamento de 17 serviços e órgãos de gestão |
-| 7.4.14 | Revisão de casos e de óbitos nas unidades com internamento |
-| 7.4.13 | Estrutura de gestão da prevenção e controlo de infecções |
-| 7.4.18 | Garantia e melhoria da qualidade |
-| Parqueados | Arquivo e reporte de dados; equipa de gestão |
+| 2.1 | Tipo de proprietário da unidade — leitura de todos os indicadores por essa via [(estratificador)]{.hhfa} |
+| 2.2 | Nível que gere a unidade — nacional, provincial ou municipal [(estratificador)]{.hhfa} |
+| 7.4.1 a 7.4.17 | Existência e funcionamento de 17 serviços e órgãos de gestão [(4 indicadores do HHFA)]{.hhfa} |
+| 7.4.14 | Revisão de casos e de óbitos nas unidades com internamento [(6 indicadores do HHFA)]{.hhfa} |
+| 7.4.13 | Estrutura de gestão da prevenção e controlo de infecções [(3 indicadores do HHFA)]{.hhfa} |
+| 7.4.18 | Garantia e melhoria da qualidade [(7 indicadores do HHFA)]{.hhfa} |
+| Parqueados | Arquivo e reporte de dados; equipa de gestão [(cerca de 15 indicadores do HHFA, fora desta ronda)]{.hhfa} |
 
 </details>
+
+## 2.1 Propriedade [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Distribuição das unidades sanitárias por tipo de proprietário, e leitura de todos os indicadores por essa via. A proposta separa a rede confessional das organizações não governamentais, como faz o HHFA, e dá lugar às instituições públicas que não pertencem ao Serviço Nacional de Saúde.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · estratificador da análise
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+A quem pertence esta unidade sanitária, isto é, quem é o proprietário das instalações e do equipamento?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar uma única opção.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Pública — Serviço Nacional de Saúde
+2. Pública — Polícia ou Forças Armadas
+3. Pública — outra instituição do Estado (universidade, empresa pública)
+4. Privada não lucrativa — confissão religiosa ou missão
+5. Privada não lucrativa — organização não governamental ou associação
+6. Privada lucrativa
+
+<!-- -->
+
+96. Outra *(especificar)*
+:::
+
+::: {.nota}
+**Porque mudou.** A opção «privada não lucrativa» desdobra-se em missão religiosa e organização não governamental, que em Angola têm padrões de financiamento, de pessoal e de permanência muito diferentes. Separá-las custa zero caixas e acrescenta uma leitura nova. Acrescenta-se ainda a propriedade pública não pertencente ao Serviço Nacional de Saúde que não seja militar.
+:::
+
+## 2.2 Gestão [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Distribuição das unidades sanitárias pelo nível que as gere — Ministério, Direcção Provincial ou Administração Municipal —, e leitura de todos os indicadores por essa via. Saber que nível administra cada unidade é condição para ligar a unidade ao orçamento que a financia.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · estratificador da análise
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Que entidade é responsável pela gestão corrente desta unidade — isto é, quem toma as decisões de política, nomeia a direcção e exerce a supervisão? Pode ser diferente do proprietário indicado em 2.1.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar uma única opção.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Pública — Ministério ou Direcção Nacional
+2. Pública — Direcção Provincial de Saúde
+3. Pública — Administração Municipal
+4. Privada
+5. Mista (parceria público-privada)
+
+<!-- -->
+
+96. Outra *(especificar)*
+:::
+
+::: {.nota}
+**Porque mudou.** Das opções da Ficha — «pública, privada, mista, outra» —, a gestão pública desdobra-se por nível, para responder à pergunta que importa à descentralização: **qual** nível público gere a unidade. A distinção entre gestão provincial e gestão municipal é central ao desenho da reforma dos cuidados primários e passa assim a ser recolhida. O enunciado passa também a dizer por palavras que a gestão pode não coincidir com a propriedade, para facilitar o preenchimento.
+:::
 
 ## 7.4.1 a 7.4.17 · Lista dos serviços e órgãos de gestão [ALTERADO]{.etiqueta .alterado}
 
@@ -30,7 +115,9 @@ Que serviços e órgãos de gestão existem em cada unidade sanitária e quais e
 
 Quatro linhas geram indicadores do HHFA, sem pergunta adicional: unidades com serviço de apoio de recursos humanos (7.4.7), de finanças e contabilidade e com unidade de administração geral (7.4.5), e de assistência social (7.4.11). As outras treze linhas são medida própria do Mapa Sanitário.
 
+::: {.hhfa}
 Indicadores do HHFA: 4.1.1.2.1, 4.1.1.2.2, 4.1.1.2.3 e 4.1.1.2.8
+:::
 
 </details>
 
@@ -69,6 +156,7 @@ Para cada linha:
 
 Se as unidades com internamento revêem formalmente a qualidade do cuidado — casos de doentes internados e óbitos, incluindo os óbitos maternos e neonatais — e se o fizeram de facto nos últimos 3 meses. O bloco é uma porta: só respondem as unidades que declararam internamento em 8.0.1, e esse é também o denominador dos seis indicadores.
 
+<div class="hhfa">
 <details><summary>Ver os 6 indicadores</summary>
 
 - 4.4.3.1.1 — Unidades com internamento com sistema formal de revisão de casos de doentes internados
@@ -79,8 +167,11 @@ Se as unidades com internamento revêem formalmente a qualidade do cuidado — c
 - 4.4.3.1.6 — Unidades com internamento com revisão formal de óbito realizada nos últimos 3 meses
 
 </details>
+</div>
 
+::: {.hhfa}
 Indicadores do HHFA: 4.4.3.1.1 a 4.4.3.1.6
+:::
 
 </details>
 
@@ -136,7 +227,9 @@ Em 7.4.14.4, se a resposta for «Não» ou «Nunca houve óbito nesta unidade»,
 
 Três indicadores do HHFA: unidades com comissão técnica de prevenção e controlo de infecções; unidades com reuniões multidisciplinares que analisam os resultados de prevenção e controlo de infecções; e unidades com reunião de análise de prevenção e controlo de infecções nos últimos 6 meses. O denominador é o conjunto de todas as unidades, por isso o bloco é feito a todas.
 
+::: {.hhfa}
 Indicadores do HHFA: 4.4.1.1.4 a 4.4.1.1.6
+:::
 
 </details>
 
@@ -170,6 +263,7 @@ Mesmo desenho: a actividade, não o órgão. A segunda linha de 7.4.13.1 — reu
 
 Se cada unidade sanitária tem actividades de rotina de garantia de qualidade — em toda a unidade ou em serviços específicos —, comissão que se reúne, documentação que mostra que a informação é analisada, ponto focal, pessoal formado e apoio externo. São sete indicadores do HHFA, calculados entre todas as unidades. A porta é a actividade (7.4.18.1), não a comissão.
 
+<div class="hhfa">
 <details><summary>Ver os 7 indicadores</summary>
 
 - 4.4.2.3.1 — Unidades com actividades de rotina de garantia de qualidade em toda a unidade
@@ -181,8 +275,11 @@ Se cada unidade sanitária tem actividades de rotina de garantia de qualidade �
 - 4.4.2.3.8 — Unidades com apoio de parceiros externos para garantia ou melhoria da qualidade
 
 </details>
+</div>
 
+::: {.hhfa}
 Indicadores do HHFA: 4.4.2.3.1 a 4.4.2.3.4 e 4.4.2.3.6 a 4.4.2.3.8
+:::
 
 </details>
 
@@ -242,7 +339,9 @@ O quesito **7.4.18.6** é o que separa um sistema real de um sistema declarado: 
 
 Nesta ronda, nada além do que já dá a lista de três níveis. Os dois blocos parqueados dariam: a cadeia de arquivo, registo e reporte de dados, cerca de 11 indicadores da área de sistemas de informação; e a equipa de gestão, 4 indicadores — equipa ou comissão de gestão que se reuniu nos últimos 3 meses, sistema de rotina de participação da comunidade nas decisões de gestão, plano operacional escrito e referência ao plano nas reuniões.
 
+::: {.hhfa}
 Indicadores do HHFA: nenhum nesta ronda · parqueados: cerca de 11 da área 4.5 e 4.1.1.1.2, 4.1.1.1.5 a 4.1.1.1.7
+:::
 
 </details>
 
@@ -306,11 +405,11 @@ A proposta é começar pela autonomia de gestão e pelas fontes de financiamento
 | Quesito | O que se obtém |
 |---|---|
 | 7.5.1 e 7.5.1.1 | Transporte de emergência disponível hoje, com combustível e motorista (1 indicador do HHFA) |
-| 7.5.2 a 7.5.18 | Existência e funcionamento de 15 serviços gerais |
-| 7.5.5.2 | Capacidade da morgue |
+| 7.5.2 a 7.5.18 | Existência e funcionamento de 15 serviços gerais [(5 indicadores do HHFA)]{.hhfa} |
+| 7.5.5.2 | Capacidade da morgue [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 7.5.18.1 e 7.5.18.2 | Recolha e análise da opinião dos utentes (1 indicador do HHFA) |
 | 7.5.7 e 7.5.16 | Remissões para os domínios 13 e 6 (os indicadores contam-se nesses domínios) |
-| 7.5.8 | Manutenção |
+| 7.5.8 | Manutenção [(parqueado; 23 indicadores do HHFA)]{.hhfa} |
 
 </details>
 
@@ -321,7 +420,9 @@ A proposta é começar pela autonomia de gestão e pelas fontes de financiamento
 
 Unidades com sistema de transporte de emergência para doentes — veículo em condições de funcionamento, na unidade ou chamado de outro local. Regra de cálculo: conta a unidade com 7.5.1 igual a 1 ou 2 e 7.5.1.1 igual a 1. Cruzado com as distâncias da secção 3, mostra onde a evacuação obstétrica não é exequível em tempo útil.
 
+::: {.hhfa}
 Indicador do HHFA: 2.1.1.1.7
+:::
 
 </details>
 
@@ -359,6 +460,7 @@ O enunciado inclui expressamente o veículo **chamado de outro local**, porque �
 
 Que serviços gerais de apoio existem em cada unidade sanitária e quais estiveram de facto a funcionar nos últimos 3 meses. Cinco indicadores do HHFA saem desta lista sem pergunta adicional. Os sete serviços sem equivalente internacional — segurança, salão de actos, biblioteca, capela, parqueamento, ajardinamento e videovigilância — são medida própria do Mapa Sanitário.
 
+<div class="hhfa">
 <details><summary>Ver os 5 indicadores</summary>
 
 - 4.1.1.2.5 — Unidades com serviço de apoio de limpeza, higiene e lavandaria (7.5.4 e 7.5.6)
@@ -368,8 +470,11 @@ Que serviços gerais de apoio existem em cada unidade sanitária e quais estiver
 - 4.3.1.2.2 — Unidades que oferecem refeitório ou cantina ao pessoal (7.5.3)
 
 </details>
+</div>
 
+::: {.hhfa}
 Indicadores do HHFA: 4.1.1.2.5 a 4.1.1.2.7, 4.3.1.2.1 e 4.3.1.2.2
+:::
 
 </details>
 
@@ -402,7 +507,9 @@ Mesma razão de 7.4: a escala de três níveis distingue o serviço que existe e
 
 Capacidade da morgue de cada unidade sanitária, em número de gavetas. O código 97 separa a unidade sem morgue da unidade com morgue e sem gavetas. Verificação a programar: se 7.5.5.1 for 3, 7.5.5.2 tem de ser 97.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -425,7 +532,9 @@ Quantas gavetas mortuárias tem a morgue desta unidade sanitária?
 
 Unidades com sistema de análise da opinião dos utentes pelo menos a cada 3 meses. Regra de cálculo: conta a unidade com 7.5.18.1 igual a 1 e 7.5.18.2 igual a 1 ou 2 — só o procedimento observado entra; «referido, não visto» não conta.
 
+::: {.hhfa}
 Indicador do HHFA: 4.4.2.3.10
+:::
 
 </details>
 
@@ -461,7 +570,9 @@ O Gabinete do Utente existe na Ficha como caixa e passa a ter o seu conteúdo me
 
 Nada em 7.5: a comunicação é medida no domínio 13 e o tratamento do lixo nos quesitos 6.5 e 6.6, onde se contam os respectivos indicadores. As linhas ficam para mostrar onde a informação é recolhida.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum em 7.5 · ver domínio 13 e quesitos 6.5 e 6.6
+:::
 
 </details>
 
@@ -476,7 +587,9 @@ Indicador do HHFA: nenhum em 7.5 · ver domínio 13 e quesitos 6.5 e 6.6
 
 Nesta ronda, nada além da linha de manutenção na lista de três níveis. O bloco parqueado daria 23 indicadores do HHFA, todos do módulo central de gestão e finanças: 10 sobre manutenção de rotina dos sistemas de infraestrutura e 13 sobre manutenção de rotina do equipamento médico, de esterilização e de laboratório. Com a manutenção de veículos de 10.3, completaria a área de manutenção do HHFA.
 
+::: {.hhfa}
 Indicadores do HHFA: nenhum nesta ronda · parqueados: 4.1.2.1.1 a 4.1.2.1.10 e 4.1.2.2.1 a 4.1.2.2.13
+:::
 
 </details>
 

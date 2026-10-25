@@ -11,9 +11,9 @@ Veículos afectos à unidade sanitária, por tipo e por estado de funcionamento,
 
 | Quesito | O que se obtém |
 |---|---|
-| 10.1.1 a 10.1.10 | Frota de cada unidade por tipo de veículo: em funcionamento, avariada com reparação ao alcance da unidade e avariada sem reparação possível |
+| 10.1.1 a 10.1.10 | Frota de cada unidade por tipo de veículo: em funcionamento, avariada com reparação ao alcance da unidade e avariada sem reparação possível [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 10.2 | Situações que a contagem não exprime — viaturas partilhadas, cedidas ou imobilizadas por falta de documentação |
-| 10.3.1 e 10.3.2 | Unidades com plano de manutenção de rotina dos veículos e que o cumprem |
+| 10.3.1 e 10.3.2 | Unidades com plano de manutenção de rotina dos veículos e que o cumprem [(2 indicadores do HHFA)]{.hhfa} |
 
 </details>
 
@@ -23,6 +23,10 @@ Veículos afectos à unidade sanitária, por tipo e por estado de funcionamento,
 <summary>O que este quesito permite medir</summary>
 
 Frota de cada unidade sanitária por tipo de veículo e por estado. As colunas 1 e 2 somadas dão o número de veículos funcionais tal como o Guião o define, o que mantém a série das edições anteriores; a coluna 2 mostra, além disso, quantos veículos voltariam a circular com uma reparação ao alcance da unidade.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -100,6 +104,10 @@ Texto livre
 <summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades sanitárias com plano de manutenção de rotina para algum dos seus veículos e percentagem das que o cumprem rotineiramente. Lida com a coluna das avarias de 10.1, mostra se o problema da frota tende a agravar-se ou a resolver-se.
+
+::: {.hhfa}
+Indicadores do HHFA: 4.1.2.3.1 (plano de manutenção de rotina) · 4.1.2.3.2 (cumprimento rotineiro do plano)
+:::
 
 </details>
 

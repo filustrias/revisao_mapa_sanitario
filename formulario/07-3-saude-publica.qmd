@@ -11,19 +11,19 @@ Cuidados à criança, consulta pré-natal, partos, pós-parto e recém-nascido, 
 
 | Quesito | O que se obtém |
 |---|---|
-| 7.3.5 e 7.3.5.1 | Cuidados à criança menor de 5 anos, serviço a serviço |
-| 7.3.6 e 7.3.6.1 | Consulta pré-natal e as suas prestações |
-| 7.3.7 a 7.3.7.4 | Partos, CONU-B e CONU-C, funções-sinal, cobertura 24 horas |
-| 7.3.8 | Consulta pós-parto |
-| 7.3.9 | Planeamento familiar, método a método |
-| 7.3.10 e 7.3.10.1 | Testagem do VIH, por grupo de idade |
-| 7.3.12 a 7.3.12.2 | Tratamento antirretroviral, por idade e por componente |
-| 7.3.11 | Prevenção da transmissão vertical do VIH |
-| 7.3.12.3 | Cuidados e apoio ao doente com VIH |
-| 7.3.13 a 7.3.13.5 | Tuberculose: diagnóstico, seguimento, VIH, resistência, isolamento |
-| 7.3.14.A a 7.3.14.C | Malária: serviços, via de diagnóstico, tratamento |
-| 7.3.17.1 | Articulação com os ADECOS em seis programas |
-| 7.3.8.1, 7.3.10.2, 7.3.10.3, 7.3.14, 7.3.15 e 7.3.16, 7.3.17 | Rastreios do recém-nascido, PrEP, PEP, distribuição de redes, actividade extramural, número de ADECOS |
+| 7.3.5 e 7.3.5.1 | Cuidados à criança menor de 5 anos, serviço a serviço [(13 indicadores do HHFA)]{.hhfa} |
+| 7.3.6 e 7.3.6.1 | Consulta pré-natal e as suas prestações [(16 indicadores do HHFA)]{.hhfa} |
+| 7.3.7 a 7.3.7.4 | Partos, CONU-B e CONU-C, funções-sinal, cobertura 24 horas [(12 indicadores do HHFA)]{.hhfa} |
+| 7.3.8 | Consulta pós-parto [(2 indicadores do HHFA)]{.hhfa} |
+| 7.3.9 | Planeamento familiar, método a método [(15 indicadores do HHFA)]{.hhfa} |
+| 7.3.10 e 7.3.10.1 | Testagem do VIH, por grupo de idade [(8 indicadores do HHFA)]{.hhfa} |
+| 7.3.12 a 7.3.12.2 | Tratamento antirretroviral, por idade e por componente [(12 indicadores do HHFA)]{.hhfa} |
+| 7.3.11 | Prevenção da transmissão vertical do VIH [(2 indicadores do HHFA)]{.hhfa} |
+| 7.3.12.3 | Cuidados e apoio ao doente com VIH [(2 indicadores do HHFA)]{.hhfa} |
+| 7.3.13 a 7.3.13.5 | Tuberculose: diagnóstico, seguimento, VIH, resistência, isolamento [(11 indicadores do HHFA)]{.hhfa} |
+| 7.3.14.A a 7.3.14.C | Malária: serviços, via de diagnóstico, tratamento [(8 indicadores do HHFA)]{.hhfa} |
+| 7.3.17.1 | Articulação com os ADECOS em seis programas [(6 indicadores do HHFA)]{.hhfa} |
+| 7.3.8.1, 7.3.10.2, 7.3.10.3, 7.3.14, 7.3.15 e 7.3.16, 7.3.17 | Rastreios do recém-nascido, PrEP, PEP, distribuição de redes, actividade extramural, número de ADECOS [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
@@ -34,7 +34,9 @@ Cuidados à criança, consulta pré-natal, partos, pós-parto e recém-nascido, 
 
 Percentagem de unidades que prestam quaisquer cuidados preventivos ou curativos a crianças menores de 5 anos. É a porta da grelha dos cuidados à criança.
 
+::: {.hhfa}
 Indicadores do HHFA: 3.1.8.1.1 · 1.3.2.1.1
+:::
 
 </details>
 
@@ -66,6 +68,7 @@ Esta unidade sanitária presta cuidados preventivos ou curativos a crianças men
 
 Percentagem de unidades que prestam cada serviço à criança menor de 5 anos: crescimento, malnutrição nos seus três níveis de manejo, vitamina A, anemia, diarreia, malária, rede mosquiteira. Onze linhas geram indicador do HHFA. A desparasitação de rotina (linha 7) não tem indicador do HHFA: é medida própria do Mapa Sanitário.
 
+<div class="hhfa">
 <details><summary>Ver os 11 indicadores</summary>
 
 - 3.1.8.1.2 — monitorização de rotina do crescimento (linha 1)
@@ -81,8 +84,11 @@ Percentagem de unidades que prestam cada serviço à criança menor de 5 anos: c
 - 3.1.8.1.12 — rede mosquiteira tratada de longa duração, ou voucher (linha 12)
 
 </details>
+</div>
 
+::: {.hhfa}
 Indicadores do HHFA: 3.1.8.1.2 a 3.1.8.1.12
+:::
 
 </details>
 
@@ -124,7 +130,9 @@ O **albendazol** ganha linha própria: não há indicador internacional de despa
 
 Percentagem de unidades que oferecem quaisquer serviços de consulta pré-natal. É a porta da grelha seguinte, que permite confrontar a classificação «completa» ou «incompleta» com as prestações declaradas.
 
+::: {.hhfa}
 Indicadores do HHFA: 3.1.2.1.1 · 1.3.2.1.4
+:::
 
 </details>
 
@@ -163,6 +171,7 @@ O Guião define ainda os critérios de «completa» — cartão de grávida, ana
 
 Percentagem de unidades em que cada prestação faz parte da consulta pré-natal — catorze linhas, catorze indicadores. Com a porta 7.3.6 e a articulação com os ADECOS em 7.3.17.1, fica completa a tabela 3.1.2.1 do HHFA (16 indicadores).
 
+<div class="hhfa">
 <details><summary>Ver os 14 indicadores</summary>
 
 - 3.1.2.1.2 — suplementação com ferro (linha 1)
@@ -181,8 +190,11 @@ Percentagem de unidades em que cada prestação faz parte da consulta pré-natal
 - 3.1.2.1.15 — aconselhamento para prevenir a mutilação genital feminina (linha 14)
 
 </details>
+</div>
 
+::: {.hhfa}
 Indicadores do HHFA: 3.1.2.1.2 a 3.1.2.1.15
+:::
 
 </details>
 
@@ -228,7 +240,9 @@ Catorze linhas, catorze indicadores; com a porta 7.3.6 e a articulação com os 
 
 Percentagem de unidades que oferecem quaisquer serviços de parto. É a porta do bloco dos partos: só a unidade com sala de partos própria responde às perguntas seguintes.
 
+::: {.hhfa}
 Indicadores do HHFA: 3.1.3.1.1 · 1.3.2.1.6
+:::
 
 </details>
 
@@ -266,6 +280,7 @@ Conserva-se integralmente a instrução do Guião (folha 12), que manda registar
 
 Percentagem de unidades com cuidados obstétricos e neonatais de urgência básicos (CONU-B) e completos (CONU-C). Duas caixas, cinco indicadores: CONU-B e CONU-C na tabela dos serviços de parto; CONU-C outra vez na área própria dos cuidados obstétricos completos; e os dois na lista geral de serviços disponíveis.
 
+<div class="hhfa">
 <details><summary>Ver os 5 indicadores</summary>
 
 - 3.1.3.1.3 — cuidados obstétricos e neonatais de urgência básicos (CONU-B)
@@ -275,8 +290,11 @@ Percentagem de unidades com cuidados obstétricos e neonatais de urgência bási
 - 1.3.2.1.8 — CONU-C, na lista geral de serviços disponíveis
 
 </details>
+</div>
 
+::: {.hhfa}
 Indicadores do HHFA: 3.1.3.1.3 · 3.1.3.1.5 · 3.1.4.1.1 · 1.3.2.1.7 · 1.3.2.1.8
+:::
 
 </details>
 
@@ -316,7 +334,9 @@ Para cada caixa:
 
 Percentagem de unidades que realizaram as funções-sinal obstétricas e neonatais nos últimos 3 meses. A grelha dá quatro indicadores: as sete funções do CONU-B todas realizadas (linhas 1 a 7), as nove do CONU-C todas realizadas (linhas 1 a 9), a cesariana e a transfusão de sangue.
 
+::: {.hhfa}
 Indicadores do HHFA: 3.1.3.1.4 · 3.1.4.1.2 · 3.1.4.1.3 · 3.1.4.1.4
+:::
 
 </details>
 
@@ -355,7 +375,9 @@ Para cada prestação seguinte, diga-me se foi realizada nesta unidade sanitári
 
 Percentagem de unidades com serviço de partos 24 horas por dia e 7 dias por semana, assegurado por pessoal qualificado. O indicador conta as opções 1 e 2 — pessoal presente ou de chamada.
 
+::: {.hhfa}
 Indicador do HHFA: 3.1.3.1.2
+:::
 
 </details>
 
@@ -390,7 +412,9 @@ Uma caixa, e uma informação nova no instrumento: **o parto é o acto que menos
 
 Percentagem de unidades que oferecem quaisquer cuidados pós-parto à mãe ou ao recém-nascido. O indicador cumpre-se com qualquer das opções 1, 2 ou 3.
 
+::: {.hhfa}
 Indicadores do HHFA: 3.1.6.1.1 · 1.3.2.1.12
+:::
 
 </details>
 
@@ -426,7 +450,9 @@ A única alteração é separar a mãe do recém-nascido nas opções, porque s�
 
 Onde é rastreado o recém-nascido, rastreio a rastreio, e por que via: na própria unidade ou por envio da amostra com retorno do resultado. A primeira pergunta é uma porta. O HHFA não tem indicador de rastreio neonatal; é medida própria do Mapa Sanitário.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -485,6 +511,7 @@ A escala de três níveis é a mesma dos blocos de laboratório, pela mesma raz�
 
 Se o bloco for incluído: percentagem de unidades que prestam cuidados ao recém-nascido pequeno ou doente, e quais — 14 indicadores, com a tabela 3.1.7.1 do HHFA completa. Só entram na contagem da secção se o bloco for aprovado.
 
+<div class="hhfa">
 <details><summary>Ver os 14 indicadores</summary>
 
 - 3.1.7.1.1 — quaisquer serviços ao recém-nascido pequeno ou doente (porta)
@@ -503,8 +530,11 @@ Se o bloco for incluído: percentagem de unidades que prestam cuidados ao recém
 - 1.3.2.1.11 — cuidados ao recém-nascido pequeno ou doente, na lista geral
 
 </details>
+</div>
 
+::: {.hhfa}
 Indicadores do HHFA, se o bloco for incluído: 3.1.7.1.1 a 3.1.7.1.11 · 1.3.2.1.9 a 1.3.2.1.11
+:::
 
 </details>
 
@@ -558,6 +588,7 @@ A porta de três níveis distingue a unidade com unidade de cuidados especiais d
 
 Percentagem de unidades que oferecem planeamento familiar e, método a método, quais os métodos fornecidos. A porta e as doze linhas dão 15 indicadores, entre eles o de qualquer método moderno, calculado a partir da grelha — que, no catálogo do HHFA, inclui o preservativo masculino e o feminino e deixa de fora apenas o colar do ciclo.
 
+<div class="hhfa">
 <details><summary>Ver os 15 indicadores</summary>
 
 - 3.1.1.1.1 — quaisquer serviços de planeamento familiar (porta)
@@ -577,8 +608,11 @@ Percentagem de unidades que oferecem planeamento familiar e, método a método, 
 - 1.3.2.1.3 — planeamento familiar, na lista geral de serviços disponíveis
 
 </details>
+</div>
 
+::: {.hhfa}
 Indicadores do HHFA: 3.1.1.1.1 a 3.1.1.1.14 · 1.3.2.1.3
+:::
 
 </details>
 
@@ -637,7 +671,9 @@ Com o preservativo perguntado em linha própria, a grelha permite os dois cálcu
 
 Percentagem de unidades que oferecem quaisquer serviços de aconselhamento e testagem do VIH. É a porta do bloco do VIH. Na lista geral de serviços disponíveis, a mesma caixa dá dois indicadores: quaisquer serviços de VIH e testagem do VIH.
 
+::: {.hhfa}
 Indicadores do HHFA: 3.2.4.1.1 · 1.3.2.3.2 · 1.3.2.3.3
+:::
 
 </details>
 
@@ -673,6 +709,7 @@ A caixa da Ficha fica como está e rende três indicadores. Articula-se com o la
 
 Percentagem de unidades que oferecem testagem do VIH a cada grupo de idade. Cinco indicadores: os três grupos na tabela da testagem, e as duas idades pediátricas também na subárea do VIH pediátrico. Com a porta 7.3.10, a tabela 3.2.4.1 fica completa.
 
+<div class="hhfa">
 <details><summary>Ver os 5 indicadores</summary>
 
 - 3.2.4.1.4 — testagem do VIH, crianças menores de 5 anos (linha 1)
@@ -682,8 +719,11 @@ Percentagem de unidades que oferecem testagem do VIH a cada grupo de idade. Cinc
 - 3.2.7.1.3 — crianças de 5 a 14 anos, na subárea do VIH pediátrico
 
 </details>
+</div>
 
+::: {.hhfa}
 Indicadores do HHFA: 3.2.4.1.2 a 3.2.4.1.4 · 3.2.7.1.2 · 3.2.7.1.3
+:::
 
 </details>
 
@@ -714,7 +754,9 @@ Três caixas, cinco indicadores, e fecha a tabela da testagem. A separação por
 
 Onde há profilaxia pré-exposição ao VIH, se a unidade a inicia ou apenas segue quem a iniciou, e a que grupos a oferece. A primeira pergunta é uma porta. O HHFA não tem pergunta de disponibilidade sobre a PrEP: o único indicador que a nomeia — utentes de pré-natal com PrEP recebida (5.1.1.1.13) — apura-se por revisão de processos clínicos, fora do alcance de um cadastro. É medida própria do Mapa Sanitário.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -775,7 +817,9 @@ A escala distingue iniciar de seguir pela mesma razão que no tratamento antirre
 
 Onde há profilaxia pós-exposição ao VIH após exposição ocupacional e após exposição sexual fora do contexto da violência, a que horas está disponível, e se existe protocolo escrito. O HHFA recolhe a PEP apenas para sobreviventes de violência (3.6.3.1.3), que está em 7.1.E.3.3, e não tem pergunta sobre PEP ocupacional. É medida própria do Mapa Sanitário.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -826,7 +870,9 @@ A escala pergunta pelo horário porque a janela é de 72 horas e, na prática, u
 
 Percentagem de unidades que oferecem tratamento antirretroviral de longa duração ou seguimento de doentes já em tratamento. É a porta do bloco do tratamento.
 
+::: {.hhfa}
 Indicadores do HHFA: 3.2.5.1.1 · 1.3.2.3.5
+:::
 
 </details>
 
@@ -862,6 +908,7 @@ Esta unidade sanitária presta serviços de tratamento antirretroviral de longa 
 
 Percentagem de unidades que prestam tratamento antirretroviral a cada grupo de idade. O indicador conta as opções 1 e 2: o seguimento conta como prestação. Sete indicadores, entre eles o de quaisquer serviços pediátricos de VIH, calculado a partir destas linhas e das de 7.3.10.1.
 
+<div class="hhfa">
 <details><summary>Ver os 7 indicadores</summary>
 
 - 3.2.5.1.4 — tratamento antirretroviral, crianças menores de 5 anos (linha 1)
@@ -873,8 +920,11 @@ Percentagem de unidades que prestam tratamento antirretroviral a cada grupo de i
 - 1.3.2.3.6 — quaisquer serviços pediátricos de VIH, na lista geral de serviços disponíveis
 
 </details>
+</div>
 
+::: {.hhfa}
 Indicadores do HHFA: 3.2.5.1.2 a 3.2.5.1.4 · 3.2.7.1.1 · 3.2.7.1.4 · 3.2.7.1.5 · 1.3.2.3.6
+:::
 
 </details>
 
@@ -907,7 +957,9 @@ O indicador conta as opções 1 e 2 — isto é, o seguimento conta como presta�
 
 Percentagem de unidades que asseguram a prescrição ou dispensa dos antirretrovirais, o seguimento clínico, e o aconselhamento e seguimento da adesão. Quatro linhas, três indicadores; o da adesão exige as linhas 1 e 3 ao mesmo tempo. Com 7.3.12 e 7.3.12.1, fica completa a tabela 3.2.5.1.
 
+::: {.hhfa}
 Indicadores do HHFA: 3.2.5.1.5 · 3.2.5.1.6 · 3.2.5.1.7
+:::
 
 </details>
 
@@ -941,7 +993,9 @@ O que conta aqui é menos quem **inicia** o tratamento e mais quem o **mantém**
 
 Percentagem de unidades que oferecem quaisquer serviços de prevenção da transmissão vertical do VIH. O indicador cumpre-se com qualquer das opções 1, 2 ou 3.
 
+::: {.hhfa}
 Indicadores do HHFA: 3.2.8.1.1 · 1.3.2.1.5
+:::
 
 </details>
 
@@ -979,7 +1033,9 @@ Mantém-se o código e a posição na Ficha; muda apenas o enunciado, que passa 
 
 Percentagem de unidades que oferecem quaisquer cuidados e apoio a pessoas que vivem com VIH, para além do tratamento antirretroviral.
 
+::: {.hhfa}
 Indicadores do HHFA: 3.2.6.1.1 · 1.3.2.3.4
+:::
 
 </details>
 
@@ -1011,7 +1067,9 @@ Uma caixa, dois indicadores. **Acrescenta à testagem e ao tratamento a terceira
 
 Percentagem de unidades que oferecem quaisquer serviços de tuberculose. É a porta do bloco da tuberculose.
 
+::: {.hhfa}
 Indicadores do HHFA: 3.2.3.1.1 · 1.3.2.3.7
+:::
 
 </details>
 
@@ -1049,7 +1107,9 @@ A porta alarga-se para qualquer serviço de tuberculose, e **o DOTS propriamente
 
 Percentagem de unidades que oferecem testagem de diagnóstico da tuberculose. O indicador conta as opções 1, 2 e 3; a lista geral de serviços disponíveis acrescenta o de diagnóstico e tratamento da tuberculose.
 
+::: {.hhfa}
 Indicadores do HHFA: 3.2.3.1.3 · 1.3.2.3.8
+:::
 
 </details>
 
@@ -1085,7 +1145,9 @@ A terceira opção está separada porque **na tuberculose o encaminhamento do do
 
 Percentagem de unidades que asseguram aos doentes com tuberculose o seguimento clínico e a prescrição, a redispensa dos medicamentos nas consultas de seguimento, e o apoio à adesão. Três linhas, quatro indicadores: um por linha, mais o de seguimento de doentes na lista geral de serviços disponíveis.
 
+::: {.hhfa}
 Indicadores do HHFA: 3.2.3.1.4 a 3.2.3.1.6 · 1.3.2.3.9
+:::
 
 </details>
 
@@ -1118,7 +1180,9 @@ A separação das três prestações é a mesma opção de desenho do tratamento
 
 Três indicadores, um por pergunta: testagem de rotina do VIH nos doentes com tuberculose (7.3.13.3), quaisquer serviços para tuberculose resistente aos medicamentos (7.3.13.4) e quarto de internamento dedicado a isolamento (7.3.13.5).
 
+::: {.hhfa}
 Indicadores do HHFA: 3.2.3.1.7 · 3.2.3.1.2 · 3.2.3.1.9
+:::
 
 </details>
 
@@ -1180,6 +1244,7 @@ Indicadores do HHFA: 3.2.3.1.7 · 3.2.3.1.2 · 3.2.3.1.9
 
 Percentagem de unidades que oferecem serviços de malária, por que via diagnosticam — teste rápido, microscopia, ou apenas pelos sinais e sintomas —, e se tratam. A pergunta 7.3.14.A é uma porta. Três perguntas, oito indicadores. Com a articulação com os ADECOS em 7.3.17.1, fica completa a tabela 3.2.2.1.
 
+<div class="hhfa">
 <details><summary>Ver os 8 indicadores</summary>
 
 - 3.2.2.1.1 — quaisquer serviços de malária (7.3.14.A)
@@ -1192,8 +1257,11 @@ Percentagem de unidades que oferecem serviços de malária, por que via diagnost
 - 3.2.2.1.6 — tratamento da malária (7.3.14.C)
 
 </details>
+</div>
 
+::: {.hhfa}
 Indicadores do HHFA: 3.2.2.1.1 a 3.2.2.1.6 · 3.2.2.1.8 · 1.3.2.3.1
+:::
 
 </details>
 
@@ -1267,7 +1335,9 @@ Em **7.3.14.C**, as opções separam caso simples de caso grave, o que o instrum
 
 Percentagem de unidades que distribuem redes mosquiteiras tratadas de longa duração à população de forma regular, durante mais de 6 meses no ano. O HHFA não tem indicador de distribuição geral de redes; pergunta pela rede entregue em consulta, que neste formulário está em 7.3.6.1 (grávida) e 7.3.5.1 (criança). É medida própria do Mapa Sanitário.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -1301,7 +1371,9 @@ Mantém-se o código e o sentido. A única alteração é trazer para dentro da 
 
 Percentagem de unidades que organizam brigadas móveis de vacinação, a 10 km ou mais, e equipas avançadas, a menos de 10 km. O HHFA não tem indicador de actividade extramural organizada pela unidade: a vacinação em estratégia avançada só entra, sem se distinguir, nos indicadores de imunização. É medida própria do Mapa Sanitário.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -1345,7 +1417,9 @@ Mantêm-se integralmente, com as definições do Guião — incluindo as três e
 
 Quantas unidades têm ADECOS a trabalhar a partir delas, e quantos são — o primeiro inventário da força de trabalho comunitária da rede, agregável por município e por província. A primeira pergunta é uma porta para a grelha seguinte. O HHFA não conta agentes comunitários; mede a articulação da unidade com eles, que é o que 7.3.17.1 recolhe. É medida própria do Mapa Sanitário.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -1385,6 +1459,7 @@ Uma caixa de número resolve, e passa a haver pela primeira vez **um inventário
 
 Percentagem de unidades com articulação com os agentes comunitários em cada programa — planeamento familiar, pré-natal, criança, malária, tuberculose e VIH. Seis linhas, seis indicadores; cada um completa a tabela do seu programa.
 
+<div class="hhfa">
 <details><summary>Ver os 6 indicadores</summary>
 
 - 3.1.1.1.15 — ligação com agentes comunitários no planeamento familiar (linha 1)
@@ -1395,8 +1470,11 @@ Percentagem de unidades com articulação com os agentes comunitários em cada p
 - 3.2.6.1.5 — nos serviços de VIH (linha 6)
 
 </details>
+</div>
 
+::: {.hhfa}
 Indicadores do HHFA: 3.1.1.1.15 · 3.1.2.1.16 · 3.1.8.1.13 · 3.2.2.1.7 · 3.2.3.1.8 · 3.2.6.1.5
+:::
 
 </details>
 

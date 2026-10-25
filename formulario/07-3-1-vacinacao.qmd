@@ -11,8 +11,8 @@ Vacinação de rotina: periodicidade, vacinas administradas, rupturas de stock e
 
 | Quesito | O que se obtém |
 |---|---|
-| 7.3.1 a 7.3.1.2 | Unidades que vacinam, periodicidade e antigénios oferecidos |
-| 7.3.1.3 | Rupturas de stock por antigénio nos últimos 3 meses |
+| 7.3.1 a 7.3.1.2 | Unidades que vacinam, periodicidade e antigénios oferecidos [(29 indicadores do HHFA)]{.hhfa} |
+| 7.3.1.3 | Rupturas de stock por antigénio nos últimos 3 meses [(a decidir nesta revisão; 11 indicadores do HHFA, se incluída)]{.hhfa} |
 | 7.3.1.4 | Cadeia de frio (parqueado, para a fase da observação) |
 
 </details>
@@ -26,7 +26,9 @@ Percentagem de unidades sanitárias que oferecem qualquer serviço de imunizaç�
 
 A mesma caixa dá também o indicador correspondente na lista geral de serviços disponíveis do HHFA.
 
+::: {.hhfa}
 Indicadores do HHFA: 3.2.1.1.1 · 1.3.2.2.1
+:::
 
 </details>
 
@@ -61,7 +63,9 @@ Esta unidade sanitária realiza vacinação de rotina, com periodicidade fixa, m
 
 Percentagem de unidades que fazem vacinação infantil de rotina todos os dias, todas as semanas, ou todos os meses ou trimestres — três indicadores a partir de uma só pergunta. A opção 1 dá o indicador diário, a opção 2 o semanal, e as opções 3 e 4, juntas, o mensal ou trimestral.
 
+::: {.hhfa}
 Indicadores do HHFA: 3.2.1.1.6 · 3.2.1.1.7 · 3.2.1.1.8
+:::
 
 </details>
 
@@ -100,6 +104,7 @@ Percentagem de unidades que administram cada vacina, antigénio a antigénio e p
 
 A linha 11 (reforços do calendário infantil) e a linha 19 (febre amarela) não têm indicador do HHFA: servem a leitura nacional.
 
+<div class="hhfa">
 <details><summary>Ver os 24 indicadores</summary>
 
 - 3.2.1.1.9 — vacina da hepatite B, dose ao nascer (linha 1)
@@ -128,8 +133,11 @@ A linha 11 (reforços do calendário infantil) e a linha 19 (febre amarela) não
 - 1.3.2.2.4 — imunização de adolescente ou adulto, na lista geral
 
 </details>
+</div>
 
+::: {.hhfa}
 Indicadores do HHFA: 3.2.1.1.2 a 3.2.1.1.5 · 3.2.1.1.9 a 3.2.1.1.25 · 1.3.2.2.2 a 1.3.2.2.4
+:::
 
 </details>
 
@@ -182,6 +190,7 @@ A **febre amarela** é acrescento próprio, por ser doença com transmissão em 
 
 Se a coluna for incluída: percentagem de unidades que tiveram ruptura de stock de cada vacina nos últimos 3 meses — 11 indicadores, um por vacina, que completam a subárea 3.2.1.4 do HHFA. Só entram na contagem da secção se a coluna for aprovada.
 
+<div class="hhfa">
 <details><summary>Ver os 11 indicadores</summary>
 
 - 3.2.1.4.1 — ruptura de stock: BCG
@@ -197,8 +206,11 @@ Se a coluna for incluída: percentagem de unidades que tiveram ruptura de stock 
 - 3.2.1.4.11 — hepatite B
 
 </details>
+</div>
 
+::: {.hhfa}
 Indicadores do HHFA, se a coluna for incluída: 3.2.1.4.1 a 3.2.1.4.11
+:::
 
 </details>
 
@@ -247,7 +259,9 @@ Nos últimos 3 meses, houve algum período em que esta vacina não estivesse dis
 
 Nada nesta fase. Na fase da observação, a cadeia de frio alimentará a tabela de prontidão da imunização do HHFA (3.2.1.2: 31 indicadores), em particular a caixa térmica ou porta-vacinas com acumuladores, o frigorífico funcional, o dispositivo de monitorização da temperatura e a temperatura mantida entre 2 e 8 °C, e ainda a manutenção de rotina dos frigoríficos.
 
+::: {.hhfa}
 Indicadores do HHFA nesta fase: nenhum · parqueados: 3.2.1.2.6 a 3.2.1.2.9 · 4.1.2.2.4
+:::
 
 </details>
 

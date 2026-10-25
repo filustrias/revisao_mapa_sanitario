@@ -12,13 +12,13 @@ Camas de internamento por tamanho, por enfermaria e por sexo, camas de observaç
 | Quesito | O que se obtém |
 |---|---|
 | 8.0.1 | Unidades sanitárias com internamento (1 indicador do HHFA) |
-| 8.1.1 a 8.1.3 | Camas de internamento de adulto, pediátricas e berços de recém-nascido; com a população da secção 3, camas por 10 000 habitantes |
-| 8.1.4 | Diferença entre camas autorizadas e camas instaladas |
-| 8.2 | Camas por enfermaria ou serviço |
-| 8.2b | Camas de adulto por sexo da enfermaria |
-| 8.3.1 a 8.3.3 | Capacidade de observação e de curta estadia em todas as unidades |
-| 8.4 | Macas, marquesas e cadeiras de estomatologia existentes e a funcionar |
-| 8.5 | Camas guardadas em armazém ou fora de uso — capacidade de expansão |
+| 8.1.1 a 8.1.3 | Camas de internamento de adulto, pediátricas e berços de recém-nascido; com a população da secção 3, camas por 10 000 habitantes [(4 indicadores do HHFA)]{.hhfa} |
+| 8.1.4 | Diferença entre camas autorizadas e camas instaladas [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 8.2 | Camas por enfermaria ou serviço [(9 indicadores do HHFA)]{.hhfa} |
+| 8.2b | Camas de adulto por sexo da enfermaria [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 8.3.1 a 8.3.3 | Capacidade de observação e de curta estadia em todas as unidades [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 8.4 | Macas, marquesas e cadeiras de estomatologia existentes e a funcionar [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 8.5 | Camas guardadas em armazém ou fora de uso — capacidade de expansão [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 8.6 e 8.7 | Outros recursos e observações |
 
 </details>
@@ -30,7 +30,9 @@ Camas de internamento por tamanho, por enfermaria e por sexo, camas de observaç
 
 Percentagem de unidades sanitárias que oferecem algum serviço de internamento. É a resposta a esta pergunta — e não o tipo de unidade — que decide o percurso da secção, porque há postos de saúde com camas e centros de saúde sem internamento.
 
+::: {.hhfa}
 Indicador do HHFA: 1.3.1.1.2
+:::
 
 </details>
 
@@ -65,7 +67,9 @@ Esta unidade sanitária tem internamento, isto é, doentes que pernoitam na unid
 
 Número de camas de internamento de tamanho adulto instaladas em cada unidade. Cruzado com a população da área de abrangência (secção 3), dá as camas de internamento por 10 000 habitantes.
 
+::: {.hhfa}
 Indicadores do HHFA: 1.1.2.1.1 · 1.1.1.1.3
+:::
 
 </details>
 
@@ -96,7 +100,9 @@ Número inteiro (0–999) · **998** Não sabe
 
 Número de camas de tamanho pediátrico e de berços para lactentes instalados em cada unidade.
 
+::: {.hhfa}
 Indicador do HHFA: 1.1.2.1.2
+:::
 
 </details>
 
@@ -127,7 +133,9 @@ Número inteiro (0–999) · **998** Não sabe
 
 Número de berços ou camas para recém-nascidos instalados em cada unidade.
 
+::: {.hhfa}
 Indicador do HHFA: 1.1.2.1.3
+:::
 
 </details>
 
@@ -154,7 +162,9 @@ Número inteiro (0–999) · **998** Não sabe
 
 Número de camas de internamento de adulto autorizadas para a unidade no seu quadro oficial. Comparado com 8.1.1, mostra a diferença entre o que está autorizado e o que está instalado.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -183,6 +193,7 @@ Número inteiro (0–999) · **998** Não sabe
 
 Número de camas de internamento em cada enfermaria ou serviço. Nove das doze linhas geram indicadores do HHFA; medicina, ginecologia e pediatria são medida própria do Mapa Sanitário.
 
+<div class="hhfa">
 <details><summary>Ver os 9 indicadores</summary>
 
 - 1.1.2.2.1 — camas dedicadas de maternidade (linha 3)
@@ -196,8 +207,11 @@ Número de camas de internamento em cada enfermaria ou serviço. Nove das doze l
 - 1.1.2.2.9 — camas dedicadas de isolamento (linha 10)
 
 </details>
+</div>
 
+::: {.hhfa}
 Indicadores do HHFA: 1.1.2.2.1 a 1.1.2.2.9
+:::
 
 </details>
 
@@ -239,7 +253,9 @@ Quantas camas de internamento, instaladas e disponíveis no dia da visita, exist
 
 Distribuição das camas de internamento de adulto por enfermaria masculina, feminina e mista — leitura da ocupação e da privacidade por sexo.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -272,7 +288,9 @@ Ainda sobre as camas de internamento de adulto contadas em 8.1.1, quantas estão
 
 Capacidade de observação até 24 horas e de curta estadia até 72 horas, em todas as unidades sanitárias — muitas vezes a única capacidade de permanência de um posto ou de um centro de saúde.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -305,7 +323,9 @@ Para cada uma: número inteiro (0–999) · **998** Não sabe
 
 Número de camas de observação e de curta estadia habitualmente ocupadas por doentes que pernoitam na unidade. Permite somar estas camas às de internamento quando há pernoita, como faz o instrumento internacional, sem alterar a série nacional.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum por si · permite comparar 8.1.1 e a linha 7 de 8.2 com os indicadores 1.1.2.1.1 e 1.1.2.2.4
+:::
 
 </details>
 
@@ -332,7 +352,9 @@ Número inteiro (0–999) · **998** Não sabe
 
 Número de equipamentos de exame existentes e a funcionar em cada unidade. A verificação destes equipamentos em cada serviço — consulta pré-natal, parto, rastreio do cancro do colo do útero — faz-se na secção 7.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -364,7 +386,9 @@ Para cada um dos seguintes equipamentos, quantos existem nesta unidade sanitári
 
 Número de camas de internamento guardadas em armazém ou fora de uso — a capacidade latente de expansão de cada unidade.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 
@@ -391,7 +415,9 @@ Número inteiro (0–999) · **998** Não sabe
 
 Outros recursos de estadia ou de exame relevantes na unidade que não tenham lugar nas perguntas anteriores.
 
+::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
 
 </details>
 

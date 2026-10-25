@@ -124,11 +124,27 @@ details.medir-seccao:not([open]) { padding-top: 0.55rem; padding-bottom: 0.55rem
 
 .medir p { margin-bottom: 0.4rem; }
 
-/* Última linha: a fonte do indicador, discreta (só quando a caixa tem mais de um parágrafo) */
-.medir > p:last-of-type:not(:first-of-type) {
+/* Indicadores do HHFA: escondidos por omissão, para os revisores; visíveis com ?hhfa=1
+   (comentar.html acrescenta a classe ver-hhfa ao <html> e lembra a escolha) */
+.hhfa { display: none; }
+html.ver-hhfa div.hhfa { display: block; }
+html.ver-hhfa span.hhfa { display: inline; }
+.medir div.hhfa, .medir div.hhfa p {
   font-size: 0.82rem;
   color: var(--ms-apagado);
   margin-bottom: 0;
+}
+.ms-aviso-hhfa {
+  position: fixed;
+  right: 0.8rem;
+  bottom: 0.8rem;
+  z-index: 50;
+  font-size: 0.75rem;
+  background: var(--ms-fundo-medir);
+  border: 1px solid var(--ms-borda-medir);
+  border-radius: 999px;
+  padding: 0.2rem 0.7rem;
+  color: var(--ms-borda-medir);
 }
 
 /* Lista completa quando o quesito alimenta muitos indicadores */
