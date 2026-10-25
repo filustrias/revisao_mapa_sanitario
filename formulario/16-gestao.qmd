@@ -1,0 +1,394 @@
+---
+title: "Secção 16 — Gestão"
+---
+
+Propriedade e entidade gestora da unidade, orçamento próprio, serviços e órgãos de gestão, revisão de casos e de óbitos, prevenção e controlo de infecções e garantia de qualidade.
+
+[40 campos, contra 22 na Ficha 19_01, incluindo a propriedade e a entidade gestora (16.1.1 e 16.1.2) e o orçamento próprio (16.1.3).]{.campos}
+
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
+
+| Quesito | O que se obtém |
+|---|---|
+| 16.1.1 | Tipo de proprietário da unidade — leitura de todos os indicadores por essa via [(estratificador)]{.hhfa} |
+| 16.1.2 | Nível que gere a unidade — nacional, provincial ou municipal [(estratificador)]{.hhfa} |
+| 16.2.1 a 16.2.17 | Existência e funcionamento de 17 serviços e órgãos de gestão [(4 indicadores do HHFA)]{.hhfa} |
+| 16.2.14 | Revisão de casos e de óbitos nas unidades com internamento [(6 indicadores do HHFA)]{.hhfa} |
+| 16.2.13 | Estrutura de gestão da prevenção e controlo de infecções [(3 indicadores do HHFA)]{.hhfa} |
+| 16.2.18 | Garantia e melhoria da qualidade [(7 indicadores do HHFA)]{.hhfa} |
+| Parqueados | Arquivo e reporte de dados; equipa de gestão [(cerca de 15 indicadores do HHFA, fora desta ronda)]{.hhfa} |
+
+</details>
+
+## 16.1.1 Propriedade [antigo 2.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Distribuição das unidades sanitárias por tipo de proprietário, e leitura de todos os indicadores por essa via. A proposta separa a rede confessional das organizações não governamentais, como faz o HHFA, e dá lugar às instituições públicas que não pertencem ao Serviço Nacional de Saúde.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · estratificador da análise
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+A quem pertence esta unidade sanitária, isto é, quem é o proprietário das instalações e do equipamento?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar uma única opção.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Pública — Serviço Nacional de Saúde
+2. Pública — Polícia ou Forças Armadas
+3. Pública — outra instituição do Estado (universidade, empresa pública)
+4. Privada não lucrativa — confissão religiosa ou missão
+5. Privada não lucrativa — organização não governamental ou associação
+6. Privada lucrativa
+
+<!-- -->
+
+96. Outra *(especificar)*
+:::
+
+::: {.nota}
+**Porque mudou.** A opção «privada não lucrativa» desdobra-se em missão religiosa e organização não governamental, que em Angola têm padrões de financiamento, de pessoal e de permanência muito diferentes. Separá-las custa zero caixas e acrescenta uma leitura nova. Acrescenta-se ainda a propriedade pública não pertencente ao Serviço Nacional de Saúde que não seja militar.
+:::
+
+## 16.1.2 Gestão [antigo 2.2]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Distribuição das unidades sanitárias pelo nível que as gere — Ministério, Direcção Provincial ou Administração Municipal —, e leitura de todos os indicadores por essa via. Saber que nível administra cada unidade é condição para ligar a unidade ao orçamento que a financia.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · estratificador da análise
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Que entidade é responsável pela gestão corrente desta unidade — isto é, quem toma as decisões de política, nomeia a direcção e exerce a supervisão? Pode ser diferente do proprietário indicado em 16.1.1.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar uma única opção.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Pública — Ministério ou Direcção Nacional
+2. Pública — Direcção Provincial de Saúde
+3. Pública — Administração Municipal
+4. Privada
+5. Mista (parceria público-privada)
+
+<!-- -->
+
+96. Outra *(especificar)*
+:::
+
+::: {.nota}
+**Porque mudou.** Das opções da Ficha — «pública, privada, mista, outra» —, a gestão pública desdobra-se por nível, para responder à pergunta que importa à descentralização: **qual** nível público gere a unidade. A distinção entre gestão provincial e gestão municipal é central ao desenho da reforma dos cuidados primários e passa assim a ser recolhida. O enunciado passa também a dizer por palavras que a gestão pode não coincidir com a propriedade, para facilitar o preenchimento.
+:::
+
+## 16.1.3 Orçamento próprio [antigo 0.2]{.antigo} [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária tem orçamento próprio?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Tem orçamento próprio
+
+<!-- -->
+
+0. Não tem
+:::
+
+::: {.nota}
+**Porque está aqui.** Na Ficha, este quesito está no cabeçalho, junto da data da recolha. É um quesito de gestão financeira e passa para esta secção, onde deve ser combinado com outras informações sobre o financiamento da unidade. Conserva o código 16.1.3 até essa decisão; as opções estão nas pendências, no fim desta subsecção.
+:::
+
+## 16.2.1 a 16.2.17 · Lista dos serviços e órgãos de gestão [antigo 7.4.1 a 7.4.17]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Que serviços e órgãos de gestão existem em cada unidade sanitária e quais estiveram de facto a funcionar nos últimos 3 meses. A diferença entre «existe» e «funcionou» mostra onde o órgão existe no papel sem actividade.
+
+Quatro linhas geram indicadores do HHFA, sem pergunta adicional: unidades com serviço de apoio de recursos humanos (16.2.7), de finanças e contabilidade e com unidade de administração geral (16.2.5), e de assistência social (16.2.11). As outras treze linhas são medida própria do Mapa Sanitário.
+
+::: {.hhfa}
+Indicadores do HHFA: 4.1.1.2.1, 4.1.1.2.2, 4.1.1.2.3 e 4.1.1.2.8
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Vou ler uma lista de serviços e órgãos de gestão. Para cada um, diga-me se existe nesta unidade sanitária e se esteve em funcionamento nos últimos 3 meses.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+16.2.1 Admissão e arquivo clínico-estatístico · 16.2.2 Direcção geral · 16.2.3 Direcção clínica · 16.2.4 Direcção pedagógica · 16.2.5 Administração · 16.2.6 Chefias · 16.2.7 Recursos humanos · 16.2.8 Escola de formação de técnicos de saúde · 16.2.9.1 Núcleo de formação permanente — campo de estágio médico · 16.2.9.2 Núcleo de formação permanente — campo de estágio de enfermagem · 16.2.10 Informática e estatística · 16.2.11 Assistência social · 16.2.12 Comissão de ética e deontologia · 16.2.13 Comissão de infecções hospitalares · 16.2.14 Comissão de óbitos hospitalares · 16.2.15 Comissão de medicamentos · 16.2.16 Comissão de segurança no trabalho · 16.2.17 Comissão de disciplina e auditoria
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Para cada linha:
+
+1. Existe e funcionou nos últimos 3 meses
+2. Existe mas não funcionou nos últimos 3 meses
+3. Não existe
+:::
+
+::: {.nota}
+**Porque mudou.** A escala de três níveis capta, sem acrescentar caixa nenhuma, a situação mais comum na rede: **a comissão existe no papel e não se reúne.** Com uma caixa de 0-1, essa unidade responde o mesmo que a unidade onde a comissão trabalha todas as semanas.
+
+**Todas as comissões nomeadas se mantêm**, por decisão expressa, incluindo as que não têm equivalente no instrumento internacional.
+:::
+
+## 16.2.14 · Revisão de casos e de óbitos [antigo 7.4.14]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Se as unidades com internamento revêem formalmente a qualidade do cuidado — casos de doentes internados e óbitos, incluindo os óbitos maternos e neonatais — e se o fizeram de facto nos últimos 3 meses. O bloco é uma porta: só respondem as unidades que declararam internamento em 7.0.1, e esse é também o denominador dos seis indicadores.
+
+<div class="hhfa">
+<details><summary>Ver os 6 indicadores</summary>
+
+- 4.4.3.1.1 — Unidades com internamento com sistema formal de revisão de casos de doentes internados
+- 4.4.3.1.2 — Unidades com internamento com revisão formal de caso realizada nos últimos 3 meses
+- 4.4.3.1.3 — Unidades com internamento com sistema formal de revisão de óbitos para qualquer óbito de doente internado
+- 4.4.3.1.4 — Unidades com internamento com sistema de revisão de óbitos neonatais
+- 4.4.3.1.5 — Unidades com internamento com sistema de revisão de óbitos maternos
+- 4.4.3.1.6 — Unidades com internamento com revisão formal de óbito realizada nos últimos 3 meses
+
+</details>
+</div>
+
+::: {.hhfa}
+Indicadores do HHFA: 4.4.3.1.1 a 4.4.3.1.6
+:::
+
+</details>
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Fazer este bloco apenas nas unidades que declararam ter internamento no quesito 7.0.1.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+**16.2.14.1** Esta unidade sanitária realiza rotineiramente revisões formais de casos de doentes que não faleceram, em que o manejo individual do doente é analisado quanto à qualidade e ao potencial de melhoria?
+
+**16.2.14.2** Com que frequência são realizadas essas revisões formais de casos?
+
+**16.2.14.3** Foi realizada alguma revisão formal de caso nos últimos 3 meses completos?
+
+**16.2.14.4** Esta unidade sanitária realiza revisões formais de óbitos relativamente a qualquer morte ocorrida na unidade?
+
+**16.2.14.5** Esta unidade sanitária realiza revisões formais de óbitos para algum dos seguintes tipos de morte ocorrida na unidade? — óbito materno · óbito neonatal · óbito nas 24 horas seguintes a uma intervenção cirúrgica
+
+**16.2.14.6** Foi realizada alguma revisão formal de óbito nos últimos 3 meses completos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **16.2.14.1**: 1 Sim · 2 Não
+- **16.2.14.2**: 1 Pelo menos semanalmente · 2 Pelo menos mensalmente · 3 Pelo menos trimestralmente · 4 Sem periodicidade definida
+- **16.2.14.3**: 1 Sim · 2 Não
+- **16.2.14.4**: 1 Sim · 2 Não · 3 Nunca houve óbito nesta unidade
+- **16.2.14.5**: para cada uma das três linhas, 1 Sim · 2 Não
+- **16.2.14.6**: 1 Sim · 2 Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em 16.2.14.1, se a resposta for «Não», passar a 16.2.14.4.
+
+Em 16.2.14.4, se a resposta for «Não» ou «Nunca houve óbito nesta unidade», terminar o bloco.
+:::
+
+::: {.nota}
+**É a aplicação mais clara da regra de que a porta é a actividade e não o órgão.** A porta deste bloco não é a existência da Comissão de Óbitos Hospitalares (quesito 16.2.14 da lista acima), mas a realização efectiva de revisões — porque **uma unidade pode revisar óbitos maternos sem ter comissão constituída, e é precisamente dela que queremos saber**. A caixa da comissão mantém-se, em paralelo, na lista de três níveis.
+
+**A porta é o internamento e não o tipo de unidade**, como no próprio instrumento internacional: o denominador destes seis indicadores são as unidades com internamento, seja qual for o seu tipo. Um centro de saúde com camas onde ocorreu um óbito materno tem de ser perguntado — e é precisamente o caso que mais interessa à mortalidade materna.
+
+**As perguntas 16.2.14.3 e 16.2.14.6 são a verificação da declaração:** separam «realizamos rotineiramente» de «realizámos de facto nos últimos 3 meses», que é a diferença entre um sistema a funcionar e um sistema no regulamento.
+:::
+
+## 16.2.13 · Estrutura de gestão da prevenção e controlo de infecções [antigo 7.4.13]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Três indicadores do HHFA: unidades com comissão técnica de prevenção e controlo de infecções; unidades com reuniões multidisciplinares que analisam os resultados de prevenção e controlo de infecções; e unidades com reunião de análise de prevenção e controlo de infecções nos últimos 6 meses. O denominador é o conjunto de todas as unidades, por isso o bloco é feito a todas.
+
+::: {.hhfa}
+Indicadores do HHFA: 4.4.1.1.4 a 4.4.1.1.6
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+**16.2.13.1** Vou perguntar sobre a estrutura de gestão da prevenção e controlo de infecções desta unidade sanitária. Para cada item, diga-me se se aplica nesta unidade. — comissão técnica de prevenção e controlo de infecções · reuniões multidisciplinares onde os resultados de prevenção e controlo de infecções são reportados ou analisados
+
+**16.2.13.2** Quando foi a reunião mais recente da comissão de prevenção e controlo de infecções, ou com a pessoa responsável por essa área? Pode ser uma reunião técnica ou uma reunião interdisciplinar em que os resultados tenham sido discutidos.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **16.2.13.1**: para cada linha, 1 Sim · 2 Não · 98 Não sabe
+- **16.2.13.2**: 1 No último mês · 2 Há 2 a 3 meses · 3 Há 4 a 6 meses · 4 Há mais de 6 meses · 98 Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não» nas duas linhas de 16.2.13.1, não fazer 16.2.13.2.
+:::
+
+::: {.nota}
+Mesmo desenho: a actividade, não o órgão. A segunda linha de 16.2.13.1 — reuniões multidisciplinares onde os resultados são analisados — é a que capta as unidades sem comissão constituída que, apesar disso, discutem infecções. **É a parte da prevenção e controlo de infecções que cabe na gestão;** o resto — normas de prevenção e de isolamento, pessoal formado, avaliação sistemática, normas de limpeza — fica para um bloco próprio, ainda por construir.
+:::
+
+## 16.2.18 · Garantia e melhoria da qualidade [antigo 7.4.18]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Se cada unidade sanitária tem actividades de rotina de garantia de qualidade — em toda a unidade ou em serviços específicos —, comissão que se reúne, documentação que mostra que a informação é analisada, ponto focal, pessoal formado e apoio externo. São sete indicadores do HHFA, calculados entre todas as unidades. A porta é a actividade (16.2.18.1), não a comissão.
+
+<div class="hhfa">
+<details><summary>Ver os 7 indicadores</summary>
+
+- 4.4.2.3.1 — Unidades com actividades de rotina de garantia de qualidade em toda a unidade
+- 4.4.2.3.2 — Unidades com actividades de rotina de garantia de qualidade em algum serviço específico
+- 4.4.2.3.3 — Unidades com comissão de garantia de qualidade que se reuniu nos últimos 3 meses
+- 4.4.2.3.4 — Unidades com documentação de que a informação de garantia de qualidade foi analisada
+- 4.4.2.3.6 — Unidades com ponto focal para melhoria da qualidade e segurança do doente
+- 4.4.2.3.7 — Unidades com pessoal formado em melhoria da qualidade ou segurança do doente
+- 4.4.2.3.8 — Unidades com apoio de parceiros externos para garantia ou melhoria da qualidade
+
+</details>
+</div>
+
+::: {.hhfa}
+Indicadores do HHFA: 4.4.2.3.1 a 4.4.2.3.4 e 4.4.2.3.6 a 4.4.2.3.8
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+**16.2.18.1** Esta unidade sanitária realiza rotineiramente actividades de garantia de qualidade em alguma área de serviço? Entende-se por isso algum sistema formal de revisão, ou de comparação do trabalho ou dos sistemas com uma norma.
+
+**16.2.18.2** Esse sistema é aplicado em toda a unidade ou apenas em serviços específicos?
+
+**16.2.18.3** Esta unidade sanitária tem uma comissão de garantia de qualidade?
+
+**16.2.18.4** Com que frequência se reúne essa comissão?
+
+**16.2.18.5** Quando foi a reunião mais recente dessa comissão?
+
+**16.2.18.6** Existe documentação que mostre que a informação de garantia de qualidade é analisada? Pode ser documentação produzida pela comissão ou por outro órgão de gestão, como um relatório ou a acta de uma reunião.
+
+**16.2.18.7** Esta unidade sanitária tem um ponto focal para melhoria da qualidade e segurança do doente?
+
+**16.2.18.8** O senhor, ou algum profissional desta unidade, recebeu formação em melhoria da qualidade ou em segurança do doente nos últimos 2 anos?
+
+**16.2.18.9** Esta unidade sanitária recebe apoio de parceiros externos na implementação de sistemas e actividades de garantia ou melhoria da qualidade?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **16.2.18.1**: 1 Sim · 2 Não
+- **16.2.18.2**: 1 Em toda a unidade · 2 Apenas em serviços específicos
+- **16.2.18.3**: 1 Sim · 2 Não
+- **16.2.18.4**: 1 Pelo menos mensalmente · 2 Pelo menos a cada 3 meses · 3 Pelo menos a cada 6 meses · 4 Menos de uma vez a cada 6 meses · 98 Não sabe
+- **16.2.18.5**: 1 No último mês · 2 Há 2 a 3 meses · 3 Há 4 a 6 meses · 4 Há mais de 6 meses · 98 Não sabe
+- **16.2.18.6**: 1 Sim, observado · 2 Sim, referido, não visto · 3 Não
+- **16.2.18.7** e **16.2.18.8**: 1 Sim · 2 Não
+- **16.2.18.9**: 1 Sim · 2 Não · 98 Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em 16.2.18.1, se a resposta for «Não», terminar o bloco.
+
+Em 16.2.18.3, se a resposta for «Não», passar a 16.2.18.6.
+
+Em 16.2.18.6, se a resposta for sim, pedir para ver a documentação antes de marcar «Sim, observado» ou «Sim, referido, não visto».
+:::
+
+::: {.nota}
+**Quesito inteiramente novo**, e o único acrescento desta subsecção que não tem correspondência em nenhuma caixa da Ficha. Na garantia de qualidade, o instrumento internacional é particularmente detalhado: nove caixas autorreferidas, sem exigir observação, e sete indicadores.
+
+O quesito **16.2.18.6** é o que separa um sistema real de um sistema declarado: pede documentação, e distingue «observado» de «referido, não visto».
+:::
+
+## 16.2.1 + 16.2.10 e 16.2.2 + 16.2.6 · Arquivo, reporte e comité de gestão [antigo 7.4.1 + 7.4.10 e 7.4.2 + 7.4.6]{.antigo} [PARQUEADO]{.etiqueta .parqueado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Nesta ronda, nada além do que já dá a lista de três níveis. Os dois blocos parqueados dariam: a cadeia de arquivo, registo e reporte de dados, cerca de 11 indicadores da área de sistemas de informação; e a equipa de gestão, 4 indicadores — equipa ou comissão de gestão que se reuniu nos últimos 3 meses, sistema de rotina de participação da comunidade nas decisões de gestão, plano operacional escrito e referência ao plano nas reuniões.
+
+::: {.hhfa}
+Indicadores do HHFA: nenhum nesta ronda · parqueados: cerca de 11 da área 4.5 e 4.1.1.1.2, 4.1.1.1.5 a 4.1.1.1.7
+:::
+
+</details>
+
+::: {.nota}
+As caixas mantêm-se na lista de três níveis. Ficam para o domínio de gestão dois blocos completos:
+
+**Cadeia de arquivo, registo e reporte de dados** (a partir de 16.2.1 e 16.2.10) — cerca de 12 campos.
+
+**Equipa ou comissão de gestão** (a partir de 16.2.2 e 16.2.6) — periodicidade e data das reuniões, plano operacional escrito e referência ao plano nas decisões, e sistema de rotina de participação da comunidade na gestão — cerca de 6 campos.
+:::
+
+## Pendências desta subsecção
+
+::: {.nota}
+**16.2.15 — Comissão de Medicamentos.** A verificar se corresponde à comissão de aquisições do instrumento internacional; se corresponder, a caixa que já existe passa a gerar indicador sem qualquer alteração.
+
+**16.2.8 e 16.2.9 — estatuto de unidade de ensino.** Propõe-se um quesito que registe se esta unidade sanitária acolhe formação de estudantes, internos, médicos em especialização ou técnicos de saúde em formação. Complementa as caixas dos órgãos que a Ficha já tem (escola de formação, núcleo de formação permanente) com a pergunta sobre o estatuto.
+
+**16.1.3 — Orçamento próprio: com que informações combinar.** O quesito passou do cabeçalho para esta subsecção. Falta decidir que informações sobre o financiamento da unidade o acompanham. O instrumento internacional recolhe-as nestes temas:
+
+| Tema | O que se pergunta |
+|---|---|
+| Autonomia de gestão | Se a unidade gere conta bancária própria e decide os seus gastos |
+| Linhas orçamentais | Se o orçamento tem verbas para manutenção, medicamentos, pessoal e outras despesas |
+| Fontes de financiamento | De onde vem o financiamento da unidade — Estado, parceiros, taxas cobradas aos utentes |
+| Taxas cobradas aos utentes | Se a unidade cobra taxas, por que serviços, e se há isenções |
+| Auditoria financeira | Se a unidade tem auditoria financeira externa anual |
+
+A proposta é começar pela autonomia de gestão e pelas fontes de financiamento, as mais próximas da pergunta actual e as mais fáceis de responder numa visita.
+:::

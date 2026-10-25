@@ -4,21 +4,27 @@ title: "O formulário, com comentários"
 
 {{< include _legenda.qmd >}}
 
-O formulário está dividido num capítulo por secção, pela ordem em que o inquiridor o percorre. A secção 7 — serviços oferecidos — é a mais longa: os serviços clínicos, de apoio e de saúde pública (7.1 a 7.3) têm um capítulo cada, e a gestão e os serviços gerais (7.4 e 7.5) estão juntos num capítulo próprio. Cada capítulo pode ser lido e discutido por si, numa sessão de revisão.
+O formulário está dividido em 17 secções, pela ordem em que o inquiridor o percorre. Cada secção pode ser lida e discutida por si, numa sessão de revisão. Cada quesito mostra, em pequeno, o código que tinha na versão anterior; a tabela completa está em «Correspondência de códigos».
 
 Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário curto já com o código do quesito preenchido. Os comentários vão para a mesma folha de respostas, um por linha, e são depois cruzados com a matriz pelo código.
 
-| Capítulo | Conteúdo |
+| Secção | Conteúdo |
 |---|---|
-| [Secção 0](formulario/00-identificacao.qmd) | Identificação e finalização da recolha |
-| [Secção 1](formulario/01-localizacao.qmd) | Localização |
+| [Secção 1](formulario/01-identificacao.qmd) | Identificação e finalização da recolha |
+| [Secção 2](formulario/02-localizacao.qmd) | Localização |
 | [Secção 3](formulario/03-populacao-referencia.qmd) | População e sistema de referência |
-| [Secção 4](formulario/04-construcao.qmd) | Construção |
-| [Secção 5](formulario/05-estado-fisico.qmd) | Estado físico |
-| [Secção 6](formulario/06-agua-energia-saneamento.qmd) | Água, energia, saneamento e resíduos |
-| [Secção 7](formulario/07-servicos.qmd) | Serviços oferecidos — [7.1](formulario/07-1-clinicos-cirurgicos.qmd) clínicos e cirúrgicos · [7.2](formulario/07-2-apoio.qmd) apoio · [7.3.1](formulario/07-3-1-vacinacao.qmd) vacinação · [7.3](formulario/07-3-saude-publica.qmd) saúde pública |
-| [Secções 7.4 e 7.5](formulario/07-4-5-gestao-servicos-gerais.qmd) | Gestão (com a propriedade e a entidade gestora) e serviços gerais |
-| [Secção 8](formulario/08-recursos-cama.qmd) | Recursos cama e similares |
-| [Secção 9](formulario/09-aparelhos.qmd) | Aparelhos médico-cirúrgicos |
-| [Secção 10](formulario/10-transportes.qmd) | Meios de transporte |
-| [Secção 13](formulario/13-conectividade.qmd) | Conectividade e meios informáticos |
+| [Secção 4](formulario/04-construcao-estado-fisico.qmd) | Construção e estado físico |
+| [Secção 5](formulario/05-agua-energia-saneamento.qmd) | Água, energia, saneamento e resíduos |
+| [Secção 6](formulario/06-conectividade.qmd) | Conectividade e meios informáticos |
+| [Secção 7](formulario/07-camas.qmd) | Camas e equipamentos de exame |
+| [Secção 8](formulario/08-aparelhos.qmd) | Aparelhos médico-cirúrgicos |
+| [Secção 9](formulario/09-transportes.qmd) | Meios de transporte |
+| [Secção 10](formulario/10-clinicos-cirurgicos.qmd) | Serviços clínicos e cirúrgicos |
+| [Secção 11](formulario/11-diagnostico-apoio.qmd) | Diagnóstico e serviços de apoio |
+| [Secção 12](formulario/12-crianca-vacinacao.qmd) | Saúde da criança e vacinação |
+| [Secção 13](formulario/13-materna-neonatal-pf.qmd) | Saúde materna, do recém-nascido e planeamento familiar |
+| [Secção 14](formulario/14-vih-tb-malaria.qmd) | VIH, tuberculose e malária |
+| [Secção 15](formulario/15-accao-comunitaria.qmd) | Acção comunitária |
+| [Secção 16](formulario/16-gestao.qmd) | Gestão |
+| [Secção 17](formulario/17-servicos-gerais.qmd) | Serviços gerais |
+| [Correspondência de códigos](formulario/99-correspondencia.qmd) | Códigos novos e códigos da versão anterior |

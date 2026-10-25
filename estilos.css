@@ -78,7 +78,9 @@ h4 {
 /* No índice lateral as etiquetas quebram a linha; ficam só no corpo do texto */
 
 #TOC .etiqueta,
-.sidebar-navigation .etiqueta {
+#TOC .antigo,
+.sidebar-navigation .etiqueta,
+.sidebar-navigation .antigo {
   display: none;
 }
 
@@ -495,4 +497,14 @@ table.legenda { font-size: 0.92rem; }
 
 @media (max-width: 600px) {
   .enunciado, .nota { padding-left: 0.7rem; padding-right: 0.7rem; }
+}
+
+/* Código do quesito na versão anterior, em pequeno, junto ao título */
+.antigo {
+  font-size: 0.68rem;
+  font-weight: 400;
+  color: var(--ms-apagado);
+  margin-left: 0.4rem;
+  vertical-align: 0.18em;
+  white-space: nowrap;
 }

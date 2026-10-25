@@ -1,0 +1,369 @@
+---
+title: "Secção 12 — Saúde da criança e vacinação"
+---
+
+Vacinação de rotina — periodicidade, vacinas administradas, rupturas de stock e cadeia de frio — e cuidados à criança menor de 5 anos.
+
+[33 campos, contra 7 na Ficha 19_01.]{.campos}
+
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
+
+| Quesito | O que se obtém |
+|---|---|
+| 12.1 a 12.1.2 | Unidades que vacinam, periodicidade e antigénios oferecidos [(29 indicadores do HHFA)]{.hhfa} |
+| 12.1.3 | Rupturas de stock por antigénio nos últimos 3 meses [(a decidir nesta revisão; 11 indicadores do HHFA, se incluída)]{.hhfa} |
+| 12.1.4 | Cadeia de frio (parqueado, para a fase da observação) |
+| 12.2 e 12.2.1 | Cuidados à criança menor de 5 anos, serviço a serviço [(13 indicadores do HHFA)]{.hhfa} |
+
+</details>
+
+## 12.1 · Vacinação — porta do PAV [antigo 7.3.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias que oferecem qualquer serviço de imunização. É a porta do bloco do PAV: quem responde «Não» ou «Não, apenas em campanhas» salta as grelhas da vacinação.
+
+A mesma caixa dá também o indicador correspondente na lista geral de serviços disponíveis do HHFA.
+
+::: {.hhfa}
+Indicadores do HHFA: 3.2.1.1.1 · 1.3.2.2.1
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária realiza vacinação de rotina, com periodicidade fixa, mesmo que não seja todos os dias?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não, apenas em campanhas
+3. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não, apenas em campanhas» ou «Não», saltar para 12.2.
+:::
+
+::: {.nota}
+**Porque mudou.** A definição do Guião (folha 12) reúne três critérios: «a menores de 5 anos, com todos os antigénios (= Posto Fixo de Vacinação); será considerado afirmativo se são realizadas vacinações de rotina na US com periodicidade fixa, mesmo que não seja diária» — grupo de idade, completude dos antigénios e periodicidade. A proposta aproveita-a e dá a cada critério o seu quesito: a periodicidade em 12.1.1, a completude em 12.1.2, e o grupo de idade resolve-se na própria grelha.
+
+**A opção 2 é nova** e serve a leitura que o Guião já implica: uma unidade que só vacina em campanhas não é um posto fixo de vacinação, mas também não é uma unidade onde nada acontece.
+:::
+
+## 12.1.1 · Periodicidade da vacinação de rotina [antigo 7.3.1.1]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que fazem vacinação infantil de rotina todos os dias, todas as semanas, ou todos os meses ou trimestres — três indicadores a partir de uma só pergunta. A opção 1 dá o indicador diário, a opção 2 o semanal, e as opções 3 e 4, juntas, o mensal ou trimestral.
+
+::: {.hhfa}
+Indicadores do HHFA: 3.2.1.1.6 · 3.2.1.1.7 · 3.2.1.1.8
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Com que periodicidade é realizada a vacinação de rotina das crianças nesta unidade sanitária?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Todos os dias de funcionamento
+2. Semanalmente
+3. Mensalmente
+4. Trimestralmente
+5. Com outra periodicidade *(especificar)*
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.nota}
+Uma caixa, três indicadores. Aproveita a instrução do Guião, que já manda avaliar a periodicidade — «mesmo que não seja diária» —, e passa a registá-la, para que fique disponível na análise.
+
+**É provavelmente o dado mais útil de todo o bloco do PAV** para a rede de cuidados primários: a distância entre vacinar todos os dias e vacinar uma vez por mês é a distância entre uma mãe que leva a criança quando pode e uma mãe que tem de acertar com o dia certo — e explica oportunidades perdidas de vacinação sem que nada falte na unidade.
+:::
+
+## 12.1.2 · Antigénios oferecidos [antigo 7.3.1.2]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que administram cada vacina, antigénio a antigénio e por momento do calendário — dose ao nascer, lactente, criança, adolescente ou adulto. São 24 indicadores: 17, um por antigénio; 4 agregados por grupo de idade, calculados a partir da grelha; e 3 na lista geral de serviços disponíveis.
+
+A linha 11 (reforços do calendário infantil) e a linha 19 (febre amarela) não têm indicador do HHFA: servem a leitura nacional.
+
+<div class="hhfa">
+<details><summary>Ver os 24 indicadores</summary>
+
+- 3.2.1.1.9 — vacina da hepatite B, dose ao nascer (linha 1)
+- 3.2.1.1.10 — BCG, dose ao nascer (linha 2)
+- 3.2.1.1.11 — vacina oral da poliomielite (VOP), dose ao nascer (linha 3)
+- 3.2.1.1.12 — BCG, lactente (linha 4)
+- 3.2.1.1.13 — VOP, lactente (linha 5)
+- 3.2.1.1.14 — DTP, lactente (linha 6)
+- 3.2.1.1.15 — rotavírus, lactente (linha 7)
+- 3.2.1.1.16 — vacina inactivada da poliomielite (VPI), lactente (linha 8)
+- 3.2.1.1.17 — sarampo, lactente ou criança (linha 9)
+- 3.2.1.1.18 — pneumocócica, lactente ou criança (linha 10)
+- 3.2.1.1.19 — COVID-19, criança (linha 12)
+- 3.2.1.1.20 — antitetânica, adolescente ou adulto (linha 14)
+- 3.2.1.1.21 — HPV, adolescente ou adulto (linha 13)
+- 3.2.1.1.22 — gripe, adolescente ou adulto (linha 15)
+- 3.2.1.1.23 — COVID-19, adolescente ou adulto (linha 16)
+- 3.2.1.1.24 — pneumocócica, adolescente ou adulto (linha 17)
+- 3.2.1.1.25 — hepatite B, adolescente ou adulto (linha 18)
+- 3.2.1.1.2 — qualquer dose ao nascer
+- 3.2.1.1.3 — qualquer vacina do lactente
+- 3.2.1.1.4 — qualquer vacina da criança
+- 3.2.1.1.5 — qualquer vacina de adolescente ou adulto
+- 1.3.2.2.2 — imunização do lactente (menos de 1 ano), na lista geral de serviços disponíveis
+- 1.3.2.2.3 — imunização da criança (1 a 5 anos), na lista geral
+- 1.3.2.2.4 — imunização de adolescente ou adulto, na lista geral
+
+</details>
+</div>
+
+::: {.hhfa}
+Indicadores do HHFA: 3.2.1.1.2 a 3.2.1.1.5 · 3.2.1.1.9 a 3.2.1.1.25 · 1.3.2.2.2 a 1.3.2.2.4
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada vacina seguinte, diga-me se é habitualmente administrada nesta unidade sanitária.
+
+Considere os últimos 3 meses, e não uma falha pontual de stock.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Vacina | 1 · Sim, habitualmente administrada | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 12.1.2.1 | Hepatite B — dose ao nascer | ☐ | ☐ | ☐ |
+| 12.1.2.2 | BCG — dose ao nascer | ☐ | ☐ | ☐ |
+| 12.1.2.3 | VOP dose zero — dose ao nascer | ☐ | ☐ | ☐ |
+| 12.1.2.4 | BCG — lactente, menos de 1 ano | ☐ | ☐ | ☐ |
+| 12.1.2.5 | VOP — lactente, menos de 1 ano | ☐ | ☐ | ☐ |
+| 12.1.2.6 | Pentavalente DTP-Hib-HepB — lactente, menos de 1 ano | ☐ | ☐ | ☐ |
+| 12.1.2.7 | Rotavírus — lactente, menos de 1 ano | ☐ | ☐ | ☐ |
+| 12.1.2.8 | VPI — lactente, menos de 1 ano | ☐ | ☐ | ☐ |
+| 12.1.2.9 | Sarampo — lactente, menos de 1 ano | ☐ | ☐ | ☐ |
+| 12.1.2.10 | Pneumocócica — lactente, menos de 1 ano | ☐ | ☐ | ☐ |
+| 12.1.2.11 | Reforços do calendário infantil — criança de 1 a 5 anos | ☐ | ☐ | ☐ |
+| 12.1.2.12 | COVID-19 — criança de 1 a 5 anos | ☐ | ☐ | ☐ |
+| 12.1.2.13 | HPV — adolescente ou adulto | ☐ | ☐ | ☐ |
+| 12.1.2.14 | Antitetânica — adolescente ou adulto | ☐ | ☐ | ☐ |
+| 12.1.2.15 | Gripe — adolescente ou adulto | ☐ | ☐ | ☐ |
+| 12.1.2.16 | COVID-19 — adolescente ou adulto | ☐ | ☐ | ☐ |
+| 12.1.2.17 | Pneumocócica — adolescente ou adulto | ☐ | ☐ | ☐ |
+| 12.1.2.18 | Hepatite B — adolescente ou adulto | ☐ | ☐ | ☐ |
+| 12.1.2.19 | Febre amarela — linha adicional para Angola | ☐ | ☐ | ☐ |
+:::
+
+::: {.nota}
+**Vinte e quatro indicadores por dezoito caixas — o maior rendimento por campo de toda a proposta.** Deixa de se saber apenas quantas unidades vacinam e passa a saber-se **qual o antigénio que falta e onde**, que é a pergunta a que um plano de reforço da imunização tem de responder.
+
+A **febre amarela** é acrescento próprio, por ser doença com transmissão em Angola e não constar da lista internacional.
+
+**Pendência a abrir com o PAV:** confirmar estas dezanove linhas contra o calendário nacional de vacinação em vigor, retirando os antigénios que Angola não utiliza e acrescentando os que faltem. Retirar uma linha custa apenas o indicador correspondente e não afecta nenhum dos outros.
+:::
+
+## 12.1.3 · Rupturas de stock por antigénio [antigo 7.3.1.3]{.antigo} [A DECIDIR]{.etiqueta .decidir}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Se a coluna for incluída: percentagem de unidades que tiveram ruptura de stock de cada vacina nos últimos 3 meses — 11 indicadores, um por vacina, que completam a subárea 3.2.1.4 do HHFA. Só entram na contagem da secção se a coluna for aprovada.
+
+<div class="hhfa">
+<details><summary>Ver os 11 indicadores</summary>
+
+- 3.2.1.4.1 — ruptura de stock: BCG
+- 3.2.1.4.2 — VOP
+- 3.2.1.4.3 — VPI
+- 3.2.1.4.4 — pentavalente DTP-Hib-HepB
+- 3.2.1.4.5 — sarampo
+- 3.2.1.4.6 — rotavírus
+- 3.2.1.4.7 — pneumocócica
+- 3.2.1.4.8 — HPV
+- 3.2.1.4.9 — raiva
+- 3.2.1.4.10 — COVID-19
+- 3.2.1.4.11 — hepatite B
+
+</details>
+</div>
+
+::: {.hhfa}
+Indicadores do HHFA, se a coluna for incluída: 3.2.1.4.1 a 3.2.1.4.11
+:::
+
+</details>
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Coluna (B) opcional, a acrescentar à grelha de 12.1.2. Fazer esta pergunta apenas em 11 das 18 linhas (BCG, VOP, VPI, pentavalente, sarampo, rotavírus, pneumocócica, HPV, raiva, COVID-19, hepatite B).
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Nos últimos 3 meses, houve algum período em que esta vacina não estivesse disponível nesta unidade sanitária?
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Vacina | 1 · Sim | 2 · Não | 98 · Não sabe |
+|---|:-:|:-:|:-:|
+| BCG | ☐ | ☐ | ☐ |
+| VOP | ☐ | ☐ | ☐ |
+| VPI | ☐ | ☐ | ☐ |
+| Pentavalente DTP-Hib-HepB | ☐ | ☐ | ☐ |
+| Sarampo | ☐ | ☐ | ☐ |
+| Rotavírus | ☐ | ☐ | ☐ |
+| Pneumocócica | ☐ | ☐ | ☐ |
+| HPV | ☐ | ☐ | ☐ |
+| Raiva | ☐ | ☐ | ☐ |
+| COVID-19 | ☐ | ☐ | ☐ |
+| Hepatite B | ☐ | ☐ | ☐ |
+:::
+
+::: {.nota}
+**É a única decisão de peso deste bloco.**
+
+*A favor:* 11 indicadores por 11 campos, todos autorreferidos, e a ruptura de stock é provavelmente a causa mais frequente de oportunidade perdida de vacinação — mede-se a cadeia de abastecimento sem precisar de observar a geleira. A ruptura é a única parte da família dos medicamentos que não exige verificação física, porque é memória de quem responde e não contagem de prateleira.
+
+*Contra:* faz passar a grelha do PAV de 18 para 29 campos.
+
+*Recomendação:* incluir, mas só para os antigénios do calendário infantil de rotina que Angola utiliza — o que, feita a confirmação com o PAV, deve reduzir as 11 linhas a 7 ou 8.
+:::
+
+## 12.1.4 · Cadeia de frio [antigo 7.3.1.4]{.antigo} [PARQUEADO]{.etiqueta .parqueado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Nada nesta fase. Na fase da observação, a cadeia de frio alimentará a tabela de prontidão da imunização do HHFA (3.2.1.2: 31 indicadores), em particular a caixa térmica ou porta-vacinas com acumuladores, o frigorífico funcional, o dispositivo de monitorização da temperatura e a temperatura mantida entre 2 e 8 °C, e ainda a manutenção de rotina dos frigoríficos.
+
+::: {.hhfa}
+Indicadores do HHFA nesta fase: nenhum · parqueados: 3.2.1.2.6 a 3.2.1.2.9 · 4.1.2.2.4
+:::
+
+</details>
+
+::: {.nota}
+Parqueada para a fase da observação. **Não é omissão, é fronteira de módulo:** a tabela de prontidão da imunização tem 31 indicadores e exige ver o frigorífico a funcionar, ler o termómetro no dia da visita e verificar as vacinas na prateleira.
+
+**Remissões.** A contagem de geleiras e arcas está no quesito 8.1.2 da secção 8 — e é contributo próprio, porque o instrumento internacional não conta geleiras, verifica uma. A energia que as alimenta está no quesito 5.2.3. A manutenção de frigoríficos está no bloco 17.8, também parqueado.
+:::
+
+## 12.2 · Puericultura — porta dos cuidados à criança [antigo 7.3.5]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que prestam quaisquer cuidados preventivos ou curativos a crianças menores de 5 anos. É a porta da grelha dos cuidados à criança.
+
+::: {.hhfa}
+Indicadores do HHFA: 3.1.8.1.1 · 1.3.2.1.1
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária presta cuidados preventivos ou curativos a crianças menores de 5 anos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 13.1.
+:::
+
+::: {.nota}
+**A puericultura deixa de ser uma caixa entre outras e passa a ser a porta de toda a família dos cuidados à criança**, porque é isso que ela é na prática: o Guião define-a como «quando inclui peso e registo do mesmo no cartão infantil» (folha 12), isto é, a consulta de vigilância da criança. A monitorização do crescimento, que é o conteúdo dessa definição, passa a ser a primeira linha da grelha seguinte, onde gera indicador próprio.
+:::
+
+## 12.2.1 · Cuidados à criança menor de 5 anos [antigo 7.3.5.1]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que prestam cada serviço à criança menor de 5 anos: crescimento, malnutrição nos seus três níveis de manejo, vitamina A, anemia, diarreia, malária, rede mosquiteira. Onze linhas geram indicador do HHFA. A desparasitação de rotina (linha 7) não tem indicador do HHFA: é medida própria do Mapa Sanitário.
+
+<div class="hhfa">
+<details><summary>Ver os 11 indicadores</summary>
+
+- 3.1.8.1.2 — monitorização de rotina do crescimento (linha 1)
+- 3.1.8.1.3 — diagnóstico ou tratamento da malnutrição (linha 2)
+- 3.1.8.1.4 — tratamento em ambulatório da malnutrição aguda grave sem complicações (linha 3)
+- 3.1.8.1.5 — tratamento em ambulatório de outras categorias de malnutrição (linha 4)
+- 3.1.8.1.6 — tratamento em internamento da malnutrição grave com complicações (linha 5)
+- 3.1.8.1.7 — suplementação de rotina com vitamina A (linha 6)
+- 3.1.8.1.8 — diagnóstico e tratamento da anemia com suplementação de ferro (linha 8)
+- 3.1.8.1.9 — diagnóstico e tratamento da diarreia com SRO e zinco (linha 9)
+- 3.1.8.1.10 — no catálogo, diagnóstico e tratamento de primeira linha da pneumonia (a linha 10 está escrita para a malária; correspondência a confirmar)
+- 3.1.8.1.11 — diagnóstico da malária com teste de sangue e tratamento com CTA (linha 11)
+- 3.1.8.1.12 — rede mosquiteira tratada de longa duração, ou voucher (linha 12)
+
+</details>
+</div>
+
+::: {.hhfa}
+Indicadores do HHFA: 3.1.8.1.2 a 3.1.8.1.12
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada serviço seguinte, diga-me se é habitualmente prestado a crianças menores de 5 anos nesta unidade sanitária.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Serviço | 1 · Sim, habitualmente prestado | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 12.2.1.1 | Monitorização do crescimento, com peso e registo no cartão infantil | ☐ | ☐ | ☐ |
+| 12.2.1.2 | Diagnóstico ou tratamento da malnutrição | ☐ | ☐ | ☐ |
+| 12.2.1.3 | Tratamento em ambulatório da malnutrição aguda grave, com alimento terapêutico | ☐ | ☐ | ☐ |
+| 12.2.1.4 | Tratamento em ambulatório da malnutrição moderada, com suplementos alimentares | ☐ | ☐ | ☐ |
+| 12.2.1.5 | Tratamento em internamento da malnutrição grave | ☐ | ☐ | ☐ |
+| 12.2.1.6 | Suplementação de rotina com vitamina A | ☐ | ☐ | ☐ |
+| 12.2.1.7 | Desparasitação de rotina com albendazol ou mebendazol | ☐ | ☐ | ☐ |
+| 12.2.1.8 | Diagnóstico e tratamento da anemia | ☐ | ☐ | ☐ |
+| 12.2.1.9 | Diagnóstico e tratamento da diarreia com sais de reidratação oral e zinco | ☐ | ☐ | ☐ |
+| 12.2.1.10 | Diagnóstico e tratamento de primeira linha da malária | ☐ | ☐ | ☐ |
+| 12.2.1.11 | Diagnóstico da malária com teste de sangue | ☐ | ☐ | ☐ |
+| 12.2.1.12 | Entrega de rede mosquiteira tratada de longa duração, ou de voucher para a obter | ☐ | ☐ | ☐ |
+:::
+
+::: {.nota}
+**Cinco caixas da Ficha entram aqui e nenhuma se perde, com uma correspondência exacta** que vale registar: a Reidratação Oral (4.1 RO) é a linha 9; o Centro Nutricional Terapêutico, que o Guião define como serviço de tratamento da criança malnutrida grave «que inclui regime de internamento», é a linha 5; o Centro Nutricional Suplementar, «sem internamento, e que inclui o fornecimento de suplementos alimentares», é a linha 4; a vitamina A é a linha 6; e a puericultura é a linha 1. **As três caixas de nutrição da Ficha mapeiam-se exactamente nos três níveis de manejo do instrumento internacional**, o que mostra a solidez do desenho original.
+
+O **albendazol** ganha linha própria: não há indicador internacional de desparasitação de rotina, pelo que é contributo próprio, e conserva-se porque é a âncora de medicamentos mais simples do instrumento.
+:::

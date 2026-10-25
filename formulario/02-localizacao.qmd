@@ -1,0 +1,211 @@
+---
+title: "Secção 2 — Localização"
+---
+
+Localização administrativa, designação e endereço da unidade sanitária, a sua categoria, as coordenadas geográficas e a zona urbana, periurbana ou rural.
+
+[17 campos.]{.campos}
+
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
+
+| Quesito | O que se obtém |
+|---|---|
+| 2.1 a 2.5 | Identificação da unidade e estratificação por província, município, comuna e bairro |
+| 2.6 | Endereço completo, para localizar a unidade no terreno |
+| 2.7 | Estratificação de todos os indicadores por categoria da unidade; definição das unidades de cuidados primários (1 indicador do HHFA) |
+| 2.8 e 2.9 | Localização exacta da unidade, base das densidades e do acesso geográfico [(7 indicadores do HHFA)]{.hhfa} |
+| 2.10 | Qualidade de cada leitura de coordenadas |
+| 2.11 | Desagregação de todos os indicadores por zona urbana, rural e periurbana |
+
+</details>
+
+## 2.1 a 2.5 Localização administrativa e nome da unidade [antigo 1.1 a 1.5]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Identificação de cada unidade sanitária e a sua localização administrativa. Permite ler todos os indicadores por província, município, comuna e bairro, e o nome com o código do Mapa Sanitário é a chave de ligação a qualquer outra base de dados do sector.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · identificador e estratificador da análise
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+**2.1** Província · **2.2** Município · **2.3** Comuna ou distrito urbano · **2.4** Aldeia rural ou bairro urbano · **2.5** Nome da unidade sanitária
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Unidade da lista prévia do Mapa Sanitário:** os campos 2.1 a 2.5 e o código da unidade vêm pré-carregados no sistema. Confirmar que correspondem à unidade visitada; se algum estiver errado, corrigir e assinalar a correcção.
+
+**Unidade que não consta da lista prévia:** registá-la como unidade nova. Seleccionar a província, o município e a comuna do menu auxiliar e escrever a aldeia ou bairro e o nome da unidade. O código do Mapa Sanitário é atribuído posteriormente pelo GEPE.
+:::
+
+::: {.nota}
+**O que muda.** Os campos mantêm-se. Com a lista prévia carregada no sistema, deixam de ser escritos de novo em cada ronda: confirmam-se e corrigem-se. As unidades encontradas no terreno que não constam da lista entram como unidades novas.
+:::
+
+## 2.6 Endereço completo [antigo 1.5.1]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Endereço de cada unidade sanitária, para a localizar no terreno e para a comunicação com a unidade.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · identificador da unidade
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Confirmar com o respondente]{.rotulo}
+
+Endereço completo da unidade sanitária: rua ou avenida, número, bairro e um ponto de referência próximo.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a unidade consta da lista prévia e o endereço vem pré-carregado, confirmá-lo com o respondente e corrigir se necessário. Se não consta, perguntar o endereço ao respondente e registá-lo.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- Texto
+:::
+
+## 2.7 Categoria da unidade [antigo 1.6]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Permite ler todos os indicadores por nível de cuidados. O HHFA pede que a sua lista genérica de tipos de unidade seja substituída pela lista nacional, que em Angola é esta. É também a categoria que decide que unidades contam como de cuidados primários no indicador «Número de unidades de cuidados primários por 10 000 habitantes».
+
+::: {.hhfa}
+Indicador do HHFA: 1.1.1.1.2 · e estratificador principal da análise
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Confirmar com o respondente]{.rotulo}
+
+Categoria da unidade, segundo a classificação do Mapa Sanitário.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a unidade consta da lista prévia, a categoria vem pré-carregada: confirmá-la com o respondente e corrigir se necessário. Se a unidade não consta da lista, registar a categoria indicada pelo respondente.
+:::
+
+::: {.nota}
+É o estratificador principal de toda a análise: é por esta caixa que todos os indicadores se leem por tipo de unidade. Mantém-se exactamente como está. A categoria não decide nenhum salto do formulário.
+:::
+
+## 2.8 e 2.9 Coordenadas [antigo 1.7 e 1.8]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Localização exacta de cada unidade sanitária, base para calcular distâncias e o acesso geográfico. Os indicadores de densidade do HHFA contam unidades e camas por habitante numa área geográfica; com a coordenada, cada unidade é atribuída à área certa e as densidades podem calcular-se para qualquer recorte do território, sempre com a população do quesito 3.1.
+
+<div class="hhfa">
+<details><summary>Ver os 7 indicadores</summary>
+
+- 1.1.1.1.1 — Número de unidades sanitárias por 10 000 habitantes
+- 1.1.1.1.2 — Número de unidades de cuidados primários por 10 000 habitantes
+- 1.1.1.1.3 — Número de camas de internamento por 10 000 habitantes
+- 1.1.1.1.4 — Número de camas de maternidade por 1 000 grávidas
+- 1.4.1.1.1 — Índice de densidade de unidades sanitárias
+- 1.4.1.1.2 — Índice de densidade de camas de internamento
+- 1.4.1.1.3 — Índice de densidade de camas de maternidade
+
+</details>
+</div>
+
+::: {.hhfa}
+Indicadores do HHFA: 1.1.1.1.1 a 1.1.1.1.4 · 1.4.1.1.1 a 1.4.1.1.3
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Campo · registado pelo sistema digital]{.rotulo}
+
+**2.8** Latitude · **2.9** Longitude, em graus decimais.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — As coordenadas são registadas pelo aparelho. Fazer a leitura à entrada principal do edifício principal, ao ar livre, com o aparelho estável durante pelo menos 60 segundos. Na versão em papel, registar em graus decimais, com cinco casas decimais.
+:::
+
+::: {.nota}
+**Porque mudou.** As duas caixas mantêm-se. Ao formato que o Guião fixa — «em graus decimais» — acrescenta-se um protocolo de leitura: o local onde se faz a leitura e o tempo de estabilização do aparelho. Sem protocolo, a mesma unidade pode ficar a 200 metros de si mesma entre duas rondas, e os cálculos de distância e de acesso geográfico deixam de ser comparáveis.
+:::
+
+## 2.10 Precisão da leitura [antigo 1.8.1]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Precisão de cada leitura de coordenadas. Permite excluir da análise as leituras de má qualidade, em vez de as usar sem saber.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · qualifica a leitura de 2.8 e 2.9
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Campo · registado pelo sistema digital]{.rotulo}
+
+Precisão da leitura de coordenadas indicada pelo aparelho, em metros.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- Campo numérico, 3 dígitos
+:::
+
+::: {.nota}
+Uma caixa que qualifica a leitura anterior. Uma coordenada com precisão de 4 metros e uma com precisão de 300 metros não servem para o mesmo, e esta caixa permite distingui-las no ficheiro.
+:::
+
+## 2.11 Zona urbana, rural ou periurbana [antigo 1.9]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Classificação de cada unidade em zona urbana, rural ou periurbana. Permite desagregar por estas três zonas todos os indicadores do formulário.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · estratificador da análise
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Zona em que se situa a unidade sanitária.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Usar a classificação administrativa em vigor; em caso de dúvida, perguntar ao respondente.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Urbana
+2. Rural
+3. Periurbana
+:::
+
+::: {.nota}
+**Para que serve.** Uma caixa própria dispensa inferir esta informação da localização administrativa, o que é difícil nas periferias das capitais provinciais, e permite desagregar por urbano e rural todos os indicadores do formulário.
+:::

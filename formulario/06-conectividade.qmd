@@ -1,0 +1,416 @@
+---
+title: "Secção 6 — Conectividade e meios informáticos"
+---
+
+Cobertura de rede móvel, ligação à internet e a sua disponibilidade, equipamento informático, bases de dados electrónicas, reporte dos dados de rotina e pessoal dedicado aos dados.
+
+[36 campos. Um deles vem da caixa «Comunicação» dos serviços gerais (17.7), que passa para esta secção.]{.campos}
+
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
+
+| Quesito | O que se obtém |
+|---|---|
+| 6.1.1 | Cobertura de rede móvel no recinto, independentemente da unidade [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 6.1.2 a 6.1.5 | Meio de ligação à internet, acesso com equipamento da unidade, custo pago pela gestão e disponibilidade da ligação [(1 indicador do HHFA, com 6.2)]{.hhfa} |
+| 6.2.1 a 6.2.6 | Equipamento informático e telefone existentes e a funcionar [(2 indicadores do HHFA)]{.hhfa} |
+| 6.3.1 a 6.3.6 | Bases de dados electrónicas, protecção por senha, cópias de segurança, formato do reporte e plataforma utilizada [(20 indicadores do HHFA)]{.hhfa} |
+| 6.4.1 e 6.4.2 | Pessoal designado para a gestão dos dados e formado no seu uso [(2 indicadores do HHFA)]{.hhfa} |
+
+</details>
+
+## 6.1.1 Cobertura de rede móvel [antigo 13.1.1]{.antigo} [NOVO]{.etiqueta .novo}
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Existe cobertura de rede móvel no recinto desta unidade sanitária?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, estável em todo o recinto
+2. Sim, mas instável ou apenas em alguns pontos
+3. Não há cobertura
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.nota}
+**Porque vem primeiro.** A cobertura não depende da unidade. Perguntada antes da internet, separa a falta de sinal — que se resolve com infra-estrutura de telecomunicações — da falta de contrato ou de equipamento, que se resolve com o orçamento da unidade. Serve também o canal de voz: a chamada para a unidade de referência depende de sinal, não de internet.
+:::
+
+## 6.1.2 Meio de ligação à internet [antigo 13.1.2]{.antigo} [NOVO]{.etiqueta .novo}
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Qual é o meio de ligação à internet utilizado por esta unidade?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar uma única opção: o meio mais utilizado.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Ligação fixa (fibra ou ADSL)
+2. Router ou modem móvel da unidade
+3. Partilha de dados do telemóvel pessoal dos profissionais
+4. Ligação por satélite
+5. Não há qualquer ligação
+
+<!-- -->
+
+96. Outro *(especificar)*
+:::
+
+::: {.nota}
+**Para que serve.** A opção 3 mostra as unidades em que a ligação depende do telemóvel pessoal dos profissionais.
+:::
+
+## 6.1.3 e 6.1.4 Acesso à internet e custo da ligação [antigo 13.1.3 e 13.1.4]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Unidades com acesso à internet através de equipamento da própria unidade e com o custo da ligação pago pela gestão. Com o computador a funcionar (6.2.1 e 6.2.2), dá as unidades com computador ligado à internet.
+
+::: {.hhfa}
+Indicador do HHFA: 2.1.1.1.6 (computador com internet) — com 6.2.1 e 6.2.2
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+**6.1.3** Há acesso a correio electrónico ou à internet nesta unidade hoje?
+
+**6.1.4** O custo da ligação à internet é pago ou reembolsado pela gestão desta unidade?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+**6.1.3**
+
+1. Sim, através de equipamento da unidade
+2. Sim, mas apenas através de equipamento pessoal dos profissionais
+3. Não há acesso
+
+**6.1.4**
+
+1. Sim
+2. Não
+
+<!-- -->
+
+97. Não se aplica
+:::
+
+::: {.nota}
+**De onde vem.** A caixa «Comunicação» dos serviços gerais (17.7) passa para esta secção, desdobrada nestas duas perguntas. O custo pago pela gestão distingue a ligação institucional da ligação paga pelo próprio profissional.
+:::
+
+## 6.1.5 Disponibilidade da ligação nos últimos 7 dias [antigo 13.1.5]{.antigo} [NOVO]{.etiqueta .novo}
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Nos últimos 7 dias, a ligação à internet esteve disponível em todos os momentos em que a unidade esteve aberta ao público?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sempre disponível, sem interrupções
+2. Muitas vezes disponível, com interrupções de menos de 2 horas por dia
+3. Algumas vezes disponível, com interrupções frequentes ou de mais de 2 horas por dia
+
+<!-- -->
+
+97. Não há ligação
+:::
+
+::: {.nota}
+**Para que serve.** Ter ligação não é o mesmo que ter ligação quando se precisa. A escala é a mesma usada para a electricidade em 5.2.3.
+:::
+
+## 6.2.1 a 6.2.6 Equipamento informático e telefone [antigo 13.2.1 a 13.2.6]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Número de computadores, tablets, impressoras, baterias de apoio e telefones de cada unidade e quantos estão a funcionar. A diferença entre as duas colunas mostra os problemas de manutenção do equipamento informático.
+
+::: {.hhfa}
+Indicadores do HHFA: 2.1.1.1.5 (sistema de comunicação — 6.2.6) · 2.1.1.1.6 (computador com internet — com 6.1.3 e 6.1.4)
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada um dos equipamentos seguintes, indique quantos existem nesta unidade e quantos estavam a funcionar no último mês.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Equipamento | Número existente (2 dígitos) | Número a funcionar (2 dígitos) |
+|---|---|:-:|:-:|
+| 6.2.1 | Computador de mesa | \_\_ | \_\_ |
+| 6.2.2 | Computador portátil | \_\_ | \_\_ |
+| 6.2.3 | Tablet | \_\_ | \_\_ |
+| 6.2.4 | Impressora | \_\_ | \_\_ |
+| 6.2.5 | UPS ou bateria de apoio | \_\_ | \_\_ |
+| 6.2.6 | Telefone fixo ou telemóvel da unidade | \_\_ | \_\_ |
+:::
+
+::: {.nota}
+**Para que serve.** Segue a lógica usada para os veículos na secção 9: quantos existem e quantos funcionam. A bateria de apoio entra porque, com os cortes de energia medidos em 5.2.3, é ela que decide se um registo em curso se perde.
+:::
+
+## 6.3.1 Bases de dados electrónicas — porta [antigo 13.3.1]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Unidades que mantêm toda a informação de doentes e serviços em bases de dados electrónicas.
+
+::: {.hhfa}
+Indicador do HHFA: 4.5.2.2.1 — conta apenas a opção 1
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade mantém bases de dados electrónicas ou informatizadas para algum tipo de informação, grupo de doentes ou serviço?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, toda a informação de doentes e serviços está em bases informatizadas
+2. Sim, alguma informação está em bases informatizadas
+3. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», passar a 6.3.5.
+:::
+
+## 6.3.2 Tipos de informação em base de dados [antigo 13.3.2]{.antigo} [A DECIDIR]{.etiqueta .decidir}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Que tipos de informação cada unidade mantém em base de dados electrónica — processos clínicos, registos de programas, morbilidade e mortalidade, laboratório, farmácia e stock.
+
+::: {.hhfa}
+Indicadores do HHFA: 4.5.2.2.2 a 4.5.2.2.13 — um por linha
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Que tipos de informação estão mantidos em base de dados electrónica nesta unidade? Vou ler cada um.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| N.º | Tipo de informação | 1 · Sim | 2 · Não |
+|---|---|:-:|:-:|
+| 1 | Processos individuais de internamento | ☐ | ☐ |
+| 2 | Processos individuais de ambulatório | ☐ | ☐ |
+| 3 | Registos de doentes em tratamento antirretroviral | ☐ | ☐ |
+| 4 | Registos de doentes com tuberculose | ☐ | ☐ |
+| 5 | Registos de maternidade | ☐ | ☐ |
+| 6 | Outros dados para seguimento de rotina | ☐ | ☐ |
+| 7 | Morbilidade de internamento | ☐ | ☐ |
+| 8 | Morbilidade de ambulatório | ☐ | ☐ |
+| 9 | Mortalidade | ☐ | ☐ |
+| 10 | Dados de laboratório | ☐ | ☐ |
+| 11 | Dados de farmácia | ☐ | ☐ |
+| 12 | Gestão de stock ou inventário | ☐ | ☐ |
+:::
+
+::: {.nota}
+**A decidir.** É a informação que muda mais depressa em todo o formulário — muda com cada projecto que instala um sistema. Falta decidir se entra já ou se fica para as recolhas com visita. Sem esta grelha, a secção passa de 36 para 24 campos.
+:::
+
+## 6.3.3 Protecção por senha [antigo 13.3.3]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Unidades em que todas, ou algumas, das bases de dados estão protegidas por senha — a confidencialidade da informação clínica em suporte electrónico.
+
+::: {.hhfa}
+Indicadores do HHFA: 4.5.2.2.14 (todas) · 4.5.2.2.15 (algumas)
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+As bases de dados utilizadas nesta unidade estão protegidas por senha?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, todas
+2. Sim, algumas
+3. Não
+:::
+
+## 6.3.4 Cópias de segurança [antigo 13.3.4]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Frequência das cópias de segurança das bases de dados com informação individual de doentes.
+
+::: {.hhfa}
+Indicadores do HHFA: 4.5.2.2.16 (diária) · 4.5.2.2.17 (semanal) · 4.5.2.2.18 (pelo menos mensal)
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Com que frequência se faz cópia de segurança das bases de dados que contêm informação individual de doentes?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Diariamente
+2. Semanalmente
+3. Cada 2 a 3 semanas
+4. Mensalmente
+5. Com menor frequência
+6. Não há cópia de segurança de rotina
+:::
+
+::: {.nota}
+**Para que serve.** Onde a energia falha, a falta de cópia de segurança arrisca a perda definitiva de processos clínicos. Lê-se com a bateria de apoio (6.2.5) e com os cortes de energia (5.2.3).
+:::
+
+## 6.3.5 Formato do reporte de rotina [antigo 13.3.5]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Formato em que cada unidade submete os relatórios de dados de rotina ao nível seguinte — o estado da transição para o reporte electrónico.
+
+::: {.hhfa}
+Indicadores do HHFA: 4.5.2.4.2 (só papel) · 4.5.2.4.3 (só electrónico) · 4.5.2.4.4 (ambos)
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Em que formato esta unidade submete os relatórios de dados de rotina ao nível seguinte?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Apenas em papel
+2. Em papel e em formato electrónico
+3. Apenas em formato electrónico
+
+<!-- -->
+
+97. Não submete relatórios
+:::
+
+::: {.nota}
+**Para que serve.** Lido com a cobertura de rede (6.1.1) e com a disponibilidade da ligação (6.1.5), distingue a unidade que reporta em papel por falta de meios da que o faz por hábito.
+:::
+
+## 6.3.6 Plataforma de registo e reporte [antigo 13.3.6]{.antigo} [NOVO]{.etiqueta .novo}
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Que plataforma ou programa informático é utilizado nesta unidade para o registo e o reporte dos dados de rotina?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. DHIS2
+2. SIS-MINSA
+3. Folha de cálculo (Excel ou equivalente)
+4. Programa próprio da unidade ou de um parceiro
+5. Nenhum, apenas papel
+
+<!-- -->
+
+96. Outro *(especificar)*
+:::
+
+::: {.nota}
+**Para que serve.** Acompanha a transição para o DHIS2. A lista de opções deve ser validada pelo GEPE e pela área de informática do MINSA.
+:::
+
+## 6.4.1 e 6.4.2 Pessoal para a gestão dos dados [antigo 13.4.1 e 13.4.2]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Unidades com uma pessoa designada, a tempo inteiro, para a gestão dos dados e o reporte, e unidades com profissionais formados na análise e no uso dos dados de rotina.
+
+::: {.hhfa}
+Indicadores do HHFA: 4.5.2.1.1 (pessoa designada) · 4.5.2.1.2 (pessoal formado)
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+**6.4.1** Existe nesta unidade uma pessoa designada, a tempo inteiro, para a gestão dos dados e para o reporte?
+
+**6.4.2** Algum profissional desta unidade recebeu formação em análise e uso dos dados de rotina da unidade?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+**6.4.1**
+
+1. Sim
+2. Não
+
+**6.4.2**
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.nota}
+**Para que serve.** Lidas ao lado do equipamento e dos sistemas, mostram as unidades que têm meios informáticos mas ninguém designado para os usar.
+:::

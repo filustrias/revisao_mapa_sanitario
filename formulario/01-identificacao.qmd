@@ -1,0 +1,248 @@
+---
+title: "Secção 1 — Identificação e finalização da recolha"
+---
+
+Quando, como e por quem foi feita a recolha e em que situação estava a unidade sanitária; no fim da recolha, quem responde pela unidade, quem respondeu ao inquérito e quem é o responsável pelo preenchimento.
+
+[48 campos, contra 27 na Ficha 19_01.]{.campos}
+
+## 1.1 Data desta recolha [antigo 0.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Data em que esta ficha foi preenchida ou em que esta unidade sanitária foi visitada.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **1.1.1** Dia — 01 a 31
+- **1.1.2** Mês — 01 a 12
+- **1.1.3** Ano — quatro dígitos
+:::
+
+::: {.nota}
+**Porque mudou.** As três caixas e os códigos mantêm-se. O enunciado passa a dizer que a data é a desta recolha; a data da visita anterior, que o Guião também prevê (folha 2), passa para 1.6.
+
+**Verificação a programar.** A data não pode ser posterior à data de carregamento no sistema.
+:::
+
+## 1.2 e 1.3 Hora de início e de fim [antigo 0.3 e 0.4]{.antigo} [NOVO]{.etiqueta .novo}
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+**1.2** Hora a que começou o preenchimento desta ficha.
+
+**1.3** Hora a que terminou o preenchimento desta ficha.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- Cada uma em horas e minutos, no formato de 24 horas (hh:mm)
+:::
+
+::: {.nota}
+**Para que serve.** Dá a duração do preenchimento, por tipo de unidade e por forma de recolha, para planear as rondas seguintes e assinalar fichas preenchidas em tempo demasiado curto.
+
+**Verificação a programar.** A hora de fim não pode ser anterior à hora de início.
+:::
+
+## 1.4 Forma de recolha [antigo 0.5]{.antigo} [NOVO]{.etiqueta .novo}
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Forma como foi feita esta recolha de dados.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Presencial, com visita às instalações e observação dos itens
+2. Presencial, sem observação dos itens
+3. Autorreferido em papel, enviado ao GEPE
+4. Autorreferido online
+5. Por telefone
+
+<!-- -->
+
+96. Outra *(especificar)*
+:::
+
+::: {.nota}
+**É o campo que faz funcionar toda a arquitectura da proposta.** A grelha de verificação da secção 8 e as colunas «a funcionar» das secções 7 e 8 aplicam-se apenas às unidades visitadas. Sem este campo não é possível saber, na análise, se uma célula vazia significa «não tem» ou «não foi verificado».
+
+**Consequência analítica.** Permite calcular os indicadores com o denominador correcto — apenas as unidades em que a verificação foi efectivamente possível — em vez de misturar observação e declaração numa mesma percentagem. Uma caixa resolve isto para todo o instrumento.
+:::
+
+## 1.5 Situação da unidade no momento da recolha [antigo 0.6]{.antigo} [NOVO]{.etiqueta .novo}
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Situação desta unidade sanitária no momento da recolha.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Encontrada e em funcionamento
+2. Encontrada, mas fechada ou inactiva à data da recolha
+3. Encontrada, mas em obras ou a funcionar em instalações provisórias
+4. Não encontrada no local indicado pelo Mapa Sanitário
+5. Inacessível — estrada cortada, insegurança ou outro motivo
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for 4 ou 5, terminar a ficha aqui.
+:::
+
+## 1.6 Data da visita anterior [antigo 0.7]{.antigo} [NOVO]{.etiqueta .novo}
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Qual foi a data da visita anterior a esta unidade sanitária?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a unidade nunca foi visitada anteriormente, marcar a caixa 1.6.4 e deixar as restantes em branco.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **1.6.1** Dia — 01 a 31
+- **1.6.2** Mês — 01 a 12
+- **1.6.3** Ano — quatro dígitos
+- **1.6.4** Marcar se a unidade nunca foi visitada anteriormente
+:::
+
+::: {.nota}
+**Para que serve.** Cruzada com 1.1, dá o intervalo entre visitas, e identifica as unidades que nunca foram visitadas. O Guião já prevê esta informação (folha 2).
+
+**Verificação a programar.** Se 1.6.4 estiver marcada, 1.6.1 a 1.6.3 ficam vazias, e vice-versa.
+:::
+
+## 1.7 Quem recolheu os dados [antigo 0.8]{.antigo} [NOVO]{.etiqueta .novo}
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Identificação de quem recolheu os dados desta ficha.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **1.7.1** Nome e apelidos — texto
+- **1.7.2** Instituição ou nível a que pertence:
+  1. GEPE, nível central
+  2. Direcção Provincial de Saúde
+  3. Direcção Municipal de Saúde
+  4. A própria unidade sanitária
+  5. Parceiro ou entidade contratada
+
+  <!-- -->
+
+  96. Outra *(especificar)*
+- **1.7.3** Telefone — texto
+:::
+
+::: {.nota}
+**Para que serve.** Permite devolver dúvidas a quem recolheu os dados e ler a qualidade dos dados por equipa de recolha.
+:::
+
+## Finalização da recolha {.bloco}
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Preencher este bloco no fim da recolha, depois de todas as outras secções.
+:::
+
+## 1.8 Responsável da unidade sanitária [antigo 11.1]{.antigo} [NOVO]{.etiqueta .novo}
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quem é o gerente, chefe ou responsável desta unidade sanitária?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **1.8.1** Nome e apelidos — texto
+- **1.8.2** Cargo que ocupa:
+  1. Director
+  2. Director clínico
+  3. Chefe de unidade
+  4. Enfermeiro responsável
+  5. Administrador
+
+  <!-- -->
+
+  96. Outro *(especificar)*
+- **1.8.3** Categoria profissional — lista fechada, a definir (ver a pendência no fim da secção)
+- **1.8.4** Telefone — texto
+- **1.8.5** E-mail — texto
+:::
+
+::: {.nota}
+**Para que serve.** Identifica quem responde pela unidade: é a pessoa a contactar quando uma dúvida diz respeito ao conjunto dos dados e não a um quesito, e pode não ser quem respondeu ao inquérito. Passa a ser o primeiro quesito da secção.
+:::
+
+## 1.9 Pessoas que responderam ao inquérito [antigo 11.2]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Pessoas desta unidade sanitária que responderam ao inquérito ou que comunicaram os dados.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Registar até cinco pessoas. Na última coluna, marcar o papel principal de cada uma: 1 Respondeu a quesitos · 2 Mostrou instalações, equipamento ou documentos · 3 Preencheu o formulário · 4 Autorizou a recolha.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| N.º | Nome e apelidos | Função que ocupa | Telefone | E-mail | Papel principal no preenchimento |
+|---|---|---|---|---|:-:|
+| 1 | | | | | ☐ 1 ☐ 2 ☐ 3 ☐ 4 |
+| 2 | | | | | ☐ 1 ☐ 2 ☐ 3 ☐ 4 |
+| 3 | | | | | ☐ 1 ☐ 2 ☐ 3 ☐ 4 |
+| 4 | | | | | ☐ 1 ☐ 2 ☐ 3 ☐ 4 |
+| 5 | | | | | ☐ 1 ☐ 2 ☐ 3 ☐ 4 |
+:::
+
+::: {.nota}
+**Porque mudou.** As cinco linhas e as quatro colunas da Ficha mantêm-se. O código passa de 1.8 para 1.9, para que o responsável da unidade abra a secção. A quinta coluna é nova: quando um valor precisar de ser confirmado, diz a quem telefonar e sobre que parte da ficha. O Guião já distingue «as pessoas que preencheram ou comunicaram os dados» (folha 20).
+:::
+
+## 1.10 Responsável do preenchimento [antigo 12.1]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Responsável pelo preenchimento desta ficha.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Nome e apelidos | Função que ocupa | Telefone | E-mail |
+|---|---|---|---|
+| | | | |
+:::
+
+::: {.nota}
+Mantém-se exactamente como está, incluindo o título e os códigos. Enquanto 1.9 nomeia todas as pessoas que responderam, até cinco, 1.10 identifica a pessoa que responde pela ficha no seu todo.
+:::
+
+## Pendência desta secção
+
+::: {.nota}
+**Lista de categorias profissionais (1.8.3).** A lista fechada deve seguir a nomenclatura nacional das carreiras da saúde. A mesma lista servirá também o futuro bloco sobre o pessoal da unidade, pelo que convém defini-la uma só vez com o GEPE e usá-la nos dois lugares.
+:::

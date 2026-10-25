@@ -1,0 +1,211 @@
+---
+title: "Secção 17 — Serviços gerais"
+---
+
+Serviços gerais da unidade, como o transporte de emergência, a cozinha, a lavandaria, a morgue e o gabinete do utente.
+
+[20 campos, contra 19 na Ficha 19_01, contando que dois quesitos saem para outros domínios.]{.campos}
+
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
+
+| Quesito | O que se obtém |
+|---|---|
+| 17.1 e 17.1.1 | Transporte de emergência disponível hoje, com combustível e motorista (1 indicador do HHFA) |
+| 17.2 a 17.18 | Existência e funcionamento de 15 serviços gerais [(5 indicadores do HHFA)]{.hhfa} |
+| 17.5.2 | Capacidade da morgue [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 17.18.1 e 17.18.2 | Recolha e análise da opinião dos utentes (1 indicador do HHFA) |
+| 17.7 e 17.16 | Remissões para as secções 6 e 5 (os indicadores contam-se nesses domínios) |
+| 17.8 | Manutenção [(parqueado; 23 indicadores do HHFA)]{.hhfa} |
+
+</details>
+
+## 17.1 e 17.1.1 · Transporte de emergência [antigo 7.5.1 e 7.5.1.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Unidades com sistema de transporte de emergência para doentes — veículo em condições de funcionamento, na unidade ou chamado de outro local. Regra de cálculo: conta a unidade com 17.1 igual a 1 ou 2 e 17.1.1 igual a 1. Cruzado com as distâncias da secção 3, mostra onde a evacuação obstétrica não é exequível em tempo útil.
+
+::: {.hhfa}
+Indicador do HHFA: 2.1.1.1.7
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+**17.1** Esta unidade sanitária tem acesso a uma ambulância ou a outro veículo em condições de funcionamento para o transporte de emergência de doentes — quer esteja estacionado nesta unidade, quer possa ser chamado de outro local?
+
+**17.1.1** Esse veículo está disponível hoje, em condições de funcionamento, com combustível e com motorista?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **17.1**: 1 Sim, ambulância · 2 Sim, outro tipo de veículo · 3 Não
+- **17.1.1**: 1 Sim · 2 Não · 98 Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em 17.1, se a resposta for «Não», passar a 17.2.
+
+Em 17.1.1, se o respondente não tiver a certeza, pedir que confirme com quem saiba.
+:::
+
+::: {.nota}
+O enunciado inclui expressamente o veículo **chamado de outro local**, porque é essa a situação da maior parte dos centros de saúde — e uma pergunta sobre veículo próprio deixaria essas unidades contadas como unidades sem transporte de emergência.
+
+**17.1.1 é a verificação da declaração:** ter acesso a uma ambulância e ter uma ambulância com combustível e motorista hoje são coisas diferentes. Articula-se com 11.E.6 (urgência), com 3.9 (sistema de referência) e com a secção 9 (frota), sem duplicação de campo.
+:::
+
+## 17.2 a 17.18 · Lista dos serviços gerais [antigo 7.5.2 a 7.5.18]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Que serviços gerais de apoio existem em cada unidade sanitária e quais estiveram de facto a funcionar nos últimos 3 meses. Cinco indicadores do HHFA saem desta lista sem pergunta adicional. Os sete serviços sem equivalente internacional — segurança, salão de actos, biblioteca, capela, parqueamento, ajardinamento e videovigilância — são medida própria do Mapa Sanitário.
+
+<div class="hhfa">
+<details><summary>Ver os 5 indicadores</summary>
+
+- 4.1.1.2.5 — Unidades com serviço de apoio de limpeza, higiene e lavandaria (17.4 e 17.6)
+- 4.1.1.2.6 — Unidades com serviço de alimentação e cozinha para doentes (17.2)
+- 4.1.1.2.7 — Unidades com morgue (17.5.1)
+- 4.3.1.2.1 — Unidades que oferecem residência, gratuita ou subsidiada, ao pessoal (17.12)
+- 4.3.1.2.2 — Unidades que oferecem refeitório ou cantina ao pessoal (17.3)
+
+</details>
+</div>
+
+::: {.hhfa}
+Indicadores do HHFA: 4.1.1.2.5 a 4.1.1.2.7, 4.3.1.2.1 e 4.3.1.2.2
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Vou ler uma lista de serviços gerais de apoio. Para cada um, diga-me se existe nesta unidade sanitária e se esteve em funcionamento nos últimos 3 meses.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+17.2 Cozinha · 17.3 Refeitório ou cantina · 17.4 Lavandaria · 17.5.1 Morgue · 17.6 Higiene e limpeza · 17.8 Manutenção · 17.9 Segurança · 17.10 Salão de actos · 17.11 Biblioteca · 17.12 Residência · 17.13 Capela · 17.14 Parqueamento · 17.15 Ajardinamento · 17.17 Videovigilância · 17.18 Gabinete do utente
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Para cada linha: 1 Existe e funcionou nos últimos 3 meses · 2 Existe mas não funcionou nos últimos 3 meses · 3 Não existe
+:::
+
+::: {.nota}
+Mesma razão de 16.2: a escala de três níveis distingue o serviço que existe e funciona do que existe no organigrama. A lista mantém-se por inteiro, incluindo os serviços sem equivalente internacional — capela, ajardinamento, salão de actos —, que são informação de gestão patrimonial com valor próprio.
+:::
+
+## 17.5.2 · Gavetas mortuárias [antigo 7.5.5.2]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Capacidade da morgue de cada unidade sanitária, em número de gavetas. O código 97 separa a unidade sem morgue da unidade com morgue e sem gavetas. Verificação a programar: se 17.5.1 for 3, 17.5.2 tem de ser 97.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quantas gavetas mortuárias tem a morgue desta unidade sanitária?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- Número inteiro, 0 a 99 · **97** não tem morgue
+:::
+
+## 17.18.1 e 17.18.2 · Gabinete do Utente [antigo 7.5.18.1 e 7.5.18.2]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Unidades com sistema de análise da opinião dos utentes pelo menos a cada 3 meses. Regra de cálculo: conta a unidade com 17.18.1 igual a 1 e 17.18.2 igual a 1 ou 2 — só o procedimento observado entra; «referido, não visto» não conta.
+
+::: {.hhfa}
+Indicador do HHFA: 4.4.2.3.10
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+**17.18.1** Existe nesta unidade sanitária um procedimento de rotina para recolher ou reportar a opinião dos utentes?
+
+**17.18.2** Com que frequência é analisada a opinião dos utentes?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **17.18.1**: 1 Sim, observado · 2 Sim, referido, não visto · 3 Não
+- **17.18.2**: 1 Pelo menos mensalmente · 2 Pelo menos a cada 3 meses · 3 Pelo menos a cada 6 meses · 4 Menos de uma vez a cada 6 meses · 98 Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em 17.18.1, se a resposta for sim, pedir para ver notas ou relatórios relativos à opinião dos utentes antes de marcar «Sim, observado» ou «Sim, referido, não visto».
+
+Em 17.18.1, se a resposta for «Não», não fazer 17.18.2.
+:::
+
+::: {.nota}
+O Gabinete do Utente existe na Ficha como caixa e passa a ter o seu conteúdo medido: não se pergunta apenas se existe, mas se a opinião dos utentes é de facto recolhida e analisada, e com que periodicidade. É a única porta de entrada do instrumento para a perspectiva de quem usa os serviços.
+:::
+
+## 17.7 e 17.16 · Duas remissões [antigo 7.5.7 e 7.5.16]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Nada nesta secção: a comunicação é medida na secção 6 e o tratamento do lixo nos quesitos 5.5 e 5.6, onde se contam os respectivos indicadores. As linhas ficam para mostrar onde a informação é recolhida.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum nesta secção · ver secção 6 e quesitos 5.5 e 5.6
+:::
+
+</details>
+
+::: {.nota}
+**17.7** é desenvolvido na secção 6, Conectividade e meios informáticos. **17.16** é desenvolvido nos quesitos 5.5 e 5.6, na secção 5. Em 17 ficam apenas as linhas de remissão, sem caixa a preencher, para que a informação não seja recolhida duas vezes.
+:::
+
+## 17.8 · Bloco de manutenção [antigo 7.5.8]{.antigo} [PARQUEADO]{.etiqueta .parqueado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Nesta ronda, nada além da linha de manutenção na lista de três níveis. O bloco parqueado daria 23 indicadores do HHFA, todos do módulo central de gestão e finanças: 10 sobre manutenção de rotina dos sistemas de infraestrutura e 13 sobre manutenção de rotina do equipamento médico, de esterilização e de laboratório. Com a manutenção de veículos de 9.3, completaria a área de manutenção do HHFA.
+
+::: {.hhfa}
+Indicadores do HHFA: nenhum nesta ronda · parqueados: 4.1.2.1.1 a 4.1.2.1.10 e 4.1.2.2.1 a 4.1.2.2.13
+:::
+
+</details>
+
+::: {.nota}
+A caixa de 17.8 mantém-se na lista de três níveis. O bloco completo — cerca de 25 campos para 23 indicadores — fica para o domínio de gestão e é a porta de entrada para duas subáreas inteiras:
+
+**Manutenção de sistemas de infraestrutura** — se é feita manutenção preventiva ou correctiva, se existe plano de manutenção, e uma lista de 9 sistemas: electricidade, água, saneamento e esgotos, incinerador, ventilação ou ar condicionado, oxigénio central, altifalantes e comunicações, extintores e computadores, cada um com a escala «rotineiramente / às vezes, não rotineiramente / nunca / não aplicável».
+
+**Manutenção de equipamento médico, de esterilização e de laboratório** — se é feita inspecção, teste ou manutenção preventiva, se existe plano conforme as recomendações do fabricante, e uma lista de 11 equipamentos: tanques ou concentradores de oxigénio, ventiladores, frigoríficos de vacinas, medicamentos ou sangue, incubadoras, autoclaves eléctricas, esterilizadores eléctricos de calor seco, analisador de hematologia, analisador de bioquímica, aparelho de raios X, TAC e ecógrafo — e ainda se existe um sistema de rotina de inspecção, manutenção e substituição.
+
+**É candidato legítimo a entrar nesta ronda**, e está na lista de decisões da nota de apresentação: a manutenção é o lugar onde a diferença entre a contagem de equipamento (secção 8) e a sua verificação se explica.
+:::

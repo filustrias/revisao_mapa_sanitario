@@ -10,7 +10,7 @@ GEPE/MINSA · OMS Angola · projecto HIIP
 |---|---|
 | `index.qmd` | Nota de apresentação e orientações de leitura — o que é o documento, como ler um quesito, as convenções de desenho, o que ficou parqueado, as decisões em aberto, as pendências a pedir ao MINSA e como enviar comentários |
 | `formulario.qmd` | Página de entrada do formulário, com a lista dos capítulos |
-| `formulario/` | O formulário, um capítulo por secção (a secção 7 dividida em 7.1, 7.2 e 7.3, com 7.4 e 7.5 juntas num capítulo próprio), quesito a quesito: enunciado, opções de resposta e comentário sobre o que acontece com cada resposta |
+| `formulario/` | O formulário em 17 secções, por tema, quesito a quesito: enunciado, opções de resposta e comentário; `99-correspondencia.qmd` liga os códigos novos aos da versão anterior |
 | `_legenda.qmd` | Legenda das caixas e etiquetas, incluída no topo de cada capítulo |
 | `comentar.html` | Botão «Comentar» ao lado de cada quesito, que abre o Google Forms com o quesito, o nome e o email preenchidos; o link do formulário configura-se em `FORMULARIO` |
 | `_quarto.yml` | Configuração do livro |
@@ -41,9 +41,9 @@ feita primeiro na matriz e só depois transcrita para aqui, para que as duas nã
 
 ## Estado
 
-Todas as secções estão transcritas. A propriedade e a entidade gestora (antiga secção 2) estão no
-capítulo de gestão (7.4), e os responsáveis e contactos (antigas secções 11 e 12) na finalização da
-recolha, na secção 0. A reordenação e a renumeração das secções estão em discussão.
+Todas as secções estão transcritas e organizadas em 17 secções por tema. Os quesitos foram renumerados;
+cada título mostra o código da versão anterior (que seguia a Ficha 19_01) e a página «Correspondência de códigos»
+tem a tabela completa. **A matriz de decisão ainda usa os códigos antigos.**
 
 ## Comentários
 
@@ -53,7 +53,7 @@ envio, com o quesito e com o nome, o email e a instituição de quem comenta
 já preenchidos (estes três são pedidos uma vez e guardados no navegador). As respostas caem numa
 folha de cálculo ligada ao formulário, uma linha por comentário.
 
-Cada quesito deste documento tem o mesmo código da linha correspondente da matriz, e é por
+Os comentários usam os códigos novos; a «Correspondência de códigos» permite ligá-los às linhas da matriz, e é por
 esse código que os comentários se cruzam com a coluna «Comentários dos revisores». Por isso,
 **não renumerar quesitos a meio de uma rodada de revisão**, e não apagar nem recriar os campos
 Quesito, Nome e apelido, Email e Instituição do formulário, nem mudar o texto das opções de

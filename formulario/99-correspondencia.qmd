@@ -1,0 +1,144 @@
+---
+title: "Correspondência de códigos"
+---
+
+Códigos dos quesitos nesta versão e códigos correspondentes na versão anterior da proposta, que seguia a numeração da Ficha 19_01.
+
+| Código novo | Código antigo | Quesito | Secção |
+|---|---|---|---|
+| 1.1 | 0.1 | Data desta recolha | 1 |
+| 1.2 e 1.3 | 0.3 e 0.4 | Hora de início e de fim | 1 |
+| 1.4 | 0.5 | Forma de recolha | 1 |
+| 1.5 | 0.6 | Situação da unidade no momento da recolha | 1 |
+| 1.6 | 0.7 | Data da visita anterior | 1 |
+| 1.7 | 0.8 | Quem recolheu os dados | 1 |
+| 1.8 | 11.1 | Responsável da unidade sanitária | 1 |
+| 1.9 | 11.2 | Pessoas que responderam ao inquérito | 1 |
+| 1.10 | 12.1 | Responsável do preenchimento | 1 |
+| 2.1 a 2.5 | 1.1 a 1.5 | Localização administrativa e nome da unidade | 2 |
+| 2.6 | 1.5.1 | Endereço completo | 2 |
+| 2.7 | 1.6 | Categoria da unidade | 2 |
+| 2.8 e 2.9 | 1.7 e 1.8 | Coordenadas | 2 |
+| 2.10 | 1.8.1 | Precisão da leitura | 2 |
+| 2.11 | 1.9 | Zona urbana, rural ou periurbana | 2 |
+| 3.1 | 3.1 | População adstrita | 3 |
+| 3.1.1 e 3.1.2 | 3.1.1 e 3.1.2 | Origem e ano da estimativa | 3 |
+| 3.1.3 | 3.1.3 | Unidades que referem para esta | 3 |
+| 3.2.1 a 3.2.3 | 3.2.1 a 3.2.3 | Nó superior da referência | 3 |
+| 3.2.4 a 3.2.9 | 3.2.4 a 3.2.9 | Distância e tempo ao nó superior | 3 |
+| 3.3.1 a 3.3.6 | 3.3.1 a 3.3.6 | Referência lateral | 3 |
+| 3.4 a 3.9 | 3.4 a 3.9 | Funcionamento do sistema de referência | 3 |
+| 4.1 e 4.2 | 4.1 e 4.2 | Edifícios e superfície da unidade | 4 |
+| 4.3 e 4.4 | 4.3 e 4.4 | Residências dos trabalhadores | 4 |
+| 4.5 e 4.6 | 4.5 e 4.6 | Ano e período de construção | 4 |
+| 4.7 | 4.7 | Material de construção | 4 |
+| 4.8 | 5.1 | Estado físico do edifício principal | 4 |
+| 4.8.1 a 4.8.7 | 5.1.1 a 5.1.7 | Estado por elemento construtivo | 4 |
+| 4.9 | 5.2 | Superfície por estado | 4 |
+| 5.1 | 6.1 | Fonte de água | 5 |
+| 5.1.3 | 6.1.3 | Água disponível no recinto | 5 |
+| 5.2 | 6.2 | Fonte de electricidade | 5 |
+| 5.2.3 | 6.2.3 | Disponibilidade de electricidade nos últimos 7 dias | 5 |
+| 5.3 | 6.3 | Saneamento | 5 |
+| 5.4 | 6.4 | Recolha de resíduos comuns | 5 |
+| 5.5 e 5.6 | 6.5 e 6.6 | Destino final dos resíduos | 5 |
+| 5.5.3 e 5.5.4 | 6.5.3 e 6.5.4 | O meio de tratamento funciona e tem combustível | 5 |
+| 5.5.5 e 5.5.6 | 6.5.5 e 6.5.6 | Normas e formação em gestão de resíduos | 5 |
+| 5.7.1 e 5.7.2 | 6.7.1 e 6.7.2 | Tratamento de águas residuais | 5 |
+| 6.1.1 | 13.1.1 | Cobertura de rede móvel | 6 |
+| 6.1.2 | 13.1.2 | Meio de ligação à internet | 6 |
+| 6.1.3 e 6.1.4 | 13.1.3 e 13.1.4 | Acesso à internet e custo da ligação | 6 |
+| 6.1.5 | 13.1.5 | Disponibilidade da ligação nos últimos 7 dias | 6 |
+| 6.2.1 a 6.2.6 | 13.2.1 a 13.2.6 | Equipamento informático e telefone | 6 |
+| 6.3.1 | 13.3.1 | Bases de dados electrónicas — porta | 6 |
+| 6.3.2 | 13.3.2 | Tipos de informação em base de dados | 6 |
+| 6.3.3 | 13.3.3 | Protecção por senha | 6 |
+| 6.3.4 | 13.3.4 | Cópias de segurança | 6 |
+| 6.3.5 | 13.3.5 | Formato do reporte de rotina | 6 |
+| 6.3.6 | 13.3.6 | Plataforma de registo e reporte | 6 |
+| 6.4.1 e 6.4.2 | 13.4.1 e 13.4.2 | Pessoal para a gestão dos dados | 6 |
+| 7.0.1 | 8.0.1 | Internamento — porta | 7 |
+| 7.1.1 | 8.1.1 | Camas de internamento de adulto | 7 |
+| 7.1.2 | 8.1.2 | Camas pediátricas e berços de lactentes | 7 |
+| 7.1.3 | 8.1.3 | Berços para recém-nascidos | 7 |
+| 7.1.4 | 8.1.4 | Camas autorizadas | 7 |
+| 7.2 | 8.2 | Camas por enfermaria ou serviço | 7 |
+| 7.2b | 8.2b | Camas de adulto por sexo da enfermaria | 7 |
+| 7.3.1 e 7.3.2 | 8.3.1 e 8.3.2 | Camas de observação e de curta estadia | 7 |
+| 7.3.3 | 8.3.3 | Camas de observação com pernoita | 7 |
+| 7.4 | 8.4 | Macas, marquesas e cadeiras de estomatologia | 7 |
+| 7.5 | 8.5 | Camas em armazém ou fora de uso | 7 |
+| 7.6 | 8.6 | Outros recursos de estadia ou de exame | 7 |
+| 7.7 | 8.7 | Observações | 7 |
+| 8.1.1 a 8.1.15 | 9.1.1 a 9.1.15 | Número de aparelhos | 8 |
+| 8.1.16 a 8.1.23 | 9.1.16 a 9.1.23 | Verificação do equipamento básico | 8 |
+| 8.2 | 9.2 | Observações | 8 |
+| 9.1.1 a 9.1.7 | 10.1.1 a 10.1.7 | Veículos por tipo e estado | 9 |
+| 9.1.8 a 9.1.10 | 10.1.8 a 10.1.10 | Outros meios de transporte | 9 |
+| 9.2 | 10.2 | Observações | 9 |
+| 9.3.1 e 9.3.2 | 10.3.1 e 10.3.2 | Manutenção dos veículos | 9 |
+| 10.A | 7.1.A | Especialidades clínicas (10.1 a 10.28) | 10 |
+| 10.B | 7.1.B | Doenças não transmissíveis | 10 |
+| 10.C | 7.1.C | Saúde mental e doenças neurológicas | 10 |
+| 10.D | 7.1.D | Cancro | 10 |
+| 10.E | 7.1.E | Sobreviventes de violência | 10 |
+| 10.F | 7.1.F | Cirurgia (10.29 a 10.34) | 10 |
+| 11.C.0 | 7.2.C.0 | Testes rápidos de diagnóstico | 11 |
+| 11.1 | 7.2.1 | Porta geral do laboratório | 11 |
+| 11.C.I a 11.C.IV | 7.2.C.I a 7.2.C.IV | Os quatro blocos de exames | 11 |
+| 11.C.V | 7.2.C.V | Destino da amostra ou do doente | 11 |
+| 11.A | 7.2.A | Imagiologia | 11 |
+| 11.B | 7.2.B | Procedimentos e tecnologias | 11 |
+| 11.D | 7.2.D | Outros serviços de apoio | 11 |
+| 11.E | 7.2.E | Serviços de urgência | 11 |
+| 11.10 | 7.2.10 | Farmácia | 11 |
+| 11.14 | 7.2.14 | Esterilização | 11 |
+| 12.1 | 7.3.1 | Vacinação — porta do PAV | 12 |
+| 12.1.1 | 7.3.1.1 | Periodicidade da vacinação de rotina | 12 |
+| 12.1.2 | 7.3.1.2 | Antigénios oferecidos | 12 |
+| 12.1.3 | 7.3.1.3 | Rupturas de stock por antigénio | 12 |
+| 12.1.4 | 7.3.1.4 | Cadeia de frio | 12 |
+| 12.2 | 7.3.5 | Puericultura — porta dos cuidados à criança | 12 |
+| 12.2.1 | 7.3.5.1 | Cuidados à criança menor de 5 anos | 12 |
+| 13.1 | 7.3.6 | Consulta pré-natal | 13 |
+| 13.1.1 | 7.3.6.1 | Componentes da consulta pré-natal | 13 |
+| 13.2 | 7.3.7 | Partos — porta | 13 |
+| 13.2.1 e 13.2.2 | 7.3.7.1 e 7.3.7.2 | CONU-B e CONU-C | 13 |
+| 13.2.3 | 7.3.7.3 | Funções-sinal obstétricas e neonatais | 13 |
+| 13.2.4 | 7.3.7.4 | Partos 24 horas por pessoal qualificado | 13 |
+| 13.3 | 7.3.8 | Consulta pós-parto | 13 |
+| 13.3.1 | 7.3.8.1 | Rastreios do recém-nascido | 13 |
+| 13.3.2 | 7.3.8.2 | Recém-nascido pequeno ou doente | 13 |
+| 13.4 | 7.3.9 | Planeamento familiar | 13 |
+| 14.1 | 7.3.10 | VIH — aconselhamento e testagem | 14 |
+| 14.1.1 | 7.3.10.1 | Testagem do VIH por grupo de idade | 14 |
+| 14.2 | 7.3.10.2 | Profilaxia pré-exposição (PrEP) ao VIH | 14 |
+| 14.3 | 7.3.10.3 | Profilaxia pós-exposição (PEP) ao VIH | 14 |
+| 14.4 | 7.3.12 | Tratamento antirretroviral — porta | 14 |
+| 14.4.1 | 7.3.12.1 | Tratamento antirretroviral por grupo de idade | 14 |
+| 14.4.2 | 7.3.12.2 | Componentes do tratamento antirretroviral | 14 |
+| 14.5 | 7.3.11 | Prevenção da transmissão vertical | 14 |
+| 14.6 | 7.3.12.3 | Cuidados e apoio ao doente com VIH | 14 |
+| 14.7 | 7.3.13 | Tuberculose — porta | 14 |
+| 14.7.1 | 7.3.13.1 | Diagnóstico da tuberculose | 14 |
+| 14.7.2 | 7.3.13.2 | Seguimento do doente com tuberculose | 14 |
+| 14.7.3 a 14.7.5 | 7.3.13.3 a 7.3.13.5 | Testagem do VIH, tuberculose resistente e isolamento | 14 |
+| 14.8.1 a 14.8.3 | 7.3.14.A a 7.3.14.C | Malária | 14 |
+| 15.1 | 7.3.14 | Distribuição de redes mosquiteiras | 15 |
+| 15.2 e 15.3 | 7.3.15 e 7.3.16 | Brigadas móveis e equipas avançadas | 15 |
+| 15.4 | 7.3.17 | ADECOS | 15 |
+| 15.4.1 | 7.3.17.1 | Articulação com os ADECOS | 15 |
+| 16.1.1 | 2.1 | Propriedade | 16 |
+| 16.1.2 | 2.2 | Gestão | 16 |
+| 16.1.3 | 0.2 | Orçamento próprio | 16 |
+| 16.2.1 a 16.2.17 | 7.4.1 a 7.4.17 | Lista dos serviços e órgãos de gestão | 16 |
+| 16.2.14 | 7.4.14 | Revisão de casos e de óbitos | 16 |
+| 16.2.13 | 7.4.13 | Estrutura de gestão da prevenção e controlo de infecções | 16 |
+| 16.2.18 | 7.4.18 | Garantia e melhoria da qualidade | 16 |
+| 16.2.1 + 16.2.10 e 16.2.2 + 16.2.6 | 7.4.1 + 7.4.10 e 7.4.2 + 7.4.6 | Arquivo, reporte e comité de gestão | 16 |
+| 17.1 e 17.1.1 | 7.5.1 e 7.5.1.1 | Transporte de emergência | 17 |
+| 17.2 a 17.18 | 7.5.2 a 7.5.18 | Lista dos serviços gerais | 17 |
+| 17.5.2 | 7.5.5.2 | Gavetas mortuárias | 17 |
+| 17.18.1 e 17.18.2 | 7.5.18.1 e 7.5.18.2 | Gabinete do Utente | 17 |
+| 17.7 e 17.16 | 7.5.7 e 7.5.16 | Duas remissões | 17 |
+| 17.8 | 7.5.8 | Bloco de manutenção | 17 |

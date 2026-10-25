@@ -19,23 +19,25 @@ book:
   chapters:
     - index.qmd
     - formulario.qmd
-    - formulario/00-identificacao.qmd
-    - formulario/01-localizacao.qmd
+    - formulario/01-identificacao.qmd
+    - formulario/02-localizacao.qmd
     - formulario/03-populacao-referencia.qmd
-    - formulario/04-construcao.qmd
-    - formulario/05-estado-fisico.qmd
-    - formulario/06-agua-energia-saneamento.qmd
-    - part: formulario/07-servicos.qmd
-      chapters:
-        - formulario/07-1-clinicos-cirurgicos.qmd
-        - formulario/07-2-apoio.qmd
-        - formulario/07-3-1-vacinacao.qmd
-        - formulario/07-3-saude-publica.qmd
-    - formulario/07-4-5-gestao-servicos-gerais.qmd
-    - formulario/08-recursos-cama.qmd
-    - formulario/09-aparelhos.qmd
-    - formulario/10-transportes.qmd
-    - formulario/13-conectividade.qmd
+    - formulario/04-construcao-estado-fisico.qmd
+    - formulario/05-agua-energia-saneamento.qmd
+    - formulario/06-conectividade.qmd
+    - formulario/07-camas.qmd
+    - formulario/08-aparelhos.qmd
+    - formulario/09-transportes.qmd
+    - formulario/10-clinicos-cirurgicos.qmd
+    - formulario/11-diagnostico-apoio.qmd
+    - formulario/12-crianca-vacinacao.qmd
+    - formulario/13-materna-neonatal-pf.qmd
+    - formulario/14-vih-tb-malaria.qmd
+    - formulario/15-accao-comunitaria.qmd
+    - formulario/16-gestao.qmd
+    - formulario/17-servicos-gerais.qmd
+  appendices:
+    - formulario/99-correspondencia.qmd
 
 format:
   html:

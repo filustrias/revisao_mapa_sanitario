@@ -21,7 +21,7 @@ População da área de abrangência da unidade sanitária e unidades para onde 
 
 </details>
 
-## 3.1 População adstrita [ALTERADO]{.etiqueta .alterado}
+## 3.1 População adstrita [antigo 3.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -90,7 +90,7 @@ Qual é a população total residente na área de abrangência **directa** desta
 **Consequência.** É o denominador de 27 indicadores, incluindo as 20 densidades de pessoal por habitante.
 :::
 
-## 3.1.1 e 3.1.2 Origem e ano da estimativa [NOVO]{.etiqueta .novo}
+## 3.1.1 e 3.1.2 Origem e ano da estimativa [antigo 3.1.1 e 3.1.2]{.antigo} [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -135,7 +135,7 @@ Indicador do HHFA: nenhum · qualifica o denominador de 27 indicadores
 **Para que serve.** Duas caixas que qualificam o denominador de 27 indicadores. Uma densidade de enfermeiros por habitante calculada sobre uma projecção do INE de 2024 e outra calculada sobre um recenseamento feito pela unidade em 2016 não são comparáveis, e estas duas caixas permitem distingui-las.
 :::
 
-## 3.1.3 Unidades que referem para esta [NOVO]{.etiqueta .novo}
+## 3.1.3 Unidades que referem para esta [antigo 3.1.3]{.antigo} [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -168,7 +168,7 @@ Quantas unidades sanitárias referem habitualmente doentes para esta unidade?
 É o total de controlo da árvore de referência: permite confrontar o que cada unidade declara receber com o que as outras declaram enviar. Divergências entre os dois lados são informação sobre o funcionamento real da rede, não erros a corrigir.
 :::
 
-## 3.2.1 a 3.2.3 Nó superior da referência [ALTERADO]{.etiqueta .alterado}
+## 3.2.1 a 3.2.3 Nó superior da referência [antigo 3.2.1 a 3.2.3]{.antigo} [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -205,7 +205,7 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 **Porque mudou.** A Ficha oferece duas filas para duas unidades de referência. A proposta dá a cada uma um papel próprio e separa o nó superior, que é obrigatório e único, da referência lateral de 3.3, que é opcional e definida por grupo de doentes. O acrescento com mais consequência é **3.2.3, o código**: com ele, a árvore de referência nacional passa a ser reconstruível a partir das fichas, sem depender da grafia com que cada unidade escreve o nome do hospital de destino.
 :::
 
-## 3.2.4 a 3.2.9 Distância e tempo ao nó superior [ALTERADO]{.etiqueta .alterado}
+## 3.2.4 a 3.2.9 Distância e tempo ao nó superior [antigo 3.2.4 a 3.2.9]{.antigo} [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -256,7 +256,7 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 **Verificação a programar.** A soma de 3.2.6 e 3.2.7 deve ser igual a 3.2.5.
 :::
 
-## 3.3.1 a 3.3.6 Referência lateral [ALTERADO]{.etiqueta .alterado}
+## 3.3.1 a 3.3.6 Referência lateral [antigo 3.3.1 a 3.3.6]{.antigo} [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -305,7 +305,7 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 **Regra de desenho.** Se o motivo indicado em 3.3.1 for obstetrícia e maternidade, aplica-se o protocolo completo de distância, como no nó superior — asfalto, picada e época das chuvas. É a referência em que o tempo decide o desfecho.
 :::
 
-## 3.4 a 3.9 Funcionamento do sistema de referência [PARQUEADO]{.etiqueta .parqueado}
+## 3.4 a 3.9 Funcionamento do sistema de referência [antigo 3.4 a 3.9]{.antigo} [PARQUEADO]{.etiqueta .parqueado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -331,7 +331,7 @@ Indicadores do HHFA: 2.7.1.1.1 a 2.7.1.1.5, se o bloco entrar (todos)
 </details>
 
 ::: {.nota}
-Fica para o bloco de gestão o funcionamento do sistema de referência: se existe sistema estabelecido, se há normas de referência e de contrarreferência, se as referências feitas são registadas e se há informação de retorno. O quesito 3.9, sobre o acesso a viatura em condições de funcionamento e a motorista 24 horas, corresponde ao indicador 2.7.1.1.6, que se obtém também dos quesitos 7.5.1 e 7.5.1.1, nos serviços gerais.
+Fica para o bloco de gestão o funcionamento do sistema de referência: se existe sistema estabelecido, se há normas de referência e de contrarreferência, se as referências feitas são registadas e se há informação de retorno. O quesito 3.9, sobre o acesso a viatura em condições de funcionamento e a motorista 24 horas, corresponde ao indicador 2.7.1.1.6, que se obtém também dos quesitos 17.1 e 17.1.1, nos serviços gerais.
 
 São cinco indicadores que fecham uma subárea inteira (2.7.1.1.1 a 2.7.1.1.5). Dois são declarados — a existência do sistema e a informação de retorno —, e três pedem para ver o documento: as normas de referência, as normas de contrarreferência e o registo das referências feitas. Em recolha sem visita, estes três ficam vazios para a unidade. É candidato natural a entrar nesta ronda, se a revisão o considerar.
 :::

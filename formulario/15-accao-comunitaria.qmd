@@ -1,0 +1,198 @@
+---
+title: "Secção 15 — Acção comunitária"
+---
+
+Actividade da unidade na comunidade: distribuição de redes mosquiteiras, brigadas móveis e equipas avançadas, e agentes de desenvolvimento comunitário e de saúde (ADECOS).
+
+[11 campos, contra 4 na Ficha 19_01.]{.campos}
+
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
+
+| Quesito | O que se obtém |
+|---|---|
+| 15.1 | Distribuição regular de redes mosquiteiras à população [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 15.2 e 15.3 | Brigadas móveis e equipas avançadas organizadas pela unidade [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 15.4 | Número de ADECOS que trabalham a partir da unidade [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 15.4.1 | Articulação com os ADECOS em seis programas [(6 indicadores do HHFA)]{.hhfa} |
+
+</details>
+
+## 15.1 · Distribuição de redes mosquiteiras [antigo 7.3.14]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que distribuem redes mosquiteiras tratadas de longa duração à população de forma regular, durante mais de 6 meses no ano. O HHFA não tem indicador de distribuição geral de redes; pergunta pela rede entregue em consulta, que neste formulário está em 13.1.1 (grávida) e 12.2.1 (criança). É medida própria do Mapa Sanitário.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária distribui redes mosquiteiras tratadas de longa duração de forma regular, isto é, durante mais de 6 meses no ano?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.nota}
+Mantém-se o código e o sentido. A única alteração é trazer para dentro da pergunta o critério que o Guião já fixa — «distribuição regular (mais de 6 meses no ano)» —, para que todos os inquiridores o apliquem da mesma maneira.
+
+**É contributo próprio:** o instrumento internacional só pergunta pela rede entregue em consulta — pré-natal, pós-parto e cuidados à criança — e não pela distribuição à população em geral, que é a modalidade do programa angolano. As duas leituras passam a coexistir.
+:::
+
+## 15.2 e 15.3 · Brigadas móveis e equipas avançadas [antigo 7.3.15 e 7.3.16]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que organizam brigadas móveis de vacinação, a 10 km ou mais, e equipas avançadas, a menos de 10 km. O HHFA não tem indicador de actividade extramural organizada pela unidade: a vacinação em estratégia avançada só entra, sem se distinguir, nos indicadores de imunização. É medida própria do Mapa Sanitário.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+**15.2** A partir desta unidade sanitária realizam-se periodicamente brigadas móveis de vacinação na área de referência, a 10 km ou mais?
+
+**15.3** E equipas avançadas de vacinação na área de referência, a menos de 10 km?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em ambos: inclui postos avançados. Exclui campanhas de vacinação e brigadas organizadas pela delegação ou secção municipal, mesmo com participação de pessoal desta unidade.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Para cada:
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.nota}
+Mantêm-se integralmente, com as definições do Guião — incluindo as três exclusões, que são o que dá sentido à resposta — trazidas para dentro da pergunta. As duas caixas continuam separadas porque **medem esforços logísticos de ordem diferente**: uma unidade que faz equipas avançadas perto e não faz brigadas longe tem um problema de transporte, não de organização.
+
+**Contributo próprio do Mapa Sanitário.** O instrumento internacional não tem indicador de actividade extramural ou de brigada móvel organizada pela unidade, que é uma parte importante dos cuidados primários num país com a densidade populacional de Angola.
+
+**Articula-se com a secção 9:** as motorizadas e as bicicletas da Ficha são, em muitas unidades, o meio exacto com que isto se faz.
+:::
+
+## 15.4 · ADECOS [antigo 7.3.17]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Quantas unidades têm ADECOS a trabalhar a partir delas, e quantos são — o primeiro inventário da força de trabalho comunitária da rede, agregável por município e por província. A primeira pergunta é uma porta para a grelha seguinte. O HHFA não conta agentes comunitários; mede a articulação da unidade com eles, que é o que 15.4.1 recolhe. É medida própria do Mapa Sanitário.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+**15.4** Existem Agentes de Desenvolvimento Comunitário e de Saúde (ADECOS) a trabalhar a partir desta unidade sanitária?
+
+**15.4.0** Se sim, quantos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+**15.4**:
+
+1. Sim
+2. Não
+
+**15.4.0**: número, 000 a 999
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 15.4 for «Não», não perguntar 15.4.0 e saltar para a secção 16.
+:::
+
+::: {.nota}
+A caixa existe e mantém-se; **o que se acrescenta é o campo da quantidade, como o Guião já prevê**: «ADECOS: Agentes de Desenvolvimento Comunitário e de Saúde, trabalhando na Unidade Sanitária. Nesse caso, especificar a quantidade» (folhas 12 e 13).
+
+Uma caixa de número resolve, e passa a haver pela primeira vez **um inventário da força de trabalho comunitária da rede**, que é informação central para um plano de investimentos em cuidados primários.
+:::
+
+## 15.4.1 · Articulação com os ADECOS [antigo 7.3.17.1]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades com articulação com os agentes comunitários em cada programa — planeamento familiar, pré-natal, criança, malária, tuberculose e VIH. Seis linhas, seis indicadores; cada um completa a tabela do seu programa.
+
+<div class="hhfa">
+<details><summary>Ver os 6 indicadores</summary>
+
+- 3.1.1.1.15 — ligação com agentes comunitários no planeamento familiar (linha 1)
+- 3.1.2.1.16 — na consulta pré-natal (linha 2)
+- 3.1.8.1.13 — na saúde da criança menor de 5 anos (linha 3)
+- 3.2.2.1.7 — nos serviços de malária (linha 4)
+- 3.2.3.1.8 — nos serviços de tuberculose (linha 5)
+- 3.2.6.1.5 — nos serviços de VIH (linha 6)
+
+</details>
+</div>
+
+::: {.hhfa}
+Indicadores do HHFA: 3.1.1.1.15 · 3.1.2.1.16 · 3.1.8.1.13 · 3.2.2.1.7 · 3.2.3.1.8 · 3.2.6.1.5
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada área seguinte, diga-me se existe articulação regular entre esta unidade sanitária e os ADECOS — por exemplo encaminhamento de casos, contra-referência, seguimento conjunto de doentes ou reuniões periódicas.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Área | 1 · Sim, articulação regular | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 15.4.1.1 | Planeamento familiar | ☐ | ☐ | ☐ |
+| 15.4.1.2 | Consulta pré-natal | ☐ | ☐ | ☐ |
+| 15.4.1.3 | Cuidados à criança menor de 5 anos | ☐ | ☐ | ☐ |
+| 15.4.1.4 | Malária | ☐ | ☐ | ☐ |
+| 15.4.1.5 | Tuberculose | ☐ | ☐ | ☐ |
+| 15.4.1.6 | VIH | ☐ | ☐ | ☐ |
+:::
+
+::: {.nota}
+**Seis caixas, seis indicadores — e é o achado mais importante desta secção.** O instrumento internacional espalha a ligação com os agentes comunitários por seis programas diferentes e mede-a em todos, porque **a articulação entre a unidade e a comunidade é constitutiva dos cuidados primários e não um extra**.
+
+Angola tem a infra-estrutura — os ADECOS existem e a Ficha já os registra — e o que se acrescenta é perguntar **para quê**, que é o que estas seis linhas fazem.
+
+Reunir as seis numa única grelha, em vez de as dispersar pelos blocos, foi opção de desenho: quem responde pensa nos ADECOS uma vez e responde seis vezes, em lugar de ser interrompido seis vezes ao longo da secção.
+
+**Verificação a programar.** Declarar articulação em seis áreas com zero ADECOS é uma inconsistência a assinalar.
+:::

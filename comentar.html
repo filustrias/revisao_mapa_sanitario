@@ -156,7 +156,7 @@
 
   function textoDo(titulo) {
     const copia = titulo.cloneNode(true);
-    copia.querySelectorAll(".etiqueta, .anchorjs-link, .ms-comentar").forEach(function (n) { n.remove(); });
+    copia.querySelectorAll(".etiqueta, .antigo, .anchorjs-link, .ms-comentar").forEach(function (n) { n.remove(); });
     return copia.textContent.replace(/\s+/g, " ").trim();
   }
 

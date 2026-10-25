@@ -1,0 +1,420 @@
+---
+title: "Secção 5 — Água, energia, saneamento e resíduos"
+---
+
+Fontes de água e de electricidade e a sua disponibilidade, saneamento, recolha e destino dos resíduos, e tratamento das águas residuais.
+
+[19 campos.]{.campos}
+
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
+
+| Quesito | O que se obtém |
+|---|---|
+| 5.1 e 5.1.3 | Unidades sanitárias com fonte de água melhorada e água disponível no recinto (1 indicador do HHFA) |
+| 5.2 e 5.2.3 | Unidades sanitárias com electricidade regular (1 indicador do HHFA) |
+| 5.3 | Unidades sanitárias com saneamento melhorado acessível a utentes e pessoal (1 indicador do HHFA) |
+| 5.4 | Modo de recolha do lixo comum [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 5.5, 5.6, 5.5.3 e 5.5.4 | Unidades sanitárias com destino final seguro dos resíduos cortantes e dos infecciosos [(2 indicadores do HHFA)]{.hhfa} |
+| 5.5.5 e 5.5.6 | Unidades sanitárias com normas escritas e com pessoal formado em gestão de resíduos [(2 indicadores do HHFA)]{.hhfa} |
+| 5.7.1 e 5.7.2 | Unidades sanitárias com tratamento de águas residuais e se este funciona [(medida própria do Mapa Sanitário)]{.hhfa} |
+
+</details>
+
+## 5.1 Fonte de água [antigo 6.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Junto com 5.1.3, a «Percentagem de unidades sanitárias com fonte de água melhorada». Contam como fontes melhoradas as categorias 01 a 05, 07 e 09 a 12; não contam o poço e a nascente não protegidos (06 e 08) nem a água de superfície (13). As «Outras» fontes mostram de que depende a unidade quando a principal falha — informação própria do Mapa.
+
+::: {.hhfa}
+Indicador do HHFA: 2.1.1.1.2
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Qual é a fonte de água mais utilizada por esta unidade sanitária neste momento? E que outras fontes utiliza quando a principal não está disponível?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar uma única na coluna «Principal». Se a resposta for diferente para o internamento e para o ambulatório, indicar a do internamento. Nas «Outras», marcar tantas quantas corresponder.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+01. Canalizada para dentro do edifício
+02. Canalizada para o recinto
+03. Torneira ou fontanário público
+04. Furo
+05. Poço protegido
+06. Poço não protegido
+07. Nascente protegida
+08. Nascente não protegida
+09. Água da chuva
+10. Água engarrafada
+11. Carroça com pequeno depósito
+12. Camião cisterna
+13. Água de superfície
+
+<!-- -->
+
+96. Outra
+
+<!-- -->
+
+00. Não tem
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.nota}
+**Porque mudou.** As cinco categorias da Ficha desdobram-se na lista do instrumento internacional, que distingue situações reunidas na Ficha em «furo ou poço»: um poço protegido é fonte melhorada, um poço não protegido não é. É esta distinção que permite calcular o indicador de fonte melhorada. A lista nova é a do instrumento internacional e a estrutura Principal + Outras da Ficha é integralmente conservada.
+:::
+
+## 5.1.3 Água disponível no recinto [antigo 6.1.3]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Fecha o indicador «Percentagem de unidades sanitárias com fonte de água melhorada»: conta como sim quando a fonte principal de 5.1 é melhorada **e** a resposta aqui não é 3 nem 4. Ter fonte melhorada não basta — a água tem de estar disponível no edifício ou no recinto.
+
+::: {.hhfa}
+Indicador do HHFA: 2.1.1.1.2
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Há água proveniente dessa fonte disponível no recinto da unidade, dentro do edifício ou dentro do recinto?
+
+Se sim: posso ver a água que está disponível hoje? A água pode estar canalizada ou em recipiente.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Fazer a segunda pergunta só se a resposta à primeira for afirmativa.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, observada dentro do edifício
+2. Sim, observada no recinto
+3. Sim, referida mas não vista
+4. Não, ou disponível apenas fora do recinto
+:::
+
+::: {.nota}
+**O que acontece com cada resposta.** O indicador de água melhorada cumpre-se quando a categoria de 5.1 é melhorada **e** a resposta aqui é 1 ou 2. As respostas 3 e 4 não o cumprem: uma unidade com furo no papel e sem água na torneira não tem água.
+
+**Porque é necessário.** É a diferença entre ter uma fonte e ter água. Uma caixa separa as duas coisas.
+:::
+
+## 5.2 Fonte de electricidade [antigo 6.2]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Junto com 5.2.3, a «Percentagem de unidades sanitárias com electricidade». As fontes de reserva, na coluna «Outras», mostram quantas unidades têm alternativa quando a principal falha.
+
+::: {.hhfa}
+Indicador do HHFA: 2.1.1.1.1
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Qual é a fonte de electricidade mais utilizada por esta unidade? E que fontes de reserva existem, para os períodos em que a principal falha?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Rede geral
+2. Painéis solares
+3. Gerador
+4. Não tem
+
+<!-- -->
+
+96. Outra
+:::
+
+::: {.nota}
+As categorias mantêm-se — são adequadas e correspondem às do instrumento internacional. A estrutura Principal + Outras mantém-se e é aqui especialmente útil: a combinação «rede geral como principal, gerador e solar como reserva» é a situação real de muitas unidades e hoje já é captada.
+:::
+
+## 5.2.3 Disponibilidade de electricidade nos últimos 7 dias [antigo 6.2.3]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Fecha o indicador «Percentagem de unidades sanitárias com electricidade»: conta como sim quando 5.2 é diferente de «não tem» **e** a resposta aqui é 1 ou 2 — isto é, sem cortes de mais de 2 horas nos últimos 7 dias, durante o horário de funcionamento. Ter fonte não basta: o indicador pede continuidade.
+
+::: {.hhfa}
+Indicador do HHFA: 2.1.1.1.1
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Nos últimos 7 dias, houve electricidade — da fonte principal ou de qualquer fonte de reserva — em todos os momentos em que esta unidade esteve aberta ao público?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler as três opções.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sempre disponível, sem interrupções
+2. Muitas vezes disponível, com interrupções de menos de 2 horas por dia
+3. Algumas vezes disponível, com interrupções frequentes ou de mais de 2 horas por dia
+:::
+
+::: {.nota}
+**O que acontece com cada resposta.** O indicador de unidades com electricidade cumpre-se quando 5.2 é diferente de «não tem» **e** a resposta aqui é 1 ou 2. A resposta 3 não o cumpre.
+
+**Porque é necessário.** Pela mesma razão da água: ter ligação à rede não é ter electricidade. E este campo articula-se com a cadeia de frio do PAV — uma unidade com geleira e com interrupções de mais de duas horas por dia tem um problema de conservação de vacinas que nenhum inventário de equipamento revela.
+:::
+
+## 5.3 Saneamento [antigo 6.3]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+A «Percentagem de unidades sanitárias com instalações sanitárias melhoradas acessíveis a utentes e pessoal». Conta como sim quando a resposta é 1, 2 ou 4 — autoclismo ligado a rede de esgotos ou a fossa séptica, ou latrina melhorada ventilada.
+
+::: {.hhfa}
+Indicador do HHFA: 2.1.1.1.3
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Existe no recinto desta unidade um sanitário ou latrina que possa ser utilizado pelos utentes da consulta externa ou pelo pessoal?
+
+Se sim: de que tipo é? Posso vê-lo?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Fazer a segunda pergunta só se a resposta à primeira for afirmativa. Se houver vários, considerar o tipo mais moderno.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Autoclismo ligado a rede de esgotos
+2. Autoclismo ligado a fossa séptica
+3. Autoclismo ligado a destino aberto ou desconhecido
+4. Latrina melhorada ventilada — com laje e tubo de ventilação
+5. Latrina simples com laje
+6. Latrina sem laje ou de fossa aberta
+7. Não existe sanitário nem latrina
+
+<!-- -->
+
+96. Outra
+:::
+
+::: {.nota}
+**Porque mudou.** As quatro categorias da Ficha são casa de banho, latrina, latrina melhorada e outra. A lista nova é a internacional e traz a definição dentro da própria opção, para que a distinção entre «latrina» e «latrina melhorada» se faça da mesma maneira em todas as unidades. O indicador de saneamento melhorado cumpre-se com as categorias 1, 2 ou 4. As definições das oito categorias serão escritas no Guião revisto. *Decisão aprovada a 15/10.*
+:::
+
+## 5.4 Recolha de resíduos comuns [antigo 6.4]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Distribuição das unidades sanitárias pelo modo de recolha do lixo comum, incluindo as que não têm recolha organizada. O HHFA não recolhe esta informação.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Como é feita a recolha do lixo comum desta unidade? E que outros modos de recolha existem?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Serviços Administrativos Municipais
+2. Empresa terciarizada
+3. Serviços comunitários
+
+<!-- -->
+
+96. Outra
+
+<!-- -->
+
+00. Não há recolha organizada
+:::
+
+::: {.nota}
+Categorias mantidas. Acrescenta-se apenas o código 00, para que a ausência de recolha organizada seja uma resposta e não um branco.
+:::
+
+## 5.5 e 5.6 Destino final dos resíduos [antigo 6.5 e 6.6]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+A partir do destino dos resíduos hospitalares (5.6), e com 5.5.3 e 5.5.4, a «Percentagem de unidades sanitárias com destino final seguro dos resíduos cortantes» e a «Percentagem de unidades sanitárias com destino final seguro dos resíduos infecciosos não cortantes». O que decide é se o destino é adequado — recolha e tratamento fora da unidade, incineração, aterro — ou não, como a queima ao ar livre. O destino dos resíduos comuns (5.5) é medida própria do Mapa.
+
+::: {.hhfa}
+Indicadores do HHFA: 2.5.1.1.12 e 2.5.1.1.13
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+**5.5** Qual é o destino final dos resíduos comuns produzidos nesta unidade?
+
+**5.6** E qual é o destino final dos resíduos hospitalares — cortantes, perfurantes e infecciosos?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar o destino da maior parte destes resíduos.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **5.5**: 1 Incinerador · 2 Aterro sanitário · 3 Queimar ao ar livre · 96 Outra · 98 Não sabe
+- **5.6**: 1 Empresa especializada · 2 Aterro sanitário · 3 Queimar ao ar livre · 96 Outra · 98 Não sabe
+:::
+
+::: {.nota}
+Categorias mantidas nas duas. O quesito 5.6 é o único da secção 5 sem coluna «Outros», e assim permanece.
+:::
+
+## 5.5.3 e 5.5.4 O meio de tratamento funciona e tem combustível [antigo 6.5.3 e 6.5.4]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Completa os indicadores de destino final seguro dos resíduos cortantes e dos resíduos infecciosos não cortantes: quando o destino é a incineração, só conta como seguro se o incinerador estiver a funcionar e tiver combustível. Dá também, por si só, a lista dos meios de tratamento parados.
+
+::: {.hhfa}
+Indicadores do HHFA: 2.5.1.1.12 e 2.5.1.1.13
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+**5.5.3** O incinerador ou outro meio de tratamento de resíduos desta unidade estava a funcionar hoje?
+
+**5.5.4** Havia hoje combustível disponível para o incinerador?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Pedir para ver. Se o destino indicado em 5.5 e 5.6 não envolver tratamento na unidade, anotar 97.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **5.5.3**: 1 Sim, observado a funcionar · 2 Não estava a funcionar · 97 Não se aplica · 98 Não sabe
+- **5.5.4**: 1 Sim, observado · 2 Não · 97 Não se aplica · 98 Não sabe
+:::
+
+::: {.nota}
+**O que acontece com cada resposta.** O destino adequado dos resíduos cortantes e dos resíduos infecciosos só conta para o indicador **se** o meio de tratamento estiver a funcionar e tiver combustível. Um incinerador parado por falta de gasóleo é, na prática, queima ao ar livre — e é essa a situação que estas duas caixas tornam visível.
+:::
+
+## 5.5.5 e 5.5.6 Normas e formação em gestão de resíduos [antigo 6.5.5 e 6.5.6]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Dois indicadores: a «Percentagem de unidades sanitárias com normas de gestão de resíduos sanitários» (5.5.5), que conta como sim apenas quando as normas são observadas (resposta 1), e a «Percentagem de unidades sanitárias com pessoal formado em gestão de resíduos sanitários» (5.5.6), que conta como sim quando pelo menos um profissional recebeu formação nos últimos 2 anos.
+
+::: {.hhfa}
+Indicadores do HHFA: 2.5.1.1.2 e 2.5.1.1.4
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+**5.5.5** Existem nesta unidade normas escritas ou instruções de trabalho sobre a gestão de resíduos sanitários?
+
+**5.5.6** Nos últimos 2 anos, algum profissional que actualmente trabalha nesta unidade recebeu formação em gestão de resíduos sanitários?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — 5.5.5: se sim, pedir para ver.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **5.5.5**: 1 Sim, observadas · 2 Sim, referidas mas não vistas · 3 Não existem
+- **5.5.6**: 1 Sim · 2 Não · 98 Não sabe
+:::
+
+::: {.nota}
+Duas caixas, dois indicadores, e a ligação ao bloco de prevenção e controlo de infecções — que fica parqueado, mas de que estas duas perguntas são a parte que se responde por declaração.
+:::
+
+## 5.7.1 e 5.7.2 Tratamento de águas residuais [antigo 6.7.1 e 6.7.2]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Número de unidades sanitárias com estação ou sistema de tratamento de águas residuais e, destas, quantas o tiveram a funcionar nos últimos 30 dias, com as causas de não funcionamento. O HHFA não recolhe esta informação.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+**5.7.1** Existe nesta unidade uma estação ou sistema de tratamento de águas residuais?
+
+**5.7.2** Se existe, esteve a funcionar nos últimos 30 dias? Se não, qual a causa?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- **5.7.1**: 1 Sim · 2 Não
+- **5.7.2**: 1 Sim · 2 Não *(especificar causa)* · 97 Não se aplica · 98 Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 5.7.1 for «Não», saltar para a secção 6.
+:::
+
+::: {.nota}
+Os dois campos mantêm-se, incluindo a especificação da causa, que o Guião já pede. Acrescenta-se o período de referência — «nos últimos 30 dias» — porque «funciona» sem período não é verificável. E a codificação passa a ser Sim = 1 e Não = 2 nas duas perguntas, para que a mesma resposta tenha sempre o mesmo código; na conversão para a série histórica, recorde-se que na Ficha 5.7.1 usa Não = 1 e Sim = 2.
+:::
