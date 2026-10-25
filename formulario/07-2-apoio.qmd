@@ -32,8 +32,8 @@ As portas são aqui especialmente importantes. **No laboratório, um posto de sa
 
 ## 7.2.C.0 · Testes rápidos de diagnóstico [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades sanitárias que realizam, no momento da consulta, cada um dos testes rápidos da lista. Sete das onze linhas geram indicador do HHFA; o autoteste do VIH, os testes rápidos de hepatite B e C e a glicemia capilar são medida própria do Mapa. Como o bloco não tem porta, é por aqui que um posto de saúde entra nos indicadores de diagnóstico.
 
@@ -50,7 +50,8 @@ Percentagem de unidades sanitárias que realizam, no momento da consulta, cada u
 </details>
 
 Indicadores do HHFA: 1.3.3.3.3 a 1.3.3.3.5 e 1.3.3.3.7 a 1.3.3.3.10
-:::
+
+</details>
 
 ::: {.enunciado}
 Vou perguntar por testes rápidos de diagnóstico, que são realizados no momento da consulta e cujo resultado fica disponível de imediato, sem necessidade de laboratório. Para cada um, diga-me se é realizado nesta unidade sanitária.
@@ -76,13 +77,14 @@ Para cada linha: 1 Sim, realizado nesta unidade sanitária · 2 Não
 
 ## 7.2.1 · Porta geral do laboratório [ALTERADO]{.etiqueta .alterado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades sanitárias que realizam exames de laboratório, recolhem amostras para análise noutro local ou encaminham doentes para exames noutra unidade. É uma porta: não gera indicador por si, mas dá acesso aos quatro blocos de exames, que alimentam 33 indicadores do HHFA. Torna também verificável, item a item, o mínimo que o Guião exige para marcar «Laboratório».
 
 Indicador do HHFA: nenhum directo · porta dos 33 indicadores dos blocos 7.2.C.I a 7.2.C.IV
-:::
+
+</details>
 
 ::: {.enunciado}
 Para além dos testes rápidos que acabei de perguntar, esta unidade sanitária realiza algum exame de laboratório, recolhe amostras para serem analisadas noutro local, ou encaminha doentes para realizarem exames noutra unidade?
@@ -101,13 +103,14 @@ Para além dos testes rápidos que acabei de perguntar, esta unidade sanitária 
 
 ## 7.2.C.I a 7.2.C.IV · Os quatro blocos de exames [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Para cada exame, se a unidade o realiza, se recolhe a amostra e a envia para fora com retorno do resultado, ou se o exame não é obtido por nenhuma via. Os indicadores do HHFA contam apenas a opção 1 — realizado nesta unidade —; a opção 2 é medida própria do Mapa e mostra o acesso garantido por envio de amostra. Os quatro blocos alimentam 33 indicadores; a lista de cada bloco está na caixa respectiva.
 
 Indicadores do HHFA: 33 — 11 da tabela 1.3.3.3, a tabela 3.7.1.1 completa (20), 3.2.5.2.3 e 3.2.5.2.4
-:::
+
+</details>
 
 ::: {.enunciado}
 Vou perguntar por exames de laboratório. Para cada um, diga-me qual destas três situações descreve o que acontece habitualmente nesta unidade sanitária: o exame é realizado aqui; a amostra é recolhida aqui e enviada para análise noutro local, regressando o resultado a esta unidade; ou o exame não é realizado por nenhuma destas vias.
@@ -131,8 +134,8 @@ Para cada linha:
 
 ### 7.2.C.I · Hematologia e imuno-hematologia — 10 linhas
 
-::: {.medir}
-**O que este bloco permite medir**
+<details class="medir">
+<summary>O que este bloco permite medir</summary>
 
 Cinco indicadores: hemoglobina ou hematócrito, hemograma completo, contagem de leucócitos, contagem de plaquetas e velocidade de hemossedimentação. O TAP/INR, o TTPa, a electroforese de hemoglobina e a pesquisa de hemoglobina S são medida própria do Mapa.
 
@@ -147,7 +150,8 @@ Cinco indicadores: hemoglobina ou hematócrito, hemograma completo, contagem de 
 </details>
 
 Indicadores do HHFA: 1.3.3.3.11, 1.3.3.3.12 e 3.7.1.1.1 a 3.7.1.1.3
-:::
+
+</details>
 
 ::: {.grelha}
 **7.2.C.I.0 Porta de grupo:** qualquer exame de glóbulos brancos e vermelhos → *se 2 ou 3, saltar para 7.2.C.II* · 1 Hematócrito ou dosagem de hemoglobina · 2 Contagem de leucócitos · 3 Contagem de plaquetas · 4 Hemograma completo · 5 Velocidade de hemossedimentação (VHS) · 6 Tempo de protrombina (TAP/INR) · 7 Tempo de tromboplastina parcial activada (TTPa) · 8 Electroforese de hemoglobina · 9 Pesquisa de hemoglobina S
@@ -159,8 +163,8 @@ A porta de grupo é a do próprio instrumento internacional e salta os sete iten
 
 ### 7.2.C.II · Bioquímica — 24 linhas
 
-::: {.medir}
-**O que este bloco permite medir**
+<details class="medir">
+<summary>O que este bloco permite medir</summary>
 
 Dez indicadores directos: glicemia, ionograma, função renal (por creatinina ou ureia), função hepática (por transaminases ou bilirrubinas) e seis exames da tabela de prontidão — creatinina, ureia, colesterol total, perfil lipídico, amilase ou lipase e TSH. Os restantes exames do bloco são medida própria do Mapa. A HbA1c serve ainda o 3.3.2.3.3 — unidades com serviços de diabetes que dispõem de HbA1c —, quando cruzada com a oferta de serviços de diabetes de 7.1.B; não entra nas contagens desta secção.
 
@@ -180,7 +184,8 @@ Dez indicadores directos: glicemia, ionograma, função renal (por creatinina ou
 </details>
 
 Indicadores do HHFA: 1.3.3.3.14 a 1.3.3.3.17 e 3.7.1.1.4 a 3.7.1.1.9
-:::
+
+</details>
 
 ::: {.grelha}
 **7.2.C.II.0 Porta de grupo:** qualquer exame de bioquímica do sangue → *se 2 ou 3, saltar para 7.2.C.III* · 1 Ionograma — sódio e potássio · 2 Cálcio · 3 Fósforo · 4 Glicose · 5 Teste oral de tolerância à glicose · 6 Hemoglobina glicada (HbA1c) · 7 Creatinina · 8 Ureia · 9 Clearance de creatinina · 10 Ácido úrico · 11 Albumina · 12 Bilirrubinas total e fracções · 13 Transaminases (TGO/AST e TGP/ALT) · 14 Fosfatase alcalina · 15 Colesterol total · 16 Perfil lipídico — HDL, LDL e triglicerídeos · 17 Amilase ou lipase · 18 pH e gases no sangue · 19 Marcador cardíaco — CK ou troponina · 20 Ferro sérico · 21 Ferritina · 22 Transferrina · 23 TSH e T4 livre
@@ -192,8 +197,8 @@ O maior bloco da secção e o de maior rendimento: dez indicadores directos. Os 
 
 ### 7.2.C.III · Grupo sanguíneo e serologias — 20 linhas
 
-::: {.medir}
-**O que este bloco permite medir**
+<details class="medir">
+<summary>O que este bloco permite medir</summary>
 
 Oito indicadores: grupo sanguíneo, hepatite B, hepatite C, sífilis por teste que não o rápido, PCR para COVID-19, antigénio criptocócico, carga viral do VIH e contagem de CD4. Os dois últimos, no catálogo, calculam-se entre as unidades que oferecem tratamento antirretroviral. Os restantes exames do bloco são medida própria do Mapa.
 
@@ -211,7 +216,8 @@ Oito indicadores: grupo sanguíneo, hepatite B, hepatite C, sífilis por teste q
 </details>
 
 Indicadores do HHFA: 1.3.3.3.13, 3.7.1.1.13 a 3.7.1.1.17, 3.2.5.2.3 e 3.2.5.2.4
-:::
+
+</details>
 
 ::: {.grelha}
 **7.2.C.III.0 Porta de grupo:** qualquer exame de grupo sanguíneo ou serologia → *se 2 ou 3, saltar para 7.2.C.IV* · 1 Tipagem sanguínea ABO · 2 Factor Rh · 3 Prova de compatibilidade por aglutinação directa · 4 Coombs indirecto · 5 VDRL ou outro teste de sífilis que não seja teste rápido · 6 HBsAg laboratorial · 7 Anti-HBs · 8 Anti-HCV laboratorial · 9 **Carga viral do VIH** · 10 **Contagem de CD4** · 11 Antigénio criptocócico · 12 PCR para COVID-19 · 13 Toxoplasmose IgG · 14 Toxoplasmose IgM · 15 Proteína C reactiva · 16 ASLO · 17 Factor reumatóide · 18 Anticorpos antinucleares (FAN) · 19 Anti-TPO
@@ -223,8 +229,8 @@ A **carga viral do VIH** e a **contagem de CD4** merecem destaque: num país com
 
 ### 7.2.C.IV · Microbiologia, parasitologia e outros — 15 linhas
 
-::: {.medir}
-**O que este bloco permite medir**
+<details class="medir">
+<summary>O que este bloco permite medir</summary>
 
 Dez indicadores: microscopia, cultura, malária pela gota espessa, tuberculose por baciloscopia ou por teste molecular, e os exames de microbiologia e parasitologia da tabela de prontidão. A urina tipo II, o teste de HPV, o PSA e a biópsia são medida própria do Mapa.
 
@@ -244,7 +250,8 @@ Dez indicadores: microscopia, cultura, malária pela gota espessa, tuberculose p
 </details>
 
 Indicadores do HHFA: 1.3.3.3.1 a 1.3.3.3.3, 1.3.3.3.6, 3.7.1.1.10 a 3.7.1.1.12 e 3.7.1.1.18 a 3.7.1.1.20
-:::
+
+</details>
 
 ::: {.grelha}
 Sem porta de grupo, porque o instrumento internacional também não lhe dá nenhuma. · 1 Microscopia a fresco · 2 Microscopia com coloração de Gram · 3 **Exame parasitológico de fezes** · 4 Urina tipo II — sumária de urina com sedimento · 5 **Gota espessa para diagnóstico de malária** · 6 **Baciloscopia da expectoração com coloração de Ziehl-Neelsen** · 7 **Teste molecular rápido para tuberculose** — Xpert MTB/RIF, TrueNat ou equivalente · 8 Cultura de qualquer amostra · 9 Hemocultura · 10 Antibiograma · 11 Teste de Kato Katz para helmintas · 12 Pesquisa de sangue oculto nas fezes · 13 Teste de HPV · 14 Antigénio específico da próstata (PSA) · 15 Biópsia de tecido ou de amostra
@@ -256,13 +263,14 @@ O **exame parasitológico de fezes** é o item que o Guião exige no seu mínimo
 
 ## 7.2.C.V · Destino da amostra ou do doente [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Para onde vão habitualmente as amostras que a unidade envia para análise: a unidade de referência indicada no domínio 3, outra unidade pública, um laboratório privado ou outro destino. Liga o laboratório à árvore de referência; nenhum instrumento internacional recolhe esta informação.
 
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
+
+</details>
 
 ::: {.enunciado}
 Quando a amostra é recolhida aqui e enviada para análise noutro local, qual é o destino habitual?
@@ -297,8 +305,8 @@ Porta: pelo menos uma linha dos blocos 7.2.C respondida com o código 2.
 
 ## 7.2.A · Imagiologia [ALTERADO]{.etiqueta .alterado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades sanitárias que realizam cada um de oito exames de imagem — a tabela internacional completa. Os indicadores contam apenas a opção 1, realizado nesta unidade; a opção 2, encaminhamento com retorno do resultado, é medida própria do Mapa e distingue a unidade que garante o acesso daquela onde o exame não acontece. A porta 7.2.A.0 é porta dos 8 indicadores.
 
@@ -316,7 +324,8 @@ Percentagem de unidades sanitárias que realizam cada um de oito exames de image
 </details>
 
 Indicadores do HHFA: 1.3.3.1.1 a 1.3.3.1.8, tabela completa
-:::
+
+</details>
 
 ::: {.enunciado}
 **Porta (7.2.A.0).** Esta unidade sanitária realiza algum exame de imagem — ecografia, raio X ou outro —, ou encaminha doentes para os realizarem noutra unidade sanitária?
@@ -353,8 +362,8 @@ Para cada linha: 1 Realizado nesta unidade · 2 Doente encaminhado para outra un
 
 ## 7.2.B · Procedimentos e tecnologias [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades sanitárias que realizam cada um de onze procedimentos e tecnologias — a tabela internacional completa, uma caixa por indicador.
 
@@ -375,7 +384,8 @@ Percentagem de unidades sanitárias que realizam cada um de onze procedimentos e
 </details>
 
 Indicadores do HHFA: 1.3.3.2.1 a 1.3.3.2.11, tabela completa
-:::
+
+</details>
 
 ::: {.enunciado}
 Vou perguntar por alguns procedimentos e tecnologias. Para cada um, diga-me se é realizado nesta unidade sanitária.
@@ -403,13 +413,14 @@ A escala é de sim ou não porque nenhum destes procedimentos se faz por encamin
 
 ## 7.2.D · Outros serviços de apoio [ALTERADO]{.etiqueta .alterado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Que serviços de apoio existem e estão em funcionamento em cada unidade, e quantos blocos operatórios estão em condições de utilização. Duas linhas geram indicador do HHFA: unidades que oferecem algum cuidado de reabilitação — na definição larga, que inclui terapia ocupacional, terapia da fala e adaptação de próteses e ortóteses — e unidades que oferecem algum cuidado paliativo. As outras seis linhas são medida própria do Mapa.
 
 Indicadores do HHFA: 1.3.2.10.1 e 1.3.2.9.1
-:::
+
+</details>
 
 ::: {.enunciado}
 Para cada um dos serviços seguintes, diga-me se existe nesta unidade sanitária e está em funcionamento.
@@ -433,8 +444,8 @@ Sete das oito caixas são as da Ficha e mantêm-se com o mesmo sentido; muda ape
 
 ## 7.2.E · Serviços de urgência [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Se a unidade atende urgências — com ou sem banco de urgência próprio — e em que condições: horas de funcionamento do banco de urgência, triagem formal, pessoal próprio e presença clínica 24 horas, transporte e acompanhamento na transferência, e horas de farmácia, imagem e laboratório para a urgência. Onde o indicador se calcula de «igual a 24», pergunta-se o número de horas, que dá o indicador e o gradiente. São 12 indicadores — a tabela 3.5.1.1 completa e dois de disponibilidade.
 
@@ -456,7 +467,8 @@ Se a unidade atende urgências — com ou sem banco de urgência próprio — e 
 </details>
 
 Indicadores do HHFA: 3.5.1.1.1 a 3.5.1.1.10, 1.3.2.8.1 e 1.3.2.8.2
-:::
+
+</details>
 
 ::: {.enunciado}
 **Porta (7.2.E.1).** Esta unidade sanitária presta atendimento a doentes em situação de urgência, mesmo que não tenha um banco de urgência com espaço próprio?
@@ -577,13 +589,14 @@ Pergunta-se o **número de horas** e não sim ou não, porque os três indicador
 
 ## 7.2.10 · Farmácia [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Se existe serviço de farmácia em funcionamento em cada unidade. Nesta ronda não gera indicador do HHFA: o rendimento da farmácia está na tabela 2.4.1.1 — 37 indicadores de medicamentos essenciais —, que exige ver os produtos na prateleira e fica parqueada para o bloco de medicamentos.
 
 Indicador do HHFA: nenhum nesta ronda · medida própria do Mapa Sanitário; tabela 2.4.1.1 parqueada
-:::
+
+</details>
 
 ::: {.enunciado}
 Existe nesta unidade sanitária um serviço de farmácia em funcionamento?
@@ -603,13 +616,14 @@ Existe nesta unidade sanitária um serviço de farmácia em funcionamento?
 
 ## 7.2.14 · Esterilização [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Se existe serviço de esterilização em funcionamento em cada unidade. Nesta ronda não gera indicador do HHFA: o 2.5.1.1.8 — unidades com equipamento de esterilização ou com sistema de envio do material para esterilizar fora — exige verificação e fica para o bloco de prevenção e controlo de infecções.
 
 Indicador do HHFA: nenhum nesta ronda · medida própria do Mapa Sanitário; 2.5.1.1.8 parqueado
-:::
+
+</details>
 
 ::: {.enunciado}
 Existe nesta unidade sanitária um serviço de esterilização em funcionamento?

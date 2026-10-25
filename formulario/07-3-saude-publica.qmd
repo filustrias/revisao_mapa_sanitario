@@ -32,15 +32,16 @@ Hoje são 17 caixas de 0-1, uma por programa ou actividade. É a subsecção com
 
 ## 7.3.1 · Vacinação — porta do PAV [ALTERADO]{.etiqueta .alterado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades sanitárias que oferecem qualquer serviço de imunização. É a porta do bloco do PAV: quem responde «Não» ou «Não, apenas em campanhas» salta as grelhas da vacinação.
 
 A mesma caixa dá também o indicador correspondente na lista geral de serviços disponíveis do HHFA.
 
 Indicadores do HHFA: 3.2.1.1.1 · 1.3.2.2.1
-:::
+
+</details>
 
 ::: {.enunciado}
 Esta unidade sanitária realiza vacinação de rotina, com periodicidade fixa, mesmo que não seja todos os dias?
@@ -60,13 +61,14 @@ Esta unidade sanitária realiza vacinação de rotina, com periodicidade fixa, m
 
 ## 7.3.1.1 · Periodicidade da vacinação de rotina [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que fazem vacinação infantil de rotina todos os dias, todas as semanas, ou todos os meses ou trimestres — três indicadores a partir de uma só pergunta. A opção 1 dá o indicador diário, a opção 2 o semanal, e as opções 3 e 4, juntas, o mensal ou trimestral.
 
 Indicadores do HHFA: 3.2.1.1.6 · 3.2.1.1.7 · 3.2.1.1.8
-:::
+
+</details>
 
 ::: {.enunciado}
 Com que periodicidade é realizada a vacinação de rotina das crianças nesta unidade sanitária?
@@ -92,8 +94,8 @@ Uma caixa, três indicadores. O Guião já manda avaliar a periodicidade — «m
 
 ## 7.3.1.2 · Antigénios oferecidos [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que administram cada vacina, antigénio a antigénio e por momento do calendário — dose ao nascer, lactente, criança, adolescente ou adulto. São 24 indicadores: 17, um por antigénio; 4 agregados por grupo de idade, calculados a partir da grelha; e 3 na lista geral de serviços disponíveis.
 
@@ -129,7 +131,8 @@ A linha 11 (reforços do calendário infantil) e a linha 19 (febre amarela) não
 </details>
 
 Indicadores do HHFA: 3.2.1.1.2 a 3.2.1.1.5 · 3.2.1.1.9 a 3.2.1.1.25 · 1.3.2.2.2 a 1.3.2.2.4
-:::
+
+</details>
 
 ::: {.enunciado}
 Para cada vacina seguinte, diga-me se é habitualmente administrada nesta unidade sanitária.
@@ -165,8 +168,8 @@ A **febre amarela** é acrescento próprio, por ser doença com transmissão em 
 
 ## 7.3.1.3 · Rupturas de stock por antigénio [A DECIDIR]{.etiqueta .decidir}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Se a coluna for incluída: percentagem de unidades que tiveram ruptura de stock de cada vacina nos últimos 3 meses — 11 indicadores, um por vacina, que completam a subárea 3.2.1.4 do HHFA. Só entram na contagem da secção se a coluna for aprovada.
 
@@ -187,7 +190,8 @@ Se a coluna for incluída: percentagem de unidades que tiveram ruptura de stock 
 </details>
 
 Indicadores do HHFA, se a coluna for incluída: 3.2.1.4.1 a 3.2.1.4.11
-:::
+
+</details>
 
 ::: {.enunciado}
 Coluna (B) opcional, a acrescentar à grelha de 7.3.1.2: nos últimos 3 meses, houve algum período em que esta vacina não estivesse disponível nesta unidade sanitária?
@@ -209,13 +213,14 @@ Coluna (B) opcional, a acrescentar à grelha de 7.3.1.2: nos últimos 3 meses, h
 
 ## 7.3.1.4 · Cadeia de frio [PARQUEADO]{.etiqueta .parqueado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Nada nesta fase. Na fase da observação, a cadeia de frio alimentará a tabela de prontidão da imunização do HHFA (3.2.1.2: 31 indicadores), em particular a caixa térmica ou porta-vacinas com acumuladores, o frigorífico funcional, o dispositivo de monitorização da temperatura e a temperatura mantida entre 2 e 8 °C, e ainda a manutenção de rotina dos frigoríficos.
 
 Indicadores do HHFA nesta fase: nenhum · parqueados: 3.2.1.2.6 a 3.2.1.2.9 · 4.1.2.2.4
-:::
+
+</details>
 
 ::: {.nota}
 Parqueada para a fase da observação. **Não é omissão, é fronteira de módulo:** a tabela de prontidão da imunização tem 31 indicadores e exige ver o frigorífico a funcionar, ler o termómetro no dia da visita e verificar as vacinas na prateleira.
@@ -225,13 +230,14 @@ Parqueada para a fase da observação. **Não é omissão, é fronteira de módu
 
 ## 7.3.5 · Puericultura — porta dos cuidados à criança [ALTERADO]{.etiqueta .alterado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que prestam quaisquer cuidados preventivos ou curativos a crianças menores de 5 anos. É a porta da grelha dos cuidados à criança.
 
 Indicadores do HHFA: 3.1.8.1.1 · 1.3.2.1.1
-:::
+
+</details>
 
 ::: {.enunciado}
 Esta unidade sanitária presta cuidados preventivos ou curativos a crianças menores de 5 anos?
@@ -247,8 +253,8 @@ Esta unidade sanitária presta cuidados preventivos ou curativos a crianças men
 
 ## 7.3.5.1 · Cuidados à criança menor de 5 anos [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que prestam cada serviço à criança menor de 5 anos: crescimento, malnutrição nos seus três níveis de manejo, vitamina A, anemia, diarreia, malária, rede mosquiteira. Onze linhas geram indicador do HHFA. A desparasitação de rotina (linha 7) não tem indicador do HHFA: é medida própria do Mapa Sanitário.
 
@@ -269,7 +275,8 @@ Percentagem de unidades que prestam cada serviço à criança menor de 5 anos: c
 </details>
 
 Indicadores do HHFA: 3.1.8.1.2 a 3.1.8.1.12
-:::
+
+</details>
 
 ::: {.enunciado}
 Para cada serviço seguinte, diga-me se é habitualmente prestado a crianças menores de 5 anos nesta unidade sanitária.
@@ -291,13 +298,14 @@ O **albendazol** ganha linha própria: não há indicador internacional de despa
 
 ## 7.3.6 · Consulta pré-natal [ALTERADO]{.etiqueta .alterado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que oferecem quaisquer serviços de consulta pré-natal. É a porta da grelha seguinte, que permite confrontar a classificação «completa» ou «incompleta» com as prestações declaradas.
 
 Indicadores do HHFA: 3.1.2.1.1 · 1.3.2.1.4
-:::
+
+</details>
 
 ::: {.enunciado}
 Nesta unidade sanitária realiza-se consulta pré-natal?
@@ -321,8 +329,8 @@ O Guião define ainda os critérios de «completa» — cartão de grávida, ana
 
 ## 7.3.6.1 · Componentes da consulta pré-natal [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades em que cada prestação faz parte da consulta pré-natal — catorze linhas, catorze indicadores. Com a porta 7.3.6 e a articulação com os ADECOS em 7.3.17.1, fica completa a tabela 3.1.2.1 do HHFA (16 indicadores).
 
@@ -346,7 +354,8 @@ Percentagem de unidades em que cada prestação faz parte da consulta pré-natal
 </details>
 
 Indicadores do HHFA: 3.1.2.1.2 a 3.1.2.1.15
-:::
+
+</details>
 
 ::: {.enunciado}
 Para cada prestação seguinte, diga-me se faz habitualmente parte da consulta pré-natal nesta unidade sanitária.
@@ -370,13 +379,14 @@ Catorze linhas, catorze indicadores; com a porta 7.3.6 e a articulação com os 
 
 ## 7.3.7 · Partos — porta [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que oferecem quaisquer serviços de parto. É a porta do bloco dos partos: só a unidade com sala de partos própria responde às perguntas seguintes.
 
 Indicadores do HHFA: 3.1.3.1.1 · 1.3.2.1.6
-:::
+
+</details>
 
 ::: {.enunciado}
 São atendidos partos nesta unidade sanitária, em sala de partos própria?
@@ -394,8 +404,8 @@ Conserva-se integralmente a instrução do Guião (folha 12), que manda registar
 
 ## 7.3.7.1 e 7.3.7.2 · CONU-B e CONU-C [MANTÉM-SE]{.etiqueta .mantem}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades com cuidados obstétricos e neonatais de urgência básicos (CONU-B) e completos (CONU-C). Duas caixas, cinco indicadores: CONU-B e CONU-C na tabela dos serviços de parto; CONU-C outra vez na área própria dos cuidados obstétricos completos; e os dois na lista geral de serviços disponíveis.
 
@@ -410,7 +420,8 @@ Percentagem de unidades com cuidados obstétricos e neonatais de urgência bási
 </details>
 
 Indicadores do HHFA: 3.1.3.1.3 · 3.1.3.1.5 · 3.1.4.1.1 · 1.3.2.1.7 · 1.3.2.1.8
-:::
+
+</details>
 
 ::: {.enunciado}
 **7.3.7.1** Esta unidade tem capacidade para Cuidados Obstétricos e Neonatais de Urgência Básicos (CONU-B)?
@@ -432,13 +443,14 @@ Para cada caixa: 1 Sim · 2 Não · 98 Não sabe
 
 ## 7.3.7.3 · Funções-sinal obstétricas e neonatais [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que realizaram as funções-sinal obstétricas e neonatais nos últimos 3 meses. A grelha dá quatro indicadores: as sete funções do CONU-B todas realizadas (linhas 1 a 7), as nove do CONU-C todas realizadas (linhas 1 a 9), a cesariana e a transfusão de sangue.
 
 Indicadores do HHFA: 3.1.3.1.4 · 3.1.4.1.2 · 3.1.4.1.3 · 3.1.4.1.4
-:::
+
+</details>
 
 ::: {.enunciado}
 Para cada prestação seguinte, diga-me se foi realizada nesta unidade sanitária pelo menos uma vez nos últimos 3 meses.
@@ -460,13 +472,14 @@ Para cada linha: 1 Sim, realizada nos últimos 3 meses · 2 Não realizada · 98
 
 ## 7.3.7.4 · Partos 24 horas por pessoal qualificado [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades com serviço de partos 24 horas por dia e 7 dias por semana, assegurado por pessoal qualificado. O indicador conta as opções 1 e 2 — pessoal presente ou de chamada.
 
 Indicador do HHFA: 3.1.3.1.2
-:::
+
+</details>
 
 ::: {.enunciado}
 Os partos são atendidos nesta unidade sanitária 24 horas por dia e todos os dias da semana, por pessoal qualificado — médico, enfermeiro ou parteira com formação?
@@ -490,13 +503,14 @@ Uma caixa, e uma informação que hoje não existe em lado nenhum do instrumento
 
 ## 7.3.8 · Consulta pós-parto [ALTERADO]{.etiqueta .alterado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que oferecem quaisquer cuidados pós-parto à mãe ou ao recém-nascido. O indicador cumpre-se com qualquer das opções 1, 2 ou 3.
 
 Indicadores do HHFA: 3.1.6.1.1 · 1.3.2.1.12
-:::
+
+</details>
 
 ::: {.enunciado}
 Nesta unidade sanitária realiza-se consulta pós-parto à mãe, ao recém-nascido, ou a ambos?
@@ -521,13 +535,14 @@ A única alteração é separar a mãe do recém-nascido nas opções, porque s�
 
 ## 7.3.8.1 · Rastreios do recém-nascido [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Onde é rastreado o recém-nascido, rastreio a rastreio, e por que via: na própria unidade ou por envio da amostra com retorno do resultado. A primeira pergunta é uma porta. O HHFA não tem indicador de rastreio neonatal; é medida própria do Mapa Sanitário.
 
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
+
+</details>
 
 ::: {.enunciado}
 **Porta (7.3.8.1.0).** Nesta unidade sanitária é realizado algum rastreio ao recém-nascido?
@@ -561,8 +576,8 @@ A escala de três níveis é a mesma dos blocos de laboratório, pela mesma raz�
 
 ## 7.3.8.2 · Recém-nascido pequeno ou doente [A DECIDIR]{.etiqueta .decidir}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Se o bloco for incluído: percentagem de unidades que prestam cuidados ao recém-nascido pequeno ou doente, e quais — 14 indicadores, com a tabela 3.1.7.1 do HHFA completa. Só entram na contagem da secção se o bloco for aprovado.
 
@@ -586,7 +601,8 @@ Se o bloco for incluído: percentagem de unidades que prestam cuidados ao recém
 </details>
 
 Indicadores do HHFA, se o bloco for incluído: 3.1.7.1.1 a 3.1.7.1.11 · 1.3.2.1.9 a 1.3.2.1.11
-:::
+
+</details>
 
 ::: {.enunciado}
 **Porta.** Esta unidade sanitária presta cuidados em internamento ao recém-nascido pequeno ou doente? E, se sim, existe uma unidade de cuidados especiais para esse fim?
@@ -616,8 +632,8 @@ A porta de três níveis distingue a unidade com unidade de cuidados especiais d
 
 ## 7.3.9 · Planeamento familiar [ALTERADO]{.etiqueta .alterado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que oferecem planeamento familiar e, método a método, quais os métodos fornecidos. A porta e as doze linhas dão 15 indicadores, entre eles o de qualquer método moderno, calculado a partir da grelha — que, no catálogo do HHFA, inclui o preservativo masculino e o feminino e deixa de fora apenas o colar do ciclo.
 
@@ -642,7 +658,8 @@ Percentagem de unidades que oferecem planeamento familiar e, método a método, 
 </details>
 
 Indicadores do HHFA: 3.1.1.1.1 a 3.1.1.1.14 · 1.3.2.1.3
-:::
+
+</details>
 
 ::: {.enunciado}
 **Porta.** Esta unidade sanitária oferece serviços de planeamento familiar?
@@ -672,13 +689,14 @@ Com o preservativo perguntado em linha própria, a grelha permite os dois cálcu
 
 ## 7.3.10 · VIH — aconselhamento e testagem [MANTÉM-SE]{.etiqueta .mantem}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que oferecem quaisquer serviços de aconselhamento e testagem do VIH. É a porta do bloco do VIH. Na lista geral de serviços disponíveis, a mesma caixa dá dois indicadores: quaisquer serviços de VIH e testagem do VIH.
 
 Indicadores do HHFA: 3.2.4.1.1 · 1.3.2.3.2 · 1.3.2.3.3
-:::
+
+</details>
 
 ::: {.enunciado}
 **Porta.** Esta unidade sanitária realiza aconselhamento e testagem do VIH?
@@ -694,8 +712,8 @@ A caixa da Ficha fica como está e rende três indicadores. Articula-se com o la
 
 ## 7.3.10.1 · Testagem do VIH por grupo de idade [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que oferecem testagem do VIH a cada grupo de idade. Cinco indicadores: os três grupos na tabela da testagem, e as duas idades pediátricas também na subárea do VIH pediátrico. Com a porta 7.3.10, a tabela 3.2.4.1 fica completa.
 
@@ -710,7 +728,8 @@ Percentagem de unidades que oferecem testagem do VIH a cada grupo de idade. Cinc
 </details>
 
 Indicadores do HHFA: 3.2.4.1.2 a 3.2.4.1.4 · 3.2.7.1.2 · 3.2.7.1.3
-:::
+
+</details>
 
 ::: {.enunciado}
 A quem é habitualmente oferecida a testagem do VIH nesta unidade sanitária?
@@ -727,13 +746,14 @@ Três caixas, cinco indicadores, e fecha a tabela da testagem. A separação por
 
 ## 7.3.10.2 · Profilaxia pré-exposição (PrEP) ao VIH [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Onde há profilaxia pré-exposição ao VIH, se a unidade a inicia ou apenas segue quem a iniciou, e a que grupos a oferece. A primeira pergunta é uma porta. O HHFA não tem pergunta de disponibilidade sobre a PrEP: o único indicador que a nomeia — utentes de pré-natal com PrEP recebida (5.1.1.1.13) — apura-se por revisão de processos clínicos, fora do alcance de um cadastro. É medida própria do Mapa Sanitário.
 
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
+
+</details>
 
 ::: {.enunciado}
 **7.3.10.2.1** Esta unidade sanitária fornece profilaxia pré-exposição (PrEP) ao VIH a pessoas com risco elevado de infecção?
@@ -773,13 +793,14 @@ A escala distingue iniciar de seguir pela mesma razão que no tratamento antirre
 
 ## 7.3.10.3 · Profilaxia pós-exposição (PEP) ao VIH [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Onde há profilaxia pós-exposição ao VIH após exposição ocupacional e após exposição sexual fora do contexto da violência, a que horas está disponível, e se existe protocolo escrito. O HHFA recolhe a PEP apenas para sobreviventes de violência (3.6.3.1.3), que está em 7.1.E.3.3, e não tem pergunta sobre PEP ocupacional. É medida própria do Mapa Sanitário.
 
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
+
+</details>
 
 ::: {.enunciado}
 **7.3.10.3.1** Esta unidade sanitária fornece profilaxia pós-exposição (PEP) ao VIH ao pessoal de saúde após exposição ocupacional, como um acidente com material biológico ou picão?
@@ -806,13 +827,14 @@ A escala pergunta pelo horário porque a janela é de 72 horas e, na prática, u
 
 ## 7.3.12 · Tratamento antirretroviral — porta [ALTERADO]{.etiqueta .alterado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que oferecem tratamento antirretroviral de longa duração ou seguimento de doentes já em tratamento. É a porta do bloco do tratamento.
 
 Indicadores do HHFA: 3.2.5.1.1 · 1.3.2.3.5
-:::
+
+</details>
 
 ::: {.enunciado}
 Esta unidade sanitária presta serviços de tratamento antirretroviral de longa duração, ou de seguimento de doentes já em tratamento?
@@ -828,8 +850,8 @@ Esta unidade sanitária presta serviços de tratamento antirretroviral de longa 
 
 ## 7.3.12.1 · Tratamento antirretroviral por grupo de idade [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que prestam tratamento antirretroviral a cada grupo de idade. O indicador conta as opções 1 e 2: o seguimento conta como prestação. Sete indicadores, entre eles o de quaisquer serviços pediátricos de VIH, calculado a partir destas linhas e das de 7.3.10.1.
 
@@ -846,7 +868,8 @@ Percentagem de unidades que prestam tratamento antirretroviral a cada grupo de i
 </details>
 
 Indicadores do HHFA: 3.2.5.1.2 a 3.2.5.1.4 · 3.2.7.1.1 · 3.2.7.1.4 · 3.2.7.1.5 · 1.3.2.3.6
-:::
+
+</details>
 
 ::: {.enunciado}
 A que grupos é habitualmente prestado o tratamento antirretroviral nesta unidade sanitária?
@@ -865,13 +888,14 @@ O indicador conta as opções 1 e 2 — isto é, o seguimento conta como presta�
 
 ## 7.3.12.2 · Componentes do tratamento antirretroviral [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que asseguram a prescrição ou dispensa dos antirretrovirais, o seguimento clínico, e o aconselhamento e seguimento da adesão. Quatro linhas, três indicadores; o da adesão exige as linhas 1 e 3 ao mesmo tempo. Com 7.3.12 e 7.3.12.1, fica completa a tabela 3.2.5.1.
 
 Indicadores do HHFA: 3.2.5.1.5 · 3.2.5.1.6 · 3.2.5.1.7
-:::
+
+</details>
 
 ::: {.enunciado}
 Para cada prestação seguinte, diga-me se é habitualmente feita nesta unidade sanitária aos doentes em tratamento antirretroviral.
@@ -893,13 +917,14 @@ O que conta aqui é menos quem **inicia** o tratamento e mais quem o **mantém**
 
 ## 7.3.11 · Prevenção da transmissão vertical [ALTERADO]{.etiqueta .alterado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que oferecem quaisquer serviços de prevenção da transmissão vertical do VIH. O indicador cumpre-se com qualquer das opções 1, 2 ou 3.
 
 Indicadores do HHFA: 3.2.8.1.1 · 1.3.2.1.5
-:::
+
+</details>
 
 ::: {.enunciado}
 Esta unidade sanitária presta serviços de prevenção da transmissão vertical do VIH — isto é, antirretrovirais à grávida ou à puérpera seropositiva, e profilaxia ao recém-nascido exposto?
@@ -926,13 +951,14 @@ Mantém-se o código e a posição na Ficha; muda apenas o enunciado, que passa 
 
 ## 7.3.12.3 · Cuidados e apoio ao doente com VIH [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que oferecem quaisquer cuidados e apoio a pessoas que vivem com VIH, para além do tratamento antirretroviral.
 
 Indicadores do HHFA: 3.2.6.1.1 · 1.3.2.3.4
-:::
+
+</details>
 
 ::: {.enunciado}
 Esta unidade sanitária presta cuidados e apoio a pessoas que vivem com VIH, para além do tratamento antirretroviral — por exemplo tratamento de infecções oportunistas, profilaxia, aconselhamento ou apoio nutricional?
@@ -948,13 +974,14 @@ Uma caixa, dois indicadores. **Preenche a terceira perna do VIH, que a Ficha nã
 
 ## 7.3.13 · Tuberculose — porta [ALTERADO]{.etiqueta .alterado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que oferecem quaisquer serviços de tuberculose. É a porta do bloco da tuberculose.
 
 Indicadores do HHFA: 3.2.3.1.1 · 1.3.2.3.7
-:::
+
+</details>
 
 ::: {.enunciado}
 Esta unidade sanitária presta algum serviço relacionado com a tuberculose — diagnóstico, tratamento, seguimento de doentes, ou rastreio de contactos?
@@ -972,13 +999,14 @@ A porta alarga-se para qualquer serviço de tuberculose, e **o DOTS propriamente
 
 ## 7.3.13.1 · Diagnóstico da tuberculose [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que oferecem testagem de diagnóstico da tuberculose. O indicador conta as opções 1, 2 e 3; a lista geral de serviços disponíveis acrescenta o de diagnóstico e tratamento da tuberculose.
 
 Indicadores do HHFA: 3.2.3.1.3 · 1.3.2.3.8
-:::
+
+</details>
 
 ::: {.enunciado}
 Esta unidade sanitária realiza exames de diagnóstico da tuberculose, recolhe amostras para serem analisadas noutro local, ou encaminha doentes para as realizarem noutra unidade?
@@ -1003,13 +1031,14 @@ A terceira opção está separada porque **na tuberculose o encaminhamento do do
 
 ## 7.3.13.2 · Seguimento do doente com tuberculose [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que asseguram aos doentes com tuberculose o seguimento clínico e a prescrição, a redispensa dos medicamentos nas consultas de seguimento, e o apoio à adesão. Três linhas, quatro indicadores: um por linha, mais o de seguimento de doentes na lista geral de serviços disponíveis.
 
 Indicadores do HHFA: 3.2.3.1.4 a 3.2.3.1.6 · 1.3.2.3.9
-:::
+
+</details>
 
 ::: {.enunciado}
 Para cada prestação seguinte, diga-me se é habitualmente feita nesta unidade sanitária aos doentes com tuberculose.
@@ -1031,13 +1060,14 @@ A separação das três prestações é a mesma opção de desenho do tratamento
 
 ## 7.3.13.3 a 7.3.13.5 · Testagem do VIH, tuberculose resistente e isolamento [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Três indicadores, um por pergunta: testagem de rotina do VIH nos doentes com tuberculose (7.3.13.3), quaisquer serviços para tuberculose resistente aos medicamentos (7.3.13.4) e quarto de internamento dedicado a isolamento (7.3.13.5).
 
 Indicadores do HHFA: 3.2.3.1.7 · 3.2.3.1.2 · 3.2.3.1.9
-:::
+
+</details>
 
 ::: {.enunciado}
 **7.3.13.3** A todos os doentes com tuberculose diagnosticada nesta unidade sanitária é oferecida, como rotina, a testagem do VIH?
@@ -1063,8 +1093,8 @@ Indicadores do HHFA: 3.2.3.1.7 · 3.2.3.1.2 · 3.2.3.1.9
 
 ## 7.3.14.A a 7.3.14.C · Malária [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que oferecem serviços de malária, por que via diagnosticam — teste rápido, microscopia, ou apenas pelos sinais e sintomas —, e se tratam. A pergunta 7.3.14.A é uma porta. Três perguntas, oito indicadores. Com a articulação com os ADECOS em 7.3.17.1, fica completa a tabela 3.2.2.1.
 
@@ -1082,7 +1112,8 @@ Percentagem de unidades que oferecem serviços de malária, por que via diagnost
 </details>
 
 Indicadores do HHFA: 3.2.2.1.1 a 3.2.2.1.6 · 3.2.2.1.8 · 1.3.2.3.1
-:::
+
+</details>
 
 ::: {.enunciado}
 **Porta (7.3.14.A).** Esta unidade sanitária presta algum serviço relacionado com a malária — diagnóstico, tratamento ou prevenção?
@@ -1119,13 +1150,14 @@ Em **7.3.14.C**, as opções separam caso simples de caso grave, o que o instrum
 
 ## 7.3.14 · Distribuição de redes mosquiteiras [MANTÉM-SE]{.etiqueta .mantem}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que distribuem redes mosquiteiras tratadas de longa duração à população de forma regular, durante mais de 6 meses no ano. O HHFA não tem indicador de distribuição geral de redes; pergunta pela rede entregue em consulta, que neste formulário está em 7.3.6.1 (grávida) e 7.3.5.1 (criança). É medida própria do Mapa Sanitário.
 
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
+
+</details>
 
 ::: {.enunciado}
 Esta unidade sanitária distribui redes mosquiteiras tratadas de longa duração de forma regular, isto é, durante mais de 6 meses no ano?
@@ -1143,13 +1175,14 @@ Mantém-se o código e o sentido. A única alteração é trazer para dentro da 
 
 ## 7.3.15 e 7.3.16 · Brigadas móveis e equipas avançadas [MANTÉM-SE]{.etiqueta .mantem}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que organizam brigadas móveis de vacinação, a 10 km ou mais, e equipas avançadas, a menos de 10 km. O HHFA não tem indicador de actividade extramural organizada pela unidade: a vacinação em estratégia avançada só entra, sem se distinguir, nos indicadores de imunização. É medida própria do Mapa Sanitário.
 
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
+
+</details>
 
 ::: {.enunciado}
 **7.3.15** A partir desta unidade sanitária realizam-se periodicamente brigadas móveis de vacinação na área de referência, a 10 km ou mais?
@@ -1175,13 +1208,14 @@ Mantêm-se integralmente, com as definições do Guião — incluindo as três e
 
 ## 7.3.17 · ADECOS [ALTERADO]{.etiqueta .alterado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Quantas unidades têm ADECOS a trabalhar a partir delas, e quantos são — o primeiro inventário da força de trabalho comunitária da rede, agregável por município e por província. A primeira pergunta é uma porta para a grelha seguinte. O HHFA não conta agentes comunitários; mede a articulação da unidade com eles, que é o que 7.3.17.1 recolhe. É medida própria do Mapa Sanitário.
 
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
+
+</details>
 
 ::: {.enunciado}
 **7.3.17** Existem Agentes de Desenvolvimento Comunitário e de Saúde (ADECOS) a trabalhar a partir desta unidade sanitária?
@@ -1202,8 +1236,8 @@ Uma caixa de número resolve, e passa a haver pela primeira vez **um inventário
 
 ## 7.3.17.1 · Articulação com os ADECOS [NOVO]{.etiqueta .novo}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades com articulação com os agentes comunitários em cada programa — planeamento familiar, pré-natal, criança, malária, tuberculose e VIH. Seis linhas, seis indicadores; cada um completa a tabela do seu programa.
 
@@ -1219,7 +1253,8 @@ Percentagem de unidades com articulação com os agentes comunitários em cada p
 </details>
 
 Indicadores do HHFA: 3.1.1.1.15 · 3.1.2.1.16 · 3.1.8.1.13 · 3.2.2.1.7 · 3.2.3.1.8 · 3.2.6.1.5
-:::
+
+</details>
 
 ::: {.enunciado}
 Para cada área seguinte, diga-me se existe articulação regular entre esta unidade sanitária e os ADECOS — por exemplo encaminhamento de casos, contra-referência, seguimento conjunto de doentes ou reuniões periódicas.

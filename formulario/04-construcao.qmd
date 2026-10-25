@@ -22,13 +22,14 @@ Todos os campos se mantêm. As mudanças são de instrução e de categorias: di
 
 ## 4.1 e 4.2 Edifícios e superfície da unidade [ALTERADO]{.etiqueta .alterado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Número de edifícios e área coberta de cada unidade sanitária, agregáveis por município e por província. Comparada com a secção 5.2 — metros quadrados por estado de conservação —, a área coberta permite estimar a área a reabilitar.
 
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
+
+</details>
 
 ::: {.enunciado}
 **4.1** Quantos edifícios, no total, compõem esta unidade sanitária?
@@ -50,13 +51,14 @@ Contar todos os edifícios dentro do recinto utilizados pela unidade, incluindo 
 
 ## 4.3 e 4.4 Residências dos trabalhadores [ALTERADO]{.etiqueta .alterado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Número de residências para trabalhadores de cada unidade sanitária e respectiva área coberta, na mesma medida usada para os edifícios da unidade em 4.2.
 
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
+
+</details>
 
 ::: {.enunciado}
 **4.3** Quantas residências para trabalhadores existem no recinto desta unidade ou sob a sua responsabilidade?
@@ -76,13 +78,14 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 ## 4.5 e 4.6 Ano e período de construção [ALTERADO]{.etiqueta .alterado} [MANTÉM-SE]{.etiqueta .mantem}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Distribuição das unidades sanitárias por período de construção do edifício principal, comparável com as quatro edições anteriores do Mapa Sanitário.
 
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
+
+</details>
 
 ::: {.enunciado}
 **4.5** Em que ano foi concluída a construção do edifício principal desta unidade?
@@ -114,13 +117,14 @@ As cinco categorias do período (4.6) mantêm-se sem alteração: correspondem a
 
 ## 4.7 Material de construção [ALTERADO]{.etiqueta .alterado}
 
-::: {.medir}
-**O que este quesito permite medir**
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
 
 Distribuição das unidades sanitárias pelo material predominante das paredes exteriores do edifício principal — informação de base para estimar custos de reabilitação.
 
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
+
+</details>
 
 ::: {.enunciado}
 Qual é o material predominante das paredes exteriores do edifício principal?
