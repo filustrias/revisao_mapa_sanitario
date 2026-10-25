@@ -6,14 +6,14 @@ title: "7.1 — Serviços clínicos e cirúrgicos"
 
 A lista das 28 especialidades da Ficha mantém-se por inteiro, pela mesma ordem e com os mesmos códigos. O que se acrescenta é o olhar por **condição** ao lado do olhar por **especialidade**, porque nos cuidados de saúde primários angolanos a hipertensão, a diabetes e a asma são manejadas sem especialista — e, com a lista actual, um centro de saúde que segue trezentos hipertensos marca «não» em cardiologia e fica invisível.
 
-[72 campos, contra 36 na Ficha 19_01.]{.campos}
+[156 campos, contra 36 na Ficha 19_01.]{.campos}
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
 
 | Quesito | O que se obtém |
 |---|---|
-| 7.1.A | Oferta de atendimento em 28 especialidades, com e sem médico especialista (medida própria do Mapa Sanitário) |
+| 7.1.A | Densidade de oferta em 28 especialidades: atendimento, número de especialistas, dias por semana e forma de acesso (medida própria do Mapa Sanitário) |
 | 7.1.B | Oferta de serviços para doenças crónicas não transmissíveis, por condição e por função (4 indicadores do HHFA) |
 | 7.1.C | Oferta de serviços para transtornos mentais e para doenças neurológicas (2 indicadores do HHFA) |
 | 7.1.D | Oferta de serviços de cancro, por localização (5 indicadores do HHFA) |
@@ -27,60 +27,67 @@ A lista das 28 especialidades da Ficha mantém-se por inteiro, pela mesma ordem 
 ::: {.medir}
 **O que este quesito permite medir**
 
-Em que especialidades cada unidade sanitária oferece atendimento regular e, em cada uma, se esse atendimento é prestado por médico especialista ou por outro profissional. Agregado, dá o mapa da oferta por especialidade na rede e a parte dessa oferta que assenta em especialistas.
+A densidade de oferta de atendimento em cada uma das 28 especialidades dentro da área de abrangência da unidade: que especialidades são oferecidas, por quantos especialistas e em quantos dias por semana. Cruzada com a população da área de abrangência (secção 3), permite medir melhor a relação entre a oferta e a demanda de serviços e de especialidades. A forma de acesso — marcação directa ou carta de encaminhamento — mostra onde a especialidade funciona como porta de entrada e onde depende da referência.
 
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário; nenhum instrumento internacional recolhe esta lista
 :::
 
 ::: {.enunciado}
-Vou ler uma lista de especialidades clínicas. Para cada uma, diga-me se há oferta de atendimento nesta unidade sanitária, com dias marcados na semana, e, se houver, se esse atendimento é prestado por médico especialista nessa área.
+Vou ler uma lista de especialidades clínicas. Para cada uma, diga-me se esta unidade sanitária oferece atendimento regular nessa especialidade. Se oferece: quantos especialistas atendem nesse serviço, em quantos dias da semana há atendimento, e se os doentes marcam a consulta directamente ou precisam de uma carta de encaminhamento de outro serviço.
 :::
 
 ::: {.instrucao}
-Não considerar atendimentos ocasionais nem consultas suspensas há mais de 3 meses.
+Não considerar atendimentos ocasionais nem consultas suspensas há mais de 3 meses. Se a resposta na coluna A for «Não», passar à especialidade seguinte.
 :::
 
 ::: {.grelha}
-Uma única resposta por linha.
+Quatro perguntas por especialidade.
 
-| Código | Especialidade | 1 · Sim, com médico especialista nessa área | 2 · Sim, sem médico especialista (outro profissional) | 3 · Não existe atendimento |
-|---|---|:-:|:-:|:-:|
-| 7.1.1 | Medicina geral | ☐ | ☐ | ☐ |
-| 7.1.2 | Medicina interna | ☐ | ☐ | ☐ |
-| 7.1.3 | Pediatria | ☐ | ☐ | ☐ |
-| 7.1.4 | Neonatologia | ☐ | ☐ | ☐ |
-| 7.1.5 | Ginecologia e obstetrícia | ☐ | ☐ | ☐ |
-| 7.1.6 | Cuidados intensivos | ☐ | ☐ | ☐ |
-| 7.1.7 | Cardiologia | ☐ | ☐ | ☐ |
-| 7.1.8 | Dermatologia | ☐ | ☐ | ☐ |
-| 7.1.9 | Endocrinologia | ☐ | ☐ | ☐ |
-| 7.1.10 | Estomatologia | ☐ | ☐ | ☐ |
-| 7.1.11 | Fisiatria | ☐ | ☐ | ☐ |
-| 7.1.12 | Gastroenterologia | ☐ | ☐ | ☐ |
-| 7.1.13 | Reumatologia | ☐ | ☐ | ☐ |
-| 7.1.14 | Geriatria | ☐ | ☐ | ☐ |
-| 7.1.15 | Hematologia | ☐ | ☐ | ☐ |
-| 7.1.16 | Infecciologia | ☐ | ☐ | ☐ |
-| 7.1.17 | Imuno-hematologia | ☐ | ☐ | ☐ |
-| 7.1.18 | Nefrologia | ☐ | ☐ | ☐ |
-| 7.1.19 | Neurologia | ☐ | ☐ | ☐ |
-| 7.1.20 | Nutrição | ☐ | ☐ | ☐ |
-| 7.1.21 | Oftalmologia | ☐ | ☐ | ☐ |
-| 7.1.22 | Oncologia | ☐ | ☐ | ☐ |
-| 7.1.23 | Orto-traumatologia | ☐ | ☐ | ☐ |
-| 7.1.24 | Otorrinolaringologia | ☐ | ☐ | ☐ |
-| 7.1.25 | Pneumologia | ☐ | ☐ | ☐ |
-| 7.1.26 | Psiquiatria | ☐ | ☐ | ☐ |
-| 7.1.27 | Psicologia | ☐ | ☐ | ☐ |
-| 7.1.28 | Urologia | ☐ | ☐ | ☐ |
+- **A · Oferece atendimento?** 1 Sim · 2 Não
+- **B · Quantos especialistas atendem neste serviço?** número, 2 dígitos — **00** se o atendimento é prestado por outro profissional, sem especialista nessa área
+- **C · Em quantos dias da semana há atendimento?** 1 a 7
+- **D · Como chegam os doentes?** 1 Marcam directamente · 2 Só com carta de encaminhamento de outro serviço · 3 Das duas formas
+
+| Código | Especialidade | A · Oferece atendimento? | B · N.º de especialistas | C · Dias por semana | D · Acesso |
+|---|---|:-:|:-:|:-:|:-:|
+| 7.1.1 | Medicina geral | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.2 | Medicina interna | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.3 | Pediatria | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.4 | Neonatologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.5 | Ginecologia e obstetrícia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.6 | Cuidados intensivos | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.7 | Cardiologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.8 | Dermatologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.9 | Endocrinologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.10 | Estomatologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.11 | Fisiatria | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.12 | Gastroenterologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.13 | Reumatologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.14 | Geriatria | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.15 | Hematologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.16 | Infecciologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.17 | Imuno-hematologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.18 | Nefrologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.19 | Neurologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.20 | Nutrição | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.21 | Oftalmologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.22 | Oncologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.23 | Orto-traumatologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.24 | Otorrinolaringologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.25 | Pneumologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.26 | Psiquiatria | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.27 | Psicologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
+| 7.1.28 | Urologia | ☐ Sim ☐ Não | \_\_ | \_ | ☐ 1 ☐ 2 ☐ 3 |
 :::
 
 ::: {.nota}
-**Porque mudou.** A escala de três níveis resolve, numa só caixa e sem acrescentar nenhum campo, o problema de a Ficha perguntar se há atendimento mas não se há especialista. Hoje um centro de saúde onde o clínico geral acompanha hipertensos e um hospital com cardiologista marcam ambos «cardiologia: 1».
+**Porque mudou.** A Ficha pergunta apenas se há atendimento em cada especialidade. Com uma só caixa, um centro de saúde onde o clínico geral acompanha hipertensos uma manhã por semana e um hospital com três cardiologistas em consulta diária marcam ambos «cardiologia: 1». As quatro perguntas separam a **existência** da oferta, a sua **dimensão** — especialistas e dias de atendimento — e a **forma de acesso**. O número de especialistas, com o código 00, conserva a distinção entre atendimento por especialista e por outro profissional.
 
-**O enunciado fixa o critério** de atendimento regular — dia marcado, profissional habilitado, não suspenso há mais de 3 meses — que hoje fica ao critério de quem responde.
+**O enunciado fixa o critério** de atendimento regular — dias marcados na semana, não suspenso há mais de 3 meses — que hoje fica ao critério de quem responde.
 
-**Verificação a programar.** Uma unidade que declara especialista numa especialidade e zero especialistas no quadro é uma inconsistência que o sistema deve assinalar, quando o bloco de pessoal for desenhado.
+**Verificação a programar.** O número de especialistas declarado aqui deverá ser coerente com o quadro de pessoal da unidade, quando o bloco de pessoal for desenhado.
+
+*Proposta desta revisão, ainda por registar na matriz de decisão.*
 :::
 
 ## 7.1.B · Doenças não transmissíveis [NOVO]{.etiqueta .novo}

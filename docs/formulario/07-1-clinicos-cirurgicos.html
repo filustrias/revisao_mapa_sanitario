@@ -251,7 +251,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p>A lista das 28 especialidades da Ficha mantém-se por inteiro, pela mesma ordem e com os mesmos códigos. O que se acrescenta é o olhar por <strong>condição</strong> ao lado do olhar por <strong>especialidade</strong>, porque nos cuidados de saúde primários angolanos a hipertensão, a diabetes e a asma são manejadas sem especialista — e, com a lista actual, um centro de saúde que segue trezentos hipertensos marca «não» em cardiologia e fica invisível.</p>
-<p><span class="campos">72 campos, contra 36 na Ficha 19_01.</span></p>
+<p><span class="campos">156 campos, contra 36 na Ficha 19_01.</span></p>
 <details class="medir-seccao">
 <summary>
 O que esta secção permite medir
@@ -270,7 +270,7 @@ O que esta secção permite medir
 <tbody>
 <tr class="odd">
 <td>7.1.A</td>
-<td>Oferta de atendimento em 28 especialidades, com e sem médico especialista (medida própria do Mapa Sanitário)</td>
+<td>Densidade de oferta em 28 especialidades: atendimento, número de especialistas, dias por semana e forma de acesso (medida própria do Mapa Sanitário)</td>
 </tr>
 <tr class="even">
 <td>7.1.B</td>
@@ -299,238 +299,275 @@ O que esta secção permite medir
 <h2 class="anchored" data-anchor-id="a-especialidades-clínicas-7.1.1-a-7.1.28-alterado">7.1.A · Especialidades clínicas (7.1.1 a 7.1.28) <span class="etiqueta alterado">ALTERADO</span></h2>
 <div class="medir">
 <p><strong>O que este quesito permite medir</strong></p>
-<p>Em que especialidades cada unidade sanitária oferece atendimento regular e, em cada uma, se esse atendimento é prestado por médico especialista ou por outro profissional. Agregado, dá o mapa da oferta por especialidade na rede e a parte dessa oferta que assenta em especialistas.</p>
+<p>A densidade de oferta de atendimento em cada uma das 28 especialidades dentro da área de abrangência da unidade: que especialidades são oferecidas, por quantos especialistas e em quantos dias por semana. Cruzada com a população da área de abrangência (secção 3), permite medir melhor a relação entre a oferta e a demanda de serviços e de especialidades. A forma de acesso — marcação directa ou carta de encaminhamento — mostra onde a especialidade funciona como porta de entrada e onde depende da referência.</p>
 <p>Indicador do HHFA: nenhum · medida própria do Mapa Sanitário; nenhum instrumento internacional recolhe esta lista</p>
 </div>
 <div class="enunciado">
-<p>Vou ler uma lista de especialidades clínicas. Para cada uma, diga-me se há oferta de atendimento nesta unidade sanitária, com dias marcados na semana, e, se houver, se esse atendimento é prestado por médico especialista nessa área.</p>
+<p>Vou ler uma lista de especialidades clínicas. Para cada uma, diga-me se esta unidade sanitária oferece atendimento regular nessa especialidade. Se oferece: quantos especialistas atendem nesse serviço, em quantos dias da semana há atendimento, e se os doentes marcam a consulta directamente ou precisam de uma carta de encaminhamento de outro serviço.</p>
 </div>
 <div class="instrucao">
-<p>Não considerar atendimentos ocasionais nem consultas suspensas há mais de 3 meses.</p>
+<p>Não considerar atendimentos ocasionais nem consultas suspensas há mais de 3 meses. Se a resposta na coluna A for «Não», passar à especialidade seguinte.</p>
 </div>
 <div class="grelha">
-<p>Uma única resposta por linha.</p>
+<p>Quatro perguntas por especialidade.</p>
+<ul>
+<li><strong>A · Oferece atendimento?</strong> 1 Sim · 2 Não</li>
+<li><strong>B · Quantos especialistas atendem neste serviço?</strong> número, 2 dígitos — <strong>00</strong> se o atendimento é prestado por outro profissional, sem especialista nessa área</li>
+<li><strong>C · Em quantos dias da semana há atendimento?</strong> 1 a 7</li>
+<li><strong>D · Como chegam os doentes?</strong> 1 Marcam directamente · 2 Só com carta de encaminhamento de outro serviço · 3 Das duas formas</li>
+</ul>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Especialidade</th>
-<th style="text-align: center;">1 · Sim, com médico especialista nessa área</th>
-<th style="text-align: center;">2 · Sim, sem médico especialista (outro profissional)</th>
-<th style="text-align: center;">3 · Não existe atendimento</th>
+<th style="text-align: center;">A · Oferece atendimento?</th>
+<th style="text-align: center;">B · N.º de especialistas</th>
+<th style="text-align: center;">C · Dias por semana</th>
+<th style="text-align: center;">D · Acesso</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>7.1.1</td>
 <td>Medicina geral</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="even">
 <td>7.1.2</td>
 <td>Medicina interna</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="odd">
 <td>7.1.3</td>
 <td>Pediatria</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="even">
 <td>7.1.4</td>
 <td>Neonatologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="odd">
 <td>7.1.5</td>
 <td>Ginecologia e obstetrícia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="even">
 <td>7.1.6</td>
 <td>Cuidados intensivos</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="odd">
 <td>7.1.7</td>
 <td>Cardiologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="even">
 <td>7.1.8</td>
 <td>Dermatologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="odd">
 <td>7.1.9</td>
 <td>Endocrinologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="even">
 <td>7.1.10</td>
 <td>Estomatologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="odd">
 <td>7.1.11</td>
 <td>Fisiatria</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="even">
 <td>7.1.12</td>
 <td>Gastroenterologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="odd">
 <td>7.1.13</td>
 <td>Reumatologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="even">
 <td>7.1.14</td>
 <td>Geriatria</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="odd">
 <td>7.1.15</td>
 <td>Hematologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="even">
 <td>7.1.16</td>
 <td>Infecciologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="odd">
 <td>7.1.17</td>
 <td>Imuno-hematologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="even">
 <td>7.1.18</td>
 <td>Nefrologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="odd">
 <td>7.1.19</td>
 <td>Neurologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="even">
 <td>7.1.20</td>
 <td>Nutrição</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="odd">
 <td>7.1.21</td>
 <td>Oftalmologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="even">
 <td>7.1.22</td>
 <td>Oncologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="odd">
 <td>7.1.23</td>
 <td>Orto-traumatologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="even">
 <td>7.1.24</td>
 <td>Otorrinolaringologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="odd">
 <td>7.1.25</td>
 <td>Pneumologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="even">
 <td>7.1.26</td>
 <td>Psiquiatria</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="odd">
 <td>7.1.27</td>
 <td>Psicologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 <tr class="even">
 <td>7.1.28</td>
 <td>Urologia</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
-<td style="text-align: center;">☐</td>
+<td style="text-align: center;">☐ Sim ☐ Não</td>
+<td style="text-align: center;">__</td>
+<td style="text-align: center;">_</td>
+<td style="text-align: center;">☐ 1 ☐ 2 ☐ 3</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="nota">
-<p><strong>Porque mudou.</strong> A escala de três níveis resolve, numa só caixa e sem acrescentar nenhum campo, o problema de a Ficha perguntar se há atendimento mas não se há especialista. Hoje um centro de saúde onde o clínico geral acompanha hipertensos e um hospital com cardiologista marcam ambos «cardiologia: 1».</p>
-<p><strong>O enunciado fixa o critério</strong> de atendimento regular — dia marcado, profissional habilitado, não suspenso há mais de 3 meses — que hoje fica ao critério de quem responde.</p>
-<p><strong>Verificação a programar.</strong> Uma unidade que declara especialista numa especialidade e zero especialistas no quadro é uma inconsistência que o sistema deve assinalar, quando o bloco de pessoal for desenhado.</p>
+<p><strong>Porque mudou.</strong> A Ficha pergunta apenas se há atendimento em cada especialidade. Com uma só caixa, um centro de saúde onde o clínico geral acompanha hipertensos uma manhã por semana e um hospital com três cardiologistas em consulta diária marcam ambos «cardiologia: 1». As quatro perguntas separam a <strong>existência</strong> da oferta, a sua <strong>dimensão</strong> — especialistas e dias de atendimento — e a <strong>forma de acesso</strong>. O número de especialistas, com o código 00, conserva a distinção entre atendimento por especialista e por outro profissional.</p>
+<p><strong>O enunciado fixa o critério</strong> de atendimento regular — dias marcados na semana, não suspenso há mais de 3 meses — que hoje fica ao critério de quem responde.</p>
+<p><strong>Verificação a programar.</strong> O número de especialistas declarado aqui deverá ser coerente com o quadro de pessoal da unidade, quando o bloco de pessoal for desenhado.</p>
+<p><em>Proposta desta revisão, ainda por registar na matriz de decisão.</em></p>
 </div>
 </section>
 <section id="b-doenças-não-transmissíveis-novo" class="level2">
