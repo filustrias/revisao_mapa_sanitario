@@ -4,8 +4,6 @@ title: "Secção 1 — Localização"
 
 {{< include ../_legenda.qmd >}}
 
-Quase toda a secção se mantém como está. As únicas mudanças são um protocolo de leitura para as coordenadas, um campo para a precisão do aparelho e uma caixa para a classificação urbano/rural, que hoje é inferida da localização administrativa.
-
 [16 campos.]{.campos}
 
 <details class="medir-seccao">

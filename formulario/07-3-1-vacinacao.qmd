@@ -4,8 +4,6 @@ title: "7.3.1 — Vacinação"
 
 {{< include ../_legenda.qmd >}}
 
-Primeiro bloco da secção 7.3 — saúde pública, promoção e prevenção. A caixa única da Ficha para o Programa Alargado de Vacinação passa a uma porta, à periodicidade da vacinação de rotina e à grelha dos antigénios oferecidos; as rupturas de stock ficam a decidir nesta revisão e a cadeia de frio fica para a fase da observação.
-
 [20 campos, contra 1 na Ficha 19_01.]{.campos}
 
 <details class="medir-seccao">

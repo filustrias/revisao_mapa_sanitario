@@ -4,8 +4,6 @@ title: "Secção 3 — População e sistema de referência"
 
 {{< include ../_legenda.qmd >}}
 
-É a secção com a maior reformulação de toda a proposta, e a única que cria uma classe nova de informação: a **árvore de referência**. Hoje a Ficha recolhe duas unidades de referência em duas filas iguais, sem distinguir o que são, e quatro números de distância sem instrução de medição. A proposta separa o nó superior — obrigatório, um só — da referência lateral, opcional e por grupo de doentes, e acrescenta o código do Mapa Sanitário de cada unidade de destino, o que torna a árvore nacional reconstruível a partir das fichas.
-
 [19 campos.]{.campos}
 
 <details class="medir-seccao">

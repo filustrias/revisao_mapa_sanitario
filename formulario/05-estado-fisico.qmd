@@ -4,8 +4,6 @@ title: "Secção 5 — Estado físico"
 
 {{< include ../_legenda.qmd >}}
 
-É uma das secções com maior ganho em relação ao esforço, e pela mesma razão que se repete ao longo da proposta: **o Guião já manda fazer o que o formulário não tem onde registar.** A folha 8 do Guião define os critérios do estado físico elemento a elemento — fundação, estrutura, pavimento, paredes, cobertura, tecto falso e latrina — e a Ficha oferece uma única caixa para o resultado. E manda especificar, nas Observações, os metros quadrados em cada estado, «para calcular os custos da reabilitação», num campo de texto livre.
-
 [12 campos.]{.campos}
 
 <details class="medir-seccao">

@@ -4,8 +4,6 @@ title: "Secção 8 — Recursos cama e similares"
 
 {{< include ../_legenda.qmd >}}
 
-A secção passa a ter uma pergunta-porta sobre o internamento. As unidades sem internamento respondem só às perguntas sobre camas de observação, macas e equipamentos de exame; as unidades com internamento contam também as camas por tamanho, por enfermaria e por sexo da enfermaria.
-
 [35 campos numa unidade com internamento e 15 numa unidade sem internamento, contra 16 na Ficha 19_01.]{.campos}
 
 <details class="medir-seccao">

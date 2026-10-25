@@ -4,8 +4,6 @@ title: "7.3 — Saúde pública, promoção e prevenção"
 
 {{< include ../_legenda.qmd >}}
 
-Hoje são 17 caixas de 0-1, uma por programa ou actividade. A vacinação, primeiro bloco desta secção, está num capítulo próprio. É a subsecção com maior transformação e, ao mesmo tempo, a de maior retorno em comparabilidade internacional de todo o instrumento, **sem uma única observação física**.
-
 [111 campos, contra 19 na Ficha 19_01.]{.campos}
 
 <details class="medir-seccao">

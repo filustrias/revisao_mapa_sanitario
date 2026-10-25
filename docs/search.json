@@ -134,7 +134,7 @@
     "href": "formulario/00-identificacao.html",
     "title": "Secção 0 — Identificação da recolha",
     "section": "",
-    "text": "0.1 Data desta recolha ALTERADO\nA secção identifica a recolha: quando, como e por quem foi feita, e em que situação estava a unidade sanitária. À excepção da data da visita anterior (0.7), os campos são preenchidos pelo inquiridor, sem perguntar ao respondente.\n14 campos, contra 3 na Ficha 19_01.",
+    "text": "0.1 Data desta recolha ALTERADO\n14 campos, contra 3 na Ficha 19_01.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Secção 0 — Identificação da recolha</span>"
     ]
@@ -204,7 +204,7 @@
     "href": "formulario/01-localizacao.html",
     "title": "Secção 1 — Localização",
     "section": "",
-    "text": "1.1 a 1.5 Localização administrativa e nome da unidade MANTÉM-SE\nQuase toda a secção se mantém como está. As únicas mudanças são um protocolo de leitura para as coordenadas, um campo para a precisão do aparelho e uma caixa para a classificação urbano/rural, que hoje é inferida da localização administrativa.\n16 campos.",
+    "text": "1.1 a 1.5 Localização administrativa e nome da unidade MANTÉM-SE\n16 campos.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Secção 1 — Localização</span>"
     ]
@@ -264,7 +264,7 @@
     "href": "formulario/02-propriedade-gestao.html",
     "title": "Secção 2 — Propriedade e gestão",
     "section": "",
-    "text": "2.1 Propriedade ALTERADO\nAs duas caixas mantêm-se. Em ambas se amplia a lista de opções, porque as categorias actuais agrupam situações que importa distinguir, e se separa por palavras a propriedade da gestão.\n2 campos.",
+    "text": "2.1 Propriedade ALTERADO\n2 campos.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Secção 2 — Propriedade e gestão</span>"
     ]
@@ -294,7 +294,7 @@
     "href": "formulario/03-populacao-referencia.html",
     "title": "Secção 3 — População e sistema de referência",
     "section": "",
-    "text": "3.1 População adstrita ALTERADO\nÉ a secção com a maior reformulação de toda a proposta, e a única que cria uma classe nova de informação: a árvore de referência. Hoje a Ficha recolhe duas unidades de referência em duas filas iguais, sem distinguir o que são, e quatro números de distância sem instrução de medição. A proposta separa o nó superior — obrigatório, um só — da referência lateral, opcional e por grupo de doentes, e acrescenta o código do Mapa Sanitário de cada unidade de destino, o que torna a árvore nacional reconstruível a partir das fichas.\n19 campos.",
+    "text": "3.1 População adstrita ALTERADO\n19 campos.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Secção 3 — População e sistema de referência</span>"
     ]
@@ -374,7 +374,7 @@
     "href": "formulario/04-construcao.html",
     "title": "Secção 4 — Construção",
     "section": "",
-    "text": "4.1 e 4.2 Edifícios e superfície da unidade ALTERADO\nTodos os campos se mantêm. As mudanças são de instrução e de categorias: dizer o que conta e o que não conta em cada contagem, usar a mesma medida de superfície nos edifícios e nas residências, separar tijolo de bloco no material de construção, e dar código próprio ao «não sabe» para que a ausência de dado não seja registada como zero.\n7 campos.",
+    "text": "4.1 e 4.2 Edifícios e superfície da unidade ALTERADO\n7 campos.",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Secção 4 — Construção</span>"
     ]
@@ -424,7 +424,7 @@
     "href": "formulario/05-estado-fisico.html",
     "title": "Secção 5 — Estado físico",
     "section": "",
-    "text": "5.1 Estado físico do edifício principal ALTERADO\nÉ uma das secções com maior ganho em relação ao esforço, e pela mesma razão que se repete ao longo da proposta: o Guião já manda fazer o que o formulário não tem onde registar. A folha 8 do Guião define os critérios do estado físico elemento a elemento — fundação, estrutura, pavimento, paredes, cobertura, tecto falso e latrina — e a Ficha oferece uma única caixa para o resultado. E manda especificar, nas Observações, os metros quadrados em cada estado, «para calcular os custos da reabilitação», num campo de texto livre.\n12 campos.",
+    "text": "5.1 Estado físico do edifício principal ALTERADO\n12 campos.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Secção 5 — Estado físico</span>"
     ]
@@ -464,7 +464,7 @@
     "href": "formulario/06-agua-energia-saneamento.html",
     "title": "Secção 6 — Água, energia, saneamento e resíduos",
     "section": "",
-    "text": "6.1 Fonte de água ALTERADO\nA estrutura da Ficha — uma fonte principal e as outras fontes, em cada quesito — mantém-se por inteiro, e é boa: capta a precariedade do abastecimento melhor do que uma pergunta única. O que se altera são as listas de categorias, alinhadas com as definições internacionais de fonte melhorada e de saneamento melhorado, e acrescentam-se quatro perguntas de disponibilidade efectiva, que são o que converte a declaração em indicador, e duas sobre normas e formação em gestão de resíduos.\n19 campos.",
+    "text": "6.1 Fonte de água ALTERADO\n19 campos.",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Secção 6 — Água, energia, saneamento e resíduos</span>"
     ]
@@ -570,21 +570,11 @@
     ]
   },
   {
-    "objectID": "formulario/07-servicos.html",
-    "href": "formulario/07-servicos.html",
-    "title": "Secção 7 — Serviços oferecidos",
-    "section": "",
-    "text": "É a secção mais longa do formulário e a que mais se transforma, por uma razão simples: hoje é constituída quase inteiramente por caixas de 0-1 — «marcar, se existe em funcionamento» — e uma caixa de 0-1 não distingue a unidade que resolve da unidade que encaminha, nem a que tem especialista da que não tem.\nÉ também a secção onde as portas fazem o trabalho. Lida de ponta a ponta parece imensa; percorrida por uma unidade concreta, fecha-se depressa. A nota de apresentação dá os números.",
-    "crumbs": [
-      "Secção 7 — Serviços oferecidos"
-    ]
-  },
-  {
     "objectID": "formulario/07-1-clinicos-cirurgicos.html",
     "href": "formulario/07-1-clinicos-cirurgicos.html",
     "title": "7.1 — Serviços clínicos e cirúrgicos",
     "section": "",
-    "text": "7.1.A · Especialidades clínicas (7.1.1 a 7.1.28) ALTERADO\nA lista das 28 especialidades da Ficha mantém-se por inteiro, pela mesma ordem e com os mesmos códigos. O que se acrescenta é o olhar por condição ao lado do olhar por especialidade, porque nos cuidados de saúde primários angolanos a hipertensão, a diabetes e a asma são manejadas sem especialista — e, com a lista actual, um centro de saúde que segue trezentos hipertensos marca «não» em cardiologia e fica invisível.\n156 campos, contra 36 na Ficha 19_01.",
+    "text": "7.1.A · Especialidades clínicas (7.1.1 a 7.1.28) ALTERADO\n156 campos, contra 36 na Ficha 19_01.",
     "crumbs": [
       "Secção 7 — Serviços oferecidos",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>7.1 — Serviços clínicos e cirúrgicos</span>"
@@ -661,7 +651,7 @@
     "href": "formulario/07-2-apoio.html",
     "title": "7.2 — Serviços de apoio",
     "section": "",
-    "text": "7.2.C.0 · Testes rápidos de diagnóstico NOVO\nHoje são catorze caixas de 0-1, uma por serviço. A primeira delas — «1. Laboratório» — é a que mais se transforma: passa a sete blocos, porque uma caixa única não distingue a unidade que faz hemograma da que faz carga viral, nem a que envia a amostra da que simplesmente não faz o exame.\nAs portas são aqui especialmente importantes. No laboratório, um posto de saúde responde a 12 caixas — os 11 testes rápidos e a porta geral — e passa à imagiologia; um centro de saúde com laboratório responde a cerca de 30; só um hospital provincial percorre as 82.\n122 campos, contra 16 na Ficha 19_01 — 82 no laboratório, contra 1, e 40 nos restantes serviços de apoio, contra 15.",
+    "text": "7.2.C.0 · Testes rápidos de diagnóstico NOVO\n122 campos, contra 16 na Ficha 19_01 — 82 no laboratório, contra 1, e 40 nos restantes serviços de apoio, contra 15.",
     "crumbs": [
       "Secção 7 — Serviços oferecidos",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>7.2 — Serviços de apoio</span>"
@@ -782,7 +772,7 @@
     "href": "formulario/07-3-1-vacinacao.html",
     "title": "7.3.1 — Vacinação",
     "section": "",
-    "text": "7.3.1 · Vacinação — porta do PAV ALTERADO\nPrimeiro bloco da secção 7.3 — saúde pública, promoção e prevenção. A caixa única da Ficha para o Programa Alargado de Vacinação passa a uma porta, à periodicidade da vacinação de rotina e à grelha dos antigénios oferecidos; as rupturas de stock ficam a decidir nesta revisão e a cadeia de frio fica para a fase da observação.\n20 campos, contra 1 na Ficha 19_01.",
+    "text": "7.3.1 · Vacinação — porta do PAV ALTERADO\n20 campos, contra 1 na Ficha 19_01.",
     "crumbs": [
       "Secção 7 — Serviços oferecidos",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>7.3.1 — Vacinação</span>"
@@ -848,7 +838,7 @@
     "href": "formulario/07-3-saude-publica.html",
     "title": "7.3 — Saúde pública, promoção e prevenção",
     "section": "",
-    "text": "7.3.5 · Puericultura — porta dos cuidados à criança ALTERADO\nHoje são 17 caixas de 0-1, uma por programa ou actividade. A vacinação, primeiro bloco desta secção, está num capítulo próprio. É a subsecção com maior transformação e, ao mesmo tempo, a de maior retorno em comparabilidade internacional de todo o instrumento, sem uma única observação física.\n111 campos, contra 19 na Ficha 19_01.",
+    "text": "7.3.5 · Puericultura — porta dos cuidados à criança ALTERADO\n111 campos, contra 19 na Ficha 19_01.",
     "crumbs": [
       "Secção 7 — Serviços oferecidos",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>7.3 — Saúde pública, promoção e prevenção</span>"
@@ -1189,7 +1179,7 @@
     "href": "formulario/07-4-5-gestao-servicos-gerais.html",
     "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "",
-    "text": "7.4 — Serviços de gestão\nEste capítulo reúne os dois últimos blocos da secção 7 da Ficha: os serviços e órgãos de gestão (7.4) e os serviços gerais da unidade (7.5). Os códigos dos quesitos são os da Ficha e da matriz de decisão.\nA lista dos 17 serviços e órgãos de gestão mantém-se por inteiro, com os mesmos códigos e as mesmas designações, incluindo todas as comissões nomeadas. O que muda é a escala — de 0-1 para três níveis — e acrescentam-se três blocos que perguntam pela actividade desses órgãos, não pela sua existência.\n37 campos, contra 19 na Ficha 19_01.",
+    "text": "7.4 — Serviços de gestão\n37 campos, contra 19 na Ficha 19_01.",
     "crumbs": [
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
@@ -1279,7 +1269,7 @@
     "href": "formulario/07-4-5-gestao-servicos-gerais.html#serviços-gerais",
     "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "7.5 — Serviços gerais",
-    "text": "7.5 — Serviços gerais\nÉ a subsecção que menos muda, e isso é um bom sinal: a lista dos 15 serviços gerais está adequada. As alterações são a escala de três níveis, duas remissões para evitar duplicação, o número de gavetas mortuárias e o desenvolvimento do Gabinete do Utente.\n20 campos, contra 19 na Ficha 19_01, contando que dois quesitos saem para outros domínios.\n\n\nO que esta secção permite medir\n\n\n\n\n\n\n\n\nQuesito\nO que se obtém\n\n\n\n\n7.5.1 e 7.5.1.1\nTransporte de emergência disponível hoje, com combustível e motorista (1 indicador do HHFA)\n\n\n7.5.2 a 7.5.18\nExistência e funcionamento de 15 serviços gerais (5 indicadores do HHFA)\n\n\n7.5.5.2\nCapacidade da morgue (medida própria do Mapa Sanitário)\n\n\n7.5.18.1 e 7.5.18.2\nRecolha e análise da opinião dos utentes (1 indicador do HHFA)\n\n\n7.5.7 e 7.5.16\nRemissões para os domínios 13 e 6 (os indicadores contam-se nesses domínios)\n\n\n7.5.8\nManutenção (parqueado; 23 indicadores do HHFA)",
+    "text": "7.5 — Serviços gerais\n20 campos, contra 19 na Ficha 19_01, contando que dois quesitos saem para outros domínios.\n\n\nO que esta secção permite medir\n\n\n\n\n\n\n\n\nQuesito\nO que se obtém\n\n\n\n\n7.5.1 e 7.5.1.1\nTransporte de emergência disponível hoje, com combustível e motorista (1 indicador do HHFA)\n\n\n7.5.2 a 7.5.18\nExistência e funcionamento de 15 serviços gerais (5 indicadores do HHFA)\n\n\n7.5.5.2\nCapacidade da morgue (medida própria do Mapa Sanitário)\n\n\n7.5.18.1 e 7.5.18.2\nRecolha e análise da opinião dos utentes (1 indicador do HHFA)\n\n\n7.5.7 e 7.5.16\nRemissões para os domínios 13 e 6 (os indicadores contam-se nesses domínios)\n\n\n7.5.8\nManutenção (parqueado; 23 indicadores do HHFA)",
     "crumbs": [
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
@@ -1349,7 +1339,7 @@
     "href": "formulario/08-recursos-cama.html",
     "title": "Secção 8 — Recursos cama e similares",
     "section": "",
-    "text": "8.0.1 Internamento — porta NOVO\nA secção passa a ter uma pergunta-porta sobre o internamento. As unidades sem internamento respondem só às perguntas sobre camas de observação, macas e equipamentos de exame; as unidades com internamento contam também as camas por tamanho, por enfermaria e por sexo da enfermaria.\n35 campos numa unidade com internamento e 15 numa unidade sem internamento, contra 16 na Ficha 19_01.",
+    "text": "8.0.1 Internamento — porta NOVO\n35 campos numa unidade com internamento e 15 numa unidade sem internamento, contra 16 na Ficha 19_01.",
     "crumbs": [
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
     ]

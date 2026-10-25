@@ -4,11 +4,7 @@ title: "Secções 7.4 e 7.5 — Gestão e serviços gerais"
 
 {{< include ../_legenda.qmd >}}
 
-Este capítulo reúne os dois últimos blocos da secção 7 da Ficha: os serviços e órgãos de **gestão** (7.4) e os **serviços gerais** da unidade (7.5). Os códigos dos quesitos são os da Ficha e da matriz de decisão.
-
 ## 7.4 — Serviços de gestão {.bloco}
-
-A lista dos 17 serviços e órgãos de gestão mantém-se por inteiro, com os mesmos códigos e as mesmas designações, incluindo todas as comissões nomeadas. O que muda é a escala — de 0-1 para três níveis — e acrescentam-se três blocos que perguntam pela **actividade** desses órgãos, não pela sua existência.
 
 [37 campos, contra 19 na Ficha 19_01.]{.campos}
 
@@ -301,8 +297,6 @@ A proposta é começar pela autonomia de gestão e pelas fontes de financiamento
 :::
 
 ## 7.5 — Serviços gerais {.bloco}
-
-É a subsecção que menos muda, e isso é um bom sinal: a lista dos 15 serviços gerais está adequada. As alterações são a escala de três níveis, duas remissões para evitar duplicação, o número de gavetas mortuárias e o desenvolvimento do Gabinete do Utente.
 
 [20 campos, contra 19 na Ficha 19_01, contando que dois quesitos saem para outros domínios.]{.campos}
 

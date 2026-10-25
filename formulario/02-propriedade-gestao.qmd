@@ -4,8 +4,6 @@ title: "Secção 2 — Propriedade e gestão"
 
 {{< include ../_legenda.qmd >}}
 
-As duas caixas mantêm-se. Em ambas se amplia a lista de opções, porque as categorias actuais agrupam situações que importa distinguir, e se separa por palavras a propriedade da gestão.
-
 [2 campos.]{.campos}
 
 <details class="medir-seccao">

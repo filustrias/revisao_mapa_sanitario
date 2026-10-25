@@ -4,8 +4,6 @@ title: "7.1 — Serviços clínicos e cirúrgicos"
 
 {{< include ../_legenda.qmd >}}
 
-A lista das 28 especialidades da Ficha mantém-se por inteiro, pela mesma ordem e com os mesmos códigos. O que se acrescenta é o olhar por **condição** ao lado do olhar por **especialidade**, porque nos cuidados de saúde primários angolanos a hipertensão, a diabetes e a asma são manejadas sem especialista — e, com a lista actual, um centro de saúde que segue trezentos hipertensos marca «não» em cardiologia e fica invisível.
-
 [156 campos, contra 36 na Ficha 19_01.]{.campos}
 
 <details class="medir-seccao">

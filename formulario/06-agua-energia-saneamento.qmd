@@ -4,8 +4,6 @@ title: "Secção 6 — Água, energia, saneamento e resíduos"
 
 {{< include ../_legenda.qmd >}}
 
-A estrutura da Ficha — uma fonte **principal** e as **outras** fontes, em cada quesito — mantém-se por inteiro, e é boa: capta a precariedade do abastecimento melhor do que uma pergunta única. O que se altera são as listas de categorias, alinhadas com as definições internacionais de fonte melhorada e de saneamento melhorado, e acrescentam-se quatro perguntas de disponibilidade efectiva, que são o que converte a declaração em indicador, e duas sobre normas e formação em gestão de resíduos.
-
 [19 campos.]{.campos}
 
 <details class="medir-seccao">
