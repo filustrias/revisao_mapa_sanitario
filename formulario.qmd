@@ -19,4 +19,5 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 6](formulario/06-agua-energia-saneamento.qmd) | Água, energia, saneamento e resíduos |
 | [Secção 7](formulario/07-servicos.qmd) | Serviços oferecidos — [7.1](formulario/07-1-clinicos-cirurgicos.qmd) clínicos e cirúrgicos · [7.2](formulario/07-2-apoio.qmd) apoio · [7.3.1](formulario/07-3-1-vacinacao.qmd) vacinação · [7.3](formulario/07-3-saude-publica.qmd) saúde pública |
 | [Secções 7.4 e 7.5](formulario/07-4-5-gestao-servicos-gerais.qmd) | Gestão e serviços gerais |
-| [Domínios 8 a 13](formulario/08-13-por-transcrever.qmd) | Por transcrever nesta edição |
+| [Secção 8](formulario/08-recursos-cama.qmd) | Recursos cama e similares |
+| [Domínios 9 a 13](formulario/09-13-por-transcrever.qmd) | Por transcrever nesta edição |

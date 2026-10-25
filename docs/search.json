@@ -14,7 +14,7 @@
     "href": "index.html#o-que-é-este-documento",
     "title": "Mapa Sanitário — proposta de revisão do formulário",
     "section": "",
-    "text": "Estado da proposta. A secção 7 — serviços oferecidos — está escrita por inteiro. Os domínios 0 a 6 e 8 a 13 estão escritos. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.",
+    "text": "Estado da proposta. As secções 0 a 8 estão transcritas por inteiro. Os domínios 9 a 13 estão escritos na matriz e serão transcritos a seguir; a página «Domínios 9 a 13» identifica-os com o respectivo volume. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Nota de apresentação e orientações de leitura</span>"
     ]
@@ -124,7 +124,7 @@
     "href": "formulario.html",
     "title": "O formulário, com comentários",
     "section": "",
-    "text": "DicaLegenda\n\n\n\n\n\nCaixa cinzenta: o que se lê ao respondente. Itálico: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.\nEtiquetas: NOVO não existe na Ficha 19_01 · ALTERADO existe e muda · MANTÉM-SE existe e não muda · A DECIDIR depende desta revisão · PARQUEADO fica para depois.\n\n\n\nO formulário está dividido num capítulo por secção, pela ordem em que o inquiridor o percorre. A secção 7 — serviços oferecidos — é a mais longa: os serviços clínicos, de apoio e de saúde pública (7.1 a 7.3) têm um capítulo cada, e a gestão e os serviços gerais (7.4 e 7.5) estão juntos num capítulo próprio. Cada capítulo pode ser lido e discutido por si, numa sessão de revisão.\nCada quesito tem ao lado um botão 💬 Comentar, que abre um formulário curto já com o código do quesito preenchido. Os comentários vão para a mesma folha de respostas, um por linha, e são depois cruzados com a matriz pelo código.\n\n\n\nCapítulo\nConteúdo\n\n\n\n\nSecção 0\nIdentificação da recolha\n\n\nSecção 1\nLocalização\n\n\nSecção 2\nPropriedade e gestão\n\n\nSecção 3\nPopulação e sistema de referência\n\n\nSecção 4\nConstrução\n\n\nSecção 5\nEstado físico\n\n\nSecção 6\nÁgua, energia, saneamento e resíduos\n\n\nSecção 7\nServiços oferecidos — 7.1 clínicos e cirúrgicos · 7.2 apoio · 7.3.1 vacinação · 7.3 saúde pública\n\n\nSecções 7.4 e 7.5\nGestão e serviços gerais\n\n\nDomínios 8 a 13\nPor transcrever nesta edição",
+    "text": "DicaLegenda\n\n\n\n\n\nCaixa cinzenta: o que se lê ao respondente. Itálico: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.\nEtiquetas: NOVO não existe na Ficha 19_01 · ALTERADO existe e muda · MANTÉM-SE existe e não muda · A DECIDIR depende desta revisão · PARQUEADO fica para depois.\n\n\n\nO formulário está dividido num capítulo por secção, pela ordem em que o inquiridor o percorre. A secção 7 — serviços oferecidos — é a mais longa: os serviços clínicos, de apoio e de saúde pública (7.1 a 7.3) têm um capítulo cada, e a gestão e os serviços gerais (7.4 e 7.5) estão juntos num capítulo próprio. Cada capítulo pode ser lido e discutido por si, numa sessão de revisão.\nCada quesito tem ao lado um botão 💬 Comentar, que abre um formulário curto já com o código do quesito preenchido. Os comentários vão para a mesma folha de respostas, um por linha, e são depois cruzados com a matriz pelo código.\n\n\n\nCapítulo\nConteúdo\n\n\n\n\nSecção 0\nIdentificação da recolha\n\n\nSecção 1\nLocalização\n\n\nSecção 2\nPropriedade e gestão\n\n\nSecção 3\nPopulação e sistema de referência\n\n\nSecção 4\nConstrução\n\n\nSecção 5\nEstado físico\n\n\nSecção 6\nÁgua, energia, saneamento e resíduos\n\n\nSecção 7\nServiços oferecidos — 7.1 clínicos e cirúrgicos · 7.2 apoio · 7.3.1 vacinação · 7.3 saúde pública\n\n\nSecções 7.4 e 7.5\nGestão e serviços gerais\n\n\nSecção 8\nRecursos cama e similares\n\n\nDomínios 9 a 13\nPor transcrever nesta edição",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>O formulário, com comentários</span>"
     ]
@@ -1345,13 +1345,153 @@
     ]
   },
   {
-    "objectID": "formulario/08-13-por-transcrever.html",
-    "href": "formulario/08-13-por-transcrever.html",
-    "title": "Domínios 8 a 13 — por transcrever nesta edição",
+    "objectID": "formulario/08-recursos-cama.html",
+    "href": "formulario/08-recursos-cama.html",
+    "title": "Secção 8 — Recursos cama e similares",
     "section": "",
-    "text": "DicaLegenda\n\n\n\n\n\nCaixa cinzenta: o que se lê ao respondente. Itálico: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.\nEtiquetas: NOVO não existe na Ficha 19_01 · ALTERADO existe e muda · MANTÉM-SE existe e não muda · A DECIDIR depende desta revisão · PARQUEADO fica para depois.\n\n\n\nOs domínios seguintes estão integralmente escritos na matriz de decisão da adaptação e serão transcritos para este formato na próxima edição do documento. Ficam aqui identificados com o respectivo volume, para que a leitura da proposta não pareça incompleta onde não está.\n\n\n\n\n\n\n\n\nDomínio\nConteúdo\nCampos propostos / na Ficha\n\n\n\n\n8\nRecursos cama e similares — camas de internamento, berços, decomposição por enfermaria e por sexo, observação e curta estadia, macas e mesas de exame, camas em armazém\n35 / 15\n\n\n9\nAparelhos médico-cirúrgicos — a contagem dos 15 tipos da Ficha, mais a grelha de verificação do equipamento básico e oito itens novos\n39 / 16\n\n\n10\nMeios de transporte — os 7 tipos de veículo da Ficha com três colunas de estado, as linhas abertas, e o plano de manutenção de veículos\n36 / 24\n\n\n11 e 12\nResponsáveis e contactos — o responsável técnico da unidade, as pessoas que responderam ao inquérito, o responsável do preenchimento\n34 / 24\n\n\n13\nConectividade e meios informáticos — computadores, internet, telefone, sistemas de informação em uso\n36\n\n\n\nEm síntese, o conjunto da proposta soma cerca de 650 campos para toda a rede — número que só faz sentido lido com a nota sobre as portas e os saltos: nenhuma unidade sanitária responde a mais do que uma fracção deles.\nTrês observações sobre estes cinco domínios, que a revisão pode já considerar sem esperar pela transcrição:\nDomínios 8 e 9 são os dois lugares em que a Ficha é mais granular do que o instrumento internacional. A Ficha conta camas e aparelhos; o instrumento internacional verifica a presença de um. A proposta soma a verificação à contagem, não troca uma pela outra — e é por isso que os quatro itens que também entram na grelha de verificação conservam a sua caixa de quantidade.\nO domínio 10 é, por inteiro, contributo próprio. Não existe um único indicador internacional de contagem de frota. A informação é essencial à gestão logística da rede e nenhum instrumento internacional a recolhe.\nOs domínios 11 e 12 não geram nem devem gerar indicador. A sua função é permitir contactar as pessoas certas quando surgir um problema com os dados recolhidos, e é por esse critério que devem ser avaliados.",
+    "text": "8.0.1 Internamento — porta NOVO\nA secção passa a ter uma pergunta-porta sobre o internamento. As unidades sem internamento respondem só às perguntas sobre camas de observação, macas e equipamentos de exame; as unidades com internamento contam também as camas por tamanho, por enfermaria e por sexo da enfermaria.\n35 campos numa unidade com internamento e 15 numa unidade sem internamento, contra 16 na Ficha 19_01.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Domínios 8 a 13 — por transcrever nesta edição</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/08-recursos-cama.html#internamento-porta-novo",
+    "href": "formulario/08-recursos-cama.html#internamento-porta-novo",
+    "title": "Secção 8 — Recursos cama e similares",
+    "section": "",
+    "text": "O que este quesito permite medir\n\nPercentagem de unidades sanitárias que oferecem algum serviço de internamento. É a resposta a esta pergunta — e não o tipo de unidade — que decide o percurso da secção, porque há postos de saúde com camas e centros de saúde sem internamento.\nIndicador do HHFA: 1.3.1.1.2\n\n\nPergunta · ler ao respondente\nEsta unidade sanitária tem internamento, isto é, doentes que pernoitam na unidade sob cuidados da unidade?\n\n\nOpções de resposta\n\nSim\n\n\n\nNão\n\n\n\nInstrução ao inquiridor (não ler para o respondente) — Se a resposta for «Não», passar directamente ao quesito 8.3.\n\n\nPorque é necessária. A Ficha passa directamente à contagem de camas. Com a porta, uma unidade sem internamento salta as perguntas sobre camas de internamento e responde apenas às que se aplicam a todas as unidades.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/08-recursos-cama.html#camas-de-internamento-de-adulto-alterado",
+    "href": "formulario/08-recursos-cama.html#camas-de-internamento-de-adulto-alterado",
+    "title": "Secção 8 — Recursos cama e similares",
+    "section": "8.1.1 Camas de internamento de adulto ALTERADO",
+    "text": "8.1.1 Camas de internamento de adulto ALTERADO\n\n\nO que este quesito permite medir\n\nNúmero de camas de internamento de tamanho adulto instaladas em cada unidade. Cruzado com a população da área de abrangência (secção 3), dá as camas de internamento por 10 000 habitantes.\nIndicadores do HHFA: 1.1.2.1.1 · 1.1.1.1.3\n\n\nPergunta · ler ao respondente\nQuantas camas de internamento de tamanho adulto, instaladas e disponíveis para receber doentes no dia da visita, existem nesta unidade sanitária?\n\n\nInstrução ao inquiridor (não ler para o respondente) — Contar apenas camas permanentes, propriedade da unidade, em área ou sala de internamento, observadas no local na altura da visita. Não contar «espaço para camas», camas guardadas em armazém nem camas não permanentes (esteiras, marquesas).\n\n\nOpções de resposta\nNúmero inteiro (0–999) · 998 Não sabe\n\n\nPorque mudou. Mantém-se a definição do Guião. Acrescenta-se apenas «de tamanho adulto», para separar estas camas das pediátricas, contadas em 8.1.2.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/08-recursos-cama.html#camas-pediátricas-e-berços-de-lactentes-novo",
+    "href": "formulario/08-recursos-cama.html#camas-pediátricas-e-berços-de-lactentes-novo",
+    "title": "Secção 8 — Recursos cama e similares",
+    "section": "8.1.2 Camas pediátricas e berços de lactentes NOVO",
+    "text": "8.1.2 Camas pediátricas e berços de lactentes NOVO\n\n\nO que este quesito permite medir\n\nNúmero de camas de tamanho pediátrico e de berços para lactentes instalados em cada unidade.\nIndicador do HHFA: 1.1.2.1.2\n\n\nPergunta · ler ao respondente\nAlém dessas, quantas camas de tamanho pediátrico ou berços para lactentes, instalados e disponíveis no dia da visita, existem nesta unidade sanitária?\n\n\nInstrução ao inquiridor (não ler para o respondente) — Não incluir os berços de recém-nascidos, que são contados em 8.1.3.\n\n\nOpções de resposta\nNúmero inteiro (0–999) · 998 Não sabe\n\n\nPorque é necessária. A Ficha não separa as camas pediátricas. Aqui contam-se pelo tamanho da cama; em 8.2 contam-se também pela enfermaria. As duas leituras servem fins diferentes e ambas ficam disponíveis.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/08-recursos-cama.html#berços-para-recém-nascidos-alterado",
+    "href": "formulario/08-recursos-cama.html#berços-para-recém-nascidos-alterado",
+    "title": "Secção 8 — Recursos cama e similares",
+    "section": "8.1.3 Berços para recém-nascidos ALTERADO",
+    "text": "8.1.3 Berços para recém-nascidos ALTERADO\n\n\nO que este quesito permite medir\n\nNúmero de berços ou camas para recém-nascidos instalados em cada unidade.\nIndicador do HHFA: 1.1.2.1.3\n\n\nPergunta · ler ao respondente\nQuantos berços ou camas para recém-nascidos, instalados e disponíveis no dia da visita, existem nesta unidade sanitária?\n\n\nOpções de resposta\nNúmero inteiro (0–999) · 998 Não sabe\n\n\nPorque mudou. O quesito já existe. Acrescenta-se o momento de referência — o dia da visita — e a distinção face aos berços de lactentes de 8.1.2, para que a mesma criança não seja contada duas vezes.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/08-recursos-cama.html#camas-autorizadas-novo",
+    "href": "formulario/08-recursos-cama.html#camas-autorizadas-novo",
+    "title": "Secção 8 — Recursos cama e similares",
+    "section": "8.1.4 Camas autorizadas NOVO",
+    "text": "8.1.4 Camas autorizadas NOVO\n\n\nO que este quesito permite medir\n\nNúmero de camas de internamento de adulto autorizadas para a unidade no seu quadro oficial. Comparado com 8.1.1, mostra a diferença entre o que está autorizado e o que está instalado.\nIndicador do HHFA: nenhum · medida própria do Mapa Sanitário\n\n\nPergunta · ler ao respondente\nQuantas camas de internamento de adulto estão autorizadas ou aprovadas para esta unidade sanitária, segundo o seu quadro oficial?\n\n\nOpções de resposta\nNúmero inteiro (0–999) · 998 Não sabe\n\n\nPara que serve. A distância entre as camas autorizadas e as instaladas é informação de planeamento que hoje não é recolhida.\nVerificação a programar. Assinalar quando 8.1.1 for maior que 8.1.4.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/08-recursos-cama.html#camas-por-enfermaria-ou-serviço-novo",
+    "href": "formulario/08-recursos-cama.html#camas-por-enfermaria-ou-serviço-novo",
+    "title": "Secção 8 — Recursos cama e similares",
+    "section": "8.2 Camas por enfermaria ou serviço NOVO",
+    "text": "8.2 Camas por enfermaria ou serviço NOVO\n\n\nO que este quesito permite medir\n\nNúmero de camas de internamento em cada enfermaria ou serviço. Nove das doze linhas geram indicadores do HHFA; medicina, ginecologia e pediatria são medida própria do Mapa Sanitário.\n\n\nVer os 9 indicadores\n\n\n1.1.2.2.1 — camas dedicadas de maternidade (linha 3)\n1.1.2.2.2 — camas dedicadas de cirurgia (linha 2)\n1.1.2.2.3 — camas dedicadas de psiquiatria (linha 6)\n1.1.2.2.4 — camas dedicadas do serviço de urgência (linha 7)\n1.1.2.2.5 — camas dedicadas de cuidados intensivos de adultos (linha 8)\n1.1.2.2.6 — camas dedicadas de cuidados intensivos pediátricos (linha 11)\n1.1.2.2.7 — berços dedicados de cuidados intensivos neonatais (linha 12)\n1.1.2.2.8 — camas dedicadas de cuidados intermédios ou de alta dependência (linha 9)\n1.1.2.2.9 — camas dedicadas de isolamento (linha 10)\n\n\nIndicadores do HHFA: 1.1.2.2.1 a 1.1.2.2.9\n\n\nPergunta · ler ao respondente\nQuantas camas de internamento, instaladas e disponíveis no dia da visita, existem em cada uma das seguintes enfermarias ou serviços desta unidade sanitária?\n\n\nGrelha de resposta\n\n\n\n\n\n\n\n\n\nN.º\nEnfermaria ou serviço\nNúmero de camas (0–999)\n998 · Não sabe\n\n\n\n\n1\nMedicina ou clínica médica\n___\n☐\n\n\n2\nCirurgia\n___\n☐\n\n\n3\nObstetrícia e maternidade\n___\n☐\n\n\n4\nGinecologia\n___\n☐\n\n\n5\nPediatria\n___\n☐\n\n\n6\nPsiquiatria\n___\n☐\n\n\n7\nBanco de urgência (camas de pernoita)\n___\n☐\n\n\n8\nUnidade de cuidados intensivos de adultos\n___\n☐\n\n\n9\nCuidados intermédios ou de alta dependência\n___\n☐\n\n\n10\nIsolamento\n___\n☐\n\n\n11\nUnidade de cuidados intensivos pediátricos\n___\n☐\n\n\n12\nUnidade de cuidados intensivos neonatais\n___\n☐\n\n\n\n\n\nPorque é necessária. A Ficha conta o total de camas sem as distribuir por enfermaria. A distribuição mostra que serviços de internamento cada unidade tem de facto e com que dimensão.\nVerificações a programar. A soma das linhas de adulto não pode exceder 8.1.1; a linha 11 não pode exceder 8.1.2; a linha 12 não pode exceder 8.1.3.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/08-recursos-cama.html#b-camas-de-adulto-por-sexo-da-enfermaria-novo",
+    "href": "formulario/08-recursos-cama.html#b-camas-de-adulto-por-sexo-da-enfermaria-novo",
+    "title": "Secção 8 — Recursos cama e similares",
+    "section": "8.2b Camas de adulto por sexo da enfermaria NOVO",
+    "text": "8.2b Camas de adulto por sexo da enfermaria NOVO\n\n\nO que este quesito permite medir\n\nDistribuição das camas de internamento de adulto por enfermaria masculina, feminina e mista — leitura da ocupação e da privacidade por sexo.\nIndicador do HHFA: nenhum · medida própria do Mapa Sanitário\n\n\nPergunta · ler ao respondente\nAinda sobre as camas de internamento de adulto contadas em 8.1.1, quantas estão em enfermaria masculina, quantas em enfermaria feminina e quantas em enfermaria mista?\n\n\nGrelha de resposta\n\n\n\nN.º\nEnfermaria\nNúmero de camas (0–999)\n998 · Não sabe\n\n\n\n\n1\nMasculina\n___\n☐\n\n\n2\nFeminina\n___\n☐\n\n\n3\nMista\n___\n☐\n\n\n\n\n\nPorque é necessária. A mesma cama é classificada por enfermaria ou serviço em 8.2 e por sexo da enfermaria aqui, em duas perguntas separadas sobre o mesmo total. Assim cada caixa tem uma resposta única, sem obrigar a cruzar os dois critérios numa só grelha.\nVerificação a programar. A soma das três linhas deve ser igual a 8.1.1.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/08-recursos-cama.html#e-8.3.2-camas-de-observação-e-de-curta-estadia-alterado",
+    "href": "formulario/08-recursos-cama.html#e-8.3.2-camas-de-observação-e-de-curta-estadia-alterado",
+    "title": "Secção 8 — Recursos cama e similares",
+    "section": "8.3.1 e 8.3.2 Camas de observação e de curta estadia ALTERADO",
+    "text": "8.3.1 e 8.3.2 Camas de observação e de curta estadia ALTERADO\n\n\nO que este quesito permite medir\n\nCapacidade de observação até 24 horas e de curta estadia até 72 horas, em todas as unidades sanitárias — muitas vezes a única capacidade de permanência de um posto ou de um centro de saúde.\nIndicador do HHFA: nenhum · medida própria do Mapa Sanitário\n\n\nPergunta · ler ao respondente\n8.3.1 Quantas camas ou marquesas de observação, até 24 horas, existem nesta unidade sanitária?\n8.3.2 Quantas camas de curta estadia, até 72 horas, existem nesta unidade sanitária?\n\n\nInstrução ao inquiridor (não ler para o respondente) — Fazer estas perguntas a todas as unidades, com ou sem internamento.\n\n\nOpções de resposta\nPara cada uma: número inteiro (0–999) · 998 Não sabe\n\n\nPorque mudou. O Guião já distingue a observação até 24 horas da curta estadia até 72 horas; a Ficha tem uma só caixa para as duas. Passam a ter uma caixa cada.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/08-recursos-cama.html#camas-de-observação-com-pernoita-novo",
+    "href": "formulario/08-recursos-cama.html#camas-de-observação-com-pernoita-novo",
+    "title": "Secção 8 — Recursos cama e similares",
+    "section": "8.3.3 Camas de observação com pernoita NOVO",
+    "text": "8.3.3 Camas de observação com pernoita NOVO\n\n\nO que este quesito permite medir\n\nNúmero de camas de observação e de curta estadia habitualmente ocupadas por doentes que pernoitam na unidade. Permite somar estas camas às de internamento quando há pernoita, como faz o instrumento internacional, sem alterar a série nacional.\nIndicador do HHFA: nenhum por si · permite comparar 8.1.1 e a linha 7 de 8.2 com os indicadores 1.1.2.1.1 e 1.1.2.2.4\n\n\nPergunta · ler ao respondente\nDessas camas de observação e de curta estadia, quantas são habitualmente ocupadas por doentes que pernoitam na unidade?\n\n\nOpções de resposta\nNúmero inteiro (0–999) · 998 Não sabe\n\n\nPara que serve. O Guião exclui as camas de observação das camas de internamento; o instrumento internacional conta-as quando os doentes pernoitam. Com este campo ficam disponíveis as duas leituras: a nacional, que mantém a série das edições anteriores, e a internacional.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/08-recursos-cama.html#macas-marquesas-e-cadeiras-de-estomatologia-novo",
+    "href": "formulario/08-recursos-cama.html#macas-marquesas-e-cadeiras-de-estomatologia-novo",
+    "title": "Secção 8 — Recursos cama e similares",
+    "section": "8.4 Macas, marquesas e cadeiras de estomatologia NOVO",
+    "text": "8.4 Macas, marquesas e cadeiras de estomatologia NOVO\n\n\nO que este quesito permite medir\n\nNúmero de equipamentos de exame existentes e a funcionar em cada unidade. A verificação destes equipamentos em cada serviço — consulta pré-natal, parto, rastreio do cancro do colo do útero — faz-se na secção 7.\nIndicador do HHFA: nenhum · medida própria do Mapa Sanitário\n\n\nPergunta · ler ao respondente\nPara cada um dos seguintes equipamentos, quantos existem nesta unidade sanitária e quantos estão a funcionar no dia da visita?\n\n\nGrelha de resposta\n\n\n\n\n\n\n\n\n\nN.º\nEquipamento\nNúmero existente (0–99)\nNúmero a funcionar (0–99)\n\n\n\n\n1\nMaca para exame físico\n__\n__\n\n\n2\nMaca ou mesa para exame ginecológico\n__\n__\n\n\n3\nMarquesa de parto\n__\n__\n\n\n4\nCadeira de estomatologia\n__\n__\n\n\n\n\n\nPorque mudou. A Ficha conta marquesas de parto e cadeiras de estomatologia junto das camas. Aqui separam-se: a cama é lugar de estadia, a maca é lugar de exame. Acrescentam-se a maca para exame físico e a maca ou mesa para exame ginecológico, e a coluna «a funcionar» estende a todos os equipamentos a indicação do Guião sobre o estado de funcionamento da cadeira de estomatologia.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/08-recursos-cama.html#camas-em-armazém-ou-fora-de-uso-novo",
+    "href": "formulario/08-recursos-cama.html#camas-em-armazém-ou-fora-de-uso-novo",
+    "title": "Secção 8 — Recursos cama e similares",
+    "section": "8.5 Camas em armazém ou fora de uso NOVO",
+    "text": "8.5 Camas em armazém ou fora de uso NOVO\n\n\nO que este quesito permite medir\n\nNúmero de camas de internamento guardadas em armazém ou fora de uso — a capacidade latente de expansão de cada unidade.\nIndicador do HHFA: nenhum · medida própria do Mapa Sanitário\n\n\nPergunta · ler ao respondente\nAlém das camas contadas acima, quantas camas de internamento estão guardadas em armazém ou fora de uso nesta unidade sanitária?\n\n\nOpções de resposta\nNúmero inteiro (0–999) · 998 Não sabe\n\n\nPorque é necessária. O Guião manda registar «aparte» as camas guardadas em armazém. Uma caixa própria dá-lhes lugar no formulário e evita que entrem na contagem de 8.1.1.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/08-recursos-cama.html#outros-recursos-de-estadia-ou-de-exame-alterado",
+    "href": "formulario/08-recursos-cama.html#outros-recursos-de-estadia-ou-de-exame-alterado",
+    "title": "Secção 8 — Recursos cama e similares",
+    "section": "8.6 Outros recursos de estadia ou de exame ALTERADO",
+    "text": "8.6 Outros recursos de estadia ou de exame ALTERADO\n\n\nO que este quesito permite medir\n\nOutros recursos de estadia ou de exame relevantes na unidade que não tenham lugar nas perguntas anteriores.\nIndicador do HHFA: nenhum · medida própria do Mapa Sanitário\n\n\nPergunta · ler ao respondente\nExiste algum outro recurso de estadia ou de exame, relevante nesta unidade, que não tenha sido contemplado nas perguntas anteriores? Se sim, indique a designação e a quantidade.\n\n\nOpções de resposta\nDesignação (texto) · Número inteiro (0–999)\n\n\nPorque mudou. A Ficha tem cinco linhas abertas. Com as camas por enfermaria e por sexo, a observação, a curta estadia e os equipamentos de exame em perguntas próprias, uma linha aberta é suficiente.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/08-recursos-cama.html#observações-mantém-se",
+    "href": "formulario/08-recursos-cama.html#observações-mantém-se",
+    "title": "Secção 8 — Recursos cama e similares",
+    "section": "8.7 Observações MANTÉM-SE",
+    "text": "8.7 Observações MANTÉM-SE\n\nPergunta · ler ao respondente\nObservações sobre os recursos cama e de exame desta unidade sanitária.\n\n\nInstrução ao inquiridor (não ler para o respondente) — Registar o que não cabe nas caixas: obras em curso, enfermarias fechadas, camas emprestadas.\n\n\nOpções de resposta\nTexto livre",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/09-13-por-transcrever.html",
+    "href": "formulario/09-13-por-transcrever.html",
+    "title": "Domínios 9 a 13 — por transcrever nesta edição",
+    "section": "",
+    "text": "DicaLegenda\n\n\n\n\n\nCaixa cinzenta: o que se lê ao respondente. Itálico: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.\nEtiquetas: NOVO não existe na Ficha 19_01 · ALTERADO existe e muda · MANTÉM-SE existe e não muda · A DECIDIR depende desta revisão · PARQUEADO fica para depois.\n\n\n\nOs domínios seguintes estão integralmente escritos na matriz de decisão da adaptação e serão transcritos para este formato na próxima edição do documento. Ficam aqui identificados com o respectivo volume, para que a leitura da proposta não pareça incompleta onde não está.\n\n\n\n\n\n\n\n\nDomínio\nConteúdo\nCampos propostos / na Ficha\n\n\n\n\n9\nAparelhos médico-cirúrgicos — a contagem dos 15 tipos da Ficha, mais a grelha de verificação do equipamento básico e oito itens novos\n39 / 16\n\n\n10\nMeios de transporte — os 7 tipos de veículo da Ficha com três colunas de estado, as linhas abertas, e o plano de manutenção de veículos\n36 / 24\n\n\n11 e 12\nResponsáveis e contactos — o responsável técnico da unidade, as pessoas que responderam ao inquérito, o responsável do preenchimento\n34 / 24\n\n\n13\nConectividade e meios informáticos — computadores, internet, telefone, sistemas de informação em uso\n36\n\n\n\nEm síntese, o conjunto da proposta soma cerca de 650 campos para toda a rede — número que só faz sentido lido com a nota sobre as portas e os saltos: nenhuma unidade sanitária responde a mais do que uma fracção deles.\nTrês observações sobre estes domínios, que a revisão pode já considerar sem esperar pela transcrição:\nNo domínio 9, como no 8, a Ficha conta e o instrumento internacional verifica. A Ficha conta os aparelhos; o instrumento internacional verifica a presença de um. A proposta soma a verificação à contagem, não troca uma pela outra — e é por isso que os quatro itens que também entram na grelha de verificação conservam a sua caixa de quantidade.\nO domínio 10 é, por inteiro, contributo próprio. Não existe um único indicador internacional de contagem de frota. A informação é essencial à gestão logística da rede e nenhum instrumento internacional a recolhe.\nOs domínios 11 e 12 não geram nem devem gerar indicador. A sua função é permitir contactar as pessoas certas quando surgir um problema com os dados recolhidos, e é por esse critério que devem ser avaliados.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Domínios 9 a 13 — por transcrever nesta edição</span>"
     ]
   }
 ]

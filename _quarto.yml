@@ -33,7 +33,8 @@ book:
         - formulario/07-3-1-vacinacao.qmd
         - formulario/07-3-saude-publica.qmd
     - formulario/07-4-5-gestao-servicos-gerais.qmd
-    - formulario/08-13-por-transcrever.qmd
+    - formulario/08-recursos-cama.qmd
+    - formulario/09-13-por-transcrever.qmd
 
 format:
   html:

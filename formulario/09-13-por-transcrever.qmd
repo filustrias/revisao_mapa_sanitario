@@ -1,5 +1,5 @@
 ---
-title: "Domínios 8 a 13 — por transcrever nesta edição"
+title: "Domínios 9 a 13 — por transcrever nesta edição"
 ---
 
 {{< include ../_legenda.qmd >}}
@@ -8,7 +8,6 @@ Os domínios seguintes estão integralmente escritos na matriz de decisão da ad
 
 | Domínio | Conteúdo | Campos propostos / na Ficha |
 |---|---|---|
-| **8** | Recursos cama e similares — camas de internamento, berços, decomposição por enfermaria e por sexo, observação e curta estadia, macas e mesas de exame, camas em armazém | 35 / 15 |
 | **9** | Aparelhos médico-cirúrgicos — a contagem dos 15 tipos da Ficha, mais a grelha de verificação do equipamento básico e oito itens novos | 39 / 16 |
 | **10** | Meios de transporte — os 7 tipos de veículo da Ficha com três colunas de estado, as linhas abertas, e o plano de manutenção de veículos | 36 / 24 |
 | **11 e 12** | Responsáveis e contactos — o responsável técnico da unidade, as pessoas que responderam ao inquérito, o responsável do preenchimento | 34 / 24 |
@@ -16,9 +15,9 @@ Os domínios seguintes estão integralmente escritos na matriz de decisão da ad
 
 Em síntese, o conjunto da proposta soma **cerca de 650 campos** para toda a rede — número que só faz sentido lido com a nota sobre as portas e os saltos: nenhuma unidade sanitária responde a mais do que uma fracção deles.
 
-Três observações sobre estes cinco domínios, que a revisão pode já considerar sem esperar pela transcrição:
+Três observações sobre estes domínios, que a revisão pode já considerar sem esperar pela transcrição:
 
-**Domínios 8 e 9 são os dois lugares em que a Ficha é mais granular do que o instrumento internacional.** A Ficha **conta** camas e aparelhos; o instrumento internacional **verifica** a presença de um. A proposta soma a verificação à contagem, não troca uma pela outra — e é por isso que os quatro itens que também entram na grelha de verificação conservam a sua caixa de quantidade.
+**No domínio 9, como no 8, a Ficha conta e o instrumento internacional verifica.** A Ficha **conta** os aparelhos; o instrumento internacional **verifica** a presença de um. A proposta soma a verificação à contagem, não troca uma pela outra — e é por isso que os quatro itens que também entram na grelha de verificação conservam a sua caixa de quantidade.
 
 **O domínio 10 é, por inteiro, contributo próprio.** Não existe um único indicador internacional de contagem de frota. A informação é essencial à gestão logística da rede e nenhum instrumento internacional a recolhe.
 

@@ -41,13 +41,13 @@ feita primeiro na matriz e só depois transcrita para aqui, para que as duas nã
 
 ## Estado
 
-Transcritos: secções 0 a 7 (identificação da recolha, localização, propriedade e gestão,
-população e referência, construção, estado físico, água e saneamento, e os cinco blocos
-de serviços oferecidos, com a gestão e os serviços gerais num capítulo próprio).
+Transcritos: secções 0 a 8 (identificação da recolha, localização, propriedade e gestão,
+população e referência, construção, estado físico, água e saneamento, serviços oferecidos e
+recursos cama).
 
-Por transcrever: domínios 8 a 13 (camas, aparelhos médico-cirúrgicos, meios de transporte,
-responsáveis e contactos, conectividade), identificados em `formulario/08-13-por-transcrever.qmd` com o
-respectivo volume.
+Por transcrever: domínios 9 a 13 (aparelhos médico-cirúrgicos, meios de transporte,
+responsáveis e contactos, conectividade), identificados em `formulario/09-13-por-transcrever.qmd`
+com o respectivo volume.
 
 ## Comentários
 

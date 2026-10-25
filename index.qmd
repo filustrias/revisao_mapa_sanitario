@@ -11,7 +11,7 @@ O capítulo seguinte mostra, secção a secção e quesito a quesito, **o que se
 O que este documento **não** é: não é a justificação técnica de cada decisão de desenho. Essa está na matriz de decisão da adaptação, uma folha de cálculo com uma linha por quesito e catorze colunas, que registra o item original, o item proposto, o tipo de mudança, o indicador gerado, a explicação da decisão e o seu estado. A matriz é a fonte; este documento é a face legível dela. Quando um comentário aqui diz que um quesito foi reformulado, a razão completa está na coluna «Explicação» da linha correspondente da matriz.
 
 ::: {.callout-note appearance="simple"}
-**Estado da proposta.** A secção 7 — serviços oferecidos — está escrita por inteiro. Os domínios 0 a 6 e 8 a 13 estão escritos. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.
+**Estado da proposta.** As secções 0 a 8 estão transcritas por inteiro. Os domínios 9 a 13 estão escritos na matriz e serão transcritos a seguir; a página «Domínios 9 a 13» identifica-os com o respectivo volume. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.
 :::
 
 ## Um formulário único para toda a rede

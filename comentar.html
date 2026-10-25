@@ -154,7 +154,7 @@
   // Quesitos: títulos de nível 2 que começam por um código («0.1», «7.2.C.0», «1.1 a 1.5»)
   document.querySelectorAll("main h2").forEach(function (h) {
     const texto = textoDo(h);
-    if (/^\d+(\.[0-9A-Z]+)+\b/.test(texto)) h.appendChild(botao(texto, "Comentar"));
+    if (/^\d+(\.[0-9A-Za-z]+)+\b/.test(texto)) h.appendChild(botao(texto, "Comentar"));
   });
 
   // Comentário geral ao capítulo, junto ao título, com a identificação actual
