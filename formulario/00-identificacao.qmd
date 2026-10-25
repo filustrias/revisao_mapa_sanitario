@@ -4,40 +4,16 @@ title: "Secção 0 — Identificação da recolha"
 
 {{< include ../_legenda.qmd >}}
 
-A secção 0 deixa de ser um cabeçalho administrativo e passa a ser o bloco que identifica a recolha. Nenhum dos seus campos gera indicador, e nenhum deve: é esta secção que torna os outros calculáveis — o campo 0.5 diz se a verificação física foi possível, e o 0.6 diz se a unidade entra no denominador.
+A secção identifica a recolha: quando, como e por quem foi feita, e em que situação estava a unidade sanitária. À excepção da data da visita anterior (0.7), os campos são preenchidos pelo inquiridor, sem perguntar ao respondente.
 
-[15 campos, contra 4 na Ficha 19_01.]{.campos}
-
-<details class="medir-seccao">
-<summary>O que esta secção permite medir</summary>
-
-| Quesito | O que se obtém |
-|---|---|
-| 0.1 | Data de referência de todos os períodos do instrumento |
-| 0.3 e 0.4 | Duração do preenchimento, por tipo de unidade e por forma de recolha |
-| 0.5 | Forma de recolha — separa o observado do declarado no cálculo dos indicadores |
-| 0.6 | Situação da unidade — define o universo de todos os indicadores |
-| 0.7 | Intervalo entre visitas e unidades nunca visitadas |
-| 0.8 | Rastreabilidade da recolha e qualidade dos dados por equipa |
-| 0.2 | Unidades com orçamento próprio (quesito parqueado) |
-
-</details>
+[14 campos, contra 3 na Ficha 19_01.]{.campos}
 
 ## 0.1 Data desta recolha [ALTERADO]{.etiqueta .alterado}
 
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Data em que a informação foi recolhida. É a data contra a qual se interpretam todos os períodos de referência do instrumento — «no dia da visita», «no último mês», «nos últimos 3 meses».
-
-Indicador do HHFA: nenhum · data de referência da recolha
-
-</details>
-
 ::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
+[Campo · preenchido pelo inquiridor]{.rotulo}
 
-Qual é a data em que esta ficha foi preenchida ou em que esta unidade sanitária foi visitada?
+Data em que esta ficha foi preenchida ou em que esta unidade sanitária foi visitada.
 :::
 
 ::: {.respostas .rotulado}
@@ -49,30 +25,19 @@ Qual é a data em que esta ficha foi preenchida ou em que esta unidade sanitári
 :::
 
 ::: {.nota}
-**Porque mudou.** As três caixas e os códigos mantêm-se. O enunciado passa a dizer explicitamente que a data é a desta recolha, porque o Guião, na apresentação da estrutura da ficha (folha 2), prevê também o registo da data da visita **anterior** à unidade e de uma caixa «Marcar se a unidade nunca foi visitada anteriormente». A proposta dá lugar às duas informações: 0.1 é a data desta recolha, e a data da visita anterior ganha lugar próprio em 0.7.
-
-**Consequência.** Sem este campo bem definido, nenhuma expressão de período de referência do instrumento — «no dia da visita», «no último mês», «nos últimos 3 meses» — é interpretável.
+**Porque mudou.** As três caixas e os códigos mantêm-se. O enunciado passa a dizer que a data é a desta recolha; a data da visita anterior, que o Guião também prevê (folha 2), passa para 0.7.
 
 **Verificação a programar.** A data não pode ser posterior à data de carregamento no sistema.
 :::
 
 ## 0.3 e 0.4 Hora de início e de fim [NOVO]{.etiqueta .novo}
 
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Duração do preenchimento, por tipo de unidade e por forma de recolha — para planear as rondas seguintes e para assinalar fichas preenchidas em tempo demasiado curto.
-
-Indicador do HHFA: nenhum · medida de planeamento e de qualidade do dado
-
-</details>
-
 ::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
+[Campo · preenchido pelo inquiridor]{.rotulo}
 
-**0.3** A que hora começou o preenchimento desta ficha?
+**0.3** Hora a que começou o preenchimento desta ficha.
 
-**0.4** A que hora terminou o preenchimento desta ficha?
+**0.4** Hora a que terminou o preenchimento desta ficha.
 :::
 
 ::: {.respostas .rotulado}
@@ -82,26 +47,17 @@ Indicador do HHFA: nenhum · medida de planeamento e de qualidade do dado
 :::
 
 ::: {.nota}
-**Para que serve.** Duas caixas que dão de graça a duração do preenchimento, que é a informação de que precisaremos para planear a ronda seguinte: quanto tempo leva de facto o instrumento, por tipo de unidade e por forma de recolha. É também uma medida de qualidade — um formulário desta extensão preenchido em oito minutos merece verificação.
+**Para que serve.** Dá a duração do preenchimento, por tipo de unidade e por forma de recolha, para planear as rondas seguintes e assinalar fichas preenchidas em tempo demasiado curto.
 
 **Verificação a programar.** A hora de fim não pode ser anterior à hora de início.
 :::
 
 ## 0.5 Forma de recolha [NOVO]{.etiqueta .novo}
 
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Distingue as unidades visitadas, com observação dos itens, das que responderam por declaração. Não gera indicador, mas decide o denominador dos indicadores que exigem verificação: entram apenas as unidades em que a verificação foi possível.
-
-Indicador do HHFA: nenhum · condiciona o denominador dos indicadores observados
-
-</details>
-
 ::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
+[Campo · preenchido pelo inquiridor]{.rotulo}
 
-De que forma foi feita esta recolha de dados?
+Forma como foi feita esta recolha de dados.
 :::
 
 ::: {.respostas .rotulado}
@@ -126,19 +82,10 @@ De que forma foi feita esta recolha de dados?
 
 ## 0.6 Situação da unidade no momento da recolha [NOVO]{.etiqueta .novo}
 
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Define o universo da análise: só as unidades encontradas entram no denominador dos indicadores. Por si, mede a actualidade do próprio Mapa Sanitário — quantas unidades do registo correspondem a unidades a funcionar.
-
-Indicador do HHFA: nenhum · define o universo de todos os indicadores
-
-</details>
-
 ::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
+[Campo · preenchido pelo inquiridor]{.rotulo}
 
-Qual era a situação desta unidade sanitária no momento da recolha?
+Situação desta unidade sanitária no momento da recolha.
 :::
 
 ::: {.respostas .rotulado}
@@ -151,22 +98,11 @@ Qual era a situação desta unidade sanitária no momento da recolha?
 5. Inacessível — estrada cortada, insegurança ou outro motivo
 :::
 
-::: {.nota}
-**O que acontece com cada resposta.** Se a resposta for 4 ou 5, o resto da ficha fica vazio e a unidade não entra no denominador de nenhum indicador.
-
-**Porque é necessário.** Um cadastro envelhece: há unidades que fecham, que mudam de local, que não são encontradas. Hoje uma unidade fechada fica com a ficha em branco, indistinguível de uma ficha que não foi devolvida. Este campo separa as duas coisas e define o universo analítico de todos os indicadores, cuja formulação é «entre todas as unidades». Serve também, por si, de medida da qualidade do próprio Mapa Sanitário — quantas unidades do registo correspondem a unidades a funcionar.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for 4 ou 5, terminar a ficha aqui.
 :::
 
 ## 0.7 Data da visita anterior [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Intervalo entre visitas, cruzado com 0.1, e número de unidades nunca visitadas — a medida directa da cobertura e da actualidade do cadastro.
-
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-
-</details>
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -188,28 +124,17 @@ Qual foi a data da visita anterior a esta unidade sanitária?
 :::
 
 ::: {.nota}
-**Origem.** Dá lugar próprio àquilo que o Guião já descreve na folha 2 e que o formulário impresso não acolhe — a data da visita anterior e a caixa «nunca visitada».
-
-**Para que serve.** Cruzado com 0.1, dá o intervalo entre visitas, que é a medida directa da actualidade do cadastro. E identifica as unidades que nunca foram visitadas, que são justamente as que mais precisam de o ser.
+**Para que serve.** Cruzada com 0.1, dá o intervalo entre visitas, e identifica as unidades que nunca foram visitadas. O Guião já prevê esta informação (folha 2).
 
 **Verificação a programar.** Se 0.7.4 estiver marcada, 0.7.1 a 0.7.3 ficam vazias, e vice-versa.
 :::
 
 ## 0.8 Quem recolheu os dados [NOVO]{.etiqueta .novo}
 
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Quem recolheu e a que nível pertence. Permite devolver dúvidas a quem as pode esclarecer e ler a qualidade dos dados por equipa de recolha.
-
-Indicador do HHFA: nenhum · rastreabilidade da recolha
-
-</details>
-
 ::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
+[Campo · preenchido pelo inquiridor]{.rotulo}
 
-Quem recolheu os dados desta ficha?
+Identificação de quem recolheu os dados desta ficha.
 :::
 
 ::: {.respostas .rotulado}
@@ -230,40 +155,5 @@ Quem recolheu os dados desta ficha?
 :::
 
 ::: {.nota}
-**Para que serve.** Três campos que fecham a rastreabilidade da recolha pelo lado de quem recolhe, tal como a secção 11 a fecha pelo lado da unidade. Permitem devolver uma inconsistência a quem a pode esclarecer, e ler a qualidade dos dados por equipa de recolha — que é o que torna possível corrigir a formação entre uma ronda e a seguinte.
-
-**Nota de desenho.** O 0.8.2 é de lista fechada de propósito: distinguir uma ficha recolhida pelo nível municipal de uma preenchida pela própria unidade é a informação mais útil deste trio, e articula-se directamente com 0.5.
-:::
-
-## 0.2 Orçamento próprio [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Número e percentagem de unidades sanitárias com orçamento próprio. No HHFA, o tema pertence à área 4.2, sistemas financeiros e contabilísticos, que o explora com mais detalhe; o quesito fica à espera do bloco de gestão e finanças.
-
-Indicador do HHFA: nenhum nesta fase · quesito parqueado
-
-</details>
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Esta unidade sanitária tem orçamento próprio?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Tem orçamento próprio
-
-<!-- -->
-
-0. Não tem
-:::
-
-::: {.nota}
-**Mantém-se como está nesta fase, com o código 0.2.** Tematicamente este quesito não pertence à identificação da recolha: é um quesito de finanças e está no cabeçalho por razões de espaço no formulário impresso. A Ficha pergunta apenas se existe orçamento próprio, enquanto o instrumento internacional explora fontes de financiamento, montantes, linhas orçamentais e taxas de utilização.
-
-**Proposta a levar ao GEPE.** Deslocar o quesito para o bloco de gestão e finanças quando esse bloco for desenhado, conservando o código para que nada se perca.
+**Para que serve.** Permite devolver dúvidas a quem recolheu os dados e ler a qualidade dos dados por equipa de recolha.
 :::

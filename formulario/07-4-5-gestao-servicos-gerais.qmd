@@ -258,6 +258,28 @@ As caixas mantêm-se na lista de três níveis. Ficam para o domínio de gestão
 **Equipa ou comissão de gestão** (a partir de 7.4.2 e 7.4.6) — periodicidade e data das reuniões, plano operacional escrito e referência ao plano nas decisões, e sistema de rotina de participação da comunidade na gestão — cerca de 6 campos.
 :::
 
+## 0.2 Orçamento próprio [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária tem orçamento próprio?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Tem orçamento próprio
+
+<!-- -->
+
+0. Não tem
+:::
+
+::: {.nota}
+**Porque está aqui.** Na Ficha, este quesito está no cabeçalho, junto da data da recolha. É um quesito de gestão financeira e passa para esta secção, onde deve ser combinado com outras informações sobre o financiamento da unidade. Conserva o código 0.2 até esse bloco ser desenhado.
+:::
+
 ## Duas pendências desta subsecção
 
 ::: {.nota}
