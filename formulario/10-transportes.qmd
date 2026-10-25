@@ -1,0 +1,147 @@
+---
+title: "Secção 10 — Meios de transporte"
+---
+
+Veículos afectos à unidade sanitária, por tipo e por estado de funcionamento, e manutenção de rotina desses veículos.
+
+[36 campos, contra 24 na Ficha 19_01.]{.campos}
+
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
+
+| Quesito | O que se obtém |
+|---|---|
+| 10.1.1 a 10.1.10 | Frota de cada unidade por tipo de veículo: em funcionamento, avariada com reparação ao alcance da unidade e avariada sem reparação possível |
+| 10.2 | Situações que a contagem não exprime — viaturas partilhadas, cedidas ou imobilizadas por falta de documentação |
+| 10.3.1 e 10.3.2 | Unidades com plano de manutenção de rotina dos veículos e que o cumprem |
+
+</details>
+
+## 10.1.1 a 10.1.7 Veículos por tipo e estado [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Frota de cada unidade sanitária por tipo de veículo e por estado. As colunas 1 e 2 somadas dão o número de veículos funcionais tal como o Guião o define, o que mantém a série das edições anteriores; a coluna 2 mostra, além disso, quantos veículos voltariam a circular com uma reparação ao alcance da unidade.
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Vou perguntar pelos meios de transporte afectos a esta unidade sanitária. Para cada tipo, indique quantos estão em funcionamento hoje, quantos estão avariados com uma avaria que a unidade pode resolver com os seus próprios recursos, e quantos estão avariados sem possibilidade de reparação com os recursos da unidade.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Contar apenas os veículos que pertencem à unidade ou que lhe estão permanentemente afectos. A ambulância define-se pela preparação para o transporte de doentes, e não pelo tipo de viatura. Um veículo imobilizado por falta de documentação não é avaria: não entra em nenhuma coluna e regista-se em 10.2. Em cada caixa, um número de 0 a 97; 98 se não souber.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Tipo de veículo | (1) Em funcionamento hoje | (2) Avariado, reparação ao alcance da unidade | (3) Avariado, sem reparação possível com os recursos da unidade |
+|---|---|:-:|:-:|:-:|
+| 10.1.1 | Ambulâncias — viaturas especificamente preparadas para o transporte de doentes | \_\_ | \_\_ | \_\_ |
+| 10.1.2 | Camiões | \_\_ | \_\_ | \_\_ |
+| 10.1.3 | Viaturas para expediente — viaturas de serviço geral, de caixa aberta ou outras, não preparadas para o transporte de doentes | \_\_ | \_\_ | \_\_ |
+| 10.1.4 | Motorizadas | \_\_ | \_\_ | \_\_ |
+| 10.1.5 | Bicicletas | \_\_ | \_\_ | \_\_ |
+| 10.1.6 | Tractores | \_\_ | \_\_ | \_\_ |
+| 10.1.7 | Carrinhas | \_\_ | \_\_ | \_\_ |
+:::
+
+::: {.nota}
+**Porque mudou.** Os sete tipos de veículo mantêm-se. As duas colunas da Ficha — funcionantes e não funcionantes — passam a três. A definição de funcional do Guião (folha 18) fica preservada e passa a estar escrita na pergunta: um veículo é funcional se está em funcionamento ou tem uma avaria que a unidade pode resolver com os seus recursos. A soma das colunas 1 e 2 corresponde aos «funcionantes» da Ficha e a coluna 3 aos «não funcionantes».
+:::
+
+## 10.1.8 a 10.1.10 Outros meios de transporte [ALTERADO]{.etiqueta .alterado}
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Existe algum outro meio de transporte afecto a esta unidade sanitária que não conste da lista anterior? Se sim, indique a designação e quantos estão em cada situação.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Designação | (1) Em funcionamento hoje | (2) Avariado, reparação ao alcance da unidade | (3) Avariado, sem reparação possível com os recursos da unidade |
+|---|---|:-:|:-:|:-:|
+| 10.1.8 | \_\_\_\_\_\_\_\_\_\_\_\_ | \_\_ | \_\_ | \_\_ |
+| 10.1.9 | \_\_\_\_\_\_\_\_\_\_\_\_ | \_\_ | \_\_ | \_\_ |
+| 10.1.10 | \_\_\_\_\_\_\_\_\_\_\_\_ | \_\_ | \_\_ | \_\_ |
+:::
+
+::: {.nota}
+**Porque mudou.** As três linhas abertas mantêm-se, com a terceira coluna acrescentada, como em 10.1.1 a 10.1.7.
+:::
+
+## 10.2 Observações [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Observações sobre os meios de transporte desta unidade sanitária.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Registar as situações que a contagem não exprime: a viatura partilhada com outra unidade, a ambulância cedida à Direcção Municipal, o veículo em condições mecânicas mas imobilizado por falta de documentação.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Texto livre
+:::
+
+## 10.3.1 e 10.3.2 Manutenção dos veículos [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com plano de manutenção de rotina para algum dos seus veículos e percentagem das que o cumprem rotineiramente. Lida com a coluna das avarias de 10.1, mostra se o problema da frota tende a agravar-se ou a resolver-se.
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+**10.3.1** Esta unidade sanitária segue um plano de manutenção de rotina para algum dos seus veículos? Por manutenção de rotina entende-se a manutenção feita com periodicidade fixa, haja ou não avaria.
+
+**10.3.2** Esta unidade sanitária cumpre o plano de manutenção dos seus veículos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+**10.3.1**
+
+1. Sim
+2. Não
+
+<!-- -->
+
+5. A unidade não tem veículos
+
+**10.3.2**
+
+1. Sim, rotineiramente
+2. Sim, às vezes, mas não rotineiramente
+3. Nunca
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 10.3.1 for «Não» ou «A unidade não tem veículos», terminar a secção sem fazer 10.3.2.
+:::
+
+::: {.nota}
+**Porque é necessária.** A opção «A unidade não tem veículos» evita que uma unidade sem frota seja contada como unidade sem plano de manutenção.
+
+**Verificação a programar.** Se a contagem de 10.1.1 a 10.1.10 for zero em todas as colunas, 10.3.1 tem de ser 5.
+:::
+
+## Pendência desta secção
+
+::: {.nota}
+**Nível a que se regista a frota.** A secção conta apenas os veículos da própria unidade. Para a maioria das unidades de cuidados primários, o que decide a evacuação de um doente é haver uma viatura disponível no município ou na região. A capacidade de chamar um veículo de outro local já está nos quesitos 7.5.1 e 7.5.1.1 (transporte de emergência) e 7.2.E.6 (transporte para referir doentes de urgência). Falta decidir onde se regista a frota ao nível municipal: num quesito à unidade sobre a frota a que tem acesso através do município, ou num instrumento próprio dirigido à Direcção Municipal de Saúde, fora da ficha da unidade.
+:::

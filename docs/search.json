@@ -14,7 +14,7 @@
     "href": "index.html#o-que-é-este-documento",
     "title": "Mapa Sanitário — proposta de revisão do formulário",
     "section": "",
-    "text": "Estado da proposta. As secções 0 a 9 estão transcritas por inteiro. Os domínios 10 a 13 estão escritos na matriz e serão transcritos a seguir; a página «Domínios 10 a 13» identifica-os com o respectivo volume. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.",
+    "text": "Estado da proposta. As secções 0 a 10 estão transcritas por inteiro. Os domínios 11 a 13 estão escritos na matriz e serão transcritos a seguir; a página «Domínios 11 a 13» identifica-os com o respectivo volume. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Nota de apresentação e orientações de leitura</span>"
     ]
@@ -124,7 +124,7 @@
     "href": "formulario.html",
     "title": "O formulário, com comentários",
     "section": "",
-    "text": "DicaLegenda\n\n\n\n\n\nCaixa cinzenta: o que se lê ao respondente. Itálico: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.\nEtiquetas: NOVO não existe na Ficha 19_01 · ALTERADO existe e muda · MANTÉM-SE existe e não muda · A DECIDIR depende desta revisão · PARQUEADO fica para depois.\n\n\n\nO formulário está dividido num capítulo por secção, pela ordem em que o inquiridor o percorre. A secção 7 — serviços oferecidos — é a mais longa: os serviços clínicos, de apoio e de saúde pública (7.1 a 7.3) têm um capítulo cada, e a gestão e os serviços gerais (7.4 e 7.5) estão juntos num capítulo próprio. Cada capítulo pode ser lido e discutido por si, numa sessão de revisão.\nCada quesito tem ao lado um botão 💬 Comentar, que abre um formulário curto já com o código do quesito preenchido. Os comentários vão para a mesma folha de respostas, um por linha, e são depois cruzados com a matriz pelo código.\n\n\n\nCapítulo\nConteúdo\n\n\n\n\nSecção 0\nIdentificação da recolha\n\n\nSecção 1\nLocalização\n\n\nSecção 2\nPropriedade e gestão\n\n\nSecção 3\nPopulação e sistema de referência\n\n\nSecção 4\nConstrução\n\n\nSecção 5\nEstado físico\n\n\nSecção 6\nÁgua, energia, saneamento e resíduos\n\n\nSecção 7\nServiços oferecidos — 7.1 clínicos e cirúrgicos · 7.2 apoio · 7.3.1 vacinação · 7.3 saúde pública\n\n\nSecções 7.4 e 7.5\nGestão e serviços gerais\n\n\nSecção 8\nRecursos cama e similares\n\n\nSecção 9\nAparelhos médico-cirúrgicos\n\n\nDomínios 10 a 13\nPor transcrever nesta edição",
+    "text": "DicaLegenda\n\n\n\n\n\nCaixa cinzenta: o que se lê ao respondente. Itálico: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.\nEtiquetas: NOVO não existe na Ficha 19_01 · ALTERADO existe e muda · MANTÉM-SE existe e não muda · A DECIDIR depende desta revisão · PARQUEADO fica para depois.\n\n\n\nO formulário está dividido num capítulo por secção, pela ordem em que o inquiridor o percorre. A secção 7 — serviços oferecidos — é a mais longa: os serviços clínicos, de apoio e de saúde pública (7.1 a 7.3) têm um capítulo cada, e a gestão e os serviços gerais (7.4 e 7.5) estão juntos num capítulo próprio. Cada capítulo pode ser lido e discutido por si, numa sessão de revisão.\nCada quesito tem ao lado um botão 💬 Comentar, que abre um formulário curto já com o código do quesito preenchido. Os comentários vão para a mesma folha de respostas, um por linha, e são depois cruzados com a matriz pelo código.\n\n\n\nCapítulo\nConteúdo\n\n\n\n\nSecção 0\nIdentificação da recolha\n\n\nSecção 1\nLocalização\n\n\nSecção 2\nPropriedade e gestão\n\n\nSecção 3\nPopulação e sistema de referência\n\n\nSecção 4\nConstrução\n\n\nSecção 5\nEstado físico\n\n\nSecção 6\nÁgua, energia, saneamento e resíduos\n\n\nSecção 7\nServiços oferecidos — 7.1 clínicos e cirúrgicos · 7.2 apoio · 7.3.1 vacinação · 7.3 saúde pública\n\n\nSecções 7.4 e 7.5\nGestão e serviços gerais\n\n\nSecção 8\nRecursos cama e similares\n\n\nSecção 9\nAparelhos médico-cirúrgicos\n\n\nSecção 10\nMeios de transporte\n\n\nDomínios 11 a 13\nPor transcrever nesta edição",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>O formulário, com comentários</span>"
     ]
@@ -1545,13 +1545,73 @@
     ]
   },
   {
-    "objectID": "formulario/10-13-por-transcrever.html",
-    "href": "formulario/10-13-por-transcrever.html",
-    "title": "Domínios 10 a 13 — por transcrever nesta edição",
+    "objectID": "formulario/10-transportes.html",
+    "href": "formulario/10-transportes.html",
+    "title": "Secção 10 — Meios de transporte",
     "section": "",
-    "text": "Os domínios seguintes estão integralmente escritos na matriz de decisão da adaptação e serão transcritos para este formato na próxima edição do documento. Ficam aqui identificados com o respectivo volume, para que a leitura da proposta não pareça incompleta onde não está.\n\n\n\n\n\n\n\n\nDomínio\nConteúdo\nCampos propostos / na Ficha\n\n\n\n\n10\nMeios de transporte — os 7 tipos de veículo da Ficha com três colunas de estado, as linhas abertas, e o plano de manutenção de veículos\n36 / 24\n\n\n11 e 12\nResponsáveis e contactos — o responsável técnico da unidade, as pessoas que responderam ao inquérito, o responsável do preenchimento\n34 / 24\n\n\n13\nConectividade e meios informáticos — computadores, internet, telefone, sistemas de informação em uso\n36\n\n\n\nEm síntese, o conjunto da proposta soma cerca de 650 campos para toda a rede — número que só faz sentido lido com a nota sobre as portas e os saltos: nenhuma unidade sanitária responde a mais do que uma fracção deles.\nDuas observações sobre estes domínios, que a revisão pode já considerar sem esperar pela transcrição:\nO domínio 10 é, por inteiro, contributo próprio. Não existe um único indicador internacional de contagem de frota. A informação é essencial à gestão logística da rede e nenhum instrumento internacional a recolhe.\nOs domínios 11 e 12 não geram nem devem gerar indicador. A sua função é permitir contactar as pessoas certas quando surgir um problema com os dados recolhidos, e é por esse critério que devem ser avaliados.",
+    "text": "10.1.1 a 10.1.7 Veículos por tipo e estado ALTERADO\nVeículos afectos à unidade sanitária, por tipo e por estado de funcionamento, e manutenção de rotina desses veículos.\n36 campos, contra 24 na Ficha 19_01.",
     "crumbs": [
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Domínios 10 a 13 — por transcrever nesta edição</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Secção 10 — Meios de transporte</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/10-transportes.html#a-10.1.7-veículos-por-tipo-e-estado-alterado",
+    "href": "formulario/10-transportes.html#a-10.1.7-veículos-por-tipo-e-estado-alterado",
+    "title": "Secção 10 — Meios de transporte",
+    "section": "",
+    "text": "O que este quesito permite medir\n\nFrota de cada unidade sanitária por tipo de veículo e por estado. As colunas 1 e 2 somadas dão o número de veículos funcionais tal como o Guião o define, o que mantém a série das edições anteriores; a coluna 2 mostra, além disso, quantos veículos voltariam a circular com uma reparação ao alcance da unidade.\n\n\nPergunta · ler ao respondente\nVou perguntar pelos meios de transporte afectos a esta unidade sanitária. Para cada tipo, indique quantos estão em funcionamento hoje, quantos estão avariados com uma avaria que a unidade pode resolver com os seus próprios recursos, e quantos estão avariados sem possibilidade de reparação com os recursos da unidade.\n\n\nInstrução ao inquiridor (não ler para o respondente) — Contar apenas os veículos que pertencem à unidade ou que lhe estão permanentemente afectos. A ambulância define-se pela preparação para o transporte de doentes, e não pelo tipo de viatura. Um veículo imobilizado por falta de documentação não é avaria: não entra em nenhuma coluna e regista-se em 10.2. Em cada caixa, um número de 0 a 97; 98 se não souber.\n\n\nGrelha de resposta\n\n\n\n\n\n\n\n\n\n\nCódigo\nTipo de veículo\n(1) Em funcionamento hoje\n(2) Avariado, reparação ao alcance da unidade\n(3) Avariado, sem reparação possível com os recursos da unidade\n\n\n\n\n10.1.1\nAmbulâncias — viaturas especificamente preparadas para o transporte de doentes\n__\n__\n__\n\n\n10.1.2\nCamiões\n__\n__\n__\n\n\n10.1.3\nViaturas para expediente — viaturas de serviço geral, de caixa aberta ou outras, não preparadas para o transporte de doentes\n__\n__\n__\n\n\n10.1.4\nMotorizadas\n__\n__\n__\n\n\n10.1.5\nBicicletas\n__\n__\n__\n\n\n10.1.6\nTractores\n__\n__\n__\n\n\n10.1.7\nCarrinhas\n__\n__\n__\n\n\n\n\n\nPorque mudou. Os sete tipos de veículo mantêm-se. As duas colunas da Ficha — funcionantes e não funcionantes — passam a três. A definição de funcional do Guião (folha 18) fica preservada e passa a estar escrita na pergunta: um veículo é funcional se está em funcionamento ou tem uma avaria que a unidade pode resolver com os seus recursos. A soma das colunas 1 e 2 corresponde aos «funcionantes» da Ficha e a coluna 3 aos «não funcionantes».",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Secção 10 — Meios de transporte</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/10-transportes.html#a-10.1.10-outros-meios-de-transporte-alterado",
+    "href": "formulario/10-transportes.html#a-10.1.10-outros-meios-de-transporte-alterado",
+    "title": "Secção 10 — Meios de transporte",
+    "section": "10.1.8 a 10.1.10 Outros meios de transporte ALTERADO",
+    "text": "10.1.8 a 10.1.10 Outros meios de transporte ALTERADO\n\nPergunta · ler ao respondente\nExiste algum outro meio de transporte afecto a esta unidade sanitária que não conste da lista anterior? Se sim, indique a designação e quantos estão em cada situação.\n\n\nGrelha de resposta\n\n\n\n\n\n\n\n\n\n\nCódigo\nDesignação\n(1) Em funcionamento hoje\n(2) Avariado, reparação ao alcance da unidade\n(3) Avariado, sem reparação possível com os recursos da unidade\n\n\n\n\n10.1.8\n____________\n__\n__\n__\n\n\n10.1.9\n____________\n__\n__\n__\n\n\n10.1.10\n____________\n__\n__\n__\n\n\n\n\n\nPorque mudou. As três linhas abertas mantêm-se, com a terceira coluna acrescentada, como em 10.1.1 a 10.1.7.",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Secção 10 — Meios de transporte</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/10-transportes.html#observações-mantém-se",
+    "href": "formulario/10-transportes.html#observações-mantém-se",
+    "title": "Secção 10 — Meios de transporte",
+    "section": "10.2 Observações MANTÉM-SE",
+    "text": "10.2 Observações MANTÉM-SE\n\nCampo · preenchido pelo inquiridor\nObservações sobre os meios de transporte desta unidade sanitária.\n\n\nInstrução ao inquiridor (não ler para o respondente) — Registar as situações que a contagem não exprime: a viatura partilhada com outra unidade, a ambulância cedida à Direcção Municipal, o veículo em condições mecânicas mas imobilizado por falta de documentação.\n\n\nOpções de resposta\nTexto livre",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Secção 10 — Meios de transporte</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/10-transportes.html#e-10.3.2-manutenção-dos-veículos-novo",
+    "href": "formulario/10-transportes.html#e-10.3.2-manutenção-dos-veículos-novo",
+    "title": "Secção 10 — Meios de transporte",
+    "section": "10.3.1 e 10.3.2 Manutenção dos veículos NOVO",
+    "text": "10.3.1 e 10.3.2 Manutenção dos veículos NOVO\n\n\nO que este quesito permite medir\n\nPercentagem de unidades sanitárias com plano de manutenção de rotina para algum dos seus veículos e percentagem das que o cumprem rotineiramente. Lida com a coluna das avarias de 10.1, mostra se o problema da frota tende a agravar-se ou a resolver-se.\n\n\nPergunta · ler ao respondente\n10.3.1 Esta unidade sanitária segue um plano de manutenção de rotina para algum dos seus veículos? Por manutenção de rotina entende-se a manutenção feita com periodicidade fixa, haja ou não avaria.\n10.3.2 Esta unidade sanitária cumpre o plano de manutenção dos seus veículos?\n\n\nOpções de resposta\n10.3.1\n\nSim\nNão\n\n\n\nA unidade não tem veículos\n\n10.3.2\n\nSim, rotineiramente\nSim, às vezes, mas não rotineiramente\nNunca\n\n\n\nInstrução ao inquiridor (não ler para o respondente) — Se a resposta a 10.3.1 for «Não» ou «A unidade não tem veículos», terminar a secção sem fazer 10.3.2.\n\n\nPorque é necessária. A opção «A unidade não tem veículos» evita que uma unidade sem frota seja contada como unidade sem plano de manutenção.\nVerificação a programar. Se a contagem de 10.1.1 a 10.1.10 for zero em todas as colunas, 10.3.1 tem de ser 5.",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Secção 10 — Meios de transporte</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/10-transportes.html#pendência-desta-secção",
+    "href": "formulario/10-transportes.html#pendência-desta-secção",
+    "title": "Secção 10 — Meios de transporte",
+    "section": "Pendência desta secção",
+    "text": "Pendência desta secção\n\nNível a que se regista a frota. A secção conta apenas os veículos da própria unidade. Para a maioria das unidades de cuidados primários, o que decide a evacuação de um doente é haver uma viatura disponível no município ou na região. A capacidade de chamar um veículo de outro local já está nos quesitos 7.5.1 e 7.5.1.1 (transporte de emergência) e 7.2.E.6 (transporte para referir doentes de urgência). Falta decidir onde se regista a frota ao nível municipal: num quesito à unidade sobre a frota a que tem acesso através do município, ou num instrumento próprio dirigido à Direcção Municipal de Saúde, fora da ficha da unidade.",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Secção 10 — Meios de transporte</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/11-13-por-transcrever.html",
+    "href": "formulario/11-13-por-transcrever.html",
+    "title": "Domínios 11 a 13 — por transcrever nesta edição",
+    "section": "",
+    "text": "Os domínios seguintes estão integralmente escritos na matriz de decisão da adaptação e serão transcritos para este formato na próxima edição do documento. Ficam aqui identificados com o respectivo volume, para que a leitura da proposta não pareça incompleta onde não está.\n\n\n\n\n\n\n\n\nDomínio\nConteúdo\nCampos propostos / na Ficha\n\n\n\n\n11 e 12\nResponsáveis e contactos — o responsável técnico da unidade, as pessoas que responderam ao inquérito, o responsável do preenchimento\n34 / 24\n\n\n13\nConectividade e meios informáticos — computadores, internet, telefone, sistemas de informação em uso\n36\n\n\n\nEm síntese, o conjunto da proposta soma cerca de 650 campos para toda a rede — número que só faz sentido lido com a nota sobre as portas e os saltos: nenhuma unidade sanitária responde a mais do que uma fracção deles.\nUma observação sobre estes domínios, que a revisão pode já considerar sem esperar pela transcrição:\nOs domínios 11 e 12 não geram nem devem gerar indicador. A sua função é permitir contactar as pessoas certas quando surgir um problema com os dados recolhidos, e é por esse critério que devem ser avaliados.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Domínios 11 a 13 — por transcrever nesta edição</span>"
     ]
   }
 ]

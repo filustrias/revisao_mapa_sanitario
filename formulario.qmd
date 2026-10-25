@@ -21,4 +21,5 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secções 7.4 e 7.5](formulario/07-4-5-gestao-servicos-gerais.qmd) | Gestão e serviços gerais |
 | [Secção 8](formulario/08-recursos-cama.qmd) | Recursos cama e similares |
 | [Secção 9](formulario/09-aparelhos.qmd) | Aparelhos médico-cirúrgicos |
-| [Domínios 10 a 13](formulario/10-13-por-transcrever.qmd) | Por transcrever nesta edição |
+| [Secção 10](formulario/10-transportes.qmd) | Meios de transporte |
+| [Domínios 11 a 13](formulario/11-13-por-transcrever.qmd) | Por transcrever nesta edição |
