@@ -2,7 +2,7 @@
 title: "7.3 — Saúde pública, promoção e prevenção"
 ---
 
-{{< include ../_legenda.qmd >}}
+Cuidados à criança, consulta pré-natal, partos, pós-parto e recém-nascido, planeamento familiar, VIH, tuberculose, malária e articulação com os agentes comunitários.
 
 [111 campos, contra 19 na Ficha 19_01.]{.campos}
 

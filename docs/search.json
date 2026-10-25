@@ -134,7 +134,7 @@
     "href": "formulario/00-identificacao.html",
     "title": "Secção 0 — Identificação da recolha",
     "section": "",
-    "text": "0.1 Data desta recolha ALTERADO\n14 campos, contra 3 na Ficha 19_01.",
+    "text": "0.1 Data desta recolha ALTERADO\nQuando, como e por quem foi feita a recolha, e em que situação estava a unidade sanitária.\n14 campos, contra 3 na Ficha 19_01.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Secção 0 — Identificação da recolha</span>"
     ]
@@ -204,7 +204,7 @@
     "href": "formulario/01-localizacao.html",
     "title": "Secção 1 — Localização",
     "section": "",
-    "text": "1.1 a 1.5 Localização administrativa e nome da unidade MANTÉM-SE\n16 campos.",
+    "text": "1.1 a 1.5 Localização administrativa e nome da unidade MANTÉM-SE\nLocalização administrativa e designação da unidade sanitária, a sua categoria, as coordenadas geográficas e a zona urbana, periurbana ou rural.\n16 campos.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Secção 1 — Localização</span>"
     ]
@@ -264,7 +264,7 @@
     "href": "formulario/02-propriedade-gestao.html",
     "title": "Secção 2 — Propriedade e gestão",
     "section": "",
-    "text": "2.1 Propriedade ALTERADO\n2 campos.",
+    "text": "2.1 Propriedade ALTERADO\nQuem é o proprietário da unidade sanitária e que entidade ou nível a gere.\n2 campos.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Secção 2 — Propriedade e gestão</span>"
     ]
@@ -294,7 +294,7 @@
     "href": "formulario/03-populacao-referencia.html",
     "title": "Secção 3 — População e sistema de referência",
     "section": "",
-    "text": "3.1 População adstrita ALTERADO\n19 campos.",
+    "text": "3.1 População adstrita ALTERADO\nPopulação da área de abrangência da unidade sanitária e unidades para onde refere os doentes, com o meio de transporte, a distância e o tempo de viagem.\n19 campos.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Secção 3 — População e sistema de referência</span>"
     ]
@@ -374,7 +374,7 @@
     "href": "formulario/04-construcao.html",
     "title": "Secção 4 — Construção",
     "section": "",
-    "text": "4.1 e 4.2 Edifícios e superfície da unidade ALTERADO\n7 campos.",
+    "text": "4.1 e 4.2 Edifícios e superfície da unidade ALTERADO\nNúmero e área dos edifícios da unidade e das residências do pessoal, período de construção e material das paredes.\n7 campos.",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Secção 4 — Construção</span>"
     ]
@@ -424,7 +424,7 @@
     "href": "formulario/05-estado-fisico.html",
     "title": "Secção 5 — Estado físico",
     "section": "",
-    "text": "5.1 Estado físico do edifício principal ALTERADO\n12 campos.",
+    "text": "5.1 Estado físico do edifício principal ALTERADO\nEstado de conservação do edifício principal, no conjunto e elemento a elemento, e área em cada estado.\n12 campos.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Secção 5 — Estado físico</span>"
     ]
@@ -464,7 +464,7 @@
     "href": "formulario/06-agua-energia-saneamento.html",
     "title": "Secção 6 — Água, energia, saneamento e resíduos",
     "section": "",
-    "text": "6.1 Fonte de água ALTERADO\n19 campos.",
+    "text": "6.1 Fonte de água ALTERADO\nFontes de água e de electricidade e a sua disponibilidade, saneamento, recolha e destino dos resíduos, e tratamento das águas residuais.\n19 campos.",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Secção 6 — Água, energia, saneamento e resíduos</span>"
     ]
@@ -570,11 +570,21 @@
     ]
   },
   {
+    "objectID": "formulario/07-servicos.html",
+    "href": "formulario/07-servicos.html",
+    "title": "Secção 7 — Serviços oferecidos",
+    "section": "",
+    "text": "Serviços oferecidos pela unidade sanitária: clínicos e cirúrgicos, de apoio, vacinação e saúde pública.",
+    "crumbs": [
+      "Secção 7 — Serviços oferecidos"
+    ]
+  },
+  {
     "objectID": "formulario/07-1-clinicos-cirurgicos.html",
     "href": "formulario/07-1-clinicos-cirurgicos.html",
     "title": "7.1 — Serviços clínicos e cirúrgicos",
     "section": "",
-    "text": "7.1.A · Especialidades clínicas (7.1.1 a 7.1.28) ALTERADO\n156 campos, contra 36 na Ficha 19_01.",
+    "text": "7.1.A · Especialidades clínicas (7.1.1 a 7.1.28) ALTERADO\nAtendimento por especialidade clínica e serviços para doenças crónicas não transmissíveis, saúde mental e doenças neurológicas, cancro, sobreviventes de violência e cirurgia.\n156 campos, contra 36 na Ficha 19_01.",
     "crumbs": [
       "Secção 7 — Serviços oferecidos",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>7.1 — Serviços clínicos e cirúrgicos</span>"
@@ -651,7 +661,7 @@
     "href": "formulario/07-2-apoio.html",
     "title": "7.2 — Serviços de apoio",
     "section": "",
-    "text": "7.2.C.0 · Testes rápidos de diagnóstico NOVO\n122 campos, contra 16 na Ficha 19_01 — 82 no laboratório, contra 1, e 40 nos restantes serviços de apoio, contra 15.",
+    "text": "7.2.C.0 · Testes rápidos de diagnóstico NOVO\nTestes rápidos, exames de laboratório e de imagem, procedimentos e tecnologias, outros serviços de apoio e atendimento de urgência.\n122 campos, contra 16 na Ficha 19_01 — 82 no laboratório, contra 1, e 40 nos restantes serviços de apoio, contra 15.",
     "crumbs": [
       "Secção 7 — Serviços oferecidos",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>7.2 — Serviços de apoio</span>"
@@ -772,7 +782,7 @@
     "href": "formulario/07-3-1-vacinacao.html",
     "title": "7.3.1 — Vacinação",
     "section": "",
-    "text": "7.3.1 · Vacinação — porta do PAV ALTERADO\n20 campos, contra 1 na Ficha 19_01.",
+    "text": "7.3.1 · Vacinação — porta do PAV ALTERADO\nVacinação de rotina: periodicidade, vacinas administradas, rupturas de stock e cadeia de frio.\n20 campos, contra 1 na Ficha 19_01.",
     "crumbs": [
       "Secção 7 — Serviços oferecidos",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>7.3.1 — Vacinação</span>"
@@ -838,7 +848,7 @@
     "href": "formulario/07-3-saude-publica.html",
     "title": "7.3 — Saúde pública, promoção e prevenção",
     "section": "",
-    "text": "7.3.5 · Puericultura — porta dos cuidados à criança ALTERADO\n111 campos, contra 19 na Ficha 19_01.",
+    "text": "7.3.5 · Puericultura — porta dos cuidados à criança ALTERADO\nCuidados à criança, consulta pré-natal, partos, pós-parto e recém-nascido, planeamento familiar, VIH, tuberculose, malária e articulação com os agentes comunitários.\n111 campos, contra 19 na Ficha 19_01.",
     "crumbs": [
       "Secção 7 — Serviços oferecidos",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>7.3 — Saúde pública, promoção e prevenção</span>"
@@ -1179,7 +1189,7 @@
     "href": "formulario/07-4-5-gestao-servicos-gerais.html",
     "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "",
-    "text": "7.4 — Serviços de gestão\n37 campos, contra 19 na Ficha 19_01.",
+    "text": "7.4 — Serviços de gestão\nServiços e órgãos de gestão, revisão de casos e de óbitos, prevenção e controlo de infecções e garantia de qualidade; serviços gerais da unidade, como o transporte de emergência, a cozinha, a lavandaria, a morgue e o gabinete do utente.\n37 campos, contra 19 na Ficha 19_01.",
     "crumbs": [
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
@@ -1339,7 +1349,7 @@
     "href": "formulario/08-recursos-cama.html",
     "title": "Secção 8 — Recursos cama e similares",
     "section": "",
-    "text": "8.0.1 Internamento — porta NOVO\n35 campos numa unidade com internamento e 15 numa unidade sem internamento, contra 16 na Ficha 19_01.",
+    "text": "8.0.1 Internamento — porta NOVO\nCamas de internamento por tamanho, por enfermaria e por sexo, camas de observação e de curta estadia, macas e outros equipamentos de exame.\n35 campos numa unidade com internamento e 15 numa unidade sem internamento, contra 16 na Ficha 19_01.",
     "crumbs": [
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Secção 8 — Recursos cama e similares</span>"
     ]
@@ -1479,7 +1489,7 @@
     "href": "formulario/09-13-por-transcrever.html",
     "title": "Domínios 9 a 13 — por transcrever nesta edição",
     "section": "",
-    "text": "DicaLegenda\n\n\n\n\n\nCaixa cinzenta: o que se lê ao respondente. Itálico: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.\nEtiquetas: NOVO não existe na Ficha 19_01 · ALTERADO existe e muda · MANTÉM-SE existe e não muda · A DECIDIR depende desta revisão · PARQUEADO fica para depois.\n\n\n\nOs domínios seguintes estão integralmente escritos na matriz de decisão da adaptação e serão transcritos para este formato na próxima edição do documento. Ficam aqui identificados com o respectivo volume, para que a leitura da proposta não pareça incompleta onde não está.\n\n\n\n\n\n\n\n\nDomínio\nConteúdo\nCampos propostos / na Ficha\n\n\n\n\n9\nAparelhos médico-cirúrgicos — a contagem dos 15 tipos da Ficha, mais a grelha de verificação do equipamento básico e oito itens novos\n39 / 16\n\n\n10\nMeios de transporte — os 7 tipos de veículo da Ficha com três colunas de estado, as linhas abertas, e o plano de manutenção de veículos\n36 / 24\n\n\n11 e 12\nResponsáveis e contactos — o responsável técnico da unidade, as pessoas que responderam ao inquérito, o responsável do preenchimento\n34 / 24\n\n\n13\nConectividade e meios informáticos — computadores, internet, telefone, sistemas de informação em uso\n36\n\n\n\nEm síntese, o conjunto da proposta soma cerca de 650 campos para toda a rede — número que só faz sentido lido com a nota sobre as portas e os saltos: nenhuma unidade sanitária responde a mais do que uma fracção deles.\nTrês observações sobre estes domínios, que a revisão pode já considerar sem esperar pela transcrição:\nNo domínio 9, como no 8, a Ficha conta e o instrumento internacional verifica. A Ficha conta os aparelhos; o instrumento internacional verifica a presença de um. A proposta soma a verificação à contagem, não troca uma pela outra — e é por isso que os quatro itens que também entram na grelha de verificação conservam a sua caixa de quantidade.\nO domínio 10 é, por inteiro, contributo próprio. Não existe um único indicador internacional de contagem de frota. A informação é essencial à gestão logística da rede e nenhum instrumento internacional a recolhe.\nOs domínios 11 e 12 não geram nem devem gerar indicador. A sua função é permitir contactar as pessoas certas quando surgir um problema com os dados recolhidos, e é por esse critério que devem ser avaliados.",
+    "text": "Os domínios seguintes estão integralmente escritos na matriz de decisão da adaptação e serão transcritos para este formato na próxima edição do documento. Ficam aqui identificados com o respectivo volume, para que a leitura da proposta não pareça incompleta onde não está.\n\n\n\n\n\n\n\n\nDomínio\nConteúdo\nCampos propostos / na Ficha\n\n\n\n\n9\nAparelhos médico-cirúrgicos — a contagem dos 15 tipos da Ficha, mais a grelha de verificação do equipamento básico e oito itens novos\n39 / 16\n\n\n10\nMeios de transporte — os 7 tipos de veículo da Ficha com três colunas de estado, as linhas abertas, e o plano de manutenção de veículos\n36 / 24\n\n\n11 e 12\nResponsáveis e contactos — o responsável técnico da unidade, as pessoas que responderam ao inquérito, o responsável do preenchimento\n34 / 24\n\n\n13\nConectividade e meios informáticos — computadores, internet, telefone, sistemas de informação em uso\n36\n\n\n\nEm síntese, o conjunto da proposta soma cerca de 650 campos para toda a rede — número que só faz sentido lido com a nota sobre as portas e os saltos: nenhuma unidade sanitária responde a mais do que uma fracção deles.\nTrês observações sobre estes domínios, que a revisão pode já considerar sem esperar pela transcrição:\nNo domínio 9, como no 8, a Ficha conta e o instrumento internacional verifica. A Ficha conta os aparelhos; o instrumento internacional verifica a presença de um. A proposta soma a verificação à contagem, não troca uma pela outra — e é por isso que os quatro itens que também entram na grelha de verificação conservam a sua caixa de quantidade.\nO domínio 10 é, por inteiro, contributo próprio. Não existe um único indicador internacional de contagem de frota. A informação é essencial à gestão logística da rede e nenhum instrumento internacional a recolhe.\nOs domínios 11 e 12 não geram nem devem gerar indicador. A sua função é permitir contactar as pessoas certas quando surgir um problema com os dados recolhidos, e é por esse critério que devem ser avaliados.",
     "crumbs": [
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Domínios 9 a 13 — por transcrever nesta edição</span>"
     ]

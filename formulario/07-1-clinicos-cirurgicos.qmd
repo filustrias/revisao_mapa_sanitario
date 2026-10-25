@@ -2,7 +2,7 @@
 title: "7.1 — Serviços clínicos e cirúrgicos"
 ---
 
-{{< include ../_legenda.qmd >}}
+Atendimento por especialidade clínica e serviços para doenças crónicas não transmissíveis, saúde mental e doenças neurológicas, cancro, sobreviventes de violência e cirurgia.
 
 [156 campos, contra 36 na Ficha 19_01.]{.campos}
 

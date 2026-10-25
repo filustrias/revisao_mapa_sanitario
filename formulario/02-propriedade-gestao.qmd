@@ -2,7 +2,7 @@
 title: "Secção 2 — Propriedade e gestão"
 ---
 
-{{< include ../_legenda.qmd >}}
+Quem é o proprietário da unidade sanitária e que entidade ou nível a gere.
 
 [2 campos.]{.campos}
 

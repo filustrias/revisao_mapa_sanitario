@@ -2,7 +2,7 @@
 title: "Secção 5 — Estado físico"
 ---
 
-{{< include ../_legenda.qmd >}}
+Estado de conservação do edifício principal, no conjunto e elemento a elemento, e área em cada estado.
 
 [12 campos.]{.campos}
 

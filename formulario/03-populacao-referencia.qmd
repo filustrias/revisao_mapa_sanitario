@@ -2,7 +2,7 @@
 title: "Secção 3 — População e sistema de referência"
 ---
 
-{{< include ../_legenda.qmd >}}
+População da área de abrangência da unidade sanitária e unidades para onde refere os doentes, com o meio de transporte, a distância e o tempo de viagem.
 
 [19 campos.]{.campos}
 

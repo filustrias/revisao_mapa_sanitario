@@ -2,7 +2,7 @@
 title: "Secção 4 — Construção"
 ---
 
-{{< include ../_legenda.qmd >}}
+Número e área dos edifícios da unidade e das residências do pessoal, período de construção e material das paredes.
 
 [7 campos.]{.campos}
 

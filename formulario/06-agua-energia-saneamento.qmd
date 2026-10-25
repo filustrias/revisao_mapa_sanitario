@@ -2,7 +2,7 @@
 title: "Secção 6 — Água, energia, saneamento e resíduos"
 ---
 
-{{< include ../_legenda.qmd >}}
+Fontes de água e de electricidade e a sua disponibilidade, saneamento, recolha e destino dos resíduos, e tratamento das águas residuais.
 
 [19 campos.]{.campos}
 

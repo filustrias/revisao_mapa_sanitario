@@ -2,7 +2,7 @@
 title: "Secção 0 — Identificação da recolha"
 ---
 
-{{< include ../_legenda.qmd >}}
+Quando, como e por quem foi feita a recolha, e em que situação estava a unidade sanitária.
 
 [14 campos, contra 3 na Ficha 19_01.]{.campos}
 

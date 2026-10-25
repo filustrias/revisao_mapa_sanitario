@@ -2,7 +2,7 @@
 title: "Secção 8 — Recursos cama e similares"
 ---
 
-{{< include ../_legenda.qmd >}}
+Camas de internamento por tamanho, por enfermaria e por sexo, camas de observação e de curta estadia, macas e outros equipamentos de exame.
 
 [35 campos numa unidade com internamento e 15 numa unidade sem internamento, contra 16 na Ficha 19_01.]{.campos}
 

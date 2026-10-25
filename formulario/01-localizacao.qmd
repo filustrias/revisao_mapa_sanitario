@@ -2,7 +2,7 @@
 title: "Secção 1 — Localização"
 ---
 
-{{< include ../_legenda.qmd >}}
+Localização administrativa e designação da unidade sanitária, a sua categoria, as coordenadas geográficas e a zona urbana, periurbana ou rural.
 
 [16 campos.]{.campos}
 

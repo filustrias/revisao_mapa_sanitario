@@ -2,7 +2,7 @@
 title: "Secções 7.4 e 7.5 — Gestão e serviços gerais"
 ---
 
-{{< include ../_legenda.qmd >}}
+Serviços e órgãos de gestão, revisão de casos e de óbitos, prevenção e controlo de infecções e garantia de qualidade; serviços gerais da unidade, como o transporte de emergência, a cozinha, a lavandaria, a morgue e o gabinete do utente.
 
 ## 7.4 — Serviços de gestão {.bloco}
 

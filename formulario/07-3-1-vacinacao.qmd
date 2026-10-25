@@ -2,7 +2,7 @@
 title: "7.3.1 — Vacinação"
 ---
 
-{{< include ../_legenda.qmd >}}
+Vacinação de rotina: periodicidade, vacinas administradas, rupturas de stock e cadeia de frio.
 
 [20 campos, contra 1 na Ficha 19_01.]{.campos}
 

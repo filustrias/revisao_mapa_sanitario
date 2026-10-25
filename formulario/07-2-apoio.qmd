@@ -2,7 +2,7 @@
 title: "7.2 — Serviços de apoio"
 ---
 
-{{< include ../_legenda.qmd >}}
+Testes rápidos, exames de laboratório e de imagem, procedimentos e tecnologias, outros serviços de apoio e atendimento de urgência.
 
 [122 campos, contra 16 na Ficha 19_01 — 82 no laboratório, contra 1, e 40 nos restantes serviços de apoio, contra 15.]{.campos}
 

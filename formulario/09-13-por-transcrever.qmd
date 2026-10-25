@@ -2,7 +2,6 @@
 title: "Domínios 9 a 13 — por transcrever nesta edição"
 ---
 
-{{< include ../_legenda.qmd >}}
 
 Os domínios seguintes estão integralmente escritos na matriz de decisão da adaptação e serão transcritos para este formato na próxima edição do documento. Ficam aqui identificados com o respectivo volume, para que a leitura da proposta não pareça incompleta onde não está.
 
