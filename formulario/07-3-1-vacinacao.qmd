@@ -11,8 +11,8 @@ Vacinação de rotina: periodicidade, vacinas administradas, rupturas de stock e
 
 | Quesito | O que se obtém |
 |---|---|
-| 7.3.1 a 7.3.1.2 | Unidades que vacinam, periodicidade e antigénios oferecidos (29 indicadores do HHFA) |
-| 7.3.1.3 | Rupturas de stock por antigénio nos últimos 3 meses (a decidir nesta revisão; 11 indicadores do HHFA, se incluída) |
+| 7.3.1 a 7.3.1.2 | Unidades que vacinam, periodicidade e antigénios oferecidos |
+| 7.3.1.3 | Rupturas de stock por antigénio nos últimos 3 meses |
 | 7.3.1.4 | Cadeia de frio (parqueado, para a fase da observação) |
 
 </details>

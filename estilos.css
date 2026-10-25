@@ -124,8 +124,8 @@ details.medir-seccao:not([open]) { padding-top: 0.55rem; padding-bottom: 0.55rem
 
 .medir p { margin-bottom: 0.4rem; }
 
-/* Última linha: a fonte do indicador, discreta */
-.medir p:last-child {
+/* Última linha: a fonte do indicador, discreta (só quando a caixa tem mais de um parágrafo) */
+.medir > p:last-of-type:not(:first-of-type) {
   font-size: 0.82rem;
   color: var(--ms-apagado);
   margin-bottom: 0;

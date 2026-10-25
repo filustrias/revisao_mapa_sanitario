@@ -14,10 +14,10 @@ Fontes de água e de electricidade e a sua disponibilidade, saneamento, recolha 
 | 6.1 e 6.1.3 | Unidades sanitárias com fonte de água melhorada e água disponível no recinto (1 indicador do HHFA) |
 | 6.2 e 6.2.3 | Unidades sanitárias com electricidade regular (1 indicador do HHFA) |
 | 6.3 | Unidades sanitárias com saneamento melhorado acessível a utentes e pessoal (1 indicador do HHFA) |
-| 6.4 | Modo de recolha do lixo comum (medida própria do Mapa Sanitário) |
-| 6.5, 6.6, 6.5.3 e 6.5.4 | Unidades sanitárias com destino final seguro dos resíduos cortantes e dos infecciosos (2 indicadores do HHFA) |
-| 6.5.5 e 6.5.6 | Unidades sanitárias com normas escritas e com pessoal formado em gestão de resíduos (2 indicadores do HHFA) |
-| 6.7.1 e 6.7.2 | Unidades sanitárias com tratamento de águas residuais e se este funciona (medida própria do Mapa Sanitário) |
+| 6.4 | Modo de recolha do lixo comum |
+| 6.5, 6.6, 6.5.3 e 6.5.4 | Unidades sanitárias com destino final seguro dos resíduos cortantes e dos infecciosos |
+| 6.5.5 e 6.5.6 | Unidades sanitárias com normas escritas e com pessoal formado em gestão de resíduos |
+| 6.7.1 e 6.7.2 | Unidades sanitárias com tratamento de águas residuais e se este funciona |
 
 </details>
 

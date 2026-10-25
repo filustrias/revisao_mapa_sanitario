@@ -11,13 +11,13 @@ População da área de abrangência da unidade sanitária e unidades para onde 
 
 | Quesito | O que se obtém |
 |---|---|
-| 3.1 | População da área de abrangência directa — denominador das densidades (27 indicadores do HHFA) |
+| 3.1 | População da área de abrangência directa — denominador das densidades |
 | 3.1.1 e 3.1.2 | Origem e ano de cada estimativa da população |
 | 3.1.3 | Total de controlo da árvore de referência |
 | 3.2.1 a 3.2.3 | Nó superior de cada unidade — a árvore nacional de referência |
 | 3.2.4 a 3.2.9 | Meio de transporte, distância e tempo ao nó superior, na época seca e na das chuvas |
 | 3.3.1 a 3.3.6 | Referência lateral por grupo de doentes, com a rede obstétrica em separado |
-| 3.4 a 3.9 | Funcionamento do sistema de referência (parqueado; 5 indicadores do HHFA) |
+| 3.4 a 3.9 | Funcionamento do sistema de referência |
 
 </details>
 

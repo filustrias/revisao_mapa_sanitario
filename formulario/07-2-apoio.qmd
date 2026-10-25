@@ -11,17 +11,17 @@ Testes rápidos, exames de laboratório e de imagem, procedimentos e tecnologias
 
 | Quesito | O que se obtém |
 |---|---|
-| 7.2.C.0 | Testes rápidos realizados no momento da consulta, em todas as unidades (7 indicadores do HHFA) |
+| 7.2.C.0 | Testes rápidos realizados no momento da consulta, em todas as unidades |
 | 7.2.1 | Porta geral do laboratório (abre os 33 indicadores do laboratório) |
-| 7.2.C.I | Exames de hematologia: realizados, enviados para fora ou não obtidos (5 indicadores do HHFA) |
-| 7.2.C.II | Exames de bioquímica (10 indicadores do HHFA) |
-| 7.2.C.III | Grupo sanguíneo e serologias, incluindo carga viral do VIH e CD4 (8 indicadores do HHFA) |
-| 7.2.C.IV | Microbiologia, parasitologia e outros (10 indicadores do HHFA) |
-| 7.2.C.V | Destino habitual das amostras enviadas para fora (medida própria do Mapa Sanitário) |
-| 7.2.A | Exames de imagem realizados ou obtidos por encaminhamento (8 indicadores do HHFA) |
-| 7.2.B | Procedimentos e tecnologias realizados na unidade (11 indicadores do HHFA) |
-| 7.2.D | Outros serviços de apoio em funcionamento e número de blocos operatórios (2 indicadores do HHFA) |
-| 7.2.E | Atendimento de urgência e as suas condições (12 indicadores do HHFA) |
+| 7.2.C.I | Exames de hematologia: realizados, enviados para fora ou não obtidos |
+| 7.2.C.II | Exames de bioquímica |
+| 7.2.C.III | Grupo sanguíneo e serologias, incluindo carga viral do VIH e CD4 |
+| 7.2.C.IV | Microbiologia, parasitologia e outros |
+| 7.2.C.V | Destino habitual das amostras enviadas para fora |
+| 7.2.A | Exames de imagem realizados ou obtidos por encaminhamento |
+| 7.2.B | Procedimentos e tecnologias realizados na unidade |
+| 7.2.D | Outros serviços de apoio em funcionamento e número de blocos operatórios |
+| 7.2.E | Atendimento de urgência e as suas condições |
 | 7.2.10 e 7.2.14 | Existência de farmácia e de esterilização (parqueados) |
 
 </details>

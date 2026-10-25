@@ -11,19 +11,19 @@ Cuidados à criança, consulta pré-natal, partos, pós-parto e recém-nascido, 
 
 | Quesito | O que se obtém |
 |---|---|
-| 7.3.5 e 7.3.5.1 | Cuidados à criança menor de 5 anos, serviço a serviço (13 indicadores do HHFA) |
-| 7.3.6 e 7.3.6.1 | Consulta pré-natal e as suas prestações (16 indicadores do HHFA) |
-| 7.3.7 a 7.3.7.4 | Partos, CONU-B e CONU-C, funções-sinal, cobertura 24 horas (12 indicadores do HHFA) |
-| 7.3.8 | Consulta pós-parto (2 indicadores do HHFA) |
-| 7.3.9 | Planeamento familiar, método a método (15 indicadores do HHFA) |
-| 7.3.10 e 7.3.10.1 | Testagem do VIH, por grupo de idade (8 indicadores do HHFA) |
-| 7.3.12 a 7.3.12.2 | Tratamento antirretroviral, por idade e por componente (12 indicadores do HHFA) |
-| 7.3.11 | Prevenção da transmissão vertical do VIH (2 indicadores do HHFA) |
-| 7.3.12.3 | Cuidados e apoio ao doente com VIH (2 indicadores do HHFA) |
-| 7.3.13 a 7.3.13.5 | Tuberculose: diagnóstico, seguimento, VIH, resistência, isolamento (11 indicadores do HHFA) |
-| 7.3.14.A a 7.3.14.C | Malária: serviços, via de diagnóstico, tratamento (8 indicadores do HHFA) |
-| 7.3.17.1 | Articulação com os ADECOS em seis programas (6 indicadores do HHFA) |
-| 7.3.8.1, 7.3.10.2, 7.3.10.3, 7.3.14, 7.3.15 e 7.3.16, 7.3.17 | Rastreios do recém-nascido, PrEP, PEP, distribuição de redes, actividade extramural, número de ADECOS (medida própria do Mapa Sanitário) |
+| 7.3.5 e 7.3.5.1 | Cuidados à criança menor de 5 anos, serviço a serviço |
+| 7.3.6 e 7.3.6.1 | Consulta pré-natal e as suas prestações |
+| 7.3.7 a 7.3.7.4 | Partos, CONU-B e CONU-C, funções-sinal, cobertura 24 horas |
+| 7.3.8 | Consulta pós-parto |
+| 7.3.9 | Planeamento familiar, método a método |
+| 7.3.10 e 7.3.10.1 | Testagem do VIH, por grupo de idade |
+| 7.3.12 a 7.3.12.2 | Tratamento antirretroviral, por idade e por componente |
+| 7.3.11 | Prevenção da transmissão vertical do VIH |
+| 7.3.12.3 | Cuidados e apoio ao doente com VIH |
+| 7.3.13 a 7.3.13.5 | Tuberculose: diagnóstico, seguimento, VIH, resistência, isolamento |
+| 7.3.14.A a 7.3.14.C | Malária: serviços, via de diagnóstico, tratamento |
+| 7.3.17.1 | Articulação com os ADECOS em seis programas |
+| 7.3.8.1, 7.3.10.2, 7.3.10.3, 7.3.14, 7.3.15 e 7.3.16, 7.3.17 | Rastreios do recém-nascido, PrEP, PEP, distribuição de redes, actividade extramural, número de ADECOS |
 
 </details>
 

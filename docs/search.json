@@ -14,7 +14,7 @@
     "href": "index.html#o-que-é-este-documento",
     "title": "Mapa Sanitário — proposta de revisão do formulário",
     "section": "",
-    "text": "Estado da proposta. As secções 0 a 8 estão transcritas por inteiro. Os domínios 9 a 13 estão escritos na matriz e serão transcritos a seguir; a página «Domínios 9 a 13» identifica-os com o respectivo volume. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.",
+    "text": "Estado da proposta. As secções 0 a 9 estão transcritas por inteiro. Os domínios 10 a 13 estão escritos na matriz e serão transcritos a seguir; a página «Domínios 10 a 13» identifica-os com o respectivo volume. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Nota de apresentação e orientações de leitura</span>"
     ]
@@ -124,7 +124,7 @@
     "href": "formulario.html",
     "title": "O formulário, com comentários",
     "section": "",
-    "text": "DicaLegenda\n\n\n\n\n\nCaixa cinzenta: o que se lê ao respondente. Itálico: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.\nEtiquetas: NOVO não existe na Ficha 19_01 · ALTERADO existe e muda · MANTÉM-SE existe e não muda · A DECIDIR depende desta revisão · PARQUEADO fica para depois.\n\n\n\nO formulário está dividido num capítulo por secção, pela ordem em que o inquiridor o percorre. A secção 7 — serviços oferecidos — é a mais longa: os serviços clínicos, de apoio e de saúde pública (7.1 a 7.3) têm um capítulo cada, e a gestão e os serviços gerais (7.4 e 7.5) estão juntos num capítulo próprio. Cada capítulo pode ser lido e discutido por si, numa sessão de revisão.\nCada quesito tem ao lado um botão 💬 Comentar, que abre um formulário curto já com o código do quesito preenchido. Os comentários vão para a mesma folha de respostas, um por linha, e são depois cruzados com a matriz pelo código.\n\n\n\nCapítulo\nConteúdo\n\n\n\n\nSecção 0\nIdentificação da recolha\n\n\nSecção 1\nLocalização\n\n\nSecção 2\nPropriedade e gestão\n\n\nSecção 3\nPopulação e sistema de referência\n\n\nSecção 4\nConstrução\n\n\nSecção 5\nEstado físico\n\n\nSecção 6\nÁgua, energia, saneamento e resíduos\n\n\nSecção 7\nServiços oferecidos — 7.1 clínicos e cirúrgicos · 7.2 apoio · 7.3.1 vacinação · 7.3 saúde pública\n\n\nSecções 7.4 e 7.5\nGestão e serviços gerais\n\n\nSecção 8\nRecursos cama e similares\n\n\nDomínios 9 a 13\nPor transcrever nesta edição",
+    "text": "DicaLegenda\n\n\n\n\n\nCaixa cinzenta: o que se lê ao respondente. Itálico: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.\nEtiquetas: NOVO não existe na Ficha 19_01 · ALTERADO existe e muda · MANTÉM-SE existe e não muda · A DECIDIR depende desta revisão · PARQUEADO fica para depois.\n\n\n\nO formulário está dividido num capítulo por secção, pela ordem em que o inquiridor o percorre. A secção 7 — serviços oferecidos — é a mais longa: os serviços clínicos, de apoio e de saúde pública (7.1 a 7.3) têm um capítulo cada, e a gestão e os serviços gerais (7.4 e 7.5) estão juntos num capítulo próprio. Cada capítulo pode ser lido e discutido por si, numa sessão de revisão.\nCada quesito tem ao lado um botão 💬 Comentar, que abre um formulário curto já com o código do quesito preenchido. Os comentários vão para a mesma folha de respostas, um por linha, e são depois cruzados com a matriz pelo código.\n\n\n\nCapítulo\nConteúdo\n\n\n\n\nSecção 0\nIdentificação da recolha\n\n\nSecção 1\nLocalização\n\n\nSecção 2\nPropriedade e gestão\n\n\nSecção 3\nPopulação e sistema de referência\n\n\nSecção 4\nConstrução\n\n\nSecção 5\nEstado físico\n\n\nSecção 6\nÁgua, energia, saneamento e resíduos\n\n\nSecção 7\nServiços oferecidos — 7.1 clínicos e cirúrgicos · 7.2 apoio · 7.3.1 vacinação · 7.3 saúde pública\n\n\nSecções 7.4 e 7.5\nGestão e serviços gerais\n\n\nSecção 8\nRecursos cama e similares\n\n\nSecção 9\nAparelhos médico-cirúrgicos\n\n\nDomínios 10 a 13\nPor transcrever nesta edição",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>O formulário, com comentários</span>"
     ]
@@ -1209,7 +1209,7 @@
     "href": "formulario/07-4-5-gestao-servicos-gerais.html#serviços-de-gestão",
     "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "",
-    "text": "O que esta secção permite medir\n\n\n\n\n\n\n\n\nQuesito\nO que se obtém\n\n\n\n\n7.4.1 a 7.4.17\nExistência e funcionamento de 17 serviços e órgãos de gestão (4 indicadores do HHFA)\n\n\n7.4.14\nRevisão de casos e de óbitos nas unidades com internamento (6 indicadores do HHFA)\n\n\n7.4.13\nEstrutura de gestão da prevenção e controlo de infecções (3 indicadores do HHFA)\n\n\n7.4.18\nGarantia e melhoria da qualidade (7 indicadores do HHFA)\n\n\nParqueados\nArquivo e reporte de dados; equipa de gestão (cerca de 15 indicadores do HHFA, fora desta ronda)",
+    "text": "O que esta secção permite medir\n\n\n\n\n\n\n\n\nQuesito\nO que se obtém\n\n\n\n\n7.4.1 a 7.4.17\nExistência e funcionamento de 17 serviços e órgãos de gestão\n\n\n7.4.14\nRevisão de casos e de óbitos nas unidades com internamento\n\n\n7.4.13\nEstrutura de gestão da prevenção e controlo de infecções\n\n\n7.4.18\nGarantia e melhoria da qualidade\n\n\nParqueados\nArquivo e reporte de dados; equipa de gestão",
     "crumbs": [
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
@@ -1289,7 +1289,7 @@
     "href": "formulario/07-4-5-gestao-servicos-gerais.html#serviços-gerais",
     "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "7.5 — Serviços gerais",
-    "text": "7.5 — Serviços gerais\n20 campos, contra 19 na Ficha 19_01, contando que dois quesitos saem para outros domínios.\n\n\nO que esta secção permite medir\n\n\n\n\n\n\n\n\nQuesito\nO que se obtém\n\n\n\n\n7.5.1 e 7.5.1.1\nTransporte de emergência disponível hoje, com combustível e motorista (1 indicador do HHFA)\n\n\n7.5.2 a 7.5.18\nExistência e funcionamento de 15 serviços gerais (5 indicadores do HHFA)\n\n\n7.5.5.2\nCapacidade da morgue (medida própria do Mapa Sanitário)\n\n\n7.5.18.1 e 7.5.18.2\nRecolha e análise da opinião dos utentes (1 indicador do HHFA)\n\n\n7.5.7 e 7.5.16\nRemissões para os domínios 13 e 6 (os indicadores contam-se nesses domínios)\n\n\n7.5.8\nManutenção (parqueado; 23 indicadores do HHFA)",
+    "text": "7.5 — Serviços gerais\n20 campos, contra 19 na Ficha 19_01, contando que dois quesitos saem para outros domínios.\n\n\nO que esta secção permite medir\n\n\n\n\n\n\n\n\nQuesito\nO que se obtém\n\n\n\n\n7.5.1 e 7.5.1.1\nTransporte de emergência disponível hoje, com combustível e motorista (1 indicador do HHFA)\n\n\n7.5.2 a 7.5.18\nExistência e funcionamento de 15 serviços gerais\n\n\n7.5.5.2\nCapacidade da morgue\n\n\n7.5.18.1 e 7.5.18.2\nRecolha e análise da opinião dos utentes (1 indicador do HHFA)\n\n\n7.5.7 e 7.5.16\nRemissões para os domínios 13 e 6 (os indicadores contam-se nesses domínios)\n\n\n7.5.8\nManutenção",
     "crumbs": [
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
@@ -1495,13 +1495,63 @@
     ]
   },
   {
-    "objectID": "formulario/09-13-por-transcrever.html",
-    "href": "formulario/09-13-por-transcrever.html",
-    "title": "Domínios 9 a 13 — por transcrever nesta edição",
+    "objectID": "formulario/09-aparelhos.html",
+    "href": "formulario/09-aparelhos.html",
+    "title": "Secção 9 — Aparelhos médico-cirúrgicos",
     "section": "",
-    "text": "Os domínios seguintes estão integralmente escritos na matriz de decisão da adaptação e serão transcritos para este formato na próxima edição do documento. Ficam aqui identificados com o respectivo volume, para que a leitura da proposta não pareça incompleta onde não está.\n\n\n\n\n\n\n\n\nDomínio\nConteúdo\nCampos propostos / na Ficha\n\n\n\n\n9\nAparelhos médico-cirúrgicos — a contagem dos 15 tipos da Ficha, mais a grelha de verificação do equipamento básico e oito itens novos\n39 / 16\n\n\n10\nMeios de transporte — os 7 tipos de veículo da Ficha com três colunas de estado, as linhas abertas, e o plano de manutenção de veículos\n36 / 24\n\n\n11 e 12\nResponsáveis e contactos — o responsável técnico da unidade, as pessoas que responderam ao inquérito, o responsável do preenchimento\n34 / 24\n\n\n13\nConectividade e meios informáticos — computadores, internet, telefone, sistemas de informação em uso\n36\n\n\n\nEm síntese, o conjunto da proposta soma cerca de 650 campos para toda a rede — número que só faz sentido lido com a nota sobre as portas e os saltos: nenhuma unidade sanitária responde a mais do que uma fracção deles.\nTrês observações sobre estes domínios, que a revisão pode já considerar sem esperar pela transcrição:\nNo domínio 9, como no 8, a Ficha conta e o instrumento internacional verifica. A Ficha conta os aparelhos; o instrumento internacional verifica a presença de um. A proposta soma a verificação à contagem, não troca uma pela outra — e é por isso que os quatro itens que também entram na grelha de verificação conservam a sua caixa de quantidade.\nO domínio 10 é, por inteiro, contributo próprio. Não existe um único indicador internacional de contagem de frota. A informação é essencial à gestão logística da rede e nenhum instrumento internacional a recolhe.\nOs domínios 11 e 12 não geram nem devem gerar indicador. A sua função é permitir contactar as pessoas certas quando surgir um problema com os dados recolhidos, e é por esse critério que devem ser avaliados.",
+    "text": "9.1.1 a 9.1.15 Número de aparelhos ALTERADO\nNúmero de aparelhos médico-cirúrgicos de cada tipo e, nas unidades visitadas, a verificação do equipamento básico na área principal de atendimento: presente e a funcionar.\n39 campos, contra 16 na Ficha 19_01. As colunas de verificação aplicam-se só nas unidades visitadas.",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Domínios 9 a 13 — por transcrever nesta edição</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Secção 9 — Aparelhos médico-cirúrgicos</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/09-aparelhos.html#a-9.1.15-número-de-aparelhos-alterado",
+    "href": "formulario/09-aparelhos.html#a-9.1.15-número-de-aparelhos-alterado",
+    "title": "Secção 9 — Aparelhos médico-cirúrgicos",
+    "section": "",
+    "text": "O que este quesito permite medir\n\nNúmero de aparelhos de cada tipo em condições de utilização em cada unidade sanitária. Somado por município e província, orienta a distribuição de equipamento na rede.\n\n\nInstrução ao inquiridor (não ler para o respondente) — Nesta versão, a secção aplica-se a centros e postos de saúde; ver a pendência sobre o âmbito no fim da secção.\n\n\nPergunta · ler ao respondente\nPara cada um dos aparelhos seguintes, indique quantas unidades existem nesta unidade sanitária e estavam em condições de utilização no último mês.\n\n\nGrelha de resposta\n\n\n\n\n\n\n\n\n\nCódigo\nAparelho\nNúmero (0–999)\n998 · Não sabe\n\n\n\n\n9.1.1\nEsterilizador (estufa ou autoclave)\n___\n☐\n\n\n9.1.2\nMini-arca do Programa Alargado de Vacinação\n___\n☐\n\n\n9.1.3\nBalança de bebé, com graduação de 100 g\n___\n☐\n\n\n9.1.4\nBalança de adulto\n___\n☐\n\n\n9.1.5\nAparelho de raios X\n___\n☐\n\n\n9.1.6\nEstetoscópio fetal de Pinard\n___\n☐\n\n\n9.1.7\nEstetoscópio clínico\n___\n☐\n\n\n9.1.8\nAparelho de medir a tensão arterial, digital ou esfigmomanómetro manual\n___\n☐\n\n\n9.1.9\nEcógrafo de obstetrícia\n___\n☐\n\n\n9.1.10\nKit para exame vaginal ou cervical, com espéculo\n___\n☐\n\n\n9.1.11\nKit de evacuação uterina (curetagem ou aspirador manual)\n___\n☐\n\n\n9.1.12\nRessuscitador neonatal (insuflador com máscara)\n___\n☐\n\n\n9.1.13\nKit de parto instrumental\n___\n☐\n\n\n9.1.14\nKit de parto descartável\n___\n☐\n\n\n9.1.15\nKit de cesariana\n___\n☐\n\n\n\n\n\nPorque mudou. Os 15 tipos de aparelho mantêm-se, com os mesmos códigos. O enunciado passa a dizer o que se conta: os aparelhos em condições de utilização no último mês.\nRemissões. O esterilizador, o aparelho de raios X e o ecógrafo contam-se aqui como equipamento; a oferta dos serviços correspondentes — esterilização, imagiologia — está na secção 7.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Secção 9 — Aparelhos médico-cirúrgicos</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/09-aparelhos.html#a-9.1.23-verificação-do-equipamento-básico-novo",
+    "href": "formulario/09-aparelhos.html#a-9.1.23-verificação-do-equipamento-básico-novo",
+    "title": "Secção 9 — Aparelhos médico-cirúrgicos",
+    "section": "9.1.16 a 9.1.23 Verificação do equipamento básico NOVO",
+    "text": "9.1.16 a 9.1.23 Verificação do equipamento básico NOVO\n\n\nO que este quesito permite medir\n\nPresença e funcionamento de doze itens de equipamento básico na área principal de atendimento, nas unidades visitadas, e a proporção desse equipamento reunida em cada unidade. Conta apenas o aparelho observado e a funcionar (coluna A = 1 e coluna B = 1). Comparada com a contagem de 9.1.1 a 9.1.15, mostra a dimensão dos problemas de manutenção.\n\n\nInstrução ao inquiridor (não ler para o respondente) — Aplicar só nas unidades visitadas com observação (0.5 = 1). Pedir para ver cada aparelho e marcar «1 Observado» apenas quando for visto. Considerar só os aparelhos da área de atendimento, não os guardados em armazém. A fita métrica não tem coluna B.\n\n\nPergunta · ler ao respondente\nVou perguntar por alguns aparelhos que devem existir na área principal de atendimento desta unidade. Para cada um, peço que me mostre o aparelho e que me diga, quando for aplicável, se está a funcionar.\n\n\nGrelha de resposta\n\nA · Disponibilidade: 1 Observado · 2 Referido, não visto · 3 Não tem\nB · Funcionamento: 1 Sim, funciona · 2 Não funciona · 98 Não sabe\n\n\n\n\n\n\n\n\n\n\nCódigo\nAparelho\nA · Disponibilidade\nB · Funcionamento\n\n\n\n\n9.1.3\nBalança de bebé, com graduação de 100 g\n☐ 1 ☐ 2 ☐ 3\n☐ 1 ☐ 2 ☐ 98\n\n\n9.1.16\nBalança de criança, com graduação de 250 g\n☐ 1 ☐ 2 ☐ 3\n☐ 1 ☐ 2 ☐ 98\n\n\n9.1.4\nBalança de adulto\n☐ 1 ☐ 2 ☐ 3\n☐ 1 ☐ 2 ☐ 98\n\n\n9.1.8\nAparelho de medir a tensão arterial, digital ou esfigmomanómetro manual\n☐ 1 ☐ 2 ☐ 3\n☐ 1 ☐ 2 ☐ 98\n\n\n9.1.7\nEstetoscópio clínico\n☐ 1 ☐ 2 ☐ 3\n☐ 1 ☐ 2 ☐ 98\n\n\n9.1.17\nTermómetro\n☐ 1 ☐ 2 ☐ 3\n☐ 1 ☐ 2 ☐ 98\n\n\n9.1.18\nOxímetro de pulso\n☐ 1 ☐ 2 ☐ 3\n☐ 1 ☐ 2 ☐ 98\n\n\n9.1.19\nFoco de exame orientável para observar o doente (lanterna aceitável)\n☐ 1 ☐ 2 ☐ 3\n☐ 1 ☐ 2 ☐ 98\n\n\n9.1.20\nOtoscópio\n☐ 1 ☐ 2 ☐ 3\n☐ 1 ☐ 2 ☐ 98\n\n\n9.1.21\nOftalmoscópio\n☐ 1 ☐ 2 ☐ 3\n☐ 1 ☐ 2 ☐ 98\n\n\n9.1.22\nFita métrica\n☐ 1 ☐ 2 ☐ 3\n—\n\n\n9.1.23\nCraveira ou estadiómetro\n☐ 1 ☐ 2 ☐ 3\n☐ 1 ☐ 2 ☐ 98\n\n\n\n\n\nPorque é necessária. A contagem de 9.1.1 a 9.1.15 diz quantos aparelhos existem; esta grelha verifica se estão presentes e a funcionar na área de atendimento. As duas servem decisões diferentes — a contagem orienta a distribuição de equipamento, a verificação mostra onde estão as falhas —, e por isso os quatro aparelhos que entram nas duas conservam a sua caixa de quantidade.\nCódigos. Os oito itens novos continuam a numeração da Ficha, de 9.1.16 a 9.1.23, para que nada do que já existe mude de número. A balança de criança (graduação de 250 g) é distinta da balança de bebé (graduação de 100 g), que se mantém.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Secção 9 — Aparelhos médico-cirúrgicos</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/09-aparelhos.html#observações-mantém-se",
+    "href": "formulario/09-aparelhos.html#observações-mantém-se",
+    "title": "Secção 9 — Aparelhos médico-cirúrgicos",
+    "section": "9.2 Observações MANTÉM-SE",
+    "text": "9.2 Observações MANTÉM-SE\n\nCampo · preenchido pelo inquiridor\nObservações sobre os aparelhos desta unidade sanitária.\n\n\nInstrução ao inquiridor (não ler para o respondente) — Mencionar também qualquer outro equipamento relevante encontrado na unidade, mesmo que não conste da lista — por exemplo, equipamento de fisioterapia.\n\n\nOpções de resposta\nTexto livre",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Secção 9 — Aparelhos médico-cirúrgicos</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/09-aparelhos.html#pendência-desta-secção",
+    "href": "formulario/09-aparelhos.html#pendência-desta-secção",
+    "title": "Secção 9 — Aparelhos médico-cirúrgicos",
+    "section": "Pendência desta secção",
+    "text": "Pendência desta secção\n\nÂmbito da secção. Hoje a secção aplica-se apenas a centros e postos de saúde. O Guião (folha 17) justifica a restrição: nos hospitais, a informação sobre aparelhos está incluída nos dados das provas diagnósticas e de tratamento. Falta decidir se a secção passa a aplicar-se a todas as unidades sanitárias. Com a restrição, a contagem e a verificação do equipamento básico ficam disponíveis só para centros e postos de saúde. Como a verificação se faz apenas nas unidades visitadas, o custo de alargar a secção depende do número de visitas e não do total de unidades.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Secção 9 — Aparelhos médico-cirúrgicos</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/10-13-por-transcrever.html",
+    "href": "formulario/10-13-por-transcrever.html",
+    "title": "Domínios 10 a 13 — por transcrever nesta edição",
+    "section": "",
+    "text": "Os domínios seguintes estão integralmente escritos na matriz de decisão da adaptação e serão transcritos para este formato na próxima edição do documento. Ficam aqui identificados com o respectivo volume, para que a leitura da proposta não pareça incompleta onde não está.\n\n\n\n\n\n\n\n\nDomínio\nConteúdo\nCampos propostos / na Ficha\n\n\n\n\n10\nMeios de transporte — os 7 tipos de veículo da Ficha com três colunas de estado, as linhas abertas, e o plano de manutenção de veículos\n36 / 24\n\n\n11 e 12\nResponsáveis e contactos — o responsável técnico da unidade, as pessoas que responderam ao inquérito, o responsável do preenchimento\n34 / 24\n\n\n13\nConectividade e meios informáticos — computadores, internet, telefone, sistemas de informação em uso\n36\n\n\n\nEm síntese, o conjunto da proposta soma cerca de 650 campos para toda a rede — número que só faz sentido lido com a nota sobre as portas e os saltos: nenhuma unidade sanitária responde a mais do que uma fracção deles.\nDuas observações sobre estes domínios, que a revisão pode já considerar sem esperar pela transcrição:\nO domínio 10 é, por inteiro, contributo próprio. Não existe um único indicador internacional de contagem de frota. A informação é essencial à gestão logística da rede e nenhum instrumento internacional a recolhe.\nOs domínios 11 e 12 não geram nem devem gerar indicador. A sua função é permitir contactar as pessoas certas quando surgir um problema com os dados recolhidos, e é por esse critério que devem ser avaliados.",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Domínios 10 a 13 — por transcrever nesta edição</span>"
     ]
   }
 ]

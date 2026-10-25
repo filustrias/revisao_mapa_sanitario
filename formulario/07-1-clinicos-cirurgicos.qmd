@@ -11,12 +11,12 @@ Atendimento por especialidade clínica e serviços para doenças crónicas não 
 
 | Quesito | O que se obtém |
 |---|---|
-| 7.1.A | Densidade de oferta em 28 especialidades: atendimento, número de especialistas, turnos por semana e forma de acesso (medida própria do Mapa Sanitário) |
-| 7.1.B | Oferta de serviços para doenças crónicas não transmissíveis, por condição e por função (4 indicadores do HHFA) |
-| 7.1.C | Oferta de serviços para transtornos mentais e para doenças neurológicas (2 indicadores do HHFA) |
-| 7.1.D | Oferta de serviços de cancro, por localização (5 indicadores do HHFA) |
-| 7.1.E | Serviços a sobreviventes de violência: populações, prestações e condição de acesso (13 indicadores do HHFA) |
-| 7.1.F | Oferta de cirurgia, pequena e grande, e procedimentos de referência realizados (7 indicadores do HHFA) |
+| 7.1.A | Densidade de oferta em 28 especialidades: atendimento, número de especialistas, turnos por semana e forma de acesso |
+| 7.1.B | Oferta de serviços para doenças crónicas não transmissíveis, por condição e por função |
+| 7.1.C | Oferta de serviços para transtornos mentais e para doenças neurológicas |
+| 7.1.D | Oferta de serviços de cancro, por localização |
+| 7.1.E | Serviços a sobreviventes de violência: populações, prestações e condição de acesso |
+| 7.1.F | Oferta de cirurgia, pequena e grande, e procedimentos de referência realizados |
 
 </details>
 

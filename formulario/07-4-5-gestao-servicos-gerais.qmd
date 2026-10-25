@@ -13,11 +13,11 @@ Serviços e órgãos de gestão, revisão de casos e de óbitos, prevenção e c
 
 | Quesito | O que se obtém |
 |---|---|
-| 7.4.1 a 7.4.17 | Existência e funcionamento de 17 serviços e órgãos de gestão (4 indicadores do HHFA) |
-| 7.4.14 | Revisão de casos e de óbitos nas unidades com internamento (6 indicadores do HHFA) |
-| 7.4.13 | Estrutura de gestão da prevenção e controlo de infecções (3 indicadores do HHFA) |
-| 7.4.18 | Garantia e melhoria da qualidade (7 indicadores do HHFA) |
-| Parqueados | Arquivo e reporte de dados; equipa de gestão (cerca de 15 indicadores do HHFA, fora desta ronda) |
+| 7.4.1 a 7.4.17 | Existência e funcionamento de 17 serviços e órgãos de gestão |
+| 7.4.14 | Revisão de casos e de óbitos nas unidades com internamento |
+| 7.4.13 | Estrutura de gestão da prevenção e controlo de infecções |
+| 7.4.18 | Garantia e melhoria da qualidade |
+| Parqueados | Arquivo e reporte de dados; equipa de gestão |
 
 </details>
 
@@ -306,11 +306,11 @@ A proposta é começar pela autonomia de gestão e pelas fontes de financiamento
 | Quesito | O que se obtém |
 |---|---|
 | 7.5.1 e 7.5.1.1 | Transporte de emergência disponível hoje, com combustível e motorista (1 indicador do HHFA) |
-| 7.5.2 a 7.5.18 | Existência e funcionamento de 15 serviços gerais (5 indicadores do HHFA) |
-| 7.5.5.2 | Capacidade da morgue (medida própria do Mapa Sanitário) |
+| 7.5.2 a 7.5.18 | Existência e funcionamento de 15 serviços gerais |
+| 7.5.5.2 | Capacidade da morgue |
 | 7.5.18.1 e 7.5.18.2 | Recolha e análise da opinião dos utentes (1 indicador do HHFA) |
 | 7.5.7 e 7.5.16 | Remissões para os domínios 13 e 6 (os indicadores contam-se nesses domínios) |
-| 7.5.8 | Manutenção (parqueado; 23 indicadores do HHFA) |
+| 7.5.8 | Manutenção |
 
 </details>
 

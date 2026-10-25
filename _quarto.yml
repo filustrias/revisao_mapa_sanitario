@@ -34,7 +34,8 @@ book:
         - formulario/07-3-saude-publica.qmd
     - formulario/07-4-5-gestao-servicos-gerais.qmd
     - formulario/08-recursos-cama.qmd
-    - formulario/09-13-por-transcrever.qmd
+    - formulario/09-aparelhos.qmd
+    - formulario/10-13-por-transcrever.qmd
 
 format:
   html:
