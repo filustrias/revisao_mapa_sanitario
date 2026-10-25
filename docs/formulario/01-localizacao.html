@@ -213,6 +213,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#a-1.5-localização-administrativa-e-nome-da-unidade-mantém-se" id="toc-a-1.5-localização-administrativa-e-nome-da-unidade-mantém-se" class="nav-link active" data-scroll-target="#a-1.5-localização-administrativa-e-nome-da-unidade-mantém-se">1.1 a 1.5 Localização administrativa e nome da unidade <span class="etiqueta mantem">MANTÉM-SE</span></a></li>
+  <li><a href="#endereço-completo-novo" id="toc-endereço-completo-novo" class="nav-link" data-scroll-target="#endereço-completo-novo">1.5.1 Endereço completo <span class="etiqueta novo">NOVO</span></a></li>
   <li><a href="#categoria-da-unidade-mantém-se" id="toc-categoria-da-unidade-mantém-se" class="nav-link" data-scroll-target="#categoria-da-unidade-mantém-se">1.6 Categoria da unidade <span class="etiqueta mantem">MANTÉM-SE</span></a></li>
   <li><a href="#e-1.8-coordenadas-alterado" id="toc-e-1.8-coordenadas-alterado" class="nav-link" data-scroll-target="#e-1.8-coordenadas-alterado">1.7 e 1.8 Coordenadas <span class="etiqueta alterado">ALTERADO</span></a></li>
   <li><a href="#precisão-da-leitura-novo" id="toc-precisão-da-leitura-novo" class="nav-link" data-scroll-target="#precisão-da-leitura-novo">1.8.1 Precisão da leitura <span class="etiqueta novo">NOVO</span></a></li>
@@ -242,8 +243,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Localização administrativa e designação da unidade sanitária, a sua categoria, as coordenadas geográficas e a zona urbana, periurbana ou rural.</p>
-<p><span class="campos">16 campos.</span></p>
+<p>Localização administrativa, designação e endereço da unidade sanitária, a sua categoria, as coordenadas geográficas e a zona urbana, periurbana ou rural.</p>
+<p><span class="campos">17 campos.</span></p>
 <details class="medir-seccao">
 <summary>
 O que esta secção permite medir
@@ -265,18 +266,22 @@ O que esta secção permite medir
 <td>Identificação da unidade e estratificação por província, município, comuna e bairro</td>
 </tr>
 <tr class="even">
+<td>1.5.1</td>
+<td>Endereço completo, para localizar a unidade no terreno</td>
+</tr>
+<tr class="odd">
 <td>1.6</td>
 <td>Estratificação de todos os indicadores por categoria da unidade; definição das unidades de cuidados primários (1 indicador do HHFA)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>1.7 e 1.8</td>
 <td>Localização exacta da unidade, base das densidades e do acesso geográfico (7 indicadores do HHFA)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>1.8.1</td>
 <td>Qualidade de cada leitura de coordenadas</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>1.9</td>
 <td>Desagregação de todos os indicadores por zona urbana, rural e periurbana</td>
 </tr>
@@ -293,14 +298,38 @@ O que este quesito permite medir
 <p>Indicador do HHFA: nenhum · identificador e estratificador da análise</p>
 </details>
 <div class="enunciado rotulado">
-<p><span class="rotulo">Pergunta · ler ao respondente</span></p>
+<p><span class="rotulo">Campo · preenchido pelo inquiridor</span></p>
 <p><strong>1.1</strong> Província · <strong>1.2</strong> Município · <strong>1.3</strong> Comuna ou distrito urbano · <strong>1.4</strong> Aldeia rural ou bairro urbano · <strong>1.5</strong> Nome da unidade sanitária</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — Registar designação e código do Mapa Sanitário. Seleccionar do menu auxiliar, como manda o Guião (folha 4). As caixas em cinzento são codificadas posteriormente pelo GEPE. Os campos 1.3 e 1.4 preenchem-se se conhecidos.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Unidade da lista prévia do Mapa Sanitário:</strong> os campos 1.1 a 1.5 e o código da unidade vêm pré-carregados no sistema. Confirmar que correspondem à unidade visitada; se algum estiver errado, corrigir e assinalar a correcção.</p>
+<p><strong>Unidade que não consta da lista prévia:</strong> registá-la como unidade nova. Seleccionar a província, o município e a comuna do menu auxiliar e escrever a aldeia ou bairro e o nome da unidade. O código do Mapa Sanitário é atribuído posteriormente pelo GEPE.</p>
 </div>
 <div class="nota">
-<p>São os estratificadores de toda a análise e o identificador da unidade. Nada a alterar.</p>
+<p><strong>O que muda.</strong> Os campos mantêm-se. Com a lista prévia carregada no sistema, deixam de ser escritos de novo em cada ronda: confirmam-se e corrigem-se. As unidades encontradas no terreno que não constam da lista entram como unidades novas.</p>
+</div>
+</section>
+<section id="endereço-completo-novo" class="level2">
+<h2 class="anchored" data-anchor-id="endereço-completo-novo">1.5.1 Endereço completo <span class="etiqueta novo">NOVO</span></h2>
+<details class="medir">
+<summary>
+O que este quesito permite medir
+</summary>
+<p>Endereço de cada unidade sanitária, para a localizar no terreno e para a comunicação com a unidade.</p>
+<p>Indicador do HHFA: nenhum · identificador da unidade</p>
+</details>
+<div class="enunciado rotulado">
+<p><span class="rotulo">Confirmar com o respondente</span></p>
+<p>Endereço completo da unidade sanitária: rua ou avenida, número, bairro e um ponto de referência próximo.</p>
+</div>
+<div class="instrucao rotulado">
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — Se a unidade consta da lista prévia e o endereço vem pré-carregado, confirmá-lo com o respondente e corrigir se necessário. Se não consta, perguntar o endereço ao respondente e registá-lo.</p>
+</div>
+<div class="respostas rotulado">
+<p><span class="rotulo">Opções de resposta</span></p>
+<ul>
+<li>Texto</li>
+</ul>
 </div>
 </section>
 <section id="categoria-da-unidade-mantém-se" class="level2">
@@ -313,14 +342,14 @@ O que este quesito permite medir
 <p>Indicador do HHFA: 1.1.1.1.2 · e estratificador principal da análise</p>
 </details>
 <div class="enunciado rotulado">
-<p><span class="rotulo">Pergunta · ler ao respondente</span></p>
+<p><span class="rotulo">Confirmar com o respondente</span></p>
 <p>Categoria da unidade, segundo a classificação do Mapa Sanitário.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — Registar a categoria actualmente atribuída à unidade, tal como indicada no Mapa Sanitário actual.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — Se a unidade consta da lista prévia, a categoria vem pré-carregada: confirmá-la com o respondente e corrigir se necessário. Se a unidade não consta da lista, registar a categoria indicada pelo respondente.</p>
 </div>
 <div class="nota">
-<p>É o <strong>estratificador principal</strong> de toda a análise: é por esta caixa que todos os indicadores se leem por tipo de unidade. Mantém-se exactamente como está. Note-se que a categoria <strong>não</strong> decide nenhum salto do formulário — essa é uma regra transversal da proposta, e a razão está na nota de apresentação.</p>
+<p>É o estratificador principal de toda a análise: é por esta caixa que todos os indicadores se leem por tipo de unidade. Mantém-se exactamente como está. A categoria não decide nenhum salto do formulário.</p>
 </div>
 </section>
 <section id="e-1.8-coordenadas-alterado" class="level2">
@@ -344,14 +373,14 @@ Ver os 7 indicadores
 <li>1.4.1.1.3 — Índice de densidade de camas de maternidade</li>
 </ul>
 </details>
-<p>Indicadores do HHFA: 1.1.1.1.1 a 1.1.1.1.4 e 1.4.1.1.1 a 1.4.1.1.3 em 1.1.1.1.1 a 1.1.1.1.3, não nos restantes</p>
+<p>Indicadores do HHFA: 1.1.1.1.1 a 1.1.1.1.4 · 1.4.1.1.1 a 1.4.1.1.3</p>
 </details>
 <div class="enunciado rotulado">
-<p><span class="rotulo">Pergunta · ler ao respondente</span></p>
+<p><span class="rotulo">Campo · registado pelo sistema digital</span></p>
 <p><strong>1.7</strong> Latitude · <strong>1.8</strong> Longitude, em graus decimais.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — Efectuar a leitura à entrada principal do edifício principal, ao ar livre, com o aparelho estável durante pelo menos 60 segundos. Registar em graus decimais, com cinco casas decimais.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — As coordenadas são registadas pelo aparelho. Fazer a leitura à entrada principal do edifício principal, ao ar livre, com o aparelho estável durante pelo menos 60 segundos. Na versão em papel, registar em graus decimais, com cinco casas decimais.</p>
 </div>
 <div class="nota">
 <p><strong>Porque mudou.</strong> As duas caixas mantêm-se. Ao formato que o Guião fixa — «em graus decimais» — acrescenta-se um protocolo de leitura: o local onde se faz a leitura e o tempo de estabilização do aparelho. Sem protocolo, a mesma unidade pode ficar a 200 metros de si mesma entre duas rondas, e os cálculos de distância e de acesso geográfico deixam de ser comparáveis.</p>
@@ -367,8 +396,8 @@ O que este quesito permite medir
 <p>Indicador do HHFA: nenhum · qualifica a leitura de 1.7 e 1.8</p>
 </details>
 <div class="enunciado rotulado">
-<p><span class="rotulo">Pergunta · ler ao respondente</span></p>
-<p>Precisão indicada pelo aparelho, em metros.</p>
+<p><span class="rotulo">Campo · registado pelo sistema digital</span></p>
+<p>Precisão da leitura de coordenadas indicada pelo aparelho, em metros.</p>
 </div>
 <div class="respostas rotulado">
 <p><span class="rotulo">Opções de resposta</span></p>
@@ -390,8 +419,8 @@ O que este quesito permite medir
 <p>Indicador do HHFA: nenhum · estratificador da análise</p>
 </details>
 <div class="enunciado rotulado">
-<p><span class="rotulo">Pergunta · ler ao respondente</span></p>
-<p>Esta unidade sanitária situa-se numa zona urbana, rural ou periurbana?</p>
+<p><span class="rotulo">Campo · preenchido pelo inquiridor</span></p>
+<p>Zona em que se situa a unidade sanitária.</p>
 </div>
 <div class="instrucao rotulado">
 <p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — Usar a classificação administrativa em vigor; em caso de dúvida, perguntar ao respondente.</p>
@@ -405,7 +434,7 @@ O que este quesito permite medir
 </ol>
 </div>
 <div class="nota">
-<p><strong>Para que serve.</strong> Uma caixa própria dispensa inferir esta informação da localização administrativa, o que é difícil nas periferias das capitais provinciais, e permite desagregar por urbano e rural todos os indicadores do formulário — que é a desagregação mais pedida em qualquer análise de equidade no acesso.</p>
+<p><strong>Para que serve.</strong> Uma caixa própria dispensa inferir esta informação da localização administrativa, o que é difícil nas periferias das capitais provinciais, e permite desagregar por urbano e rural todos os indicadores do formulário.</p>
 </div>
 
 

@@ -60,7 +60,7 @@ População da área de abrangência directa de cada unidade. É o denominador d
 
 </details>
 
-Indicadores do HHFA: 1.1.1.1.1 a 1.1.1.1.4, 1.2.2.1.1 a 1.2.2.4.8 e 1.4.1.1.1 a 1.4.1.1.3, como denominador em 23, não em 1.1.1.1.4 e 1.4.1.1.1 a 1.4.1.1.3
+Indicadores do HHFA: 1.1.1.1.1 a 1.1.1.1.4 · 1.2.2.1.1 a 1.2.2.4.8 · 1.4.1.1.1 a 1.4.1.1.3 — como denominador
 
 </details>
 
