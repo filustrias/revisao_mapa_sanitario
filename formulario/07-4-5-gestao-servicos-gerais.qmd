@@ -277,15 +277,27 @@ Esta unidade sanitária tem orçamento próprio?
 :::
 
 ::: {.nota}
-**Porque está aqui.** Na Ficha, este quesito está no cabeçalho, junto da data da recolha. É um quesito de gestão financeira e passa para esta secção, onde deve ser combinado com outras informações sobre o financiamento da unidade. Conserva o código 0.2 até esse bloco ser desenhado.
+**Porque está aqui.** Na Ficha, este quesito está no cabeçalho, junto da data da recolha. É um quesito de gestão financeira e passa para esta secção, onde deve ser combinado com outras informações sobre o financiamento da unidade. Conserva o código 0.2 até essa decisão; as opções estão nas pendências, no fim desta subsecção.
 :::
 
-## Duas pendências desta subsecção
+## Pendências desta subsecção
 
 ::: {.nota}
 **7.4.15 — Comissão de Medicamentos.** A verificar se corresponde à comissão de aquisições do instrumento internacional; se corresponder, a caixa que já existe passa a gerar indicador sem qualquer alteração.
 
 **7.4.8 e 7.4.9 — estatuto de unidade de ensino.** Falta um quesito que registre se esta unidade sanitária acolhe formação de estudantes, internos, médicos em especialização ou técnicos de saúde em formação. A Ficha tem as caixas dos órgãos (escola de formação, núcleo de formação permanente), mas não a pergunta sobre o estatuto.
+
+**0.2 — Orçamento próprio: com que informações combinar.** O quesito passou do cabeçalho para esta subsecção. Falta decidir que informações sobre o financiamento da unidade o acompanham. O instrumento internacional recolhe-as nestes temas:
+
+| Tema | O que se pergunta |
+|---|---|
+| Autonomia de gestão | Se a unidade gere conta bancária própria e decide os seus gastos |
+| Linhas orçamentais | Se o orçamento tem verbas para manutenção, medicamentos, pessoal e outras despesas |
+| Fontes de financiamento | De onde vem o financiamento da unidade — Estado, parceiros, taxas cobradas aos utentes |
+| Taxas cobradas aos utentes | Se a unidade cobra taxas, por que serviços, e se há isenções |
+| Auditoria financeira | Se a unidade tem auditoria financeira externa anual |
+
+A proposta é começar pela autonomia de gestão e pelas fontes de financiamento, as mais próximas da pergunta actual e as mais fáceis de responder numa visita.
 :::
 
 ## 7.5 — Serviços gerais {.bloco}
