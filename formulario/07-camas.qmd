@@ -11,7 +11,7 @@ Camas de internamento por tamanho, por enfermaria e por sexo, camas de observaç
 
 | Quesito | O que se obtém |
 |---|---|
-| 7.0.1 | Unidades sanitárias com internamento (1 indicador do HHFA) |
+| 7.0.1 | Unidades sanitárias com internamento [(1 indicador do HHFA)]{.hhfa} |
 | 7.1.1 a 7.1.3 | Camas de internamento de adulto, pediátricas e berços de recém-nascido; com a população da secção 3, camas por 10 000 habitantes [(4 indicadores do HHFA)]{.hhfa} |
 | 7.1.4 | Diferença entre camas autorizadas e camas instaladas [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 7.2 | Camas por enfermaria ou serviço [(9 indicadores do HHFA)]{.hhfa} |
@@ -281,12 +281,12 @@ Ainda sobre as camas de internamento de adulto contadas em 7.1.1, quantas estão
 **Verificação a programar.** A soma das três linhas deve ser igual a 7.1.1.
 :::
 
-## 7.3.1 e 7.3.2 Camas de observação e de curta estadia [antigo 8.3.1 e 8.3.2]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 7.3.1 Camas de observação [antigo 8.3.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Capacidade de observação até 24 horas e de curta estadia até 72 horas, em todas as unidades sanitárias — muitas vezes a única capacidade de permanência de um posto ou de um centro de saúde.
+Capacidade de observação até 24 horas, em todas as unidades sanitárias — muitas vezes, com a curta estadia (7.3.2), a única capacidade de permanência de um posto ou de um centro de saúde.
 
 ::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
@@ -297,23 +297,50 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**7.3.1** Quantas camas ou marquesas de observação, até 24 horas, existem nesta unidade sanitária?
-
-**7.3.2** Quantas camas de curta estadia, até 72 horas, existem nesta unidade sanitária?
+Quantas camas ou marquesas de observação, até 24 horas, existem nesta unidade sanitária?
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Fazer estas perguntas a todas as unidades, com ou sem internamento.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Fazer esta pergunta a todas as unidades, com ou sem internamento.
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-Para cada uma: número inteiro (0–999) · **998** Não sabe
+Número inteiro (0–999) · **998** Não sabe
 :::
 
 ::: {.nota}
 **Porque mudou.** O Guião já distingue a observação até 24 horas da curta estadia até 72 horas; a proposta segue essa distinção e dá uma caixa a cada uma.
+:::
+
+## 7.3.2 Camas de curta estadia [antigo 8.3.2]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Capacidade de curta estadia até 72 horas, em todas as unidades sanitárias.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quantas camas de curta estadia, até 72 horas, existem nesta unidade sanitária?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Fazer esta pergunta a todas as unidades, com ou sem internamento.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Número inteiro (0–999) · **998** Não sabe
 :::
 
 ## 7.3.3 Camas de observação com pernoita [antigo 8.3.3]{.antigo} [NOVO]{.etiqueta .novo}

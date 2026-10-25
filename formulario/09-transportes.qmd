@@ -13,7 +13,8 @@ Veículos afectos à unidade sanitária, por tipo e por estado de funcionamento,
 |---|---|
 | 9.1.1 a 9.1.10 | Frota de cada unidade por tipo de veículo: em funcionamento, avariada com reparação ao alcance da unidade e avariada sem reparação possível [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 9.2 | Situações que a contagem não exprime — viaturas partilhadas, cedidas ou imobilizadas por falta de documentação |
-| 9.3.1 e 9.3.2 | Unidades com plano de manutenção de rotina dos veículos e que o cumprem [(2 indicadores do HHFA)]{.hhfa} |
+| 9.3.1 | Unidades com plano de manutenção de rotina dos veículos [(1 indicador do HHFA)]{.hhfa} |
+| 9.3.2 | Unidades que cumprem rotineiramente o plano de manutenção [(1 indicador do HHFA)]{.hhfa} |
 
 </details>
 
@@ -98,15 +99,15 @@ Observações sobre os meios de transporte desta unidade sanitária.
 Texto livre
 :::
 
-## 9.3.1 e 9.3.2 Manutenção dos veículos [antigo 10.3.1 e 10.3.2]{.antigo} [NOVO]{.etiqueta .novo}
+## 9.3.1 Plano de manutenção dos veículos [antigo 10.3.1]{.antigo} [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com plano de manutenção de rotina para algum dos seus veículos e percentagem das que o cumprem rotineiramente. Lida com a coluna das avarias de 9.1, mostra se o problema da frota tende a agravar-se ou a resolver-se.
+Percentagem de unidades sanitárias com plano de manutenção de rotina para algum dos seus veículos. Lida com a coluna das avarias de 9.1, mostra se o problema da frota tende a agravar-se ou a resolver-se.
 
 ::: {.hhfa}
-Indicadores do HHFA: 4.1.2.3.1 (plano de manutenção de rotina) · 4.1.2.3.2 (cumprimento rotineiro do plano)
+Indicador do HHFA: 4.1.2.3.1 (plano de manutenção de rotina)
 :::
 
 </details>
@@ -114,15 +115,11 @@ Indicadores do HHFA: 4.1.2.3.1 (plano de manutenção de rotina) · 4.1.2.3.2 (c
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**9.3.1** Esta unidade sanitária segue um plano de manutenção de rotina para algum dos seus veículos? Por manutenção de rotina entende-se a manutenção feita com periodicidade fixa, haja ou não avaria.
-
-**9.3.2** Esta unidade sanitária cumpre o plano de manutenção dos seus veículos?
+Esta unidade sanitária segue um plano de manutenção de rotina para algum dos seus veículos? Por manutenção de rotina entende-se a manutenção feita com periodicidade fixa, haja ou não avaria.
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
-
-**9.3.1**
 
 1. Sim
 2. Não
@@ -130,12 +127,6 @@ Indicadores do HHFA: 4.1.2.3.1 (plano de manutenção de rotina) · 4.1.2.3.2 (c
 <!-- -->
 
 5. A unidade não tem veículos
-
-**9.3.2**
-
-1. Sim, rotineiramente
-2. Sim, às vezes, mas não rotineiramente
-3. Nunca
 :::
 
 ::: {.instrucao .rotulado}
@@ -146,6 +137,33 @@ Indicadores do HHFA: 4.1.2.3.1 (plano de manutenção de rotina) · 4.1.2.3.2 (c
 **Porque é necessária.** A opção «A unidade não tem veículos» evita que uma unidade sem frota seja contada como unidade sem plano de manutenção.
 
 **Verificação a programar.** Se a contagem de 9.1.1 a 9.1.10 for zero em todas as colunas, 9.3.1 tem de ser 5.
+:::
+
+## 9.3.2 Cumprimento do plano de manutenção [antigo 10.3.2]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias que cumprem rotineiramente o plano de manutenção dos seus veículos.
+
+::: {.hhfa}
+Indicador do HHFA: 4.1.2.3.2 (cumprimento rotineiro do plano)
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária cumpre o plano de manutenção dos seus veículos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, rotineiramente
+2. Sim, às vezes, mas não rotineiramente
+3. Nunca
 :::
 
 ## Pendência desta secção

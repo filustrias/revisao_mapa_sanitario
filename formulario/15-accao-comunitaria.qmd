@@ -13,7 +13,7 @@ Actividade da unidade na comunidade: distribuição de redes mosquiteiras, briga
 |---|---|
 | 15.1 | Distribuição regular de redes mosquiteiras à população [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 15.2 e 15.3 | Brigadas móveis e equipas avançadas organizadas pela unidade [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 15.4 | Número de ADECOS que trabalham a partir da unidade [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 15.4 e 15.4.0 | Número de ADECOS que trabalham a partir da unidade [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 15.4.1 | Articulação com os ADECOS em seis programas [(6 indicadores do HHFA)]{.hhfa} |
 
 </details>
@@ -54,12 +54,12 @@ Mantém-se o código e o sentido. A única alteração é trazer para dentro da 
 **É contributo próprio:** o instrumento internacional só pergunta pela rede entregue em consulta — pré-natal, pós-parto e cuidados à criança — e não pela distribuição à população em geral, que é a modalidade do programa angolano. As duas leituras passam a coexistir.
 :::
 
-## 15.2 e 15.3 · Brigadas móveis e equipas avançadas [antigo 7.3.15 e 7.3.16]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+## 15.2 · Brigadas móveis de vacinação [antigo 7.3.15]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que organizam brigadas móveis de vacinação, a 10 km ou mais, e equipas avançadas, a menos de 10 km. O HHFA não tem indicador de actividade extramural organizada pela unidade: a vacinação em estratégia avançada só entra, sem se distinguir, nos indicadores de imunização. É medida própria do Mapa Sanitário.
+Percentagem de unidades que organizam brigadas móveis de vacinação, a 10 km ou mais. O HHFA não tem indicador de actividade extramural organizada pela unidade: a vacinação em estratégia avançada só entra, sem se distinguir, nos indicadores de imunização. É medida própria do Mapa Sanitário.
 
 ::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
@@ -70,19 +70,11 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**15.2** A partir desta unidade sanitária realizam-se periodicamente brigadas móveis de vacinação na área de referência, a 10 km ou mais?
-
-**15.3** E equipas avançadas de vacinação na área de referência, a menos de 10 km?
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em ambos: inclui postos avançados. Exclui campanhas de vacinação e brigadas organizadas pela delegação ou secção municipal, mesmo com participação de pessoal desta unidade.
+A partir desta unidade sanitária realizam-se periodicamente brigadas móveis de vacinação na área de referência, a 10 km ou mais?
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
-
-Para cada:
 
 1. Sim
 2. Não
@@ -90,6 +82,10 @@ Para cada:
 <!-- -->
 
 98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Inclui postos avançados. Exclui campanhas de vacinação e brigadas organizadas pela delegação ou secção municipal, mesmo com participação de pessoal desta unidade.
 :::
 
 ::: {.nota}
@@ -100,12 +96,12 @@ Mantêm-se integralmente, com as definições do Guião — incluindo as três e
 **Articula-se com a secção 9:** as motorizadas e as bicicletas da Ficha são, em muitas unidades, o meio exacto com que isto se faz.
 :::
 
-## 15.4 · ADECOS [antigo 7.3.17]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 15.3 · Equipas avançadas de vacinação [antigo 7.3.16]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Quantas unidades têm ADECOS a trabalhar a partir delas, e quantos são — o primeiro inventário da força de trabalho comunitária da rede, agregável por município e por província. A primeira pergunta é uma porta para a grelha seguinte. O HHFA não conta agentes comunitários; mede a articulação da unidade com eles, que é o que 15.4.1 recolhe. É medida própria do Mapa Sanitário.
+Percentagem de unidades que organizam equipas avançadas de vacinação, a menos de 10 km. É medida própria do Mapa Sanitário.
 
 ::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
@@ -116,20 +112,48 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**15.4** Existem Agentes de Desenvolvimento Comunitário e de Saúde (ADECOS) a trabalhar a partir desta unidade sanitária?
-
-**15.4.0** Se sim, quantos?
+E equipas avançadas de vacinação na área de referência, a menos de 10 km?
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-**15.4**:
-
 1. Sim
 2. Não
 
-**15.4.0**: número, 000 a 999
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Inclui postos avançados. Exclui campanhas de vacinação e brigadas organizadas pela delegação ou secção municipal, mesmo com participação de pessoal desta unidade.
+:::
+
+## 15.4 · ADECOS [antigo 7.3.17]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Quantas unidades têm ADECOS a trabalhar a partir delas. É a porta da pergunta seguinte e da grelha 15.4.1. O HHFA não conta agentes comunitários; mede a articulação da unidade com eles, que é o que 15.4.1 recolhe. É medida própria do Mapa Sanitário.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Existem Agentes de Desenvolvimento Comunitário e de Saúde (ADECOS) a trabalhar a partir desta unidade sanitária?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
 :::
 
 ::: {.instrucao .rotulado}
@@ -138,7 +162,34 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 
 ::: {.nota}
 A caixa existe e mantém-se; **o que se acrescenta é o campo da quantidade, como o Guião já prevê**: «ADECOS: Agentes de Desenvolvimento Comunitário e de Saúde, trabalhando na Unidade Sanitária. Nesse caso, especificar a quantidade» (folhas 12 e 13).
+:::
 
+## 15.4.0 · Número de ADECOS [antigo 7.3.17.0]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Quantos ADECOS trabalham a partir de cada unidade — o primeiro inventário da força de trabalho comunitária da rede, agregável por município e por província. É medida própria do Mapa Sanitário.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Se sim, quantos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Número, 000 a 999
+:::
+
+::: {.nota}
 Uma caixa de número resolve, e passa a haver pela primeira vez **um inventário da força de trabalho comunitária da rede**, que é informação central para um plano de investimentos em cuidados primários.
 :::
 

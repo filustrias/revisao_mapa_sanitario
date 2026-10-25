@@ -28,25 +28,39 @@ Data em que esta ficha foi preenchida ou em que esta unidade sanitária foi visi
 **Verificação a programar.** A data não pode ser posterior à data de carregamento no sistema.
 :::
 
-## 1.2 e 1.3 Hora de início e de fim [antigo 0.3 e 0.4]{.antigo} [NOVO]{.etiqueta .novo}
+## 1.2 Hora de início [antigo 0.3]{.antigo} [NOVO]{.etiqueta .novo}
 
 ::: {.enunciado .rotulado}
 [Campo · preenchido pelo inquiridor]{.rotulo}
 
-**1.2** Hora a que começou o preenchimento desta ficha.
-
-**1.3** Hora a que terminou o preenchimento desta ficha.
+Hora a que começou o preenchimento desta ficha.
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- Cada uma em horas e minutos, no formato de 24 horas (hh:mm)
+- Em horas e minutos, no formato de 24 horas (hh:mm)
 :::
 
 ::: {.nota}
 **Para que serve.** Dá a duração do preenchimento, por tipo de unidade e por forma de recolha, para planear as rondas seguintes e assinalar fichas preenchidas em tempo demasiado curto.
+:::
 
+## 1.3 Hora de fim [antigo 0.4]{.antigo} [NOVO]{.etiqueta .novo}
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Hora a que terminou o preenchimento desta ficha.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- Em horas e minutos, no formato de 24 horas (hh:mm)
+:::
+
+::: {.nota}
 **Verificação a programar.** A hora de fim não pode ser anterior à hora de início.
 :::
 

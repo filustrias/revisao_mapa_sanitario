@@ -11,9 +11,12 @@ Número e área dos edifícios e das residências do pessoal, período de constr
 
 | Quesito | O que se obtém |
 |---|---|
-| 4.1 e 4.2 | Número de edifícios e área coberta de cada unidade sanitária [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 4.3 e 4.4 | Número de residências para trabalhadores e respectiva área coberta [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 4.5 e 4.6 | Distribuição das unidades sanitárias por período de construção [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 4.1 | Número de edifícios de cada unidade sanitária [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 4.2 | Área coberta de cada unidade sanitária [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 4.3 | Número de residências para trabalhadores [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 4.4 | Área coberta das residências para trabalhadores [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 4.5 | Ano de construção do edifício principal [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 4.6 | Distribuição das unidades sanitárias por período de construção [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 4.7 | Distribuição das unidades sanitárias pelo material predominante das paredes [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 4.8 | Distribuição das unidades sanitárias pelo estado físico do edifício principal, comparável com as edições anteriores [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 4.8.1 a 4.8.7 | Estado de cada elemento construtivo — fundação, estrutura, pavimento, paredes, cobertura, tecto falso e latrina — por unidade sanitária [(medida própria do Mapa Sanitário)]{.hhfa} |
@@ -21,12 +24,12 @@ Número e área dos edifícios e das residências do pessoal, período de constr
 
 </details>
 
-## 4.1 e 4.2 Edifícios e superfície da unidade [antigo 4.1 e 4.2]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 4.1 Número de edifícios da unidade [antigo 4.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de edifícios e área coberta de cada unidade sanitária, agregáveis por município e por província. Comparada com o quesito 4.9 — metros quadrados por estado de conservação —, a área coberta permite estimar a área a reabilitar.
+Número de edifícios de cada unidade sanitária, agregável por município e por província.
 
 ::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
@@ -37,9 +40,7 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**4.1** Quantos edifícios, no total, compõem esta unidade sanitária?
-
-**4.2** Qual é a superfície total coberta desses edifícios, em metros quadrados?
+Quantos edifícios, no total, compõem esta unidade sanitária?
 :::
 
 ::: {.instrucao .rotulado}
@@ -49,19 +50,19 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- **4.1**: 2 dígitos · **4.2**: 4 dígitos, **9998** se não souber
+- 2 dígitos
 :::
 
 ::: {.nota}
 **Porque mudou.** Mantém-se a regra do Guião — «sem contar as Residências dos Trabalhadores» — e acrescenta-se a regra para dois casos frequentes no terreno: os edifícios de apoio contam, as ruínas não contam. Assim, duas unidades iguais dão o mesmo número.
 :::
 
-## 4.3 e 4.4 Residências dos trabalhadores [antigo 4.3 e 4.4]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 4.2 Superfície coberta da unidade [antigo 4.2]{.antigo} [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de residências para trabalhadores de cada unidade sanitária e respectiva área coberta, na mesma medida usada para os edifícios da unidade em 4.2.
+Área coberta de cada unidade sanitária, agregável por município e por província. Comparada com o quesito 4.9 — metros quadrados por estado de conservação —, a área coberta permite estimar a área a reabilitar.
 
 ::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
@@ -72,24 +73,107 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**4.3** Quantas residências para trabalhadores existem no recinto desta unidade ou sob a sua responsabilidade?
-
-**4.4** Qual é a superfície total coberta dessas residências, em metros quadrados?
+Qual é a superfície total coberta desses edifícios, em metros quadrados?
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- **4.3**: 2 dígitos · **4.4**: 4 dígitos, **9998** se não souber
+- 4 dígitos, **9998** se não souber
+:::
+
+## 4.3 Residências dos trabalhadores [antigo 4.3]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Número de residências para trabalhadores de cada unidade sanitária.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quantas residências para trabalhadores existem no recinto desta unidade ou sob a sua responsabilidade?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- 2 dígitos
 :::
 
 ::: {.nota}
 **Porque mudou.** Acrescenta-se «ou sob a sua responsabilidade», porque há unidades com residências fora do recinto que são, para todos os efeitos, suas. É informação com peso directo na retenção de pessoal em zonas rurais.
+:::
 
+## 4.4 Superfície coberta das residências [antigo 4.4]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Área coberta das residências para trabalhadores de cada unidade sanitária, na mesma medida usada para os edifícios da unidade em 4.2.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Qual é a superfície total coberta dessas residências, em metros quadrados?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- 4 dígitos, **9998** se não souber
+:::
+
+::: {.nota}
 **A mesma medida nos dois quesitos.** A Ficha pede a «superfície» dos edifícios da unidade em 4.2 e a «superfície útil» das residências em 4.4, que são medidas diferentes — área coberta e área interior utilizável. A proposta usa a área coberta nos dois, dita na própria pergunta, para que 4.2 e 4.4 sejam comparáveis entre si e com a soma dos metros quadrados de 4.9. *Decisão aprovada a 15/10.*
 :::
 
-## 4.5 e 4.6 Ano e período de construção [antigo 4.5 e 4.6]{.antigo} [ALTERADO]{.etiqueta .alterado} [MANTÉM-SE]{.etiqueta .mantem}
+## 4.5 Ano de construção [antigo 4.5]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Ano de construção do edifício principal de cada unidade sanitária. Quando o ano não é conhecido, o período de 4.6 classifica o caso.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Em que ano foi concluída a construção do edifício principal desta unidade?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se o edifício foi substancialmente reconstruído, indicar o ano da reconstrução.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- 4 dígitos · **9998** Não sabe
+:::
+
+::: {.nota}
+No ano (4.5) acrescenta-se a instrução sobre reconstrução, que decide o caso dos edifícios coloniais reabilitados, e o código 9998, porque o campo é «não obrigatório» e fica em branco com frequência — e um branco não se distingue de um desconhecimento.
+:::
+
+## 4.6 Período de construção [antigo 4.6]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -105,33 +189,29 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**4.5** Em que ano foi concluída a construção do edifício principal desta unidade?
-
-**4.6** Em que período foi construído o edifício principal?
+Em que período foi construído o edifício principal?
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — 4.5: se o edifício foi substancialmente reconstruído, indicar o ano da reconstrução. 4.6: ler as opções; serve para classificar os casos em que o ano exacto não é conhecido.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler as opções; serve para classificar os casos em que o ano exacto não é conhecido.
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- **4.5**: 4 dígitos · **9998** Não sabe
-- **4.6**:
-  1. Colonial
-  2. 1976–2002
-  3. 2003–2008
-  4. 2009–2014
-  5. 2015 em diante
+1. Colonial
+2. 1976–2002
+3. 2003–2008
+4. 2009–2014
+5. 2015 em diante
 
-  <!-- -->
+<!-- -->
 
-  98. Não sabe
+98. Não sabe
 :::
 
 ::: {.nota}
-As cinco categorias do período (4.6) mantêm-se sem alteração: correspondem a ciclos reconhecíveis da história e do investimento público angolanos, e mudá-las quebraria a série das quatro edições. Acrescenta-se apenas o código 98. No ano (4.5) acrescenta-se a instrução sobre reconstrução, que decide o caso dos edifícios coloniais reabilitados, e o código 9998, porque o campo é «não obrigatório» e fica em branco com frequência — e um branco não se distingue de um desconhecimento.
+As cinco categorias do período (4.6) mantêm-se sem alteração: correspondem a ciclos reconhecíveis da história e do investimento público angolanos, e mudá-las quebraria a série das quatro edições. Acrescenta-se apenas o código 98.
 :::
 
 ## 4.7 Material de construção [antigo 4.7]{.antigo} [ALTERADO]{.etiqueta .alterado}

@@ -13,9 +13,9 @@ Consulta pré-natal, partos e cuidados obstétricos de urgência, consulta pós-
 |---|---|
 | 13.1 e 13.1.1 | Consulta pré-natal e as suas prestações [(16 indicadores do HHFA)]{.hhfa} |
 | 13.2 a 13.2.4 | Partos, CONU-B e CONU-C, funções-sinal, cobertura 24 horas [(12 indicadores do HHFA)]{.hhfa} |
-| 13.3.1 | Rastreios do recém-nascido, realizados na unidade ou por envio de amostra [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 13.3.2 | Cuidados ao recém-nascido pequeno ou doente (a decidir) [(14 indicadores do HHFA, se incluído)]{.hhfa} |
-| 13.4 | Planeamento familiar, método a método [(15 indicadores do HHFA)]{.hhfa} |
+| 13.3.1.0 a 13.3.1.8 | Rastreios do recém-nascido, realizados na unidade ou por envio de amostra [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 13.3.2.0 a 13.3.2.10 | Cuidados ao recém-nascido pequeno ou doente (a decidir) [(14 indicadores do HHFA, se incluído)]{.hhfa} |
+| 13.4 a 13.4.12 | Planeamento familiar, método a método [(15 indicadores do HHFA)]{.hhfa} |
 
 </details>
 
@@ -169,27 +169,24 @@ São atendidos partos nesta unidade sanitária, em sala de partos própria?
 Conserva-se integralmente a instrução do Guião (folha 12), que manda registar «se houver sala de partos» e expressamente não registar quando «os trabalhadores da US atendem partos no domicílio das parturientes» — por isso a condição está escrita dentro da pergunta.
 :::
 
-## 13.2.1 e 13.2.2 · CONU-B e CONU-C [antigo 7.3.7.1 e 7.3.7.2]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+## 13.2.1 · CONU-B [antigo 7.3.7.1]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades com cuidados obstétricos e neonatais de urgência básicos (CONU-B) e completos (CONU-C). Duas caixas, cinco indicadores: CONU-B e CONU-C na tabela dos serviços de parto; CONU-C outra vez na área própria dos cuidados obstétricos completos; e os dois na lista geral de serviços disponíveis.
+Percentagem de unidades com cuidados obstétricos e neonatais de urgência básicos (CONU-B). Uma caixa, dois indicadores: CONU-B na tabela dos serviços de parto e na lista geral de serviços disponíveis.
 
 <div class="hhfa">
-<details><summary>Ver os 5 indicadores</summary>
+<details><summary>Ver os 2 indicadores</summary>
 
 - 3.1.3.1.3 — cuidados obstétricos e neonatais de urgência básicos (CONU-B)
-- 3.1.3.1.5 — cuidados obstétricos e neonatais de urgência completos (CONU-C)
-- 3.1.4.1.1 — CONU-C, na área dos cuidados obstétricos completos
 - 1.3.2.1.7 — CONU-B, na lista geral de serviços disponíveis
-- 1.3.2.1.8 — CONU-C, na lista geral de serviços disponíveis
 
 </details>
 </div>
 
 ::: {.hhfa}
-Indicadores do HHFA: 3.1.3.1.3 · 3.1.3.1.5 · 3.1.4.1.1 · 1.3.2.1.7 · 1.3.2.1.8
+Indicadores do HHFA: 3.1.3.1.3 · 1.3.2.1.7
 :::
 
 </details>
@@ -197,15 +194,11 @@ Indicadores do HHFA: 3.1.3.1.3 · 3.1.3.1.5 · 3.1.4.1.1 · 1.3.2.1.7 · 1.3.2.1
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**13.2.1** Esta unidade tem capacidade para Cuidados Obstétricos e Neonatais de Urgência Básicos (CONU-B)?
-
-**13.2.2** E para Cuidados Obstétricos e Neonatais de Urgência Completos (CONU-C)?
+Esta unidade tem capacidade para Cuidados Obstétricos e Neonatais de Urgência Básicos (CONU-B)?
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
-
-Para cada caixa:
 
 1. Sim
 2. Não
@@ -221,6 +214,46 @@ Para cada caixa:
 Às cinco funções-sinal do CONU-B enumeradas no Guião, a grelha seguinte junta o parto assistido instrumental e a reanimação do recém-nascido, que completam as sete da definição internacional.
 
 **Nota de articulação com a avaliação EmONC** conduzida em paralelo: estes dois quesitos e a grelha seguinte são o ponto de contacto entre os dois instrumentos, e convirá que as definições sejam as mesmas nos dois.
+:::
+
+## 13.2.2 · CONU-C [antigo 7.3.7.2]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades com cuidados obstétricos e neonatais de urgência completos (CONU-C). Uma caixa, três indicadores: CONU-C na tabela dos serviços de parto, outra vez na área própria dos cuidados obstétricos completos, e na lista geral de serviços disponíveis.
+
+<div class="hhfa">
+<details><summary>Ver os 3 indicadores</summary>
+
+- 3.1.3.1.5 — cuidados obstétricos e neonatais de urgência completos (CONU-C)
+- 3.1.4.1.1 — CONU-C, na área dos cuidados obstétricos completos
+- 1.3.2.1.8 — CONU-C, na lista geral de serviços disponíveis
+
+</details>
+</div>
+
+::: {.hhfa}
+Indicadores do HHFA: 3.1.3.1.5 · 3.1.4.1.1 · 1.3.2.1.8
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+E para Cuidados Obstétricos e Neonatais de Urgência Completos (CONU-C)?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
 :::
 
 ## 13.2.3 · Funções-sinal obstétricas e neonatais [antigo 7.3.7.3]{.antigo} [NOVO]{.etiqueta .novo}
@@ -339,12 +372,12 @@ A única alteração é separar a mãe do recém-nascido nas opções, porque s�
 **Ampliação registada para uma ronda seguinte:** a grelha de aconselhamento do instrumento internacional (imunização, nutrição infantil, sinais de perigo no recém-nascido, cuidados do cordão, planeamento familiar, BCG e VOP ao recém-nascido, rede mosquiteira, amamentação exclusiva) daria mais 9 indicadores por 9 campos. Não foi incluída para conter o volume da secção.
 :::
 
-## 13.3.1 · Rastreios do recém-nascido [antigo 7.3.8.1]{.antigo} [NOVO]{.etiqueta .novo}
+## 13.3.1.0 · Rastreios do recém-nascido — porta [antigo 7.3.8.1.0]{.antigo} [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Onde é rastreado o recém-nascido, rastreio a rastreio, e por que via: na própria unidade ou por envio da amostra com retorno do resultado. A primeira pergunta é uma porta. O HHFA não tem indicador de rastreio neonatal; é medida própria do Mapa Sanitário.
+Onde é realizado algum rastreio ao recém-nascido. É a porta da grelha seguinte. O HHFA não tem indicador de rastreio neonatal; é medida própria do Mapa Sanitário.
 
 ::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
@@ -355,7 +388,7 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**Porta (13.3.1.0).** Nesta unidade sanitária é realizado algum rastreio ao recém-nascido?
+Nesta unidade sanitária é realizado algum rastreio ao recém-nascido?
 :::
 
 ::: {.respostas .rotulado}
@@ -366,8 +399,25 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 13.3.2.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 13.3.2.0.
 :::
+
+::: {.nota}
+**Bloco inteiramente novo e sem indicador internacional.** Os rastreios do recém-nascido não têm indicador no instrumento internacional: o papel de filtro que lá aparece serve o diagnóstico precoce do VIH no lactente exposto, e o oxímetro de pulso aparece só como equipamento. O bloco responde a uma prioridade nacional.
+:::
+
+## 13.3.1.1 a 13.3.1.8 · Rastreios do recém-nascido, rastreio a rastreio [antigo 7.3.8.1.1 a 7.3.8.1.8]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Onde é rastreado o recém-nascido, rastreio a rastreio, e por que via: na própria unidade ou por envio da amostra com retorno do resultado. É medida própria do Mapa Sanitário.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -391,8 +441,6 @@ Para cada rastreio seguinte, diga-me qual destas três situações descreve o qu
 :::
 
 ::: {.nota}
-**Bloco inteiramente novo e sem indicador internacional.** Os rastreios do recém-nascido não têm indicador no instrumento internacional: o papel de filtro que lá aparece serve o diagnóstico precoce do VIH no lactente exposto, e o oxímetro de pulso aparece só como equipamento. O bloco responde a uma prioridade nacional.
-
 A escala de três níveis é a mesma dos blocos de laboratório, pela mesma razão: num rastreio em papel de filtro o que importa é saber se a amostra sai e o resultado volta.
 
 **Duas remissões, para não duplicar:** o diagnóstico precoce do VIH no recém-nascido exposto está em 14.5; a electroforese de hemoglobina e a pesquisa de hemoglobina S estão em 11.C.I, pelo que a linha 2 pergunta pelo **rastreio sistemático**, que é coisa distinta de ter o exame disponível.
@@ -400,27 +448,17 @@ A escala de três níveis é a mesma dos blocos de laboratório, pela mesma raz�
 **Nota para a revisão:** se for preciso cortar, as linhas 3 a 6 são as de menor exequibilidade na rede de cuidados primários e as candidatas naturais; as linhas 1, 2, 7 e 8 fazem-se com uma punção e um papel de filtro.
 :::
 
-## 13.3.2 · Recém-nascido pequeno ou doente [antigo 7.3.8.2]{.antigo} [A DECIDIR]{.etiqueta .decidir}
+## 13.3.2.0 · Recém-nascido pequeno ou doente — porta [antigo 7.3.8.2.0]{.antigo} [A DECIDIR]{.etiqueta .decidir}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se o bloco for incluído: percentagem de unidades que prestam cuidados ao recém-nascido pequeno ou doente, e quais — 14 indicadores, com a tabela 3.1.7.1 do HHFA completa. Só entram na contagem da secção se o bloco for aprovado.
+Se o bloco for incluído: percentagem de unidades que prestam cuidados em internamento ao recém-nascido pequeno ou doente, com ou sem unidade de cuidados especiais. Só entram na contagem da secção se o bloco for aprovado.
 
 <div class="hhfa">
-<details><summary>Ver os 14 indicadores</summary>
+<details><summary>Ver os 4 indicadores</summary>
 
 - 3.1.7.1.1 — quaisquer serviços ao recém-nascido pequeno ou doente (porta)
-- 3.1.7.1.2 — método canguru (linha 1)
-- 3.1.7.1.3 — método canguru praticado nos últimos 3 meses (linha 2)
-- 3.1.7.1.4 — alimentação alternativa quando o recém-nascido não consegue mamar (linha 3)
-- 3.1.7.1.5 — protecção térmica (linha 4)
-- 3.1.7.1.6 — oxigénio (linha 5)
-- 3.1.7.1.7 — reidratação intravenosa (linha 6)
-- 3.1.7.1.8 — exsanguineotransfusão (linha 7)
-- 3.1.7.1.9 — ventilação artificial (linha 8)
-- 3.1.7.1.10 — antibióticos injectáveis para sépsis neonatal (linha 9)
-- 3.1.7.1.11 — fototerapia para icterícia neonatal (linha 10)
 - 1.3.2.1.9 — quaisquer cuidados ao recém-nascido, na lista geral de serviços disponíveis
 - 1.3.2.1.10 — cuidados ao recém-nascido saudável, na lista geral
 - 1.3.2.1.11 — cuidados ao recém-nascido pequeno ou doente, na lista geral
@@ -429,7 +467,7 @@ Se o bloco for incluído: percentagem de unidades que prestam cuidados ao recém
 </div>
 
 ::: {.hhfa}
-Indicadores do HHFA, se o bloco for incluído: 3.1.7.1.1 a 3.1.7.1.11 · 1.3.2.1.9 a 1.3.2.1.11
+Indicadores do HHFA, se o bloco for incluído: 3.1.7.1.1 · 1.3.2.1.9 a 1.3.2.1.11
 :::
 
 </details>
@@ -437,7 +475,7 @@ Indicadores do HHFA, se o bloco for incluído: 3.1.7.1.1 a 3.1.7.1.11 · 1.3.2.1
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**Porta.** Esta unidade sanitária presta cuidados em internamento ao recém-nascido pequeno ou doente? E, se sim, existe uma unidade de cuidados especiais para esse fim?
+Esta unidade sanitária presta cuidados em internamento ao recém-nascido pequeno ou doente? E, se sim, existe uma unidade de cuidados especiais para esse fim?
 :::
 
 ::: {.respostas .rotulado}
@@ -451,6 +489,44 @@ Indicadores do HHFA, se o bloco for incluído: 3.1.7.1.1 a 3.1.7.1.11 · 1.3.2.1
 ::: {.instrucao .rotulado}
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», terminar o bloco.
 :::
+
+::: {.nota}
+**Fica registado para decisão.** Corresponde a uma subárea do instrumento internacional sobre o recém-nascido pequeno ou doente, que a proposta ainda não cobre.
+
+É **declarada** — não exige observação —, são 11 campos para 14 indicadores com uma subárea internacional fechada, e **nada há a inventar: as perguntas existem, estão validadas e têm indicador**. Ao contrário dos rastreios de 13.3.1, aqui o retorno é imediato.
+
+A porta de três níveis distingue a unidade com unidade de cuidados especiais da que interna recém-nascidos doentes nas enfermarias comuns — distinção que a secção 7 não capta, porque a lista de camas decompõe por especialidade e por sexo da enfermaria e tem UCI neonatal, mas não cuidados especiais neonatais.
+:::
+
+## 13.3.2.1 a 13.3.2.10 · Cuidados ao recém-nascido pequeno ou doente [antigo 7.3.8.2.1 a 7.3.8.2.10]{.antigo} [A DECIDIR]{.etiqueta .decidir}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Se o bloco for incluído: quais os cuidados prestados ao recém-nascido pequeno ou doente, cuidado a cuidado. Com a porta 13.3.2.0, fica completa a tabela correspondente do HHFA. Só entram na contagem da secção se o bloco for aprovado.
+
+<div class="hhfa">
+<details><summary>Ver os 10 indicadores</summary>
+
+- 3.1.7.1.2 — método canguru (linha 1)
+- 3.1.7.1.3 — método canguru praticado nos últimos 3 meses (linha 2)
+- 3.1.7.1.4 — alimentação alternativa quando o recém-nascido não consegue mamar (linha 3)
+- 3.1.7.1.5 — protecção térmica (linha 4)
+- 3.1.7.1.6 — oxigénio (linha 5)
+- 3.1.7.1.7 — reidratação intravenosa (linha 6)
+- 3.1.7.1.8 — exsanguineotransfusão (linha 7)
+- 3.1.7.1.9 — ventilação artificial (linha 8)
+- 3.1.7.1.10 — antibióticos injectáveis para sépsis neonatal (linha 9)
+- 3.1.7.1.11 — fototerapia para icterícia neonatal (linha 10)
+
+</details>
+</div>
+
+::: {.hhfa}
+Indicadores do HHFA, se o bloco for incluído: 3.1.7.1.2 a 3.1.7.1.11
+:::
+
+</details>
 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
@@ -469,25 +545,50 @@ Indicadores do HHFA, se o bloco for incluído: 3.1.7.1.1 a 3.1.7.1.11 · 1.3.2.1
 | 13.3.2.10 | Fototerapia para icterícia neonatal | ☐ | ☐ | ☐ |
 :::
 
-::: {.nota}
-**Fica registado para decisão.** Corresponde a uma subárea do instrumento internacional sobre o recém-nascido pequeno ou doente, que a proposta ainda não cobre.
-
-É **declarada** — não exige observação —, são 11 campos para 14 indicadores com uma subárea internacional fechada, e **nada há a inventar: as perguntas existem, estão validadas e têm indicador**. Ao contrário dos rastreios de 13.3.1, aqui o retorno é imediato.
-
-A porta de três níveis distingue a unidade com unidade de cuidados especiais da que interna recém-nascidos doentes nas enfermarias comuns — distinção que a secção 7 não capta, porque a lista de camas decompõe por especialidade e por sexo da enfermaria e tem UCI neonatal, mas não cuidados especiais neonatais.
-:::
-
-## 13.4 · Planeamento familiar [antigo 7.3.9]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 13.4 · Planeamento familiar — porta [antigo 7.3.9]{.antigo} [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que oferecem planeamento familiar e, método a método, quais os métodos fornecidos. A porta e as doze linhas dão 15 indicadores, entre eles o de qualquer método moderno, calculado a partir da grelha — que, no catálogo do HHFA, inclui o preservativo masculino e o feminino e deixa de fora apenas o colar do ciclo.
+Percentagem de unidades que oferecem planeamento familiar. É a porta da grelha dos métodos.
+
+::: {.hhfa}
+Indicadores do HHFA: 3.1.1.1.1 · 1.3.2.1.3
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária oferece serviços de planeamento familiar?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 14.1.
+:::
+
+::: {.nota}
+**Quinze indicadores por treze campos, e o ganho não é só de volume — é de conteúdo.** O Guião manda marcar a caixa «se é oferecido pelo menos um método de planeamento familiar moderno (depo injetável, pílula, DiU, diafragma) excluindo o preservativo». A grelha método a método distingue a unidade que só tem pílula da unidade que coloca implantes e DIU — e a diferença entre as duas é justamente a que decide se uma mulher consegue um método de longa duração sem sair do seu município.
+:::
+
+## 13.4.1 a 13.4.12 · Métodos de planeamento familiar [antigo 7.3.9.1 a 7.3.9.12]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Método a método, quais os métodos de planeamento familiar fornecidos. As doze linhas dão 13 indicadores, entre eles o de qualquer método moderno, calculado a partir da grelha — que, no catálogo do HHFA, inclui o preservativo masculino e o feminino e deixa de fora apenas o colar do ciclo.
 
 <div class="hhfa">
-<details><summary>Ver os 15 indicadores</summary>
+<details><summary>Ver os 13 indicadores</summary>
 
-- 3.1.1.1.1 — quaisquer serviços de planeamento familiar (porta)
 - 3.1.1.1.2 — qualquer método moderno de contracepção (calculado)
 - 3.1.1.1.3 — pílula combinada (linha 1)
 - 3.1.1.1.4 — pílula só de progestagénio (linha 2)
@@ -501,33 +602,15 @@ Percentagem de unidades que oferecem planeamento familiar e, método a método, 
 - 3.1.1.1.14 — colar do ciclo, para o método dos dias fixos (linha 10)
 - 3.1.1.1.12 — esterilização masculina (linha 11)
 - 3.1.1.1.13 — esterilização feminina (linha 12)
-- 1.3.2.1.3 — planeamento familiar, na lista geral de serviços disponíveis
 
 </details>
 </div>
 
 ::: {.hhfa}
-Indicadores do HHFA: 3.1.1.1.1 a 3.1.1.1.14 · 1.3.2.1.3
+Indicadores do HHFA: 3.1.1.1.2 a 3.1.1.1.14
 :::
 
 </details>
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-**Porta.** Esta unidade sanitária oferece serviços de planeamento familiar?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Sim
-2. Não
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 14.1.
-:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -555,7 +638,5 @@ Para cada método seguinte, diga-me se é habitualmente fornecido nesta unidade 
 :::
 
 ::: {.nota}
-**Quinze indicadores por treze campos, e o ganho não é só de volume — é de conteúdo.** O Guião manda marcar a caixa «se é oferecido pelo menos um método de planeamento familiar moderno (depo injetável, pílula, DiU, diafragma) excluindo o preservativo». A grelha método a método distingue a unidade que só tem pílula da unidade que coloca implantes e DIU — e a diferença entre as duas é justamente a que decide se uma mulher consegue um método de longa duração sem sair do seu município.
-
 Com o preservativo perguntado em linha própria, a grelha permite os dois cálculos: o «método moderno» do Guião, que exclui o preservativo, e o do indicador internacional, que o inclui. O preservativo tem, além disso, indicador próprio e é o método mais distribuído da rede.
 :::

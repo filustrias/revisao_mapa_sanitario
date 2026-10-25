@@ -13,7 +13,7 @@ Localização administrativa, designação e endereço da unidade sanitária, a 
 |---|---|
 | 2.1 a 2.5 | Identificação da unidade e estratificação por província, município, comuna e bairro |
 | 2.6 | Endereço completo, para localizar a unidade no terreno |
-| 2.7 | Estratificação de todos os indicadores por categoria da unidade; definição das unidades de cuidados primários (1 indicador do HHFA) |
+| 2.7 | Estratificação de todos os indicadores por categoria da unidade; definição das unidades de cuidados primários [(1 indicador do HHFA)]{.hhfa} |
 | 2.8 e 2.9 | Localização exacta da unidade, base das densidades e do acesso geográfico [(7 indicadores do HHFA)]{.hhfa} |
 | 2.10 | Qualidade de cada leitura de coordenadas |
 | 2.11 | Desagregação de todos os indicadores por zona urbana, rural e periurbana |

@@ -12,7 +12,7 @@ VIH — testagem, profilaxia pré e pós-exposição, tratamento antirretroviral
 | Quesito | O que se obtém |
 |---|---|
 | 14.1 e 14.1.1 | Testagem do VIH, por grupo de idade [(8 indicadores do HHFA)]{.hhfa} |
-| 14.2 e 14.3 | Profilaxia pré-exposição e profilaxia pós-exposição fora do contexto da violência [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 14.2.1 a 14.3.3 | Profilaxia pré-exposição e profilaxia pós-exposição fora do contexto da violência [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 14.4 a 14.4.2 | Tratamento antirretroviral, por idade e por componente [(12 indicadores do HHFA)]{.hhfa} |
 | 14.5 | Prevenção da transmissão vertical do VIH [(2 indicadores do HHFA)]{.hhfa} |
 | 14.6 | Cuidados e apoio ao doente com VIH [(2 indicadores do HHFA)]{.hhfa} |
@@ -104,15 +104,17 @@ A quem é habitualmente oferecida a testagem do VIH nesta unidade sanitária?
 Três caixas, cinco indicadores, e fecha a tabela da testagem. A separação por idade não é formalidade: **a testagem da criança exposta exige técnica distinta da do adulto** — o diagnóstico precoce no lactente faz-se por carga viral, que é o exame de 11.C.III — e é por isso que a testagem pediátrica é muito mais escassa do que a de adultos, o que as três caixas passam a mostrar.
 :::
 
-## 14.2 · Profilaxia pré-exposição (PrEP) ao VIH [antigo 7.3.10.2]{.antigo} [NOVO]{.etiqueta .novo}
+## 14.2.1 · Profilaxia pré-exposição (PrEP) ao VIH [antigo 7.3.10.2.1]{.antigo} [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Onde há profilaxia pré-exposição ao VIH, se a unidade a inicia ou apenas segue quem a iniciou, e a que grupos a oferece. A primeira pergunta é uma porta. O HHFA não tem pergunta de disponibilidade sobre a PrEP: o único indicador que a nomeia — utentes de pré-natal com PrEP recebida (5.1.1.1.13) — apura-se por revisão de processos clínicos, fora do alcance de um cadastro. É medida própria do Mapa Sanitário.
+Onde há profilaxia pré-exposição ao VIH, e se a unidade a inicia ou apenas segue quem a iniciou. É a porta da grelha seguinte. É medida própria do Mapa Sanitário.
 
 ::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+
+O HHFA não tem pergunta de disponibilidade sobre a PrEP: o único indicador que a nomeia — utentes de pré-natal com PrEP recebida (5.1.1.1.13) — apura-se por revisão de processos clínicos, fora do alcance de um cadastro.
 :::
 
 </details>
@@ -120,7 +122,7 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**14.2.1** Esta unidade sanitária fornece profilaxia pré-exposição (PrEP) ao VIH a pessoas com risco elevado de infecção?
+Esta unidade sanitária fornece profilaxia pré-exposição (PrEP) ao VIH a pessoas com risco elevado de infecção?
 :::
 
 ::: {.respostas .rotulado}
@@ -136,8 +138,29 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 14.3.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 14.3.1.
 :::
+
+::: {.nota}
+**Bloco inteiramente novo e sem indicador internacional de contrapartida.** O instrumento internacional só mede a PrEP lendo processos clínicos de utentes de pré-natal, o que está fora do alcance de um cadastro.
+
+**O argumento para a incluir é nacional e não internacional:** a PrEP consta das recomendações da OMS e, num país com tratamento antirretroviral descentralizado, saber onde ela existe é informação directa para as decisões do programa.
+
+A escala distingue iniciar de seguir pela mesma razão que no tratamento antirretroviral: a unidade que só redispensa é a maior parte da rede e perder-se-ia numa escala de sim ou não.
+:::
+
+## 14.2.2 a 14.2.6 · Grupos a quem é oferecida a PrEP [antigo 7.3.10.2.2 a 7.3.10.2.6]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+A que grupos é oferecida a profilaxia pré-exposição ao VIH. É medida própria do Mapa Sanitário.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -158,21 +181,15 @@ E a que grupos é habitualmente oferecida a PrEP nesta unidade sanitária?
 :::
 
 ::: {.nota}
-**Bloco inteiramente novo e sem indicador internacional de contrapartida.** O instrumento internacional só mede a PrEP lendo processos clínicos de utentes de pré-natal, o que está fora do alcance de um cadastro.
-
-**O argumento para a incluir é nacional e não internacional:** a PrEP consta das recomendações da OMS e, num país com tratamento antirretroviral descentralizado, saber onde ela existe é informação directa para as decisões do programa.
-
-A escala distingue iniciar de seguir pela mesma razão que no tratamento antirretroviral: a unidade que só redispensa é a maior parte da rede e perder-se-ia numa escala de sim ou não.
-
 **Nota para a revisão:** se for preciso cortar, a grelha de grupos (5 campos) é a candidata natural e a primeira pergunta sobrevive sozinha — é ela que responde a «onde há PrEP». A lista de populações-chave deve ser confirmada contra a norma do PNLS antes de ir a terreno.
 :::
 
-## 14.3 · Profilaxia pós-exposição (PEP) ao VIH [antigo 7.3.10.3]{.antigo} [NOVO]{.etiqueta .novo}
+## 14.3.1 · PEP ao VIH após exposição ocupacional [antigo 7.3.10.3.1]{.antigo} [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Onde há profilaxia pós-exposição ao VIH após exposição ocupacional e após exposição sexual fora do contexto da violência, a que horas está disponível, e se existe protocolo escrito. O HHFA recolhe a PEP apenas para sobreviventes de violência (3.6.3.1.3), que está em 10.E.3.3, e não tem pergunta sobre PEP ocupacional. É medida própria do Mapa Sanitário.
+Onde há profilaxia pós-exposição ao VIH para o pessoal de saúde após exposição ocupacional, e a que horas está disponível. O HHFA não tem pergunta sobre PEP ocupacional. É medida própria do Mapa Sanitário.
 
 ::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
@@ -183,17 +200,11 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**14.3.1** Esta unidade sanitária fornece profilaxia pós-exposição (PEP) ao VIH ao pessoal de saúde após exposição ocupacional, como um acidente com material biológico ou picão?
-
-**14.3.2** E após exposição sexual de risco que não decorra de violência?
-
-**14.3.3** Existe nesta unidade sanitária um protocolo escrito de PEP, que inclua a janela de 72 horas e o esquema a utilizar?
+Esta unidade sanitária fornece profilaxia pós-exposição (PEP) ao VIH ao pessoal de saúde após exposição ocupacional, como um acidente com material biológico ou picão?
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
-
-**14.3.1** e **14.3.2**:
 
 1. Sim, a qualquer hora do dia ou da noite
 2. Sim, apenas no horário de funcionamento
@@ -202,22 +213,78 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 <!-- -->
 
 98. Não sabe
-
-**14.3.3**:
-
-1. Sim, observado
-2. Sim, referido, não visto
-3. Não
 :::
 
 ::: {.nota}
 **Completa o PEP nas duas situações que o instrumento internacional deixa de fora.**
 
-**Remissão importante, para não duplicar:** o PEP após violação ou violência sexual é a linha 10.E.3.3 e **não se repete aqui** — é lá que gera o indicador internacional. As duas leituras devem ser coerentes: uma unidade que declara PEP aqui e não o declara em 10.E.3.3 é uma inconsistência a assinalar.
-
 **A PEP ocupacional não tem pergunta no instrumento internacional.** É a profilaxia que protege o próprio pessoal de saúde e pertence ao mesmo universo da segurança no trabalho que a comissão de 16.2.16.
 
 A escala pergunta pelo horário porque a janela é de 72 horas e, na prática, um acidente ocorre em turno: uma unidade que só fornece PEP de manhã fornece PEP a uma fracção dos casos. **Depende do bloco de medicamentos, que está parqueado** — sem antirretrovirais em stock a declaração não se verifica.
+:::
+
+## 14.3.2 · PEP ao VIH após exposição sexual fora do contexto da violência [antigo 7.3.10.3.2]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Onde há profilaxia pós-exposição ao VIH após exposição sexual de risco fora do contexto da violência, e a que horas está disponível. É medida própria do Mapa Sanitário.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+
+O HHFA recolhe a PEP apenas para sobreviventes de violência (3.6.3.1.3), que está em 10.E.3.3.
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+E após exposição sexual de risco que não decorra de violência?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, a qualquer hora do dia ou da noite
+2. Sim, apenas no horário de funcionamento
+3. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.nota}
+**Remissão importante, para não duplicar:** o PEP após violação ou violência sexual é a linha 10.E.3.3 e **não se repete aqui** — é lá que gera o indicador internacional. As duas leituras devem ser coerentes: uma unidade que declara PEP aqui e não o declara em 10.E.3.3 é uma inconsistência a assinalar.
+:::
+
+## 14.3.3 · Protocolo escrito de PEP [antigo 7.3.10.3.3]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Unidades com protocolo escrito de profilaxia pós-exposição ao VIH. É medida própria do Mapa Sanitário.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Existe nesta unidade sanitária um protocolo escrito de PEP, que inclua a janela de 72 horas e o esquema a utilizar?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, observado
+2. Sim, referido, não visto
+3. Não
 :::
 
 ## 14.4 · Tratamento antirretroviral — porta [antigo 7.3.12]{.antigo} [ALTERADO]{.etiqueta .alterado}
@@ -530,15 +597,15 @@ Para cada prestação seguinte, diga-me se é habitualmente feita nesta unidade 
 A separação das três prestações é a mesma opção de desenho do tratamento antirretroviral e pela mesma razão: **o que determina a cura da tuberculose não é iniciar o tratamento, é completar os seis meses** — e os três indicadores medem as três condições de o completar: ter consulta, ter medicamento e ter acompanhamento.
 :::
 
-## 14.7.3 a 14.7.5 · Testagem do VIH, tuberculose resistente e isolamento [antigo 7.3.13.3 a 7.3.13.5]{.antigo} [NOVO]{.etiqueta .novo}
+## 14.7.3 · Testagem do VIH nos doentes com tuberculose [antigo 7.3.13.3]{.antigo} [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Três indicadores, um por pergunta: testagem de rotina do VIH nos doentes com tuberculose (14.7.3), quaisquer serviços para tuberculose resistente aos medicamentos (14.7.4) e quarto de internamento dedicado a isolamento (14.7.5).
+Percentagem de unidades que oferecem, como rotina, a testagem do VIH aos doentes com tuberculose.
 
 ::: {.hhfa}
-Indicadores do HHFA: 3.2.3.1.7 · 3.2.3.1.2 · 3.2.3.1.9
+Indicador do HHFA: 3.2.3.1.7
 :::
 
 </details>
@@ -546,17 +613,11 @@ Indicadores do HHFA: 3.2.3.1.7 · 3.2.3.1.2 · 3.2.3.1.9
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**14.7.3** A todos os doentes com tuberculose diagnosticada nesta unidade sanitária é oferecida, como rotina, a testagem do VIH?
-
-**14.7.4** Esta unidade sanitária presta algum serviço a doentes com tuberculose resistente aos medicamentos?
-
-**14.7.5** Existe nesta unidade sanitária um quarto ou enfermaria de isolamento dedicado, para doentes com tuberculose ou outra infecção de transmissão aérea?
+A todos os doentes com tuberculose diagnosticada nesta unidade sanitária é oferecida, como rotina, a testagem do VIH?
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
-
-**14.7.3**:
 
 1. Sim, como rotina a todos
 2. Apenas a alguns
@@ -565,8 +626,33 @@ Indicadores do HHFA: 3.2.3.1.7 · 3.2.3.1.2 · 3.2.3.1.9
 <!-- -->
 
 98. Não sabe
+:::
 
-**14.7.4**:
+::: {.nota}
+**14.7.3 é a única ligação entre os dois programas verticais em todo o instrumento.** A co-infecção TB-VIH é a situação em que cada programa depende do outro para funcionar. Verificação a programar: uma unidade que trata tuberculose, tem teste rápido de VIH e não testa os doentes com tuberculose é uma lacuna de organização e não de recursos — e portanto barata de corrigir.
+:::
+
+## 14.7.4 · Tuberculose resistente aos medicamentos [antigo 7.3.13.4]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que prestam quaisquer serviços a doentes com tuberculose resistente aos medicamentos.
+
+::: {.hhfa}
+Indicador do HHFA: 3.2.3.1.2
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária presta algum serviço a doentes com tuberculose resistente aos medicamentos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
 
 1. Sim
 2. Não
@@ -574,8 +660,33 @@ Indicadores do HHFA: 3.2.3.1.7 · 3.2.3.1.2 · 3.2.3.1.9
 <!-- -->
 
 98. Não sabe
+:::
 
-**14.7.5**:
+::: {.nota}
+**14.7.4** não é prestação de cuidados primários, mas o mapa de onde se trata tuberculose resistente define para onde referir, e é o denominador natural de qualquer investimento em diagnóstico molecular.
+:::
+
+## 14.7.5 · Quarto de isolamento [antigo 7.3.13.5]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades com quarto de internamento dedicado a isolamento.
+
+::: {.hhfa}
+Indicador do HHFA: 3.2.3.1.9
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Existe nesta unidade sanitária um quarto ou enfermaria de isolamento dedicado, para doentes com tuberculose ou outra infecção de transmissão aérea?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
 
 1. Sim
 2. Não
@@ -587,37 +698,18 @@ Indicadores do HHFA: 3.2.3.1.7 · 3.2.3.1.2 · 3.2.3.1.9
 :::
 
 ::: {.nota}
-**14.7.3 é a única ligação entre os dois programas verticais em todo o instrumento.** A co-infecção TB-VIH é a situação em que cada programa depende do outro para funcionar. Verificação a programar: uma unidade que trata tuberculose, tem teste rápido de VIH e não testa os doentes com tuberculose é uma lacuna de organização e não de recursos — e portanto barata de corrigir.
-
-**14.7.4** não é prestação de cuidados primários, mas o mapa de onde se trata tuberculose resistente define para onde referir, e é o denominador natural de qualquer investimento em diagnóstico molecular.
-
 **14.7.5** pergunta-se directamente, ao contrário do instrumento internacional, que o calcula a partir do inventário de enfermarias. Duas razões: a nossa lista de camas não tem linha de isolamento; e o isolamento interessa também às unidades sem internamento, onde um espaço de espera separado para o doente com tosse é medida de controlo de infecções com valor próprio. É o único elemento da família do controlo de infecções que se obtém por declaração.
 :::
 
-## 14.8.1 a 14.8.3 · Malária [antigo 7.3.14.A a 7.3.14.C]{.antigo} [NOVO]{.etiqueta .novo}
+## 14.8.1 · Malária — porta [antigo 7.3.14.A]{.antigo} [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que oferecem serviços de malária, por que via diagnosticam — teste rápido, microscopia, ou apenas pelos sinais e sintomas —, e se tratam. A pergunta 14.8.1 é uma porta. Três perguntas, oito indicadores. Com a articulação com os ADECOS em 15.4.1, fica completa a tabela 3.2.2.1.
-
-<div class="hhfa">
-<details><summary>Ver os 8 indicadores</summary>
-
-- 3.2.2.1.1 — quaisquer serviços de malária (14.8.1)
-- 1.3.2.3.1 — diagnóstico e tratamento da malária, na lista geral de serviços disponíveis (14.8.1)
-- 3.2.2.1.2 — diagnóstico da malária por qualquer método (14.8.2)
-- 3.2.2.1.3 — diagnóstico por teste rápido (14.8.2, linha 1)
-- 3.2.2.1.4 — diagnóstico por microscopia (14.8.2, linha 2)
-- 3.2.2.1.5 — diagnóstico apenas por sinais e sintomas, sem teste (14.8.2, linha 3)
-- 3.2.2.1.8 — testagem de diagnóstico da malária, por teste rápido ou microscopia (14.8.2)
-- 3.2.2.1.6 — tratamento da malária (14.8.3)
-
-</details>
-</div>
+Percentagem de unidades que oferecem quaisquer serviços de malária. É a porta do bloco da malária. Com as duas perguntas seguintes e a articulação com os ADECOS em 15.4.1, fica completa a tabela da malária do HHFA.
 
 ::: {.hhfa}
-Indicadores do HHFA: 3.2.2.1.1 a 3.2.2.1.6 · 3.2.2.1.8 · 1.3.2.3.1
+Indicadores do HHFA: 3.2.2.1.1 · 1.3.2.3.1
 :::
 
 </details>
@@ -625,7 +717,7 @@ Indicadores do HHFA: 3.2.2.1.1 a 3.2.2.1.6 · 3.2.2.1.8 · 1.3.2.3.1
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**Porta (14.8.1).** Esta unidade sanitária presta algum serviço relacionado com a malária — diagnóstico, tratamento ou prevenção?
+Esta unidade sanitária presta algum serviço relacionado com a malária — diagnóstico, tratamento ou prevenção?
 :::
 
 ::: {.respostas .rotulado}
@@ -643,10 +735,39 @@ Indicadores do HHFA: 3.2.2.1.1 a 3.2.2.1.6 · 3.2.2.1.8 · 1.3.2.3.1
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 15.2.
 :::
 
+::: {.nota}
+**É um dos acrescentos com mais peso de toda a secção:** a malária é a principal causa de consulta e de óbito na rede de cuidados primários angolana, e o quesito da Ficha sobre malária incide na distribuição de redes mosquiteiras. Três caixas novas acrescentam o **diagnóstico e o tratamento** e trazem oito indicadores.
+:::
+
+## 14.8.2 · Via de diagnóstico da malária [antigo 7.3.14.B]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Por que via a unidade diagnostica a malária — teste rápido, microscopia, ou apenas pelos sinais e sintomas. Três linhas, cinco indicadores.
+
+<div class="hhfa">
+<details><summary>Ver os 5 indicadores</summary>
+
+- 3.2.2.1.2 — diagnóstico da malária por qualquer método (14.8.2)
+- 3.2.2.1.3 — diagnóstico por teste rápido (14.8.2, linha 1)
+- 3.2.2.1.4 — diagnóstico por microscopia (14.8.2, linha 2)
+- 3.2.2.1.5 — diagnóstico apenas por sinais e sintomas, sem teste (14.8.2, linha 3)
+- 3.2.2.1.8 — testagem de diagnóstico da malária, por teste rápido ou microscopia (14.8.2)
+
+</details>
+</div>
+
+::: {.hhfa}
+Indicadores do HHFA: 3.2.2.1.2 a 3.2.2.1.5 · 3.2.2.1.8
+:::
+
+</details>
+
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**14.8.2** Como é habitualmente diagnosticada a malária nesta unidade sanitária? Indique todas as vias utilizadas.
+Como é habitualmente diagnosticada a malária nesta unidade sanitária? Indique todas as vias utilizadas.
 :::
 
 ::: {.grelha .rotulado}
@@ -659,10 +780,27 @@ Indicadores do HHFA: 3.2.2.1.1 a 3.2.2.1.6 · 3.2.2.1.8 · 1.3.2.3.1
 | 14.8.2.3 | **Apenas por sinais e sintomas clínicos, sem teste** | ☐ | ☐ | ☐ |
 :::
 
+::: {.nota}
+**A terceira linha de 14.8.2 é a mais importante e a que raramente se pergunta:** o diagnóstico apenas clínico, sem teste, tem indicador próprio porque é o indicador de uma prática a corrigir — trata quem não tem malária e deixa sem diagnóstico quem tem outra coisa. Medi-la sem a julgar é o que permite dimensioná-la.
+:::
+
+## 14.8.3 · Tratamento da malária [antigo 7.3.14.C]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que tratam casos de malária.
+
+::: {.hhfa}
+Indicador do HHFA: 3.2.2.1.6
+:::
+
+</details>
+
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**14.8.3** Esta unidade sanitária trata casos de malária, de acordo com o protocolo nacional?
+Esta unidade sanitária trata casos de malária, de acordo com o protocolo nacional?
 :::
 
 ::: {.respostas .rotulado}
@@ -678,9 +816,5 @@ Indicadores do HHFA: 3.2.2.1.1 a 3.2.2.1.6 · 3.2.2.1.8 · 1.3.2.3.1
 :::
 
 ::: {.nota}
-**É um dos acrescentos com mais peso de toda a secção:** a malária é a principal causa de consulta e de óbito na rede de cuidados primários angolana, e o quesito da Ficha sobre malária incide na distribuição de redes mosquiteiras. Três caixas novas acrescentam o **diagnóstico e o tratamento** e trazem oito indicadores.
-
-**A terceira linha de 14.8.2 é a mais importante e a que raramente se pergunta:** o diagnóstico apenas clínico, sem teste, tem indicador próprio porque é o indicador de uma prática a corrigir — trata quem não tem malária e deixa sem diagnóstico quem tem outra coisa. Medi-la sem a julgar é o que permite dimensioná-la.
-
 Em **14.8.3**, as opções separam caso simples de caso grave, o que o instrumento internacional não faz nesta pergunta, porque é a distinção clínica que decide o percurso do doente. Verificação a programar: uma unidade que declara tratar casos graves e não tem artesunato injectável é uma inconsistência a assinalar quando o bloco de medicamentos entrar.
 :::

@@ -11,21 +11,56 @@ Serviços gerais da unidade, como o transporte de emergência, a cozinha, a lava
 
 | Quesito | O que se obtém |
 |---|---|
-| 17.1 e 17.1.1 | Transporte de emergência disponível hoje, com combustível e motorista (1 indicador do HHFA) |
+| 17.1 e 17.1.1 | Transporte de emergência disponível hoje, com combustível e motorista [(1 indicador do HHFA)]{.hhfa} |
 | 17.2 a 17.18 | Existência e funcionamento de 15 serviços gerais [(5 indicadores do HHFA)]{.hhfa} |
 | 17.5.2 | Capacidade da morgue [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 17.18.1 e 17.18.2 | Recolha e análise da opinião dos utentes (1 indicador do HHFA) |
+| 17.18.1 e 17.18.2 | Recolha e análise da opinião dos utentes [(1 indicador do HHFA)]{.hhfa} |
 | 17.7 e 17.16 | Remissões para as secções 6 e 5 (os indicadores contam-se nesses domínios) |
 | 17.8 | Manutenção [(parqueado; 23 indicadores do HHFA)]{.hhfa} |
 
 </details>
 
-## 17.1 e 17.1.1 · Transporte de emergência [antigo 7.5.1 e 7.5.1.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 17.1 · Acesso a transporte de emergência [antigo 7.5.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Unidades com sistema de transporte de emergência para doentes — veículo em condições de funcionamento, na unidade ou chamado de outro local. Regra de cálculo: conta a unidade com 17.1 igual a 1 ou 2 e 17.1.1 igual a 1. Cruzado com as distâncias da secção 3, mostra onde a evacuação obstétrica não é exequível em tempo útil.
+Unidades com acesso a veículo para o transporte de emergência de doentes — ambulância ou outro veículo, na unidade ou chamado de outro local. Cruzado com as distâncias da secção 3, mostra onde a evacuação obstétrica não é exequível em tempo útil.
+
+::: {.hhfa}
+Indicador do HHFA: entra no cálculo de 2.1.1.1.7, com 17.1.1
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária tem acesso a uma ambulância ou a outro veículo em condições de funcionamento para o transporte de emergência de doentes — quer esteja estacionado nesta unidade, quer possa ser chamado de outro local?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, ambulância
+2. Sim, outro tipo de veículo
+3. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», passar a 17.2.
+:::
+
+::: {.nota}
+O enunciado inclui expressamente o veículo **chamado de outro local**, porque é essa a situação da maior parte dos centros de saúde — e uma pergunta sobre veículo próprio deixaria essas unidades contadas como unidades sem transporte de emergência.
+:::
+
+## 17.1.1 · Transporte de emergência disponível hoje [antigo 7.5.1.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Unidades com sistema de transporte de emergência para doentes — veículo em condições de funcionamento, com combustível e motorista, disponível hoje. Regra de cálculo: conta a unidade com 17.1 igual a 1 ou 2 e 17.1.1 igual a 1.
 
 ::: {.hhfa}
 Indicador do HHFA: 2.1.1.1.7
@@ -36,27 +71,25 @@ Indicador do HHFA: 2.1.1.1.7
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**17.1** Esta unidade sanitária tem acesso a uma ambulância ou a outro veículo em condições de funcionamento para o transporte de emergência de doentes — quer esteja estacionado nesta unidade, quer possa ser chamado de outro local?
-
-**17.1.1** Esse veículo está disponível hoje, em condições de funcionamento, com combustível e com motorista?
+Esse veículo está disponível hoje, em condições de funcionamento, com combustível e com motorista?
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- **17.1**: 1 Sim, ambulância · 2 Sim, outro tipo de veículo · 3 Não
-- **17.1.1**: 1 Sim · 2 Não · 98 Não sabe
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em 17.1, se a resposta for «Não», passar a 17.2.
-
-Em 17.1.1, se o respondente não tiver a certeza, pedir que confirme com quem saiba.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se o respondente não tiver a certeza, pedir que confirme com quem saiba.
 :::
 
 ::: {.nota}
-O enunciado inclui expressamente o veículo **chamado de outro local**, porque é essa a situação da maior parte dos centros de saúde — e uma pergunta sobre veículo próprio deixaria essas unidades contadas como unidades sem transporte de emergência.
-
 **17.1.1 é a verificação da declaração:** ter acesso a uma ambulância e ter uma ambulância com combustível e motorista hoje são coisas diferentes. Articula-se com 11.E.6 (urgência), com 3.9 (sistema de referência) e com a secção 9 (frota), sem duplicação de campo.
 :::
 
@@ -132,12 +165,49 @@ Quantas gavetas mortuárias tem a morgue desta unidade sanitária?
 - Número inteiro, 0 a 99 · **97** não tem morgue
 :::
 
-## 17.18.1 e 17.18.2 · Gabinete do Utente [antigo 7.5.18.1 e 7.5.18.2]{.antigo} [NOVO]{.etiqueta .novo}
+## 17.18.1 · Recolha da opinião dos utentes [antigo 7.5.18.1]{.antigo} [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Unidades com sistema de análise da opinião dos utentes pelo menos a cada 3 meses. Regra de cálculo: conta a unidade com 17.18.1 igual a 1 e 17.18.2 igual a 1 ou 2 — só o procedimento observado entra; «referido, não visto» não conta.
+Unidades com procedimento de rotina para recolher ou reportar a opinião dos utentes. Só o procedimento observado entra no cálculo; «referido, não visto» não conta.
+
+::: {.hhfa}
+Indicador do HHFA: entra no cálculo de 4.4.2.3.10, com 17.18.2
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Existe nesta unidade sanitária um procedimento de rotina para recolher ou reportar a opinião dos utentes?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, observado
+2. Sim, referido, não visto
+3. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for sim, pedir para ver notas ou relatórios relativos à opinião dos utentes antes de marcar «Sim, observado» ou «Sim, referido, não visto».
+
+Se a resposta for «Não», não fazer 17.18.2.
+:::
+
+::: {.nota}
+O Gabinete do Utente existe na Ficha como caixa e passa a ter o seu conteúdo medido: não se pergunta apenas se existe, mas se a opinião dos utentes é de facto recolhida e analisada, e com que periodicidade. É a única porta de entrada do instrumento para a perspectiva de quem usa os serviços.
+:::
+
+## 17.18.2 · Análise da opinião dos utentes [antigo 7.5.18.2]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Unidades com sistema de análise da opinião dos utentes pelo menos a cada 3 meses. Regra de cálculo: conta a unidade com 17.18.1 igual a 1 e 17.18.2 igual a 1 ou 2.
 
 ::: {.hhfa}
 Indicador do HHFA: 4.4.2.3.10
@@ -148,26 +218,20 @@ Indicador do HHFA: 4.4.2.3.10
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**17.18.1** Existe nesta unidade sanitária um procedimento de rotina para recolher ou reportar a opinião dos utentes?
-
-**17.18.2** Com que frequência é analisada a opinião dos utentes?
+Com que frequência é analisada a opinião dos utentes?
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- **17.18.1**: 1 Sim, observado · 2 Sim, referido, não visto · 3 Não
-- **17.18.2**: 1 Pelo menos mensalmente · 2 Pelo menos a cada 3 meses · 3 Pelo menos a cada 6 meses · 4 Menos de uma vez a cada 6 meses · 98 Não sabe
-:::
+1. Pelo menos mensalmente
+2. Pelo menos a cada 3 meses
+3. Pelo menos a cada 6 meses
+4. Menos de uma vez a cada 6 meses
 
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em 17.18.1, se a resposta for sim, pedir para ver notas ou relatórios relativos à opinião dos utentes antes de marcar «Sim, observado» ou «Sim, referido, não visto».
+<!-- -->
 
-Em 17.18.1, se a resposta for «Não», não fazer 17.18.2.
-:::
-
-::: {.nota}
-O Gabinete do Utente existe na Ficha como caixa e passa a ter o seu conteúdo medido: não se pergunta apenas se existe, mas se a opinião dos utentes é de facto recolhida e analisada, e com que periodicidade. É a única porta de entrada do instrumento para a perspectiva de quem usa os serviços.
+98. Não sabe
 :::
 
 ## 17.7 e 17.16 · Duas remissões [antigo 7.5.7 e 7.5.16]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}

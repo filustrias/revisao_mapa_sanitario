@@ -15,7 +15,8 @@ Cobertura de rede móvel, ligação à internet e a sua disponibilidade, equipam
 | 6.1.2 a 6.1.5 | Meio de ligação à internet, acesso com equipamento da unidade, custo pago pela gestão e disponibilidade da ligação [(1 indicador do HHFA, com 6.2)]{.hhfa} |
 | 6.2.1 a 6.2.6 | Equipamento informático e telefone existentes e a funcionar [(2 indicadores do HHFA)]{.hhfa} |
 | 6.3.1 a 6.3.6 | Bases de dados electrónicas, protecção por senha, cópias de segurança, formato do reporte e plataforma utilizada [(20 indicadores do HHFA)]{.hhfa} |
-| 6.4.1 e 6.4.2 | Pessoal designado para a gestão dos dados e formado no seu uso [(2 indicadores do HHFA)]{.hhfa} |
+| 6.4.1 | Pessoa designada, a tempo inteiro, para a gestão dos dados e o reporte [(1 indicador do HHFA)]{.hhfa} |
+| 6.4.2 | Pessoal formado na análise e no uso dos dados de rotina [(1 indicador do HHFA)]{.hhfa} |
 
 </details>
 
@@ -73,12 +74,12 @@ Qual é o meio de ligação à internet utilizado por esta unidade?
 **Para que serve.** A opção 3 mostra as unidades em que a ligação depende do telemóvel pessoal dos profissionais.
 :::
 
-## 6.1.3 e 6.1.4 Acesso à internet e custo da ligação [antigo 13.1.3 e 13.1.4]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 6.1.3 Acesso à internet [antigo 13.1.3]{.antigo} [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Unidades com acesso à internet através de equipamento da própria unidade e com o custo da ligação pago pela gestão. Com o computador a funcionar (6.2.1 e 6.2.2), dá as unidades com computador ligado à internet.
+Unidades com acesso à internet através de equipamento da própria unidade. Com o computador a funcionar (6.2.1 e 6.2.2), dá as unidades com computador ligado à internet.
 
 ::: {.hhfa}
 Indicador do HHFA: 2.1.1.1.6 (computador com internet) — com 6.2.1 e 6.2.2
@@ -89,21 +90,38 @@ Indicador do HHFA: 2.1.1.1.6 (computador com internet) — com 6.2.1 e 6.2.2
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**6.1.3** Há acesso a correio electrónico ou à internet nesta unidade hoje?
-
-**6.1.4** O custo da ligação à internet é pago ou reembolsado pela gestão desta unidade?
+Há acesso a correio electrónico ou à internet nesta unidade hoje?
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-**6.1.3**
-
 1. Sim, através de equipamento da unidade
 2. Sim, mas apenas através de equipamento pessoal dos profissionais
 3. Não há acesso
+:::
 
-**6.1.4**
+::: {.nota}
+**De onde vem.** A caixa «Comunicação» dos serviços gerais (17.7) passa para esta secção, desdobrada nesta pergunta e em 6.1.4.
+:::
+
+## 6.1.4 Custo da ligação à internet [antigo 13.1.4]{.antigo} [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Unidades com o custo da ligação à internet pago pela gestão.
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+O custo da ligação à internet é pago ou reembolsado pela gestão desta unidade?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
 
 1. Sim
 2. Não
@@ -114,7 +132,7 @@ Indicador do HHFA: 2.1.1.1.6 (computador com internet) — com 6.2.1 e 6.2.2
 :::
 
 ::: {.nota}
-**De onde vem.** A caixa «Comunicação» dos serviços gerais (17.7) passa para esta secção, desdobrada nestas duas perguntas. O custo pago pela gestão distingue a ligação institucional da ligação paga pelo próprio profissional.
+**Para que serve.** O custo pago pela gestão distingue a ligação institucional da ligação paga pelo próprio profissional.
 :::
 
 ## 6.1.5 Disponibilidade da ligação nos últimos 7 dias [antigo 13.1.5]{.antigo} [NOVO]{.etiqueta .novo}
@@ -149,7 +167,7 @@ Nos últimos 7 dias, a ligação à internet esteve disponível em todos os mome
 Número de computadores, tablets, impressoras, baterias de apoio e telefones de cada unidade e quantos estão a funcionar. A diferença entre as duas colunas mostra os problemas de manutenção do equipamento informático.
 
 ::: {.hhfa}
-Indicadores do HHFA: 2.1.1.1.5 (sistema de comunicação — 6.2.6) · 2.1.1.1.6 (computador com internet — com 6.1.3 e 6.1.4)
+Indicadores do HHFA: 2.1.1.1.5 (sistema de comunicação — 6.2.6) · 2.1.1.1.6 (computador com internet — com 6.1.3)
 :::
 
 </details>
@@ -372,15 +390,15 @@ Que plataforma ou programa informático é utilizado nesta unidade para o regist
 **Para que serve.** Acompanha a transição para o DHIS2. A lista de opções deve ser validada pelo GEPE e pela área de informática do MINSA.
 :::
 
-## 6.4.1 e 6.4.2 Pessoal para a gestão dos dados [antigo 13.4.1 e 13.4.2]{.antigo} [NOVO]{.etiqueta .novo}
+## 6.4.1 Pessoa designada para a gestão dos dados [antigo 13.4.1]{.antigo} [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Unidades com uma pessoa designada, a tempo inteiro, para a gestão dos dados e o reporte, e unidades com profissionais formados na análise e no uso dos dados de rotina.
+Unidades com uma pessoa designada, a tempo inteiro, para a gestão dos dados e o reporte.
 
 ::: {.hhfa}
-Indicadores do HHFA: 4.5.2.1.1 (pessoa designada) · 4.5.2.1.2 (pessoal formado)
+Indicador do HHFA: 4.5.2.1.1 (pessoa designada)
 :::
 
 </details>
@@ -388,20 +406,41 @@ Indicadores do HHFA: 4.5.2.1.1 (pessoa designada) · 4.5.2.1.2 (pessoal formado)
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**6.4.1** Existe nesta unidade uma pessoa designada, a tempo inteiro, para a gestão dos dados e para o reporte?
-
-**6.4.2** Algum profissional desta unidade recebeu formação em análise e uso dos dados de rotina da unidade?
+Existe nesta unidade uma pessoa designada, a tempo inteiro, para a gestão dos dados e para o reporte?
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-**6.4.1**
-
 1. Sim
 2. Não
+:::
 
-**6.4.2**
+::: {.nota}
+**Para que serve.** Lidas ao lado do equipamento e dos sistemas, 6.4.1 e 6.4.2 mostram as unidades que têm meios informáticos mas ninguém designado para os usar.
+:::
+
+## 6.4.2 Pessoal formado no uso dos dados [antigo 13.4.2]{.antigo} [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Unidades com profissionais formados na análise e no uso dos dados de rotina.
+
+::: {.hhfa}
+Indicador do HHFA: 4.5.2.1.2 (pessoal formado)
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Algum profissional desta unidade recebeu formação em análise e uso dos dados de rotina da unidade?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
 
 1. Sim
 2. Não
@@ -409,8 +448,4 @@ Indicadores do HHFA: 4.5.2.1.1 (pessoa designada) · 4.5.2.1.2 (pessoal formado)
 <!-- -->
 
 98. Não sabe
-:::
-
-::: {.nota}
-**Para que serve.** Lidas ao lado do equipamento e dos sistemas, mostram as unidades que têm meios informáticos mas ninguém designado para os usar.
 :::
