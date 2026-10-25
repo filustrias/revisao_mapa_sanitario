@@ -8,20 +8,19 @@ A lista das 28 especialidades da Ficha mantém-se por inteiro, pela mesma ordem 
 
 [72 campos, contra 36 na Ficha 19_01.]{.campos}
 
-::: {.medir-seccao}
-**O que esta secção permite medir**
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
 
-**Indicadores do HHFA: 31**, dos quais um no conjunto dos cuidados primários (PHC: sim) — o 3.6.3.1.1, qualquer serviço a sobreviventes de violação ou de violência sexual ou por parceiro íntimo. Os outros 30 são indicadores de disponibilidade de serviços, todos fora do conjunto dos cuidados primários. A lista das 28 especialidades não gera indicador do HHFA: é medida própria do Mapa Sanitário.
+| Quesito | O que se obtém |
+|---|---|
+| 7.1.A | Oferta de atendimento em 28 especialidades, com e sem médico especialista (medida própria do Mapa Sanitário) |
+| 7.1.B | Oferta de serviços para doenças crónicas não transmissíveis, por condição e por função (4 indicadores do HHFA) |
+| 7.1.C | Oferta de serviços para transtornos mentais e para doenças neurológicas (2 indicadores do HHFA) |
+| 7.1.D | Oferta de serviços de cancro, por localização (5 indicadores do HHFA) |
+| 7.1.E | Serviços a sobreviventes de violência: populações, prestações e condição de acesso (13 indicadores do HHFA) |
+| 7.1.F | Oferta de cirurgia, pequena e grande, e procedimentos de referência realizados (7 indicadores do HHFA) |
 
-| Quesito | O que se obtém | Indicadores do HHFA |
-|---|---|---|
-| 7.1.A | Oferta de atendimento em 28 especialidades, com e sem médico especialista | nenhum · medida própria |
-| 7.1.B | Oferta de serviços para doenças crónicas não transmissíveis, por condição e por função | 4 · PHC: nenhum |
-| 7.1.C | Oferta de serviços para transtornos mentais e para doenças neurológicas | 2 · PHC: nenhum |
-| 7.1.D | Oferta de serviços de cancro, por localização | 5 · PHC: nenhum |
-| 7.1.E | Serviços a sobreviventes de violência: populações, prestações e condição de acesso | 13 · PHC: 1 |
-| 7.1.F | Oferta de cirurgia, pequena e grande, e procedimentos de referência realizados | 7 · PHC: nenhum |
-:::
+</details>
 
 ## 7.1.A · Especialidades clínicas (7.1.1 a 7.1.28) [ALTERADO]{.etiqueta .alterado}
 
@@ -93,7 +92,7 @@ Percentagem de unidades sanitárias que oferecem algum serviço para doenças cr
 
 As quatro funções — diagnóstico, início e ajuste de tratamento, seguimento regular, aconselhamento para o autocuidado — não acrescentam indicador do HHFA. São medida própria do Mapa: distinguem a unidade que diagnostica mas não segue da que faz as duas coisas.
 
-Indicadores do HHFA: 1.3.2.4.1 a 1.3.2.4.4 · cuidados primários (PHC): nenhum
+Indicadores do HHFA: 1.3.2.4.1 a 1.3.2.4.4
 :::
 
 ::: {.enunciado}
@@ -132,7 +131,7 @@ Três condições × quatro funções: em cada uma das 12 células, marcar **1 S
 
 Percentagem de unidades sanitárias que oferecem algum serviço para transtornos mentais e percentagem das que oferecem serviços para doenças neurológicas, incluindo a epilepsia — com ou sem psiquiatra, psicólogo ou neurologista. Duas caixas, dois indicadores.
 
-Indicadores do HHFA: 1.3.2.5.1 e 1.3.2.5.2 · cuidados primários (PHC): nenhum
+Indicadores do HHFA: 1.3.2.5.1 e 1.3.2.5.2
 :::
 
 ::: {.enunciado}
@@ -156,7 +155,7 @@ Duas caixas, dois indicadores. Mesma lógica de 7.1.B: a psiquiatria e a psicolo
 
 Percentagem de unidades sanitárias que oferecem algum serviço relacionado com cancro e, por localização, serviços para o cancro do colo do útero, da mama, colorrectal e da próstata. A porta dá o primeiro indicador; cada localização dá um. Cruzado com a maca de exame ginecológico (domínio 8) e o espéculo (domínio 9), mostra as unidades que têm a condição material para rastrear o cancro do colo do útero e não rastreiam.
 
-Indicadores do HHFA: 1.3.2.4.5 a 1.3.2.4.9 · cuidados primários (PHC): nenhum
+Indicadores do HHFA: 1.3.2.4.5 a 1.3.2.4.9
 :::
 
 ::: {.enunciado}
@@ -186,11 +185,11 @@ Cinco caixas, cinco indicadores. O cancro do colo do útero é o que mais intere
 ::: {.medir}
 **O que este quesito permite medir**
 
-Percentagem de unidades sanitárias que prestam serviços a sobreviventes de violação, de violência sexual ou por parceiro íntimo, e a crianças afectadas por maus-tratos; que prestações oferecem aos sobreviventes — entre elas a profilaxia pós-exposição ao VIH —; e se há sempre um profissional do mesmo sexo disponível para o exame. O bloco dá 13 indicadores: a tabela 3.6.3.1 completa (10) e os 3 de disponibilidade da tabela 1.3.2.6. A porta dá dois deles, o 3.6.3.1.1 e o 1.3.2.6.3; o 3.6.3.1.1 é o único da secção 7.1 no conjunto dos cuidados primários.
+Percentagem de unidades sanitárias que prestam serviços a sobreviventes de violação, de violência sexual ou por parceiro íntimo, e a crianças afectadas por maus-tratos; que prestações oferecem aos sobreviventes — entre elas a profilaxia pós-exposição ao VIH —; e se há sempre um profissional do mesmo sexo disponível para o exame. O bloco dá 13 indicadores: a tabela 3.6.3.1 completa (10) e os 3 de disponibilidade da tabela 1.3.2.6. A porta dá dois deles, o 3.6.3.1.1 e o 1.3.2.6.3.
 
 <details><summary>Ver os 13 indicadores</summary>
 
-- 3.6.3.1.1 — Qualquer serviço a sobreviventes de violação, violência sexual ou por parceiro íntimo (porta 7.1.E.0) · PHC
+- 3.6.3.1.1 — Qualquer serviço a sobreviventes de violação, violência sexual ou por parceiro íntimo (porta 7.1.E.0)
 - 3.6.3.1.2 — Avaliação forense dos sobreviventes (7.1.E.3, linha 1)
 - 3.6.3.1.3 — Profilaxia pós-exposição (PEP) para sobreviventes (linha 3)
 - 3.6.3.1.4 — Imunização contra a hepatite B para sobreviventes (linha 2)
@@ -206,7 +205,7 @@ Percentagem de unidades sanitárias que prestam serviços a sobreviventes de vio
 
 </details>
 
-Indicadores do HHFA: 3.6.3.1.1 a 3.6.3.1.10 e 1.3.2.6.1 a 1.3.2.6.3 · cuidados primários (PHC): 3.6.3.1.1
+Indicadores do HHFA: 3.6.3.1.1 a 3.6.3.1.10 e 1.3.2.6.1 a 1.3.2.6.3
 :::
 
 ::: {.enunciado}
@@ -293,7 +292,7 @@ Percentagem de unidades sanitárias que realizam algum procedimento cirúrgico, 
 
 </details>
 
-Indicadores do HHFA: 1.3.2.7.1 a 1.3.2.7.7 · cuidados primários (PHC): nenhum
+Indicadores do HHFA: 1.3.2.7.1 a 1.3.2.7.7
 :::
 
 ::: {.enunciado}
@@ -332,7 +331,5 @@ Todas as caixas: 1 Sim · 2 Não
 ::: {.nota}
 **Fecho da secção 7.1.** Decisão de fundo a registar: nesta secção adopta-se o olhar internacional, que é o mais adequado ao objecto, **sem retirar a lista de especialidades da Ficha**. As duas convivem porque respondem a perguntas diferentes — a especialidade diz como a unidade está organizada e serve a gestão da rede; a condição diz o que a unidade consegue resolver e serve o planeamento do cuidado. É o mesmo desenho usado nas comissões de 7.4, onde o órgão e a actividade convivem.
 
-**Constatação a registar, válida para toda a secção 7:** os 62 indicadores da subárea de disponibilidade de serviços estão **todos** marcados PHC: Não. A via da disponibilidade é ampla mas fica fora do conjunto reduzido dos cuidados primários, que vive quase todo no módulo de prontidão. É a troca que a arquitectura aceita desde o início, e é a primeira pergunta que um técnico da OMS fará.
-
-**31 indicadores** nesta secção, dos quais um PHC: Sim — o 3.6.3.1.1, que entrou com o bloco 7.1.E.
+**31 indicadores** nesta secção.
 :::

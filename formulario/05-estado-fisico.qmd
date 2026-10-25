@@ -8,19 +8,16 @@ title: "Secção 5 — Estado físico"
 
 [12 campos.]{.campos}
 
-::: {.medir-seccao}
-**O que esta secção permite medir**
-
-**Indicadores do HHFA: nenhum.** O catálogo do HHFA tem uma área de estrutura física — «Building structure and security conditions», com 196 indicadores de defeitos em portas, tectos, pavimentos e paredes, sala a sala e por área de serviço —, mas é um exercício de observação diferente e muito mais pesado, que não é comparável com a classificação do Mapa Sanitário e não foi adoptado.
-
-**Medidas próprias do Mapa Sanitário:**
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
 
 | Quesito | O que se obtém |
 |---|---|
-| 5.1 | Distribuição das unidades sanitárias pelo estado físico do edifício principal, comparável com as edições anteriores |
-| 5.1.1 a 5.1.7 | Estado de cada elemento construtivo — fundação, estrutura, pavimento, paredes, cobertura, tecto falso e latrina — por unidade sanitária |
-| 5.2 | Metros quadrados em cada estado de conservação, base para estimar os custos de reabilitação |
-:::
+| 5.1 | Distribuição das unidades sanitárias pelo estado físico do edifício principal, comparável com as edições anteriores (medida própria do Mapa Sanitário) |
+| 5.1.1 a 5.1.7 | Estado de cada elemento construtivo — fundação, estrutura, pavimento, paredes, cobertura, tecto falso e latrina — por unidade sanitária (medida própria do Mapa Sanitário) |
+| 5.2 | Metros quadrados em cada estado de conservação, base para estimar os custos de reabilitação (medida própria do Mapa Sanitário) |
+
+</details>
 
 ## 5.1 Estado físico do edifício principal [ALTERADO]{.etiqueta .alterado}
 

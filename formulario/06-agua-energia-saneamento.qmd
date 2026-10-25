@@ -8,21 +8,20 @@ A estrutura da Ficha — uma fonte **principal** e as **outras** fontes, em cada
 
 [19 campos.]{.campos}
 
-::: {.medir-seccao}
-**O que esta secção permite medir**
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
 
-**7 indicadores do HHFA**, 3 deles do conjunto de cuidados primários (PHC: sim). A secção produz os indicadores de água, electricidade e saneamento melhorados, de destino final seguro dos resíduos e de normas e formação em gestão de resíduos. A estrutura Principal + Outras da Ficha, que regista também as fontes e modos de reserva, é informação própria do Mapa: o HHFA pergunta apenas pela fonte mais utilizada.
+| Quesito | O que se obtém |
+|---|---|
+| 6.1 e 6.1.3 | Unidades sanitárias com fonte de água melhorada e água disponível no recinto (1 indicador do HHFA) |
+| 6.2 e 6.2.3 | Unidades sanitárias com electricidade regular (1 indicador do HHFA) |
+| 6.3 | Unidades sanitárias com saneamento melhorado acessível a utentes e pessoal (1 indicador do HHFA) |
+| 6.4 | Modo de recolha do lixo comum (medida própria do Mapa Sanitário) |
+| 6.5, 6.6, 6.5.3 e 6.5.4 | Unidades sanitárias com destino final seguro dos resíduos cortantes e dos infecciosos (2 indicadores do HHFA) |
+| 6.5.5 e 6.5.6 | Unidades sanitárias com normas escritas e com pessoal formado em gestão de resíduos (2 indicadores do HHFA) |
+| 6.7.1 e 6.7.2 | Unidades sanitárias com tratamento de águas residuais e se este funciona (medida própria do Mapa Sanitário) |
 
-| Quesito | O que se obtém | Indicadores do HHFA |
-|---|---|---|
-| 6.1 e 6.1.3 | Unidades sanitárias com fonte de água melhorada e água disponível no recinto | 2.1.1.1.2 |
-| 6.2 e 6.2.3 | Unidades sanitárias com electricidade regular | 2.1.1.1.1 |
-| 6.3 | Unidades sanitárias com saneamento melhorado acessível a utentes e pessoal | 2.1.1.1.3 |
-| 6.4 | Modo de recolha do lixo comum | nenhum · medida própria do Mapa |
-| 6.5, 6.6, 6.5.3 e 6.5.4 | Unidades sanitárias com destino final seguro dos resíduos cortantes e dos infecciosos | 2.5.1.1.12 e 2.5.1.1.13 |
-| 6.5.5 e 6.5.6 | Unidades sanitárias com normas escritas e com pessoal formado em gestão de resíduos | 2.5.1.1.2 e 2.5.1.1.4 |
-| 6.7.1 e 6.7.2 | Unidades sanitárias com tratamento de águas residuais e se este funciona | nenhum · medida própria do Mapa |
-:::
+</details>
 
 ## 6.1 Fonte de água [ALTERADO]{.etiqueta .alterado}
 
@@ -31,7 +30,7 @@ A estrutura da Ficha — uma fonte **principal** e as **outras** fontes, em cada
 
 Junto com 6.1.3, a «Percentagem de unidades sanitárias com fonte de água melhorada». Contam como fontes melhoradas as categorias 01 a 05, 07 e 09 a 12; não contam o poço e a nascente não protegidos (06 e 08) nem a água de superfície (13). As «Outras» fontes mostram de que depende a unidade quando a principal falha — informação própria do Mapa.
 
-Indicador do HHFA: 2.1.1.1.2 · cuidados primários (PHC): sim
+Indicador do HHFA: 2.1.1.1.2
 :::
 
 ::: {.enunciado}
@@ -81,7 +80,7 @@ Marcar uma única na coluna «Principal». Se a resposta for diferente para o in
 
 Fecha o indicador «Percentagem de unidades sanitárias com fonte de água melhorada»: conta como sim quando a fonte principal de 6.1 é melhorada **e** a resposta aqui não é 3 nem 4. Ter fonte melhorada não basta — a água tem de estar disponível no edifício ou no recinto.
 
-Indicador do HHFA: 2.1.1.1.2 · cuidados primários (PHC): sim
+Indicador do HHFA: 2.1.1.1.2
 :::
 
 ::: {.enunciado}
@@ -112,7 +111,7 @@ Se sim, perguntar: posso ver a água que está disponível hoje? A água pode es
 
 Junto com 6.2.3, a «Percentagem de unidades sanitárias com electricidade». As fontes de reserva, na coluna «Outras», mostram quantas unidades têm alternativa quando a principal falha.
 
-Indicador do HHFA: 2.1.1.1.1 · cuidados primários (PHC): sim
+Indicador do HHFA: 2.1.1.1.1
 :::
 
 ::: {.enunciado}
@@ -141,7 +140,7 @@ As categorias mantêm-se — são adequadas e correspondem às do instrumento in
 
 Fecha o indicador «Percentagem de unidades sanitárias com electricidade»: conta como sim quando 6.2 é diferente de «não tem» **e** a resposta aqui é 1 ou 2 — isto é, sem cortes de mais de 2 horas nos últimos 7 dias, durante o horário de funcionamento. Ter fonte não basta: o indicador pede continuidade.
 
-Indicador do HHFA: 2.1.1.1.1 · cuidados primários (PHC): sim
+Indicador do HHFA: 2.1.1.1.1
 :::
 
 ::: {.enunciado}
@@ -171,7 +170,7 @@ Ler as três opções.
 
 A «Percentagem de unidades sanitárias com instalações sanitárias melhoradas acessíveis a utentes e pessoal». Conta como sim quando a resposta é 1, 2 ou 4 — autoclismo ligado a rede de esgotos ou a fossa séptica, ou latrina melhorada ventilada.
 
-Indicador do HHFA: 2.1.1.1.3 · cuidados primários (PHC): não
+Indicador do HHFA: 2.1.1.1.3
 :::
 
 ::: {.enunciado}
@@ -239,7 +238,7 @@ Categorias mantidas. Acrescenta-se apenas o código 00, para que a ausência de 
 
 A partir do destino dos resíduos hospitalares (6.6), e com 6.5.3 e 6.5.4, a «Percentagem de unidades sanitárias com destino final seguro dos resíduos cortantes» e a «Percentagem de unidades sanitárias com destino final seguro dos resíduos infecciosos não cortantes». O que decide é se o destino é adequado — recolha e tratamento fora da unidade, incineração, aterro — ou não, como a queima ao ar livre. O destino dos resíduos comuns (6.5) é medida própria do Mapa.
 
-Indicadores do HHFA: 2.5.1.1.12 (PHC: não) e 2.5.1.1.13 (PHC: sim)
+Indicadores do HHFA: 2.5.1.1.12 e 2.5.1.1.13
 :::
 
 ::: {.enunciado}
@@ -268,7 +267,7 @@ Categorias mantidas nas duas. O quesito 6.6 é o único da secção 6 sem coluna
 
 Completa os indicadores de destino final seguro dos resíduos cortantes e dos resíduos infecciosos não cortantes: quando o destino é a incineração, só conta como seguro se o incinerador estiver a funcionar e tiver combustível. Dá também, por si só, a lista dos meios de tratamento parados.
 
-Indicadores do HHFA: 2.5.1.1.12 (PHC: não) e 2.5.1.1.13 (PHC: sim)
+Indicadores do HHFA: 2.5.1.1.12 e 2.5.1.1.13
 :::
 
 ::: {.enunciado}
@@ -297,7 +296,7 @@ Pedir para ver. Se o destino indicado em 6.5 e 6.6 não envolver tratamento na u
 
 Dois indicadores: a «Percentagem de unidades sanitárias com normas de gestão de resíduos sanitários» (6.5.5), que conta como sim apenas quando as normas são observadas (resposta 1), e a «Percentagem de unidades sanitárias com pessoal formado em gestão de resíduos sanitários» (6.5.6), que conta como sim quando pelo menos um profissional recebeu formação nos últimos 2 anos.
 
-Indicadores do HHFA: 2.5.1.1.2 e 2.5.1.1.4 · PHC: não
+Indicadores do HHFA: 2.5.1.1.2 e 2.5.1.1.4
 :::
 
 ::: {.enunciado}

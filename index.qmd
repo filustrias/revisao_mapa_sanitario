@@ -80,19 +80,15 @@ A proposta é de revisão e não de substituição, e isso deve ser visível na 
 
 ## Os indicadores internacionais
 
-A linha discreta no fim de cada quesito refere o **HHFA** — *Harmonized Health Facility Assessment*, o instrumento de avaliação de unidades sanitárias da OMS, com 2 604 indicadores organizados em cinco dimensões. A marca **PHC: Sim** identifica os indicadores que pertencem ao conjunto reduzido definido para os cuidados de saúde primários.
+A linha discreta no fim de cada quesito refere o **HHFA** — *Harmonized Health Facility Assessment*, o instrumento de avaliação de unidades sanitárias da OMS, com 2 604 indicadores organizados em cinco dimensões.
 
-Duas notas de leitura que evitam mal-entendidos.
-
-A primeira: **a maior parte dos indicadores que esta proposta gera não pertence ao conjunto PHC**. Toda a subárea de disponibilidade de serviços do HHFA — 62 indicadores — está marcada «PHC: Não». Isto é consequência da arquitectura autorreferida e foi uma troca aceite desde o início: muitos indicadores internacionalmente comparáveis sem observação física, em vez de poucos indicadores do conjunto PHC com observação física. É a primeira pergunta que um técnico da OMS fará ao ver a proposta, e por isso convém estar escrita.
-
-A segunda: **onde o conjunto PHC de facto está** é nas tabelas de disponibilidade de serviço da dimensão 3, que são perguntas declaradas e não observadas. A secção 7.3 — saúde pública, promoção e prevenção — gera por si 34 indicadores marcados PHC: Sim, sem uma única observação física. A conclusão prática é que a secção 7.3 é a de maior retorno em comparabilidade internacional de todo o instrumento, e isso deve pesar se houver de escolher onde investir esforço de recolha.
+A secção 7.3 — saúde pública, promoção e prevenção — é a de maior retorno em comparabilidade internacional de todo o instrumento, sem uma única observação física, e isso deve pesar se houver de escolher onde investir esforço de recolha.
 
 ## O que ficou parqueado, e porquê
 
 Três famílias de informação ficaram deliberadamente fora desta versão, todas pela mesma razão: dependem de **verificação física** e a arquitectura é autorreferida. Não são esquecimentos e estão assinaladas no texto.
 
-**Medicamentos** (quesito 7.2.10). O que o HHFA pede à farmácia não é a existência do serviço mas a presença observada dos produtos na prateleira, dentro da validade: 199 linhas de produto, e os indicadores contam apenas o produto visto e válido. É a tabela de maior rendimento para os cuidados primários — 37 indicadores, todos PHC: Sim — e merece decisão própria. Quatro medicamentos entram desde já, porque a Ficha já os pergunta como actividade de programa: a vitamina A, o albendazol, os sais de reidratação oral e o alimento terapêutico, todos na secção 7.3.
+**Medicamentos** (quesito 7.2.10). O que o HHFA pede à farmácia não é a existência do serviço mas a presença observada dos produtos na prateleira, dentro da validade: 181 linhas de produto, e os indicadores contam apenas o produto visto e válido. É a tabela de maior rendimento para os cuidados primários — 37 indicadores — e merece decisão própria. Quatro medicamentos entram desde já, porque a Ficha já os pergunta como actividade de programa: a vitamina A, o albendazol, os sais de reidratação oral e o alimento terapêutico, todos na secção 7.3.
 
 **Cadeia de frio** (quesito 7.3.1.4). Exige ver o frigorífico a funcionar e ler o termómetro no dia da visita. A contagem de geleiras e arcas, que a Ficha já faz na secção 9, mantém-se intacta.
 

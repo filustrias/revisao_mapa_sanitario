@@ -8,10 +8,8 @@ A secção 0 deixa de ser um cabeçalho administrativo e passa a ser o bloco que
 
 [15 campos, contra 4 na Ficha 19_01.]{.campos}
 
-::: {.medir-seccao}
-**O que esta secção permite medir**
-
-**Indicadores do HHFA: nenhum, por desenho.** É a secção que torna os outros calculáveis: diz quando e como foi feita a recolha, e se a unidade entra no denominador.
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
 
 | Quesito | O que se obtém |
 |---|---|
@@ -22,7 +20,8 @@ A secção 0 deixa de ser um cabeçalho administrativo e passa a ser o bloco que
 | 0.7 | Intervalo entre visitas e unidades nunca visitadas |
 | 0.8 | Rastreabilidade da recolha e qualidade dos dados por equipa |
 | 0.2 | Unidades com orçamento próprio (quesito parqueado) |
-:::
+
+</details>
 
 ## 0.1 Data desta recolha [ALTERADO]{.etiqueta .alterado}
 

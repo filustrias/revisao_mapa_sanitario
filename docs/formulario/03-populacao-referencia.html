@@ -253,62 +253,53 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>É a secção com a maior reformulação de toda a proposta, e a única que cria uma classe nova de informação: a <strong>árvore de referência</strong>. Hoje a Ficha recolhe duas unidades de referência em duas filas iguais, sem distinguir o que são, e quatro números de distância sem instrução de medição. A proposta separa o nó superior — obrigatório, um só — da referência lateral, opcional e por grupo de doentes, e acrescenta o código do Mapa Sanitário de cada unidade de destino, o que torna a árvore nacional reconstruível a partir das fichas.</p>
 <p><span class="campos">19 campos.</span></p>
-<div class="medir-seccao">
-<p><strong>O que esta secção permite medir</strong></p>
-<p><strong>Indicadores do HHFA: 27</strong>, todos pela população do quesito 3.1, que é o seu denominador — 4 de densidade de unidades e camas, 20 de densidade de pessoal e 3 índices de densidade —, dos quais <strong>23 são PHC: sim</strong>. O bloco parqueado do funcionamento da referência (3.4 a 3.9) daria mais 5, todos PHC: sim.</p>
-<p>O resto da secção cria uma classe de indicadores de <strong>rede</strong> — distância e tempo por tipo de referência, por época do ano e por meio de transporte — que não tem equivalente no catálogo do HHFA e é, por inteiro, contributo próprio do Mapa Sanitário. Com o código do nó superior em todas as unidades, o censo produz o mapa da rede nacional de referência.</p>
+<details class="medir-seccao">
+<summary>
+O que esta secção permite medir
+</summary>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 50%">
+<col style="width: 50%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Quesito</th>
 <th>O que se obtém</th>
-<th>Indicadores do HHFA</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>3.1</td>
-<td>População da área de abrangência directa — denominador das densidades</td>
-<td>27 (1.1.1.1.1 a 1.1.1.1.4 · 1.2.2.1.1 a 1.2.2.4.8 · 1.4.1.1.1 a 1.4.1.1.3)</td>
+<td>População da área de abrangência directa — denominador das densidades (27 indicadores do HHFA)</td>
 </tr>
 <tr class="even">
 <td>3.1.1 e 3.1.2</td>
 <td>Origem e ano de cada estimativa da população</td>
-<td>—</td>
 </tr>
 <tr class="odd">
 <td>3.1.3</td>
 <td>Total de controlo da árvore de referência</td>
-<td>—</td>
 </tr>
 <tr class="even">
 <td>3.2.1 a 3.2.3</td>
 <td>Nó superior de cada unidade — a árvore nacional de referência</td>
-<td>—</td>
 </tr>
 <tr class="odd">
 <td>3.2.4 a 3.2.9</td>
 <td>Meio de transporte, distância e tempo ao nó superior, na época seca e na das chuvas</td>
-<td>—</td>
 </tr>
 <tr class="even">
 <td>3.3.1 a 3.3.6</td>
 <td>Referência lateral por grupo de doentes, com a rede obstétrica em separado</td>
-<td>—</td>
 </tr>
 <tr class="odd">
 <td>3.4 a 3.9</td>
-<td>Funcionamento do sistema de referência (parqueado)</td>
-<td>2.7.1.1.1 a 2.7.1.1.5</td>
+<td>Funcionamento do sistema de referência (parqueado; 5 indicadores do HHFA)</td>
 </tr>
 </tbody>
 </table>
-</div>
+</details>
 <section id="população-adstrita-alterado" class="level2">
 <h2 class="anchored" data-anchor-id="população-adstrita-alterado">3.1 População adstrita <span class="etiqueta alterado">ALTERADO</span></h2>
 <div class="medir">
@@ -319,36 +310,36 @@ ul.task-list li input[type="checkbox"] {
 Ver os 27 indicadores
 </summary>
 <ul>
-<li>1.1.1.1.1 — Número de unidades sanitárias por 10 000 habitantes · PHC: sim</li>
-<li>1.1.1.1.2 — Número de unidades de cuidados primários por 10 000 habitantes · PHC: sim</li>
-<li>1.1.1.1.3 — Número de camas de internamento por 10 000 habitantes · PHC: sim</li>
-<li>1.1.1.1.4 — Número de camas de maternidade por 1 000 grávidas · PHC: não</li>
-<li>1.2.2.1.1 — Médicos por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.1.2 — Profissionais paramédicos por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.1.3 — Profissionais de enfermagem e de partos por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.1.4 — Parteiras por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.2.1 — Médicos de clínica geral por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.2.2 — Especialistas em medicina familiar por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.3.1 — Médicos especialistas (todas as especialidades) por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.3.2 — Especialistas do grupo médico por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.3.3 — Pediatras por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.3.4 — Obstetras e ginecologistas por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.3.5 — Especialistas do grupo cirúrgico por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.3.6 — Psiquiatras por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.4.1 — Médicos dentistas por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.4.2 — Farmacêuticos por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.4.3 — Profissionais de saúde ambiental, saúde ocupacional e higiene por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.4.4 — Fisioterapeutas por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.4.5 — Terapeutas ocupacionais por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.4.6 — Dietistas e nutricionistas por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.4.7 — Audiologistas e terapeutas da fala por 10 000 habitantes · PHC: sim</li>
-<li>1.2.2.4.8 — Optometristas e ópticos por 10 000 habitantes · PHC: sim</li>
-<li>1.4.1.1.1 — Índice de densidade de unidades sanitárias · PHC: não</li>
-<li>1.4.1.1.2 — Índice de densidade de camas de internamento · PHC: não</li>
-<li>1.4.1.1.3 — Índice de densidade de camas de maternidade · PHC: não</li>
+<li>1.1.1.1.1 — Número de unidades sanitárias por 10 000 habitantes</li>
+<li>1.1.1.1.2 — Número de unidades de cuidados primários por 10 000 habitantes</li>
+<li>1.1.1.1.3 — Número de camas de internamento por 10 000 habitantes</li>
+<li>1.1.1.1.4 — Número de camas de maternidade por 1 000 grávidas</li>
+<li>1.2.2.1.1 — Médicos por 10 000 habitantes</li>
+<li>1.2.2.1.2 — Profissionais paramédicos por 10 000 habitantes</li>
+<li>1.2.2.1.3 — Profissionais de enfermagem e de partos por 10 000 habitantes</li>
+<li>1.2.2.1.4 — Parteiras por 10 000 habitantes</li>
+<li>1.2.2.2.1 — Médicos de clínica geral por 10 000 habitantes</li>
+<li>1.2.2.2.2 — Especialistas em medicina familiar por 10 000 habitantes</li>
+<li>1.2.2.3.1 — Médicos especialistas (todas as especialidades) por 10 000 habitantes</li>
+<li>1.2.2.3.2 — Especialistas do grupo médico por 10 000 habitantes</li>
+<li>1.2.2.3.3 — Pediatras por 10 000 habitantes</li>
+<li>1.2.2.3.4 — Obstetras e ginecologistas por 10 000 habitantes</li>
+<li>1.2.2.3.5 — Especialistas do grupo cirúrgico por 10 000 habitantes</li>
+<li>1.2.2.3.6 — Psiquiatras por 10 000 habitantes</li>
+<li>1.2.2.4.1 — Médicos dentistas por 10 000 habitantes</li>
+<li>1.2.2.4.2 — Farmacêuticos por 10 000 habitantes</li>
+<li>1.2.2.4.3 — Profissionais de saúde ambiental, saúde ocupacional e higiene por 10 000 habitantes</li>
+<li>1.2.2.4.4 — Fisioterapeutas por 10 000 habitantes</li>
+<li>1.2.2.4.5 — Terapeutas ocupacionais por 10 000 habitantes</li>
+<li>1.2.2.4.6 — Dietistas e nutricionistas por 10 000 habitantes</li>
+<li>1.2.2.4.7 — Audiologistas e terapeutas da fala por 10 000 habitantes</li>
+<li>1.2.2.4.8 — Optometristas e ópticos por 10 000 habitantes</li>
+<li>1.4.1.1.1 — Índice de densidade de unidades sanitárias</li>
+<li>1.4.1.1.2 — Índice de densidade de camas de internamento</li>
+<li>1.4.1.1.3 — Índice de densidade de camas de maternidade</li>
 </ul>
 </details>
-<p>Indicadores do HHFA: 1.1.1.1.1 a 1.1.1.1.4, 1.2.2.1.1 a 1.2.2.4.8 e 1.4.1.1.1 a 1.4.1.1.3, como denominador · PHC: sim em 23, não em 1.1.1.1.4 e 1.4.1.1.1 a 1.4.1.1.3</p>
+<p>Indicadores do HHFA: 1.1.1.1.1 a 1.1.1.1.4, 1.2.2.1.1 a 1.2.2.4.8 e 1.4.1.1.1 a 1.4.1.1.3, como denominador em 23, não em 1.1.1.1.4 e 1.4.1.1.1 a 1.4.1.1.3</p>
 </div>
 <div class="enunciado">
 <p>Qual é a população total residente na área de abrangência <strong>directa</strong> desta unidade sanitária, de acordo com a estimativa mais recente de que a unidade dispõe?</p>
@@ -453,7 +444,7 @@ Ver os 27 indicadores
 <h2 class="anchored" data-anchor-id="a-3.2.9-distância-e-tempo-ao-nó-superior-alterado">3.2.4 a 3.2.9 Distância e tempo ao nó superior <span class="etiqueta alterado">ALTERADO</span></h2>
 <div class="medir">
 <p><strong>O que este quesito permite medir</strong></p>
-<p>Distância e tempo de cada unidade à sua referência superior, na época seca e na época das chuvas, e o meio de transporte de facto usado. Lido em conjunto com o indicador do HHFA «Percentagem de unidades sanitárias com sistema de transporte de emergência para doentes» (2.1.1.1.7, PHC: sim), recolhido nos serviços gerais, identifica as zonas sem evacuação exequível.</p>
+<p>Distância e tempo de cada unidade à sua referência superior, na época seca e na época das chuvas, e o meio de transporte de facto usado. Lido em conjunto com o indicador do HHFA «Percentagem de unidades sanitárias com sistema de transporte de emergência para doentes» (2.1.1.1.7), recolhido nos serviços gerais, identifica as zonas sem evacuação exequível.</p>
 <p>Indicador do HHFA: nenhum · medida própria do Mapa Sanitário</p>
 </div>
 <div class="enunciado">
@@ -533,14 +524,14 @@ Ver os 27 indicadores
 Ver os 5 indicadores
 </summary>
 <ul>
-<li>2.7.1.1.1 — Percentagem de unidades sanitárias com sistema para referir doentes a outras unidades · PHC: sim</li>
-<li>2.7.1.1.2 — Percentagem de unidades sanitárias com normas ou protocolos de referência · PHC: sim</li>
-<li>2.7.1.1.3 — Percentagem de unidades sanitárias com normas ou protocolos de contrarreferência · PHC: sim</li>
-<li>2.7.1.1.4 — Percentagem de unidades sanitárias com registo das referências feitas · PHC: sim</li>
-<li>2.7.1.1.5 — Percentagem de unidades sanitárias que recebem habitualmente informação de retorno sobre os doentes referidos · PHC: sim</li>
+<li>2.7.1.1.1 — Percentagem de unidades sanitárias com sistema para referir doentes a outras unidades</li>
+<li>2.7.1.1.2 — Percentagem de unidades sanitárias com normas ou protocolos de referência</li>
+<li>2.7.1.1.3 — Percentagem de unidades sanitárias com normas ou protocolos de contrarreferência</li>
+<li>2.7.1.1.4 — Percentagem de unidades sanitárias com registo das referências feitas</li>
+<li>2.7.1.1.5 — Percentagem de unidades sanitárias que recebem habitualmente informação de retorno sobre os doentes referidos</li>
 </ul>
 </details>
-<p>Indicadores do HHFA: 2.7.1.1.1 a 2.7.1.1.5, se o bloco entrar · PHC: sim (todos)</p>
+<p>Indicadores do HHFA: 2.7.1.1.1 a 2.7.1.1.5, se o bloco entrar (todos)</p>
 </div>
 <div class="nota">
 <p>Fica para o bloco de gestão o funcionamento do sistema de referência: se existe sistema estabelecido, se há normas de referência e de contrarreferência, se as referências feitas são registadas e se há informação de retorno. O quesito 3.9, sobre o acesso a viatura em condições de funcionamento e a motorista 24 horas, corresponde ao indicador 2.7.1.1.6, que se obtém também dos quesitos 7.5.1 e 7.5.1.1, nos serviços gerais.</p>
