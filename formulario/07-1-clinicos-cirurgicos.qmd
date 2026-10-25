@@ -118,7 +118,7 @@ Indicadores do HHFA: 1.3.2.4.1 a 1.3.2.4.4
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor · não ler]{.rotulo}
+[Instrução ao inquiridor · não ler para o respondente]{.rotulo}
 
 Se a resposta for «Não», saltar para 7.1.C.
 :::
@@ -130,7 +130,7 @@ Para cada uma das três condições seguintes, diga-me quais destas funções s�
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor · não ler]{.rotulo}
+[Instrução ao inquiridor · não ler para o respondente]{.rotulo}
 
 Ler as condições uma a uma e, para cada uma, as quatro funções. Em cada uma das 12 células da grelha (3 condições × 4 funções), marcar 1 Sim ou 2 Não.
 :::
