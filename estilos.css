@@ -146,6 +146,42 @@ details.medir-seccao:not([open]) { padding-top: 0.55rem; padding-bottom: 0.55rem
 
 details.medir-seccao table td:first-child { white-space: nowrap; }
 
+/* Blocos rotulados (em piloto no 7.1.B): cada parte do quesito diz o que é.
+   Pergunta, instrução ao inquiridor e opções/grelha de resposta, com moldura própria. */
+
+.rotulado::before {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+.enunciado.rotulado::before { content: "Pergunta · ler ao respondente"; color: var(--ms-borda-enunciado); }
+
+.instrucao.rotulado {
+  border: 1px dashed var(--ms-apagado);
+  border-radius: 4px;
+  padding: 0.6rem 1rem;
+  margin: 0.6rem 0 0.9rem 0;
+  font-size: 0.92rem;
+}
+.instrucao.rotulado::before { content: "Instrução ao inquiridor · não ler"; color: var(--ms-apagado); }
+.instrucao.rotulado p:last-child { margin-bottom: 0; }
+
+.respostas.rotulado,
+.grelha.rotulado {
+  border: 1px solid var(--ms-regra);
+  border-radius: 4px;
+  padding: 0.6rem 1rem 0.4rem 1rem;
+  margin: 0.6rem 0 0.9rem 0;
+}
+.respostas.rotulado::before { content: "Opções de resposta"; color: var(--ms-texto); }
+.grelha.rotulado::before { content: "Grelha de resposta"; color: var(--ms-texto); }
+.respostas.rotulado ol, .respostas.rotulado ul { margin-bottom: 0.2rem; }
+
 /* Instrução ao inquiridor, não lida em voz alta */
 
 .instrucao {

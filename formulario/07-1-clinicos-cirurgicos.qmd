@@ -104,22 +104,28 @@ Indicadores do HHFA: 1.3.2.4.1 a 1.3.2.4.4
 
 </details>
 
-::: {.enunciado}
+::: {.enunciado .rotulado}
 **Porta.** Esta unidade sanitária presta algum serviço de diagnóstico, tratamento ou seguimento de doenças crónicas não transmissíveis?
 :::
 
-::: {.respostas}
+::: {.respostas .rotulado}
 1. Sim
-2. Não → *se Não, saltar para 7.1.C*
+2. Não
 :::
 
-::: {.enunciado}
+::: {.instrucao .rotulado}
+Se a resposta for «Não», saltar para 7.1.C.
+:::
+
+::: {.enunciado .rotulado}
 Para cada uma das três condições seguintes, diga-me quais destas funções são prestadas nesta unidade sanitária.
 :::
 
-::: {.grelha}
-Três condições × quatro funções: em cada uma das 12 células, marcar **1 Sim** ou **2 Não**.
+::: {.instrucao .rotulado}
+Ler as condições uma a uma e, para cada uma, as quatro funções. Em cada uma das 12 células da grelha (3 condições × 4 funções), marcar 1 Sim ou 2 Não.
+:::
 
+::: {.grelha .rotulado}
 | Condição | (a) Diagnóstico da condição nesta unidade | (b) Início e ajuste de tratamento nesta unidade | (c) Seguimento regular dos doentes já diagnosticados, com dia marcado | (d) Aconselhamento ao doente para o autocuidado |
 |---|:-:|:-:|:-:|:-:|
 | Hipertensão arterial e outras doenças cardiovasculares | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não |
