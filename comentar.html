@@ -159,7 +159,7 @@
 
   // Comentário geral ao capítulo, junto ao título, com a identificação actual
   const titulo = document.querySelector("main h1.title");
-  if (!titulo || !/^(Secção|\d|Domínios)/.test(textoDo(titulo))) return;
+  if (!titulo || !/^(Secç|\d|Domínios)/.test(textoDo(titulo))) return;
   const linha = document.createElement("div");
   linha.className = "ms-comentar-capitulo";
   linha.appendChild(botao(textoDo(titulo) + " (comentário geral)", "Comentar este capítulo"));

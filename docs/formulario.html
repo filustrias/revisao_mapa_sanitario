@@ -180,18 +180,13 @@ ul.task-list li input[type="checkbox"] {
   <a href="./formulario/07-3-saude-publica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">7.3 — Saúde pública, promoção e prevenção</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./formulario/07-4-gestao.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">7.4 — Serviços de gestão</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./formulario/07-5-gerais.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">7.5 — Serviços gerais</span></a>
-  </div>
-</li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./formulario/07-4-5-gestao-servicos-gerais.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Secções 7.4 e 7.5 — Gestão e serviços gerais</span></a>
+  </div>
+</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./formulario/08-13-por-transcrever.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Domínios 8 a 13 — por transcrever nesta edição</span></a>
@@ -244,7 +239,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>O formulário está dividido num capítulo por secção, pela ordem em que o inquiridor o percorre. A secção 7 — serviços oferecidos — é a mais longa e está dividida nos seus cinco blocos. Cada capítulo pode ser lido e discutido por si, numa sessão de revisão.</p>
+<p>O formulário está dividido num capítulo por secção, pela ordem em que o inquiridor o percorre. A secção 7 — serviços oferecidos — é a mais longa: os serviços clínicos, de apoio e de saúde pública (7.1 a 7.3) têm um capítulo cada, e a gestão e os serviços gerais (7.4 e 7.5) estão juntos num capítulo próprio. Cada capítulo pode ser lido e discutido por si, numa sessão de revisão.</p>
 <p>Cada quesito tem ao lado um botão <strong>💬 Comentar</strong>, que abre um formulário curto já com o código do quesito preenchido. Os comentários vão para a mesma folha de respostas, um por linha, e são depois cruzados com a matriz pelo código.</p>
 <table class="caption-top table">
 <thead>
@@ -284,9 +279,13 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td><a href="./formulario/07-servicos.html">Secção 7</a></td>
-<td>Serviços oferecidos — <a href="./formulario/07-1-clinicos-cirurgicos.html">7.1</a> clínicos e cirúrgicos · <a href="./formulario/07-2-apoio.html">7.2</a> apoio · <a href="./formulario/07-3-saude-publica.html">7.3</a> saúde pública · <a href="./formulario/07-4-gestao.html">7.4</a> gestão · <a href="./formulario/07-5-gerais.html">7.5</a> gerais</td>
+<td>Serviços oferecidos — <a href="./formulario/07-1-clinicos-cirurgicos.html">7.1</a> clínicos e cirúrgicos · <a href="./formulario/07-2-apoio.html">7.2</a> apoio · <a href="./formulario/07-3-saude-publica.html">7.3</a> saúde pública</td>
 </tr>
 <tr class="odd">
+<td><a href="./formulario/07-4-5-gestao-servicos-gerais.html">Secções 7.4 e 7.5</a></td>
+<td>Gestão e serviços gerais</td>
+</tr>
+<tr class="even">
 <td><a href="./formulario/08-13-por-transcrever.html">Domínios 8 a 13</a></td>
 <td>Por transcrever nesta edição</td>
 </tr>
@@ -457,7 +456,7 @@ ul.task-list li input[type="checkbox"] {
 
   // Comentário geral ao capítulo, junto ao título, com a identificação actual
   const titulo = document.querySelector("main h1.title");
-  if (!titulo || !/^(Secção|\d|Domínios)/.test(textoDo(titulo))) return;
+  if (!titulo || !/^(Secç|\d|Domínios)/.test(textoDo(titulo))) return;
   const linha = document.createElement("div");
   linha.className = "ms-comentar-capitulo";
   linha.appendChild(botao(textoDo(titulo) + " (comentário geral)", "Comentar este capítulo"));

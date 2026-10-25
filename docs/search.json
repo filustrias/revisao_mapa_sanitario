@@ -124,7 +124,7 @@
     "href": "formulario.html",
     "title": "O formulário, com comentários",
     "section": "",
-    "text": "DicaLegenda\n\n\n\n\n\nCaixa cinzenta: o que se lê ao respondente. Itálico: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.\nEtiquetas: NOVO não existe na Ficha 19_01 · ALTERADO existe e muda · MANTÉM-SE existe e não muda · A DECIDIR depende desta revisão · PARQUEADO fica para depois.\n\n\n\nO formulário está dividido num capítulo por secção, pela ordem em que o inquiridor o percorre. A secção 7 — serviços oferecidos — é a mais longa e está dividida nos seus cinco blocos. Cada capítulo pode ser lido e discutido por si, numa sessão de revisão.\nCada quesito tem ao lado um botão 💬 Comentar, que abre um formulário curto já com o código do quesito preenchido. Os comentários vão para a mesma folha de respostas, um por linha, e são depois cruzados com a matriz pelo código.\n\n\n\nCapítulo\nConteúdo\n\n\n\n\nSecção 0\nIdentificação da recolha\n\n\nSecção 1\nLocalização\n\n\nSecção 2\nPropriedade e gestão\n\n\nSecção 3\nPopulação e sistema de referência\n\n\nSecção 4\nConstrução\n\n\nSecção 5\nEstado físico\n\n\nSecção 6\nÁgua, energia, saneamento e resíduos\n\n\nSecção 7\nServiços oferecidos — 7.1 clínicos e cirúrgicos · 7.2 apoio · 7.3 saúde pública · 7.4 gestão · 7.5 gerais\n\n\nDomínios 8 a 13\nPor transcrever nesta edição",
+    "text": "DicaLegenda\n\n\n\n\n\nCaixa cinzenta: o que se lê ao respondente. Itálico: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.\nEtiquetas: NOVO não existe na Ficha 19_01 · ALTERADO existe e muda · MANTÉM-SE existe e não muda · A DECIDIR depende desta revisão · PARQUEADO fica para depois.\n\n\n\nO formulário está dividido num capítulo por secção, pela ordem em que o inquiridor o percorre. A secção 7 — serviços oferecidos — é a mais longa: os serviços clínicos, de apoio e de saúde pública (7.1 a 7.3) têm um capítulo cada, e a gestão e os serviços gerais (7.4 e 7.5) estão juntos num capítulo próprio. Cada capítulo pode ser lido e discutido por si, numa sessão de revisão.\nCada quesito tem ao lado um botão 💬 Comentar, que abre um formulário curto já com o código do quesito preenchido. Os comentários vão para a mesma folha de respostas, um por linha, e são depois cruzados com a matriz pelo código.\n\n\n\nCapítulo\nConteúdo\n\n\n\n\nSecção 0\nIdentificação da recolha\n\n\nSecção 1\nLocalização\n\n\nSecção 2\nPropriedade e gestão\n\n\nSecção 3\nPopulação e sistema de referência\n\n\nSecção 4\nConstrução\n\n\nSecção 5\nEstado físico\n\n\nSecção 6\nÁgua, energia, saneamento e resíduos\n\n\nSecção 7\nServiços oferecidos — 7.1 clínicos e cirúrgicos · 7.2 apoio · 7.3 saúde pública\n\n\nSecções 7.4 e 7.5\nGestão e serviços gerais\n\n\nDomínios 8 a 13\nPor transcrever nesta edição",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>O formulário, com comentários</span>"
     ]
@@ -1184,157 +1184,153 @@
     ]
   },
   {
-    "objectID": "formulario/07-4-gestao.html",
-    "href": "formulario/07-4-gestao.html",
-    "title": "7.4 — Serviços de gestão",
+    "objectID": "formulario/07-4-5-gestao-servicos-gerais.html",
+    "href": "formulario/07-4-5-gestao-servicos-gerais.html",
+    "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "",
-    "text": "7.4.1 a 7.4.17 · Lista dos serviços e órgãos de gestão ALTERADO\nA lista dos 17 serviços e órgãos de gestão mantém-se por inteiro, com os mesmos códigos e as mesmas designações, incluindo todas as comissões nomeadas. O que muda é a escala — de 0-1 para três níveis — e acrescentam-se três blocos que perguntam pela actividade desses órgãos, não pela sua existência.\n37 campos, contra 19 na Ficha 19_01.",
+    "text": "7.4 — Serviços de gestão\nEste capítulo reúne os dois últimos blocos da secção 7 da Ficha: os serviços e órgãos de gestão (7.4) e os serviços gerais da unidade (7.5). Os códigos dos quesitos são os da Ficha e da matriz de decisão.\nA lista dos 17 serviços e órgãos de gestão mantém-se por inteiro, com os mesmos códigos e as mesmas designações, incluindo todas as comissões nomeadas. O que muda é a escala — de 0-1 para três níveis — e acrescentam-se três blocos que perguntam pela actividade desses órgãos, não pela sua existência.\n37 campos, contra 19 na Ficha 19_01.",
     "crumbs": [
-      "Secção 7 — Serviços oferecidos",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>7.4 — Serviços de gestão</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
   },
   {
-    "objectID": "formulario/07-4-gestao.html#a-7.4.17-lista-dos-serviços-e-órgãos-de-gestão-alterado",
-    "href": "formulario/07-4-gestao.html#a-7.4.17-lista-dos-serviços-e-órgãos-de-gestão-alterado",
-    "title": "7.4 — Serviços de gestão",
+    "objectID": "formulario/07-4-5-gestao-servicos-gerais.html#serviços-de-gestão",
+    "href": "formulario/07-4-5-gestao-servicos-gerais.html#serviços-de-gestão",
+    "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "",
-    "text": "O que este quesito permite medir\nQue serviços e órgãos de gestão existem em cada unidade sanitária e quais estiveram de facto a funcionar nos últimos 3 meses. A diferença entre «existe» e «funcionou» mostra onde o órgão existe no papel sem actividade.\nQuatro linhas geram indicadores do HHFA, sem pergunta adicional: unidades com serviço de apoio de recursos humanos (7.4.7), de finanças e contabilidade e com unidade de administração geral (7.4.5), e de assistência social (7.4.11). Estão fora do conjunto dos cuidados primários. As outras treze linhas são medida própria do Mapa Sanitário.\nIndicadores do HHFA: 4.1.1.2.1, 4.1.1.2.2, 4.1.1.2.3 e 4.1.1.2.8 · cuidados primários (PHC): nenhum\n\n\nVou ler uma lista de serviços e órgãos de gestão. Para cada um, diga-me se existe nesta unidade sanitária e se esteve em funcionamento nos últimos 3 meses.\n\n\n7.4.1 Admissão e arquivo clínico-estatístico · 7.4.2 Direcção geral · 7.4.3 Direcção clínica · 7.4.4 Direcção pedagógica · 7.4.5 Administração · 7.4.6 Chefias · 7.4.7 Recursos humanos · 7.4.8 Escola de formação de técnicos de saúde · 7.4.9.1 Núcleo de formação permanente — campo de estágio médico · 7.4.9.2 Núcleo de formação permanente — campo de estágio de enfermagem · 7.4.10 Informática e estatística · 7.4.11 Assistência social · 7.4.12 Comissão de ética e deontologia · 7.4.13 Comissão de infecções hospitalares · 7.4.14 Comissão de óbitos hospitalares · 7.4.15 Comissão de medicamentos · 7.4.16 Comissão de segurança no trabalho · 7.4.17 Comissão de disciplina e auditoria\n\n\nPara cada linha:\n\nExiste e funcionou nos últimos 3 meses\nExiste mas não funcionou nos últimos 3 meses\nNão existe\n\n\n\nPorque mudou. A escala de três níveis capta, sem acrescentar caixa nenhuma, a situação mais comum na rede: a comissão existe no papel e não se reúne. Com uma caixa de 0-1, essa unidade responde o mesmo que a unidade onde a comissão trabalha todas as semanas.\nTodas as comissões nomeadas se mantêm, por decisão expressa, incluindo as que não têm equivalente no instrumento internacional.",
+    "text": "O que esta secção permite medir\nIndicadores do HHFA: 20, dos quais 16 no módulo central de gestão e finanças e 15 no conjunto dos cuidados primários (PHC: sim). Os três blocos novos — revisão de casos e de óbitos, prevenção e controlo de infecções, garantia de qualidade — geram 16; a lista de três níveis gera os outros 4, sem pergunta adicional.\n\n\n\n\n\n\n\n\nQuesito\nO que se obtém\nIndicadores do HHFA\n\n\n\n\n7.4.1 a 7.4.17\nExistência e funcionamento de 17 serviços e órgãos de gestão\n4 · PHC: nenhum\n\n\n7.4.14\nRevisão de casos e de óbitos nas unidades com internamento\n6 · PHC: 6\n\n\n7.4.13\nEstrutura de gestão da prevenção e controlo de infecções\n3 · PHC: 2\n\n\n7.4.18\nGarantia e melhoria da qualidade\n7 · PHC: 7\n\n\nParqueados\nArquivo e reporte de dados; equipa de gestão\ncerca de 15, fora desta ronda",
     "crumbs": [
-      "Secção 7 — Serviços oferecidos",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>7.4 — Serviços de gestão</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
   },
   {
-    "objectID": "formulario/07-4-gestao.html#revisão-de-casos-e-de-óbitos-novo",
-    "href": "formulario/07-4-gestao.html#revisão-de-casos-e-de-óbitos-novo",
-    "title": "7.4 — Serviços de gestão",
+    "objectID": "formulario/07-4-5-gestao-servicos-gerais.html#a-7.4.17-lista-dos-serviços-e-órgãos-de-gestão-alterado",
+    "href": "formulario/07-4-5-gestao-servicos-gerais.html#a-7.4.17-lista-dos-serviços-e-órgãos-de-gestão-alterado",
+    "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
+    "section": "7.4.1 a 7.4.17 · Lista dos serviços e órgãos de gestão ALTERADO",
+    "text": "7.4.1 a 7.4.17 · Lista dos serviços e órgãos de gestão ALTERADO\n\nO que este quesito permite medir\nQue serviços e órgãos de gestão existem em cada unidade sanitária e quais estiveram de facto a funcionar nos últimos 3 meses. A diferença entre «existe» e «funcionou» mostra onde o órgão existe no papel sem actividade.\nQuatro linhas geram indicadores do HHFA, sem pergunta adicional: unidades com serviço de apoio de recursos humanos (7.4.7), de finanças e contabilidade e com unidade de administração geral (7.4.5), e de assistência social (7.4.11). Estão fora do conjunto dos cuidados primários. As outras treze linhas são medida própria do Mapa Sanitário.\nIndicadores do HHFA: 4.1.1.2.1, 4.1.1.2.2, 4.1.1.2.3 e 4.1.1.2.8 · cuidados primários (PHC): nenhum\n\n\nVou ler uma lista de serviços e órgãos de gestão. Para cada um, diga-me se existe nesta unidade sanitária e se esteve em funcionamento nos últimos 3 meses.\n\n\n7.4.1 Admissão e arquivo clínico-estatístico · 7.4.2 Direcção geral · 7.4.3 Direcção clínica · 7.4.4 Direcção pedagógica · 7.4.5 Administração · 7.4.6 Chefias · 7.4.7 Recursos humanos · 7.4.8 Escola de formação de técnicos de saúde · 7.4.9.1 Núcleo de formação permanente — campo de estágio médico · 7.4.9.2 Núcleo de formação permanente — campo de estágio de enfermagem · 7.4.10 Informática e estatística · 7.4.11 Assistência social · 7.4.12 Comissão de ética e deontologia · 7.4.13 Comissão de infecções hospitalares · 7.4.14 Comissão de óbitos hospitalares · 7.4.15 Comissão de medicamentos · 7.4.16 Comissão de segurança no trabalho · 7.4.17 Comissão de disciplina e auditoria\n\n\nPara cada linha:\n\nExiste e funcionou nos últimos 3 meses\nExiste mas não funcionou nos últimos 3 meses\nNão existe\n\n\n\nPorque mudou. A escala de três níveis capta, sem acrescentar caixa nenhuma, a situação mais comum na rede: a comissão existe no papel e não se reúne. Com uma caixa de 0-1, essa unidade responde o mesmo que a unidade onde a comissão trabalha todas as semanas.\nTodas as comissões nomeadas se mantêm, por decisão expressa, incluindo as que não têm equivalente no instrumento internacional.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
+    ]
+  },
+  {
+    "objectID": "formulario/07-4-5-gestao-servicos-gerais.html#revisão-de-casos-e-de-óbitos-novo",
+    "href": "formulario/07-4-5-gestao-servicos-gerais.html#revisão-de-casos-e-de-óbitos-novo",
+    "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "7.4.14 · Revisão de casos e de óbitos NOVO",
     "text": "7.4.14 · Revisão de casos e de óbitos NOVO\n\nO que este quesito permite medir\nSe as unidades com internamento revêem formalmente a qualidade do cuidado — casos de doentes internados e óbitos, incluindo os óbitos maternos e neonatais — e se o fizeram de facto nos últimos 3 meses. O bloco é uma porta: só respondem as unidades que declararam internamento em 8.0.1, e esse é também o denominador dos seis indicadores.\n\n\nVer os 6 indicadores\n\n\n4.4.3.1.1 — Unidades com internamento com sistema formal de revisão de casos de doentes internados · PHC\n4.4.3.1.2 — Unidades com internamento com revisão formal de caso realizada nos últimos 3 meses · PHC\n4.4.3.1.3 — Unidades com internamento com sistema formal de revisão de óbitos para qualquer óbito de doente internado · PHC\n4.4.3.1.4 — Unidades com internamento com sistema de revisão de óbitos neonatais · PHC\n4.4.3.1.5 — Unidades com internamento com sistema de revisão de óbitos maternos · PHC\n4.4.3.1.6 — Unidades com internamento com revisão formal de óbito realizada nos últimos 3 meses · PHC\n\n\nIndicadores do HHFA: 4.4.3.1.1 a 4.4.3.1.6 · cuidados primários (PHC): todos\n\n\nPorta: respondem apenas as unidades que declararam ter internamento no quesito 8.0.1.\n7.4.14.1 Esta unidade sanitária realiza rotineiramente revisões formais de casos de doentes que não faleceram, em que o manejo individual do doente é analisado quanto à qualidade e ao potencial de melhoria?\n7.4.14.2 Com que frequência são realizadas essas revisões formais de casos?\n7.4.14.3 Foi realizada alguma revisão formal de caso nos últimos 3 meses completos?\n7.4.14.4 Esta unidade sanitária realiza revisões formais de óbitos relativamente a qualquer morte ocorrida na unidade?\n7.4.14.5 Esta unidade sanitária realiza revisões formais de óbitos para algum dos seguintes tipos de morte ocorrida na unidade? — óbito materno · óbito neonatal · óbito nas 24 horas seguintes a uma intervenção cirúrgica\n7.4.14.6 Foi realizada alguma revisão formal de óbito nos últimos 3 meses completos?\n\n\n\n7.4.14.1: 1 Sim · 2 Não → passar a 7.4.14.4\n7.4.14.2: 1 Pelo menos semanalmente · 2 Pelo menos mensalmente · 3 Pelo menos trimestralmente · 4 Sem periodicidade definida\n7.4.14.3: 1 Sim · 2 Não\n7.4.14.4: 1 Sim · 2 Não · 3 Nunca houve óbito nesta unidade → se 2 ou 3, terminar o bloco\n7.4.14.5: para cada uma das três linhas, 1 Sim · 2 Não\n7.4.14.6: 1 Sim · 2 Não\n\n\n\nÉ a aplicação mais clara da regra de que a porta é a actividade e não o órgão. A porta deste bloco não é a existência da Comissão de Óbitos Hospitalares (quesito 7.4.14 da lista acima), mas a realização efectiva de revisões — porque uma unidade pode revisar óbitos maternos sem ter comissão constituída, e é precisamente dela que queremos saber. A caixa da comissão mantém-se, em paralelo, na lista de três níveis.\nA porta é o internamento e não o tipo de unidade, como no próprio instrumento internacional: o denominador destes seis indicadores são as unidades com internamento, seja qual for o seu tipo. Um centro de saúde com camas onde ocorreu um óbito materno tem de ser perguntado — e é precisamente o caso que mais interessa à mortalidade materna.\nAs perguntas 7.4.14.3 e 7.4.14.6 são a verificação da declaração: separam «realizamos rotineiramente» de «realizámos de facto nos últimos 3 meses», que é a diferença entre um sistema a funcionar e um sistema no regulamento.",
     "crumbs": [
-      "Secção 7 — Serviços oferecidos",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>7.4 — Serviços de gestão</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
   },
   {
-    "objectID": "formulario/07-4-gestao.html#estrutura-de-gestão-da-prevenção-e-controlo-de-infecções-novo",
-    "href": "formulario/07-4-gestao.html#estrutura-de-gestão-da-prevenção-e-controlo-de-infecções-novo",
-    "title": "7.4 — Serviços de gestão",
+    "objectID": "formulario/07-4-5-gestao-servicos-gerais.html#estrutura-de-gestão-da-prevenção-e-controlo-de-infecções-novo",
+    "href": "formulario/07-4-5-gestao-servicos-gerais.html#estrutura-de-gestão-da-prevenção-e-controlo-de-infecções-novo",
+    "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "7.4.13 · Estrutura de gestão da prevenção e controlo de infecções NOVO",
     "text": "7.4.13 · Estrutura de gestão da prevenção e controlo de infecções NOVO\n\nO que este quesito permite medir\nTrês indicadores do HHFA: unidades com comissão técnica de prevenção e controlo de infecções; unidades com reuniões multidisciplinares que analisam os resultados de prevenção e controlo de infecções; e unidades com reunião de análise de prevenção e controlo de infecções nos últimos 6 meses. Os dois últimos estão no conjunto dos cuidados primários. O denominador é o conjunto de todas as unidades, por isso o bloco é feito a todas.\nIndicadores do HHFA: 4.4.1.1.4 a 4.4.1.1.6 · cuidados primários (PHC): 4.4.1.1.5 e 4.4.1.1.6\n\n\n7.4.13.1 Vou perguntar sobre a estrutura de gestão da prevenção e controlo de infecções desta unidade sanitária. Para cada item, diga-me se se aplica nesta unidade. — comissão técnica de prevenção e controlo de infecções · reuniões multidisciplinares onde os resultados de prevenção e controlo de infecções são reportados ou analisados\n7.4.13.2 Quando foi a reunião mais recente da comissão de prevenção e controlo de infecções, ou com a pessoa responsável por essa área? Pode ser uma reunião técnica ou uma reunião interdisciplinar em que os resultados tenham sido discutidos.\n\n\n\n7.4.13.1: para cada linha, 1 Sim · 2 Não · 98 Não sabe → se ambas as linhas forem 2, não fazer 7.4.13.2\n7.4.13.2: 1 No último mês · 2 Há 2 a 3 meses · 3 Há 4 a 6 meses · 4 Há mais de 6 meses · 98 Não sabe\n\n\n\nMesmo desenho: a actividade, não o órgão. A segunda linha de 7.4.13.1 — reuniões multidisciplinares onde os resultados são analisados — é a que capta as unidades sem comissão constituída que, apesar disso, discutem infecções. É a parte da prevenção e controlo de infecções que cabe na gestão; o resto — normas de prevenção e de isolamento, pessoal formado, avaliação sistemática, normas de limpeza — fica para um bloco próprio, ainda por construir.",
     "crumbs": [
-      "Secção 7 — Serviços oferecidos",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>7.4 — Serviços de gestão</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
   },
   {
-    "objectID": "formulario/07-4-gestao.html#garantia-e-melhoria-da-qualidade-novo",
-    "href": "formulario/07-4-gestao.html#garantia-e-melhoria-da-qualidade-novo",
-    "title": "7.4 — Serviços de gestão",
+    "objectID": "formulario/07-4-5-gestao-servicos-gerais.html#garantia-e-melhoria-da-qualidade-novo",
+    "href": "formulario/07-4-5-gestao-servicos-gerais.html#garantia-e-melhoria-da-qualidade-novo",
+    "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "7.4.18 · Garantia e melhoria da qualidade NOVO",
     "text": "7.4.18 · Garantia e melhoria da qualidade NOVO\n\nO que este quesito permite medir\nSe cada unidade sanitária tem actividades de rotina de garantia de qualidade — em toda a unidade ou em serviços específicos —, comissão que se reúne, documentação que mostra que a informação é analisada, ponto focal, pessoal formado e apoio externo. São sete indicadores do HHFA, todos no conjunto dos cuidados primários, calculados entre todas as unidades. A porta é a actividade (7.4.18.1), não a comissão.\n\n\nVer os 7 indicadores\n\n\n4.4.2.3.1 — Unidades com actividades de rotina de garantia de qualidade em toda a unidade · PHC\n4.4.2.3.2 — Unidades com actividades de rotina de garantia de qualidade em algum serviço específico · PHC\n4.4.2.3.3 — Unidades com comissão de garantia de qualidade que se reuniu nos últimos 3 meses · PHC\n4.4.2.3.4 — Unidades com documentação de que a informação de garantia de qualidade foi analisada · PHC\n4.4.2.3.6 — Unidades com ponto focal para melhoria da qualidade e segurança do doente · PHC\n4.4.2.3.7 — Unidades com pessoal formado em melhoria da qualidade ou segurança do doente · PHC\n4.4.2.3.8 — Unidades com apoio de parceiros externos para garantia ou melhoria da qualidade · PHC\n\n\nIndicadores do HHFA: 4.4.2.3.1 a 4.4.2.3.4 e 4.4.2.3.6 a 4.4.2.3.8 · cuidados primários (PHC): todos\n\n\n7.4.18.1 Esta unidade sanitária realiza rotineiramente actividades de garantia de qualidade em alguma área de serviço? Entende-se por isso algum sistema formal de revisão, ou de comparação do trabalho ou dos sistemas com uma norma.\n7.4.18.2 Esse sistema é aplicado em toda a unidade ou apenas em serviços específicos?\n7.4.18.3 Esta unidade sanitária tem uma comissão de garantia de qualidade?\n7.4.18.4 Com que frequência se reúne essa comissão?\n7.4.18.5 Quando foi a reunião mais recente dessa comissão?\n7.4.18.6 Existe documentação que mostre que a informação de garantia de qualidade é analisada? Pode ser documentação produzida pela comissão ou por outro órgão de gestão, como um relatório ou a acta de uma reunião.\n7.4.18.7 Esta unidade sanitária tem um ponto focal para melhoria da qualidade e segurança do doente?\n7.4.18.8 O senhor, ou algum profissional desta unidade, recebeu formação em melhoria da qualidade ou em segurança do doente nos últimos 2 anos?\n7.4.18.9 Esta unidade sanitária recebe apoio de parceiros externos na implementação de sistemas e actividades de garantia ou melhoria da qualidade?\n\n\n7.4.18.6: se sim, pedir para ver a documentação.\n\n\n\n7.4.18.1: 1 Sim · 2 Não → terminar o bloco\n7.4.18.2: 1 Em toda a unidade · 2 Apenas em serviços específicos\n7.4.18.3: 1 Sim · 2 Não → passar a 7.4.18.6\n7.4.18.4: 1 Pelo menos mensalmente · 2 Pelo menos a cada 3 meses · 3 Pelo menos a cada 6 meses · 4 Menos de uma vez a cada 6 meses · 98 Não sabe\n7.4.18.5: 1 No último mês · 2 Há 2 a 3 meses · 3 Há 4 a 6 meses · 4 Há mais de 6 meses · 98 Não sabe\n7.4.18.6: 1 Sim, observado · 2 Sim, referido, não visto · 3 Não\n7.4.18.7 e 7.4.18.8: 1 Sim · 2 Não\n7.4.18.9: 1 Sim · 2 Não · 98 Não sabe\n\n\n\nQuesito inteiramente novo, e o único acrescento desta subsecção que não tem correspondência em nenhuma caixa da Ficha. A garantia de qualidade é a área onde a Ficha tem menos informação e onde o instrumento internacional tem mais: nove caixas autorreferidas, sem exigir observação, e sete indicadores, todos dentro do conjunto dos cuidados primários.\nO quesito 7.4.18.6 é o que separa um sistema real de um sistema declarado: pede documentação, e distingue «observado» de «referido, não visto».",
     "crumbs": [
-      "Secção 7 — Serviços oferecidos",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>7.4 — Serviços de gestão</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
   },
   {
-    "objectID": "formulario/07-4-gestao.html#e-7.4.2-7.4.6-arquivo-reporte-e-comité-de-gestão-parqueado",
-    "href": "formulario/07-4-gestao.html#e-7.4.2-7.4.6-arquivo-reporte-e-comité-de-gestão-parqueado",
-    "title": "7.4 — Serviços de gestão",
+    "objectID": "formulario/07-4-5-gestao-servicos-gerais.html#e-7.4.2-7.4.6-arquivo-reporte-e-comité-de-gestão-parqueado",
+    "href": "formulario/07-4-5-gestao-servicos-gerais.html#e-7.4.2-7.4.6-arquivo-reporte-e-comité-de-gestão-parqueado",
+    "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "7.4.1 + 7.4.10 e 7.4.2 + 7.4.6 · Arquivo, reporte e comité de gestão PARQUEADO",
     "text": "7.4.1 + 7.4.10 e 7.4.2 + 7.4.6 · Arquivo, reporte e comité de gestão PARQUEADO\n\nO que este quesito permite medir\nNesta ronda, nada além do que já dá a lista de três níveis. Os dois blocos parqueados dariam: a cadeia de arquivo, registo e reporte de dados, cerca de 11 indicadores da área de sistemas de informação; e a equipa de gestão, 4 indicadores — equipa ou comissão de gestão que se reuniu nos últimos 3 meses, sistema de rotina de participação da comunidade nas decisões de gestão, plano operacional escrito e referência ao plano nas reuniões. Destes, só o da participação da comunidade está no conjunto dos cuidados primários.\nIndicadores do HHFA: nenhum nesta ronda · parqueados: cerca de 11 da área 4.5 e 4.1.1.1.2, 4.1.1.1.5 a 4.1.1.1.7 (PHC: 4.1.1.1.5)\n\n\nAs caixas mantêm-se na lista de três níveis. Ficam para o domínio de gestão dois blocos completos:\nCadeia de arquivo, registo e reporte de dados (a partir de 7.4.1 e 7.4.10) — cerca de 12 campos.\nEquipa ou comissão de gestão (a partir de 7.4.2 e 7.4.6) — periodicidade e data das reuniões, plano operacional escrito e referência ao plano nas decisões, e sistema de rotina de participação da comunidade na gestão — cerca de 6 campos.",
     "crumbs": [
-      "Secção 7 — Serviços oferecidos",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>7.4 — Serviços de gestão</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
   },
   {
-    "objectID": "formulario/07-4-gestao.html#duas-pendências-desta-subsecção",
-    "href": "formulario/07-4-gestao.html#duas-pendências-desta-subsecção",
-    "title": "7.4 — Serviços de gestão",
+    "objectID": "formulario/07-4-5-gestao-servicos-gerais.html#duas-pendências-desta-subsecção",
+    "href": "formulario/07-4-5-gestao-servicos-gerais.html#duas-pendências-desta-subsecção",
+    "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "Duas pendências desta subsecção",
     "text": "Duas pendências desta subsecção\n\n7.4.15 — Comissão de Medicamentos. A verificar se corresponde à comissão de aquisições do instrumento internacional; se corresponder, a caixa que já existe passa a gerar indicador sem qualquer alteração.\n7.4.8 e 7.4.9 — estatuto de unidade de ensino. Falta um quesito que registre se esta unidade sanitária acolhe formação de estudantes, internos, médicos em especialização ou técnicos de saúde em formação. A Ficha tem as caixas dos órgãos (escola de formação, núcleo de formação permanente), mas não a pergunta sobre o estatuto.",
     "crumbs": [
-      "Secção 7 — Serviços oferecidos",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>7.4 — Serviços de gestão</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
   },
   {
-    "objectID": "formulario/07-5-gerais.html",
-    "href": "formulario/07-5-gerais.html",
-    "title": "7.5 — Serviços gerais",
-    "section": "",
-    "text": "7.5.1 e 7.5.1.1 · Transporte de emergência ALTERADO\nÉ a subsecção que menos muda, e isso é um bom sinal: a lista dos 15 serviços gerais está adequada. As alterações são a escala de três níveis, duas remissões para evitar duplicação, o número de gavetas mortuárias e o desenvolvimento do Gabinete do Utente.\n20 campos, contra 19 na Ficha 19_01, contando que dois quesitos saem para outros domínios.",
+    "objectID": "formulario/07-4-5-gestao-servicos-gerais.html#serviços-gerais",
+    "href": "formulario/07-4-5-gestao-servicos-gerais.html#serviços-gerais",
+    "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
+    "section": "7.5 — Serviços gerais",
+    "text": "7.5 — Serviços gerais\nÉ a subsecção que menos muda, e isso é um bom sinal: a lista dos 15 serviços gerais está adequada. As alterações são a escala de três níveis, duas remissões para evitar duplicação, o número de gavetas mortuárias e o desenvolvimento do Gabinete do Utente.\n20 campos, contra 19 na Ficha 19_01, contando que dois quesitos saem para outros domínios.\n\nO que esta secção permite medir\nIndicadores do HHFA: 7, dos quais 2 no conjunto dos cuidados primários (PHC: sim) — o transporte de emergência e a análise da opinião dos utentes. Os outros 5 saem da lista de três níveis, sem pergunta adicional.\n\n\n\n\n\n\n\n\nQuesito\nO que se obtém\nIndicadores do HHFA\n\n\n\n\n7.5.1 e 7.5.1.1\nTransporte de emergência disponível hoje, com combustível e motorista\n1 · PHC: 1\n\n\n7.5.2 a 7.5.18\nExistência e funcionamento de 15 serviços gerais\n5 · PHC: nenhum\n\n\n7.5.5.2\nCapacidade da morgue\nnenhum\n\n\n7.5.18.1 e 7.5.18.2\nRecolha e análise da opinião dos utentes\n1 · PHC: 1\n\n\n7.5.7 e 7.5.16\nRemissões para os domínios 13 e 6\ncontados nesses domínios\n\n\n7.5.8\nManutenção (parqueado)\n23, fora desta ronda",
     "crumbs": [
-      "Secção 7 — Serviços oferecidos",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>7.5 — Serviços gerais</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
   },
   {
-    "objectID": "formulario/07-5-gerais.html#e-7.5.1.1-transporte-de-emergência-alterado",
-    "href": "formulario/07-5-gerais.html#e-7.5.1.1-transporte-de-emergência-alterado",
-    "title": "7.5 — Serviços gerais",
-    "section": "",
-    "text": "O que este quesito permite medir\nUnidades com sistema de transporte de emergência para doentes — veículo em condições de funcionamento, na unidade ou chamado de outro local. Regra de cálculo: conta a unidade com 7.5.1 igual a 1 ou 2 e 7.5.1.1 igual a 1. Cruzado com as distâncias da secção 3, mostra onde a evacuação obstétrica não é exequível em tempo útil.\nIndicador do HHFA: 2.1.1.1.7 · cuidados primários (PHC): sim\n\n\n7.5.1 Esta unidade sanitária tem acesso a uma ambulância ou a outro veículo em condições de funcionamento para o transporte de emergência de doentes — quer esteja estacionado nesta unidade, quer possa ser chamado de outro local?\n7.5.1.1 Esse veículo está disponível hoje, em condições de funcionamento, com combustível e com motorista?\n\n\n7.5.1.1: se o respondente não tiver a certeza, pedir que confirme com quem saiba.\n\n\n\n7.5.1: 1 Sim, ambulância · 2 Sim, outro tipo de veículo · 3 Não → passar a 7.5.2\n7.5.1.1: 1 Sim · 2 Não · 98 Não sabe\n\n\n\nO enunciado inclui expressamente o veículo chamado de outro local, porque é essa a situação da maior parte dos centros de saúde — e uma pergunta sobre veículo próprio deixaria essas unidades contadas como unidades sem transporte de emergência.\n7.5.1.1 é a verificação da declaração: ter acesso a uma ambulância e ter uma ambulância com combustível e motorista hoje são coisas diferentes. Articula-se com 7.2.E.6 (urgência), com 3.9 (sistema de referência) e com o domínio 10 (frota), sem duplicação de campo.",
+    "objectID": "formulario/07-4-5-gestao-servicos-gerais.html#e-7.5.1.1-transporte-de-emergência-alterado",
+    "href": "formulario/07-4-5-gestao-servicos-gerais.html#e-7.5.1.1-transporte-de-emergência-alterado",
+    "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
+    "section": "7.5.1 e 7.5.1.1 · Transporte de emergência ALTERADO",
+    "text": "7.5.1 e 7.5.1.1 · Transporte de emergência ALTERADO\n\nO que este quesito permite medir\nUnidades com sistema de transporte de emergência para doentes — veículo em condições de funcionamento, na unidade ou chamado de outro local. Regra de cálculo: conta a unidade com 7.5.1 igual a 1 ou 2 e 7.5.1.1 igual a 1. Cruzado com as distâncias da secção 3, mostra onde a evacuação obstétrica não é exequível em tempo útil.\nIndicador do HHFA: 2.1.1.1.7 · cuidados primários (PHC): sim\n\n\n7.5.1 Esta unidade sanitária tem acesso a uma ambulância ou a outro veículo em condições de funcionamento para o transporte de emergência de doentes — quer esteja estacionado nesta unidade, quer possa ser chamado de outro local?\n7.5.1.1 Esse veículo está disponível hoje, em condições de funcionamento, com combustível e com motorista?\n\n\n7.5.1.1: se o respondente não tiver a certeza, pedir que confirme com quem saiba.\n\n\n\n7.5.1: 1 Sim, ambulância · 2 Sim, outro tipo de veículo · 3 Não → passar a 7.5.2\n7.5.1.1: 1 Sim · 2 Não · 98 Não sabe\n\n\n\nO enunciado inclui expressamente o veículo chamado de outro local, porque é essa a situação da maior parte dos centros de saúde — e uma pergunta sobre veículo próprio deixaria essas unidades contadas como unidades sem transporte de emergência.\n7.5.1.1 é a verificação da declaração: ter acesso a uma ambulância e ter uma ambulância com combustível e motorista hoje são coisas diferentes. Articula-se com 7.2.E.6 (urgência), com 3.9 (sistema de referência) e com o domínio 10 (frota), sem duplicação de campo.",
     "crumbs": [
-      "Secção 7 — Serviços oferecidos",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>7.5 — Serviços gerais</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
   },
   {
-    "objectID": "formulario/07-5-gerais.html#a-7.5.18-lista-dos-serviços-gerais-alterado",
-    "href": "formulario/07-5-gerais.html#a-7.5.18-lista-dos-serviços-gerais-alterado",
-    "title": "7.5 — Serviços gerais",
+    "objectID": "formulario/07-4-5-gestao-servicos-gerais.html#a-7.5.18-lista-dos-serviços-gerais-alterado",
+    "href": "formulario/07-4-5-gestao-servicos-gerais.html#a-7.5.18-lista-dos-serviços-gerais-alterado",
+    "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "7.5.2 a 7.5.18 · Lista dos serviços gerais ALTERADO",
     "text": "7.5.2 a 7.5.18 · Lista dos serviços gerais ALTERADO\n\nO que este quesito permite medir\nQue serviços gerais de apoio existem em cada unidade sanitária e quais estiveram de facto a funcionar nos últimos 3 meses. Cinco indicadores do HHFA saem desta lista sem pergunta adicional, todos fora do conjunto dos cuidados primários. Os sete serviços sem equivalente internacional — segurança, salão de actos, biblioteca, capela, parqueamento, ajardinamento e videovigilância — são medida própria do Mapa Sanitário.\n\n\nVer os 5 indicadores\n\n\n4.1.1.2.5 — Unidades com serviço de apoio de limpeza, higiene e lavandaria (7.5.4 e 7.5.6)\n4.1.1.2.6 — Unidades com serviço de alimentação e cozinha para doentes (7.5.2)\n4.1.1.2.7 — Unidades com morgue (7.5.5.1)\n4.3.1.2.1 — Unidades que oferecem residência, gratuita ou subsidiada, ao pessoal (7.5.12)\n4.3.1.2.2 — Unidades que oferecem refeitório ou cantina ao pessoal (7.5.3)\n\n\nIndicadores do HHFA: 4.1.1.2.5 a 4.1.1.2.7, 4.3.1.2.1 e 4.3.1.2.2 · cuidados primários (PHC): nenhum\n\n\nVou ler uma lista de serviços gerais de apoio. Para cada um, diga-me se existe nesta unidade sanitária e se esteve em funcionamento nos últimos 3 meses.\n\n\n7.5.2 Cozinha · 7.5.3 Refeitório ou cantina · 7.5.4 Lavandaria · 7.5.5.1 Morgue · 7.5.6 Higiene e limpeza · 7.5.8 Manutenção · 7.5.9 Segurança · 7.5.10 Salão de actos · 7.5.11 Biblioteca · 7.5.12 Residência · 7.5.13 Capela · 7.5.14 Parqueamento · 7.5.15 Ajardinamento · 7.5.17 Videovigilância · 7.5.18 Gabinete do utente\n\n\nPara cada linha: 1 Existe e funcionou nos últimos 3 meses · 2 Existe mas não funcionou nos últimos 3 meses · 3 Não existe\n\n\nMesma razão de 7.4: a escala de três níveis distingue o serviço que existe e funciona do que existe no organigrama. A lista mantém-se por inteiro, incluindo os serviços sem equivalente internacional — capela, ajardinamento, salão de actos —, que são informação de gestão patrimonial com valor próprio.",
     "crumbs": [
-      "Secção 7 — Serviços oferecidos",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>7.5 — Serviços gerais</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
   },
   {
-    "objectID": "formulario/07-5-gerais.html#gavetas-mortuárias-mantém-se",
-    "href": "formulario/07-5-gerais.html#gavetas-mortuárias-mantém-se",
-    "title": "7.5 — Serviços gerais",
+    "objectID": "formulario/07-4-5-gestao-servicos-gerais.html#gavetas-mortuárias-mantém-se",
+    "href": "formulario/07-4-5-gestao-servicos-gerais.html#gavetas-mortuárias-mantém-se",
+    "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "7.5.5.2 · Gavetas mortuárias MANTÉM-SE",
     "text": "7.5.5.2 · Gavetas mortuárias MANTÉM-SE\n\nO que este quesito permite medir\nCapacidade da morgue de cada unidade sanitária, em número de gavetas. O código 97 separa a unidade sem morgue da unidade com morgue e sem gavetas. Verificação a programar: se 7.5.5.1 for 3, 7.5.5.2 tem de ser 97.\nIndicador do HHFA: nenhum · medida própria do Mapa Sanitário\n\n\nQuantas gavetas mortuárias tem a morgue desta unidade sanitária?\n\n\n\nNúmero inteiro, 0 a 99 · 97 não tem morgue",
     "crumbs": [
-      "Secção 7 — Serviços oferecidos",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>7.5 — Serviços gerais</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
   },
   {
-    "objectID": "formulario/07-5-gerais.html#e-7.5.18.2-gabinete-do-utente-novo",
-    "href": "formulario/07-5-gerais.html#e-7.5.18.2-gabinete-do-utente-novo",
-    "title": "7.5 — Serviços gerais",
+    "objectID": "formulario/07-4-5-gestao-servicos-gerais.html#e-7.5.18.2-gabinete-do-utente-novo",
+    "href": "formulario/07-4-5-gestao-servicos-gerais.html#e-7.5.18.2-gabinete-do-utente-novo",
+    "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "7.5.18.1 e 7.5.18.2 · Gabinete do Utente NOVO",
     "text": "7.5.18.1 e 7.5.18.2 · Gabinete do Utente NOVO\n\nO que este quesito permite medir\nUnidades com sistema de análise da opinião dos utentes pelo menos a cada 3 meses. Regra de cálculo: conta a unidade com 7.5.18.1 igual a 1 e 7.5.18.2 igual a 1 ou 2 — só o procedimento observado entra; «referido, não visto» não conta.\nIndicador do HHFA: 4.4.2.3.10 · cuidados primários (PHC): sim\n\n\n7.5.18.1 Existe nesta unidade sanitária um procedimento de rotina para recolher ou reportar a opinião dos utentes?\n7.5.18.2 Com que frequência é analisada a opinião dos utentes?\n\n\n7.5.18.1: se sim, pedir para ver notas ou relatórios relativos à opinião dos utentes.\n\n\n\n7.5.18.1: 1 Sim, observado · 2 Sim, referido, não visto · 3 Não → não fazer 7.5.18.2\n7.5.18.2: 1 Pelo menos mensalmente · 2 Pelo menos a cada 3 meses · 3 Pelo menos a cada 6 meses · 4 Menos de uma vez a cada 6 meses · 98 Não sabe\n\n\n\nO Gabinete do Utente existe na Ficha como caixa e passa a ter o seu conteúdo medido: não se pergunta apenas se existe, mas se a opinião dos utentes é de facto recolhida e analisada, e com que periodicidade. É a única porta de entrada do instrumento para a perspectiva de quem usa os serviços.",
     "crumbs": [
-      "Secção 7 — Serviços oferecidos",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>7.5 — Serviços gerais</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
   },
   {
-    "objectID": "formulario/07-5-gerais.html#e-7.5.16-duas-remissões-mantém-se",
-    "href": "formulario/07-5-gerais.html#e-7.5.16-duas-remissões-mantém-se",
-    "title": "7.5 — Serviços gerais",
+    "objectID": "formulario/07-4-5-gestao-servicos-gerais.html#e-7.5.16-duas-remissões-mantém-se",
+    "href": "formulario/07-4-5-gestao-servicos-gerais.html#e-7.5.16-duas-remissões-mantém-se",
+    "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "7.5.7 e 7.5.16 · Duas remissões MANTÉM-SE",
     "text": "7.5.7 e 7.5.16 · Duas remissões MANTÉM-SE\n\nO que este quesito permite medir\nNada em 7.5: a comunicação é medida no domínio 13 e o tratamento do lixo nos quesitos 6.5 e 6.6, onde se contam os respectivos indicadores. As linhas ficam para mostrar onde a informação é recolhida.\nIndicador do HHFA: nenhum em 7.5 · ver domínio 13 e quesitos 6.5 e 6.6\n\n\n7.5.7 é desenvolvido no domínio 13, Conectividade e meios informáticos. 7.5.16 é desenvolvido nos quesitos 6.5 e 6.6, no domínio 6. Em 7.5 ficam apenas as linhas de remissão, sem caixa a preencher, para que a informação não seja recolhida duas vezes.",
     "crumbs": [
-      "Secção 7 — Serviços oferecidos",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>7.5 — Serviços gerais</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
   },
   {
-    "objectID": "formulario/07-5-gerais.html#bloco-de-manutenção-parqueado",
-    "href": "formulario/07-5-gerais.html#bloco-de-manutenção-parqueado",
-    "title": "7.5 — Serviços gerais",
+    "objectID": "formulario/07-4-5-gestao-servicos-gerais.html#bloco-de-manutenção-parqueado",
+    "href": "formulario/07-4-5-gestao-servicos-gerais.html#bloco-de-manutenção-parqueado",
+    "title": "Secções 7.4 e 7.5 — Gestão e serviços gerais",
     "section": "7.5.8 · Bloco de manutenção PARQUEADO",
     "text": "7.5.8 · Bloco de manutenção PARQUEADO\n\nO que este quesito permite medir\nNesta ronda, nada além da linha de manutenção na lista de três níveis. O bloco parqueado daria 23 indicadores do HHFA, todos do módulo central de gestão e finanças e nenhum no conjunto dos cuidados primários: 10 sobre manutenção de rotina dos sistemas de infraestrutura e 13 sobre manutenção de rotina do equipamento médico, de esterilização e de laboratório. Com a manutenção de veículos de 10.3, completaria a área de manutenção do HHFA.\nIndicadores do HHFA: nenhum nesta ronda · parqueados: 4.1.2.1.1 a 4.1.2.1.10 e 4.1.2.2.1 a 4.1.2.2.13 · cuidados primários (PHC): nenhum\n\n\nA caixa de 7.5.8 mantém-se na lista de três níveis. O bloco completo — cerca de 25 campos para 23 indicadores — fica para o domínio de gestão e é a porta de entrada para duas subáreas inteiras:\nManutenção de sistemas de infraestrutura — se é feita manutenção preventiva ou correctiva, se existe plano de manutenção, e uma lista de 9 sistemas: electricidade, água, saneamento e esgotos, incinerador, ventilação ou ar condicionado, oxigénio central, altifalantes e comunicações, extintores e computadores, cada um com a escala «rotineiramente / às vezes, não rotineiramente / nunca / não aplicável».\nManutenção de equipamento médico, de esterilização e de laboratório — se é feita inspecção, teste ou manutenção preventiva, se existe plano conforme as recomendações do fabricante, e uma lista de 11 equipamentos: tanques ou concentradores de oxigénio, ventiladores, frigoríficos de vacinas, medicamentos ou sangue, incubadoras, autoclaves eléctricas, esterilizadores eléctricos de calor seco, analisador de hematologia, analisador de bioquímica, aparelho de raios X, TAC e ecógrafo — e ainda se existe um sistema de rotina de inspecção, manutenção e substituição.\nÉ candidato legítimo a entrar nesta ronda, e está na lista de decisões da nota de apresentação: a manutenção é o lugar onde a diferença entre a contagem de equipamento (domínio 9) e a sua verificação se explica.",
     "crumbs": [
-      "Secção 7 — Serviços oferecidos",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>7.5 — Serviços gerais</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Secções 7.4 e 7.5 — Gestão e serviços gerais</span>"
     ]
   },
   {
@@ -1344,7 +1340,7 @@
     "section": "",
     "text": "DicaLegenda\n\n\n\n\n\nCaixa cinzenta: o que se lê ao respondente. Itálico: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.\nEtiquetas: NOVO não existe na Ficha 19_01 · ALTERADO existe e muda · MANTÉM-SE existe e não muda · A DECIDIR depende desta revisão · PARQUEADO fica para depois.\n\n\n\nOs domínios seguintes estão integralmente escritos na matriz de decisão da adaptação e serão transcritos para este formato na próxima edição do documento. Ficam aqui identificados com o respectivo volume, para que a leitura da proposta não pareça incompleta onde não está.\n\n\n\n\n\n\n\n\nDomínio\nConteúdo\nCampos propostos / na Ficha\n\n\n\n\n8\nRecursos cama e similares — camas de internamento, berços, decomposição por enfermaria e por sexo, observação e curta estadia, macas e mesas de exame, camas em armazém\n35 / 15\n\n\n9\nAparelhos médico-cirúrgicos — a contagem dos 15 tipos da Ficha, mais a grelha de verificação do equipamento básico e oito itens novos\n39 / 16\n\n\n10\nMeios de transporte — os 7 tipos de veículo da Ficha com três colunas de estado, as linhas abertas, e o plano de manutenção de veículos\n36 / 24\n\n\n11 e 12\nResponsáveis e contactos — o responsável técnico da unidade, as pessoas que responderam ao inquérito, o responsável do preenchimento\n34 / 24\n\n\n13\nConectividade e meios informáticos — computadores, internet, telefone, sistemas de informação em uso\n36\n\n\n\nEm síntese, o conjunto da proposta soma cerca de 650 campos para toda a rede — número que só faz sentido lido com a nota sobre as portas e os saltos: nenhuma unidade sanitária responde a mais do que uma fracção deles.\nTrês observações sobre estes cinco domínios, que a revisão pode já considerar sem esperar pela transcrição:\nDomínios 8 e 9 são os dois lugares em que a Ficha é mais granular do que o instrumento internacional. A Ficha conta camas e aparelhos; o instrumento internacional verifica a presença de um. A proposta soma a verificação à contagem, não troca uma pela outra — e é por isso que os quatro itens que também entram na grelha de verificação conservam a sua caixa de quantidade.\nO domínio 10 é, por inteiro, contributo próprio. Não existe um único indicador internacional de contagem de frota. A informação é essencial à gestão logística da rede e nenhum instrumento internacional a recolhe.\nOs domínios 11 e 12 não geram nem devem gerar indicador. A sua função é permitir contactar as pessoas certas quando surgir um problema com os dados recolhidos, e é por esse critério que devem ser avaliados.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Domínios 8 a 13 — por transcrever nesta edição</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Domínios 8 a 13 — por transcrever nesta edição</span>"
     ]
   }
 ]

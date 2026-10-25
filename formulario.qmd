@@ -4,7 +4,7 @@ title: "O formulário, com comentários"
 
 {{< include _legenda.qmd >}}
 
-O formulário está dividido num capítulo por secção, pela ordem em que o inquiridor o percorre. A secção 7 — serviços oferecidos — é a mais longa e está dividida nos seus cinco blocos. Cada capítulo pode ser lido e discutido por si, numa sessão de revisão.
+O formulário está dividido num capítulo por secção, pela ordem em que o inquiridor o percorre. A secção 7 — serviços oferecidos — é a mais longa: os serviços clínicos, de apoio e de saúde pública (7.1 a 7.3) têm um capítulo cada, e a gestão e os serviços gerais (7.4 e 7.5) estão juntos num capítulo próprio. Cada capítulo pode ser lido e discutido por si, numa sessão de revisão.
 
 Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário curto já com o código do quesito preenchido. Os comentários vão para a mesma folha de respostas, um por linha, e são depois cruzados com a matriz pelo código.
 
@@ -17,5 +17,6 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 4](formulario/04-construcao.qmd) | Construção |
 | [Secção 5](formulario/05-estado-fisico.qmd) | Estado físico |
 | [Secção 6](formulario/06-agua-energia-saneamento.qmd) | Água, energia, saneamento e resíduos |
-| [Secção 7](formulario/07-servicos.qmd) | Serviços oferecidos — [7.1](formulario/07-1-clinicos-cirurgicos.qmd) clínicos e cirúrgicos · [7.2](formulario/07-2-apoio.qmd) apoio · [7.3](formulario/07-3-saude-publica.qmd) saúde pública · [7.4](formulario/07-4-gestao.qmd) gestão · [7.5](formulario/07-5-gerais.qmd) gerais |
+| [Secção 7](formulario/07-servicos.qmd) | Serviços oferecidos — [7.1](formulario/07-1-clinicos-cirurgicos.qmd) clínicos e cirúrgicos · [7.2](formulario/07-2-apoio.qmd) apoio · [7.3](formulario/07-3-saude-publica.qmd) saúde pública |
+| [Secções 7.4 e 7.5](formulario/07-4-5-gestao-servicos-gerais.qmd) | Gestão e serviços gerais |
 | [Domínios 8 a 13](formulario/08-13-por-transcrever.qmd) | Por transcrever nesta edição |

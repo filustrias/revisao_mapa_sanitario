@@ -31,8 +31,7 @@ book:
         - formulario/07-1-clinicos-cirurgicos.qmd
         - formulario/07-2-apoio.qmd
         - formulario/07-3-saude-publica.qmd
-        - formulario/07-4-gestao.qmd
-        - formulario/07-5-gerais.qmd
+    - formulario/07-4-5-gestao-servicos-gerais.qmd
     - formulario/08-13-por-transcrever.qmd
 
 format:

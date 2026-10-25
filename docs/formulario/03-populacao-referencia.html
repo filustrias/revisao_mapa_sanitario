@@ -180,18 +180,13 @@ ul.task-list li input[type="checkbox"] {
   <a href="../formulario/07-3-saude-publica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">7.3 — Saúde pública, promoção e prevenção</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../formulario/07-4-gestao.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">7.4 — Serviços de gestão</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../formulario/07-5-gerais.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">7.5 — Serviços gerais</span></a>
-  </div>
-</li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../formulario/07-4-5-gestao-servicos-gerais.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Secções 7.4 e 7.5 — Gestão e serviços gerais</span></a>
+  </div>
+</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../formulario/08-13-por-transcrever.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Domínios 8 a 13 — por transcrever nesta edição</span></a>
@@ -717,7 +712,7 @@ Ver os 5 indicadores
 
   // Comentário geral ao capítulo, junto ao título, com a identificação actual
   const titulo = document.querySelector("main h1.title");
-  if (!titulo || !/^(Secção|\d|Domínios)/.test(textoDo(titulo))) return;
+  if (!titulo || !/^(Secç|\d|Domínios)/.test(textoDo(titulo))) return;
   const linha = document.createElement("div");
   linha.className = "ms-comentar-capitulo";
   linha.appendChild(botao(textoDo(titulo) + " (comentário geral)", "Comentar este capítulo"));
