@@ -873,10 +873,16 @@ Como é habitualmente diagnosticada a malária nesta unidade sanitária? Indique
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que tratam casos de malária.
+Percentagem de unidades que tratam casos de malária, por gravidade:
+
+- percentagem de unidades que tratam a malária grave (opção 1);
+- percentagem de unidades que tratam apenas a malária simples e referem os casos graves (opção 2);
+- percentagem de unidades que não tratam e referem todos os casos (opção 3).
+
+Somadas, as opções 1 e 2 dão a percentagem de unidades que tratam malária.
 
 ::: {.hhfa}
-Indicador do HHFA: 3.2.2.1.6
+Indicador do HHFA: 3.2.2.1.6 (opções 1 e 2 somadas); a separação por gravidade é medida própria do Mapa Sanitário
 :::
 
 </details>
@@ -890,15 +896,24 @@ Esta unidade sanitária trata casos de malária, de acordo com o protocolo nacio
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-1. Sim, casos simples e casos graves
-2. Sim, apenas casos simples
-3. Não, apenas refere
+1. Sim, trata a malária simples e a malária grave
+2. Sim, trata apenas a malária simples; os casos graves são referidos
+3. Não trata; refere todos os casos
 
 <!-- -->
 
 98. Não sabe
 :::
 
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se necessário, explicar ao respondente:
+
+- **Malária simples (não complicada):** febre ou história de febre, com teste positivo (teste rápido ou microscopia) e sem nenhum sinal de gravidade. Trata-se em ambulatório, com antimalárico oral (combinação terapêutica à base de artemisinina).
+- **Malária grave:** teste positivo com pelo menos um sinal de gravidade — alteração da consciência ou coma, convulsões, prostração (não consegue sentar-se, andar ou mamar), dificuldade respiratória, anemia grave, hipoglicemia, icterícia, urina escura, choque, hemorragia anormal ou pouca ou nenhuma urina. Trata-se com antimalárico injectável (artesunato), com o doente em observação ou internamento.
+
+Marcar «2» na unidade que dá a primeira dose antes de referir (por exemplo artesunato rectal ou injectável) e transfere o doente grave; marcar «1» só se a unidade conclui o tratamento do caso grave.
+:::
+
 ::: {.nota}
-Em **14.8.3**, as opções separam caso simples de caso grave, o que o instrumento internacional não faz nesta pergunta, porque é a distinção clínica que decide o percurso do doente. Verificação a programar: uma unidade que declara tratar casos graves e não tem artesunato injectável é uma inconsistência a assinalar quando o bloco de medicamentos entrar.
+Em **14.8.3**, as opções separam a malária simples da malária grave, porque é a distinção clínica que decide o percurso do doente. As definições seguem o protocolo nacional de tratamento da malária. Verificação a programar: uma unidade que declara tratar casos graves e não tem artesunato injectável é uma inconsistência a assinalar quando o bloco de medicamentos entrar.
 :::
