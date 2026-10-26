@@ -27,4 +27,3 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 15](formulario/15-accao-comunitaria.qmd) | Acção comunitária |
 | [Secção 16](formulario/16-gestao.qmd) | Gestão |
 | [Secção 17](formulario/17-servicos-gerais.qmd) | Serviços gerais |
-| [Correspondência de códigos](formulario/99-correspondencia.qmd) | Códigos novos e códigos da versão anterior |

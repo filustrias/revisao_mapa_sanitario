@@ -11,27 +11,31 @@ Serviços gerais da unidade, como o transporte de emergência, a cozinha, a lava
 
 | Quesito | O que se obtém |
 |---|---|
-| 17.1 e 17.1.1 | Transporte de emergência disponível hoje, com combustível e motorista [(1 indicador do HHFA)]{.hhfa} |
-| 17.2 a 17.18 | Existência e funcionamento de 15 serviços gerais [(5 indicadores do HHFA)]{.hhfa} |
+| 17.1 e 17.1.1 | Transporte de emergência disponível hoje, com combustível e motorista [(2 indicadores do HHFA)]{.hhfa} |
+| 17.2 a 17.18 | Existência e funcionamento de 15 serviços gerais [(6 indicadores do HHFA)]{.hhfa} |
 | 17.5.2 | Capacidade da morgue [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 17.18.1 e 17.18.2 | Recolha e análise da opinião dos utentes [(1 indicador do HHFA)]{.hhfa} |
-| 17.7 e 17.16 | Remissões para as secções 6 e 5 (os indicadores contam-se nesses domínios) |
+| 17.18.1 e 17.18.2 | Recolha e análise da opinião dos utentes [(2 indicadores do HHFA)]{.hhfa} |
+| 17.7 e 17.16 | Remissões para as secções 6 e 5 (a informação recolhe-se nessas secções) |
 | 17.8 | Manutenção [(parqueado; 23 indicadores do HHFA)]{.hhfa} |
 
 </details>
 
-## 17.1 · Acesso a transporte de emergência [antigo 7.5.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 17.1 · Acesso a transporte de emergência [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Unidades com acesso a veículo para o transporte de emergência de doentes — ambulância ou outro veículo, na unidade ou chamado de outro local. Cruzado com as distâncias da secção 3, mostra onde a evacuação obstétrica não é exequível em tempo útil.
 
-::: {.hhfa}
-Indicador do HHFA: entra no cálculo de 2.1.1.1.7, com 17.1.1
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opções 1 e 2 (Sim, ambulância; Sim, outro veículo) | 2.1.1.1.7 · 3.1.3.3.6 | Entra no cálculo (ver 17.1.1) | Q1232 = 1 ou 2 |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -55,18 +59,23 @@ Esta unidade sanitária tem acesso a uma ambulância ou a outro veículo em cond
 O enunciado inclui expressamente o veículo **chamado de outro local**, porque é essa a situação da maior parte dos centros de saúde — e uma pergunta sobre veículo próprio deixaria essas unidades contadas como unidades sem transporte de emergência.
 :::
 
-## 17.1.1 · Transporte de emergência disponível hoje [antigo 7.5.1.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 17.1.1 · Transporte de emergência disponível hoje [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Unidades com sistema de transporte de emergência para doentes — veículo em condições de funcionamento, com combustível e motorista, disponível hoje. Regra de cálculo: conta a unidade com 17.1 igual a 1 ou 2 e 17.1.1 igual a 1.
 
-::: {.hhfa}
-Indicador do HHFA: 2.1.1.1.7
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim), com 17.1 = 1 ou 2 | 2.1.1.1.7 | Unidades com sistema de transporte de emergência para doentes<br>*Percentage of facilities with emergency transportation system for patients* | (Q1232 = 1 ou 2) e Q1234 = 1; todas as unidades |
+| Resposta 1 (Sim), com 17.1 = 1 ou 2 | 3.1.3.3.6 | Unidades que fazem partos com transporte de emergência<br>*Percentage of facilities offering delivery services with emergency transport* | (Q1232 = 1 ou 2) e Q1234 = 1; entre as unidades que fazem partos (no HHFA: Q2201 = 1) |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -93,30 +102,29 @@ Esse veículo está disponível hoje, em condições de funcionamento, com combu
 **17.1.1 é a verificação da declaração:** ter acesso a uma ambulância e ter uma ambulância com combustível e motorista hoje são coisas diferentes. Articula-se com 11.E.6 (urgência), com 3.9 (sistema de referência) e com a secção 9 (frota), sem duplicação de campo.
 :::
 
-## 17.2 a 17.18 · Lista dos serviços gerais [antigo 7.5.2 a 7.5.18]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 17.2 a 17.18 · Lista dos serviços gerais [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Que serviços gerais de apoio existem em cada unidade sanitária e quais estiveram de facto a funcionar nos últimos 3 meses. Cinco indicadores do HHFA saem desta lista sem pergunta adicional. Os sete serviços sem equivalente internacional — segurança, salão de actos, biblioteca, capela, parqueamento, ajardinamento e videovigilância — são medida própria do Mapa Sanitário.
-
-<div class="hhfa">
-<details><summary>Ver os 5 indicadores</summary>
-
-- 4.1.1.2.5 — Unidades com serviço de apoio de limpeza, higiene e lavandaria (17.4 e 17.6)
-- 4.1.1.2.6 — Unidades com serviço de alimentação e cozinha para doentes (17.2)
-- 4.1.1.2.7 — Unidades com morgue (17.5.1)
-- 4.3.1.2.1 — Unidades que oferecem residência, gratuita ou subsidiada, ao pessoal (17.12)
-- 4.3.1.2.2 — Unidades que oferecem refeitório ou cantina ao pessoal (17.3)
+Que serviços gerais de apoio existem em cada unidade sanitária e quais estiveram de facto a funcionar nos últimos 3 meses. Os sete serviços sem equivalente internacional — segurança, salão de actos, biblioteca, capela, parqueamento, ajardinamento e videovigilância — são medida própria do Mapa Sanitário.
 
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 4.1.1.2.5 a 4.1.1.2.7, 4.3.1.2.1 e 4.3.1.2.2
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 17.2 · Cozinha, opções 1 e 2 | 4.1.1.2.6 | Unidades com serviço de apoio de alimentação e cozinha para doentes<br>*Percentage of facilities with support services for patient food/patient kitchen* | Q520_6 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe) |
+| Linha 17.3 · Refeitório ou cantina, opções 1 e 2 | 4.3.1.2.2 | Unidades que oferecem refeitório ou cantina ao pessoal<br>*Percentage of facilities offering staff cafeteria or canteen* | Q600_2 = 1; todas as unidades. Aqui contam as opções 1 e 2 (existe) |
+| Linhas 17.4 · Lavandaria e 17.6 · Higiene e limpeza, opções 1 e 2 em qualquer das duas | 4.1.1.2.5 | Unidades com serviço de apoio de limpeza, higiene e lavandaria<br>*Percentage of facilities with support services for cleaning/house-keeping/laundry* | Q520_5 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe) |
+| Linha 17.5.1 · Morgue, opções 1 e 2 | 4.1.1.2.7 | Unidades com morgue<br>*Percentage of facilities with a mortuary* | Q520_7 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe) |
+| Linha 17.8 · Manutenção, opções 1 e 2 | 4.1.1.2.4 | Unidades com serviço de apoio de manutenção dos edifícios<br>*Percentage of facilities with support services for building maintenance* | Q520_4 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe). Aproximado: a linha «Manutenção» não se limita aos edifícios |
+| Linha 17.12 · Residência, opções 1 e 2 | 4.3.1.2.1 | Unidades que oferecem residência ao pessoal, gratuita ou subsidiada<br>*Percentage of facilities offering living quarters (free of charge or subsidized) for staff* | Q600_1 = 1; todas as unidades. Aqui contam as opções 1 e 2 (existe). Aproximado: aqui não se pergunta se a residência é gratuita ou subsidiada |
+| Linha 17.18 · Gabinete do utente | — (medida própria) | A recolha e a análise da opinião dos utentes medem-se em 17.18.1 e 17.18.2 | — |
+| Linhas 17.9 Segurança, 17.10 Salão de actos, 17.11 Biblioteca, 17.13 Capela, 17.14 Parqueamento, 17.15 Ajardinamento e 17.17 Videovigilância | — (medida própria) |  | — |
 :::
-
-</details>
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -140,18 +148,20 @@ Para cada linha: 1 Existe e funcionou nos últimos 3 meses · 2 Existe mas não 
 Mesma razão de 16.2: a escala de três níveis distingue o serviço que existe e funciona do que existe no organigrama. A lista mantém-se por inteiro, incluindo os serviços sem equivalente internacional — capela, ajardinamento, salão de actos —, que são informação de gestão patrimonial com valor próprio.
 :::
 
-## 17.5.2 · Gavetas mortuárias [antigo 7.5.5.2]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+## 17.5.2 · Gavetas mortuárias [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Capacidade da morgue de cada unidade sanitária, em número de gavetas. O código 97 separa a unidade sem morgue da unidade com morgue e sem gavetas. Verificação a programar: se 17.5.1 for 3, 17.5.2 tem de ser 97.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -165,18 +175,23 @@ Quantas gavetas mortuárias tem a morgue desta unidade sanitária?
 - Número inteiro, 0 a 99 · **97** não tem morgue
 :::
 
-## 17.18.1 · Recolha da opinião dos utentes [antigo 7.5.18.1]{.antigo} [NOVO]{.etiqueta .novo}
+## 17.18.1 · Recolha da opinião dos utentes [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Unidades com procedimento de rotina para recolher ou reportar a opinião dos utentes. Só o procedimento observado entra no cálculo; «referido, não visto» não conta.
 
-::: {.hhfa}
-Indicador do HHFA: entra no cálculo de 4.4.2.3.10, com 17.18.2
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1 (Sim, observado) | 4.4.2.3.9 | Unidades com sistema para recolher a opinião dos utentes sobre os serviços<br>*Percentage of facilities with system for eliciting client opinions on facility services* | Q730 = 1; todas as unidades |
+| Opção 1 (Sim, observado) | 4.4.2.3.10 | Entra no cálculo (ver 17.18.2) | Faz as vezes da Q731 = 1 |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -202,18 +217,22 @@ Se a resposta for «Não», não fazer 17.18.2.
 O Gabinete do Utente existe na Ficha como caixa e passa a ter o seu conteúdo medido: não se pergunta apenas se existe, mas se a opinião dos utentes é de facto recolhida e analisada, e com que periodicidade. É a única porta de entrada do instrumento para a perspectiva de quem usa os serviços.
 :::
 
-## 17.18.2 · Análise da opinião dos utentes [antigo 7.5.18.2]{.antigo} [NOVO]{.etiqueta .novo}
+## 17.18.2 · Análise da opinião dos utentes [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Unidades com sistema de análise da opinião dos utentes pelo menos a cada 3 meses. Regra de cálculo: conta a unidade com 17.18.1 igual a 1 e 17.18.2 igual a 1 ou 2.
 
-::: {.hhfa}
-Indicador do HHFA: 4.4.2.3.10
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opções 1 e 2 (pelo menos a cada 3 meses), com 17.18.1 = 1 | 4.4.2.3.10 | Unidades com sistema de análise da opinião dos utentes pelo menos a cada 3 meses<br>*Percentage of facilities with system of reviewing client feedback at least every 3 months* | Q731 = 1 e Q732 = 1 ou 2; todas as unidades. O formulário não tem pergunta própria equivalente à Q731; faz as vezes dela 17.18.1 = 1 |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -234,38 +253,68 @@ Com que frequência é analisada a opinião dos utentes?
 98. Não sabe
 :::
 
-## 17.7 e 17.16 · Duas remissões [antigo 7.5.7 e 7.5.16]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+## 17.7 e 17.16 · Duas remissões [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Nada nesta secção: a comunicação é medida na secção 6 e o tratamento do lixo nos quesitos 5.5 e 5.6, onde se contam os respectivos indicadores. As linhas ficam para mostrar onde a informação é recolhida.
-
-::: {.hhfa}
-Indicador do HHFA: nenhum nesta secção · ver secção 6 e quesitos 5.5 e 5.6
-:::
+Nada nesta secção: a comunicação é medida na secção 6 e o tratamento do lixo nos quesitos 5.5 e 5.6. As linhas ficam para mostrar onde a informação é recolhida.
 
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** nenhum indicador nesta secção — os indicadores da comunicação contam-se na secção 6 (17.7) e os do tratamento do lixo nos quesitos 5.5 e 5.6 (17.16).
+:::
 
 ::: {.nota}
 **17.7** é desenvolvido na secção 6, Conectividade e meios informáticos. **17.16** é desenvolvido nos quesitos 5.5 e 5.6, na secção 5. Em 17 ficam apenas as linhas de remissão, sem caixa a preencher, para que a informação não seja recolhida duas vezes.
 :::
 
-## 17.8 · Bloco de manutenção [antigo 7.5.8]{.antigo} [PARQUEADO]{.etiqueta .parqueado}
+## 17.8 · Bloco de manutenção [PARQUEADO]{.etiqueta .parqueado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Nesta ronda, nada além da linha de manutenção na lista de três níveis. O bloco parqueado daria 23 indicadores do HHFA, todos do módulo central de gestão e finanças: 10 sobre manutenção de rotina dos sistemas de infraestrutura e 13 sobre manutenção de rotina do equipamento médico, de esterilização e de laboratório. Com a manutenção de veículos de 9.3, completaria a área de manutenção do HHFA.
-
-::: {.hhfa}
-Indicadores do HHFA: nenhum nesta ronda · parqueados: 4.1.2.1.1 a 4.1.2.1.10 e 4.1.2.2.1 a 4.1.2.2.13
-:::
+Nesta ronda, nada além da linha de manutenção na lista de três níveis. O bloco parqueado mediria a manutenção de rotina dos sistemas de infraestrutura e a do equipamento médico, de esterilização e de laboratório. Com a manutenção de veículos de 9.3, completaria a medição da manutenção.
 
 </details>
 
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+Bloco parqueado: o que geraria, se entrar nesta ronda.
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Infraestrutura · manutenção feita segundo um plano | 4.1.2.1.1 | Unidades com manutenção de algum sistema de infraestrutura segundo um plano<br>*Percentage of facilities with maintenance system for any infrastructure systems according to a schedule* | Q803 = 1 e Q804 = 1; todas as unidades |
+| Infraestrutura · electricidade | 4.1.2.1.2 | Unidades com manutenção de rotina do sistema de electricidade<br>*Percentage of facilities with routine maintenance of electricity system* | Q805_1 = 1; todas as unidades |
+| Infraestrutura · água | 4.1.2.1.3 | Unidades com manutenção de rotina do sistema de água<br>*Percentage of facilities with routine maintenance of water system* | Q805_2 = 1; todas as unidades |
+| Infraestrutura · saneamento e esgotos | 4.1.2.1.4 | Unidades com manutenção de rotina do sistema de saneamento<br>*Percentage of facilities with routine maintenance of sanitation system* | Q805_3 = 1; todas as unidades |
+| Infraestrutura · incinerador | 4.1.2.1.5 | Unidades com manutenção de rotina do incinerador<br>*Percentage of facilities with routine maintenance of incinerator* | Q805_4 = 1; todas as unidades |
+| Infraestrutura · ventilação ou ar condicionado | 4.1.2.1.6 | Unidades com manutenção de rotina da ventilação ou do ar condicionado<br>*Percentage of facilities with routine maintenance of ventilation or air-conditioning system* | Q805_5 = 1; todas as unidades |
+| Infraestrutura · oxigénio central | 4.1.2.1.7 | Unidades com manutenção de rotina do sistema central de oxigénio<br>*Percentage of facilities with routine maintenance of central oxygen system* | Q805_6 = 1; todas as unidades |
+| Infraestrutura · altifalantes e comunicações | 4.1.2.1.8 | Unidades com manutenção de rotina dos sistemas de comunicação (altifalantes)<br>*Percentage of facilities with routine maintenance of communications systems (loudspeakers)* | Q805_7 = 1; todas as unidades |
+| Infraestrutura · extintores | 4.1.2.1.9 | Unidades com manutenção de rotina dos extintores<br>*Percentage of facilities with routine maintenance of fire extinguishers* | Q805_8 = 1; todas as unidades |
+| Infraestrutura · computadores | 4.1.2.1.10 | Unidades com manutenção de rotina dos computadores<br>*Percentage of facilities with routine maintenance of computers* | Q805_9 = 1; todas as unidades |
+| Equipamento · manutenção feita segundo um plano | 4.1.2.2.1 | Unidades com manutenção de rotina de algum equipamento médico, de esterilização ou de laboratório segundo um plano<br>*Percentage of facilities with routine maintenance of any medical, sterilization or laboratory equipment according to a schedule* | Q808 = 1 e Q807 = 1; todas as unidades |
+| Equipamento · tanques ou concentradores de oxigénio | 4.1.2.2.2 | Unidades com manutenção de rotina dos tanques ou concentradores de oxigénio<br>*Percentage of facilities with routine maintenance of oxygen tanks or concentrators* | Q809_1 = 1; todas as unidades |
+| Equipamento · ventiladores | 4.1.2.2.3 | Unidades com manutenção de rotina dos ventiladores<br>*Percentage of facilities with routine maintenance of ventilators* | Q809_2 = 1; todas as unidades |
+| Equipamento · frigoríficos de vacinas, medicamentos ou sangue | 4.1.2.2.4 | Unidades com manutenção de rotina dos frigoríficos de vacinas, medicamentos ou sangue<br>*Percentage of facilities with routine maintenance of refrigerators for vaccines, medicines  or blood* | Q809_3 = 1; todas as unidades |
+| Equipamento · incubadoras | 4.1.2.2.5 | Unidades com manutenção de rotina das incubadoras<br>*Percentage of facilities with routine maintenance of infant incubators* | Q809_4 = 1; todas as unidades |
+| Equipamento · autoclaves eléctricas | 4.1.2.2.6 | Unidades com manutenção de rotina das autoclaves eléctricas<br>*Percentage of facilities with routine maintenance of electric autoclaves* | Q809_5 = 1; todas as unidades |
+| Equipamento · esterilizadores eléctricos de calor seco | 4.1.2.2.7 | Unidades com manutenção de rotina do esterilizador eléctrico de calor seco<br>*Percentage of facilities with routine maintenance of electric dry heat sterilizer* | Q809_6 = 1; todas as unidades |
+| Equipamento · analisador de hematologia | 4.1.2.2.8 | Unidades com manutenção de rotina do analisador de hematologia<br>*Percentage of facilities with routine maintenance of haematology analyzer* | Q809_7 = 1; todas as unidades |
+| Equipamento · analisador de bioquímica | 4.1.2.2.9 | Unidades com manutenção de rotina do analisador de bioquímica<br>*Percentage of facilities with routine maintenance of blood chemistry analyzer* | Q809_8 = 1; todas as unidades |
+| Equipamento · aparelho de raios X | 4.1.2.2.10 | Unidades com manutenção de rotina do aparelho de raios X<br>*Percentage of facilities with routine maintenance of X-ray machine* | Q809_9 = 1; todas as unidades |
+| Equipamento · TAC | 4.1.2.2.11 | Unidades com manutenção de rotina do TAC<br>*Percentage of facilities with routine maintenance of CT scanner* | Q809_10 = 1; todas as unidades |
+| Equipamento · ecógrafo | 4.1.2.2.12 | Unidades com manutenção de rotina do ecógrafo<br>*Percentage of facilities with routine maintenance of ultrasound* | Q809_11 = 1; todas as unidades |
+| Equipamento · sistema de inspecção, manutenção e substituição | 4.1.2.2.13 | Unidades com sistema de rotina de inspecção, manutenção e substituição do pequeno equipamento médico<br>*Percentage of facilities with routine maintenance of system for routine inspection, maintenance and replacement for small medical equipment* | Q811 = 1; todas as unidades |
+:::
+
 ::: {.nota}
-A caixa de 17.8 mantém-se na lista de três níveis. O bloco completo — cerca de 25 campos para 23 indicadores — fica para o domínio de gestão e é a porta de entrada para duas subáreas inteiras:
+A caixa de 17.8 mantém-se na lista de três níveis. O bloco completo — cerca de 25 campos — fica para o domínio de gestão e é a porta de entrada para duas subáreas inteiras:
 
 **Manutenção de sistemas de infraestrutura** — se é feita manutenção preventiva ou correctiva, se existe plano de manutenção, e uma lista de 9 sistemas: electricidade, água, saneamento e esgotos, incinerador, ventilação ou ar condicionado, oxigénio central, altifalantes e comunicações, extintores e computadores, cada um com a escala «rotineiramente / às vezes, não rotineiramente / nunca / não aplicável».
 

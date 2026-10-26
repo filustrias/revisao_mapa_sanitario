@@ -13,14 +13,18 @@ Cobertura de rede móvel, ligação à internet e a sua disponibilidade, equipam
 |---|---|
 | 6.1.1 | Cobertura de rede móvel no recinto, independentemente da unidade [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 6.1.2 a 6.1.5 | Meio de ligação à internet, acesso com equipamento da unidade, custo pago pela gestão e disponibilidade da ligação [(1 indicador do HHFA, com 6.2)]{.hhfa} |
-| 6.2.1 a 6.2.6 | Equipamento informático e telefone existentes e a funcionar [(2 indicadores do HHFA)]{.hhfa} |
-| 6.3.1 a 6.3.6 | Bases de dados electrónicas, protecção por senha, cópias de segurança, formato do reporte e plataforma utilizada [(20 indicadores do HHFA)]{.hhfa} |
+| 6.2.1 a 6.2.6 | Equipamento informático e telefone existentes e a funcionar [(1 indicador do HHFA)]{.hhfa} |
+| 6.3.1 a 6.3.6 | Bases de dados electrónicas, protecção por senha, cópias de segurança, formato do reporte e plataforma utilizada [(22 indicadores do HHFA)]{.hhfa} |
 | 6.4.1 | Pessoa designada, a tempo inteiro, para a gestão dos dados e o reporte [(1 indicador do HHFA)]{.hhfa} |
 | 6.4.2 | Pessoal formado na análise e no uso dos dados de rotina [(1 indicador do HHFA)]{.hhfa} |
 
 </details>
 
-## 6.1.1 Cobertura de rede móvel [antigo 13.1.1]{.antigo} [NOVO]{.etiqueta .novo}
+## 6.1.1 Cobertura de rede móvel [NOVO]{.etiqueta .novo}
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -44,7 +48,11 @@ Existe cobertura de rede móvel no recinto desta unidade sanitária?
 **Porque vem primeiro.** A cobertura não depende da unidade. Perguntada antes da internet, separa a falta de sinal — que se resolve com infra-estrutura de telecomunicações — da falta de contrato ou de equipamento, que se resolve com o orçamento da unidade. Serve também o canal de voz: a chamada para a unidade de referência depende de sinal, não de internet.
 :::
 
-## 6.1.2 Meio de ligação à internet [antigo 13.1.2]{.antigo} [NOVO]{.etiqueta .novo}
+## 6.1.2 Meio de ligação à internet [NOVO]{.etiqueta .novo}
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -74,18 +82,23 @@ Qual é o meio de ligação à internet utilizado por esta unidade?
 **Para que serve.** A opção 3 mostra as unidades em que a ligação depende do telemóvel pessoal dos profissionais.
 :::
 
-## 6.1.3 Acesso à internet [antigo 13.1.3]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 6.1.3 Acesso à internet [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Unidades com acesso à internet através de equipamento da própria unidade. Com o computador a funcionar (6.2.1 e 6.2.2), dá as unidades com computador ligado à internet.
 
-::: {.hhfa}
-Indicador do HHFA: 2.1.1.1.6 (computador com internet) — com 6.2.1 e 6.2.2
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim, através de equipamento da unidade) | 2.1.1.1.6 | Unidades com computador ligado à internet<br>*Percentage of facilities with computer with internet* | Q1202 = 1 e Q1203 = 1 e Q1205 = 1; todas as unidades. Aqui: 6.1.3 = 1, 6.1.4 = 1 e pelo menos um computador a funcionar em 6.2.1 ou 6.2.2 |
+| Resposta 2 (apenas equipamento pessoal) | — (medida própria) | Unidades em que o acesso depende de equipamento pessoal dos profissionais | — |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -105,7 +118,7 @@ Há acesso a correio electrónico ou à internet nesta unidade hoje?
 **De onde vem.** A caixa «Comunicação» dos serviços gerais (17.7) passa para esta secção, desdobrada nesta pergunta e em 6.1.4.
 :::
 
-## 6.1.4 Custo da ligação à internet [antigo 13.1.4]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 6.1.4 Custo da ligação à internet [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -113,6 +126,14 @@ Há acesso a correio electrónico ou à internet nesta unidade hoje?
 Unidades com o custo da ligação à internet pago pela gestão.
 
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 2.1.1.1.6 | Entra no cálculo de 2.1.1.1.6 (ver 6.1.3) | Q1205 = 1 (custo pago pela gestão) |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -135,7 +156,11 @@ O custo da ligação à internet é pago ou reembolsado pela gestão desta unida
 **Para que serve.** O custo pago pela gestão distingue a ligação institucional da ligação paga pelo próprio profissional.
 :::
 
-## 6.1.5 Disponibilidade da ligação nos últimos 7 dias [antigo 13.1.5]{.antigo} [NOVO]{.etiqueta .novo}
+## 6.1.5 Disponibilidade da ligação nos últimos 7 dias [NOVO]{.etiqueta .novo}
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -159,18 +184,24 @@ Nos últimos 7 dias, a ligação à internet esteve disponível em todos os mome
 **Para que serve.** Ter ligação não é o mesmo que ter ligação quando se precisa. A escala é a mesma usada para a electricidade em 5.2.3.
 :::
 
-## 6.2.1 a 6.2.6 Equipamento informático e telefone [antigo 13.2.1 a 13.2.6]{.antigo} [NOVO]{.etiqueta .novo}
+## 6.2.1 a 6.2.6 Equipamento informático e telefone [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Número de computadores, tablets, impressoras, baterias de apoio e telefones de cada unidade e quantos estão a funcionar. A diferença entre as duas colunas mostra os problemas de manutenção do equipamento informático.
 
-::: {.hhfa}
-Indicadores do HHFA: 2.1.1.1.5 (sistema de comunicação — 6.2.6) · 2.1.1.1.6 (computador com internet — com 6.1.3)
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linhas 6.2.1 e 6.2.2 · número a funcionar ≥ 1 | 2.1.1.1.6 | Entra no cálculo de 2.1.1.1.6 (ver 6.1.3) | Q1202 = 1 (computador a funcionar) |
+| Linha 6.2.6 · Telefone fixo ou telemóvel da unidade · número a funcionar ≥ 1 | 2.1.1.1.5 | Unidades com sistema de comunicação<br>*Percentage of facilities with communications system* | Q1201 = 1; todas as unidades |
+| Linhas 6.2.3 a 6.2.5 e coluna «Número existente» | — (medida própria) | Tablets, impressoras e baterias de apoio; diferença entre existentes e a funcionar | — |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -183,30 +214,35 @@ Para cada um dos equipamentos seguintes, indique quantos existem nesta unidade e
 
 | Código | Equipamento | Número existente (2 dígitos) | Número a funcionar (2 dígitos) |
 |---|---|:-:|:-:|
-| 6.2.1 | Computador de mesa | \_\_ | \_\_ |
-| 6.2.2 | Computador portátil | \_\_ | \_\_ |
+| 6.2.1 | Computador de mesa [HHFA 2.1.1.1.6]{.hhfa .cod-hhfa} | \_\_ | \_\_ |
+| 6.2.2 | Computador portátil [HHFA 2.1.1.1.6]{.hhfa .cod-hhfa} | \_\_ | \_\_ |
 | 6.2.3 | Tablet | \_\_ | \_\_ |
 | 6.2.4 | Impressora | \_\_ | \_\_ |
 | 6.2.5 | UPS ou bateria de apoio | \_\_ | \_\_ |
-| 6.2.6 | Telefone fixo ou telemóvel da unidade | \_\_ | \_\_ |
+| 6.2.6 | Telefone fixo ou telemóvel da unidade [HHFA 2.1.1.1.5]{.hhfa .cod-hhfa} | \_\_ | \_\_ |
 :::
 
 ::: {.nota}
 **Para que serve.** Segue a lógica usada para os veículos na secção 9: quantos existem e quantos funcionam. A bateria de apoio entra porque, com os cortes de energia medidos em 5.2.3, é ela que decide se um registo em curso se perde.
 :::
 
-## 6.3.1 Bases de dados electrónicas — porta [antigo 13.3.1]{.antigo} [NOVO]{.etiqueta .novo}
+## 6.3.1 Bases de dados electrónicas — porta [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Unidades que mantêm toda a informação de doentes e serviços em bases de dados electrónicas.
 
-::: {.hhfa}
-Indicador do HHFA: 4.5.2.2.1 — conta apenas a opção 1
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (toda a informação) | 4.5.2.2.1 | Unidades com bases de dados electrónicas com toda a informação de doentes e serviços<br>*Percentage of facilities with electronic databases with all patient and service information* | Q1031 = 1; todas as unidades |
+| Resposta 2 (alguma informação) | — (medida própria) | Unidades com parte da informação em bases electrónicas | — |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -226,18 +262,33 @@ Esta unidade mantém bases de dados electrónicas ou informatizadas para algum t
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», passar a 6.3.5.
 :::
 
-## 6.3.2 Tipos de informação em base de dados [antigo 13.3.2]{.antigo} [A DECIDIR]{.etiqueta .decidir}
+## 6.3.2 Tipos de informação em base de dados [A DECIDIR]{.etiqueta .decidir}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Que tipos de informação cada unidade mantém em base de dados electrónica — processos clínicos, registos de programas, morbilidade e mortalidade, laboratório, farmácia e stock.
 
-::: {.hhfa}
-Indicadores do HHFA: 4.5.2.2.2 a 4.5.2.2.13 — um por linha
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 1 · Processos individuais de internamento | 4.5.2.2.2 | Unidades com bases de dados electrónicas com todos os processos individuais de internamento<br>*Percentage of facilities with electronic databases with all individual inpatient records* | Q1032_1 = 1; todas as unidades |
+| Linha 2 · Processos individuais de ambulatório | 4.5.2.2.3 | Unidades com bases de dados electrónicas com todos os processos individuais de ambulatório<br>*Percentage of facilities with electronic databases with all individual outpatient records* | Q1032_2 = 1; todas as unidades |
+| Linha 3 · Registos de doentes em tratamento antirretroviral | 4.5.2.2.4 | Unidades com bases de dados electrónicas com registos individuais de doentes em tratamento antirretroviral (TARV)<br>*Percentage of facilities with electronic databases with individual records for antiretroviral therapy (ART) patients* | Q1032_3 = 1; todas as unidades |
+| Linha 4 · Registos de doentes com tuberculose | 4.5.2.2.5 | Unidades com bases de dados electrónicas com registos individuais de doentes com tuberculose<br>*Percentage of facilities with electronic databases with individual records for TB patients* | Q1032_4 = 1; todas as unidades |
+| Linha 5 · Registos de maternidade | 4.5.2.2.6 | Unidades com bases de dados electrónicas com registos individuais de maternidade<br>*Percentage of facilities with electronic databases with individual records for maternity patients* | Q1032_5 = 1; todas as unidades |
+| Linha 6 · Outros dados para seguimento de rotina | 4.5.2.2.7 | Unidades com bases de dados electrónicas com outros dados para o seguimento de rotina dos doentes<br>*Percentage of facilities with electronic databases with other data for routine patient follow-up* | Q1032_6 = 1; todas as unidades |
+| Linha 7 · Morbilidade de internamento | 4.5.2.2.8 | Unidades com bases de dados electrónicas com dados de morbilidade de internamento<br>*Percentage of facilities with electronic databases with inpatient morbidity data* | Q1032_7 = 1; todas as unidades |
+| Linha 8 · Morbilidade de ambulatório | 4.5.2.2.9 | Unidades com bases de dados electrónicas com dados de morbilidade de ambulatório<br>*Percentage of facilities with electronic databases with outpatient morbidity data* | Q1032_8 = 1; todas as unidades |
+| Linha 9 · Mortalidade | 4.5.2.2.10 | Unidades com bases de dados electrónicas com dados de mortalidade<br>*Percentage of facilities with electronic databases with mortality data* | Q1032_9 = 1; todas as unidades |
+| Linha 10 · Dados de laboratório | 4.5.2.2.11 | Unidades com bases de dados electrónicas com dados de laboratório<br>*Percentage of facilities with electronic databases with laboratory data* | Q1032_10 = 1; todas as unidades |
+| Linha 11 · Dados de farmácia | 4.5.2.2.12 | Unidades com bases de dados electrónicas com dados de farmácia<br>*Percentage of facilities with electronic databases with pharmaceutical data* | Q1032_11 = 1; todas as unidades |
+| Linha 12 · Gestão de stock ou inventário | 4.5.2.2.13 | Unidades com bases de dados electrónicas com dados de inventário ou de gestão de stock de qualquer produto<br>*Percentage of facilities with electronic databases with inventory or supply management data for any items* | Q1032_12 = 1; todas as unidades |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -250,36 +301,41 @@ Que tipos de informação estão mantidos em base de dados electrónica nesta un
 
 | N.º | Tipo de informação | 1 · Sim | 2 · Não |
 |---|---|:-:|:-:|
-| 1 | Processos individuais de internamento | ☐ | ☐ |
-| 2 | Processos individuais de ambulatório | ☐ | ☐ |
-| 3 | Registos de doentes em tratamento antirretroviral | ☐ | ☐ |
-| 4 | Registos de doentes com tuberculose | ☐ | ☐ |
-| 5 | Registos de maternidade | ☐ | ☐ |
-| 6 | Outros dados para seguimento de rotina | ☐ | ☐ |
-| 7 | Morbilidade de internamento | ☐ | ☐ |
-| 8 | Morbilidade de ambulatório | ☐ | ☐ |
-| 9 | Mortalidade | ☐ | ☐ |
-| 10 | Dados de laboratório | ☐ | ☐ |
-| 11 | Dados de farmácia | ☐ | ☐ |
-| 12 | Gestão de stock ou inventário | ☐ | ☐ |
+| 1 | Processos individuais de internamento [HHFA 4.5.2.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 2 | Processos individuais de ambulatório [HHFA 4.5.2.2.3]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 3 | Registos de doentes em tratamento antirretroviral [HHFA 4.5.2.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 4 | Registos de doentes com tuberculose [HHFA 4.5.2.2.5]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 5 | Registos de maternidade [HHFA 4.5.2.2.6]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 6 | Outros dados para seguimento de rotina [HHFA 4.5.2.2.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 7 | Morbilidade de internamento [HHFA 4.5.2.2.8]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 8 | Morbilidade de ambulatório [HHFA 4.5.2.2.9]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 9 | Mortalidade [HHFA 4.5.2.2.10]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10 | Dados de laboratório [HHFA 4.5.2.2.11]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11 | Dados de farmácia [HHFA 4.5.2.2.12]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 12 | Gestão de stock ou inventário [HHFA 4.5.2.2.13]{.hhfa .cod-hhfa} | ☐ | ☐ |
 :::
 
 ::: {.nota}
 **A decidir.** É a informação que muda mais depressa em todo o formulário — muda com cada projecto que instala um sistema. Falta decidir se entra já ou se fica para as recolhas com visita. Sem esta grelha, a secção passa de 36 para 24 campos.
 :::
 
-## 6.3.3 Protecção por senha [antigo 13.3.3]{.antigo} [NOVO]{.etiqueta .novo}
+## 6.3.3 Protecção por senha [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Unidades em que todas, ou algumas, das bases de dados estão protegidas por senha — a confidencialidade da informação clínica em suporte electrónico.
 
-::: {.hhfa}
-Indicadores do HHFA: 4.5.2.2.14 (todas) · 4.5.2.2.15 (algumas)
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim, todas) | 4.5.2.2.14 | Unidades com todas as bases de dados electrónicas protegidas por senha<br>*Percentage of facilities with electronic databases with all password-protected* | Q1034 = 1; todas as unidades |
+| Resposta 2 (Sim, algumas) | 4.5.2.2.15 | Unidades com algumas bases de dados electrónicas protegidas por senha<br>*Percentage of facilities with electronic databases with some password-protected* | Q1034 = 2; todas as unidades |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -295,18 +351,24 @@ As bases de dados utilizadas nesta unidade estão protegidas por senha?
 3. Não
 :::
 
-## 6.3.4 Cópias de segurança [antigo 13.3.4]{.antigo} [NOVO]{.etiqueta .novo}
+## 6.3.4 Cópias de segurança [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Frequência das cópias de segurança das bases de dados com informação individual de doentes.
 
-::: {.hhfa}
-Indicadores do HHFA: 4.5.2.2.16 (diária) · 4.5.2.2.17 (semanal) · 4.5.2.2.18 (pelo menos mensal)
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Diariamente) | 4.5.2.2.16 | Unidades com cópia de segurança diária da informação individual de doentes<br>*Percentage of facilities with electronic databases with back-up for individual patient information done daily* | Q1033 = 1; todas as unidades |
+| Resposta 2 (Semanalmente) | 4.5.2.2.17 | Unidades com cópia de segurança semanal da informação individual de doentes<br>*Percentage of facilities with electronic databases with back-up for individual patient information done weekly* | Q1033 = 2; todas as unidades |
+| Respostas 1 a 4 (pelo menos mensalmente) | 4.5.2.2.18 | Unidades com cópia de segurança pelo menos mensal da informação individual de doentes<br>*Percentage of facilities with electronic databases with back-up for individual patient information done at least monthly* | Q1033 = 1 ou Q1033 = 2 ou Q1033 = 3 ou Q1033 = 4; todas as unidades |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -329,18 +391,25 @@ Com que frequência se faz cópia de segurança das bases de dados que contêm i
 **Para que serve.** Onde a energia falha, a falta de cópia de segurança arrisca a perda definitiva de processos clínicos. Lê-se com a bateria de apoio (6.2.5) e com os cortes de energia (5.2.3).
 :::
 
-## 6.3.5 Formato do reporte de rotina [antigo 13.3.5]{.antigo} [NOVO]{.etiqueta .novo}
+## 6.3.5 Formato do reporte de rotina [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Formato em que cada unidade submete os relatórios de dados de rotina ao nível seguinte — o estado da transição para o reporte electrónico.
 
-::: {.hhfa}
-Indicadores do HHFA: 4.5.2.4.2 (só papel) · 4.5.2.4.3 (só electrónico) · 4.5.2.4.4 (ambos)
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Apenas em papel) | 4.5.2.4.2 | Unidades que submetem os relatórios de dados apenas em papel<br>*Percentage of facilities that submit data reports in paper format only* | Q1101 = 1; todas as unidades |
+| Resposta 3 (Apenas em formato electrónico) | 4.5.2.4.3 | Unidades que submetem os relatórios de dados apenas em formato electrónico<br>*Percentage of facilities that submit data reports in electronic format only* | Q1101 = 3; todas as unidades |
+| Resposta 2 (Em papel e em formato electrónico) | 4.5.2.4.4 | Unidades que submetem os relatórios de dados em papel e em formato electrónico<br>*Percentage of facilities that submit data reports in both paper and electronic formats* | Q1101 = 2; todas as unidades |
+| Respostas 1, 2 e 3 (contra 97) | 4.5.2.4.1 | Unidades que submetem relatórios de dados de qualquer tipo ao nível seguinte ou ao exterior<br>*Percentage of facilities that submit data reports of any kind to next reporting level or externally* | Q1100 = 1; todas as unidades. Aqui: 6.3.5 diferente de 97 (no HHFA é uma pergunta à parte, Q1100) |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -364,7 +433,11 @@ Em que formato esta unidade submete os relatórios de dados de rotina ao nível 
 **Para que serve.** Lido com a cobertura de rede (6.1.1) e com a disponibilidade da ligação (6.1.5), distingue a unidade que reporta em papel por falta de meios da que o faz por hábito.
 :::
 
-## 6.3.6 Plataforma de registo e reporte [antigo 13.3.6]{.antigo} [NOVO]{.etiqueta .novo}
+## 6.3.6 Plataforma de registo e reporte [NOVO]{.etiqueta .novo}
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -390,18 +463,22 @@ Que plataforma ou programa informático é utilizado nesta unidade para o regist
 **Para que serve.** Acompanha a transição para o DHIS2. A lista de opções deve ser validada pelo GEPE e pela área de informática do MINSA.
 :::
 
-## 6.4.1 Pessoa designada para a gestão dos dados [antigo 13.4.1]{.antigo} [NOVO]{.etiqueta .novo}
+## 6.4.1 Pessoa designada para a gestão dos dados [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Unidades com uma pessoa designada, a tempo inteiro, para a gestão dos dados e o reporte.
 
-::: {.hhfa}
-Indicador do HHFA: 4.5.2.1.1 (pessoa designada)
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 4.5.2.1.1 | Unidades com uma pessoa designada, a tempo inteiro, para a gestão dos dados e o reporte<br>*Percentage of facilities with designated fulltime staff for managing facility data and reporting* | Q1115 = 1; todas as unidades |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -420,18 +497,22 @@ Existe nesta unidade uma pessoa designada, a tempo inteiro, para a gestão dos d
 **Para que serve.** Lidas ao lado do equipamento e dos sistemas, 6.4.1 e 6.4.2 mostram as unidades que têm meios informáticos mas ninguém designado para os usar.
 :::
 
-## 6.4.2 Pessoal formado no uso dos dados [antigo 13.4.2]{.antigo} [NOVO]{.etiqueta .novo}
+## 6.4.2 Pessoal formado no uso dos dados [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Unidades com profissionais formados na análise e no uso dos dados de rotina.
 
-::: {.hhfa}
-Indicador do HHFA: 4.5.2.1.2 (pessoal formado)
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 4.5.2.1.2 | Unidades com pessoal formado na análise e no uso dos dados de rotina<br>*Percentage of facilities with staff trained on analysis and use of routine facility data* | Q1116 = 1; todas as unidades |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}

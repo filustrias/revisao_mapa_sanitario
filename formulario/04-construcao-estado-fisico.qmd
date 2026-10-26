@@ -24,18 +24,20 @@ Número e área dos edifícios e das residências do pessoal, período de constr
 
 </details>
 
-## 4.1 Número de edifícios da unidade [antigo 4.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 4.1 Número de edifícios da unidade [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Número de edifícios de cada unidade sanitária, agregável por município e por província.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -57,18 +59,20 @@ Quantos edifícios, no total, compõem esta unidade sanitária?
 **Porque mudou.** Mantém-se a regra do Guião — «sem contar as Residências dos Trabalhadores» — e acrescenta-se a regra para dois casos frequentes no terreno: os edifícios de apoio contam, as ruínas não contam. Assim, duas unidades iguais dão o mesmo número.
 :::
 
-## 4.2 Superfície coberta da unidade [antigo 4.2]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 4.2 Superfície coberta da unidade [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Área coberta de cada unidade sanitária, agregável por município e por província. Comparada com o quesito 4.9 — metros quadrados por estado de conservação —, a área coberta permite estimar a área a reabilitar.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -82,18 +86,20 @@ Qual é a superfície total coberta desses edifícios, em metros quadrados?
 - 4 dígitos, **9998** se não souber
 :::
 
-## 4.3 Residências dos trabalhadores [antigo 4.3]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 4.3 Residências dos trabalhadores [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Número de residências para trabalhadores de cada unidade sanitária.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -111,18 +117,20 @@ Quantas residências para trabalhadores existem no recinto desta unidade ou sob 
 **Porque mudou.** Acrescenta-se «ou sob a sua responsabilidade», porque há unidades com residências fora do recinto que são, para todos os efeitos, suas. É informação com peso directo na retenção de pessoal em zonas rurais.
 :::
 
-## 4.4 Superfície coberta das residências [antigo 4.4]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 4.4 Superfície coberta das residências [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Área coberta das residências para trabalhadores de cada unidade sanitária, na mesma medida usada para os edifícios da unidade em 4.2.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -140,18 +148,20 @@ Qual é a superfície total coberta dessas residências, em metros quadrados?
 **A mesma medida nos dois quesitos.** A Ficha pede a «superfície» dos edifícios da unidade em 4.2 e a «superfície útil» das residências em 4.4, que são medidas diferentes — área coberta e área interior utilizável. A proposta usa a área coberta nos dois, dita na própria pergunta, para que 4.2 e 4.4 sejam comparáveis entre si e com a soma dos metros quadrados de 4.9. *Decisão aprovada a 15/10.*
 :::
 
-## 4.5 Ano de construção [antigo 4.5]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 4.5 Ano de construção [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Ano de construção do edifício principal de cada unidade sanitária. Quando o ano não é conhecido, o período de 4.6 classifica o caso.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -173,18 +183,20 @@ Em que ano foi concluída a construção do edifício principal desta unidade?
 No ano (4.5) acrescenta-se a instrução sobre reconstrução, que decide o caso dos edifícios coloniais reabilitados, e o código 9998, porque o campo é «não obrigatório» e fica em branco com frequência — e um branco não se distingue de um desconhecimento.
 :::
 
-## 4.6 Período de construção [antigo 4.6]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+## 4.6 Período de construção [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Distribuição das unidades sanitárias por período de construção do edifício principal, comparável com as quatro edições anteriores do Mapa Sanitário.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -214,18 +226,20 @@ Em que período foi construído o edifício principal?
 As cinco categorias do período (4.6) mantêm-se sem alteração: correspondem a ciclos reconhecíveis da história e do investimento público angolanos, e mudá-las quebraria a série das quatro edições. Acrescenta-se apenas o código 98.
 :::
 
-## 4.7 Material de construção [antigo 4.7]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 4.7 Material de construção [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Distribuição das unidades sanitárias pelo material predominante das paredes exteriores do edifício principal — informação de base para estimar custos de reabilitação.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -255,18 +269,20 @@ Qual é o material predominante das paredes exteriores do edifício principal?
 **Porque mudou.** A opção «tijolo – bloco» desdobra-se em duas, porque são materiais com durabilidade, comportamento térmico e custo de reabilitação diferentes. As cinco categorias passam a seis, e a conversão para a série histórica é directa: as novas 3 e 4 juntam-se na antiga 3. A instrução de predominância resolve o caso do edifício com paredes de materiais diferentes. *Decisão aprovada a 15/10.*
 :::
 
-## 4.8 Estado físico do edifício principal [antigo 5.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 4.8 Estado físico do edifício principal [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Distribuição das unidades sanitárias pelo estado físico do edifício principal, em quatro categorias — de «bom estado» a «construção ou reconstrução» —, agregável por município e por província e comparável com as edições anteriores do Mapa Sanitário, porque as categorias se mantêm.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -291,18 +307,22 @@ Considerando a fundação, a estrutura, o pavimento, as paredes, a cobertura, o 
 As quatro categorias mantêm-se com a redacção da Ficha. O que muda é o enunciado, que nomeia os sete elementos a considerar, para que todos os inquiridores apliquem os critérios do Guião aos mesmos elementos.
 :::
 
-## 4.8.1 a 4.8.7 Estado por elemento construtivo [antigo 5.1.1 a 5.1.7]{.antigo} [NOVO]{.etiqueta .novo}
+## 4.8.1 a 4.8.7 Estado por elemento construtivo [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 O estado de cada um dos sete elementos construtivos do edifício principal. Em vez de saber apenas que uma unidade precisa de reabilitação, passa a saber-se o que precisa de obra — o que permite orçamentar por tipo de intervenção e agrupar obras do mesmo tipo, por exemplo todas as coberturas de um município.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 1.1.4.31.1 — Unidades sem defeito grave na cobertura do edifício (*Percentage of facilities with no serious defect in the building roof*) — observa só a cobertura e mede apenas «sem defeito grave» (Q5900 = 1 e Q5901B = 1 ou 2), não os quatro graus de estado deste quesito; o resto do bloco 1.1.4 do HHFA (196 indicadores) avalia defeitos sala a sala — um exercício diferente e muito mais pesado, que não é comparável e não foi adoptado.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -328,21 +348,23 @@ Para cada elemento construtivo do edifício principal, indique o estado, aplican
 ::: {.nota}
 **O que acontece com estas respostas.** Sete caixas que transformam o juízo de 4.8 em dado. A caixa de 4.8 continua a ser respondida, e passa a poder ser confrontada com os sete elementos que a definem. Mais importante para o planeamento: **uma unidade classificada globalmente como «reabilitação ligeira» pode ter a cobertura a precisar de reconstrução** — e é essa a informação que decide uma ordem de trabalhos, não a classificação global.
 
-**Nota de fronteira.** O instrumento internacional faz um exercício diferente e muito mais pesado — defeitos sala a sala, com 196 indicadores. Não é comparável e não foi adoptado.
+**Nota de fronteira.** Um levantamento de defeitos sala a sala seria um exercício diferente e muito mais pesado. Não é comparável e não foi adoptado.
 :::
 
-## 4.9 Superfície por estado [antigo 5.2]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 4.9 Superfície por estado [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Área coberta, em metros quadrados, em cada estado de conservação. É o dado que o Guião pede «para calcular os custos da reabilitação/manutenção necessários», agora em números que se podem somar por unidade, por município e para toda a rede. A soma das quatro parcelas deve ser igual à área coberta registada em 4.2.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}

@@ -11,27 +11,31 @@ Localização administrativa, designação e endereço da unidade sanitária, a 
 
 | Quesito | O que se obtém |
 |---|---|
-| 2.1 a 2.5 | Identificação da unidade e estratificação por província, município, comuna e bairro |
-| 2.6 | Endereço completo, para localizar a unidade no terreno |
+| 2.1 a 2.5 | Identificação da unidade e estratificação por província, município, comuna e bairro [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 2.6 | Endereço completo, para localizar a unidade no terreno [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 2.7 | Estratificação de todos os indicadores por categoria da unidade; definição das unidades de cuidados primários [(1 indicador do HHFA)]{.hhfa} |
-| 2.8 e 2.9 | Localização exacta da unidade, base das densidades e do acesso geográfico [(7 indicadores do HHFA)]{.hhfa} |
-| 2.10 | Qualidade de cada leitura de coordenadas |
-| 2.11 | Desagregação de todos os indicadores por zona urbana, rural e periurbana |
+| 2.8 e 2.9 | Localização exacta da unidade, base das densidades e do acesso geográfico [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 2.10 | Qualidade de cada leitura de coordenadas [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 2.11 | Desagregação de todos os indicadores por zona urbana, rural e periurbana [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
-## 2.1 a 2.5 Localização administrativa e nome da unidade [antigo 1.1 a 1.5]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+## 2.1 a 2.5 Localização administrativa e nome da unidade [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Identificação de cada unidade sanitária e a sua localização administrativa. Permite ler todos os indicadores por província, município, comuna e bairro, e o nome com o código do Mapa Sanitário é a chave de ligação a qualquer outra base de dados do sector.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · identificador e estratificador da análise
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Uso na análise: identificador da unidade e estratificador por província, município, comuna e bairro.
+:::
 
 ::: {.enunciado .rotulado}
 [Campo · preenchido pelo inquiridor]{.rotulo}
@@ -49,18 +53,22 @@ Indicador do HHFA: nenhum · identificador e estratificador da análise
 **O que muda.** Os campos mantêm-se. Com a lista prévia carregada no sistema, deixam de ser escritos de novo em cada ronda: confirmam-se e corrigem-se. As unidades encontradas no terreno que não constam da lista entram como unidades novas.
 :::
 
-## 2.6 Endereço completo [antigo 1.5.1]{.antigo} [NOVO]{.etiqueta .novo}
+## 2.6 Endereço completo [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Endereço de cada unidade sanitária, para a localizar no terreno e para a comunicação com a unidade.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · identificador da unidade
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Uso na análise: identificador da unidade.
+:::
 
 ::: {.enunciado .rotulado}
 [Confirmar com o respondente]{.rotulo}
@@ -78,18 +86,24 @@ Endereço completo da unidade sanitária: rua ou avenida, número, bairro e um p
 - Texto
 :::
 
-## 2.7 Categoria da unidade [antigo 1.6]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+## 2.7 Categoria da unidade [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Permite ler todos os indicadores por nível de cuidados. O HHFA pede que a sua lista genérica de tipos de unidade seja substituída pela lista nacional, que em Angola é esta. É também a categoria que decide que unidades contam como de cuidados primários no indicador «Número de unidades de cuidados primários por 10 000 habitantes».
-
-::: {.hhfa}
-Indicador do HHFA: 1.1.1.1.2 · e estratificador principal da análise
-:::
+Permite ler todos os indicadores por nível de cuidados. É também a categoria que decide que unidades contam como de cuidados primários no indicador «Número de unidades de cuidados primários por 10 000 habitantes».
 
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Categorias de cuidados primários da lista do Mapa Sanitário | 1.1.1.1.2 | Número de unidades de cuidados primários por 10 000 habitantes<br>*Number of primary care facilities per 10,000 population* | Q115 = 6, 7, 8, 9 ou 10 (tipos de cuidados primários; o catálogo pede que a lista de tipos se adapte aos tipos nacionais); somado por área ÷ população da área geográfica (3.1) |
+
+Uso na análise: estratificador principal de todos os indicadores.
+:::
 
 ::: {.enunciado .rotulado}
 [Confirmar com o respondente]{.rotulo}
@@ -105,32 +119,22 @@ Categoria da unidade, segundo a classificação do Mapa Sanitário.
 É o estratificador principal de toda a análise: é por esta caixa que todos os indicadores se leem por tipo de unidade. Mantém-se exactamente como está. A categoria não decide nenhum salto do formulário.
 :::
 
-## 2.8 e 2.9 Coordenadas [antigo 1.7 e 1.8]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 2.8 e 2.9 Coordenadas [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Localização exacta de cada unidade sanitária, base para calcular distâncias e o acesso geográfico. Os indicadores de densidade do HHFA contam unidades e camas por habitante numa área geográfica; com a coordenada, cada unidade é atribuída à área certa e as densidades podem calcular-se para qualquer recorte do território, sempre com a população do quesito 3.1.
-
-<div class="hhfa">
-<details><summary>Ver os 7 indicadores</summary>
-
-- 1.1.1.1.1 — Número de unidades sanitárias por 10 000 habitantes
-- 1.1.1.1.2 — Número de unidades de cuidados primários por 10 000 habitantes
-- 1.1.1.1.3 — Número de camas de internamento por 10 000 habitantes
-- 1.1.1.1.4 — Número de camas de maternidade por 1 000 grávidas
-- 1.4.1.1.1 — Índice de densidade de unidades sanitárias
-- 1.4.1.1.2 — Índice de densidade de camas de internamento
-- 1.4.1.1.3 — Índice de densidade de camas de maternidade
+Localização exacta de cada unidade sanitária, base para calcular distâncias e o acesso geográfico. Os indicadores de densidade contam unidades e camas por habitante numa área geográfica; com a coordenada, cada unidade é atribuída à área certa e as densidades podem calcular-se para qualquer recorte do território, sempre com a população do quesito 3.1.
 
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 1.1.1.1.1 a 1.1.1.1.4 · 1.4.1.1.1 a 1.4.1.1.3
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 1.1.1.1.1 — Número de unidades sanitárias por 10 000 habitantes (*Number of health facilities per 10,000 population*) — as densidades do HHFA somam as unidades da área geográfica e dividem pela população dessa área (ver 3.1); a coordenada não entra no cálculo do catálogo — serve para atribuir a unidade à área e para recortes geográficos próprios do Mapa Sanitário.
 :::
-
-</details>
 
 ::: {.enunciado .rotulado}
 [Campo · registado pelo sistema digital]{.rotulo}
@@ -146,18 +150,22 @@ Indicadores do HHFA: 1.1.1.1.1 a 1.1.1.1.4 · 1.4.1.1.1 a 1.4.1.1.3
 **Porque mudou.** As duas caixas mantêm-se. Ao formato que o Guião fixa — «em graus decimais» — acrescenta-se um protocolo de leitura: o local onde se faz a leitura e o tempo de estabilização do aparelho. Sem protocolo, a mesma unidade pode ficar a 200 metros de si mesma entre duas rondas, e os cálculos de distância e de acesso geográfico deixam de ser comparáveis.
 :::
 
-## 2.10 Precisão da leitura [antigo 1.8.1]{.antigo} [NOVO]{.etiqueta .novo}
+## 2.10 Precisão da leitura [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Precisão de cada leitura de coordenadas. Permite excluir da análise as leituras de má qualidade, em vez de as usar sem saber.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · qualifica a leitura de 2.8 e 2.9
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Uso na análise: qualifica a leitura de 2.8 e 2.9.
+:::
 
 ::: {.enunciado .rotulado}
 [Campo · registado pelo sistema digital]{.rotulo}
@@ -175,18 +183,22 @@ Precisão da leitura de coordenadas indicada pelo aparelho, em metros.
 Uma caixa que qualifica a leitura anterior. Uma coordenada com precisão de 4 metros e uma com precisão de 300 metros não servem para o mesmo, e esta caixa permite distingui-las no ficheiro.
 :::
 
-## 2.11 Zona urbana, rural ou periurbana [antigo 1.9]{.antigo} [NOVO]{.etiqueta .novo}
+## 2.11 Zona urbana, rural ou periurbana [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Classificação de cada unidade em zona urbana, rural ou periurbana. Permite desagregar por estas três zonas todos os indicadores do formulário.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · estratificador da análise
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Uso na análise: estratificador urbano, rural e periurbano de todos os indicadores.
+:::
 
 ::: {.enunciado .rotulado}
 [Campo · preenchido pelo inquiridor]{.rotulo}

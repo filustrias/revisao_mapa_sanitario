@@ -12,16 +12,16 @@ Testes rápidos, exames de laboratório e de imagem, procedimentos e tecnologias
 | Quesito | O que se obtém |
 |---|---|
 | 11.C.0 | Testes rápidos realizados no momento da consulta, em todas as unidades [(7 indicadores do HHFA)]{.hhfa} |
-| 11.1 | Porta geral do laboratório (abre os 33 indicadores do laboratório) |
+| 11.1 | Porta geral do laboratório (abre os quatro blocos de exames) [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 11.C.I | Exames de hematologia: realizados, enviados para fora ou não obtidos [(5 indicadores do HHFA)]{.hhfa} |
-| 11.C.II | Exames de bioquímica [(10 indicadores do HHFA)]{.hhfa} |
+| 11.C.II | Exames de bioquímica [(11 indicadores do HHFA)]{.hhfa} |
 | 11.C.III | Grupo sanguíneo e serologias, incluindo carga viral do VIH e CD4 [(8 indicadores do HHFA)]{.hhfa} |
 | 11.C.IV | Microbiologia, parasitologia e outros [(10 indicadores do HHFA)]{.hhfa} |
 | 11.C.V | Destino habitual das amostras enviadas para fora [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 11.A.0 | Porta da imagiologia: algum exame de imagem realizado ou obtido por encaminhamento (abre os 8 indicadores da imagiologia) |
-| 11.A | Exames de imagem realizados ou obtidos por encaminhamento [(8 indicadores do HHFA)]{.hhfa} |
-| 11.B | Procedimentos e tecnologias realizados na unidade [(11 indicadores do HHFA)]{.hhfa} |
-| 11.D | Outros serviços de apoio em funcionamento [(2 indicadores do HHFA)]{.hhfa} |
+| 11.A.0 | Porta da imagiologia: algum exame de imagem realizado ou obtido por encaminhamento (abre a grelha de 11.A) [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 11.A | Exames de imagem realizados ou obtidos por encaminhamento [(14 indicadores do HHFA)]{.hhfa} |
+| 11.B | Procedimentos e tecnologias realizados na unidade [(14 indicadores do HHFA)]{.hhfa} |
+| 11.D | Outros serviços de apoio em funcionamento [(4 indicadores do HHFA)]{.hhfa} |
 | 11.D.5 | Número de blocos operatórios em condições de utilização [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 11.E.1 | Atendimento de urgência, com ou sem banco de urgência próprio [(2 indicadores do HHFA)]{.hhfa} |
 | 11.E.2.1 e 11.E.2.2 | Banco de urgência com espaço próprio e horas de funcionamento [(2 indicadores do HHFA)]{.hhfa} |
@@ -31,36 +31,35 @@ Testes rápidos, exames de laboratório e de imagem, procedimentos e tecnologias
 | 11.E.6 | Acesso rápido a transporte para transferência [(1 indicador do HHFA)]{.hhfa} |
 | 11.E.7 | Acompanhamento clínico na transferência [(1 indicador do HHFA)]{.hhfa} |
 | 11.E.8 | Horas de farmácia, imagem e laboratório para a urgência [(3 indicadores do HHFA)]{.hhfa} |
-| 11.10 e 11.14 | Existência de farmácia e de esterilização (parqueados) |
+| 11.10 e 11.14 | Existência de farmácia e de esterilização (parqueados) [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
-## 11.C.0 · Testes rápidos de diagnóstico [antigo 7.2.C.0]{.antigo} [NOVO]{.etiqueta .novo}
+## 11.C.0 · Testes rápidos de diagnóstico [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que realizam, no momento da consulta, cada um dos testes rápidos da lista. Sete das onze linhas geram indicador do HHFA; o autoteste do VIH, os testes rápidos de hepatite B e C e a glicemia capilar são medida própria do Mapa. Como o bloco não tem porta, é por aqui que um posto de saúde entra nos indicadores de diagnóstico.
-
-<div class="hhfa">
-<details><summary>Ver os 7 indicadores</summary>
-
-- 1.3.3.3.3 — Capacidade de diagnóstico de malária (linha 8; cumpre-se também pela gota espessa, em 11.C.IV)
-- 1.3.3.3.4 — Teste rápido de sífilis (linha 3)
-- 1.3.3.3.5 — Testagem diagnóstica do VIH (linha 1)
-- 1.3.3.3.7 — Teste de gravidez na urina (linha 6)
-- 1.3.3.3.8 — Fita reagente de urina: proteínas (linha 9)
-- 1.3.3.3.9 — Fita reagente de urina: glicose (linha 10)
-- 1.3.3.3.10 — Fita reagente de urina: corpos cetónicos (linha 11)
+Percentagem de unidades sanitárias que realizam, no momento da consulta, cada um dos testes rápidos da lista. Como o bloco não tem porta, é por aqui que um posto de saúde entra nos indicadores de diagnóstico.
 
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 1.3.3.3.3 a 1.3.3.3.5 e 1.3.3.3.7 a 1.3.3.3.10
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 1 · Teste rápido de diagnóstico do VIH | 1.3.3.3.5 | Unidades que oferecem testagem diagnóstica do VIH<br>*Percentage of facilities offering HIV diagnostic testing* | Q205_2 = 1 ou Q212_2 = 1; todas as unidades. Resposta 1 (Sim). Q205_2 é a oferta de testagem do VIH, que este formulário recolhe na secção 14 |
+| Linha 2 · Autoteste do VIH | — (medida própria) | — | Sem item correspondente no catálogo |
+| Linha 3 · Teste rápido de sífilis | 1.3.3.3.4 | Unidades que oferecem teste rápido de sífilis<br>*Percentage of facilities offering syphilis RDT test* | Q212_3 = 1; todas as unidades. Resposta 1 |
+| Linhas 4 e 5 · Testes rápidos de hepatite B e C | — (medida própria) | — | Os mais próximos, 3.7.1.2.10 e 3.7.1.2.11 (Q2911_9 = 1, Q2911_10 = 1), contam-se só entre as unidades com serviço de laboratório (Q2900 = 1) e não são o mesmo item |
+| Linha 6 · Teste rápido de gravidez na urina | 1.3.3.3.7 | Unidades que oferecem teste de gravidez na urina<br>*Percentage of facilities offering urine pregnancy test* | Q212_4 = 1; todas as unidades. Resposta 1 |
+| Linha 7 · Glicemia capilar | — (medida própria) | — | O indicador de glicemia (1.3.3.3.14, Q214_6) conta-se em 11.C.II, linha 4 |
+| Linha 8 · Teste rápido de diagnóstico de malária (TDR) | 1.3.3.3.3 | Unidades com capacidade de diagnóstico da malária<br>*Percentage of facilities offering malaria diagnostic capacity* | Q212_1 = 1 ou Q214_26 = 1; todas as unidades. Cumpre-se pela linha 8 (resposta 1) ou pela gota espessa (11.C.IV, linha 5, opção 1) |
+| Linha 9 · Fita reagente de urina — proteínas | 1.3.3.3.8 | Unidades que oferecem fita reagente de urina — proteínas<br>*Percentage of facilities offering urine dipstick-protein* | Q212_5 = 1; todas as unidades. Resposta 1 |
+| Linha 10 · Fita reagente de urina — glicose | 1.3.3.3.9 | Unidades que oferecem fita reagente de urina — glicose<br>*Percentage of facilities offering urine dipstick-glucose test* | Q212_6 = 1; todas as unidades. Resposta 1 |
+| Linha 11 · Fita reagente de urina — corpos cetónicos | 1.3.3.3.10 | Unidades que oferecem fita reagente de urina — corpos cetónicos<br>*Percentage of facilities offering urine dipstick- ketone test* | Q212_7 = 1; todas as unidades. Resposta 1 |
 :::
-
-</details>
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -77,7 +76,7 @@ Considere a situação habitual dos últimos 3 meses, e não uma falha pontual d
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Teste rápido de diagnóstico do VIH · 2 Autoteste do VIH · 3 Teste rápido de sífilis · 4 Teste rápido de hepatite B (HBsAg) · 5 Teste rápido de hepatite C (anti-HCV) · 6 Teste rápido de gravidez na urina · 7 Glicemia capilar · 8 Teste rápido de diagnóstico de malária (TDR) · 9 Fita reagente de urina — proteínas · 10 Fita reagente de urina — glicose · 11 Fita reagente de urina — corpos cetónicos
+1 Teste rápido de diagnóstico do VIH [HHFA 1.3.3.3.5]{.hhfa .cod-hhfa} · 2 Autoteste do VIH · 3 Teste rápido de sífilis [HHFA 1.3.3.3.4]{.hhfa .cod-hhfa} · 4 Teste rápido de hepatite B (HBsAg) · 5 Teste rápido de hepatite C (anti-HCV) · 6 Teste rápido de gravidez na urina [HHFA 1.3.3.3.7]{.hhfa .cod-hhfa} · 7 Glicemia capilar · 8 Teste rápido de diagnóstico de malária (TDR) [HHFA 1.3.3.3.3]{.hhfa .cod-hhfa} · 9 Fita reagente de urina — proteínas [HHFA 1.3.3.3.8]{.hhfa .cod-hhfa} · 10 Fita reagente de urina — glicose [HHFA 1.3.3.3.9]{.hhfa .cod-hhfa} · 11 Fita reagente de urina — corpos cetónicos [HHFA 1.3.3.3.10]{.hhfa .cod-hhfa}
 :::
 
 ::: {.respostas .rotulado}
@@ -92,18 +91,20 @@ Para cada linha: 1 Sim, realizado nesta unidade sanitária · 2 Não
 **A escala é de sim ou não, e não de três níveis**, por uma razão de desenho: a opção «amostra enviada para fora» é impossível num teste de ponto de atendimento, que por definição é feito ali.
 :::
 
-## 11.1 · Porta geral do laboratório [antigo 7.2.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 11.1 · Porta geral do laboratório [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que realizam exames de laboratório, recolhem amostras para análise noutro local ou encaminham doentes para exames noutra unidade. É uma porta: não gera indicador por si, mas dá acesso aos quatro blocos de exames, que alimentam 33 indicadores do HHFA. Torna também verificável, item a item, o mínimo que o Guião exige para marcar «Laboratório».
-
-::: {.hhfa}
-Indicador do HHFA: nenhum directo · porta dos 33 indicadores dos blocos 11.C.I a 11.C.IV
-:::
+Percentagem de unidades sanitárias que realizam exames de laboratório, recolhem amostras para análise noutro local ou encaminham doentes para exames noutra unidade. É uma porta: não gera indicador por si, mas dá acesso aos quatro blocos de exames. Torna também verificável, item a item, o mínimo que o Guião exige para marcar «Laboratório».
 
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+É porta: os indicadores do laboratório estão nas caixas de 11.C.I a 11.C.IV.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -123,23 +124,23 @@ Para além dos testes rápidos que acabei de perguntar, esta unidade sanitária 
 :::
 
 ::: {.nota}
-**É a porta de 33 indicadores.** Segue a regra transversal de que a porta é a actividade e não o órgão: se fosse «tem laboratório», a unidade que não faz exames mas encaminha doentes ficaria de fora — e é precisamente dela que queremos saber. A caixa do laboratório como **serviço** mantém-se, em paralelo, na lista dos serviços de apoio.
+**É a porta dos quatro blocos de exames.** Segue a regra transversal de que a porta é a actividade e não o órgão: se fosse «tem laboratório», a unidade que não faz exames mas encaminha doentes ficaria de fora — e é precisamente dela que queremos saber. A caixa do laboratório como **serviço** mantém-se, em paralelo, na lista dos serviços de apoio.
 
 **A definição do Guião deixa de ser um critério implícito de marcação e passa a ser verificável item a item.** O Guião exige, para marcar «Laboratório», no mínimo gota espessa, hemoglobina ou hematócrito e análises simples de fezes e urina (folha 15): a gota espessa está em 11.C.IV, a hemoglobina em 11.C.I, e as análises de fezes e urina em 11.C.IV.
 :::
 
-## 11.C.I a 11.C.IV · Os quatro blocos de exames [antigo 7.2.C.I a 7.2.C.IV]{.antigo} [NOVO]{.etiqueta .novo}
+## 11.C.I a 11.C.IV · Os quatro blocos de exames [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Para cada exame, se a unidade o realiza, se recolhe a amostra e a envia para fora com retorno do resultado, ou se o exame não é obtido por nenhuma via. Os indicadores do HHFA contam apenas a opção 1 — realizado nesta unidade —; a opção 2 é medida própria do Mapa e mostra o acesso garantido por envio de amostra. Os quatro blocos alimentam 33 indicadores; a lista de cada bloco está na caixa respectiva.
-
-::: {.hhfa}
-Indicadores do HHFA: 33 — 11 da tabela 1.3.3.3, a tabela 3.7.1.1 completa (20), 3.2.5.2.3 e 3.2.5.2.4
-:::
+Para cada exame, se a unidade o realiza, se recolhe a amostra e a envia para fora com retorno do resultado, ou se o exame não é obtido por nenhuma via. Os indicadores contam, em regra, apenas a opção 1 — realizado nesta unidade —; a opção 2 é medida própria do Mapa e mostra o acesso garantido por envio de amostra. A lista de cada bloco está na caixa respectiva.
 
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** os indicadores são gerados linha a linha e estão na caixa de cada bloco — 11.C.I (5), 11.C.II (11), 11.C.III (8) e 11.C.IV (10): 34 códigos distintos. Contam a opção 1 (realizado nesta unidade), com uma excepção: o 3.3.2.3.3 (HbA1c, 11.C.II) conta também a opção 2. A opção 3 e o resto da opção 2 são medida própria do Mapa Sanitário.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -174,28 +175,27 @@ Para cada linha:
 
 Cinco indicadores: hemoglobina ou hematócrito, hemograma completo, contagem de leucócitos, contagem de plaquetas e velocidade de hemossedimentação. O TAP/INR, o TTPa, a electroforese de hemoglobina e a pesquisa de hemoglobina S são medida própria do Mapa.
 
-<div class="hhfa">
-<details><summary>Ver os 5 indicadores</summary>
-
-- 1.3.3.3.11 — Hemoglobina ou hematócrito
-- 1.3.3.3.12 — Hemograma completo
-- 3.7.1.1.1 — Exame realizado no local: contagem de leucócitos
-- 3.7.1.1.2 — Exame realizado no local: contagem de plaquetas
-- 3.7.1.1.3 — Exame realizado no local: velocidade de hemossedimentação
-
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 1.3.3.3.11, 1.3.3.3.12 e 3.7.1.1.1 a 3.7.1.1.3
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 0 · Porta de grupo | — (medida própria) | — | Porta; não gera indicador por si |
+| Linha 1 · Hematócrito ou dosagem de hemoglobina | 1.3.3.3.11 | Unidades que oferecem dosagem de hemoglobina ou hematócrito<br>*Percentage of facilities offering haemoglobin test or haematocrit* | Q214_1 = 1; todas as unidades. Opção 1 |
+| Linha 2 · Contagem de leucócitos | 3.7.1.1.1 | Unidades que realizam no local: contagem de leucócitos<br>*Percentage of facilities offering diagnostic test onsite: white cell count* | Q2915_3 = 1; todas as unidades. Opção 1 |
+| Linha 3 · Contagem de plaquetas | 3.7.1.1.2 | Unidades que realizam no local: contagem de plaquetas<br>*Percentage of facilities offering diagnostic test onsite: platelet count* | Q2915_4 = 1; todas as unidades. Opção 1 |
+| Linha 4 · Hemograma completo | 1.3.3.3.12 | Unidades que oferecem hemograma completo<br>*Percentage of facilities offering full blood count* | Q214_2 = 1; todas as unidades. Opção 1 |
+| Linha 5 · Velocidade de hemossedimentação | 3.7.1.1.3 | Unidades que realizam no local: velocidade de hemossedimentação (VHS)<br>*Percentage of facilities offering diagnostic test onsite: erythrocyte sedimentation rate (ESR)* | Q2915_6 = 1; todas as unidades. Opção 1 |
+| Linhas 6 e 7 · TAP/INR e TTPa | — (medida própria) | — | O mais próximo, 3.3.1.3.3 (perfil de coagulação entre as unidades com serviços cardiovasculares), exige também Q2917_14A = 1 e Q2917_14B = 1, sem correspondência neste formulário |
+| Linhas 8 e 9 · Electroforese de hemoglobina e pesquisa de hemoglobina S | — (medida própria) | — | Sem item correspondente no catálogo |
 :::
-
-</details>
 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-**11.C.I.0 Porta de grupo:** qualquer exame de glóbulos brancos e vermelhos · 1 Hematócrito ou dosagem de hemoglobina · 2 Contagem de leucócitos · 3 Contagem de plaquetas · 4 Hemograma completo · 5 Velocidade de hemossedimentação (VHS) · 6 Tempo de protrombina (TAP/INR) · 7 Tempo de tromboplastina parcial activada (TTPa) · 8 Electroforese de hemoglobina · 9 Pesquisa de hemoglobina S
+**11.C.I.0 Porta de grupo:** qualquer exame de glóbulos brancos e vermelhos · 1 Hematócrito ou dosagem de hemoglobina [HHFA 1.3.3.3.11]{.hhfa .cod-hhfa} · 2 Contagem de leucócitos [HHFA 3.7.1.1.1]{.hhfa .cod-hhfa} · 3 Contagem de plaquetas [HHFA 3.7.1.1.2]{.hhfa .cod-hhfa} · 4 Hemograma completo [HHFA 1.3.3.3.12]{.hhfa .cod-hhfa} · 5 Velocidade de hemossedimentação (VHS) [HHFA 3.7.1.1.3]{.hhfa .cod-hhfa} · 6 Tempo de protrombina (TAP/INR) · 7 Tempo de tromboplastina parcial activada (TTPa) · 8 Electroforese de hemoglobina · 9 Pesquisa de hemoglobina S
 :::
 
 ::: {.instrucao .rotulado}
@@ -211,35 +211,35 @@ A porta de grupo é a do próprio instrumento internacional e salta os sete iten
 <details class="medir">
 <summary>O que este bloco permite medir</summary>
 
-Dez indicadores directos: glicemia, ionograma, função renal (por creatinina ou ureia), função hepática (por transaminases ou bilirrubinas) e seis exames da tabela de prontidão — creatinina, ureia, colesterol total, perfil lipídico, amilase ou lipase e TSH. Os restantes exames do bloco são medida própria do Mapa. A HbA1c serve ainda o 3.3.2.3.3 — unidades com serviços de diabetes que dispõem de HbA1c —, quando cruzada com a oferta de serviços de diabetes de 10.B; não entra nas contagens desta secção.
-
-<div class="hhfa">
-<details><summary>Ver os 10 indicadores</summary>
-
-- 1.3.3.3.14 — Glicemia
-- 1.3.3.3.15 — Electrólitos séricos (ionograma)
-- 1.3.3.3.16 — Provas de função renal
-- 1.3.3.3.17 — Provas de função hepática
-- 3.7.1.1.4 — Exame realizado no local: creatinina sérica
-- 3.7.1.1.5 — Exame realizado no local: ureia
-- 3.7.1.1.6 — Exame realizado no local: colesterol total
-- 3.7.1.1.7 — Exame realizado no local: perfil lipídico
-- 3.7.1.1.8 — Exame realizado no local: amilase ou lipase
-- 3.7.1.1.9 — Exame realizado no local: hormona estimulante da tiróide (TSH)
+Dez indicadores directos: glicemia, ionograma, função renal (por creatinina ou ureia), função hepática (por transaminases ou bilirrubinas) e seis exames da tabela de prontidão — creatinina, ureia, colesterol total, perfil lipídico, amilase ou lipase e TSH. A HbA1c dá ainda um indicador — unidades com serviços de diabetes que dispõem de HbA1c —, quando cruzada com a oferta de serviços de diabetes de 10.B. Os restantes exames do bloco são medida própria do Mapa.
 
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 1.3.3.3.14 a 1.3.3.3.17 e 3.7.1.1.4 a 3.7.1.1.9
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 0 · Porta de grupo | — (medida própria) | — | Porta; não gera indicador por si |
+| Linha 1 · Ionograma | 1.3.3.3.15 | Unidades que oferecem ionograma (electrólitos séricos)<br>*Percentage of facilities offering serum electrolyte tests* | Q214_5 = 1; todas as unidades. Opção 1 |
+| Linha 4 · Glicose | 1.3.3.3.14 | Unidades que oferecem glicemia<br>*Percentage of facilities offering blood glucose test* | Q214_6 = 1; todas as unidades. Opção 1 |
+| Linha 6 · Hemoglobina glicada (HbA1c) | 3.3.2.3.3 | Unidades com serviços de diabetes que dispõem de HbA1c<br>*Percentage of facilities offering diabetes services with HbA1C test* | Q2911_15 = 1 ou (Q2915_21 = 1 e Q2917_25A = 1 e Q2917_25B = 1) ou Q2915_21 = 2; entre as unidades que oferecem serviços de diabetes (Q1505 = 1; ver 10.B). Aproximado: a opção 2 conta sozinha; a opção 1 exige também Q2917_25A e Q2917_25B, sem correspondência neste formulário |
+| Linhas 7 e 8 · Creatinina ou ureia | 1.3.3.3.16 | Unidades que oferecem provas de função renal<br>*Percentage of facilities offering renal function tests* | Q214_8 = 1; todas as unidades. Opção 1 em qualquer das duas linhas |
+| Linha 7 · Creatinina | 3.7.1.1.4 | Unidades que realizam no local: creatinina sérica<br>*Percentage of facilities offering diagnostic test onsite: serum creatinine* | Q2915_12 = 1; todas as unidades. Opção 1 |
+| Linha 8 · Ureia | 3.7.1.1.5 | Unidades que realizam no local: ureia<br>*Percentage of facilities offering diagnostic test onsite: blood urea creatinine* | Q2915_13 = 1; todas as unidades. Opção 1 |
+| Linhas 12 e 13 · Bilirrubinas ou transaminases | 1.3.3.3.17 | Unidades que oferecem provas de função hepática<br>*Percentage of facilities offering liver function tests* | Q214_9 = 1; todas as unidades. Opção 1 em qualquer das duas linhas |
+| Linha 15 · Colesterol total | 3.7.1.1.6 | Unidades que realizam no local: colesterol total<br>*Percentage of facilities offering diagnostic test onsite: total cholesterol* | Q2915_17 = 1; todas as unidades. Opção 1 |
+| Linha 16 · Perfil lipídico | 3.7.1.1.7 | Unidades que realizam no local: perfil lipídico<br>*Percentage of facilities offering diagnostic test onsite: lipid profile* | Q2915_18 = 1; todas as unidades. Opção 1 |
+| Linha 17 · Amilase ou lipase | 3.7.1.1.8 | Unidades que realizam no local: amilase ou lipase<br>*Percentage of facilities offering diagnostic test onsite: amylase or lipase* | Q2915_19 = 1; todas as unidades. Opção 1 |
+| Linha 23 · TSH e T4 livre | 3.7.1.1.9 | Unidades que realizam no local: hormona estimulante da tiróide (TSH)<br>*Percentage of facilities offering diagnostic test onsite: thyroid stimulating hormone (TSH)* | Q2915_23 = 1; todas as unidades. Opção 1 |
+| Linhas 2, 3, 5, 9 a 11, 14 e 20 a 22 | — (medida própria) | — | Sem item correspondente no catálogo |
+| Linhas 18 e 19 · Gases no sangue; CK ou troponina | — (medida própria) | — | Os mais próximos, 3.3.2.3.2, 3.3.3.2.5 e 3.3.1.3.2, contam-se entre as unidades com serviços de diabetes, de doença respiratória crónica ou cardiovasculares e exigem também Q2917_23A/B ou Q2917_24A/B, sem correspondência neste formulário |
 :::
-
-</details>
 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-**11.C.II.0 Porta de grupo:** qualquer exame de bioquímica do sangue · 1 Ionograma — sódio e potássio · 2 Cálcio · 3 Fósforo · 4 Glicose · 5 Teste oral de tolerância à glicose · 6 Hemoglobina glicada (HbA1c) · 7 Creatinina · 8 Ureia · 9 Clearance de creatinina · 10 Ácido úrico · 11 Albumina · 12 Bilirrubinas total e fracções · 13 Transaminases (TGO/AST e TGP/ALT) · 14 Fosfatase alcalina · 15 Colesterol total · 16 Perfil lipídico — HDL, LDL e triglicerídeos · 17 Amilase ou lipase · 18 pH e gases no sangue · 19 Marcador cardíaco — CK ou troponina · 20 Ferro sérico · 21 Ferritina · 22 Transferrina · 23 TSH e T4 livre
+**11.C.II.0 Porta de grupo:** qualquer exame de bioquímica do sangue · 1 Ionograma — sódio e potássio [HHFA 1.3.3.3.15]{.hhfa .cod-hhfa} · 2 Cálcio · 3 Fósforo · 4 Glicose [HHFA 1.3.3.3.14]{.hhfa .cod-hhfa} · 5 Teste oral de tolerância à glicose · 6 Hemoglobina glicada (HbA1c) [HHFA 3.3.2.3.3]{.hhfa .cod-hhfa} · 7 Creatinina [HHFA 3.7.1.1.4 · 1.3.3.3.16]{.hhfa .cod-hhfa} · 8 Ureia [HHFA 3.7.1.1.5 · 1.3.3.3.16]{.hhfa .cod-hhfa} · 9 Clearance de creatinina · 10 Ácido úrico · 11 Albumina · 12 Bilirrubinas total e fracções [HHFA 1.3.3.3.17]{.hhfa .cod-hhfa} · 13 Transaminases (TGO/AST e TGP/ALT) [HHFA 1.3.3.3.17]{.hhfa .cod-hhfa} · 14 Fosfatase alcalina · 15 Colesterol total [HHFA 3.7.1.1.6]{.hhfa .cod-hhfa} · 16 Perfil lipídico — HDL, LDL e triglicerídeos [HHFA 3.7.1.1.7]{.hhfa .cod-hhfa} · 17 Amilase ou lipase [HHFA 3.7.1.1.8]{.hhfa .cod-hhfa} · 18 pH e gases no sangue · 19 Marcador cardíaco — CK ou troponina · 20 Ferro sérico · 21 Ferritina · 22 Transferrina · 23 TSH e T4 livre [HHFA 3.7.1.1.9]{.hhfa .cod-hhfa}
 :::
 
 ::: {.instrucao .rotulado}
@@ -255,33 +255,32 @@ O maior bloco da secção e o de maior rendimento: dez indicadores directos. Os 
 <details class="medir">
 <summary>O que este bloco permite medir</summary>
 
-Oito indicadores: grupo sanguíneo, hepatite B, hepatite C, sífilis por teste que não o rápido, PCR para COVID-19, antigénio criptocócico, carga viral do VIH e contagem de CD4. Os dois últimos, no catálogo, calculam-se entre as unidades que oferecem tratamento antirretroviral. Os restantes exames do bloco são medida própria do Mapa.
-
-<div class="hhfa">
-<details><summary>Ver os 8 indicadores</summary>
-
-- 1.3.3.3.13 — Tipagem e grupo sanguíneo
-- 3.7.1.1.13 — Exame realizado no local: hepatite B
-- 3.7.1.1.14 — Exame realizado no local: hepatite C
-- 3.7.1.1.15 — Exame realizado no local: sífilis por teste que não o rápido
-- 3.7.1.1.16 — Exame realizado no local: PCR para COVID-19
-- 3.7.1.1.17 — Exame realizado no local: antigénio criptocócico
-- 3.2.5.2.3 — Unidades que oferecem tratamento antirretroviral com contagem de CD4
-- 3.2.5.2.4 — Unidades que oferecem tratamento antirretroviral com carga viral do VIH
+Oito indicadores: grupo sanguíneo, hepatite B, hepatite C, sífilis por teste que não o rápido, PCR para COVID-19, antigénio criptocócico, carga viral do VIH e contagem de CD4. Os dois últimos calculam-se entre as unidades que oferecem tratamento antirretroviral. Os restantes exames do bloco são medida própria do Mapa.
 
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 1.3.3.3.13, 3.7.1.1.13 a 3.7.1.1.17, 3.2.5.2.3 e 3.2.5.2.4
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 0 · Porta de grupo | — (medida própria) | — | Porta; não gera indicador por si |
+| Linhas 1 e 2 · Tipagem ABO e factor Rh | 1.3.3.3.13 | Unidades que oferecem tipagem e grupo sanguíneo<br>*Percentage of facilities offering blood typing and grouping* | Q214_19 = 1; todas as unidades. Opção 1 nas duas linhas |
+| Linha 5 · VDRL ou outro teste de sífilis que não o rápido | 3.7.1.1.15 | Unidades que realizam no local: sífilis por teste que não o rápido<br>*Percentage of facilities offering diagnostic test onsite: syphilis other than RDT* | Q2915_36 = 1; todas as unidades. Opção 1 |
+| Linha 6 · HBsAg laboratorial | 3.7.1.1.13 | Unidades que realizam no local: hepatite B<br>*Percentage of facilities offering diagnostic test onsite: Hepatitis B* | Q2915_34 = 1; todas as unidades. Opção 1 |
+| Linha 8 · Anti-HCV laboratorial | 3.7.1.1.14 | Unidades que realizam no local: hepatite C<br>*Percentage of facilities offering diagnostic test onsite: Hepatitis C* | Q2915_35 = 1; todas as unidades. Opção 1 |
+| Linha 9 · Carga viral do VIH | 3.2.5.2.4 | Unidades que oferecem tratamento antirretroviral com carga viral do VIH<br>*Percentage of facilities offering ART with HIV viral load test* | Q2915_38 = 1 e Q2917_29A = 1; entre as unidades que oferecem tratamento antirretroviral (Q2312 = 1; ver 14.4). Aproximado: Q2917_29A não tem correspondência neste formulário |
+| Linha 10 · Contagem de CD4 | 3.2.5.2.3 | Unidades que oferecem tratamento antirretroviral com contagem de CD4<br>*Percentage of facilities offering ART with CD4 count test* | Q2915_39 = 1 e Q2917_31A = 1 e Q2917_32A = 1; entre as unidades que oferecem tratamento antirretroviral (Q2312 = 1; ver 14.4). Aproximado: Q2917_31A e Q2917_32A não têm correspondência neste formulário |
+| Linha 11 · Antigénio criptocócico | 3.7.1.1.17 | Unidades que realizam no local: antigénio criptocócico<br>*Percentage of facilities offering diagnostic test onsite: cryptococcal antigen* | Q2915_40 = 1; todas as unidades. Opção 1 |
+| Linha 12 · PCR para COVID-19 | 3.7.1.1.16 | Unidades que realizam no local: PCR para COVID-19<br>*Percentage of facilities offering diagnostic test onsite: COVID 19 PCR* | Q2915_37 = 1; todas as unidades. Opção 1 |
+| Linhas 3 e 4 · Prova de compatibilidade e Coombs indirecto | — (medida própria) | — | Os mais próximos, 3.1.4.2.10 e 3.7.3.2.5 (prova cruzada), contam-se entre as unidades com CONU-C ou com transfusão e exigem também itens Q2917, sem correspondência neste formulário |
+| Linhas 7 e 13 a 19 | — (medida própria) | — | Sem item correspondente no catálogo (o 3.7.1.1.13 tem um só item para a hepatite B, contado pela linha 6) |
 :::
-
-</details>
 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-**11.C.III.0 Porta de grupo:** qualquer exame de grupo sanguíneo ou serologia · 1 Tipagem sanguínea ABO · 2 Factor Rh · 3 Prova de compatibilidade por aglutinação directa · 4 Coombs indirecto · 5 VDRL ou outro teste de sífilis que não seja teste rápido · 6 HBsAg laboratorial · 7 Anti-HBs · 8 Anti-HCV laboratorial · 9 **Carga viral do VIH** · 10 **Contagem de CD4** · 11 Antigénio criptocócico · 12 PCR para COVID-19 · 13 Toxoplasmose IgG · 14 Toxoplasmose IgM · 15 Proteína C reactiva · 16 ASLO · 17 Factor reumatóide · 18 Anticorpos antinucleares (FAN) · 19 Anti-TPO
+**11.C.III.0 Porta de grupo:** qualquer exame de grupo sanguíneo ou serologia · 1 Tipagem sanguínea ABO [HHFA 1.3.3.3.13]{.hhfa .cod-hhfa} · 2 Factor Rh [HHFA 1.3.3.3.13]{.hhfa .cod-hhfa} · 3 Prova de compatibilidade por aglutinação directa · 4 Coombs indirecto · 5 VDRL ou outro teste de sífilis que não seja teste rápido [HHFA 3.7.1.1.15]{.hhfa .cod-hhfa} · 6 HBsAg laboratorial [HHFA 3.7.1.1.13]{.hhfa .cod-hhfa} · 7 Anti-HBs · 8 Anti-HCV laboratorial [HHFA 3.7.1.1.14]{.hhfa .cod-hhfa} · 9 **Carga viral do VIH** [HHFA 3.2.5.2.4]{.hhfa .cod-hhfa} · 10 **Contagem de CD4** [HHFA 3.2.5.2.3]{.hhfa .cod-hhfa} · 11 Antigénio criptocócico [HHFA 3.7.1.1.17]{.hhfa .cod-hhfa} · 12 PCR para COVID-19 [HHFA 3.7.1.1.16]{.hhfa .cod-hhfa} · 13 Toxoplasmose IgG · 14 Toxoplasmose IgM · 15 Proteína C reactiva · 16 ASLO · 17 Factor reumatóide · 18 Anticorpos antinucleares (FAN) · 19 Anti-TPO
 :::
 
 ::: {.instrucao .rotulado}
@@ -297,35 +296,34 @@ A **carga viral do VIH** e a **contagem de CD4** merecem destaque: num país com
 <details class="medir">
 <summary>O que este bloco permite medir</summary>
 
-Dez indicadores: microscopia, cultura, malária pela gota espessa, tuberculose por baciloscopia ou por teste molecular, e os exames de microbiologia e parasitologia da tabela de prontidão. A urina tipo II, o teste de HPV, o PSA e a biópsia são medida própria do Mapa.
-
-<div class="hhfa">
-<details><summary>Ver os 10 indicadores</summary>
-
-- 1.3.3.3.1 — Microscopia geral
-- 1.3.3.3.2 — Cultura e antibiograma
-- 1.3.3.3.3 — Capacidade de diagnóstico de malária (pela gota espessa; cumpre-se também pelo teste rápido de 11.C.0)
-- 1.3.3.3.6 — Teste de diagnóstico da tuberculose (baciloscopia ou teste molecular)
-- 3.7.1.1.10 — Exame realizado no local: microscopia a fresco
-- 3.7.1.1.11 — Exame realizado no local: cultura de qualquer amostra
-- 3.7.1.1.12 — Exame realizado no local: hemocultura
-- 3.7.1.1.18 — Exame realizado no local: baciloscopia da expectoração com coloração de Ziehl-Neelsen
-- 3.7.1.1.19 — Exame realizado no local: teste de Kato Katz para helmintas
-- 3.7.1.1.20 — Exame realizado no local: pesquisa de sangue oculto nas fezes
+Dez indicadores: microscopia, cultura e antibiograma, tuberculose por baciloscopia ou por teste molecular, os exames de microbiologia e parasitologia da tabela de prontidão e a biópsia, esta entre as unidades que oferecem serviços de cancro. A gota espessa entra no indicador de capacidade de diagnóstico de malária, contado em 11.C.0. O exame parasitológico de fezes, a urina tipo II, o teste de HPV e o PSA são medida própria do Mapa.
 
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 1.3.3.3.1 a 1.3.3.3.3, 1.3.3.3.6, 3.7.1.1.10 a 3.7.1.1.12 e 3.7.1.1.18 a 3.7.1.1.20
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linhas 1 e 2 · Microscopia a fresco ou com coloração de Gram | 1.3.3.3.1 | Unidades que oferecem microscopia geral<br>*Percentage of facilities offering general microscopy* | Q214_15 = 1 ou Q214_16 = 1; todas as unidades. Opção 1 em qualquer das duas linhas |
+| Linha 1 · Microscopia a fresco | 3.7.1.1.10 | Unidades que realizam no local: microscopia a fresco<br>*Percentage of facilities offering diagnostic test onsite: microscopy - wet mount* | Q2915_24 = 1; todas as unidades. Opção 1 |
+| Linha 5 · Gota espessa | — | Entra no cálculo de 1.3.3.3.3 (ver 11.C.0) e de 3.2.2.1.4 e 3.2.2.1.8 (ver 14.8.2) | Q214_26 = 1 em 1.3.3.3.3; Q2915_43 = 1 em 3.2.2.1.4 e 3.2.2.1.8. Opção 1 |
+| Linhas 6 e 7 · Baciloscopia ou teste molecular para tuberculose | 1.3.3.3.6 | Unidades que oferecem teste de diagnóstico da tuberculose<br>*Percentage of facilities offering tuberculosis diagnostic test* | Q214_24 = 1 ou Q214_25 = 1; todas as unidades. Opção 1 em qualquer das duas linhas |
+| Linha 6 · Baciloscopia com Ziehl-Neelsen | 3.7.1.1.18 | Unidades que realizam no local: baciloscopia da expectoração com coloração de Ziehl-Neelsen<br>*Percentage of facilities offering diagnostic test onsite: Sputum microscopy with Ziehl-Neelsen stain for TB* | Q2915_41 = 1; todas as unidades. Opção 1 |
+| Linhas 8 e 10 · Cultura e antibiograma | 1.3.3.3.2 | Unidades que oferecem cultura e antibiograma<br>*Percentage of facilities offering culture and sensitivity* | Q214_17 = 1; todas as unidades. Um só item no catálogo; conta-se a opção 1 nas linhas 8 e 10 |
+| Linha 8 · Cultura de qualquer amostra | 3.7.1.1.11 | Unidades que realizam no local: cultura (qualquer amostra)<br>*Percentage of facilities offering diagnostic test onsite: culture (any specimen)* | Q2915_26 = 1; todas as unidades. Opção 1 |
+| Linha 9 · Hemocultura | 3.7.1.1.12 | Unidades que realizam no local: hemocultura<br>*Percentage of facilities offering diagnostic test onsite: blood culture* | Q2915_27 = 1; todas as unidades. Opção 1 |
+| Linha 11 · Teste de Kato Katz | 3.7.1.1.19 | Unidades que realizam no local: teste de Kato Katz (helmintas)<br>*Percentage of facilities offering diagnostic test onsite: Kato Katz test (for helminths)* | Q2915_44 = 1; todas as unidades. Opção 1 |
+| Linha 12 · Pesquisa de sangue oculto nas fezes | 3.7.1.1.20 | Unidades que realizam no local: pesquisa de sangue oculto nas fezes (guaiaco ou imunoquímica)<br>*Percentage of facilities offering diagnostic test onsite: Guaiac test (FOBT) or faecal immunochemical test (FIT)* | Q2915_46 = 1; todas as unidades. Opção 1 |
+| Linha 15 · Biópsia | 3.3.4.10.4 | Unidades com serviços de cancro que realizam biópsia<br>*Percentage of facilities offering any cancer services with biopsy services* | Q2915_48 = 1; entre as unidades que oferecem algum serviço de cancro (Q1522 = 1; ver 10.D.0). Opção 1 |
+| Linhas 3 e 4 · Parasitológico de fezes; urina tipo II | — (medida própria) | — | Sem item correspondente no catálogo |
+| Linhas 13 e 14 · Teste de HPV; PSA | — (medida própria) | — | Os mais próximos, 3.3.4.3.7 e 3.3.4.9.3, contam-se entre as unidades com serviços de cancro do colo ou da próstata e exigem também Q2917_56A/B ou Q2917_53A/B, sem correspondência neste formulário |
 :::
-
-</details>
 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Microscopia a fresco · 2 Microscopia com coloração de Gram · 3 **Exame parasitológico de fezes** · 4 Urina tipo II — sumária de urina com sedimento · 5 **Gota espessa para diagnóstico de malária** · 6 **Baciloscopia da expectoração com coloração de Ziehl-Neelsen** · 7 **Teste molecular rápido para tuberculose** — Xpert MTB/RIF, TrueNat ou equivalente · 8 Cultura de qualquer amostra · 9 Hemocultura · 10 Antibiograma · 11 Teste de Kato Katz para helmintas · 12 Pesquisa de sangue oculto nas fezes · 13 Teste de HPV · 14 Antigénio específico da próstata (PSA) · 15 Biópsia de tecido ou de amostra
+1 Microscopia a fresco [HHFA 3.7.1.1.10 · 1.3.3.3.1]{.hhfa .cod-hhfa} · 2 Microscopia com coloração de Gram [HHFA 1.3.3.3.1]{.hhfa .cod-hhfa} · 3 **Exame parasitológico de fezes** · 4 Urina tipo II — sumária de urina com sedimento · 5 **Gota espessa para diagnóstico de malária** [HHFA 1.3.3.3.3 · 3.2.2.1.4 · 3.2.2.1.8]{.hhfa .cod-hhfa} · 6 **Baciloscopia da expectoração com coloração de Ziehl-Neelsen** [HHFA 3.7.1.1.18 · 1.3.3.3.6]{.hhfa .cod-hhfa} · 7 **Teste molecular rápido para tuberculose** — Xpert MTB/RIF, TrueNat ou equivalente [HHFA 1.3.3.3.6]{.hhfa .cod-hhfa} · 8 Cultura de qualquer amostra [HHFA 3.7.1.1.11 · 1.3.3.3.2]{.hhfa .cod-hhfa} · 9 Hemocultura [HHFA 3.7.1.1.12]{.hhfa .cod-hhfa} · 10 Antibiograma [HHFA 1.3.3.3.2]{.hhfa .cod-hhfa} · 11 Teste de Kato Katz para helmintas [HHFA 3.7.1.1.19]{.hhfa .cod-hhfa} · 12 Pesquisa de sangue oculto nas fezes [HHFA 3.7.1.1.20]{.hhfa .cod-hhfa} · 13 Teste de HPV · 14 Antigénio específico da próstata (PSA) · 15 Biópsia de tecido ou de amostra [HHFA 3.3.4.10.4]{.hhfa .cod-hhfa}
 :::
 
 ::: {.nota}
@@ -334,18 +332,18 @@ Sem porta de grupo, porque o instrumento internacional também não lhe dá nenh
 O **exame parasitológico de fezes** é o item que o Guião exige no seu mínimo para marcar «Laboratório» (folha 15). A separação da tuberculose em **baciloscopia** e **teste molecular**, e da malária em **gota espessa** (aqui) e **teste rápido** (em 11.C.0), é deliberada: o indicador cumpre-se por qualquer das vias, e passamos a saber qual — que é o que decide onde colocar um GeneXpert.
 :::
 
-## 11.C.V · Destino da amostra ou do doente [antigo 7.2.C.V]{.antigo} [NOVO]{.etiqueta .novo}
+## 11.C.V · Destino da amostra ou do doente [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Para onde vão habitualmente as amostras que a unidade envia para análise: a unidade de referência indicada na secção 3, outra unidade pública, um laboratório privado ou outro destino. Liga o laboratório à árvore de referência; nenhum instrumento internacional recolhe esta informação.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -371,7 +369,7 @@ Quando a amostra é recolhida aqui e enviada para análise noutro local, qual é
 :::
 
 ::: {.nota}
-**Contributo próprio e ligação directa à árvore de referência da secção 3.** O instrumento internacional não tem indicador sobre o destino da amostra ou do doente quando o exame não se faz na unidade.
+**Contributo próprio e ligação directa à árvore de referência da secção 3.** Nenhum instrumento internacional recolhe o destino da amostra ou do doente quando o exame não se faz na unidade.
 
 É uma só pergunta, e não uma coluna por exame, porque a escala de três níveis já diz, exame por exame, se a amostra sai — o que falta é o destino, e o destino é quase sempre o mesmo. Se a primeira ronda mostrar muita dispersão na opção 96, abre-se uma coluna de destino em cada linha na ronda seguinte, ao custo de mais 49 campos.
 
@@ -382,18 +380,20 @@ Quando a amostra é recolhida aqui e enviada para análise noutro local, qual é
 **Pendência para o GEPE, com consequência directa neste bloco.** O Guião remete, na folha 13, para a definição do INSP dos **Laboratórios tipo I e tipo II**. Com o texto dessa norma, três coisas mudam: o agrupamento passa a ser por nível em vez de por disciplina clínica; a leitura passa de descritiva — «esta unidade realiza 14 dos 82 exames» — a cumprimento — «este centro de saúde realiza 11 dos 20 exames exigidos a um Laboratório tipo I»; e a pergunta «quem decidiu que um centro de saúde deve fazer TSH?» passa a ter resposta. Escrevemos já com o agrupamento clínico porque, se a norma chegar, a lista de exames não muda — muda apenas o agrupamento.
 :::
 
-## 11.A.0 · Imagiologia — porta [antigo 7.2.A.0]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 11.A.0 · Imagiologia — porta [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades sanitárias que realizam algum exame de imagem ou encaminham doentes para os realizarem noutra unidade. É uma porta: não gera indicador por si, mas dá acesso à grelha de 11.A.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum directo · porta dos 8 indicadores de 11.A
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+É porta: os indicadores da imagiologia estão na caixa de 11.A.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -412,33 +412,36 @@ Esta unidade sanitária realiza algum exame de imagem — ecografia, raio X ou o
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 11.B.
 :::
 
-## 11.A · Imagiologia — exames de imagem [antigo 7.2.A]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 11.A · Imagiologia — exames de imagem [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que realizam cada um de oito exames de imagem — a tabela internacional completa. Os indicadores contam apenas a opção 1, realizado nesta unidade; a opção 2, encaminhamento com retorno do resultado, é medida própria do Mapa e distingue a unidade que garante o acesso daquela onde o exame não acontece.
-
-<div class="hhfa">
-<details><summary>Ver os 8 indicadores</summary>
-
-- 1.3.3.1.1 — Ecografia (linha 1)
-- 1.3.3.1.2 — Raio X (linha 2)
-- 1.3.3.1.3 — Mamografia (linha 4)
-- 1.3.3.1.4 — Tomografia computorizada (linha 5)
-- 1.3.3.1.5 — Ressonância magnética (linha 7)
-- 1.3.3.1.6 — Angiografia ou cateterismo (linha 6)
-- 1.3.3.1.7 — Fluoroscopia (linha 3)
-- 1.3.3.1.8 — Medicina nuclear (linha 8)
+Percentagem de unidades sanitárias que realizam cada um de oito exames de imagem. Os indicadores contam apenas a opção 1, realizado nesta unidade; a opção 2, encaminhamento com retorno do resultado, é medida própria do Mapa e distingue a unidade que garante o acesso daquela onde o exame não acontece.
 
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 1.3.3.1.1 a 1.3.3.1.8, tabela completa
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 1 · Ecografia | 1.3.3.1.1 | Unidades que oferecem ecografia<br>*Percentage of facilities offering ultrasound* | Q210_1 = 1; todas as unidades. Opção 1 |
+| Linha 1 · Ecografia | 3.7.2.1.5 | Unidades que oferecem ecografia (módulo de imagiologia)<br>*Percentage of facilities offering ultrasound* | Q2702_2A = 1; todas as unidades. Opção 1 |
+| Linha 2 · Raio X | 1.3.3.1.2 | Unidades que oferecem raio X<br>*Percentage of facilities offering x-ray* | Q210_2 = 1; todas as unidades. Opção 1 |
+| Linha 2 · Raio X | 3.7.2.1.11 | Unidades que oferecem raio X (módulo de imagiologia)<br>*Percentage of facilities offering X-ray* | Q2705_3A = 1 ou Q2705_4A = 1; todas as unidades. Opção 1 |
+| Linha 3 · Fluoroscopia | 1.3.3.1.7 | Unidades que oferecem fluoroscopia<br>*Percentage of facilities offering fluoroscopy* | Q210_4 = 1; todas as unidades. Opção 1 |
+| Linha 3 · Fluoroscopia | 3.7.2.1.13 | Unidades que oferecem fluoroscopia (módulo de imagiologia)<br>*Percentage of facilities offering fluoroscopy* | Q2705_5A = 1; todas as unidades. Opção 1 |
+| Linha 4 · Mamografia | 1.3.3.1.3 | Unidades que oferecem mamografia<br>*Percentage of facilities offering mammogram* | Q210_3 = 1; todas as unidades. Opção 1 |
+| Linha 5 · Tomografia computorizada | 1.3.3.1.4 | Unidades que oferecem tomografia computorizada<br>*Percentage of facilities offering CT scan* | Q210_5 = 1; todas as unidades. Opção 1 |
+| Linha 5 · Tomografia computorizada | 3.7.2.1.7 | Unidades que oferecem tomografia computorizada (módulo de imagiologia)<br>*Percentage of facilities offering CT scan* | Q2705_1A = 1; todas as unidades. Opção 1 |
+| Linha 6 · Angiografia ou cateterismo | 1.3.3.1.6 | Unidades que oferecem angiografia ou cateterismo<br>*Percentage of facilities offering angiography/catheterization* | Q210_6 = 1; todas as unidades. Opção 1 |
+| Linha 6 · Angiografia ou cateterismo | 3.7.2.1.15 | Unidades que oferecem angiografia (módulo de imagiologia)<br>*Percentage of facilities offering angiography* | Q2705_6A = 1; todas as unidades. Opção 1 |
+| Linha 7 · Ressonância magnética | 1.3.3.1.5 | Unidades que oferecem ressonância magnética<br>*Percentage of facilities offering MRI* | Q210_7 = 1; todas as unidades. Opção 1 |
+| Linha 7 · Ressonância magnética | 3.7.2.1.9 | Unidades que oferecem ressonância magnética (módulo de imagiologia)<br>*Percentage of facilities offering MRI* | Q2705_2A = 1; todas as unidades. Opção 1 |
+| Linha 8 · Medicina nuclear | 1.3.3.1.8 | Unidades que oferecem medicina nuclear<br>*Percentage of facilities offering nuclear medicine* | Q210_8 = 1; todas as unidades. Opção 1 |
+| Opção 2 (encaminhamento com retorno do resultado) | — (medida própria) | — | Não entra em nenhum indicador |
 :::
-
-</details>
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -451,7 +454,7 @@ Considere a situação habitual dos últimos 3 meses, e não uma avaria pontual 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Ecografia · 2 Raio X · 3 Fluoroscopia · 4 Mamografia · 5 Tomografia computorizada (TAC) · 6 Angiografia ou cateterismo · 7 Ressonância magnética · 8 Medicina nuclear
+1 Ecografia [HHFA 1.3.3.1.1 · 3.7.2.1.5]{.hhfa .cod-hhfa} · 2 Raio X [HHFA 1.3.3.1.2 · 3.7.2.1.11]{.hhfa .cod-hhfa} · 3 Fluoroscopia [HHFA 1.3.3.1.7 · 3.7.2.1.13]{.hhfa .cod-hhfa} · 4 Mamografia [HHFA 1.3.3.1.3]{.hhfa .cod-hhfa} · 5 Tomografia computorizada (TAC) [HHFA 1.3.3.1.4 · 3.7.2.1.7]{.hhfa .cod-hhfa} · 6 Angiografia ou cateterismo [HHFA 1.3.3.1.6 · 3.7.2.1.15]{.hhfa .cod-hhfa} · 7 Ressonância magnética [HHFA 1.3.3.1.5 · 3.7.2.1.9]{.hhfa .cod-hhfa} · 8 Medicina nuclear [HHFA 1.3.3.1.8]{.hhfa .cod-hhfa}
 :::
 
 ::: {.respostas .rotulado}
@@ -461,43 +464,43 @@ Para cada linha: 1 Realizado nesta unidade · 2 Doente encaminhado para outra un
 :::
 
 ::: {.nota}
-**Porque mudou.** A caixa da imagiologia desdobra-se em oito linhas, que dão a tabela internacional completa; os indicadores contam apenas a opção 1, o que preserva o significado internacional. A opção 2 é o acrescento nosso e é a que serve o país, porque distingue a unidade que garante o acesso por encaminhamento daquela onde o exame não acontece.
+**Porque mudou.** A caixa da imagiologia desdobra-se em oito linhas, uma por exame; os indicadores contam apenas a opção 1, o que mantém a comparabilidade com outros países. A opção 2 é o acrescento nosso e é a que serve o país, porque distingue a unidade que garante o acesso por encaminhamento daquela onde o exame não acontece.
 
 **Articula-se com a secção 8**, onde se **contam** os aparelhos de ecografia e de raio X: aqui mede-se a oferta do exame, lá o inventário do equipamento.
 
 **Verificação a programar.** Assinalar quando a unidade declara realizar ecografia ou raio X e conta zero aparelhos correspondentes na secção 8.
 :::
 
-## 11.B · Procedimentos e tecnologias [antigo 7.2.B]{.antigo} [NOVO]{.etiqueta .novo}
+## 11.B · Procedimentos e tecnologias [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que realizam cada um de onze procedimentos e tecnologias — a tabela internacional completa, uma caixa por indicador.
-
-<div class="hhfa">
-<details><summary>Ver os 11 indicadores</summary>
-
-- 1.3.3.2.1 — Desfibrilhação
-- 1.3.3.2.2 — Electrocardiograma (ECG)
-- 1.3.3.2.3 — Electroencefalograma (EEG)
-- 1.3.3.2.4 — Incubadora para recém-nascidos
-- 1.3.3.2.5 — Fototerapia
-- 1.3.3.2.6 — Radioterapia
-- 1.3.3.2.7 — Diálise renal
-- 1.3.3.2.8 — Ventilação mecânica
-- 1.3.3.2.9 — Transfusão de sangue
-- 1.3.3.2.10 — Colonoscopia
-- 1.3.3.2.11 — Administração de oxigénio
+Percentagem de unidades sanitárias que realizam cada um de onze procedimentos e tecnologias, uma caixa por indicador.
 
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 1.3.3.2.1 a 1.3.3.2.11, tabela completa
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 1 · Desfibrilhação | 1.3.3.2.1 | Unidades que oferecem desfibrilhação<br>*Percentage of facilities offering defibrillation* | Q210_15 = 1; todas as unidades. Resposta 1 |
+| Linha 2 · Electrocardiograma | 1.3.3.2.2 | Unidades que oferecem electrocardiograma (ECG)<br>*Percentage of facilities offering electrocardiogram (ECG)* | Q210_12 = 1; todas as unidades. Resposta 1 |
+| Linha 2 · Electrocardiograma | 3.7.2.1.1 | Unidades que oferecem ECG (módulo de diagnóstico)<br>*Percentage of facilities offering ECG* | Q2702_1A = 1; todas as unidades. Resposta 1 |
+| Linha 3 · Electroencefalograma | 1.3.3.2.3 | Unidades que oferecem electroencefalograma (EEG)<br>*Percentage of facilities offering electroencephalogram (EEG)* | Q210_11 = 1; todas as unidades. Resposta 1 |
+| Linha 3 · Electroencefalograma | 3.7.2.1.3 | Unidades que oferecem EEG (módulo de diagnóstico)<br>*Percentage of facilities offering EEG* | Q2705_7A = 1; todas as unidades. Resposta 1 |
+| Linha 4 · Incubadora para recém-nascidos | 1.3.3.2.4 | Unidades que oferecem incubadora para recém-nascidos<br>*Percentage of facilities offering infant incubator services* | Q210_14 = 1; todas as unidades. Resposta 1 |
+| Linha 5 · Fototerapia do recém-nascido | 1.3.3.2.5 | Unidades que oferecem fototerapia<br>*Percentage of facilities offering phototherapy* | Q210_13 = 1; todas as unidades. Resposta 1 |
+| Linha 6 · Radioterapia | 1.3.3.2.6 | Unidades que oferecem radioterapia<br>*Percentage of facilities offering radiotherapy* | Q210_17 = 1; todas as unidades. Resposta 1 |
+| Linha 7 · Diálise renal | 1.3.3.2.7 | Unidades que oferecem diálise renal<br>*Percentage of facilities offering renal dialysis* | Q210_18 = 1; todas as unidades. Resposta 1 |
+| Linha 8 · Ventilação mecânica | 1.3.3.2.8 | Unidades que oferecem ventilação mecânica<br>*Percentage of facilities offering mechanical ventilation* | Q210_16 = 1; todas as unidades. Resposta 1 |
+| Linha 9 · Transfusão de sangue | 1.3.3.2.9 | Unidades que oferecem transfusão de sangue<br>*Percentage of facilities offering blood transfusion* | Q210_19 = 1; todas as unidades. Resposta 1 |
+| Linha 9 · Transfusão de sangue | 3.7.3.1.1 | Unidades que oferecem algum serviço de transfusão de sangue<br>*Percentage of facilities offering any blood transfusion services* | Q2800 = 1 ou Q2210_9 = 1; todas as unidades. Resposta 1, ou a transfusão nas funções-sinal de 13.2.3 |
+| Linha 9 · Transfusão de sangue | — | Entra no cálculo de 3.1.4.1.4 (ver 13.2.3) | Q2210_9 = 1 ou Q2800 = 1 |
+| Linha 10 · Colonoscopia | 1.3.3.2.10 | Unidades que oferecem colonoscopia<br>*Percentage of facilities offering colonoscopy* | Q210_9 = 1; todas as unidades. Resposta 1 |
+| Linha 11 · Administração de oxigénio | 1.3.3.2.11 | Unidades que oferecem administração de oxigénio<br>*Percentage of facilities offering oxygen administration* | Q210_20 = 1; todas as unidades. Resposta 1 |
 :::
-
-</details>
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -510,7 +513,7 @@ Considere a situação habitual dos últimos 3 meses.
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 **Desfibrilhação** · 2 Electrocardiograma (ECG) · 3 Electroencefalograma (EEG) · 4 Incubadora para recém-nascidos · 5 Fototerapia do recém-nascido · 6 Radioterapia · 7 Diálise renal · 8 Ventilação mecânica · 9 Transfusão de sangue · 10 Colonoscopia · 11 **Administração de oxigénio**
+1 **Desfibrilhação** [HHFA 1.3.3.2.1]{.hhfa .cod-hhfa} · 2 Electrocardiograma (ECG) [HHFA 1.3.3.2.2 · 3.7.2.1.1]{.hhfa .cod-hhfa} · 3 Electroencefalograma (EEG) [HHFA 1.3.3.2.3 · 3.7.2.1.3]{.hhfa .cod-hhfa} · 4 Incubadora para recém-nascidos [HHFA 1.3.3.2.4]{.hhfa .cod-hhfa} · 5 Fototerapia do recém-nascido [HHFA 1.3.3.2.5]{.hhfa .cod-hhfa} · 6 Radioterapia [HHFA 1.3.3.2.6]{.hhfa .cod-hhfa} · 7 Diálise renal [HHFA 1.3.3.2.7]{.hhfa .cod-hhfa} · 8 Ventilação mecânica [HHFA 1.3.3.2.8]{.hhfa .cod-hhfa} · 9 Transfusão de sangue [HHFA 1.3.3.2.9 · 3.7.3.1.1 · 3.1.4.1.4]{.hhfa .cod-hhfa} · 10 Colonoscopia [HHFA 1.3.3.2.10]{.hhfa .cod-hhfa} · 11 **Administração de oxigénio** [HHFA 1.3.3.2.11]{.hhfa .cod-hhfa}
 :::
 
 ::: {.respostas .rotulado}
@@ -527,18 +530,26 @@ Três destas onze linhas substituem três caixas da Ficha e dizem o mesmo com o 
 A escala é de sim ou não porque nenhum destes procedimentos se faz por encaminhamento com retorno de resultado: ou se faz aqui, ou o doente é transferido — e a transferência está tratada na árvore de referência da secção 3.
 :::
 
-## 11.D · Outros serviços de apoio [antigo 7.2.D]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 11.D · Outros serviços de apoio [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Que serviços de apoio existem e estão em funcionamento em cada unidade. Duas linhas geram indicador do HHFA: unidades que oferecem algum cuidado de reabilitação — na definição larga, que inclui terapia ocupacional, terapia da fala e adaptação de próteses e ortóteses — e unidades que oferecem algum cuidado paliativo. As outras cinco linhas são medida própria do Mapa.
-
-::: {.hhfa}
-Indicadores do HHFA: 1.3.2.10.1 e 1.3.2.9.1
-:::
+Que serviços de apoio existem e estão em funcionamento em cada unidade. Duas linhas geram indicador: unidades que oferecem algum cuidado de reabilitação — na definição larga, que inclui terapia ocupacional, terapia da fala e adaptação de próteses e ortóteses — e unidades que oferecem algum cuidado paliativo. As outras cinco linhas são medida própria do Mapa.
 
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 3 · Reabilitação | 1.3.2.10.1 | Unidades que oferecem algum cuidado de reabilitação<br>*Percentage of facilities offering any rehabilitation care* | Q203_2 = 1, 2 ou 3; todas as unidades. Resposta 1 |
+| Linha 3 · Reabilitação | 3.6.2.1.1 | Unidades que oferecem algum serviço de reabilitação (módulo de reabilitação)<br>*Percentage of facilities offering any rehabilitative care services* | Q1706 = 1; todas as unidades. Resposta 1 |
+| Linha 8 · Cuidados paliativos | 1.3.2.9.1 | Unidades que oferecem algum cuidado paliativo<br>*Percentage of facilities offering any palliative care services* | Q203_1 = 1, 2 ou 3; todas as unidades. Resposta 1 |
+| Linha 8 · Cuidados paliativos | 3.6.1.1.1 | Unidades que oferecem algum cuidado paliativo (módulo de cuidados paliativos)<br>*Percentage of facilities offering any palliative care services* | Q1700 = 1; todas as unidades. Resposta 1 |
+| Linhas 1, 2, 4, 6 e 7 · Anatomia patológica, anestesia, bloco operatório, gases medicinais canalizados, banco de sangue | — (medida própria) | — | Sem indicador de existência do serviço no catálogo |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -549,7 +560,7 @@ Para cada um dos serviços seguintes, diga-me se existe nesta unidade sanitária
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Anatomia patológica · 2 Anestesia · 3 Reabilitação — fisioterapia, terapia ocupacional, terapia da fala ou adaptação de próteses e ortóteses · 4 Bloco operatório · 6 Gases medicinais canalizados · 7 Banco de sangue · 8 **Cuidados paliativos** — controlo da dor e acompanhamento de doentes em fim de vida, no ambulatório ou no domicílio
+1 Anatomia patológica · 2 Anestesia · 3 Reabilitação — fisioterapia, terapia ocupacional, terapia da fala ou adaptação de próteses e ortóteses [HHFA 1.3.2.10.1 · 3.6.2.1.1]{.hhfa .cod-hhfa} · 4 Bloco operatório · 6 Gases medicinais canalizados · 7 Banco de sangue · 8 **Cuidados paliativos** — controlo da dor e acompanhamento de doentes em fim de vida, no ambulatório ou no domicílio [HHFA 1.3.2.9.1 · 3.6.1.1.1]{.hhfa .cod-hhfa}
 :::
 
 ::: {.respostas .rotulado}
@@ -564,18 +575,18 @@ Sete das oito caixas são as da Ficha e mantêm-se com o mesmo sentido; muda ape
 **Duas precisões e um acrescento.** A reabilitação ganha a definição internacional, mais larga do que a fisioterapia — escrita no enunciado, a caixa abrange também quem faz reabilitação sem gabinete de fisioterapia. O número de blocos operatórios ganha «em condições de utilização». E o acrescento são os **cuidados paliativos**, uma caixa e um indicador, uma oferta própria dos cuidados primários: o controlo da dor no doente oncológico avançado faz-se no centro de saúde e no domicílio, não no hospital.
 :::
 
-## 11.D.5 · Número de blocos operatórios [antigo 7.2.D.5]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 11.D.5 · Número de blocos operatórios [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Quantos blocos operatórios estão em condições de utilização em cada unidade.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
@@ -593,27 +604,23 @@ Linha 5: número de 00 a 99.
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Perguntar a linha 5 só se a resposta à linha 4 for 1.
 :::
 
-## 11.E.1 · Serviços de urgência — porta [antigo 7.2.E.1]{.antigo} [NOVO]{.etiqueta .novo}
+## 11.E.1 · Serviços de urgência — porta [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se a unidade atende urgências — com ou sem banco de urgência próprio. É a porta do bloco 11.E.
 
-<div class="hhfa">
-<details><summary>Ver os 2 indicadores</summary>
-
-- 3.5.1.1.1 — Qualquer serviço de urgência (porta 11.E.1)
-- 1.3.2.8.1 — Serviço de urgência como primeira entrada na unidade (porta 11.E.1)
-
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 3.5.1.1.1 e 1.3.2.8.1 · o bloco 11.E.1 a 11.E.8 dá 12 indicadores — a tabela 3.5.1.1 completa e dois de disponibilidade
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 3.5.1.1.1 | Unidades que oferecem algum serviço de urgência<br>*Percentage of facilities offering any emergency services* | Q2601 = 1; todas as unidades |
+| Resposta 1 (Sim) | 1.3.2.8.1 | Unidades que oferecem serviço de urgência como primeira entrada na unidade<br>*Percentage of facilities offering any emergency services as the first entry to the facility* | Q208_1 = 1, 2 ou 3; todas as unidades. Aproximado: o catálogo aceita três respostas em Q208_1, aqui reduzidas a «Sim» |
 :::
-
-</details>
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -633,21 +640,25 @@ Esta unidade sanitária presta atendimento a doentes em situação de urgência,
 :::
 
 ::: {.nota}
-**É a aplicação mais consequente da regra de que a porta é a actividade e não o órgão.** Com esta porta, o centro de saúde que atende urgências na própria consulta — o que é a regra na rede de cuidados primários — passa a contar como unidade com atendimento de urgência, ao lado das que têm Banco de Urgência, e entra no numerador do indicador do HHFA.
+**É a aplicação mais consequente da regra de que a porta é a actividade e não o órgão.** Com esta porta, o centro de saúde que atende urgências na própria consulta — o que é a regra na rede de cuidados primários — passa a contar como unidade com atendimento de urgência, ao lado das que têm Banco de Urgência, e entra no numerador do indicador de atendimento de urgência.
 :::
 
-## 11.E.2.1 · Banco de urgência com espaço próprio [antigo 7.2.E.2.1]{.antigo} [NOVO]{.etiqueta .novo}
+## 11.E.2.1 · Banco de urgência com espaço próprio [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se a unidade tem um banco ou unidade de urgência com espaço próprio, distinto das salas de consulta.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum por si · entra, com 11.E.2.2, nos indicadores 3.5.1.1.2 e 1.3.2.8.2
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | — | Entra no cálculo de 3.5.1.1.2 e 1.3.2.8.2 (ver 11.E.2.2) | Q2603 = 1 em 3.5.1.1.2; Q208_2 = 1 em 1.3.2.8.2 |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -662,27 +673,24 @@ Existe nesta unidade sanitária um banco ou unidade de urgência com espaço pr�
 2. Não
 :::
 
-## 11.E.2.2 · Horas de funcionamento do banco de urgência [antigo 7.2.E.2.2]{.antigo} [NOVO]{.etiqueta .novo}
+## 11.E.2.2 · Horas de funcionamento do banco de urgência [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Horas de funcionamento do banco de urgência. Onde o indicador se calcula de «igual a 24», pergunta-se o número de horas, que dá o indicador e o gradiente.
 
-<div class="hhfa">
-<details><summary>Ver os 2 indicadores</summary>
-
-- 3.5.1.1.2 — Unidade de urgência dedicada, 24 horas (11.E.2.1 e 11.E.2.2: espaço próprio e 24 horas)
-- 1.3.2.8.2 — Unidade de urgência dedicada, 24 horas, pela via da disponibilidade (11.E.2.1 e 11.E.2.2)
-
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 3.5.1.1.2 e 1.3.2.8.2
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| 24 horas, com 11.E.2.1 = 1 | 3.5.1.1.2 | Unidades com unidade de urgência dedicada a funcionar 24 horas<br>*Percentage of facilities offering a 24-hour dedicated emergency unit* | Q2603 = 1 e Q2604 = 24; todas as unidades |
+| 24 horas, com 11.E.2.1 = 1 | 1.3.2.8.2 | Unidades com unidade de urgência dedicada a funcionar 24 horas (lista de serviços)<br>*Percentage of facilities offering 24-hour dedicated emergency unit* | Q208_2 = 1 e Q208_3 = 1; todas as unidades. Aproximado: Q208_3 = 1 lê-se aqui como 24 horas |
+| De 01 a 23 horas | — (medida própria) | — | Gradiente; não entra no indicador |
 :::
-
-</details>
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -701,23 +709,27 @@ Número de horas por dia, 00 a 24
 :::
 
 ::: {.nota}
-**É aqui que as duas caixas da Ficha — «Só Diurno» e «24 Horas» — se resolvem numa pergunta e um número.** Ganha-se em três frentes. A resposta é sempre uma só. O número contém as duas categorias da Ficha e todas as que ficam entre elas — as 12 horas, as 16 horas, o fim de semana só de manhã —, que é a realidade da maior parte da rede. E o indicador internacional calcula-se de «igual a 24», pelo que perguntar as horas dá o indicador **e** o gradiente.
+**É aqui que as duas caixas da Ficha — «Só Diurno» e «24 Horas» — se resolvem numa pergunta e um número.** Ganha-se em três frentes. A resposta é sempre uma só. O número contém as duas categorias da Ficha e todas as que ficam entre elas — as 12 horas, as 16 horas, o fim de semana só de manhã —, que é a realidade da maior parte da rede. E o indicador calcula-se de «igual a 24», pelo que perguntar as horas dá o indicador **e** o gradiente.
 
 **Correspondência com a série histórica:** «Só Diurno» passa a ser um valor entre 01 e 23, e «24 Horas» passa a ser 24.
 :::
 
-## 11.E.3 · Triagem formal [antigo 7.2.E.3]{.antigo} [NOVO]{.etiqueta .novo}
+## 11.E.3 · Triagem formal [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se existe triagem formal, com critérios escritos de prioridade, dos doentes que chegam em situação de urgência.
 
-::: {.hhfa}
-Indicador do HHFA: 3.5.1.1.10 — Sistema formal de triagem na unidade de urgência (11.E.3)
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 3.5.1.1.10 | Unidades com sistema formal de triagem na unidade de urgência<br>*Percentage of facilities offering a formal triage system in emergency unit* | Q2605 = 1; todas as unidades |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -735,18 +747,23 @@ Existe nesta unidade sanitária um sistema formal de triagem dos doentes que che
 Uma caixa, um indicador, e é o quesito de maior rendimento de todo o bloco em relação ao esforço. Mede aquilo que mais determina o desfecho de um doente grave que chega a uma unidade com fila: se é visto por ordem de gravidade ou por ordem de chegada. A precisão «com critérios escritos» está no enunciado de propósito, para que a resposta não seja marcada por quem faz triagem informal pelo bom senso do enfermeiro de turno — que é prática corrente e meritória, mas não é um sistema.
 :::
 
-## 11.E.4 · Pessoal próprio do banco de urgência [antigo 7.2.E.4]{.antigo} [NOVO]{.etiqueta .novo}
+## 11.E.4 · Pessoal próprio do banco de urgência [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se o banco de urgência tem pessoal próprio, afecto permanentemente ao serviço, ou depende de profissionais em rotação.
 
-::: {.hhfa}
-Indicador do HHFA: 3.5.1.1.9 — Pessoal de base não rotativo na unidade de urgência (11.E.4, opção 1)
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1 (pessoal próprio afecto permanentemente) | 3.5.1.1.9 | Unidades com pessoal de base não rotativo na unidade de urgência<br>*Percentage of facilities offering non-rotating core staff for emergency unit* | Q2613 = 1; todas as unidades |
+| Opções 2 e 3 | — (medida própria) | — | Não entram no indicador |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -770,18 +787,23 @@ O banco de urgência tem pessoal próprio, afecto permanentemente ao serviço, o
 O indicador conta apenas a opção 1. A pergunta foi escrita com três opções em vez de duas porque **a situação mista é a mais frequente na rede** — um núcleo permanente reforçado por rotação nos turnos da noite — e porque uma escala de sim ou não obrigaria quem responde a escolher arbitrariamente. É a diferença entre um serviço de urgência com competência acumulada e um serviço assegurado por quem passa por lá.
 :::
 
-## 11.E.5 · Presença clínica 24 horas [antigo 7.2.E.5]{.antigo} [NOVO]{.etiqueta .novo}
+## 11.E.5 · Presença clínica 24 horas [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se há presença clínica permanente, 24 horas por dia, para atender urgências — médico ou outro clínico habilitado a prescrever, e enfermeiro.
 
-::: {.hhfa}
-Indicador do HHFA: 3.5.1.1.3 — Pessoal médico e de enfermagem presente 24 horas na unidade de urgência (11.E.5, opção 1 nas duas caixas)
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1 em 11.E.5.1 e em 11.E.5.2 | 3.5.1.1.3 | Unidades com pessoal médico e de enfermagem presente 24 horas na unidade de urgência<br>*Percentage of facilities offering 24-hour medical and nursing staff onsite in emergency unit* | Q2614 = 1 e (Q2615_1 = 1 ou Q2615_2 = 1) e Q2615_3 = 1; todas as unidades |
+| Opções 2 e 3 | — (medida própria) | — | Não entram no indicador |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -792,7 +814,7 @@ Durante as 24 horas do dia, está permanentemente presente na unidade — e não
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-- **11.E.5.1** Médico ou outro clínico habilitado a prescrever · **11.E.5.2** Enfermeiro
+- **11.E.5.1** Médico ou outro clínico habilitado a prescrever [HHFA 3.5.1.1.3]{.hhfa .cod-hhfa} · **11.E.5.2** Enfermeiro [HHFA 3.5.1.1.3]{.hhfa .cod-hhfa}
 :::
 
 ::: {.respostas .rotulado}
@@ -805,18 +827,22 @@ Para cada caixa: 1 Sim, presente na unidade 24 horas por dia · 2 Presente apena
 O indicador exige as duas condições ao mesmo tempo — um médico ou clínico de nível intermédio **e** um enfermeiro. A distinção entre «presente na unidade» e «de chamada» está no enunciado e nas opções porque é a diferença que decide o atendimento de uma emergência às três da manhã, e porque sem ela a resposta tende a ser afirmativa em qualquer unidade onde haja um profissional contactável. As opções 2 e 3 não entram no indicador, mas distinguem a unidade que está perto de cumprir da que está longe.
 :::
 
-## 11.E.6 · Transporte para transferência [antigo 7.2.E.6]{.antigo} [NOVO]{.etiqueta .novo}
+## 11.E.6 · Transporte para transferência [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se a unidade tem acesso rápido a transporte, a qualquer hora, para transferir um doente de urgência, e de que tipo.
 
-::: {.hhfa}
-Indicador do HHFA: 3.5.1.1.4 — Acesso rápido 24 horas a transporte de urgência para referência (11.E.6, opções 1 a 3)
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opções 1 a 3 | 3.5.1.1.4 | Unidades com acesso rápido 24 horas a transporte de urgência para referência<br>*Percentage of facilities offering 24-hour rapid access to emergency transport for referral out* | Q2608 = 1 e Q2609 = 1, 2 ou 3; todas as unidades |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -841,18 +867,23 @@ Em caso de necessidade de transferir um doente de urgência, esta unidade sanit�
 Um indicador por uma caixa. **Fecha pelo lado da urgência a discussão sobre a frota:** o que importa não é a unidade ter viatura própria, mas conseguir transporte quando precisa — e a opção 2, a ambulância chamada de outro local, é precisamente a resposta da maior parte dos centros de saúde. Articula-se com a secção 9 (frota da unidade), com 3.9 (viatura e motorista 24 horas) e com 17.1 (transporte de emergência nos serviços gerais): três leituras do mesmo problema, cada uma na sua secção, sem duplicação de campo.
 :::
 
-## 11.E.7 · Acompanhamento na transferência [antigo 7.2.E.7]{.antigo} [NOVO]{.etiqueta .novo}
+## 11.E.7 · Acompanhamento na transferência [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se o doente de urgência transferido é habitualmente acompanhado durante o transporte por um médico ou por um enfermeiro da unidade.
 
-::: {.hhfa}
-Indicador do HHFA: 3.5.1.1.8 — Médico ou enfermeiro acompanha o doente de urgência no transporte de referência (11.E.7, opção 1)
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1 (Sim, habitualmente) | 3.5.1.1.8 | Unidades em que um médico ou enfermeiro acompanha o doente de urgência no transporte de referência<br>*Percentage of facilities offering doctor or nurse to accompany emergency patients for referral transport* | Q2606 = 1 e Q2607 = 1; todas as unidades |
+| Opção 2 | — (medida própria) | — | Não entra no indicador |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -870,28 +901,24 @@ Quando um doente de urgência é transferido para outra unidade sanitária, é h
 Mede a qualidade do próprio acto de referir, que é a operação mais frequente e mais crítica da rede: um doente transferido sem acompanhamento clínico perde, no caminho, a vigilância que justificava a transferência. A opção 2 não entra no indicador e fica porque é a resposta honesta da maior parte das unidades — acompanha-se quando há pessoal disponível —, e porque a distância entre «alguns casos» e «habitualmente» é um problema de dotação de pessoal, não de equipamento.
 :::
 
-## 11.E.8 · Serviços de apoio à urgência — horas por dia [antigo 7.2.E.8]{.antigo} [NOVO]{.etiqueta .novo}
+## 11.E.8 · Serviços de apoio à urgência — horas por dia [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Horas por dia de farmácia, imagem e laboratório para o atendimento de urgência. Onde o indicador se calcula de «igual a 24», pergunta-se o número de horas, que dá o indicador e o gradiente.
 
-<div class="hhfa">
-<details><summary>Ver os 3 indicadores</summary>
-
-- 3.5.1.1.5 — Farmácia 24 horas (11.E.8.1 igual a 24)
-- 3.5.1.1.6 — Serviços de imagem 24 horas (11.E.8.2 igual a 24)
-- 3.5.1.1.7 — Serviços de laboratório 24 horas (11.E.8.3 igual a 24)
-
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 3.5.1.1.5 a 3.5.1.1.7
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| 11.E.8.1 = 24 | 3.5.1.1.5 | Unidades com farmácia 24 horas<br>*Percentage of facilities offering 24-hour pharmacy services* | Q2612 = 24; todas as unidades |
+| 11.E.8.2 = 24 | 3.5.1.1.6 | Unidades com serviços de imagem 24 horas<br>*Percentage of facilities offering 24-hour radiological services* | Q2610 = 24; todas as unidades |
+| 11.E.8.3 = 24 | 3.5.1.1.7 | Unidades com serviços de laboratório 24 horas<br>*Percentage of facilities offering 24-hour laboratory services* | Q2611 = 24; todas as unidades |
 :::
-
-</details>
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -902,7 +929,7 @@ Durante quantas horas por dia estão habitualmente disponíveis para o atendimen
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-- **11.E.8.1** Farmácia ou dispensa de medicamentos · **11.E.8.2** Exames de imagem · **11.E.8.3** Exames de laboratório
+- **11.E.8.1** Farmácia ou dispensa de medicamentos [HHFA 3.5.1.1.5]{.hhfa .cod-hhfa} · **11.E.8.2** Exames de imagem [HHFA 3.5.1.1.6]{.hhfa .cod-hhfa} · **11.E.8.3** Exames de laboratório [HHFA 3.5.1.1.7]{.hhfa .cod-hhfa}
 :::
 
 ::: {.respostas .rotulado}
@@ -917,18 +944,20 @@ Pergunta-se o **número de horas** e não sim ou não, porque os três indicador
 **O valor está menos em cada um deles e mais no conjunto:** um banco de urgência aberto 24 horas com laboratório aberto 8 horas é uma unidade que não consegue investigar o doente grave de madrugada, e essa combinação não é visível em nenhum dos três indicadores lido isoladamente. A opção 97 evita que uma unidade sem laboratório seja contada como unidade com laboratório fechado.
 :::
 
-## 11.10 · Farmácia [antigo 7.2.10]{.antigo} [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}
+## 11.10 · Farmácia [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se existe serviço de farmácia em funcionamento em cada unidade. Nesta ronda não gera indicador do HHFA: o rendimento da farmácia está na tabela 2.4.1.1 — 37 indicadores de medicamentos essenciais —, que exige ver os produtos na prateleira e fica parqueada para o bloco de medicamentos.
-
-::: {.hhfa}
-Indicador do HHFA: nenhum nesta ronda · medida própria do Mapa Sanitário; tabela 2.4.1.1 parqueada
-:::
+Se existe serviço de farmácia em funcionamento em cada unidade. Nesta ronda não gera indicador: o rendimento da farmácia está nos 37 indicadores de medicamentos essenciais, que exigem ver os produtos na prateleira e ficam parqueados para o bloco de medicamentos.
 
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: tabela 2.4.1.1 (37 indicadores de medicamentos essenciais; por exemplo 2.4.1.1.37 — Medicamentos essenciais: unidades com todos os produtos (*Essential medicines: percentage of facilities with all items*)) — porque conta os produtos observados na prateleira, não a existência do serviço de farmácia; fica parqueada para o bloco de medicamentos.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -945,23 +974,25 @@ Existe nesta unidade sanitária um serviço de farmácia em funcionamento?
 ::: {.nota}
 **Mantém-se como caixa única.** O horário de funcionamento para a urgência é recolhido em 11.E.8.1, e a disponibilidade de medicamentos fica para o bloco próprio.
 
-**Razão do parqueamento.** O que o instrumento internacional pede à farmácia não é a existência do serviço, é a presença **observada** dos produtos na prateleira, dentro da validade: 181 linhas de produto em dez grupos, mais blocos condicionais de malária, tuberculose e antirretrovirais. Os indicadores contam apenas o produto visto e válido, pelo que a escala colapsa sem observação. É a tabela de maior rendimento para os cuidados primários — 37 indicadores — e merece decisão própria.
+**Razão do parqueamento.** O que interessa medir na farmácia não é a existência do serviço, é a presença **observada** dos produtos na prateleira, dentro da validade: 181 linhas de produto em dez grupos, mais blocos condicionais de malária, tuberculose e antirretrovirais. Os indicadores contam apenas o produto visto e válido, pelo que a escala colapsa sem observação. É a tabela de maior rendimento para os cuidados primários — 37 indicadores — e merece decisão própria.
 
 **Pendência aberta.** Está pedida ao MINSA a Lista Nacional de Medicamentos Essenciais com a indicação do exigido a cada nível da rede. Sem ela, as 181 linhas são demasiadas para um posto de saúde e não há critério defensável para as encurtar.
 :::
 
-## 11.14 · Esterilização [antigo 7.2.14]{.antigo} [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}
+## 11.14 · Esterilização [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se existe serviço de esterilização em funcionamento em cada unidade. Nesta ronda não gera indicador do HHFA: o 2.5.1.1.8 — unidades com equipamento de esterilização ou com sistema de envio do material para esterilizar fora — exige verificação e fica para o bloco de prevenção e controlo de infecções.
-
-::: {.hhfa}
-Indicador do HHFA: nenhum nesta ronda · medida própria do Mapa Sanitário; 2.5.1.1.8 parqueado
-:::
+Se existe serviço de esterilização em funcionamento em cada unidade. Nesta ronda não gera indicador: o indicador de esterilização — unidades com equipamento de esterilização ou com sistema de envio do material para esterilizar fora — exige verificação e fica para o bloco de prevenção e controlo de infecções.
 
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 2.5.1.1.8 — Unidades com equipamento de esterilização ou com sistema de envio do material para esterilizar fora (*Percentage of facilities with sterilization equipment in facility or system for sending items outside for sterilization*) — porque se calcula do método e do equipamento verificados (Q1223, Q1225), não da existência do serviço; fica parqueado para o bloco de prevenção e controlo de infecções.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}

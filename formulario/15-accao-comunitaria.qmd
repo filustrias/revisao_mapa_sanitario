@@ -15,22 +15,26 @@ Actividade da unidade na comunidade: distribuição de redes mosquiteiras, briga
 | 15.2 e 15.3 | Brigadas móveis e equipas avançadas organizadas pela unidade [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 15.4 e 15.4.0 | Número de ADECOS que trabalham a partir da unidade [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 15.4.1 | Articulação com os ADECOS em seis programas [(6 indicadores do HHFA)]{.hhfa} |
-| 15.4.2 | Procura de faltosos pelos ADECOS, por linha de cuidado |
+| 15.4.2 | Procura de faltosos pelos ADECOS, por linha de cuidado [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
-## 15.1 · Distribuição de redes mosquiteiras [antigo 7.3.14]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+## 15.1 · Distribuição de redes mosquiteiras [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que distribuem redes mosquiteiras tratadas de longa duração à população de forma regular, durante mais de 6 meses no ano. O HHFA não tem indicador de distribuição geral de redes; pergunta pela rede entregue em consulta, que neste formulário está em 13.1.1 (grávida) e 12.2.1 (criança). É medida própria do Mapa Sanitário.
-
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
+Percentagem de unidades que distribuem redes mosquiteiras tratadas de longa duração à população de forma regular, durante mais de 6 meses no ano. A rede entregue em consulta é recolhida em 13.1.1 (grávida) e 12.2.1 (criança). É medida própria do Mapa Sanitário.
 
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 3.1.2.1.11 — unidades que oferecem rede mosquiteira tratada de longa duração, ou vale, à grávida (*Percentage of facilities offering LLIN or voucher for pregnant women*) — porque não é o mesmo: conta a rede entregue na consulta pré-natal (Q1812_4 = 1), que neste formulário está em 13.1.1, e não a distribuição à população. Do lado da criança, o equivalente é 3.1.8.1.12 (*Percentage of facilities offering for children < 5 years LLIN or voucher for LLIN*), em 12.2.1.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -55,18 +59,20 @@ Mantém-se o código e o sentido. A única alteração é trazer para dentro da 
 **É contributo próprio:** o instrumento internacional só pergunta pela rede entregue em consulta — pré-natal, pós-parto e cuidados à criança — e não pela distribuição à população em geral, que é a modalidade do programa angolano. As duas leituras passam a coexistir.
 :::
 
-## 15.2 · Brigadas móveis de vacinação [antigo 7.3.15]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+## 15.2 · Brigadas móveis de vacinação [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que organizam brigadas móveis de vacinação, a 10 km ou mais. O HHFA não tem indicador de actividade extramural organizada pela unidade: a vacinação em estratégia avançada só entra, sem se distinguir, nos indicadores de imunização. É medida própria do Mapa Sanitário.
-
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
+Percentagem de unidades que organizam brigadas móveis de vacinação, a 10 km ou mais. É medida própria do Mapa Sanitário.
 
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -92,23 +98,25 @@ A partir desta unidade sanitária realizam-se periodicamente brigadas móveis de
 ::: {.nota}
 Mantêm-se integralmente, com as definições do Guião — incluindo as três exclusões, que são o que dá sentido à resposta — trazidas para dentro da pergunta. As duas caixas continuam separadas porque **medem esforços logísticos de ordem diferente**: uma unidade que faz equipas avançadas perto e não faz brigadas longe tem um problema de transporte, não de organização.
 
-**Contributo próprio do Mapa Sanitário.** O instrumento internacional não tem indicador de actividade extramural ou de brigada móvel organizada pela unidade, que é uma parte importante dos cuidados primários num país com a densidade populacional de Angola.
+**Contributo próprio do Mapa Sanitário.** A actividade extramural e as brigadas móveis organizadas pela unidade são uma parte importante dos cuidados primários num país com a densidade populacional de Angola.
 
 **Articula-se com a secção 9:** as motorizadas e as bicicletas da Ficha são, em muitas unidades, o meio exacto com que isto se faz.
 :::
 
-## 15.3 · Equipas avançadas de vacinação [antigo 7.3.16]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+## 15.3 · Equipas avançadas de vacinação [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades que organizam equipas avançadas de vacinação, a menos de 10 km. É medida própria do Mapa Sanitário.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -131,18 +139,22 @@ E equipas avançadas de vacinação na área de referência, a menos de 10 km?
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Inclui postos avançados. Exclui campanhas de vacinação e brigadas organizadas pela delegação ou secção municipal, mesmo com participação de pessoal desta unidade.
 :::
 
-## 15.4 · ADECOS [antigo 7.3.17]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+## 15.4 · ADECOS [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Quantas unidades têm ADECOS a trabalhar a partir delas. É a porta da pergunta seguinte e das grelhas 15.4.1 e 15.4.2. O HHFA não conta agentes comunitários; mede a articulação da unidade com eles, que é o que 15.4.1 recolhe. É medida própria do Mapa Sanitário.
-
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
+Quantas unidades têm ADECOS a trabalhar a partir delas. É a porta da pergunta seguinte e das grelhas 15.4.1 e 15.4.2. A articulação da unidade com eles é recolhida em 15.4.1. É medida própria do Mapa Sanitário.
 
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 4.1.1.4.2 — unidades que gerem agentes comunitários (*Percentage of facilities that manage any CHWs*) — porque não é o mesmo: o HHFA pergunta se a unidade gere agentes comunitários (Q540_1 = 1); aqui pergunta-se se há ADECOS a trabalhar a partir da unidade, seja quem for que os gere.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -165,18 +177,20 @@ Existem Agentes de Desenvolvimento Comunitário e de Saúde (ADECOS) a trabalhar
 A caixa existe e mantém-se; **o que se acrescenta é o campo da quantidade, como o Guião já prevê**: «ADECOS: Agentes de Desenvolvimento Comunitário e de Saúde, trabalhando na Unidade Sanitária. Nesse caso, especificar a quantidade» (folhas 12 e 13).
 :::
 
-## 15.4.0 · Número de ADECOS [antigo 7.3.17.0]{.antigo} [NOVO]{.etiqueta .novo}
+## 15.4.0 · Número de ADECOS [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Quantos ADECOS trabalham a partir de cada unidade — o primeiro inventário da força de trabalho comunitária da rede, agregável por município e por província. É medida própria do Mapa Sanitário.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -194,31 +208,27 @@ Número, 000 a 999
 Uma caixa de número resolve, e passa a haver pela primeira vez **um inventário da força de trabalho comunitária da rede**, que é informação central para um plano de investimentos em cuidados primários.
 :::
 
-## 15.4.1 · Articulação com os ADECOS [antigo 7.3.17.1]{.antigo} [NOVO]{.etiqueta .novo}
+## 15.4.1 · Articulação com os ADECOS [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades com articulação com os agentes comunitários em cada programa — planeamento familiar, pré-natal, criança, malária, tuberculose e VIH. Seis linhas, seis indicadores; cada um completa a tabela do seu programa.
-
-<div class="hhfa">
-<details><summary>Ver os 6 indicadores</summary>
-
-- 3.1.1.1.15 — ligação com agentes comunitários no planeamento familiar (linha 1)
-- 3.1.2.1.16 — na consulta pré-natal (linha 2)
-- 3.1.8.1.13 — na saúde da criança menor de 5 anos (linha 3)
-- 3.2.2.1.7 — nos serviços de malária (linha 4)
-- 3.2.3.1.8 — nos serviços de tuberculose (linha 5)
-- 3.2.6.1.5 — nos serviços de VIH (linha 6)
+Percentagem de unidades com articulação com os agentes comunitários em cada programa — planeamento familiar, pré-natal, criança, malária, tuberculose e VIH. Seis linhas, uma por programa.
 
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 3.1.1.1.15 · 3.1.2.1.16 · 3.1.8.1.13 · 3.2.2.1.7 · 3.2.3.1.8 · 3.2.6.1.5
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 15.4.1.1 · Planeamento familiar, resposta 1 | 3.1.1.1.15 | Unidades que oferecem ligação com agentes comunitários nos serviços de planeamento familiar<br>*Percentage of facilities offering links with CHWs for family planning services* | Q1804 = 1; todas as unidades |
+| Linha 15.4.1.2 · Consulta pré-natal, resposta 1 | 3.1.2.1.16 | Unidades que oferecem ligação com agentes comunitários na consulta pré-natal<br>*Percentage of facilities offering links with CHWs for ANC services* | Q1813 = 1; todas as unidades |
+| Linha 15.4.1.3 · Cuidados à criança menor de 5 anos, resposta 1 | 3.1.8.1.13 | Unidades que oferecem, para crianças menores de 5 anos, ligação com agentes comunitários na saúde da criança<br>*Percentage of facilities offering for children < 5 years linkages with community health workers  (CHWs)  for child health* | Q2003 = 1; todas as unidades |
+| Linha 15.4.1.4 · Malária, resposta 1 | 3.2.2.1.7 | Unidades que oferecem ligação com agentes comunitários nos serviços de malária<br>*Percentage of facilities offering links with CHWs for malaria services* | Q1402 = 1; todas as unidades |
+| Linha 15.4.1.5 · Tuberculose, resposta 1 | 3.2.3.1.8 | Unidades que oferecem ligação com agentes comunitários em algum serviço de tuberculose<br>*Percentage of facilities offering links with CHWs for any TB-related services* | Q2414 = 1; todas as unidades |
+| Linha 15.4.1.6 · VIH, resposta 1 | 3.2.6.1.5 | Unidades que oferecem ligação com agentes comunitários nos serviços de VIH<br>*Percentage of facilities offering links with CHWs for HIV-related services* | Q2311 = 1; todas as unidades |
 :::
-
-</details>
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -231,16 +241,16 @@ Para cada área seguinte, diga-me se existe articulação regular entre esta uni
 
 | Código | Área | 1 · Sim, articulação regular | 2 · Não | 98 · Não sabe |
 |---|---|:-:|:-:|:-:|
-| 15.4.1.1 | Planeamento familiar | ☐ | ☐ | ☐ |
-| 15.4.1.2 | Consulta pré-natal | ☐ | ☐ | ☐ |
-| 15.4.1.3 | Cuidados à criança menor de 5 anos | ☐ | ☐ | ☐ |
-| 15.4.1.4 | Malária | ☐ | ☐ | ☐ |
-| 15.4.1.5 | Tuberculose | ☐ | ☐ | ☐ |
-| 15.4.1.6 | VIH | ☐ | ☐ | ☐ |
+| 15.4.1.1 | Planeamento familiar [HHFA 3.1.1.1.15]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.4.1.2 | Consulta pré-natal [HHFA 3.1.2.1.16]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.4.1.3 | Cuidados à criança menor de 5 anos [HHFA 3.1.8.1.13]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.4.1.4 | Malária [HHFA 3.2.2.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.4.1.5 | Tuberculose [HHFA 3.2.3.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.4.1.6 | VIH [HHFA 3.2.6.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota}
-**Seis caixas, seis indicadores — e é o achado mais importante desta secção.** O instrumento internacional espalha a ligação com os agentes comunitários por seis programas diferentes e mede-a em todos, porque **a articulação entre a unidade e a comunidade é constitutiva dos cuidados primários e não um extra**.
+**Seis caixas, uma por programa — e é o achado mais importante desta secção.** A ligação com os agentes comunitários mede-se em cada um dos seis programas, porque **a articulação entre a unidade e a comunidade é constitutiva dos cuidados primários e não um extra**.
 
 Angola tem a infra-estrutura — os ADECOS existem e a Ficha já os registra — e o que se acrescenta é perguntar **para quê**, que é o que estas seis linhas fazem.
 
@@ -256,11 +266,13 @@ Reunir as seis numa única grelha, em vez de as dispersar pelos blocos, foi opç
 
 Percentagem de unidades em que os ADECOS procuram os utentes que faltaram, em cada linha de cuidado. Lida com a pergunta da procura activa de cada linha (10.B.1, 12.1.5, 12.2.2, 13.1.2, 13.4.13, 14.4.3, 14.7.6), mostra que parte da procura passa pela comunidade.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}

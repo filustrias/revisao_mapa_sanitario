@@ -11,66 +11,64 @@ População da área de abrangência da unidade sanitária e unidades para onde 
 
 | Quesito | O que se obtém |
 |---|---|
-| 3.1 | População da área de abrangência directa — denominador das densidades [(27 indicadores do HHFA)]{.hhfa} |
-| 3.1.1 | Origem de cada estimativa da população |
-| 3.1.2 | Ano de cada estimativa da população |
-| 3.1.3 | Total de controlo da árvore de referência |
-| 3.2.1 a 3.2.3 | Nó superior de cada unidade — a árvore nacional de referência |
-| 3.2.4 | Meio de transporte usado para transferir doentes ao nó superior |
-| 3.2.5 a 3.2.7 | Distância ao nó superior, no total, em estrada asfaltada e em estrada de terra ou picada |
-| 3.2.8 e 3.2.9 | Tempo ao nó superior, na época seca e na das chuvas |
-| 3.3.1 | Grupos de doentes com referência lateral, com a rede obstétrica em separado |
-| 3.3.2 a 3.3.6 | Unidade de referência lateral, distância e tempo até ela |
-| 3.4 a 3.9 | Funcionamento do sistema de referência [(parqueado; 5 indicadores do HHFA)]{.hhfa} |
+| 3.1 | População da área de abrangência directa — denominador das densidades [(26 indicadores do HHFA)]{.hhfa} |
+| 3.1.1 | Origem de cada estimativa da população [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.1.2 | Ano de cada estimativa da população [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.1.3 | Total de controlo da árvore de referência [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.2.1 a 3.2.3 | Nó superior de cada unidade — a árvore nacional de referência [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.2.4 | Meio de transporte usado para transferir doentes ao nó superior [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.2.5 a 3.2.7 | Distância ao nó superior, no total, em estrada asfaltada e em estrada de terra ou picada [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.2.8 e 3.2.9 | Tempo ao nó superior, na época seca e na das chuvas [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.3.1 | Grupos de doentes com referência lateral, com a rede obstétrica em separado [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.3.2 a 3.3.6 | Unidade de referência lateral, distância e tempo até ela [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.4 a 3.9 | Funcionamento do sistema de referência [(parqueado; 6 indicadores do HHFA)]{.hhfa} |
 
 </details>
 
-## 3.1 População adstrita [antigo 3.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 3.1 População adstrita [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-População da área de abrangência directa de cada unidade. É o denominador dos indicadores de densidade do HHFA — unidades sanitárias, camas e pessoal por habitante. A população de cada nó da rede passa a calcular-se a partir da árvore de referência — a própria mais a das unidades que lhe referem doentes —, sem contar ninguém duas vezes.
-
-<div class="hhfa">
-<details><summary>Ver os 27 indicadores</summary>
-
-- 1.1.1.1.1 — Número de unidades sanitárias por 10 000 habitantes
-- 1.1.1.1.2 — Número de unidades de cuidados primários por 10 000 habitantes
-- 1.1.1.1.3 — Número de camas de internamento por 10 000 habitantes
-- 1.1.1.1.4 — Número de camas de maternidade por 1 000 grávidas
-- 1.2.2.1.1 — Médicos por 10 000 habitantes
-- 1.2.2.1.2 — Profissionais paramédicos por 10 000 habitantes
-- 1.2.2.1.3 — Profissionais de enfermagem e de partos por 10 000 habitantes
-- 1.2.2.1.4 — Parteiras por 10 000 habitantes
-- 1.2.2.2.1 — Médicos de clínica geral por 10 000 habitantes
-- 1.2.2.2.2 — Especialistas em medicina familiar por 10 000 habitantes
-- 1.2.2.3.1 — Médicos especialistas (todas as especialidades) por 10 000 habitantes
-- 1.2.2.3.2 — Especialistas do grupo médico por 10 000 habitantes
-- 1.2.2.3.3 — Pediatras por 10 000 habitantes
-- 1.2.2.3.4 — Obstetras e ginecologistas por 10 000 habitantes
-- 1.2.2.3.5 — Especialistas do grupo cirúrgico por 10 000 habitantes
-- 1.2.2.3.6 — Psiquiatras por 10 000 habitantes
-- 1.2.2.4.1 — Médicos dentistas por 10 000 habitantes
-- 1.2.2.4.2 — Farmacêuticos por 10 000 habitantes
-- 1.2.2.4.3 — Profissionais de saúde ambiental, saúde ocupacional e higiene por 10 000 habitantes
-- 1.2.2.4.4 — Fisioterapeutas por 10 000 habitantes
-- 1.2.2.4.5 — Terapeutas ocupacionais por 10 000 habitantes
-- 1.2.2.4.6 — Dietistas e nutricionistas por 10 000 habitantes
-- 1.2.2.4.7 — Audiologistas e terapeutas da fala por 10 000 habitantes
-- 1.2.2.4.8 — Optometristas e ópticos por 10 000 habitantes
-- 1.4.1.1.1 — Índice de densidade de unidades sanitárias
-- 1.4.1.1.2 — Índice de densidade de camas de internamento
-- 1.4.1.1.3 — Índice de densidade de camas de maternidade
+População da área de abrangência directa de cada unidade. É o denominador dos indicadores de densidade — unidades sanitárias, camas e pessoal por habitante. A população de cada nó da rede passa a calcular-se a partir da árvore de referência — a própria mais a das unidades que lhe referem doentes —, sem contar ninguém duas vezes.
 
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 1.1.1.1.1 a 1.1.1.1.4 · 1.2.2.1.1 a 1.2.2.4.8 · 1.4.1.1.1 a 1.4.1.1.3 — como denominador
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta (população) — denominador | 1.1.1.1.1 | Número de unidades sanitárias por 10 000 habitantes<br>*Number of health facilities per 10,000 population* | Cada unidade conta 1 (FVRES ≠ 3 e ≠ 4); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.1.1.1.2 | Número de unidades de cuidados primários por 10 000 habitantes<br>*Number of primary care facilities per 10,000 population* | Entra no cálculo de 1.1.1.1.2 (ver 2.7) |
+| Resposta (população) — denominador | 1.1.1.1.3 | Número de camas de internamento por 10 000 habitantes<br>*Number of inpatient beds per 10,000 population* | Q403 (camas de internamento, secção 7); somado por área ÷ população da área geográfica |
+| Resposta (população) — base do denominador (grávidas) | 1.1.1.1.4 | Número de camas de maternidade por 1 000 grávidas<br>*Number of maternity beds per 1,000 pregnant women* | Q404_1 (camas de maternidade, secção 7); somado por área ÷ grávidas da área geográfica |
+| Resposta (população) — denominador | 1.2.2.1.1 | Médicos por 10 000 habitantes<br>*Medical doctors per 10,000 population* | Q304C + Q306C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.1.2 | Profissionais paramédicos por 10 000 habitantes<br>*Paramedical practitioners per 10,000 population* | Q308_1C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.1.3 | Profissionais de enfermagem e de partos por 10 000 habitantes<br>*Nursing and midwifery professionals per 10,000 population* | Q308_2C + Q308_3C + Q308_4C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.1.4 | Parteiras por 10 000 habitantes<br>*Midwifery professionals  per 10,000 population* | Q308_3C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.2.1 | Médicos de clínica geral por 10 000 habitantes<br>*Generalist medical doctors per 10,000 population* | Q304C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.2.2 | Especialistas em medicina familiar por 10 000 habitantes<br>*Family medicine specialists per 10,000 population* | Q305_2C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.3.1 | Médicos especialistas (todas as especialidades) por 10 000 habitantes<br>*Specialist medical doctors  (all disciplines) per 10,000 population* | Q306C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.3.2 | Especialistas do grupo médico por 10 000 habitantes<br>*Specialists in medical group per 10,000 population* | Q307_1C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.3.3 | Pediatras por 10 000 habitantes<br>*Paediatricians per 10,000 population* | Q307_2C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.3.4 | Obstetras e ginecologistas por 10 000 habitantes<br>*Obstetricians/gynecologists per 10,000 population* | Q307_3C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.3.5 | Especialistas do grupo cirúrgico por 10 000 habitantes<br>*Specialists in surgical group per 10,000 population* | Q307_5C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.3.6 | Psiquiatras por 10 000 habitantes<br>*Psychiatrists per 10,000 population* | Q307_4C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.4.1 | Médicos dentistas por 10 000 habitantes<br>*Dentists per 10,000 population* | Q309_1C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.4.2 | Farmacêuticos por 10 000 habitantes<br>*Pharmacists per 10,000 population* | Q309_2C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.4.3 | Profissionais de saúde ambiental, saúde ocupacional e higiene por 10 000 habitantes<br>*Environmental and occupational health and hygiene professionals per 10,000 population* | Q309_4C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.4.4 | Fisioterapeutas por 10 000 habitantes<br>*Physiotherapists per 10,000 population* | Q309_8C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.4.5 | Terapeutas ocupacionais por 10 000 habitantes<br>*Occupational therapists per 10,000 population* | Q309_6C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.4.6 | Dietistas e nutricionistas por 10 000 habitantes<br>*Dietitians/Nutrionists per 10,000 population* | Q309_3C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.4.7 | Audiologistas e terapeutas da fala por 10 000 habitantes<br>*Audiologists and speech therapists per 10,000 population* | Q309_5C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.2.2.4.8 | Optometristas e ópticos por 10 000 habitantes<br>*Optometrists and ophthalmic opticians per 10,000 population* | Q309_7C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.4.1.1.1 | Índice de densidade de unidades sanitárias<br>*Health facility density score* | Cada unidade conta 1 (FVRES ≠ 3 e ≠ 4) ÷ 2 (meta: 2 unidades por 10 000 habitantes); somado por área ÷ população da área geográfica |
+| Resposta (população) — denominador | 1.4.1.1.2 | Índice de densidade de camas de internamento<br>*Inpatient bed density score* | Q401 (camas, secção 7) ÷ 25 (meta: 25 camas por 10 000 habitantes); somado por área ÷ população da área geográfica |
+| Resposta (população) — base do denominador (grávidas) | 1.4.1.1.3 | Índice de densidade de camas de maternidade<br>*Maternity bed density score* | Q404_1 (camas de maternidade, secção 7) ÷ 10 (meta: 10 camas por 1 000 grávidas); somado por área ÷ grávidas da área geográfica |
+
+A população de cada área obtém-se somando 3.1 das unidades da área, sem duplicações; o catálogo diz apenas «população da área geográfica» e não fixa a fonte.
 :::
-
-</details>
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -94,18 +92,22 @@ Qual é a população total residente na área de abrangência **directa** desta
 **Consequência.** É o denominador de 27 indicadores, incluindo as 20 densidades de pessoal por habitante.
 :::
 
-## 3.1.1 Origem da estimativa [antigo 3.1.1]{.antigo} [NOVO]{.etiqueta .novo}
+## 3.1.1 Origem da estimativa [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Origem de cada estimativa da população. Permite decidir, na análise, que estimativas usar.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · qualifica o denominador de 27 indicadores
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Qualifica a população usada como denominador nos 27 indicadores de 3.1.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -135,18 +137,22 @@ De onde provém essa estimativa da população?
 **Para que serve.** Duas caixas que qualificam o denominador de 27 indicadores. Uma densidade de enfermeiros por habitante calculada sobre uma projecção do INE de 2024 e outra calculada sobre um recenseamento feito pela unidade em 2016 não são comparáveis, e estas duas caixas permitem distingui-las.
 :::
 
-## 3.1.2 Ano da estimativa [antigo 3.1.2]{.antigo} [NOVO]{.etiqueta .novo}
+## 3.1.2 Ano da estimativa [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Ano de cada estimativa da população. Permite corrigir por crescimento populacional quando se comparam edições.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · qualifica o denominador de 27 indicadores
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Qualifica a população usada como denominador nos 27 indicadores de 3.1.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -160,18 +166,22 @@ A que ano se refere essa estimativa?
 - Ano, 4 dígitos
 :::
 
-## 3.1.3 Unidades que referem para esta [antigo 3.1.3]{.antigo} [NOVO]{.etiqueta .novo}
+## 3.1.3 Unidades que referem para esta [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Total de controlo da árvore de referência. Confrontado com o número de unidades que indicam esta como nó superior, mostra se faltam fichas e em que município procurar.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Uso na análise: total de controlo da árvore de referência.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -193,18 +203,20 @@ Quantas unidades sanitárias referem habitualmente doentes para esta unidade?
 É o total de controlo da árvore de referência: permite confrontar o que cada unidade declara receber com o que as outras declaram enviar. Divergências entre os dois lados são informação sobre o funcionamento real da rede, não erros a corrigir.
 :::
 
-## 3.2.1 a 3.2.3 Nó superior da referência [antigo 3.2.1 a 3.2.3]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 3.2.1 a 3.2.3 Nó superior da referência [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 A unidade para onde cada unidade transfere os doentes que precisam de cuidados de nível superior. Com o código do Mapa Sanitário, a árvore de referência nacional reconstrói-se a partir das fichas — e com ela, por exemplo, a proporção de postos cujo centro de referência tem laboratório ou assiste partos.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -230,18 +242,22 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 **Porque mudou.** A Ficha oferece duas filas para duas unidades de referência. A proposta dá a cada uma um papel próprio e separa o nó superior, que é obrigatório e único, da referência lateral de 3.3, que é opcional e definida por grupo de doentes. O acrescento com mais consequência é **3.2.3, o código**: com ele, a árvore de referência nacional passa a ser reconstruível a partir das fichas, sem depender da grafia com que cada unidade escreve o nome do hospital de destino.
 :::
 
-## 3.2.4 Meio de transporte ao nó superior [antigo 3.2.4]{.antigo} [NOVO]{.etiqueta .novo}
+## 3.2.4 Meio de transporte ao nó superior [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-O meio de transporte de facto usado para transferir doentes para a referência superior. Lido em conjunto com o indicador do HHFA «Percentagem de unidades sanitárias com sistema de transporte de emergência para doentes» (2.1.1.1.7), recolhido nos serviços gerais, identifica as zonas sem evacuação exequível.
-
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
+O meio de transporte de facto usado para transferir doentes para a referência superior. Lido em conjunto com a existência de sistema de transporte de emergência para doentes, recolhida nos serviços gerais, identifica as zonas sem evacuação exequível.
 
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 2.1.1.1.7 — Unidades com sistema de transporte de emergência para doentes (*Percentage of facilities with emergency transportation system for patients*) — o HHFA pergunta se há viatura de emergência funcional na unidade ou disponível por chamada ((Q1232 = 1 ou 2) e Q1234 = 1; ver 17.1 e 17.1.1), e não o meio de facto usado para transferir doentes. Lidos em conjunto, identificam as zonas sem evacuação exequível.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -268,18 +284,20 @@ Qual é o meio de transporte mais frequentemente utilizado para transferir doent
 **O meio de transporte** (3.2.4) é novo e pergunta pelo que de facto se usa, não pelo que deveria usar-se. A opção 5, transporte pago pelo doente, e a opção 6, a pé ou em maca, são respostas frequentes no terreno, que passam a ter opção própria.
 :::
 
-## 3.2.5 Distância total ao nó superior [antigo 3.2.5]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 3.2.5 Distância total ao nó superior [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Distância de cada unidade à sua referência superior, pelo percurso habitual. Com 3.2.6 e 3.2.7, a parte do percurso em estrada asfaltada e em estrada de terra ou picada.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -301,7 +319,13 @@ Distância total em quilómetros pelo percurso habitual.
 **Porque mudou.** Os quatro campos da Ficha mantêm-se no essencial e ganham precisões. A decomposição em asfalto e picada, já pedida pelo Guião, mantém-se; acrescenta-se a instrução de que a distância é pela estrada e não em linha recta, para que os números sejam comparáveis entre unidades.
 :::
 
-## 3.2.6 Quilómetros em estrada asfaltada [antigo 3.2.6]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 3.2.6 Quilómetros em estrada asfaltada [ALTERADO]{.etiqueta .alterado}
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -315,7 +339,13 @@ Quantos desses quilómetros são em estrada asfaltada.
 - Quilómetros, 3 dígitos
 :::
 
-## 3.2.7 Quilómetros em estrada de terra ou picada [antigo 3.2.7]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 3.2.7 Quilómetros em estrada de terra ou picada [ALTERADO]{.etiqueta .alterado}
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -333,18 +363,20 @@ Quantos são em estrada de terra ou picada.
 **Verificação a programar.** A soma de 3.2.6 e 3.2.7 deve ser igual a 3.2.5.
 :::
 
-## 3.2.8 Tempo ao nó superior na época seca [antigo 3.2.8]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 3.2.8 Tempo ao nó superior na época seca [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Tempo de cada unidade à sua referência superior, na época seca.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -358,18 +390,20 @@ Tempo em minutos na época seca.
 - Minutos, 3 dígitos; **997** se intransitável, **998** se não sabe
 :::
 
-## 3.2.9 Tempo ao nó superior na época das chuvas [antigo 3.2.9]{.antigo} [NOVO]{.etiqueta .novo}
+## 3.2.9 Tempo ao nó superior na época das chuvas [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Tempo de cada unidade à sua referência superior, na época das chuvas, e as referências que nessa época se tornam intransitáveis.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -387,18 +421,20 @@ Tempo em minutos na época das chuvas.
 **O acrescento decisivo é a época das chuvas** (3.2.9): numa boa parte do país a referência que leva 40 minutos em Agosto leva três horas em Fevereiro, ou não é possível — e é essa a situação que um plano de investimentos precisa de ver. O código 997 regista a intransitabilidade sem a confundir com um tempo muito longo.
 :::
 
-## 3.3.1 Grupo de doentes com referência lateral [antigo 3.3.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 3.3.1 Grupo de doentes com referência lateral [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Para que grupos de doentes cada unidade usa uma referência diferente da superior. Permite mapear a rede obstétrica separadamente da rede geral.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -429,18 +465,20 @@ Esta unidade envia habitualmente algum grupo específico de doentes para uma uni
 **Porque mudou.** A segunda fila da Ficha passa a ser uma referência qualificada: além de saber para onde, passa a saber-se **para quem**. O próprio Guião dá o exemplo — o envio das grávidas ao Centro Materno Infantil —, e a proposta passa a recolher o motivo, para que a segunda unidade de referência possa ser interpretada.
 :::
 
-## 3.3.2 a 3.3.4 Unidade de referência lateral [antigo 3.3.2 a 3.3.4]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 3.3.2 a 3.3.4 Unidade de referência lateral [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Para onde cada unidade envia o grupo de doentes indicado em 3.3.1.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -454,18 +492,20 @@ Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
 - **3.3.2** a **3.3.4**: como no nó superior
 :::
 
-## 3.3.5 Distância à referência lateral [antigo 3.3.5]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 3.3.5 Distância à referência lateral [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 A que distância está a referência lateral de cada unidade.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -483,18 +523,20 @@ Distância total em quilómetros.
 **Regra de desenho.** Se o motivo indicado em 3.3.1 for obstetrícia e maternidade, aplica-se o protocolo completo de distância, como no nó superior — asfalto, picada e época das chuvas. É a referência em que o tempo decide o desfecho.
 :::
 
-## 3.3.6 Tempo à referência lateral na época seca [antigo 3.3.6]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 3.3.6 Tempo à referência lateral na época seca [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Em quanto tempo se chega à referência lateral de cada unidade, na época seca.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -508,33 +550,32 @@ Tempo em minutos na época seca.
 - Minutos, 3 dígitos; 997 intransitável, 998 não sabe
 :::
 
-## 3.4 a 3.9 Funcionamento do sistema de referência [antigo 3.4 a 3.9]{.antigo} [PARQUEADO]{.etiqueta .parqueado}
+## 3.4 a 3.9 Funcionamento do sistema de referência [PARQUEADO]{.etiqueta .parqueado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se o sistema de referência funciona, e não apenas para onde se refere: se existe sistema estabelecido, normas escritas de referência e de contrarreferência, registo dos doentes referidos e informação de retorno. Corresponde à subárea inteira de sistemas de referência do HHFA. Nas normas e no registo, o indicador conta apenas o documento observado.
-
-<div class="hhfa">
-<details><summary>Ver os 5 indicadores</summary>
-
-- 2.7.1.1.1 — Percentagem de unidades sanitárias com sistema para referir doentes a outras unidades
-- 2.7.1.1.2 — Percentagem de unidades sanitárias com normas ou protocolos de referência
-- 2.7.1.1.3 — Percentagem de unidades sanitárias com normas ou protocolos de contrarreferência
-- 2.7.1.1.4 — Percentagem de unidades sanitárias com registo das referências feitas
-- 2.7.1.1.5 — Percentagem de unidades sanitárias que recebem habitualmente informação de retorno sobre os doentes referidos
+Se o sistema de referência funciona, e não apenas para onde se refere: se existe sistema estabelecido, normas escritas de referência e de contrarreferência, registo dos doentes referidos e informação de retorno. Nas normas e no registo, conta apenas o documento observado.
 
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 2.7.1.1.1 a 2.7.1.1.5, se o bloco entrar (todos)
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| 3.4 · Sistema de referência estabelecido | 2.7.1.1.1 | Unidades com sistema para referir doentes a outras unidades<br>*Percentage of facilities with system to refer patients to other facilities* | Q1227 = 1; todas as unidades |
+| 3.5 · Normas escritas de referência | 2.7.1.1.2 | Unidades com normas ou protocolos de referência<br>*Percentage of facilities with guidelines or protocols for referral* | Q1228 = 1 (documento observado); todas as unidades |
+| 3.6 · Normas escritas de contrarreferência | 2.7.1.1.3 | Unidades com normas ou protocolos de contrarreferência<br>*Percentage of facilities with guidelines or protocols for counter-referral* | Q1229 = 1 (documento observado); todas as unidades |
+| 3.7 · Registo das referências feitas | 2.7.1.1.4 | Unidades com registo das referências feitas<br>*Percentage of facilities with records of referrals out* | Q1230 = 1 (registo observado); todas as unidades |
+| 3.8 · Informação de retorno | 2.7.1.1.5 | Unidades que recebem habitualmente informação de retorno sobre os doentes referidos<br>*Percentage of facilities with feedback routinely received on referrals out* | Q1231 = 1; todas as unidades |
+| 3.9 · Viatura e motorista 24 horas | 2.7.1.1.6 | Unidades com acesso 24 horas a viatura funcional e motorista para transporte de doentes<br>*Percentage of facilities with 24 hour access to functional vehicle and driver for patient transport* | Entra no cálculo de 2.7.1.1.6 (ver 17.1 e 17.1.1); no HHFA, (Q1232 = 1 ou 2) e Q1233 = 1 e Q1234 = 1 |
+
+Bloco parqueado: os códigos aplicam-se se o bloco entrar. Os quesitos 3.4 a 3.9 ainda não têm opções de resposta escritas; os itens referem-se a cada quesito no seu todo.
 :::
 
-</details>
-
 ::: {.nota}
-Fica para o bloco de gestão o funcionamento do sistema de referência: se existe sistema estabelecido, se há normas de referência e de contrarreferência, se as referências feitas são registadas e se há informação de retorno. O quesito 3.9, sobre o acesso a viatura em condições de funcionamento e a motorista 24 horas, corresponde ao indicador 2.7.1.1.6, que se obtém também dos quesitos 17.1 e 17.1.1, nos serviços gerais.
+Fica para o bloco de gestão o funcionamento do sistema de referência: se existe sistema estabelecido, se há normas de referência e de contrarreferência, se as referências feitas são registadas e se há informação de retorno. O quesito 3.9, sobre o acesso a viatura em condições de funcionamento e a motorista 24 horas, obtém-se também dos quesitos 17.1 e 17.1.1, nos serviços gerais.
 
-São cinco indicadores que fecham uma subárea inteira (2.7.1.1.1 a 2.7.1.1.5). Dois são declarados — a existência do sistema e a informação de retorno —, e três pedem para ver o documento: as normas de referência, as normas de contrarreferência e o registo das referências feitas. Em recolha sem visita, estes três ficam vazios para a unidade. É candidato natural a entrar nesta ronda, se a revisão o considerar.
+São cinco medidas sobre o funcionamento da referência. Duas são declaradas — a existência do sistema e a informação de retorno —, e três pedem para ver o documento: as normas de referência, as normas de contrarreferência e o registo das referências feitas. Em recolha sem visita, estes três ficam vazios para a unidade. É candidato natural a entrar nesta ronda, se a revisão o considerar.
 :::

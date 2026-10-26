@@ -11,28 +11,32 @@ Propriedade e entidade gestora da unidade, orçamento próprio, serviços e órg
 
 | Quesito | O que se obtém |
 |---|---|
-| 16.1.1 | Tipo de proprietário da unidade — leitura de todos os indicadores por essa via [(estratificador)]{.hhfa} |
-| 16.1.2 | Nível que gere a unidade — nacional, provincial ou municipal [(estratificador)]{.hhfa} |
+| 16.1.1 | Tipo de proprietário da unidade — leitura de todos os indicadores por essa via [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 16.1.2 | Nível que gere a unidade — nacional, provincial ou municipal [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 16.2.1 a 16.2.17 | Existência e funcionamento de 17 serviços e órgãos de gestão [(4 indicadores do HHFA)]{.hhfa} |
-| 16.2.14.1 a 16.2.14.6 | Revisão de casos e de óbitos nas unidades com internamento [(6 indicadores do HHFA)]{.hhfa} |
+| 16.2.14.1 a 16.2.14.6 | Revisão de casos e de óbitos nas unidades com internamento [(7 indicadores do HHFA)]{.hhfa} |
 | 16.2.13.1 e 16.2.13.2 | Estrutura de gestão da prevenção e controlo de infecções [(3 indicadores do HHFA)]{.hhfa} |
 | 16.2.18.1 a 16.2.18.9 | Garantia e melhoria da qualidade [(7 indicadores do HHFA)]{.hhfa} |
-| Parqueados | Arquivo e reporte de dados; equipa de gestão [(cerca de 15 indicadores do HHFA, fora desta ronda)]{.hhfa} |
+| Parqueados | Arquivo e reporte de dados; equipa de gestão [(7 indicadores do HHFA identificados e cerca de 8 da área 4.5 por definir, fora desta ronda)]{.hhfa} |
 
 </details>
 
-## 16.1.1 Propriedade [antigo 2.1]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 16.1.1 Propriedade [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Distribuição das unidades sanitárias por tipo de proprietário, e leitura de todos os indicadores por essa via. A proposta separa a rede confessional das organizações não governamentais, como faz o HHFA, e dá lugar às instituições públicas que não pertencem ao Serviço Nacional de Saúde.
-
-::: {.hhfa}
-Indicador do HHFA: nenhum · estratificador da análise
-:::
+Distribuição das unidades sanitárias por tipo de proprietário, e leitura de todos os indicadores por essa via. A proposta separa a rede confessional das organizações não governamentais e dá lugar às instituições públicas que não pertencem ao Serviço Nacional de Saúde.
 
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Variável de desagregação de todos os indicadores. Corresponde à Q116 do HHFA, que não entra em nenhum numerador nem filtro do catálogo.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -63,18 +67,22 @@ A quem pertence esta unidade sanitária, isto é, quem é o proprietário das in
 **Porque mudou.** A opção «privada não lucrativa» desdobra-se em missão religiosa e organização não governamental, que em Angola têm padrões de financiamento, de pessoal e de permanência muito diferentes. Separá-las custa zero caixas e acrescenta uma leitura nova. Acrescenta-se ainda a propriedade pública não pertencente ao Serviço Nacional de Saúde que não seja militar.
 :::
 
-## 16.1.2 Gestão [antigo 2.2]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 16.1.2 Gestão [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Distribuição das unidades sanitárias pelo nível que as gere — Ministério, Direcção Provincial ou Administração Municipal —, e leitura de todos os indicadores por essa via. Saber que nível administra cada unidade é condição para ligar a unidade ao orçamento que a financia.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · estratificador da análise
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Variável de desagregação de todos os indicadores. Corresponde à Q116 do HHFA, que não entra em nenhum numerador nem filtro do catálogo.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -104,7 +112,17 @@ Que entidade é responsável pela gestão corrente desta unidade — isto é, qu
 **Porque mudou.** Das opções da Ficha — «pública, privada, mista, outra» —, a gestão pública desdobra-se por nível, para responder à pergunta que importa à descentralização: **qual** nível público gere a unidade. A distinção entre gestão provincial e gestão municipal é central ao desenho da reforma dos cuidados primários e passa assim a ser recolhida. O enunciado passa também a dizer por palavras que a gestão pode não coincidir com a propriedade, para facilitar o preenchimento.
 :::
 
-## 16.1.3 Orçamento próprio [antigo 0.2]{.antigo} [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}
+## 16.1.3 Orçamento próprio [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+Quesito parqueado: o que geraria, se entrar nesta ronda.
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Tem orçamento próprio) | 4.2.1.3.2 | Unidades com orçamento oficial atribuído no exercício em curso<br>*For current financial year: percentage of facilities with official allocated budget* | Q906 = 1; todas as unidades. Correspondência aproximada: «orçamento próprio» lido como orçamento oficial atribuído à unidade |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -126,20 +144,29 @@ Esta unidade sanitária tem orçamento próprio?
 **Porque está aqui.** Na Ficha, este quesito está no cabeçalho, junto da data da recolha. É um quesito de gestão financeira e passa para esta secção, onde deve ser combinado com outras informações sobre o financiamento da unidade. Conserva o código 16.1.3 até essa decisão; as opções estão nas pendências, no fim desta subsecção.
 :::
 
-## 16.2.1 a 16.2.17 · Lista dos serviços e órgãos de gestão [antigo 7.4.1 a 7.4.17]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 16.2.1 a 16.2.17 · Lista dos serviços e órgãos de gestão [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Que serviços e órgãos de gestão existem em cada unidade sanitária e quais estiveram de facto a funcionar nos últimos 3 meses. A diferença entre «existe» e «funcionou» mostra onde o órgão existe no papel sem actividade.
 
-Quatro linhas geram indicadores do HHFA, sem pergunta adicional: unidades com serviço de apoio de recursos humanos (16.2.7), de finanças e contabilidade e com unidade de administração geral (16.2.5), e de assistência social (16.2.11). As outras treze linhas são medida própria do Mapa Sanitário.
-
-::: {.hhfa}
-Indicadores do HHFA: 4.1.1.2.1, 4.1.1.2.2, 4.1.1.2.3 e 4.1.1.2.8
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 16.2.7 · Recursos humanos, opções 1 e 2 | 4.1.1.2.1 | Unidades com serviço de apoio de recursos humanos<br>*Percentage of facilities with support services for human resources* | Q520_1 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe) |
+| Linha 16.2.5 · Administração, opções 1 e 2 | 4.1.1.2.2 | Unidades com serviço de apoio de finanças e contabilidade<br>*Percentage of facilities with support services for finances/accounting* | Q520_2 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe). Aproximado: a Administração faz as vezes do serviço de finanças e contabilidade |
+| Linha 16.2.5 · Administração, opções 1 e 2 | 4.1.1.2.8 | Unidades com unidade de administração geral que gere algum serviço de apoio<br>*Percentage of facilities with general administration unit managing any support services* | Q520_8 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe) |
+| Linha 16.2.11 · Assistência social, opções 1 e 2 | 4.1.1.2.3 | Unidades com serviço de apoio de assistência social<br>*Percentage of facilities with support services for social services* | Q520_3 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe) |
+| Linha 16.2.13 · Comissão de infecções hospitalares | — (medida própria) | A comissão e as reuniões de prevenção e controlo de infecções medem-se em 16.2.13.1 e 16.2.13.2 | — |
+| Linha 16.2.14 · Comissão de óbitos hospitalares | — (medida própria) | A revisão de casos e de óbitos mede-se em 16.2.14.1 a 16.2.14.6 | — |
+| Linha 16.2.15 · Comissão de medicamentos | — (medida própria) | Pendente: ver «Pendências desta subsecção» | — |
+| Linhas 16.2.1 a 16.2.4, 16.2.6, 16.2.8, 16.2.9.1, 16.2.9.2, 16.2.10, 16.2.12, 16.2.16 e 16.2.17 | — (medida própria) |  | — |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -169,18 +196,22 @@ Para cada linha:
 **Todas as comissões nomeadas se mantêm**, por decisão expressa, incluindo as que não têm equivalente no instrumento internacional.
 :::
 
-## 16.2.14.1 · Revisão formal de casos [antigo 7.4.14.1]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.14.1 · Revisão formal de casos [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se as unidades com internamento revêem formalmente a qualidade do cuidado prestado a doentes internados que não faleceram. O bloco 16.2.14.1 a 16.2.14.6 é uma porta: só respondem as unidades que declararam internamento em 7.0.1, e esse é também o denominador de todo o bloco.
 
-::: {.hhfa}
-Indicador do HHFA: 4.4.3.1.1 — Unidades com internamento com sistema formal de revisão de casos de doentes internados
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 4.4.3.1.1 | Unidades com internamento com sistema formal de revisão de casos de doentes internados<br>*Percentage of facilities offering inpatient services with formal case review system for inpatients* | Q716 = 1; entre as unidades com internamento (no HHFA: Q117 = 2 ou 3, ou Q714 = 1) |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -204,21 +235,23 @@ Se a resposta for «Não», passar a 16.2.14.4.
 ::: {.nota}
 **É a aplicação mais clara da regra de que a porta é a actividade e não o órgão.** A porta deste bloco não é a existência da Comissão de Óbitos Hospitalares (quesito 16.2.14 da lista acima), mas a realização efectiva de revisões — porque **uma unidade pode revisar óbitos maternos sem ter comissão constituída, e é precisamente dela que queremos saber**. A caixa da comissão mantém-se, em paralelo, na lista de três níveis.
 
-**A porta é o internamento e não o tipo de unidade**, como no próprio instrumento internacional: o denominador destes seis indicadores são as unidades com internamento, seja qual for o seu tipo. Um centro de saúde com camas onde ocorreu um óbito materno tem de ser perguntado — e é precisamente o caso que mais interessa à mortalidade materna.
+**A porta é o internamento e não o tipo de unidade**: o denominador de todo o bloco são as unidades com internamento, seja qual for o seu tipo. Um centro de saúde com camas onde ocorreu um óbito materno tem de ser perguntado — e é precisamente o caso que mais interessa à mortalidade materna.
 :::
 
-## 16.2.14.2 · Frequência das revisões de casos [antigo 7.4.14.2]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.14.2 · Frequência das revisões de casos [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Com que periodicidade as unidades com internamento que revêem casos o fazem.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -235,18 +268,22 @@ Com que frequência são realizadas essas revisões formais de casos?
 4. Sem periodicidade definida
 :::
 
-## 16.2.14.3 · Revisão de caso nos últimos 3 meses [antigo 7.4.14.3]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.14.3 · Revisão de caso nos últimos 3 meses [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se as unidades com internamento realizaram de facto alguma revisão formal de caso nos últimos 3 meses.
 
-::: {.hhfa}
-Indicador do HHFA: 4.4.3.1.2 — Unidades com internamento com revisão formal de caso realizada nos últimos 3 meses
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 4.4.3.1.2 | Unidades com internamento com revisão formal de caso realizada nos últimos 3 meses<br>*Percentage of facilities offering inpatient services with a formal case review conducted in last 3 months* | Q718 = 1; entre as unidades com internamento (no HHFA: Q117 = 2 ou 3, ou Q714 = 1) |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -265,18 +302,22 @@ Foi realizada alguma revisão formal de caso nos últimos 3 meses completos?
 **As perguntas 16.2.14.3 e 16.2.14.6 são a verificação da declaração:** separam «realizamos rotineiramente» de «realizámos de facto nos últimos 3 meses», que é a diferença entre um sistema a funcionar e um sistema no regulamento.
 :::
 
-## 16.2.14.4 · Revisão formal de óbitos [antigo 7.4.14.4]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.14.4 · Revisão formal de óbitos [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se as unidades com internamento revêem formalmente qualquer óbito ocorrido na unidade.
 
-::: {.hhfa}
-Indicador do HHFA: 4.4.3.1.3 — Unidades com internamento com sistema formal de revisão de óbitos para qualquer óbito de doente internado
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 4.4.3.1.3 | Unidades com internamento com sistema formal de revisão de óbitos para qualquer óbito de doente internado<br>*Percentage of facilities offering inpatient services with formal death review system for any inpatient death* | Q719 = 1; entre as unidades com internamento (no HHFA: Q117 = 2 ou 3, ou Q714 = 1) |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -296,27 +337,24 @@ Esta unidade sanitária realiza revisões formais de óbitos relativamente a qua
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não» ou «Nunca houve óbito nesta unidade», terminar o bloco.
 :::
 
-## 16.2.14.5 · Revisão de óbitos por tipo de morte [antigo 7.4.14.5]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.14.5 · Revisão de óbitos por tipo de morte [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se as unidades com internamento revêem formalmente os óbitos maternos, os óbitos neonatais e os óbitos nas 24 horas seguintes a uma intervenção cirúrgica.
 
-<div class="hhfa">
-<details><summary>Ver os 2 indicadores</summary>
-
-- 4.4.3.1.4 — Unidades com internamento com sistema de revisão de óbitos neonatais
-- 4.4.3.1.5 — Unidades com internamento com sistema de revisão de óbitos maternos
-
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 4.4.3.1.4 e 4.4.3.1.5
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha óbito materno, resposta 1 | 4.4.3.1.5 | Unidades com internamento com sistema de revisão de óbitos maternos<br>*Percentage of facilities offering inpatient services with maternal death review system* | Q720_1 = 1; entre as unidades com internamento (no HHFA: Q117 = 2 ou 3, ou Q714 = 1) |
+| Linha óbito neonatal, resposta 1 | 4.4.3.1.4 | Unidades com internamento com sistema de revisão de óbitos neonatais<br>*Percentage of facilities offering inpatient services with neonatal death review system* | Q720_2 = 1; entre as unidades com internamento (no HHFA: Q117 = 2 ou 3, ou Q714 = 1) |
+| Linha óbito nas 24 horas seguintes a uma intervenção cirúrgica, resposta 1 | 4.4.3.3.2 | Unidades com internamento cirúrgico que monitorizam os óbitos ocorridos nas 24 horas seguintes a uma intervenção cirúrgica<br>*Percentage of facilities offering inpatient surgical services that monitor deaths occurring within 24 hours of a surgical procedure* | Q720_3 = 1; entre as unidades com internamento (no HHFA: Q117 = 2 ou 3, ou Q714 = 1) |
 :::
-
-</details>
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -333,18 +371,22 @@ Para cada uma das três linhas:
 2. Não
 :::
 
-## 16.2.14.6 · Revisão de óbito nos últimos 3 meses [antigo 7.4.14.6]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.14.6 · Revisão de óbito nos últimos 3 meses [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se as unidades com internamento realizaram de facto alguma revisão formal de óbito nos últimos 3 meses.
 
-::: {.hhfa}
-Indicador do HHFA: 4.4.3.1.6 — Unidades com internamento com revisão formal de óbito realizada nos últimos 3 meses
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 4.4.3.1.6 | Unidades com internamento com revisão formal de óbito realizada nos últimos 3 meses<br>*Percentage of facilities offering inpatient services with a formal death review conducted in last 3 months* | Q721 = 1; entre as unidades com internamento (no HHFA: Q117 = 2 ou 3, ou Q714 = 1) |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -359,18 +401,23 @@ Foi realizada alguma revisão formal de óbito nos últimos 3 meses completos?
 2. Não
 :::
 
-## 16.2.13.1 · Comissão e reuniões de prevenção e controlo de infecções [antigo 7.4.13.1]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.13.1 · Comissão e reuniões de prevenção e controlo de infecções [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Unidades com comissão técnica de prevenção e controlo de infecções e unidades com reuniões multidisciplinares que analisam os resultados de prevenção e controlo de infecções. O denominador é o conjunto de todas as unidades, por isso o bloco é feito a todas.
 
-::: {.hhfa}
-Indicadores do HHFA: 4.4.1.1.4 e 4.4.1.1.5
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha «comissão técnica de prevenção e controlo de infecções», resposta 1 | 4.4.1.1.4 | Unidades com comissão técnica de prevenção e controlo de infecções<br>*Percentage of facilities with an IPC technical committee* | Q744_1 = 1; todas as unidades |
+| Linha «reuniões multidisciplinares», resposta 1 | 4.4.1.1.5 | Unidades com reuniões multidisciplinares que analisam os resultados de prevenção e controlo de infecções<br>*Percentage of facilities with multidisciplinary meetings that review IPC results* | Q744_2 = 1; todas as unidades |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -399,18 +446,22 @@ Para cada linha:
 Mesmo desenho: a actividade, não o órgão. A segunda linha de 16.2.13.1 — reuniões multidisciplinares onde os resultados são analisados — é a que capta as unidades sem comissão constituída que, apesar disso, discutem infecções. **É a parte da prevenção e controlo de infecções que cabe na gestão;** o resto — normas de prevenção e de isolamento, pessoal formado, avaliação sistemática, normas de limpeza — fica para um bloco próprio, ainda por construir.
 :::
 
-## 16.2.13.2 · Reunião mais recente sobre prevenção e controlo de infecções [antigo 7.4.13.2]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.13.2 · Reunião mais recente sobre prevenção e controlo de infecções [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Unidades com reunião de análise de prevenção e controlo de infecções nos últimos 6 meses.
 
-::: {.hhfa}
-Indicador do HHFA: 4.4.1.1.6
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opções 1, 2 e 3 (nos últimos 6 meses) | 4.4.1.1.6 | Unidades com reunião de análise de prevenção e controlo de infecções nos últimos 6 meses<br>*Percentage of facilities with IPC review meeting in last 6 months* | Q747 = 1, 2 ou 3; todas as unidades |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -431,18 +482,22 @@ Quando foi a reunião mais recente da comissão de prevenção e controlo de inf
 98. Não sabe
 :::
 
-## 16.2.18.1 · Actividades de garantia de qualidade [antigo 7.4.18.1]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.18.1 · Actividades de garantia de qualidade [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se cada unidade sanitária tem actividades de rotina de garantia de qualidade. É a porta do bloco 16.2.18.1 a 16.2.18.9: a actividade, não a comissão. O denominador é o conjunto de todas as unidades.
 
-::: {.hhfa}
-Indicador do HHFA: entra no cálculo de 4.4.2.3.1 e 4.4.2.3.2, com 16.2.18.2
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 4.4.2.3.1 · 4.4.2.3.2 | Entra no cálculo (ver 16.2.18.2) | Q705 = 1 |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -462,30 +517,26 @@ Esta unidade sanitária realiza rotineiramente actividades de garantia de qualid
 :::
 
 ::: {.nota}
-**Quesito inteiramente novo**, e o único acrescento desta subsecção que não tem correspondência em nenhuma caixa da Ficha. Na garantia de qualidade, o instrumento internacional é particularmente detalhado: nove caixas autorreferidas, sem exigir observação, e sete indicadores.
+**Quesito inteiramente novo**, e o único acrescento desta subsecção que não tem correspondência em nenhuma caixa da Ficha. O bloco tem nove caixas, quase todas de resposta declarada pelo respondente.
 :::
 
-## 16.2.18.2 · Âmbito da garantia de qualidade [antigo 7.4.18.2]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.18.2 · Âmbito da garantia de qualidade [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se as actividades de garantia de qualidade abrangem toda a unidade ou apenas serviços específicos.
 
-<div class="hhfa">
-<details><summary>Ver os 2 indicadores</summary>
-
-- 4.4.2.3.1 — Unidades com actividades de rotina de garantia de qualidade em toda a unidade
-- 4.4.2.3.2 — Unidades com actividades de rotina de garantia de qualidade em algum serviço específico
-
 </details>
-</div>
 
-::: {.hhfa}
-Indicadores do HHFA: 4.4.2.3.1 e 4.4.2.3.2
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1 (Em toda a unidade), com 16.2.18.1 = 1 | 4.4.2.3.1 | Unidades com actividades de rotina de garantia de qualidade em toda a unidade<br>*Percentage of facilities with routine quality assurance activities: facility-wide* | Q705 = 1 e Q706 = 1; todas as unidades |
+| Opção 2 (Apenas em serviços específicos), com 16.2.18.1 = 1 | 4.4.2.3.2 | Unidades com actividades de rotina de garantia de qualidade em algum serviço específico<br>*Percentage of facilities with routine quality assurance activities: any specific service* | Q705 = 1 e Q706 = 2; todas as unidades |
 :::
-
-</details>
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -500,18 +551,22 @@ Esse sistema é aplicado em toda a unidade ou apenas em serviços específicos?
 2. Apenas em serviços específicos
 :::
 
-## 16.2.18.3 · Comissão de garantia de qualidade [antigo 7.4.18.3]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.18.3 · Comissão de garantia de qualidade [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se a unidade sanitária tem uma comissão de garantia de qualidade.
 
-::: {.hhfa}
-Indicador do HHFA: entra no cálculo de 4.4.2.3.3, com 16.2.18.5
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 4.4.2.3.3 | Entra no cálculo (ver 16.2.18.5) | Q707 = 1 |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -530,18 +585,20 @@ Esta unidade sanitária tem uma comissão de garantia de qualidade?
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», passar a 16.2.18.6.
 :::
 
-## 16.2.18.4 · Frequência das reuniões da comissão [antigo 7.4.18.4]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.18.4 · Frequência das reuniões da comissão [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Com que periodicidade se reúne a comissão de garantia de qualidade.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -562,18 +619,22 @@ Com que frequência se reúne essa comissão?
 98. Não sabe
 :::
 
-## 16.2.18.5 · Reunião mais recente da comissão [antigo 7.4.18.5]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.18.5 · Reunião mais recente da comissão [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se a comissão de garantia de qualidade se reuniu nos últimos 3 meses.
 
-::: {.hhfa}
-Indicador do HHFA: 4.4.2.3.3 — Unidades com comissão de garantia de qualidade que se reuniu nos últimos 3 meses
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opções 1 e 2 (nos últimos 3 meses), com 16.2.18.3 = 1 | 4.4.2.3.3 | Unidades com comissão de garantia de qualidade que se reuniu nos últimos 3 meses<br>*Percentage of facilities with quality assurance committee that met in last 3 months* | Q707 = 1 e Q709 = 1 ou 2; todas as unidades |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -594,18 +655,22 @@ Quando foi a reunião mais recente dessa comissão?
 98. Não sabe
 :::
 
-## 16.2.18.6 · Documentação da análise da qualidade [antigo 7.4.18.6]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.18.6 · Documentação da análise da qualidade [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se existe documentação que mostre que a informação de garantia de qualidade é analisada.
 
-::: {.hhfa}
-Indicador do HHFA: 4.4.2.3.4 — Unidades com documentação de que a informação de garantia de qualidade foi analisada
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1 (Sim, observado) | 4.4.2.3.4 | Unidades com documentação de que a informação de garantia de qualidade foi analisada<br>*Percentage of facilities with documentation that quality assurance information was reviewed* | Q710 = 1; todas as unidades |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -629,18 +694,22 @@ Existe documentação que mostre que a informação de garantia de qualidade é 
 O quesito **16.2.18.6** é o que separa um sistema real de um sistema declarado: pede documentação, e distingue «observado» de «referido, não visto».
 :::
 
-## 16.2.18.7 · Ponto focal para a qualidade [antigo 7.4.18.7]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.18.7 · Ponto focal para a qualidade [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se a unidade sanitária tem um ponto focal para melhoria da qualidade e segurança do doente.
 
-::: {.hhfa}
-Indicador do HHFA: 4.4.2.3.6 — Unidades com ponto focal para melhoria da qualidade e segurança do doente
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 4.4.2.3.6 | Unidades com ponto focal para melhoria da qualidade e segurança do doente<br>*Percentage of facilities with focal person for quality improvement and patient safety* | Q711 = 1; todas as unidades |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -655,18 +724,22 @@ Esta unidade sanitária tem um ponto focal para melhoria da qualidade e seguran�
 2. Não
 :::
 
-## 16.2.18.8 · Formação em qualidade [antigo 7.4.18.8]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.18.8 · Formação em qualidade [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se algum profissional da unidade recebeu formação em melhoria da qualidade ou em segurança do doente nos últimos 2 anos.
 
-::: {.hhfa}
-Indicador do HHFA: 4.4.2.3.7 — Unidades com pessoal formado em melhoria da qualidade ou segurança do doente
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 4.4.2.3.7 | Unidades com pessoal formado em melhoria da qualidade ou segurança do doente<br>*Percentage of facilities with staff trained on quality improvement and/or patient safety* | Q712 = 1; todas as unidades |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -681,18 +754,22 @@ O senhor, ou algum profissional desta unidade, recebeu formação em melhoria da
 2. Não
 :::
 
-## 16.2.18.9 · Apoio externo para a qualidade [antigo 7.4.18.9]{.antigo} [NOVO]{.etiqueta .novo}
+## 16.2.18.9 · Apoio externo para a qualidade [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Se a unidade sanitária recebe apoio de parceiros externos para garantia ou melhoria da qualidade.
 
-::: {.hhfa}
-Indicador do HHFA: 4.4.2.3.8 — Unidades com apoio de parceiros externos para garantia ou melhoria da qualidade
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 4.4.2.3.8 | Unidades com apoio de parceiros externos para garantia ou melhoria da qualidade<br>*Percentage of facilities with external partner support for quality assurance or improvement* | Q713 = 1; todas as unidades |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -711,18 +788,31 @@ Esta unidade sanitária recebe apoio de parceiros externos na implementação de
 98. Não sabe
 :::
 
-## 16.2.1 + 16.2.10 e 16.2.2 + 16.2.6 · Arquivo, reporte e comité de gestão [antigo 7.4.1 + 7.4.10 e 7.4.2 + 7.4.6]{.antigo} [PARQUEADO]{.etiqueta .parqueado}
+## 16.2.1 + 16.2.10 e 16.2.2 + 16.2.6 · Arquivo, reporte e comité de gestão [PARQUEADO]{.etiqueta .parqueado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Nesta ronda, nada além do que já dá a lista de três níveis. Os dois blocos parqueados dariam: a cadeia de arquivo, registo e reporte de dados, cerca de 11 indicadores da área de sistemas de informação; e a equipa de gestão, 4 indicadores — equipa ou comissão de gestão que se reuniu nos últimos 3 meses, sistema de rotina de participação da comunidade nas decisões de gestão, plano operacional escrito e referência ao plano nas reuniões.
-
-::: {.hhfa}
-Indicadores do HHFA: nenhum nesta ronda · parqueados: cerca de 11 da área 4.5 e 4.1.1.1.2, 4.1.1.1.5 a 4.1.1.1.7
-:::
+Nesta ronda, nada além do que já dá a lista de três níveis. Os dois blocos parqueados mediriam: a cadeia de arquivo, registo e reporte de dados; e a equipa de gestão — equipa ou comissão de gestão que se reuniu nos últimos 3 meses, sistema de rotina de participação da comunidade nas decisões de gestão, plano operacional escrito e referência ao plano nas reuniões.
 
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+Blocos parqueados: o que gerariam, se entrarem nesta ronda.
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Equipa de gestão (a partir de 16.2.2 e 16.2.6) · comissão de gestão e data da reunião mais recente | 4.1.1.1.2 | Unidades com equipa ou comissão de gestão que se reuniu nos últimos 3 meses<br>*Percentage of facilities with a facility management committee that has met within past 3 months* | Q505 = 1 e Q507 = 1 ou 2; todas as unidades |
+| Equipa de gestão · participação da comunidade | 4.1.1.1.5 | Unidades com sistema de rotina de participação da comunidade nas decisões de gestão<br>*Percentage of facilities with a routine system for community input into facility management decisions* | Q510 = 1; todas as unidades |
+| Equipa de gestão · plano operacional escrito | 4.1.1.1.6 | Unidades com plano operacional ou de gestão escrito<br>*Percentage of facilities with a written operational/management plan* | Q508 = 1; todas as unidades |
+| Equipa de gestão · referência ao plano nas reuniões | 4.1.1.1.7 | Unidades em que cada reunião da comissão de gestão se refere ao plano operacional<br>*Percentage of facilities with reference to operational/management plan at each management committee meeting* | Q509 = 1; todas as unidades |
+| Cadeia de arquivo e reporte (a partir de 16.2.1 e 16.2.10) · relatórios introduzidos em sistema electrónico | 4.5.2.5.4 | Unidades em que o conteúdo dos relatórios de rotina é introduzido num sistema electrónico<br>*Percentage of facilities with routine report contents entered into an electronic system* | Q1106_3 = 1; todas as unidades |
+| Cadeia de arquivo e reporte · relatórios em servidor da unidade | 4.5.2.5.5 | Unidades com relatórios de rotina guardados em ficheiro electrónico num servidor da unidade<br>*Percentage of facilities with routine reports stored as electronic files on a local facility server* | Q1106_4 = 1; todas as unidades |
+| Cadeia de arquivo e reporte · relatórios em servidor externo | 4.5.2.5.6 | Unidades com relatórios de rotina guardados em ficheiro electrónico num servidor externo<br>*Percentage of facilities with routine reports stored as electronic files on an external server* | Q1106_5 = 1; todas as unidades |
+| Cadeia de arquivo e reporte · restantes itens | — (por definir) | Cerca de 8 indicadores da área 4.5 (sistemas de informação), a identificar quando o bloco for desenhado | — |
+:::
 
 ::: {.nota}
 As caixas mantêm-se na lista de três níveis. Ficam para o domínio de gestão dois blocos completos:
@@ -735,7 +825,7 @@ As caixas mantêm-se na lista de três níveis. Ficam para o domínio de gestão
 ## Pendências desta subsecção
 
 ::: {.nota}
-**16.2.15 — Comissão de Medicamentos.** A verificar se corresponde à comissão de aquisições do instrumento internacional; se corresponder, a caixa que já existe passa a gerar indicador sem qualquer alteração.
+**16.2.15 — Comissão de Medicamentos.** A verificar se corresponde a uma comissão de aquisições de medicamentos, produtos e equipamento; se corresponder, a caixa que já existe passa a medir também essa função, sem qualquer alteração.
 
 **16.2.8 e 16.2.9 — estatuto de unidade de ensino.** Propõe-se um quesito que registe se esta unidade sanitária acolhe formação de estudantes, internos, médicos em especialização ou técnicos de saúde em formação. Complementa as caixas dos órgãos que a Ficha já tem (escola de formação, núcleo de formação permanente) com a pergunta sobre o estatuto.
 

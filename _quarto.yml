@@ -36,8 +36,6 @@ book:
     - formulario/15-accao-comunitaria.qmd
     - formulario/16-gestao.qmd
     - formulario/17-servicos-gerais.qmd
-  appendices:
-    - formulario/99-correspondencia.qmd
 
 format:
   html:

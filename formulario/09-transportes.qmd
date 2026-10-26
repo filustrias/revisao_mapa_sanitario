@@ -12,24 +12,26 @@ Veículos afectos à unidade sanitária, por tipo e por estado de funcionamento,
 | Quesito | O que se obtém |
 |---|---|
 | 9.1.1 a 9.1.10 | Frota de cada unidade por tipo de veículo: em funcionamento, avariada com reparação ao alcance da unidade e avariada sem reparação possível [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 9.2 | Situações que a contagem não exprime — viaturas partilhadas, cedidas ou imobilizadas por falta de documentação |
+| 9.2 | Situações que a contagem não exprime — viaturas partilhadas, cedidas ou imobilizadas por falta de documentação [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 9.3.1 | Unidades com plano de manutenção de rotina dos veículos [(1 indicador do HHFA)]{.hhfa} |
 | 9.3.2 | Unidades que cumprem rotineiramente o plano de manutenção [(1 indicador do HHFA)]{.hhfa} |
 
 </details>
 
-## 9.1.1 a 9.1.7 Veículos por tipo e estado [antigo 10.1.1 a 10.1.7]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 9.1.1 a 9.1.7 Veículos por tipo e estado [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Frota de cada unidade sanitária por tipo de veículo e por estado. As colunas 1 e 2 somadas dão o número de veículos funcionais tal como o Guião o define, o que mantém a série das edições anteriores; a coluna 2 mostra, além disso, quantos veículos voltariam a circular com uma reparação ao alcance da unidade.
 
-::: {.hhfa}
-Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 2.1.1.1.7 — unidades com sistema de transporte de emergência para doentes (*Percentage of facilities with emergency transportation system for patients*) — porque não é o mesmo: mede o acesso a transporte de emergência (próprio ou chamado de outro local), perguntado em 17.1; aqui conta-se a frota própria por tipo e estado.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -59,7 +61,11 @@ Vou perguntar pelos meios de transporte afectos a esta unidade sanitária. Para 
 **Porque mudou.** Os sete tipos de veículo mantêm-se. As duas colunas da Ficha — funcionantes e não funcionantes — passam a três. A definição de funcional do Guião (folha 18) fica preservada e passa a estar escrita na pergunta: um veículo é funcional se está em funcionamento ou tem uma avaria que a unidade pode resolver com os seus recursos. A soma das colunas 1 e 2 corresponde aos «funcionantes» da Ficha e a coluna 3 aos «não funcionantes».
 :::
 
-## 9.1.8 a 9.1.10 Outros meios de transporte [antigo 10.1.8 a 10.1.10]{.antigo} [ALTERADO]{.etiqueta .alterado}
+## 9.1.8 a 9.1.10 Outros meios de transporte [ALTERADO]{.etiqueta .alterado}
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -81,7 +87,11 @@ Existe algum outro meio de transporte afecto a esta unidade sanitária que não 
 **Porque mudou.** As três linhas abertas mantêm-se, com a terceira coluna acrescentada, como em 9.1.1 a 9.1.7.
 :::
 
-## 9.2 Observações [antigo 10.2]{.antigo} [MANTÉM-SE]{.etiqueta .mantem}
+## 9.2 Observações [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
 ::: {.enunciado .rotulado}
 [Campo · preenchido pelo inquiridor]{.rotulo}
@@ -99,18 +109,23 @@ Observações sobre os meios de transporte desta unidade sanitária.
 Texto livre
 :::
 
-## 9.3.1 Plano de manutenção dos veículos [antigo 10.3.1]{.antigo} [NOVO]{.etiqueta .novo}
+## 9.3.1 Plano de manutenção dos veículos [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades sanitárias com plano de manutenção de rotina para algum dos seus veículos. Lida com a coluna das avarias de 9.1, mostra se o problema da frota tende a agravar-se ou a resolver-se.
 
-::: {.hhfa}
-Indicador do HHFA: 4.1.2.3.1 (plano de manutenção de rotina)
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 4.1.2.3.1 | Unidades com plano de manutenção de rotina para algum dos seus veículos<br>*Percentage of facilities with a routine maintenance schedule for any facility vehicles* | Q800 = 1; entre as unidades com veículos (filtro Q800 = 1 ou 2: aqui 9.3.1 = 1 ou 2; a opção 5 sai do denominador) |
+| Resposta 1 (Sim) | 4.1.2.3.2 | Entra no cálculo de 4.1.2.3.2 (ver 9.3.2) | Q800 = 1 |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
@@ -139,18 +154,22 @@ Esta unidade sanitária segue um plano de manutenção de rotina para algum dos 
 **Verificação a programar.** Se a contagem de 9.1.1 a 9.1.10 for zero em todas as colunas, 9.3.1 tem de ser 5.
 :::
 
-## 9.3.2 Cumprimento do plano de manutenção [antigo 10.3.2]{.antigo} [NOVO]{.etiqueta .novo}
+## 9.3.2 Cumprimento do plano de manutenção [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 Percentagem de unidades sanitárias que cumprem rotineiramente o plano de manutenção dos seus veículos.
 
-::: {.hhfa}
-Indicador do HHFA: 4.1.2.3.2 (cumprimento rotineiro do plano)
-:::
-
 </details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim, rotineiramente) | 4.1.2.3.2 | Unidades que cumprem rotineiramente o plano de manutenção dos veículos<br>*Percentage of facilities with routine adherence to a vehicle maintenance schedule* | Q800 = 1 e Q801 = 1; entre as unidades com veículos (filtro Q800 = 1 ou 2: aqui 9.3.1 = 1 ou 2) |
+:::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}

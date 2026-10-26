@@ -136,6 +136,28 @@ html.ver-hhfa span.hhfa { display: inline; }
   color: var(--ms-apagado);
   margin-bottom: 0;
 }
+/* Caixa «Fonte dos indicadores» de cada quesito e código do HHFA em cada linha de grelha */
+div.fonte-indicadores {
+  background: #fff8e6;
+  border: 1px solid #e0b84f;
+  border-left: 4px solid #c9952a;
+  border-radius: 4px;
+  padding: 0.6rem 0.9rem 0.3rem;
+  margin: 0.6rem 0 1rem;
+  font-size: 0.85rem;
+}
+div.fonte-indicadores table { font-size: 0.8rem; margin-bottom: 0.4rem; }
+div.fonte-indicadores td:nth-child(2) { white-space: nowrap; font-family: var(--bs-font-monospace); }
+div.fonte-indicadores em { color: var(--ms-apagado); }
+span.cod-hhfa {
+  font-family: var(--bs-font-monospace);
+  font-size: 0.72rem;
+  color: #8a6512;
+  background: #fff3d6;
+  border-radius: 3px;
+  padding: 0 0.25rem;
+  white-space: nowrap;
+}
 .ms-aviso-hhfa {
   position: fixed;
   right: 0.8rem;
