@@ -101,6 +101,7 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 10.A | 7.1.A | Especialidades clínicas (10.1 a 10.28) | 10 |
 | 10.B.0 | 7.1.B.0 | Doenças não transmissíveis — porta | 10 |
 | 10.B | 7.1.B | Doenças não transmissíveis — funções por condição | 10 |
+| 10.B.1 | — (novo) | Procura activa de faltosos — doenças crónicas não transmissíveis | 10 |
 | 10.C.1 | 7.1.C.1 | Saúde mental | 10 |
 | 10.C.2 | 7.1.C.2 | Doenças neurológicas | 10 |
 | 10.D.0 | 7.1.D.0 | Cancro — porta | 10 |
@@ -141,10 +142,13 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 12.1.2 | 7.3.1.2 | Antigénios oferecidos | 12 |
 | 12.1.3 | 7.3.1.3 | Rupturas de stock por antigénio | 12 |
 | 12.1.4 | 7.3.1.4 | Cadeia de frio | 12 |
+| 12.1.5 | — (novo) | Procura activa de faltosos — vacinação | 12 |
 | 12.2 | 7.3.5 | Puericultura — porta dos cuidados à criança | 12 |
 | 12.2.1 | 7.3.5.1 | Cuidados à criança menor de 5 anos | 12 |
+| 12.2.2 | — (novo) | Procura activa de faltosos — puericultura | 12 |
 | 13.1 | 7.3.6 | Consulta pré-natal | 13 |
 | 13.1.1 | 7.3.6.1 | Componentes da consulta pré-natal | 13 |
+| 13.1.2 | — (novo) | Procura activa de faltosas — consulta pré-natal | 13 |
 | 13.2 | 7.3.7 | Partos — porta | 13 |
 | 13.2.1 | 7.3.7.1 | CONU-B | 13 |
 | 13.2.2 | 7.3.7.2 | CONU-C | 13 |
@@ -157,6 +161,7 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 13.3.2.1 a 13.3.2.10 | 7.3.8.2.1 a 7.3.8.2.10 | Cuidados ao recém-nascido pequeno ou doente | 13 |
 | 13.4 | 7.3.9 | Planeamento familiar — porta | 13 |
 | 13.4.1 a 13.4.12 | 7.3.9.1 a 7.3.9.12 | Métodos de planeamento familiar | 13 |
+| 13.4.13 | — (novo) | Procura activa de faltosas — planeamento familiar | 13 |
 | 14.1 | 7.3.10 | VIH — aconselhamento e testagem | 14 |
 | 14.1.1 | 7.3.10.1 | Testagem do VIH por grupo de idade | 14 |
 | 14.2.1 | 7.3.10.2.1 | Profilaxia pré-exposição (PrEP) ao VIH | 14 |
@@ -167,6 +172,7 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 14.4 | 7.3.12 | Tratamento antirretroviral — porta | 14 |
 | 14.4.1 | 7.3.12.1 | Tratamento antirretroviral por grupo de idade | 14 |
 | 14.4.2 | 7.3.12.2 | Componentes do tratamento antirretroviral | 14 |
+| 14.4.3 | — (novo) | Procura activa de faltosos — tratamento antirretroviral | 14 |
 | 14.5 | 7.3.11 | Prevenção da transmissão vertical | 14 |
 | 14.6 | 7.3.12.3 | Cuidados e apoio ao doente com VIH | 14 |
 | 14.7 | 7.3.13 | Tuberculose — porta | 14 |
@@ -175,6 +181,7 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 14.7.3 | 7.3.13.3 | Testagem do VIH nos doentes com tuberculose | 14 |
 | 14.7.4 | 7.3.13.4 | Tuberculose resistente aos medicamentos | 14 |
 | 14.7.5 | 7.3.13.5 | Quarto de isolamento | 14 |
+| 14.7.6 | — (novo) | Procura activa de faltosos — tuberculose | 14 |
 | 14.8.1 | 7.3.14.A | Malária — porta | 14 |
 | 14.8.2 | 7.3.14.B | Via de diagnóstico da malária | 14 |
 | 14.8.3 | 7.3.14.C | Tratamento da malária | 14 |
@@ -184,6 +191,7 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 15.4 | 7.3.17 | ADECOS | 15 |
 | 15.4.0 | 7.3.17.0 | Número de ADECOS | 15 |
 | 15.4.1 | 7.3.17.1 | Articulação com os ADECOS | 15 |
+| 15.4.2 | — (novo) | Procura de faltosos pelos ADECOS | 15 |
 | 16.1.1 | 2.1 | Propriedade | 16 |
 | 16.1.2 | 2.2 | Gestão | 16 |
 | 16.1.3 | 0.2 | Orçamento próprio | 16 |

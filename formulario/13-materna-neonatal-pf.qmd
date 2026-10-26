@@ -12,10 +12,12 @@ Consulta pré-natal, partos e cuidados obstétricos de urgência, consulta pós-
 | Quesito | O que se obtém |
 |---|---|
 | 13.1 e 13.1.1 | Consulta pré-natal e as suas prestações [(16 indicadores do HHFA)]{.hhfa} |
+| 13.1.2 | Procura activa de grávidas que faltam à consulta pré-natal |
 | 13.2 a 13.2.4 | Partos, CONU-B e CONU-C, funções-sinal, cobertura 24 horas [(12 indicadores do HHFA)]{.hhfa} |
 | 13.3.1.0 a 13.3.1.8 | Rastreios do recém-nascido, realizados na unidade ou por envio de amostra [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 13.3.2.0 a 13.3.2.10 | Cuidados ao recém-nascido pequeno ou doente (a decidir) [(14 indicadores do HHFA, se incluído)]{.hhfa} |
 | 13.4 a 13.4.12 | Planeamento familiar, método a método [(15 indicadores do HHFA)]{.hhfa} |
+| 13.4.13 | Procura activa de utentes de planeamento familiar que faltam ao seguimento |
 
 </details>
 
@@ -127,6 +129,47 @@ Catorze linhas, catorze indicadores; com a porta 13.1 e a articulação com os A
 **Articula-se com o laboratório:** a pesquisa de proteínas na urina é a fita reagente de 11.C.0.9, a testagem da sífilis é o teste rápido de 11.C.0.3 e a testagem do VIH é a de 11.C.0.1 — três pontos onde a coerência interna do formulário passa a ser verificável.
 
 **A linha 14, sobre mutilação genital feminina, pode ser retirada** se não for pertinente para Angola: perde-se apenas um indicador e nada mais na tabela.
+:::
+
+## 13.1.2 · Procura activa de faltosas — consulta pré-natal [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que identificam e procuram as grávidas que faltam à consulta pré-natal. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário (próximo: 4.5.2.6.9 — lista de utentes registados para grupos seleccionados)
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quando uma grávida falta a uma consulta pré-natal marcada, esta unidade sanitária identifica a falta e procura a grávida activamente?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, há registo dos faltosos e a unidade procura-os activamente
+2. Sim, a falta é registada, mas não há procura activa
+3. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Procura activa é qualquer contacto feito por iniciativa da unidade para trazer o utente de volta: telefone ou SMS, visita domiciliar pelo pessoal da unidade, ou pedido aos ADECOS para o localizar.
+:::
+
+::: {.nota}
+**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 15.4.2, como função dos ADECOS.
+
+**Verificação a programar.** Na resposta 1, pedir para ver a lista ou o livro de faltosos do último mês.
 :::
 
 ## 13.2 · Partos — porta [antigo 7.3.7]{.antigo} [NOVO]{.etiqueta .novo}
@@ -639,4 +682,45 @@ Para cada método seguinte, diga-me se é habitualmente fornecido nesta unidade 
 
 ::: {.nota}
 Com o preservativo perguntado em linha própria, a grelha permite os dois cálculos: o «método moderno» do Guião, que exclui o preservativo, e o do indicador internacional, que o inclui. O preservativo tem, além disso, indicador próprio e é o método mais distribuído da rede.
+:::
+
+## 13.4.13 · Procura activa de faltosas — planeamento familiar [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que identificam e procuram as utentes de planeamento familiar que faltam à consulta de seguimento ou de reabastecimento. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário (próximo: 4.5.2.6.9 — lista de utentes registados para grupos seleccionados)
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quando uma utente de planeamento familiar falta a uma consulta de seguimento ou de reabastecimento marcada, esta unidade sanitária identifica a falta e procura a utente activamente?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, há registo dos faltosos e a unidade procura-os activamente
+2. Sim, a falta é registada, mas não há procura activa
+3. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Procura activa é qualquer contacto feito por iniciativa da unidade para trazer o utente de volta: telefone ou SMS, visita domiciliar pelo pessoal da unidade, ou pedido aos ADECOS para o localizar.
+:::
+
+::: {.nota}
+**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 15.4.2, como função dos ADECOS.
+
+**Verificação a programar.** Na resposta 1, pedir para ver a lista ou o livro de faltosos do último mês.
 :::

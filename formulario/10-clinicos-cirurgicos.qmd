@@ -14,6 +14,7 @@ Atendimento por especialidade clínica e serviços para doenças crónicas não 
 | 10.A | Densidade de oferta em 28 especialidades: atendimento, número de especialistas, turnos por semana e forma de acesso [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 10.B.0 | Oferta de algum serviço para doenças crónicas não transmissíveis [(1 indicador do HHFA)]{.hhfa} |
 | 10.B | Oferta de serviços para doenças crónicas não transmissíveis, por condição e por função [(3 indicadores do HHFA)]{.hhfa} |
+| 10.B.1 | Procura activa de doentes crónicos que faltam ao seguimento |
 | 10.C.1 | Oferta de serviços para transtornos mentais [(1 indicador do HHFA)]{.hhfa} |
 | 10.C.2 | Oferta de serviços para doenças neurológicas [(1 indicador do HHFA)]{.hhfa} |
 | 10.D.0 | Oferta de algum serviço de cancro [(1 indicador do HHFA)]{.hhfa} |
@@ -174,6 +175,47 @@ Para cada uma das três condições seguintes, diga-me quais destas funções s�
 **Diferença em relação a 10.A.** Em 10.A pergunta-se pela disponibilidade de atendimento em cada especialidade. Aqui pergunta-se se a unidade consegue realizar funções específicas no cuidado a doentes com hipertensão e outras doenças cardiovasculares, diabetes e doença respiratória crónica — diagnosticar, iniciar e ajustar o tratamento, seguir regularmente os doentes e aconselhá-los para o autocuidado —, haja ou não especialista na unidade.
 
 Com estas respostas é possível medir a densidade da disponibilidade e da prontidão para o cuidado a doentes com estas condições na área de abrangência da unidade.
+:::
+
+## 10.B.1 · Procura activa de faltosos — doenças crónicas não transmissíveis [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que identificam e procuram os doentes com doença crónica não transmissível que faltam ao seguimento. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário (próximo: 4.5.2.6.9 — lista de utentes registados para grupos seleccionados)
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quando um doente com doença crónica não transmissível — hipertensão, diabetes, doença respiratória crónica — falta a uma consulta de seguimento marcada, esta unidade sanitária identifica a falta e procura o doente activamente?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, há registo dos faltosos e a unidade procura-os activamente
+2. Sim, a falta é registada, mas não há procura activa
+3. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Procura activa é qualquer contacto feito por iniciativa da unidade para trazer o utente de volta: telefone ou SMS, visita domiciliar pelo pessoal da unidade, ou pedido aos ADECOS para o localizar.
+:::
+
+::: {.nota}
+**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 15.4.2, como função dos ADECOS.
+
+**Verificação a programar.** Na resposta 1, pedir para ver a lista ou o livro de faltosos do último mês.
 :::
 
 ## 10.C.1 · Saúde mental [antigo 7.1.C.1]{.antigo} [NOVO]{.etiqueta .novo}

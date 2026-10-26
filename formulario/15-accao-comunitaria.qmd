@@ -15,6 +15,7 @@ Actividade da unidade na comunidade: distribuição de redes mosquiteiras, briga
 | 15.2 e 15.3 | Brigadas móveis e equipas avançadas organizadas pela unidade [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 15.4 e 15.4.0 | Número de ADECOS que trabalham a partir da unidade [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 15.4.1 | Articulação com os ADECOS em seis programas [(6 indicadores do HHFA)]{.hhfa} |
+| 15.4.2 | Procura de faltosos pelos ADECOS, por linha de cuidado |
 
 </details>
 
@@ -135,7 +136,7 @@ E equipas avançadas de vacinação na área de referência, a menos de 10 km?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Quantas unidades têm ADECOS a trabalhar a partir delas. É a porta da pergunta seguinte e da grelha 15.4.1. O HHFA não conta agentes comunitários; mede a articulação da unidade com eles, que é o que 15.4.1 recolhe. É medida própria do Mapa Sanitário.
+Quantas unidades têm ADECOS a trabalhar a partir delas. É a porta da pergunta seguinte e das grelhas 15.4.1 e 15.4.2. O HHFA não conta agentes comunitários; mede a articulação da unidade com eles, que é o que 15.4.1 recolhe. É medida própria do Mapa Sanitário.
 
 ::: {.hhfa}
 Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
@@ -246,4 +247,45 @@ Angola tem a infra-estrutura — os ADECOS existem e a Ficha já os registra —
 Reunir as seis numa única grelha, em vez de as dispersar pelos blocos, foi opção de desenho: quem responde pensa nos ADECOS uma vez e responde seis vezes, em lugar de ser interrompido seis vezes ao longo da secção.
 
 **Verificação a programar.** Declarar articulação em seis áreas com zero ADECOS é uma inconsistência a assinalar.
+:::
+
+## 15.4.2 · Procura de faltosos pelos ADECOS [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades em que os ADECOS procuram os utentes que faltaram, em cada linha de cuidado. Lida com a pergunta da procura activa de cada linha (10.B.1, 12.1.5, 12.2.2, 13.1.2, 13.4.13, 14.4.3, 14.7.6), mostra que parte da procura passa pela comunidade.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada área seguinte, diga-me se os ADECOS procuram, a pedido desta unidade sanitária, os utentes que faltaram às consultas marcadas.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Área | 1 · Sim | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 15.4.2.1 | Consulta pré-natal | ☐ | ☐ | ☐ |
+| 15.4.2.2 | Puericultura (criança menor de 1 ano) | ☐ | ☐ | ☐ |
+| 15.4.2.3 | Vacinação (crianças com doses em atraso) | ☐ | ☐ | ☐ |
+| 15.4.2.4 | Planeamento familiar | ☐ | ☐ | ☐ |
+| 15.4.2.5 | Tratamento antirretroviral | ☐ | ☐ | ☐ |
+| 15.4.2.6 | Tuberculose | ☐ | ☐ | ☐ |
+| 15.4.2.7 | Doenças crónicas não transmissíveis | ☐ | ☐ | ☐ |
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar «2 · Não» nas áreas em que a unidade não oferece o serviço.
+:::
+
+::: {.nota}
+**Porque entra.** A procura de quem faltou é uma das funções dos ADECOS. Esta grelha fecha a pergunta feita em cada linha de cuidado: ali pergunta-se se a unidade procura os faltosos; aqui, se os ADECOS fazem essa procura.
 :::

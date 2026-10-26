@@ -14,9 +14,11 @@ VIH — testagem, profilaxia pré e pós-exposição, tratamento antirretroviral
 | 14.1 e 14.1.1 | Testagem do VIH, por grupo de idade [(8 indicadores do HHFA)]{.hhfa} |
 | 14.2.1 a 14.3.3 | Profilaxia pré-exposição e profilaxia pós-exposição fora do contexto da violência [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 14.4 a 14.4.2 | Tratamento antirretroviral, por idade e por componente [(12 indicadores do HHFA)]{.hhfa} |
+| 14.4.3 | Procura activa de doentes em tratamento antirretroviral que faltam |
 | 14.5 | Prevenção da transmissão vertical do VIH [(2 indicadores do HHFA)]{.hhfa} |
 | 14.6 | Cuidados e apoio ao doente com VIH [(2 indicadores do HHFA)]{.hhfa} |
 | 14.7 a 14.7.5 | Tuberculose: diagnóstico, seguimento, VIH, resistência, isolamento [(11 indicadores do HHFA)]{.hhfa} |
+| 14.7.6 | Procura activa de doentes em tratamento da tuberculose que faltam |
 | 14.8.1 a 14.8.3 | Malária: serviços, via de diagnóstico, tratamento [(8 indicadores do HHFA)]{.hhfa} |
 
 </details>
@@ -410,6 +412,47 @@ Para cada prestação seguinte, diga-me se é habitualmente feita nesta unidade 
 O que conta aqui é menos quem **inicia** o tratamento e mais quem o **mantém**, porque é a continuidade que determina o resultado — e a continuidade é trabalho de cuidados primários, não de hospital. O indicador de adesão exige as duas linhas ao mesmo tempo, o aconselhamento e o seguimento, e é por isso que são duas caixas e não uma.
 :::
 
+## 14.4.3 · Procura activa de faltosos — tratamento antirretroviral [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que identificam e procuram os doentes em tratamento antirretroviral que faltam à consulta ou ao levantamento dos medicamentos. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário (próximo: 4.5.2.6.9 — lista de utentes registados para grupos seleccionados)
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quando um doente em tratamento antirretroviral falta a uma consulta ou a um levantamento de medicamentos marcado, esta unidade sanitária identifica a falta e procura o doente activamente?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, há registo dos faltosos e a unidade procura-os activamente
+2. Sim, a falta é registada, mas não há procura activa
+3. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Procura activa é qualquer contacto feito por iniciativa da unidade para trazer o utente de volta: telefone ou SMS, visita domiciliar pelo pessoal da unidade, ou pedido aos ADECOS para o localizar.
+:::
+
+::: {.nota}
+**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 15.4.2, como função dos ADECOS.
+
+**Verificação a programar.** Na resposta 1, pedir para ver a lista ou o livro de faltosos do último mês.
+:::
+
 ## 14.5 · Prevenção da transmissão vertical [antigo 7.3.11]{.antigo} [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
@@ -699,6 +742,47 @@ Existe nesta unidade sanitária um quarto ou enfermaria de isolamento dedicado, 
 
 ::: {.nota}
 **14.7.5** pergunta-se directamente, ao contrário do instrumento internacional, que o calcula a partir do inventário de enfermarias. Duas razões: a nossa lista de camas não tem linha de isolamento; e o isolamento interessa também às unidades sem internamento, onde um espaço de espera separado para o doente com tosse é medida de controlo de infecções com valor próprio. É o único elemento da família do controlo de infecções que se obtém por declaração.
+:::
+
+## 14.7.6 · Procura activa de faltosos — tuberculose [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que identificam e procuram os doentes em tratamento da tuberculose que faltam à consulta ou à toma dos medicamentos. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
+
+::: {.hhfa}
+Indicador do HHFA: nenhum · medida própria do Mapa Sanitário (próximo: 4.5.2.6.9 — lista de utentes registados para grupos seleccionados)
+:::
+
+</details>
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quando um doente em tratamento da tuberculose falta a uma consulta ou à toma dos medicamentos marcada, esta unidade sanitária identifica a falta e procura o doente activamente?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, há registo dos faltosos e a unidade procura-os activamente
+2. Sim, a falta é registada, mas não há procura activa
+3. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Procura activa é qualquer contacto feito por iniciativa da unidade para trazer o utente de volta: telefone ou SMS, visita domiciliar pelo pessoal da unidade, ou pedido aos ADECOS para o localizar.
+:::
+
+::: {.nota}
+**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 15.4.2, como função dos ADECOS.
+
+**Verificação a programar.** Na resposta 1, pedir para ver a lista ou o livro de faltosos do último mês.
 :::
 
 ## 14.8.1 · Malária — porta [antigo 7.3.14.A]{.antigo} [NOVO]{.etiqueta .novo}
