@@ -777,7 +777,7 @@ Esta unidade sanitária presta algum serviço a doentes com tuberculose resisten
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades com quarto de internamento dedicado a isolamento.
+Percentagem de unidades com internamento que possuem quarto de internamento dedicado a isolamento de pacientes com tuberculose.
 
 </details>
 
@@ -786,7 +786,7 @@ Percentagem de unidades com quarto de internamento dedicado a isolamento.
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Resposta 1 (Sim) | 3.2.3.1.9 | Unidades com quarto de internamento dedicado a isolamento<br>*Percentage of facilities offering dedicated inpatient room for isolation* | Q410_1A = 1 (no HHFA, item do inventário de enfermarias); todas as unidades |
+| Resposta 1 (Sim) | 3.2.3.1.9 | Unidades com quarto de internamento dedicado a isolamento<br>*Percentage of facilities offering dedicated inpatient room for isolation* | Q410_1A = 1 (no HHFA, item do inventário de enfermarias); no HHFA o denominador são todas as unidades, aqui são as unidades com internamento (excluída a opção 97) |
 :::
 
 ::: {.enunciado .rotulado}
