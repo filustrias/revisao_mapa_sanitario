@@ -2,7 +2,7 @@
 title: "Secção 14 — VIH, tuberculose e malária"
 ---
 
-VIH — testagem, profilaxia pré e pós-exposição, tratamento antirretroviral, prevenção da transmissão vertical e cuidados de apoio —, tuberculose e malária.
+VIH — testagem, profilaxia pré-exposição ao VIH (PrEP) e profilaxia pós-exposição ao VIH (PEP), tratamento antirretroviral, prevenção da transmissão vertical e cuidados de apoio —, tuberculose e malária.
 
 [36 campos, contra 4 na Ficha 19_01.]{.campos}
 
@@ -12,7 +12,7 @@ VIH — testagem, profilaxia pré e pós-exposição, tratamento antirretroviral
 | Quesito | O que se obtém |
 |---|---|
 | 14.1 e 14.1.1 | Testagem do VIH, por grupo de idade [(8 indicadores do HHFA)]{.hhfa} |
-| 14.2.1 a 14.3.3 | Profilaxia pré-exposição e profilaxia pós-exposição fora do contexto da violência [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 14.2.1 a 14.3.3 | Profilaxia pré-exposição ao VIH (PrEP) e profilaxia pós-exposição ao VIH (PEP) fora do contexto da violência [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 14.4 a 14.4.2 | Tratamento antirretroviral, por idade e por componente [(12 indicadores do HHFA)]{.hhfa} |
 | 14.4.3 | Procura activa de doentes em tratamento antirretroviral que faltam [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 14.5 | Prevenção da transmissão vertical do VIH [(2 indicadores do HHFA)]{.hhfa} |
@@ -110,12 +110,12 @@ A quem é habitualmente oferecida a testagem do VIH nesta unidade sanitária?
 Três caixas, cinco indicadores, e fecha a tabela da testagem. A separação por idade não é formalidade: **a testagem da criança exposta exige técnica distinta da do adulto** — o diagnóstico precoce no lactente faz-se por carga viral, que é o exame de 11.C.III — e é por isso que a testagem pediátrica é muito mais escassa do que a de adultos, o que as três caixas passam a mostrar.
 :::
 
-## 14.2.1 · Profilaxia pré-exposição (PrEP) ao VIH [NOVO]{.etiqueta .novo}
+## 14.2.1 · Profilaxia pré-exposição ao VIH (PrEP) [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Onde há profilaxia pré-exposição ao VIH, e se a unidade a inicia ou apenas segue quem a iniciou. É a porta da grelha seguinte. É medida própria do Mapa Sanitário.
+Onde há profilaxia pré-exposição ao VIH (PrEP), e se a unidade a inicia ou apenas segue quem a iniciou. É a porta da grelha seguinte. É medida própria do Mapa Sanitário.
 
 </details>
 
@@ -130,7 +130,7 @@ Indicador mais próximo: 5.1.1.1.13 — utentes de consulta pré-natal que receb
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-Esta unidade sanitária fornece profilaxia pré-exposição (PrEP) ao VIH a pessoas com risco elevado de infecção?
+Esta unidade sanitária fornece profilaxia pré-exposição ao VIH (PrEP) a pessoas com risco elevado de infecção?
 :::
 
 ::: {.respostas .rotulado}
@@ -150,19 +150,19 @@ Esta unidade sanitária fornece profilaxia pré-exposição (PrEP) ao VIH a pess
 :::
 
 ::: {.nota}
-**Bloco inteiramente novo.** Pergunta-se à unidade se oferece a PrEP; saber quantas pessoas a receberam exigiria ler processos clínicos, o que está fora do alcance de um cadastro.
+**Bloco inteiramente novo.** Pergunta-se à unidade se oferece a profilaxia pré-exposição ao VIH (PrEP); saber quantas pessoas a receberam exigiria ler processos clínicos, o que está fora do alcance de um cadastro.
 
-**Porque entra:** a PrEP consta das recomendações da OMS e, num país com tratamento antirretroviral descentralizado, saber onde ela existe é informação directa para as decisões do programa.
+**Porque entra:** a profilaxia pré-exposição ao VIH (PrEP) consta das recomendações da OMS e, num país com tratamento antirretroviral descentralizado, saber onde ela existe é informação directa para as decisões do programa.
 
 A escala distingue iniciar de seguir pela mesma razão que no tratamento antirretroviral: a unidade que só redispensa é a maior parte da rede e perder-se-ia numa escala de sim ou não.
 :::
 
-## 14.2.2 a 14.2.6 · Grupos a quem é oferecida a PrEP [NOVO]{.etiqueta .novo}
+## 14.2.2 a 14.2.6 · Grupos a quem é oferecida a profilaxia pré-exposição ao VIH (PrEP) [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-A que grupos é oferecida a profilaxia pré-exposição ao VIH. É medida própria do Mapa Sanitário.
+A que grupos é oferecida a profilaxia pré-exposição ao VIH (PrEP). É medida própria do Mapa Sanitário.
 
 </details>
 
@@ -175,7 +175,7 @@ A que grupos é oferecida a profilaxia pré-exposição ao VIH. É medida própr
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-E a que grupos é habitualmente oferecida a PrEP nesta unidade sanitária?
+A que grupos é habitualmente oferecida a profilaxia pré-exposição ao VIH (PrEP) nesta unidade sanitária?
 :::
 
 ::: {.grelha .rotulado}
@@ -191,15 +191,15 @@ E a que grupos é habitualmente oferecida a PrEP nesta unidade sanitária?
 :::
 
 ::: {.nota}
-**Nota para a revisão:** se for preciso cortar, a grelha de grupos (5 campos) é a candidata natural e a primeira pergunta sobrevive sozinha — é ela que responde a «onde há PrEP». A lista de populações-chave deve ser confirmada contra a norma do PNLS antes de ir a terreno.
+**Nota para a revisão:** se for preciso cortar, a grelha de grupos (5 campos) é a candidata natural e a primeira pergunta sobrevive sozinha — é ela que responde a «onde há profilaxia pré-exposição ao VIH (PrEP)». A lista de populações-chave deve ser confirmada contra a norma do PNLS antes de ir a terreno.
 :::
 
-## 14.3.1 · PEP ao VIH após exposição ocupacional [NOVO]{.etiqueta .novo}
+## 14.3.1 · Profilaxia pós-exposição ao VIH (PEP) após exposição ocupacional [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Onde há profilaxia pós-exposição ao VIH para o pessoal de saúde após exposição ocupacional, e a que horas está disponível. É medida própria do Mapa Sanitário.
+Onde há profilaxia pós-exposição ao VIH (PEP) para o pessoal de saúde após exposição ocupacional, e a que horas está disponível. É medida própria do Mapa Sanitário.
 
 </details>
 
@@ -212,7 +212,7 @@ Onde há profilaxia pós-exposição ao VIH para o pessoal de saúde após expos
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-Esta unidade sanitária fornece profilaxia pós-exposição (PEP) ao VIH ao pessoal de saúde após exposição ocupacional, como um acidente com material biológico ou picão?
+Esta unidade sanitária fornece profilaxia pós-exposição ao VIH (PEP) ao pessoal de saúde após exposição ocupacional, como um acidente com material biológico ou picão?
 :::
 
 ::: {.respostas .rotulado}
@@ -228,19 +228,19 @@ Esta unidade sanitária fornece profilaxia pós-exposição (PEP) ao VIH ao pess
 :::
 
 ::: {.nota}
-**Completa o PEP nas duas situações fora do contexto da violência sexual, que está em 10.E.3.3.**
+**Completa a profilaxia pós-exposição ao VIH (PEP) nas duas situações fora do contexto da violência sexual, que está em 10.E.3.3.**
 
-**A PEP ocupacional é a profilaxia que protege o próprio pessoal de saúde** e pertence ao mesmo universo da segurança no trabalho que a comissão de 16.2.16.
+**A profilaxia pós-exposição ao VIH (PEP) ocupacional é a que protege o próprio pessoal de saúde** e pertence ao mesmo universo da segurança no trabalho que a comissão de 16.2.16.
 
-A escala pergunta pelo horário porque a janela é de 72 horas e, na prática, um acidente ocorre em turno: uma unidade que só fornece PEP de manhã fornece PEP a uma fracção dos casos. **Depende do bloco de medicamentos, que está parqueado** — sem antirretrovirais em stock a declaração não se verifica.
+A escala pergunta pelo horário porque a janela é de 72 horas e, na prática, um acidente ocorre em turno: uma unidade que só fornece a profilaxia pós-exposição ao VIH (PEP) de manhã fornece-a a uma fracção dos casos. **Depende do bloco de medicamentos, que está parqueado** — sem antirretrovirais em stock a declaração não se verifica.
 :::
 
-## 14.3.2 · PEP ao VIH após exposição sexual fora do contexto da violência [NOVO]{.etiqueta .novo}
+## 14.3.2 · Profilaxia pós-exposição ao VIH (PEP) após exposição sexual fora do contexto da violência [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Onde há profilaxia pós-exposição ao VIH após exposição sexual de risco fora do contexto da violência, e a que horas está disponível. É medida própria do Mapa Sanitário.
+Onde há profilaxia pós-exposição ao VIH (PEP) após exposição sexual de risco fora do contexto da violência, e a que horas está disponível. É medida própria do Mapa Sanitário.
 
 </details>
 
@@ -271,15 +271,15 @@ E após exposição sexual de risco que não decorra de violência?
 :::
 
 ::: {.nota}
-**Remissão importante, para não duplicar:** o PEP após violação ou violência sexual é a linha 10.E.3.3 e **não se repete aqui** — é lá que é medido. As duas leituras devem ser coerentes: uma unidade que declara PEP aqui e não o declara em 10.E.3.3 é uma inconsistência a assinalar.
+**Remissão importante, para não duplicar:** a profilaxia pós-exposição ao VIH (PEP) após violação ou violência sexual é a linha 10.E.3.3 e **não se repete aqui** — é lá que é medido. As duas leituras devem ser coerentes: uma unidade que declara a PEP aqui e não a declara em 10.E.3.3 é uma inconsistência a assinalar.
 :::
 
-## 14.3.3 · Protocolo escrito de PEP [NOVO]{.etiqueta .novo}
+## 14.3.3 · Protocolo escrito de profilaxia pós-exposição ao VIH (PEP) [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Unidades com protocolo escrito de profilaxia pós-exposição ao VIH. É medida própria do Mapa Sanitário.
+Unidades com protocolo escrito de profilaxia pós-exposição ao VIH (PEP). É medida própria do Mapa Sanitário.
 
 </details>
 
@@ -292,7 +292,7 @@ Unidades com protocolo escrito de profilaxia pós-exposição ao VIH. É medida 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-Existe nesta unidade sanitária um protocolo escrito de PEP, que inclua a janela de 72 horas e o esquema a utilizar?
+Existe nesta unidade sanitária um protocolo escrito de profilaxia pós-exposição ao VIH (PEP), que inclua a janela de 72 horas e o esquema a utilizar?
 :::
 
 ::: {.respostas .rotulado}

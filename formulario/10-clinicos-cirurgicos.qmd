@@ -519,7 +519,7 @@ E a crianças afectadas por maus-tratos?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Que prestações as unidades sanitárias oferecem aos sobreviventes de violação ou de violência por parceiro íntimo — entre elas a profilaxia pós-exposição ao VIH. Cada linha dá um indicador.
+Que prestações as unidades sanitárias oferecem aos sobreviventes de violação ou de violência por parceiro íntimo — entre elas a profilaxia pós-exposição ao VIH (PEP). Cada linha dá um indicador.
 
 </details>
 
@@ -530,7 +530,7 @@ Que prestações as unidades sanitárias oferecem aos sobreviventes de violaçã
 |---|---|---|---|
 | Linha 1 · Avaliação e exame forense — Sim | 3.6.3.1.2 | Unidades que oferecem avaliação forense dos sobreviventes<br>*Percentage of facilities offering forensic assessment of survivors* | Q1714_1 = 1; todas as unidades |
 | Linha 2 · Imunização contra a hepatite B — Sim | 3.6.3.1.4 | Unidades que oferecem imunização contra a hepatite B aos sobreviventes<br>*Percentage of facilities offering Hepatitis B immunization for survivors* | Q1714_2 = 1; todas as unidades |
-| Linha 3 · Profilaxia pós-exposição (PEP) ao VIH — Sim | 3.6.3.1.3 | Unidades que oferecem profilaxia pós-exposição (PEP) aos sobreviventes<br>*Percentage of facilities offering post exposure prophylaxis (PEP) for survivors* | Q1714_3 = 1; todas as unidades. Único indicador do catálogo sobre PEP |
+| Linha 3 · Profilaxia pós-exposição ao VIH (PEP) — Sim | 3.6.3.1.3 | Unidades que oferecem profilaxia pós-exposição (PEP) aos sobreviventes<br>*Percentage of facilities offering post exposure prophylaxis (PEP) for survivors* | Q1714_3 = 1; todas as unidades. Único indicador do catálogo sobre PEP |
 | Linha 4 · Contracepção de emergência — Sim | 3.6.3.1.6 | Unidades que oferecem contracepção de emergência aos sobreviventes<br>*Percentage of facilities offering emergency contraception for survivors* | Q1714_4 = 1; todas as unidades |
 | Linha 5 · Tratamento presuntivo de IST — Sim | 3.6.3.1.7 | Unidades que oferecem tratamento presuntivo de IST aos sobreviventes<br>*Percentage of facilities offering presumptive treatment of STIs for survivors* | Q1714_5 = 1; todas as unidades |
 | Linha 6 · Vacina antitetânica ou imunoglobulina — Sim | 3.6.3.1.5 | Unidades que oferecem toxóide tetânico ou imunoglobulina aos sobreviventes<br>*Percentage of facilities offering tetanus toxoid or immunoglobulin for survivors* | Q1714_6 = 1; todas as unidades |
@@ -550,7 +550,7 @@ Para cada prestação seguinte, diga-me se é habitualmente oferecida aos sobrev
 
 1. Avaliação e exame forense
 2. Imunização contra a hepatite B
-3. **Profilaxia pós-exposição (PEP) ao VIH**
+3. **Profilaxia pós-exposição ao VIH (PEP)**
 4. Contracepção de emergência
 5. Tratamento presuntivo de infecções de transmissão sexual, de acordo com os protocolos nacionais
 6. Vacina antitetânica ou imunoglobulina
@@ -565,9 +565,9 @@ Para cada linha: 1 Sim · 2 Não · 98 Não sabe
 :::
 
 ::: {.nota}
-**A profilaxia pós-exposição ao VIH dos sobreviventes de violência é recolhida aqui** — a linha 3 de 10.E.3. A PEP fora do contexto da violência está no quesito 14.3 e não se repete aqui.
+**A profilaxia pós-exposição ao VIH (PEP) dos sobreviventes de violência é recolhida aqui** — a linha 3 de 10.E.3. A profilaxia pós-exposição ao VIH (PEP) fora do contexto da violência está no quesito 14.3 e não se repete aqui.
 
-**Duas notas que importam à recolha.** A primeira é de prazo: o PEP só é eficaz nas primeiras 72 horas, pelo que a oferta declarada aqui deve ler-se ao lado do horário de funcionamento da unidade e da disponibilidade de antirretrovirais. A segunda é de enquadramento: **as linhas 7 e 8, sobre interrupção da gravidez, devem ser confirmadas com o GEPE contra o quadro legal angolano antes de irem a terreno.** Se a prestação não for legalmente possível, as duas linhas saem.
+**Duas notas que importam à recolha.** A primeira é de prazo: a profilaxia pós-exposição ao VIH (PEP) só é eficaz nas primeiras 72 horas, pelo que a oferta declarada aqui deve ler-se ao lado do horário de funcionamento da unidade e da disponibilidade de antirretrovirais. A segunda é de enquadramento: **as linhas 7 e 8, sobre interrupção da gravidez, devem ser confirmadas com o GEPE contra o quadro legal angolano antes de irem a terreno.** Se a prestação não for legalmente possível, as duas linhas saem.
 :::
 
 ## 10.E.4 · Profissional do mesmo sexo para o exame [NOVO]{.etiqueta .novo}
