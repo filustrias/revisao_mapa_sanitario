@@ -313,7 +313,7 @@ O que este quesito permite medir
 <p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Unidade da lista prévia do Mapa Sanitário:</strong> os campos 2.1 a 2.5 e o código da unidade vêm pré-carregados no sistema. Confirmar que correspondem à unidade visitada; se algum estiver errado, corrigir e assinalar a correcção.</p>
 <p><strong>Unidade que não consta da lista prévia:</strong> registá-la como unidade nova. Seleccionar a província, o município e a comuna do menu auxiliar e escrever a aldeia ou bairro e o nome da unidade. O código do Mapa Sanitário é atribuído posteriormente pelo GEPE.</p>
 </div>
-<div class="nota">
+<div class="nota interno">
 <p><strong>O que muda.</strong> Os campos mantêm-se. Com a lista prévia carregada no sistema, deixam de ser escritos de novo em cada ronda: confirmam-se e corrigem-se. As unidades encontradas no terreno que não constam da lista entram como unidades novas.</p>
 </div>
 </section>
@@ -387,7 +387,7 @@ O que este quesito permite medir
 <div class="instrucao rotulado">
 <p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — Se a unidade consta da lista prévia, a categoria vem pré-carregada: confirmá-la com o respondente e corrigir se necessário. Se a unidade não consta da lista, registar a categoria indicada pelo respondente.</p>
 </div>
-<div class="nota">
+<div class="nota interno">
 <p>É o estratificador principal de toda a análise: é por esta caixa que todos os indicadores se leem por tipo de unidade. Mantém-se exactamente como está. A categoria não decide nenhum salto do formulário.</p>
 </div>
 </section>
@@ -411,7 +411,7 @@ O que este quesito permite medir
 <div class="instrucao rotulado">
 <p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — As coordenadas são registadas pelo aparelho. Fazer a leitura à entrada principal do edifício principal, ao ar livre, com o aparelho estável durante pelo menos 60 segundos. Na versão em papel, registar em graus decimais, com cinco casas decimais.</p>
 </div>
-<div class="nota">
+<div class="nota interno">
 <p><strong>Porque mudou.</strong> As duas caixas mantêm-se. Ao formato que o Guião fixa — «em graus decimais» — acrescenta-se um protocolo de leitura: o local onde se faz a leitura e o tempo de estabilização do aparelho. Sem protocolo, a mesma unidade pode ficar a 200 metros de si mesma entre duas rondas, e os cálculos de distância e de acesso geográfico deixam de ser comparáveis.</p>
 </div>
 </section>
@@ -438,7 +438,7 @@ O que este quesito permite medir
 <li>Campo numérico, 3 dígitos</li>
 </ul>
 </div>
-<div class="nota">
+<div class="nota interno">
 <p>Uma caixa que qualifica a leitura anterior. Uma coordenada com precisão de 4 metros e uma com precisão de 300 metros não servem para o mesmo, e esta caixa permite distingui-las no ficheiro.</p>
 </div>
 </section>
@@ -470,7 +470,7 @@ O que este quesito permite medir
 <li>Periurbana</li>
 </ol>
 </div>
-<div class="nota">
+<div class="nota interno">
 <p><strong>Para que serve.</strong> Uma caixa própria dispensa inferir esta informação da localização administrativa, o que é difícil nas periferias das capitais provinciais, e permite desagregar por urbano e rural todos os indicadores do formulário.</p>
 </div>
 
@@ -566,7 +566,7 @@ O que este quesito permite medir
 
 <script>
 
-// Indicadores do HHFA: escondidos para os revisores; ?hhfa=1 mostra-os e lembra a escolha, ?hhfa=0 volta a escondê-los
+// Indicadores do HHFA e notas internas: escondidos para os revisores; ?hhfa=1 mostra-os e lembra a escolha, ?hhfa=0 volta a escondê-los
 
 (function () {
 
@@ -592,7 +592,7 @@ O que este quesito permite medir
 
   a.href = location.pathname + "?hhfa=0";
 
-  a.textContent = "Indicadores do HHFA visíveis · esconder";
+  a.textContent = "Indicadores do HHFA e notas internas visíveis · esconder";
 
   document.body.appendChild(a);
 

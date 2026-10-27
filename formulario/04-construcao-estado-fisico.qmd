@@ -55,7 +55,7 @@ Quantos edifícios, no total, compõem esta unidade sanitária?
 - 2 dígitos
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** Mantém-se a regra do Guião — «sem contar as Residências dos Trabalhadores» — e acrescenta-se a regra para dois casos frequentes no terreno: os edifícios de apoio contam, as ruínas não contam. Assim, duas unidades iguais dão o mesmo número.
 :::
 
@@ -113,7 +113,7 @@ Quantas residências para trabalhadores existem no recinto desta unidade ou sob 
 - 2 dígitos
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** Acrescenta-se «ou sob a sua responsabilidade», porque há unidades com residências fora do recinto que são, para todos os efeitos, suas. É informação com peso directo na retenção de pessoal em zonas rurais.
 :::
 
@@ -144,7 +144,7 @@ Qual é a superfície total coberta dessas residências, em metros quadrados?
 - 4 dígitos, **9998** se não souber
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **A mesma medida nos dois quesitos.** A Ficha pede a «superfície» dos edifícios da unidade em 4.2 e a «superfície útil» das residências em 4.4, que são medidas diferentes — área coberta e área interior utilizável. A proposta usa a área coberta nos dois, dita na própria pergunta, para que 4.2 e 4.4 sejam comparáveis entre si e com a soma dos metros quadrados de 4.9. *Decisão aprovada a 15/10.*
 :::
 
@@ -179,7 +179,7 @@ Em que ano foi concluída a construção do edifício principal desta unidade?
 - 4 dígitos · **9998** Não sabe
 :::
 
-::: {.nota}
+::: {.nota .interno}
 No ano (4.5) acrescenta-se a instrução sobre reconstrução, que decide o caso dos edifícios coloniais reabilitados, e o código 9998, porque o campo é «não obrigatório» e fica em branco com frequência — e um branco não se distingue de um desconhecimento.
 :::
 
@@ -222,7 +222,7 @@ Em que período foi construído o edifício principal?
 98. Não sabe
 :::
 
-::: {.nota}
+::: {.nota .interno}
 As cinco categorias do período (4.6) mantêm-se sem alteração: correspondem a ciclos reconhecíveis da história e do investimento público angolanos, e mudá-las quebraria a série das quatro edições. Acrescenta-se apenas o código 98.
 :::
 
@@ -265,7 +265,7 @@ Qual é o material predominante das paredes exteriores do edifício principal?
 96. Outro *(especificar)*
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** A opção «tijolo – bloco» desdobra-se em duas, porque são materiais com durabilidade, comportamento térmico e custo de reabilitação diferentes. As cinco categorias passam a seis, e a conversão para a série histórica é directa: as novas 3 e 4 juntam-se na antiga 3. A instrução de predominância resolve o caso do edifício com paredes de materiais diferentes. *Decisão aprovada a 15/10.*
 :::
 
@@ -303,7 +303,7 @@ Considerando a fundação, a estrutura, o pavimento, as paredes, a cobertura, o 
 4. Construção ou reconstrução — a estrutura é perigosa ou impede o funcionamento
 :::
 
-::: {.nota}
+::: {.nota .interno}
 As quatro categorias mantêm-se com a redacção da Ficha. O que muda é o enunciado, que nomeia os sete elementos a considerar, para que todos os inquiridores apliquem os critérios do Guião aos mesmos elementos.
 :::
 
@@ -345,7 +345,7 @@ Para cada elemento construtivo do edifício principal, indique o estado, aplican
   97. Não se aplica (latrina inexistente)
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **O que acontece com estas respostas.** Sete caixas que transformam o juízo de 4.8 em dado. A caixa de 4.8 continua a ser respondida, e passa a poder ser confrontada com os sete elementos que a definem. Mais importante para o planeamento: **uma unidade classificada globalmente como «reabilitação ligeira» pode ter a cobertura a precisar de reconstrução** — e é essa a informação que decide uma ordem de trabalhos, não a classificação global.
 
 **Nota de fronteira.** Um levantamento de defeitos sala a sala seria um exercício diferente e muito mais pesado. Não é comparável e não foi adoptado.
@@ -382,7 +382,7 @@ Qual é a superfície coberta, em metros quadrados, que se encontra em cada um d
 - Quatro campos numéricos de 4 dígitos (m²)
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Origem.** É literalmente o que o Guião manda fazer no campo 4.9: «especificar o nº de m2 em bom estado, de reabilitação ligeira, de reabilitação pesada e de reconstrução. A especificação dos m2 serve para calcular os custos da reabilitação/manutenção necessários». A proposta dá a cada uma das quatro parcelas uma caixa numérica própria, para que os metros quadrados se possam somar.
 
 **Consequência.** Com quatro caixas numéricas, a estimativa de custo de reabilitação da rede passa a ser calculável directamente a partir do Mapa Sanitário. É provavelmente o ganho mais directo de toda a proposta para o plano de investimentos.

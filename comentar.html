@@ -42,7 +42,7 @@
 </dialog>
 
 <script>
-// Indicadores do HHFA: escondidos para os revisores; ?hhfa=1 mostra-os e lembra a escolha, ?hhfa=0 volta a escondê-los
+// Indicadores do HHFA e notas internas: escondidos para os revisores; ?hhfa=1 mostra-os e lembra a escolha, ?hhfa=0 volta a escondê-los
 (function () {
   const CHAVE = "ms-ver-hhfa";
   const p = new URLSearchParams(location.search).get("hhfa");
@@ -55,7 +55,7 @@
   const a = document.createElement("a");
   a.className = "ms-aviso-hhfa";
   a.href = location.pathname + "?hhfa=0";
-  a.textContent = "Indicadores do HHFA visíveis · esconder";
+  a.textContent = "Indicadores do HHFA e notas internas visíveis · esconder";
   document.body.appendChild(a);
 })();
 </script>

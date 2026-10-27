@@ -63,7 +63,7 @@ A quem pertence esta unidade sanitária, isto é, quem é o proprietário das in
 96. Outra *(especificar)*
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** A opção «privada não lucrativa» desdobra-se em missão religiosa e organização não governamental, que em Angola têm padrões de financiamento, de pessoal e de permanência muito diferentes. Separá-las custa zero caixas e acrescenta uma leitura nova. Acrescenta-se ainda a propriedade pública não pertencente ao Serviço Nacional de Saúde que não seja militar.
 :::
 
@@ -108,7 +108,7 @@ Que entidade é responsável pela gestão corrente desta unidade — isto é, qu
 96. Outra *(especificar)*
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** Das opções da Ficha — «pública, privada, mista, outra» —, a gestão pública desdobra-se por nível, para responder à pergunta que importa à descentralização: **qual** nível público gere a unidade. A distinção entre gestão provincial e gestão municipal é central ao desenho da reforma dos cuidados primários e passa assim a ser recolhida. O enunciado passa também a dizer por palavras que a gestão pode não coincidir com a propriedade, para facilitar o preenchimento.
 :::
 
@@ -140,7 +140,7 @@ Esta unidade sanitária tem orçamento próprio?
 0. Não tem
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque está aqui.** Na Ficha, este quesito está no cabeçalho, junto da data da recolha. É um quesito de gestão financeira e passa para esta secção, onde deve ser combinado com outras informações sobre o financiamento da unidade. Conserva o código 16.1.3 até essa decisão; as opções estão nas pendências, no fim desta subsecção.
 :::
 
@@ -190,7 +190,7 @@ Para cada linha:
 3. Não existe
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** A escala de três níveis capta, sem acrescentar caixa nenhuma, a situação mais comum na rede: **a comissão existe no papel e não se reúne.** Com uma caixa de 0-1, essa unidade responde o mesmo que a unidade onde a comissão trabalha todas as semanas.
 
 **Todas as comissões nomeadas se mantêm**, por decisão expressa, incluindo as que não têm equivalente no instrumento internacional.
@@ -232,7 +232,7 @@ Esta unidade sanitária realiza rotineiramente revisões formais de casos de doe
 Se a resposta for «Não», passar a 16.2.14.4.
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **É a aplicação mais clara da regra de que a porta é a actividade e não o órgão.** A porta deste bloco não é a existência da Comissão de Óbitos Hospitalares (quesito 16.2.14 da lista acima), mas a realização efectiva de revisões — porque **uma unidade pode revisar óbitos maternos sem ter comissão constituída, e é precisamente dela que queremos saber**. A caixa da comissão mantém-se, em paralelo, na lista de três níveis.
 
 **A porta é o internamento e não o tipo de unidade**: o denominador de todo o bloco são as unidades com internamento, seja qual for o seu tipo. Um centro de saúde com camas onde ocorreu um óbito materno tem de ser perguntado — e é precisamente o caso que mais interessa à mortalidade materna.
@@ -298,7 +298,7 @@ Foi realizada alguma revisão formal de caso nos últimos 3 meses completos?
 2. Não
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **As perguntas 16.2.14.3 e 16.2.14.6 são a verificação da declaração:** separam «realizamos rotineiramente» de «realizámos de facto nos últimos 3 meses», que é a diferença entre um sistema a funcionar e um sistema no regulamento.
 :::
 
@@ -442,7 +442,7 @@ Para cada linha:
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não» nas duas linhas, não fazer 16.2.13.2.
 :::
 
-::: {.nota}
+::: {.nota .interno}
 Mesmo desenho: a actividade, não o órgão. A segunda linha de 16.2.13.1 — reuniões multidisciplinares onde os resultados são analisados — é a que capta as unidades sem comissão constituída que, apesar disso, discutem infecções. **É a parte da prevenção e controlo de infecções que cabe na gestão;** o resto — normas de prevenção e de isolamento, pessoal formado, avaliação sistemática, normas de limpeza — fica para um bloco próprio, ainda por construir.
 :::
 
@@ -516,7 +516,7 @@ Esta unidade sanitária realiza rotineiramente actividades de garantia de qualid
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», terminar o bloco.
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Quesito inteiramente novo**, e o único acrescento desta subsecção que não tem correspondência em nenhuma caixa da Ficha. O bloco tem nove caixas, quase todas de resposta declarada pelo respondente.
 :::
 
@@ -690,7 +690,7 @@ Existe documentação que mostre que a informação de garantia de qualidade é 
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for sim, pedir para ver a documentação antes de marcar «Sim, observado» ou «Sim, referido, não visto».
 :::
 
-::: {.nota}
+::: {.nota .interno}
 O quesito **16.2.18.6** é o que separa um sistema real de um sistema declarado: pede documentação, e distingue «observado» de «referido, não visto».
 :::
 

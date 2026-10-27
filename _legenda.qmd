@@ -1,7 +1,7 @@
 ::: {.callout-tip appearance="simple" collapse="true"}
 ## Legenda
 
-Caixa cinzenta: o que se lê ao respondente. *Itálico*: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.
+Caixa cinzenta: o que se lê ao respondente. *Itálico*: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa azul: o que o quesito permite medir. Caixa amarela: blocos parqueados e pendências.
 
 Etiquetas: [NOVO]{.etiqueta .novo} não existe na Ficha 19_01 · [ALTERADO]{.etiqueta .alterado} existe e muda · [MANTÉM-SE]{.etiqueta .mantem} existe e não muda · [A DECIDIR]{.etiqueta .decidir} depende desta revisão · [PARQUEADO]{.etiqueta .parqueado} fica para depois.
 :::

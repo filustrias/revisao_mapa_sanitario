@@ -248,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Caixa cinzenta: o que se lê ao respondente. <em>Itálico</em>: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa amarela: o que acontece com cada resposta. Linha final em cinzento: o indicador internacional que o quesito alimenta.</p>
+<p>Caixa cinzenta: o que se lê ao respondente. <em>Itálico</em>: instrução ao inquiridor, não lida em voz alta. Lista numerada: as opções de resposta, com os códigos que vão para o sistema. Caixa azul: o que o quesito permite medir. Caixa amarela: blocos parqueados e pendências.</p>
 <p>Etiquetas: <span class="etiqueta novo">NOVO</span> não existe na Ficha 19_01 · <span class="etiqueta alterado">ALTERADO</span> existe e muda · <span class="etiqueta mantem">MANTÉM-SE</span> existe e não muda · <span class="etiqueta decidir">A DECIDIR</span> depende desta revisão · <span class="etiqueta parqueado">PARQUEADO</span> fica para depois.</p>
 </div>
 </div>
@@ -425,7 +425,7 @@ ul.task-list li input[type="checkbox"] {
 
 <script>
 
-// Indicadores do HHFA: escondidos para os revisores; ?hhfa=1 mostra-os e lembra a escolha, ?hhfa=0 volta a escondê-los
+// Indicadores do HHFA e notas internas: escondidos para os revisores; ?hhfa=1 mostra-os e lembra a escolha, ?hhfa=0 volta a escondê-los
 
 (function () {
 
@@ -451,7 +451,7 @@ ul.task-list li input[type="checkbox"] {
 
   a.href = location.pathname + "?hhfa=0";
 
-  a.textContent = "Indicadores do HHFA visíveis · esconder";
+  a.textContent = "Indicadores do HHFA e notas internas visíveis · esconder";
 
   document.body.appendChild(a);
 

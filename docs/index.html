@@ -276,7 +276,7 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><strong>Estado da proposta.</strong> O formulário está organizado em 17 secções, por tema e pela ordem em que o inquiridor o percorre. Os quesitos foram renumerados; cada um mostra, em pequeno, o código que tinha na versão anterior, e a tabela completa está em «Correspondência de códigos». Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.</p>
+<p><strong>Estado da proposta.</strong> O formulário está organizado em 17 secções, por tema e pela ordem em que o inquiridor o percorre. Os quesitos foram renumerados de forma sequencial. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.</p>
 </div>
 </div>
 </div>
@@ -339,7 +339,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p><strong>O enunciado</strong>, em caixa cinzenta, é o que se lê ao respondente, palavra por palavra. <strong>As instruções ao inquiridor</strong>, em itálico, não são lidas em voz alta. <strong>As opções de resposta</strong> aparecem numeradas com os códigos que irão para o sistema. <strong>A nota</strong>, em caixa amarela, diz o que acontece com cada resposta — o salto que provoca, a porta que abre ou fecha, a verificação que o sistema deve assinalar, e, quando o quesito mudou, o que era antes numa frase.</p>
+<p><strong>O enunciado</strong>, em caixa cinzenta, é o que se lê ao respondente, palavra por palavra. <strong>As instruções ao inquiridor</strong>, em itálico, não são lidas em voz alta. <strong>As opções de resposta</strong> aparecem numeradas com os códigos que irão para o sistema. <strong>O que este quesito permite medir</strong>, em caixa azul que se abre com um clique, diz o que se obtém com as respostas. Os blocos parqueados e as pendências têm uma nota em caixa amarela.</p>
 <p><strong>A linha do indicador</strong>, discreta, no fim, diz qual o indicador internacional que o quesito alimenta. Serve para quem quiser verificar; quem estiver a revisar o conteúdo da pergunta pode ignorá-la sem perder nada.</p>
 </section>
 <section id="três-convenções-que-atravessam-todo-o-formulário" class="level2">
@@ -535,7 +535,7 @@ ul.task-list li input[type="checkbox"] {
 
 <script>
 
-// Indicadores do HHFA: escondidos para os revisores; ?hhfa=1 mostra-os e lembra a escolha, ?hhfa=0 volta a escondê-los
+// Indicadores do HHFA e notas internas: escondidos para os revisores; ?hhfa=1 mostra-os e lembra a escolha, ?hhfa=0 volta a escondê-los
 
 (function () {
 
@@ -561,7 +561,7 @@ ul.task-list li input[type="checkbox"] {
 
   a.href = location.pathname + "?hhfa=0";
 
-  a.textContent = "Indicadores do HHFA visíveis · esconder";
+  a.textContent = "Indicadores do HHFA e notas internas visíveis · esconder";
 
   document.body.appendChild(a);
 

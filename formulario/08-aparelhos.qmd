@@ -64,7 +64,7 @@ Para cada um dos aparelhos seguintes, indique quantas unidades existem nesta uni
 | 8.1.15 | Kit de cesariana | \_\_\_ | ☐ |
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** Os 15 tipos de aparelho mantêm-se, com os mesmos códigos. O enunciado passa a dizer o que se conta: os aparelhos em condições de utilização no último mês.
 
 **Remissões.** O esterilizador, o aparelho de raios X e o ecógrafo contam-se aqui como equipamento; a oferta dos serviços correspondentes — esterilização, imagiologia — está na secção 11.
@@ -132,7 +132,7 @@ Vou perguntar por alguns aparelhos que devem existir na área principal de atend
 | 8.1.23 | Craveira ou estadiómetro [HHFA 2.2.1.1.12]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 ☐ 3 | ☐ 1 ☐ 2 ☐ 98 |
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque é necessária.** A contagem de 8.1.1 a 8.1.15 diz quantos aparelhos existem; esta grelha verifica se estão presentes e a funcionar na área de atendimento. As duas servem decisões diferentes — a contagem orienta a distribuição de equipamento, a verificação mostra onde estão as falhas —, e por isso os quatro aparelhos que entram nas duas conservam a sua caixa de quantidade.
 
 **Códigos.** Os oito itens novos continuam a numeração da Ficha, de 8.1.16 a 8.1.23, para que nada do que já existe mude de número. A balança de criança (graduação de 250 g) é distinta da balança de bebé (graduação de 100 g), que se mantém.

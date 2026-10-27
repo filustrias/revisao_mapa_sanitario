@@ -83,7 +83,7 @@ Qual é a fonte de água mais utilizada por esta unidade sanitária neste moment
 98. Não sabe
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** As cinco categorias da Ficha desdobram-se na lista internacional de fontes de água, que distingue situações reunidas na Ficha em «furo ou poço»: um poço protegido é fonte melhorada, um poço não protegido não é. É esta distinção que permite calcular o indicador de fonte melhorada. A estrutura Principal + Outras da Ficha é integralmente conservada.
 :::
 
@@ -125,7 +125,7 @@ Se sim: posso ver a água que está disponível hoje? A água pode estar canaliz
 4. Não, ou disponível apenas fora do recinto
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **O que acontece com cada resposta.** O indicador de água melhorada cumpre-se quando a categoria de 5.1 é melhorada **e** a resposta aqui é 1 ou 2. As respostas 3 e 4 não o cumprem: uma unidade com furo no papel e sem água na torneira não tem água.
 
 **Porque é necessário.** É a diferença entre ter uma fonte e ter água. Uma caixa separa as duas coisas.
@@ -171,7 +171,7 @@ Qual é a fonte de electricidade mais utilizada por esta unidade? E que fontes d
 96. Outra
 :::
 
-::: {.nota}
+::: {.nota .interno}
 As categorias mantêm-se — são adequadas e correspondem às da classificação internacional. A estrutura Principal + Outras mantém-se e é aqui especialmente útil: a combinação «rede geral como principal, gerador e solar como reserva» é a situação real de muitas unidades e hoje já é captada.
 :::
 
@@ -210,7 +210,7 @@ Nos últimos 7 dias, houve electricidade — da fonte principal ou de qualquer f
 3. Algumas vezes disponível, com interrupções frequentes ou de mais de 2 horas por dia
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **O que acontece com cada resposta.** O indicador de unidades com electricidade cumpre-se quando 5.2 é diferente de «não tem» **e** a resposta aqui é 1 ou 2. A resposta 3 não o cumpre.
 
 **Porque é necessário.** Pela mesma razão da água: ter ligação à rede não é ter electricidade. E este campo articula-se com a cadeia de frio do PAV — uma unidade com geleira e com interrupções de mais de duas horas por dia tem um problema de conservação de vacinas que nenhum inventário de equipamento revela.
@@ -261,7 +261,7 @@ Se sim: de que tipo é? Posso vê-lo?
 96. Outra
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** As quatro categorias da Ficha são casa de banho, latrina, latrina melhorada e outra. A lista nova é a internacional e traz a definição dentro da própria opção, para que a distinção entre «latrina» e «latrina melhorada» se faça da mesma maneira em todas as unidades. O indicador de saneamento melhorado cumpre-se com as categorias 1, 2 ou 4. As definições das oito categorias serão escritas no Guião revisto. *Decisão aprovada a 15/10.*
 :::
 
@@ -302,7 +302,7 @@ Como é feita a recolha do lixo comum desta unidade? E que outros modos de recol
 00. Não há recolha organizada
 :::
 
-::: {.nota}
+::: {.nota .interno}
 Categorias mantidas. Acrescenta-se apenas o código 00, para que a ausência de recolha organizada seja uma resposta e não um branco.
 :::
 
@@ -347,7 +347,7 @@ Qual é o destino final dos resíduos comuns produzidos nesta unidade?
 98. Não sabe
 :::
 
-::: {.nota}
+::: {.nota .interno}
 Categorias mantidas.
 :::
 
@@ -395,7 +395,7 @@ E qual é o destino final dos resíduos hospitalares — cortantes, perfurantes 
 98. Não sabe
 :::
 
-::: {.nota}
+::: {.nota .interno}
 Categorias mantidas. O quesito 5.6 é o único da secção 5 sem coluna «Outros», e assim permanece.
 :::
 
@@ -441,7 +441,7 @@ O incinerador ou outro meio de tratamento de resíduos desta unidade estava a fu
 98. Não sabe
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **O que acontece com cada resposta.** O destino adequado dos resíduos cortantes e dos resíduos infecciosos só conta para o indicador **se** o meio de tratamento estiver a funcionar e tiver combustível. Um incinerador parado por falta de gasóleo é, na prática, queima ao ar livre — e é essa a situação que estas duas caixas tornam visível.
 :::
 
@@ -520,7 +520,7 @@ Existem nesta unidade normas escritas ou instruções de trabalho sobre a gestã
 3. Não existem
 :::
 
-::: {.nota}
+::: {.nota .interno}
 Duas caixas, dois indicadores, e a ligação ao bloco de prevenção e controlo de infecções — que fica parqueado, mas de que estas duas perguntas são a parte que se responde por declaração.
 :::
 
@@ -590,7 +590,7 @@ Existe nesta unidade uma estação ou sistema de tratamento de águas residuais?
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 5.7.1 for «Não», saltar para a secção 6.
 :::
 
-::: {.nota}
+::: {.nota .interno}
 Os dois campos mantêm-se. A codificação passa a ser Sim = 1 e Não = 2 nas duas perguntas, para que a mesma resposta tenha sempre o mesmo código; na conversão para a série histórica, recorde-se que na Ficha 5.7.1 usa Não = 1 e Sim = 2.
 :::
 
@@ -627,6 +627,6 @@ Se existe, esteve a funcionar nos últimos 30 dias? Se não, qual a causa?
 98. Não sabe
 :::
 
-::: {.nota}
+::: {.nota .interno}
 Mantém-se a especificação da causa, que o Guião já pede. Acrescenta-se o período de referência — «nos últimos 30 dias» — porque «funciona» sem período não é verificável.
 :::

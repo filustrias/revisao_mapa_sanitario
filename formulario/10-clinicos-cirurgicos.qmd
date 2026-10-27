@@ -105,7 +105,7 @@ Vou ler uma lista de especialidades clínicas. Para cada uma, diga-me se esta un
 | 10.28 | Urologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** A pergunta da Ficha — se há atendimento em cada especialidade — mantém-se e ganha a companhia de outras três, para que se possa distinguir um centro de saúde onde o clínico geral acompanha hipertensos uma manhã por semana de um hospital com três cardiologistas em consulta diária. As quatro perguntas separam a **existência** da oferta, a sua **dimensão** — especialistas e turnos de atendimento — e a **forma de acesso**. O número de especialistas, com o código 00, conserva a distinção entre atendimento por especialista e por outro profissional.
 
 **O enunciado fixa o critério** de atendimento regular — dias marcados na semana, não suspenso há mais de 3 meses —, para que todas as unidades respondam com a mesma régua.
@@ -198,7 +198,7 @@ Para cada uma das três condições seguintes, diga-me quais destas funções s�
 | Doença respiratória crónica (asma e doença pulmonar obstrutiva crónica) [HHFA 1.3.2.4.4 · 3.3.3.1.1]{.hhfa .cod-hhfa} | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não |
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Diferença em relação a 10.A.** Em 10.A pergunta-se pela disponibilidade de atendimento em cada especialidade. Aqui pergunta-se se a unidade consegue realizar funções específicas no cuidado a doentes com hipertensão e outras doenças cardiovasculares, diabetes e doença respiratória crónica — diagnosticar, iniciar e ajustar o tratamento, seguir regularmente os doentes e aconselhá-los para o autocuidado —, haja ou não especialista na unidade.
 
 Com estas respostas é possível medir a densidade da disponibilidade e da prontidão para o cuidado a doentes com estas condições na área de abrangência da unidade.
@@ -243,7 +243,7 @@ Quando um doente com doença crónica não transmissível — hipertensão, diab
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Procura activa é qualquer contacto feito por iniciativa da unidade para trazer o utente de volta: telefone ou SMS, visita domiciliar pelo pessoal da unidade, ou pedido aos ADECOS para o localizar.
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 15.4.2, como função dos ADECOS.
 
 **Verificação a programar.** Na resposta 1, pedir para ver a lista ou o livro de faltosos do último mês.
@@ -281,7 +281,7 @@ Esta unidade sanitária presta algum serviço de diagnóstico, tratamento ou seg
 2. Não
 :::
 
-::: {.nota}
+::: {.nota .interno}
 Duas caixas, dois indicadores. Mesma lógica de 10.B: a psiquiatria e a psicologia são especialidades que quase nenhuma unidade de cuidados primários tem, enquanto o atendimento a transtornos mentais comuns e o seguimento de doentes com epilepsia acontecem em centros de saúde sem qualquer especialista.
 :::
 
@@ -317,7 +317,7 @@ E de doenças neurológicas, incluindo epilepsia?
 2. Não
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **A epilepsia é nomeada de propósito** no enunciado, porque é a condição neurológica cujo seguimento mais depende dos cuidados primários e cuja ruptura de medicamento tem consequência imediata.
 :::
 
@@ -397,7 +397,7 @@ E para cada uma das localizações seguintes?
 Para cada localização: 1 Sim · 2 Não
 :::
 
-::: {.nota}
+::: {.nota .interno}
 Cinco caixas, cinco indicadores. O cancro do colo do útero é o que mais interessa à rede de cuidados primários, porque o rastreio por inspecção visual com ácido acético é factível num centro de saúde — e já temos a maca de exame ginecológico na secção 7 e o espéculo na secção 8. **Cruzando os três, passa a ser possível ver quais as unidades que têm a condição material para rastrear e não rastreiam** — que é uma lacuna de organização e não de investimento, e portanto barata de corrigir.
 :::
 
@@ -441,7 +441,7 @@ Esta unidade sanitária presta algum serviço a sobreviventes de violação, de 
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 10.29.
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Reserva registada.** Uma resposta afirmativa a este bloco cria expectativa de confidencialidade, de protocolo escrito e de articulação com a polícia e o sistema judicial. Perguntar sem que exista essa capacidade pode produzir um dado que sobrestima a resposta disponível. Está pedida ao MINSA a norma nacional sobre atendimento a sobreviventes de violência sexual, para ancorar o enunciado.
 :::
 
@@ -564,7 +564,7 @@ Para cada prestação seguinte, diga-me se é habitualmente oferecida aos sobrev
 Para cada linha: 1 Sim · 2 Não · 98 Não sabe
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **A profilaxia pós-exposição ao VIH (PEP) dos sobreviventes de violência é recolhida aqui** — a linha 3 de 10.E.3. A profilaxia pós-exposição ao VIH (PEP) fora do contexto da violência está no quesito 14.3 e não se repete aqui.
 
 **Duas notas que importam à recolha.** A primeira é de prazo: a profilaxia pós-exposição ao VIH (PEP) só é eficaz nas primeiras 72 horas, pelo que a oferta declarada aqui deve ler-se ao lado do horário de funcionamento da unidade e da disponibilidade de antirretrovirais. A segunda é de enquadramento: **as linhas 7 e 8, sobre interrupção da gravidez, devem ser confirmadas com o GEPE contra o quadro legal angolano antes de irem a terreno.** Se a prestação não for legalmente possível, as duas linhas saem.
@@ -605,7 +605,7 @@ Está sempre disponível nesta unidade sanitária um profissional de saúde do m
 98. Não sabe
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **10.E.4** é o único quesito do bloco que não mede uma prestação clínica mas uma condição de acesso: determina se a pessoa chega a ser examinada. Numa rede onde muitas unidades têm um único profissional de turno, é uma restrição real.
 :::
 
@@ -674,7 +674,7 @@ Realiza procedimentos de pequena cirurgia, isto é, efectuados sob anestesia loc
 2. Não
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** A Ficha divide a cirurgia geral em urgência, electiva e pequena; o instrumento internacional divide em pequena e grande, pelo critério da anestesia e do bloco operatório. A proposta adopta o critério internacional, que é o verificável, e conserva a distinção urgência/electiva como informação própria dentro da grande cirurgia. As definições do Guião (folha 10) para as três caixas da Ficha mantêm-se válidas.
 :::
 
@@ -777,7 +777,7 @@ Para cada procedimento: 1 Sim · 2 Não
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em 10.29.4, ler os três procedimentos e marcar Sim ou Não para cada um.
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Os três procedimentos de 10.29.4** são os procedimentos de referência: medem capacidade cirúrgica essencial **efectiva** e não declarada, porque perguntam o que foi feito nos últimos 12 meses e não o que a unidade poderia fazer.
 
 **Cruzam-se** com o número de blocos operatórios (11.D.5) e com a anestesia (11.D.2).
@@ -813,7 +813,7 @@ Realiza procedimentos cirúrgicos em alguma das seguintes áreas de especialidad
 Para cada área: 1 Sim · 2 Não
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Fecho da secção 10.** Decisão de fundo a registar: nesta secção adopta-se o olhar internacional, que é o mais adequado ao objecto, **sem retirar a lista de especialidades da Ficha**. As duas convivem porque respondem a perguntas diferentes — a especialidade diz como a unidade está organizada e serve a gestão da rede; a condição diz o que a unidade consegue resolver e serve o planeamento do cuidado. É o mesmo desenho usado nas comissões de 16.2, onde o órgão e a actividade convivem.
 
 [**52 indicadores do HHFA** nesta secção.]{.hhfa}

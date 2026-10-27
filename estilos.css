@@ -131,6 +131,9 @@ details.medir-seccao:not([open]) { padding-top: 0.55rem; padding-bottom: 0.55rem
 .hhfa { display: none; }
 html.ver-hhfa div.hhfa { display: block; }
 html.ver-hhfa span.hhfa { display: inline; }
+/* Notas de justificação (porque mudou, de onde vem): só para o coordenador, com o mesmo interruptor */
+.nota.interno { display: none; }
+html.ver-hhfa .nota.interno { display: block; border-left-style: dashed; }
 .medir div.hhfa, .medir div.hhfa p {
   font-size: 0.82rem;
   color: var(--ms-apagado);

@@ -57,7 +57,7 @@ Vou perguntar pelos meios de transporte afectos a esta unidade sanitária. Para 
 | 9.1.7 | Carrinhas | \_\_ | \_\_ | \_\_ |
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** Os sete tipos de veículo mantêm-se. As duas colunas da Ficha — funcionantes e não funcionantes — passam a três. A definição de funcional do Guião (folha 18) fica preservada e passa a estar escrita na pergunta: um veículo é funcional se está em funcionamento ou tem uma avaria que a unidade pode resolver com os seus recursos. A soma das colunas 1 e 2 corresponde aos «funcionantes» da Ficha e a coluna 3 aos «não funcionantes».
 :::
 
@@ -83,7 +83,7 @@ Existe algum outro meio de transporte afecto a esta unidade sanitária que não 
 | 9.1.10 | \_\_\_\_\_\_\_\_\_\_\_\_ | \_\_ | \_\_ | \_\_ |
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** As três linhas abertas mantêm-se, com a terceira coluna acrescentada, como em 9.1.1 a 9.1.7.
 :::
 
@@ -148,7 +148,7 @@ Esta unidade sanitária segue um plano de manutenção de rotina para algum dos 
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 9.3.1 for «Não» ou «A unidade não tem veículos», terminar a secção sem fazer 9.3.2.
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque é necessária.** A opção «A unidade não tem veículos» evita que uma unidade sem frota seja contada como unidade sem plano de manutenção.
 
 **Verificação a programar.** Se a contagem de 9.1.1 a 9.1.10 for zero em todas as colunas, 9.3.1 tem de ser 5.

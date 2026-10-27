@@ -53,7 +53,7 @@ Esta unidade sanitária distribui redes mosquiteiras tratadas de longa duração
 98. Não sabe
 :::
 
-::: {.nota}
+::: {.nota .interno}
 Mantém-se o código e o sentido. A única alteração é trazer para dentro da pergunta o critério que o Guião já fixa — «distribuição regular (mais de 6 meses no ano)» —, para que todos os inquiridores o apliquem da mesma maneira.
 
 **É contributo próprio:** o instrumento internacional só pergunta pela rede entregue em consulta — pré-natal, pós-parto e cuidados à criança — e não pela distribuição à população em geral, que é a modalidade do programa angolano. As duas leituras passam a coexistir.
@@ -95,7 +95,7 @@ A partir desta unidade sanitária realizam-se periodicamente brigadas móveis de
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Inclui postos avançados. Exclui campanhas de vacinação e brigadas organizadas pela delegação ou secção municipal, mesmo com participação de pessoal desta unidade.
 :::
 
-::: {.nota}
+::: {.nota .interno}
 Mantêm-se integralmente, com as definições do Guião — incluindo as três exclusões, que são o que dá sentido à resposta — trazidas para dentro da pergunta. As duas caixas continuam separadas porque **medem esforços logísticos de ordem diferente**: uma unidade que faz equipas avançadas perto e não faz brigadas longe tem um problema de transporte, não de organização.
 
 **Contributo próprio do Mapa Sanitário.** A actividade extramural e as brigadas móveis organizadas pela unidade são uma parte importante dos cuidados primários num país com a densidade populacional de Angola.
@@ -173,7 +173,7 @@ Existem Agentes de Desenvolvimento Comunitário e de Saúde (ADECOS) a trabalhar
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 15.4 for «Não», não perguntar 15.4.0 e saltar para a secção 16.
 :::
 
-::: {.nota}
+::: {.nota .interno}
 A caixa existe e mantém-se; **o que se acrescenta é o campo da quantidade, como o Guião já prevê**: «ADECOS: Agentes de Desenvolvimento Comunitário e de Saúde, trabalhando na Unidade Sanitária. Nesse caso, especificar a quantidade» (folhas 12 e 13).
 :::
 
@@ -204,7 +204,7 @@ Se sim, quantos?
 Número, 000 a 999
 :::
 
-::: {.nota}
+::: {.nota .interno}
 Uma caixa de número resolve, e passa a haver pela primeira vez **um inventário da força de trabalho comunitária da rede**, que é informação central para um plano de investimentos em cuidados primários.
 :::
 
@@ -249,7 +249,7 @@ Para cada área seguinte, diga-me se existe articulação regular entre esta uni
 | 15.4.1.6 | VIH [HHFA 3.2.6.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Seis caixas, uma por programa — e é o achado mais importante desta secção.** A ligação com os agentes comunitários mede-se em cada um dos seis programas, porque **a articulação entre a unidade e a comunidade é constitutiva dos cuidados primários e não um extra**.
 
 Angola tem a infra-estrutura — os ADECOS existem e a Ficha já os registra — e o que se acrescenta é perguntar **para quê**, que é o que estas seis linhas fazem.
@@ -298,6 +298,6 @@ Para cada área seguinte, diga-me se os ADECOS procuram, a pedido desta unidade 
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar «2 · Não» nas áreas em que a unidade não oferece o serviço.
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque entra.** A procura de quem faltou é uma das funções dos ADECOS. Esta grelha fecha a pergunta feita em cada linha de cuidado: ali pergunta-se se a unidade procura os faltosos; aqui, se os ADECOS fazem essa procura.
 :::

@@ -28,7 +28,7 @@ Data em que esta ficha foi preenchida ou em que esta unidade sanitária foi visi
 - **1.1.3** Ano — quatro dígitos
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** As três caixas e os códigos mantêm-se. O enunciado passa a dizer que a data é a desta recolha; a data da visita anterior, que o Guião também prevê (folha 2), passa para 1.6.
 
 **Verificação a programar.** A data não pode ser posterior à data de carregamento no sistema.
@@ -54,7 +54,7 @@ Hora a que começou o preenchimento desta ficha.
 - Em horas e minutos, no formato de 24 horas (hh:mm)
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Para que serve.** Dá a duração do preenchimento, por tipo de unidade e por forma de recolha, para planear as rondas seguintes e assinalar fichas preenchidas em tempo demasiado curto.
 :::
 
@@ -78,7 +78,7 @@ Hora a que terminou o preenchimento desta ficha.
 - Em horas e minutos, no formato de 24 horas (hh:mm)
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Verificação a programar.** A hora de fim não pode ser anterior à hora de início.
 :::
 
@@ -110,7 +110,7 @@ Forma como foi feita esta recolha de dados.
 96. Outra *(especificar)*
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **É o campo que faz funcionar toda a arquitectura da proposta.** A grelha de verificação da secção 8 e as colunas «a funcionar» das secções 7 e 8 aplicam-se apenas às unidades visitadas. Sem este campo não é possível saber, na análise, se uma célula vazia significa «não tem» ou «não foi verificado».
 
 **Consequência analítica.** Permite calcular os indicadores com o denominador correcto — apenas as unidades em que a verificação foi efectivamente possível — em vez de misturar observação e declaração numa mesma percentagem. Uma caixa resolve isto para todo o instrumento.
@@ -173,7 +173,7 @@ Qual foi a data da visita anterior a esta unidade sanitária?
 - **1.6.4** Marcar se a unidade nunca foi visitada anteriormente
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Para que serve.** Cruzada com 1.1, dá o intervalo entre visitas, e identifica as unidades que nunca foram visitadas. O Guião já prevê esta informação (folha 2).
 
 **Verificação a programar.** Se 1.6.4 estiver marcada, 1.6.1 a 1.6.3 ficam vazias, e vice-versa.
@@ -210,7 +210,7 @@ Identificação de quem recolheu os dados desta ficha.
 - **1.7.3** Telefone — texto
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Para que serve.** Permite devolver dúvidas a quem recolheu os dados e ler a qualidade dos dados por equipa de recolha.
 :::
 
@@ -253,7 +253,7 @@ Quem é o gerente, chefe ou responsável desta unidade sanitária?
 - **1.8.5** E-mail — texto
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Para que serve.** Identifica quem responde pela unidade: é a pessoa a contactar quando uma dúvida diz respeito ao conjunto dos dados e não a um quesito, e pode não ser quem respondeu ao inquérito. Passa a ser o primeiro quesito da secção.
 :::
 
@@ -287,7 +287,7 @@ Pessoas desta unidade sanitária que responderam ao inquérito ou que comunicara
 | 5 | | | | | ☐ 1 ☐ 2 ☐ 3 ☐ 4 |
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** As cinco linhas e as quatro colunas da Ficha mantêm-se. O código passa de 1.8 para 1.9, para que o responsável da unidade abra a secção. A quinta coluna é nova: quando um valor precisar de ser confirmado, diz a quem telefonar e sobre que parte da ficha. O Guião já distingue «as pessoas que preencheram ou comunicaram os dados» (folha 20).
 :::
 
@@ -313,7 +313,7 @@ Responsável pelo preenchimento desta ficha.
 | | | | |
 :::
 
-::: {.nota}
+::: {.nota .interno}
 Mantém-se exactamente como está, incluindo o título e os códigos. Enquanto 1.9 nomeia todas as pessoas que responderam, até cinco, 1.10 identifica a pessoa que responde pela ficha no seu todo.
 :::
 

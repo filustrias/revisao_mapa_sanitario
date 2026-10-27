@@ -44,7 +44,7 @@ Existe cobertura de rede móvel no recinto desta unidade sanitária?
 98. Não sabe
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque vem primeiro.** A cobertura não depende da unidade. Perguntada antes da internet, separa a falta de sinal — que se resolve com infra-estrutura de telecomunicações — da falta de contrato ou de equipamento, que se resolve com o orçamento da unidade. Serve também o canal de voz: a chamada para a unidade de referência depende de sinal, não de internet.
 :::
 
@@ -78,7 +78,7 @@ Qual é o meio de ligação à internet utilizado por esta unidade?
 96. Outro *(especificar)*
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Para que serve.** A opção 3 mostra as unidades em que a ligação depende do telemóvel pessoal dos profissionais.
 :::
 
@@ -114,7 +114,7 @@ Há acesso a correio electrónico ou à internet nesta unidade hoje?
 3. Não há acesso
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **De onde vem.** A caixa «Comunicação» dos serviços gerais (17.7) passa para esta secção, desdobrada nesta pergunta e em 6.1.4.
 :::
 
@@ -152,7 +152,7 @@ O custo da ligação à internet é pago ou reembolsado pela gestão desta unida
 97. Não se aplica
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Para que serve.** O custo pago pela gestão distingue a ligação institucional da ligação paga pelo próprio profissional.
 :::
 
@@ -180,7 +180,7 @@ Nos últimos 7 dias, a ligação à internet esteve disponível em todos os mome
 97. Não há ligação
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Para que serve.** Ter ligação não é o mesmo que ter ligação quando se precisa. A escala é a mesma usada para a electricidade em 5.2.3.
 :::
 
@@ -222,7 +222,7 @@ Para cada um dos equipamentos seguintes, indique quantos existem nesta unidade e
 | 6.2.6 | Telefone fixo ou telemóvel da unidade [HHFA 2.1.1.1.5]{.hhfa .cod-hhfa} | \_\_ | \_\_ |
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Para que serve.** Segue a lógica usada para os veículos na secção 9: quantos existem e quantos funcionam. A bateria de apoio entra porque, com os cortes de energia medidos em 5.2.3, é ela que decide se um registo em curso se perde.
 :::
 
@@ -315,7 +315,7 @@ Que tipos de informação estão mantidos em base de dados electrónica nesta un
 | 12 | Gestão de stock ou inventário [HHFA 4.5.2.2.13]{.hhfa .cod-hhfa} | ☐ | ☐ |
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **A decidir.** É a informação que muda mais depressa em todo o formulário — muda com cada projecto que instala um sistema. Falta decidir se entra já ou se fica para as recolhas com visita. Sem esta grelha, a secção passa de 36 para 24 campos.
 :::
 
@@ -387,7 +387,7 @@ Com que frequência se faz cópia de segurança das bases de dados que contêm i
 6. Não há cópia de segurança de rotina
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Para que serve.** Onde a energia falha, a falta de cópia de segurança arrisca a perda definitiva de processos clínicos. Lê-se com a bateria de apoio (6.2.5) e com os cortes de energia (5.2.3).
 :::
 
@@ -429,7 +429,7 @@ Em que formato esta unidade submete os relatórios de dados de rotina ao nível 
 97. Não submete relatórios
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Para que serve.** Lido com a cobertura de rede (6.1.1) e com a disponibilidade da ligação (6.1.5), distingue a unidade que reporta em papel por falta de meios da que o faz por hábito.
 :::
 
@@ -459,7 +459,7 @@ Que plataforma ou programa informático é utilizado nesta unidade para o regist
 96. Outro *(especificar)*
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Para que serve.** Acompanha a transição para o DHIS2. A lista de opções deve ser validada pelo GEPE e pela área de informática do MINSA.
 :::
 
@@ -493,7 +493,7 @@ Existe nesta unidade uma pessoa designada, a tempo inteiro, para a gestão dos d
 2. Não
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Para que serve.** Lidas ao lado do equipamento e dos sistemas, 6.4.1 e 6.4.2 mostram as unidades que têm meios informáticos mas ninguém designado para os usar.
 :::
 

@@ -86,7 +86,7 @@ Qual é a população total residente na área de abrangência **directa** desta
 - Campo numérico, 6 dígitos
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** A caixa é a mesma. O que se acrescenta é a palavra «directa» e a instrução que a explica, porque sem elas a mesma população é contada várias vezes ao longo da árvore de referência — o hospital municipal declara a população do município, e cada centro de saúde do município declara a sua. Somando as fichas, a população do país aparece duas ou três vezes. O código 999998 para «não dispõe de estimativa» evita que a ausência de dado seja registada como zero.
 
 **Consequência.** É o denominador de 27 indicadores, incluindo as 20 densidades de pessoal por habitante.
@@ -133,7 +133,7 @@ De onde provém essa estimativa da população?
 98. Não sabe
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Para que serve.** Duas caixas que qualificam o denominador de 27 indicadores. Uma densidade de enfermeiros por habitante calculada sobre uma projecção do INE de 2024 e outra calculada sobre um recenseamento feito pela unidade em 2016 não são comparáveis, e estas duas caixas permitem distingui-las.
 :::
 
@@ -199,7 +199,7 @@ Quantas unidades sanitárias referem habitualmente doentes para esta unidade?
 - Campo numérico, 2 dígitos
 :::
 
-::: {.nota}
+::: {.nota .interno}
 É o total de controlo da árvore de referência: permite confrontar o que cada unidade declara receber com o que as outras declaram enviar. Divergências entre os dois lados são informação sobre o funcionamento real da rede, não erros a corrigir.
 :::
 
@@ -238,7 +238,7 @@ A unidade para onde cada unidade transfere os doentes que precisam de cuidados d
 - **3.2.3** Código: 6 dígitos
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** A Ficha oferece duas filas para duas unidades de referência. A proposta dá a cada uma um papel próprio e separa o nó superior, que é obrigatório e único, da referência lateral de 3.3, que é opcional e definida por grupo de doentes. O acrescento com mais consequência é **3.2.3, o código**: com ele, a árvore de referência nacional passa a ser reconstruível a partir das fichas, sem depender da grafia com que cada unidade escreve o nome do hospital de destino.
 :::
 
@@ -280,7 +280,7 @@ Qual é o meio de transporte mais frequentemente utilizado para transferir doent
 96. Outro
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **O meio de transporte** (3.2.4) é novo e pergunta pelo que de facto se usa, não pelo que deveria usar-se. A opção 5, transporte pago pelo doente, e a opção 6, a pé ou em maca, são respostas frequentes no terreno, que passam a ter opção própria.
 :::
 
@@ -315,7 +315,7 @@ Distância total em quilómetros pelo percurso habitual.
 - Quilómetros, 3 dígitos
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** Os quatro campos da Ficha mantêm-se no essencial e ganham precisões. A decomposição em asfalto e picada, já pedida pelo Guião, mantém-se; acrescenta-se a instrução de que a distância é pela estrada e não em linha recta, para que os números sejam comparáveis entre unidades.
 :::
 
@@ -359,7 +359,7 @@ Quantos são em estrada de terra ou picada.
 - Quilómetros, 3 dígitos
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Verificação a programar.** A soma de 3.2.6 e 3.2.7 deve ser igual a 3.2.5.
 :::
 
@@ -417,7 +417,7 @@ Tempo em minutos na época das chuvas.
 - Minutos, 3 dígitos; **997** se intransitável, **998** se não sabe
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **O acrescento decisivo é a época das chuvas** (3.2.9): numa boa parte do país a referência que leva 40 minutos em Agosto leva três horas em Fevereiro, ou não é possível — e é essa a situação que um plano de investimentos precisa de ver. O código 997 regista a intransitabilidade sem a confundir com um tempo muito longo.
 :::
 
@@ -461,7 +461,7 @@ Esta unidade envia habitualmente algum grupo específico de doentes para uma uni
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 3.3.1 for «Não», saltar para a secção 4.
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Porque mudou.** A segunda fila da Ficha passa a ser uma referência qualificada: além de saber para onde, passa a saber-se **para quem**. O próprio Guião dá o exemplo — o envio das grávidas ao Centro Materno Infantil —, e a proposta passa a recolher o motivo, para que a segunda unidade de referência possa ser interpretada.
 :::
 
@@ -519,7 +519,7 @@ Distância total em quilómetros.
 - Quilómetros, 3 dígitos; 997 intransitável, 998 não sabe
 :::
 
-::: {.nota}
+::: {.nota .interno}
 **Regra de desenho.** Se o motivo indicado em 3.3.1 for obstetrícia e maternidade, aplica-se o protocolo completo de distância, como no nó superior — asfalto, picada e época das chuvas. É a referência em que o tempo decide o desfecho.
 :::
 
