@@ -44,6 +44,40 @@ feita primeiro na matriz e só depois transcrita para aqui, para que as duas nã
 Todas as secções estão transcritas e organizadas em 17 secções por tema. Os quesitos foram renumerados.
 A correspondência com os códigos da versão anterior (usados na matriz de decisão) está em `notas/correspondencia-codigos.md`, fora do livro.
 
+## Orientações para o guião do inquiridor (a escrever)
+
+Regras de recolha já decididas, que o guião do inquiridor deve desenvolver na parte inicial
+(como perguntar, como ouvir, como anotar). Os quesitos do livro já as aplicam, salvo indicação em contrário.
+
+**Como perguntar**
+
+- Ler a pergunta tal como está escrita na caixa «Pergunta · ler ao respondente», sem a resumir
+  nem a reformular. As opções de resposta só se lêem quando a pergunta o pede.
+- As caixas «Instrução ao inquiridor (não ler para o respondente)» nunca se lêem em voz alta.
+- Os campos «preenchido pelo inquiridor» e «registado pelo sistema digital» não se perguntam
+  (localização pré-carregada da lista prévia, coordenadas, hora). «Confirmar com o respondente»
+  quer dizer mostrar o valor pré-carregado e pedir confirmação.
+- Uma pergunta de cada vez, uma resposta de cada vez.
+
+**Quem responde: procurar quem sabe**
+
+- Se o respondente não souber a resposta com certeza, o inquiridor pergunta quem na unidade pode
+  responder e faz-lhe a pergunta, ou consulta os registos da unidade. Não se aceita um palpite.
+- A opção «Não sabe» passa a **«Ninguém na unidade sabe responder»** (código 98, que se mantém;
+  decidido a 27/10/2026, ainda por aplicar nas listas e grelhas do livro). É opção só do inquiridor: **não se lê ao respondente** e só se marca depois de
+  procurar quem sabe. O próprio rótulo lembra essa regra.
+- No sistema digital, marcar 98 abre um campo obrigatório «Quem foi consultado?».
+- A proporção de respostas 98 por inquiridor e por unidade é um indicador de qualidade da
+  recolha a acompanhar na supervisão. Na análise, o 98 lê-se como falha de informação na gestão
+  da unidade, e não como dado em falta.
+
+**Como anotar**
+
+- Quando a pergunta diz «posso ver?», distinguir o que foi observado do que foi apenas referido
+  (as opções separam os dois casos).
+- «Outro (especificar)» exige o texto. Os números escrevem-se com os dígitos indicados no campo.
+- Os saltos indicados nas instruções são obrigatórios. No sistema digital são automáticos.
+
 ## Comentários
 
 Cada quesito tem um botão **💬 Comentar**, e cada capítulo um botão para comentários gerais.
@@ -52,7 +86,7 @@ envio, com o quesito e com o nome, o email e a instituição de quem comenta
 já preenchidos (estes três são pedidos uma vez e guardados no navegador). As respostas caem numa
 folha de cálculo ligada ao formulário, uma linha por comentário.
 
-Os comentários usam os códigos novos; a «Correspondência de códigos» permite ligá-los às linhas da matriz, e é por
+Os comentários usam os códigos novos; `notas/correspondencia-codigos.md` permite ligá-los às linhas da matriz, e é por
 esse código que os comentários se cruzam com a coluna «Comentários dos revisores». Por isso,
 **não renumerar quesitos a meio de uma rodada de revisão**, e não apagar nem recriar os campos
 Quesito, Nome e apelido, Email e Instituição do formulário, nem mudar o texto das opções de
