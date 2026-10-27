@@ -140,7 +140,7 @@ Catorze linhas, um indicador por linha; com a porta 13.1 e a articulação com o
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que identificam e procuram as grávidas que faltam à consulta pré-natal. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
+Percentagem de unidades que identificam e procuram as grávidas que faltam à consulta pré-natal, dentre as unidades que oferecem consulta pré-natal. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
 
 </details>
 
@@ -728,7 +728,7 @@ Com o preservativo perguntado em linha própria, a grelha permite os dois cálcu
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que identificam e procuram as utentes de planeamento familiar que faltam à consulta de seguimento ou de reabastecimento. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
+Percentagem de unidades que identificam e procuram as utentes de planeamento familiar que faltam à consulta de seguimento ou de reabastecimento, dentre as unidades que oferecem planeamento familiar. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
 
 </details>
 

@@ -439,7 +439,7 @@ O que conta aqui é menos quem **inicia** o tratamento e mais quem o **mantém**
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que identificam e procuram os doentes em tratamento antirretroviral que faltam à consulta ou ao levantamento dos medicamentos. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
+Percentagem de unidades que identificam e procuram os doentes em tratamento antirretroviral que faltam à consulta ou ao levantamento dos medicamentos, dentre as unidades que oferecem tratamento antirretroviral. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
 
 </details>
 
@@ -816,7 +816,7 @@ Existe nesta unidade sanitária um quarto ou enfermaria de isolamento dedicado, 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que identificam e procuram os doentes em tratamento da tuberculose que faltam à consulta ou à toma dos medicamentos. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
+Percentagem de unidades que identificam e procuram os doentes em tratamento da tuberculose que faltam à consulta ou à toma dos medicamentos, dentre as unidades que oferecem atendimento aos doentes com tuberculose. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
 
 </details>
 

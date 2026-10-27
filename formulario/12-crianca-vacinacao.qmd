@@ -297,7 +297,7 @@ Parqueada para a fase da observação. **Não é omissão, é fronteira de módu
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que identificam as crianças com doses de vacina em atraso e as procuram para completar o calendário. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
+Percentagem de unidades que identificam as crianças com doses de vacina em atraso e as procuram para completar o calendário, dentre as unidades que vacinam. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
 
 </details>
 
@@ -439,7 +439,7 @@ O **albendazol** ganha linha própria: a desparasitação de rotina é contribut
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que identificam e procuram as crianças menores de 1 ano que faltam à consulta de puericultura. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
+Percentagem de unidades que identificam e procuram as crianças menores de 1 ano que faltam à consulta de puericultura, dentre as unidades que oferecem consulta de puericultura. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
 
 </details>
 
