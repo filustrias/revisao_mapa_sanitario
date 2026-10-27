@@ -777,7 +777,7 @@ Esta unidade sanitária presta algum serviço a doentes com tuberculose resisten
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades com internamento que possuem quarto de internamento dedicado a isolamento de pacientes com tuberculose.
+Percentagem de unidades com internamento que possuem quarto de internamento dedicado a isolamento de pacientes com tuberculose ou outras infecções respiratórias de transmissão aérea.
 
 </details>
 
@@ -792,7 +792,7 @@ Percentagem de unidades com internamento que possuem quarto de internamento dedi
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-Existe nesta unidade sanitária um quarto ou enfermaria de isolamento dedicado, para doentes com tuberculose ou outra infecção de transmissão aérea?
+Existe nesta unidade sanitária um quarto ou enfermaria de isolamento dedicado, para doentes com tuberculose ou outra infecção respiratória de transmissão aérea?
 :::
 
 ::: {.respostas .rotulado}
@@ -808,7 +808,7 @@ Existe nesta unidade sanitária um quarto ou enfermaria de isolamento dedicado, 
 :::
 
 ::: {.nota .interno}
-**14.7.5** pergunta-se directamente, em vez de se deduzir do inventário de enfermarias. Duas razões: a nossa lista de camas não tem linha de isolamento; e o isolamento interessa também às unidades sem internamento, onde um espaço de espera separado para o doente com tosse é medida de controlo de infecções com valor próprio. É o único elemento da família do controlo de infecções que se obtém por declaração.
+**14.7.5** pergunta-se directamente, em vez de se deduzir do inventário de enfermarias. A razão: a nossa lista de camas não tem linha de isolamento. A medida conta só as unidades com internamento (a opção 97 sai do denominador); o espaço de espera separado para o doente com tosse nas unidades sem internamento não é medido aqui. É o único elemento da família do controlo de infecções que se obtém por declaração.
 :::
 
 ## 14.7.6 · Procura activa de faltosos — tuberculose [NOVO]{.etiqueta .novo}
