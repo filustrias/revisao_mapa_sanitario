@@ -4,7 +4,7 @@ title: "O formulário, com comentários"
 
 {{< include _legenda.qmd >}}
 
-O formulário está dividido em 17 secções, pela ordem em que o inquiridor o percorre. Cada secção pode ser lida e discutida por si, numa sessão de revisão. Cada quesito mostra, em pequeno, o código que tinha na versão anterior; a tabela completa está em «Correspondência de códigos».
+O formulário está dividido em 18 secções, pela ordem em que o inquiridor o percorre. Cada secção pode ser lida e discutida por si, numa sessão de revisão. Cada quesito mostra, em pequeno, o código que tinha na versão anterior; a tabela completa está em «Correspondência de códigos».
 
 Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário curto já com o código do quesito preenchido. Os comentários vão para a mesma folha de respostas, um por linha, e são depois cruzados com a matriz pelo código.
 
@@ -20,10 +20,11 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 8](formulario/08-aparelhos.qmd) | Aparelhos médico-cirúrgicos |
 | [Secção 9](formulario/09-transportes.qmd) | Meios de transporte |
 | [Secção 10](formulario/10-clinicos-cirurgicos.qmd) | Serviços clínicos e cirúrgicos |
-| [Secção 11](formulario/11-diagnostico-apoio.qmd) | Diagnóstico e serviços de apoio |
-| [Secção 12](formulario/12-crianca-vacinacao.qmd) | Saúde da criança e vacinação |
-| [Secção 13](formulario/13-materna-neonatal-pf.qmd) | Saúde materna, do recém-nascido e planeamento familiar |
-| [Secção 14](formulario/14-vih-tb-malaria.qmd) | VIH, tuberculose e malária |
-| [Secção 15](formulario/15-accao-comunitaria.qmd) | Acção comunitária |
-| [Secção 16](formulario/16-gestao.qmd) | Gestão |
-| [Secção 17](formulario/17-servicos-gerais.qmd) | Serviços gerais |
+| [Secção 11](formulario/11-doencas-cronicas.qmd) | Doenças crónicas não transmissíveis |
+| [Secção 12](formulario/12-diagnostico-apoio.qmd) | Diagnóstico e serviços de apoio |
+| [Secção 13](formulario/13-crianca-vacinacao.qmd) | Saúde da criança e vacinação |
+| [Secção 14](formulario/14-materna-neonatal-pf.qmd) | Saúde materna, do recém-nascido e planeamento familiar |
+| [Secção 15](formulario/15-vih-tb-malaria.qmd) | VIH, tuberculose e malária |
+| [Secção 16](formulario/16-accao-comunitaria.qmd) | Acção comunitária |
+| [Secção 17](formulario/17-gestao.qmd) | Gestão |
+| [Secção 18](formulario/18-servicos-gerais.qmd) | Serviços gerais |

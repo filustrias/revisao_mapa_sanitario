@@ -2,9 +2,7 @@
 title: "Secção 10 — Serviços clínicos e cirúrgicos"
 ---
 
-Atendimento por especialidade clínica e serviços para doenças crónicas não transmissíveis, saúde mental e doenças neurológicas, cancro, sobreviventes de violência e cirurgia.
-
-[156 campos, contra 36 na Ficha 19_01.]{.campos}
+Atendimento por especialidade clínica, serviços a sobreviventes de violência e cirurgia. As doenças crónicas não transmissíveis, a saúde mental, as doenças neurológicas e o cancro estão na secção 11.
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
@@ -12,13 +10,6 @@ Atendimento por especialidade clínica e serviços para doenças crónicas não 
 | Quesito | O que se obtém |
 |---|---|
 | 10.A | Densidade de oferta em 28 especialidades: atendimento, número de especialistas, turnos por semana e forma de acesso [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 10.B.0 | Oferta de algum serviço para doenças crónicas não transmissíveis [(1 indicador do HHFA)]{.hhfa} |
-| 10.B | Oferta de serviços para doenças crónicas não transmissíveis, por condição e por função [(10 indicadores do HHFA)]{.hhfa} |
-| 10.B.1 | Procura activa de doentes crónicos que faltam ao seguimento [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 10.C.1 | Oferta de serviços para transtornos mentais [(3 indicadores do HHFA)]{.hhfa} |
-| 10.C.2 | Oferta de serviços para doenças neurológicas [(2 indicadores do HHFA)]{.hhfa} |
-| 10.D.0 | Oferta de algum serviço de cancro [(1 indicador do HHFA)]{.hhfa} |
-| 10.D.1 a 10.D.4 | Oferta de serviços de cancro, por localização [(8 indicadores do HHFA)]{.hhfa} |
 | 10.E.0 | Algum serviço a sobreviventes de violência [(2 indicadores do HHFA)]{.hhfa} |
 | 10.E.1 | Serviços a sobreviventes de violação ou de violência sexual ou por parceiro íntimo [(1 indicador do HHFA)]{.hhfa} |
 | 10.E.2 | Serviços a crianças afectadas por maus-tratos [(2 indicadores do HHFA)]{.hhfa} |
@@ -113,292 +104,6 @@ Vou ler uma lista de especialidades clínicas. Para cada uma, diga-me se esta un
 **Verificação a programar.** O número de especialistas declarado aqui deverá ser coerente com o quadro de pessoal da unidade, quando o bloco de pessoal for desenhado.
 
 *Proposta desta revisão, ainda por registar na matriz de decisão.*
-:::
-
-## 10.B.0 · Doenças não transmissíveis — porta [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Percentagem de unidades sanitárias que oferecem algum serviço para doenças crónicas não transmissíveis — independentemente de haver especialista. É a pergunta geral, que abre a grelha por condição de 10.B.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Resposta 1 (Sim) | 1.3.2.4.1 | Unidades que oferecem algum serviço para doenças crónicas não transmissíveis (DNT)<br>*Percentage of facilities offering any services for chronic noncommunicable diseases (NCDs)* | Q202_1 = 1, 2 ou 3; todas as unidades |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Esta unidade sanitária presta algum serviço de diagnóstico, tratamento ou seguimento de doenças crónicas não transmissíveis?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Sim
-2. Não
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 10.C.1.
-:::
-
-## 10.B · Doenças não transmissíveis — funções por condição [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Percentagem de unidades sanitárias que oferecem serviços para doenças cardiovasculares, para diabetes e para doença respiratória crónica — independentemente de haver especialista. As caixas por condição dão três indicadores.
-
-As quatro funções — diagnóstico, início e ajuste de tratamento, seguimento regular, aconselhamento para o autocuidado — distinguem a unidade que diagnostica mas não segue da que faz as duas coisas.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Linha Hipertensão arterial e outras doenças cardiovasculares — pelo menos uma das colunas (a) a (d) = Sim | 1.3.2.4.2 | Unidades que oferecem serviços para doenças cardiovasculares<br>*Percentage of facilities offering cardiovascular disease services* | Q202_6 = 1, 2 ou 3; todas as unidades |
-| Linha Hipertensão arterial e outras doenças cardiovasculares — pelo menos uma das colunas (a) a (d) = Sim | 3.3.1.1.1 | Unidades que oferecem algum serviço para doenças cardiovasculares<br>*Percentage of facilities offering any services for cardiovascular diseases* | Q1510 = 1; todas as unidades |
-| Linha Diabetes — pelo menos uma das colunas (a) a (d) = Sim | 1.3.2.4.3 | Unidades que oferecem serviços para a diabetes<br>*Percentage of facilities offering diabetes services* | Q202_2 = 1, 2 ou 3; todas as unidades |
-| Linha Diabetes — pelo menos uma das colunas (a) a (d) = Sim | 3.3.2.1.1 | Unidades que oferecem algum serviço para a diabetes<br>*Percentage of facilities offering any services for diabetes* | Q1505 = 1; todas as unidades |
-| Linha Diabetes · coluna (a) Diagnóstico | 3.3.2.1.2 | Unidades que oferecem diagnóstico da diabetes<br>*Percentage of facilities offering diagnosis of diabetes* | Q1506_1 = 1; todas as unidades |
-| Linha Diabetes · coluna (b) Início e ajuste de tratamento | 3.3.2.1.3 | Unidades que oferecem tratamento da diabetes<br>*Percentage of facilities offering treatment for diabetes* | Q1506_2 = 1; todas as unidades |
-| Linha Diabetes · coluna (c) Seguimento regular | 3.3.2.1.4 | Unidades que oferecem seguimento clínico dos doentes com diabetes<br>*Percentage of facilities offering clinical follow-up for diabetes clients* | Q1506_3 = 1; todas as unidades |
-| Linha Diabetes · coluna (d) Aconselhamento para o autocuidado | 3.3.2.1.5 | Unidades que oferecem aconselhamento para o autocuidado da diabetes<br>*Percentage of facilities offering counselling for diabetes self-care* | Q1506_4 = 1; todas as unidades |
-| Linha Doença respiratória crónica — pelo menos uma das colunas (a) a (d) = Sim | 1.3.2.4.4 | Unidades que oferecem serviços para doença respiratória crónica<br>*Percentage of facilities offering chronic respiratory disease services* | Q202_10 = 1, 2 ou 3; todas as unidades |
-| Linha Doença respiratória crónica — pelo menos uma das colunas (a) a (d) = Sim | 3.3.3.1.1 | Unidades que oferecem algum serviço para doença respiratória crónica<br>*Percentage of facilities offering any services for chronic respiratory disease* | Q1515 = 1; todas as unidades |
-| Linhas Hipertensão e Doença respiratória crónica · colunas (a) a (d), função a função | — (medida própria) | O catálogo separa as funções por doença — hipertensão, insuficiência cardíaca, enfarte agudo do miocárdio e AVC (3.3.1.1.2 a 3.3.1.1.13); asma e DPOC (3.3.3.1.2 a 3.3.3.1.7) — e não por grupo de doenças, como aqui | Não calculáveis com estas linhas, que juntam várias doenças |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Para cada uma das três condições seguintes, diga-me quais destas funções são prestadas nesta unidade sanitária.
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler as condições uma a uma e, para cada uma, as quatro funções. Em cada uma das 12 células da grelha (3 condições × 4 funções), marcar 1 Sim ou 2 Não.
-:::
-
-::: {.grelha .rotulado}
-[Grelha de resposta]{.rotulo}
-
-| Condição | (a) Diagnóstico da condição nesta unidade | (b) Início e ajuste de tratamento nesta unidade | (c) Seguimento regular dos doentes já diagnosticados, com dia marcado | (d) Aconselhamento ao doente para o autocuidado |
-|---|:-:|:-:|:-:|:-:|
-| Hipertensão arterial e outras doenças cardiovasculares [HHFA 1.3.2.4.2 · 3.3.1.1.1]{.hhfa .cod-hhfa} | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não |
-| Diabetes [HHFA 1.3.2.4.3 · 3.3.2.1.1 · 3.3.2.1.2 · 3.3.2.1.3 · 3.3.2.1.4 · 3.3.2.1.5]{.hhfa .cod-hhfa} | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não |
-| Doença respiratória crónica (asma e doença pulmonar obstrutiva crónica) [HHFA 1.3.2.4.4 · 3.3.3.1.1]{.hhfa .cod-hhfa} | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não | ☐ Sim ☐ Não |
-:::
-
-::: {.nota .interno}
-**Diferença em relação a 10.A.** Em 10.A pergunta-se pela disponibilidade de atendimento em cada especialidade. Aqui pergunta-se se a unidade consegue realizar funções específicas no cuidado a doentes com hipertensão e outras doenças cardiovasculares, diabetes e doença respiratória crónica — diagnosticar, iniciar e ajustar o tratamento, seguir regularmente os doentes e aconselhá-los para o autocuidado —, haja ou não especialista na unidade.
-
-Com estas respostas é possível medir a densidade da disponibilidade e da prontidão para o cuidado a doentes com estas condições na área de abrangência da unidade.
-:::
-
-## 10.B.1 · Procura activa de faltosos — doenças crónicas não transmissíveis [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Percentagem de unidades que identificam e procuram os doentes com doença crónica não transmissível que faltam ao seguimento, dentre as unidades que oferecem serviços para doenças crónicas não transmissíveis. Lido com 15.4.2, mostra se a procura conta com os ADECOS.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
-
-Indicador mais próximo: 3.3.5.1.1 — Unidades com serviços de DNT que têm sistema de marcação para o seguimento regular dos doentes (*Percentage of facilities offering NCD services with appointment system for routine follow-up of NCD clients*; Q1504_3 = 1, entre as que oferecem serviços de DNT) — mede a marcação das consultas, não a identificação e a procura dos faltosos. Também próximo: 4.5.2.6.9 — Unidades que mantêm uma lista de utentes registados para grupos seleccionados (*Percentage of facilities that maintain a panel/list of registered patients for selected patient groups*; Q1006 = 2) — uma lista de utentes não é procura activa.
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Quando um doente com doença crónica não transmissível — hipertensão, diabetes, doença respiratória crónica — falta a uma consulta de seguimento marcada, esta unidade sanitária identifica a falta e procura o doente activamente?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Sim, há registo dos faltosos e a unidade procura-os activamente
-2. Sim, a falta é registada, mas não há procura activa
-3. Não
-
-<!-- -->
-
-98. Não sabe
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Procura activa é qualquer contacto feito por iniciativa da unidade para trazer o utente de volta: telefone ou SMS, visita domiciliar pelo pessoal da unidade, ou pedido aos ADECOS para o localizar.
-:::
-
-::: {.nota .interno}
-**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 15.4.2, como função dos ADECOS.
-
-**Verificação a programar.** Na resposta 1, pedir para ver a lista ou o livro de faltosos do último mês.
-:::
-
-## 10.C.1 · Saúde mental [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Percentagem de unidades sanitárias que oferecem algum serviço para transtornos mentais — com ou sem psiquiatra ou psicólogo.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Resposta 1 (Sim) | 1.3.2.5.1 | Unidades que oferecem algum serviço para transtornos mentais<br>*Percentage of facilities offering any services for mental disorders* | Q202_27 = 1, 2 ou 3; todas as unidades |
-| Resposta 1 (Sim) | 3.3.6.1.2 | Unidades que oferecem serviços para transtornos mentais<br>*Percentage of facilities offering services for mental disorders* | Q1601_1 = 1, 2 ou 3; todas as unidades |
-| Calculado com 10.C.1 e 10.C.2: Sim em pelo menos uma | 3.3.6.1.1 | Unidades que oferecem algum serviço para transtornos mentais ou doenças neurológicas<br>*Percentage of facilities offering any services for mental or neurological disorders* | Q1600 = 1; todas as unidades |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Esta unidade sanitária presta algum serviço de diagnóstico, tratamento ou seguimento de transtornos mentais, incluindo depressão, ansiedade, psicose ou uso problemático de álcool e outras substâncias?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Sim
-2. Não
-:::
-
-::: {.nota .interno}
-Duas caixas, dois indicadores. Mesma lógica de 10.B: a psiquiatria e a psicologia são especialidades que quase nenhuma unidade de cuidados primários tem, enquanto o atendimento a transtornos mentais comuns e o seguimento de doentes com epilepsia acontecem em centros de saúde sem qualquer especialista.
-:::
-
-## 10.C.2 · Doenças neurológicas [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Percentagem de unidades sanitárias que oferecem serviços para doenças neurológicas, incluindo a epilepsia — com ou sem neurologista.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Resposta 1 (Sim) | 1.3.2.5.2 | Unidades que oferecem serviços para doenças neurológicas<br>*Percentage of facilities offering services for neurological disorders* | Q202_31 = 1, 2 ou 3; todas as unidades |
-| Resposta 1 (Sim) | 3.3.6.1.3 | Unidades que oferecem serviços para doenças neurológicas<br>*Percentage of facilities offering services for neurological disorders* | Q1601_2 = 1, 2 ou 3; todas as unidades |
-| Resposta 1 (Sim) | — | Entra no cálculo de 3.3.6.1.1 (ver 10.C.1) | — |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-E de doenças neurológicas, incluindo epilepsia?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Sim
-2. Não
-:::
-
-::: {.nota .interno}
-**A epilepsia é nomeada de propósito** no enunciado, porque é a condição neurológica cujo seguimento mais depende dos cuidados primários e cuja ruptura de medicamento tem consequência imediata.
-:::
-
-## 10.D.0 · Cancro — porta [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Percentagem de unidades sanitárias que oferecem algum serviço relacionado com cancro. A porta dá o primeiro indicador do bloco.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Resposta 1 (Sim) | 1.3.2.4.5 | Unidades que oferecem algum serviço de cancro<br>*Percentage of facilities offering any cancer services* | Q202_14 = 1, 2 ou 3; todas as unidades |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Esta unidade sanitária presta algum serviço relacionado com cancro — rastreio, diagnóstico, tratamento, seguimento ou cuidados de suporte?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Sim
-2. Não
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 10.E.0.
-:::
-
-## 10.D.1 a 10.D.4 · Cancro, por localização [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Percentagem de unidades sanitárias que oferecem, por localização, serviços para o cancro do colo do útero, da mama, colorrectal e da próstata; cada localização dá um indicador. Cruzado com a maca de exame ginecológico (secção 7) e o espéculo (secção 8), mostra as unidades que têm a condição material para rastrear o cancro do colo do útero e não rastreiam.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| 10.D.1 Cancro do colo do útero — resposta 1 (Sim) | 1.3.2.4.6 | Unidades que oferecem algum serviço para o cancro do colo do útero<br>*Percentage of facilities offering any services for cervical cancer* | Q202_15 = 1, 2 ou 3; todas as unidades |
-| 10.D.1 Cancro do colo do útero — resposta 1 (Sim) | 3.3.4.1.1 | Unidades que oferecem algum serviço para o cancro do colo do útero<br>*Percentage of facilities offering any  services for cervical cancer* | Q1527 = 1; todas as unidades |
-| 10.D.2 Cancro da mama — resposta 1 (Sim) | 1.3.2.4.7 | Unidades que oferecem algum serviço para o cancro da mama<br>*Percentage of facilities offering any services for breast cancer* | Q202_18 = 1, 2 ou 3; todas as unidades |
-| 10.D.2 Cancro da mama — resposta 1 (Sim) | 3.3.4.4.1 | Unidades que oferecem algum serviço para o cancro da mama<br>*Percentage of facilities offering any services for breast cancer* | Q1535 = 1; todas as unidades |
-| 10.D.3 Cancro colorrectal — resposta 1 (Sim) | 1.3.2.4.8 | Unidades que oferecem algum serviço para o cancro colorrectal<br>*Percentage of facilities offering any  services for colorectal cancer* | Q202_21 = 1, 2 ou 3; todas as unidades |
-| 10.D.3 Cancro colorrectal — resposta 1 (Sim) | 3.3.4.6.1 | Unidades que oferecem algum serviço para o cancro colorrectal<br>*Percentage of facilities offering any services for colorectal cancer* | Q1540 = 1; todas as unidades |
-| 10.D.4 Cancro da próstata — resposta 1 (Sim) | 1.3.2.4.9 | Unidades que oferecem algum serviço para o cancro da próstata<br>*Percentage of facilities offering any  services for prostate cancer* | Q202_24 = 1, 2 ou 3; todas as unidades |
-| 10.D.4 Cancro da próstata — resposta 1 (Sim) | 3.3.4.8.1 | Unidades que oferecem algum serviço para o cancro da próstata<br>*Percentage of facilities offering any services for prostate cancer* | Q1545 = 1; todas as unidades |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-E para cada uma das localizações seguintes?
-:::
-
-::: {.grelha .rotulado}
-[Grelha de resposta]{.rotulo}
-
-- **10.D.1** Cancro do colo do útero · **10.D.2** Cancro da mama · **10.D.3** Cancro colorrectal · **10.D.4** Cancro da próstata
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada localização: 1 Sim · 2 Não
-:::
-
-::: {.nota .interno}
-Cinco caixas, cinco indicadores. O cancro do colo do útero é o que mais interessa à rede de cuidados primários, porque o rastreio por inspecção visual com ácido acético é factível num centro de saúde — e já temos a maca de exame ginecológico na secção 7 e o espéculo na secção 8. **Cruzando os três, passa a ser possível ver quais as unidades que têm a condição material para rastrear e não rastreiam** — que é uma lacuna de organização e não de investimento, e portanto barata de corrigir.
 :::
 
 ## 10.E.0 · Sobreviventes de violência — porta [NOVO]{.etiqueta .novo}
@@ -565,7 +270,7 @@ Para cada linha: 1 Sim · 2 Não · 98 Não sabe
 :::
 
 ::: {.nota .interno}
-**A profilaxia pós-exposição ao VIH (PEP) dos sobreviventes de violência é recolhida aqui** — a linha 3 de 10.E.3. A profilaxia pós-exposição ao VIH (PEP) fora do contexto da violência está no quesito 14.3 e não se repete aqui.
+**A profilaxia pós-exposição ao VIH (PEP) dos sobreviventes de violência é recolhida aqui** — a linha 3 de 10.E.3. A profilaxia pós-exposição ao VIH (PEP) fora do contexto da violência está no quesito 15.3 e não se repete aqui.
 
 **Duas notas que importam à recolha.** A primeira é de prazo: a profilaxia pós-exposição ao VIH (PEP) só é eficaz nas primeiras 72 horas, pelo que a oferta declarada aqui deve ler-se ao lado do horário de funcionamento da unidade e da disponibilidade de antirretrovirais. A segunda é de enquadramento: **as linhas 7 e 8, sobre interrupção da gravidez, devem ser confirmadas com o GEPE contra o quadro legal angolano antes de irem a terreno.** Se a prestação não for legalmente possível, as duas linhas saem.
 :::
@@ -756,7 +461,7 @@ Os três procedimentos de referência — cesariana, laparotomia e tratamento de
 | Calculado com a), b) e c): Sim em pelo menos um | 1.3.2.7.5 | Unidades que oferecem pelo menos um dos três procedimentos cirúrgicos de referência<br>*Percentage of facilities offering any of the three Bellwether surgical procedures* | Q207_5, Q207_6 ou Q207_7 = 1, 2 ou 3; todas as unidades |
 | Calculado com a), b) e c): Sim nos três | 1.3.2.7.6 | Unidades que oferecem os três procedimentos cirúrgicos de referência<br>*Percentage of facilities offering all of the three Bellwether surgical procedures* | Q207_5 e Q207_6 e Q207_7 = 1, 2 ou 3; todas as unidades |
 | Calculado com a), b) e c): Sim nos três | 3.4.2.1.2 | Unidades que oferecem os três procedimentos de referência<br>*Percentage of facilities offering all three Bellwether procedures* | Q2507_1 = 1 e Q2507_2 = 1 e Q2507_3 = 1; todas as unidades |
-| a) Cesariana — Sim | 3.4.2.1.3 | Unidades que oferecem cesariana (procedimento de referência)<br>*Percentage of facilities offering caesarean section (Bellwether procedure)* | Q2507_1 = 1 ou Q2210_8 = 1 (a cesariana das funções-sinal obstétricas, 13.2.3.8, também conta); todas as unidades |
+| a) Cesariana — Sim | 3.4.2.1.3 | Unidades que oferecem cesariana (procedimento de referência)<br>*Percentage of facilities offering caesarean section (Bellwether procedure)* | Q2507_1 = 1 ou Q2210_8 = 1 (a cesariana das funções-sinal obstétricas, 14.2.3.8, também conta); todas as unidades |
 | b) Laparotomia — Sim | 3.4.2.1.4 | Unidades que oferecem laparotomia (procedimento de referência)<br>*Percentage of facilities offering laparotomy (Bellwether procedure)* | Q2507_3 = 1 ou Q2509_17 = 1; todas as unidades |
 | c) Tratamento de fractura exposta de osso longo — Sim | 3.4.2.1.5 | Unidades que oferecem redução e fixação de fractura exposta (procedimento de referência)<br>*Percentage of facilities offering reduction and fixation of open fracture (Bellwether procedure)* | Q2507_2 = 1; todas as unidades |
 :::
@@ -780,7 +485,7 @@ Para cada procedimento: 1 Sim · 2 Não
 ::: {.nota .interno}
 **Os três procedimentos de 10.29.4** são os procedimentos de referência: medem capacidade cirúrgica essencial **efectiva** e não declarada, porque perguntam o que foi feito nos últimos 12 meses e não o que a unidade poderia fazer.
 
-**Cruzam-se** com o número de blocos operatórios (11.D.5) e com a anestesia (11.D.2).
+**Cruzam-se** com o número de blocos operatórios (12.D.5) e com a anestesia (12.D.2).
 :::
 
 ## 10.30 a 10.34 · Cirurgia de especialidade [ALTERADO]{.etiqueta .alterado}
@@ -814,7 +519,7 @@ Para cada área: 1 Sim · 2 Não
 :::
 
 ::: {.nota .interno}
-**Fecho da secção 10.** Decisão de fundo a registar: nesta secção adopta-se o olhar internacional, que é o mais adequado ao objecto, **sem retirar a lista de especialidades da Ficha**. As duas convivem porque respondem a perguntas diferentes — a especialidade diz como a unidade está organizada e serve a gestão da rede; a condição diz o que a unidade consegue resolver e serve o planeamento do cuidado. É o mesmo desenho usado nas comissões de 16.2, onde o órgão e a actividade convivem.
+**Fecho da secção 10.** Decisão de fundo a registar: nesta secção adopta-se o olhar internacional, que é o mais adequado ao objecto, **sem retirar a lista de especialidades da Ficha**. As duas convivem porque respondem a perguntas diferentes — a especialidade diz como a unidade está organizada e serve a gestão da rede; a condição diz o que a unidade consegue resolver e serve o planeamento do cuidado. É o mesmo desenho usado nas comissões de 17.2, onde o órgão e a actividade convivem.
 
 [**52 indicadores do HHFA** nesta secção.]{.hhfa}
 :::

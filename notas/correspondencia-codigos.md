@@ -99,13 +99,13 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 9.3.1 | 10.3.1 | Plano de manutenção dos veículos | 9 |
 | 9.3.2 | 10.3.2 | Cumprimento do plano de manutenção | 9 |
 | 10.A | 7.1.A | Especialidades clínicas (10.1 a 10.28) | 10 |
-| 10.B.0 | 7.1.B.0 | Doenças não transmissíveis — porta | 10 |
-| 10.B | 7.1.B | Doenças não transmissíveis — funções por condição | 10 |
-| 10.B.1 | — (novo) | Procura activa de faltosos — doenças crónicas não transmissíveis | 10 |
-| 10.C.1 | 7.1.C.1 | Saúde mental | 10 |
-| 10.C.2 | 7.1.C.2 | Doenças neurológicas | 10 |
-| 10.D.0 | 7.1.D.0 | Cancro — porta | 10 |
-| 10.D.1 a 10.D.4 | 7.1.D.1 a 7.1.D.4 | Cancro, por localização | 10 |
+| 11.1 | 7.1.B.0 | Doenças crónicas não transmissíveis — porta | 11 |
+| 11.2 a 11.5 | 7.1.B | Grelhas por família (cardiovasculares, endócrinas, respiratórias, renal/anemias/desnutrição); substituem a grelha única | 11 |
+| 11.9 | — (novo) | Procura activa de faltosos — doenças crónicas não transmissíveis | 11 |
+| 11.7 | 7.1.C.1 | Saúde mental (grelha por condição) | 11 |
+| 11.6 | 7.1.C.2 | Doenças neurológicas (grelha por condição) | 11 |
+| 11.8.0 | 7.1.D.0 | Cancro — porta | 11 |
+| 11.8.1 a 11.8.4 | 7.1.D.1 a 7.1.D.4 | Cancro, por localização | 11 |
 | 10.E.0 | 7.1.E.0 | Sobreviventes de violência — porta | 10 |
 | 10.E.1 | 7.1.E.1 | Sobreviventes de violação ou de violência sexual ou por parceiro íntimo | 10 |
 | 10.E.2 | 7.1.E.2 | Crianças afectadas por maus-tratos | 10 |
@@ -117,108 +117,108 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 10.29.3 | 7.1.29.3 | Circuncisão masculina médica voluntária | 10 |
 | 10.29.4 | 7.1.29.4 | Procedimentos de referência nos últimos 12 meses | 10 |
 | 10.30 a 10.34 | 7.1.30 a 7.1.34 | Cirurgia de especialidade | 10 |
-| 11.C.0 | 7.2.C.0 | Testes rápidos de diagnóstico | 11 |
-| 11.1 | 7.2.1 | Porta geral do laboratório | 11 |
-| 11.C.I a 11.C.IV | 7.2.C.I a 7.2.C.IV | Os quatro blocos de exames | 11 |
-| 11.C.V | 7.2.C.V | Destino da amostra ou do doente | 11 |
-| 11.A.0 | 7.2.A.0 | Imagiologia — porta | 11 |
-| 11.A | 7.2.A | Imagiologia — exames de imagem | 11 |
-| 11.B | 7.2.B | Procedimentos e tecnologias | 11 |
-| 11.D | 7.2.D | Outros serviços de apoio | 11 |
-| 11.D.5 | 7.2.D.5 | Número de blocos operatórios | 11 |
-| 11.E.1 | 7.2.E.1 | Serviços de urgência — porta | 11 |
-| 11.E.2.1 | 7.2.E.2.1 | Banco de urgência com espaço próprio | 11 |
-| 11.E.2.2 | 7.2.E.2.2 | Horas de funcionamento do banco de urgência | 11 |
-| 11.E.3 | 7.2.E.3 | Triagem formal | 11 |
-| 11.E.4 | 7.2.E.4 | Pessoal próprio do banco de urgência | 11 |
-| 11.E.5 | 7.2.E.5 | Presença clínica 24 horas | 11 |
-| 11.E.6 | 7.2.E.6 | Transporte para transferência | 11 |
-| 11.E.7 | 7.2.E.7 | Acompanhamento na transferência | 11 |
-| 11.E.8 | 7.2.E.8 | Serviços de apoio à urgência — horas por dia | 11 |
-| 11.10 | 7.2.10 | Farmácia | 11 |
-| 11.14 | 7.2.14 | Esterilização | 11 |
-| 12.1 | 7.3.1 | Vacinação — porta do PAV | 12 |
-| 12.1.1 | 7.3.1.1 | Periodicidade da vacinação de rotina | 12 |
-| 12.1.2 | 7.3.1.2 | Antigénios oferecidos | 12 |
-| 12.1.3 | 7.3.1.3 | Rupturas de stock por antigénio | 12 |
-| 12.1.4 | 7.3.1.4 | Cadeia de frio | 12 |
-| 12.1.5 | — (novo) | Procura activa de faltosos — vacinação | 12 |
-| 12.2 | 7.3.5 | Puericultura — porta dos cuidados à criança | 12 |
-| 12.2.1 | 7.3.5.1 | Cuidados à criança menor de 5 anos | 12 |
-| 12.2.2 | — (novo) | Procura activa de faltosos — puericultura | 12 |
-| 13.1 | 7.3.6 | Consulta pré-natal | 13 |
-| 13.1.1 | 7.3.6.1 | Componentes da consulta pré-natal | 13 |
-| 13.1.2 | — (novo) | Procura activa de faltosas — consulta pré-natal | 13 |
-| 13.2 | 7.3.7 | Partos — porta | 13 |
-| 13.2.1 | 7.3.7.1 | CONU-B | 13 |
-| 13.2.2 | 7.3.7.2 | CONU-C | 13 |
-| 13.2.3 | 7.3.7.3 | Funções-sinal obstétricas e neonatais | 13 |
-| 13.2.4 | 7.3.7.4 | Partos 24 horas por pessoal qualificado | 13 |
-| 13.3 | 7.3.8 | Consulta pós-parto | 13 |
-| 13.3.1.0 | 7.3.8.1.0 | Rastreios do recém-nascido — porta | 13 |
-| 13.3.1.1 a 13.3.1.8 | 7.3.8.1.1 a 7.3.8.1.8 | Rastreios do recém-nascido, rastreio a rastreio | 13 |
-| 13.3.2.0 | 7.3.8.2.0 | Recém-nascido pequeno ou doente — porta | 13 |
-| 13.3.2.1 a 13.3.2.10 | 7.3.8.2.1 a 7.3.8.2.10 | Cuidados ao recém-nascido pequeno ou doente | 13 |
-| 13.4 | 7.3.9 | Planeamento familiar — porta | 13 |
-| 13.4.1 a 13.4.12 | 7.3.9.1 a 7.3.9.12 | Métodos de planeamento familiar | 13 |
-| 13.4.13 | — (novo) | Procura activa de faltosas — planeamento familiar | 13 |
-| 14.1 | 7.3.10 | VIH — aconselhamento e testagem | 14 |
-| 14.1.1 | 7.3.10.1 | Testagem do VIH por grupo de idade | 14 |
-| 14.2.1 | 7.3.10.2.1 | Profilaxia pré-exposição (PrEP) ao VIH | 14 |
-| 14.2.2 a 14.2.6 | 7.3.10.2.2 a 7.3.10.2.6 | Grupos a quem é oferecida a PrEP | 14 |
-| 14.3.1 | 7.3.10.3.1 | PEP ao VIH após exposição ocupacional | 14 |
-| 14.3.2 | 7.3.10.3.2 | PEP ao VIH após exposição sexual fora do contexto da violência | 14 |
-| 14.3.3 | 7.3.10.3.3 | Protocolo escrito de PEP | 14 |
-| 14.4 | 7.3.12 | Tratamento antirretroviral — porta | 14 |
-| 14.4.1 | 7.3.12.1 | Tratamento antirretroviral por grupo de idade | 14 |
-| 14.4.2 | 7.3.12.2 | Componentes do tratamento antirretroviral | 14 |
-| 14.4.3 | — (novo) | Procura activa de faltosos — tratamento antirretroviral | 14 |
-| 14.5 | 7.3.11 | Prevenção da transmissão vertical | 14 |
-| 14.6 | 7.3.12.3 | Cuidados e apoio ao doente com VIH | 14 |
-| 14.7 | 7.3.13 | Tuberculose — porta | 14 |
-| 14.7.1 | 7.3.13.1 | Diagnóstico da tuberculose | 14 |
-| 14.7.2 | 7.3.13.2 | Seguimento do doente com tuberculose | 14 |
-| 14.7.3 | 7.3.13.3 | Testagem do VIH nos doentes com tuberculose | 14 |
-| 14.7.4 | 7.3.13.4 | Tuberculose resistente aos medicamentos | 14 |
-| 14.7.5 | 7.3.13.5 | Quarto de isolamento | 14 |
-| 14.7.6 | — (novo) | Procura activa de faltosos — tuberculose | 14 |
-| 14.8.1 | 7.3.14.A | Malária — porta | 14 |
-| 14.8.2 | 7.3.14.B | Via de diagnóstico da malária | 14 |
-| 14.8.3 | 7.3.14.C | Tratamento da malária | 14 |
-| 15.1 | 7.3.14 | Distribuição de redes mosquiteiras | 15 |
-| 15.2 | 7.3.15 | Brigadas móveis de vacinação | 15 |
-| 15.3 | 7.3.16 | Equipas avançadas de vacinação | 15 |
-| 15.4 | 7.3.17 | ADECOS | 15 |
-| 15.4.0 | 7.3.17.0 | Número de ADECOS | 15 |
-| 15.4.1 | 7.3.17.1 | Articulação com os ADECOS | 15 |
-| 15.4.2 | — (novo) | Procura de faltosos pelos ADECOS | 15 |
-| 16.1.1 | 2.1 | Propriedade | 16 |
-| 16.1.2 | 2.2 | Gestão | 16 |
-| 16.1.3 | 0.2 | Orçamento próprio | 16 |
-| 16.2.1 a 16.2.17 | 7.4.1 a 7.4.17 | Lista dos serviços e órgãos de gestão | 16 |
-| 16.2.14.1 | 7.4.14.1 | Revisão formal de casos | 16 |
-| 16.2.14.2 | 7.4.14.2 | Frequência das revisões de casos | 16 |
-| 16.2.14.3 | 7.4.14.3 | Revisão de caso nos últimos 3 meses | 16 |
-| 16.2.14.4 | 7.4.14.4 | Revisão formal de óbitos | 16 |
-| 16.2.14.5 | 7.4.14.5 | Revisão de óbitos por tipo de morte | 16 |
-| 16.2.14.6 | 7.4.14.6 | Revisão de óbito nos últimos 3 meses | 16 |
-| 16.2.13.1 | 7.4.13.1 | Comissão e reuniões de prevenção e controlo de infecções | 16 |
-| 16.2.13.2 | 7.4.13.2 | Reunião mais recente sobre prevenção e controlo de infecções | 16 |
-| 16.2.18.1 | 7.4.18.1 | Actividades de garantia de qualidade | 16 |
-| 16.2.18.2 | 7.4.18.2 | Âmbito da garantia de qualidade | 16 |
-| 16.2.18.3 | 7.4.18.3 | Comissão de garantia de qualidade | 16 |
-| 16.2.18.4 | 7.4.18.4 | Frequência das reuniões da comissão | 16 |
-| 16.2.18.5 | 7.4.18.5 | Reunião mais recente da comissão | 16 |
-| 16.2.18.6 | 7.4.18.6 | Documentação da análise da qualidade | 16 |
-| 16.2.18.7 | 7.4.18.7 | Ponto focal para a qualidade | 16 |
-| 16.2.18.8 | 7.4.18.8 | Formação em qualidade | 16 |
-| 16.2.18.9 | 7.4.18.9 | Apoio externo para a qualidade | 16 |
-| 16.2.1 + 16.2.10 e 16.2.2 + 16.2.6 | 7.4.1 + 7.4.10 e 7.4.2 + 7.4.6 | Arquivo, reporte e comité de gestão | 16 |
-| 17.1 | 7.5.1 | Acesso a transporte de emergência | 17 |
-| 17.1.1 | 7.5.1.1 | Transporte de emergência disponível hoje | 17 |
-| 17.2 a 17.18 | 7.5.2 a 7.5.18 | Lista dos serviços gerais | 17 |
-| 17.5.2 | 7.5.5.2 | Gavetas mortuárias | 17 |
-| 17.18.1 | 7.5.18.1 | Recolha da opinião dos utentes | 17 |
-| 17.18.2 | 7.5.18.2 | Análise da opinião dos utentes | 17 |
-| 17.7 e 17.16 | 7.5.7 e 7.5.16 | Duas remissões | 17 |
-| 17.8 | 7.5.8 | Bloco de manutenção | 17 |
+| 12.C.0 | 7.2.C.0 | Testes rápidos de diagnóstico | 12 |
+| 12.1 | 7.2.1 | Porta geral do laboratório | 12 |
+| 12.C.I a 12.C.IV | 7.2.C.I a 7.2.C.IV | Os quatro blocos de exames | 12 |
+| 12.C.V | 7.2.C.V | Destino da amostra ou do doente | 12 |
+| 12.A.0 | 7.2.A.0 | Imagiologia — porta | 12 |
+| 12.A | 7.2.A | Imagiologia — exames de imagem | 12 |
+| 12.B | 7.2.B | Procedimentos e tecnologias | 12 |
+| 12.D | 7.2.D | Outros serviços de apoio | 12 |
+| 12.D.5 | 7.2.D.5 | Número de blocos operatórios | 12 |
+| 12.E.1 | 7.2.E.1 | Serviços de urgência — porta | 12 |
+| 12.E.2.1 | 7.2.E.2.1 | Banco de urgência com espaço próprio | 12 |
+| 12.E.2.2 | 7.2.E.2.2 | Horas de funcionamento do banco de urgência | 12 |
+| 12.E.3 | 7.2.E.3 | Triagem formal | 12 |
+| 12.E.4 | 7.2.E.4 | Pessoal próprio do banco de urgência | 12 |
+| 12.E.5 | 7.2.E.5 | Presença clínica 24 horas | 12 |
+| 12.E.6 | 7.2.E.6 | Transporte para transferência | 12 |
+| 12.E.7 | 7.2.E.7 | Acompanhamento na transferência | 12 |
+| 12.E.8 | 7.2.E.8 | Serviços de apoio à urgência — horas por dia | 12 |
+| 12.10 | 7.2.10 | Farmácia | 12 |
+| 12.14 | 7.2.14 | Esterilização | 12 |
+| 13.1 | 7.3.1 | Vacinação — porta do PAV | 13 |
+| 13.1.1 | 7.3.1.1 | Periodicidade da vacinação de rotina | 13 |
+| 13.1.2 | 7.3.1.2 | Antigénios oferecidos | 13 |
+| 13.1.3 | 7.3.1.3 | Rupturas de stock por antigénio | 13 |
+| 13.1.4 | 7.3.1.4 | Cadeia de frio | 13 |
+| 13.1.5 | — (novo) | Procura activa de faltosos — vacinação | 13 |
+| 13.2 | 7.3.5 | Puericultura — porta dos cuidados à criança | 13 |
+| 13.2.1 | 7.3.5.1 | Cuidados à criança menor de 5 anos | 13 |
+| 13.2.2 | — (novo) | Procura activa de faltosos — puericultura | 13 |
+| 14.1 | 7.3.6 | Consulta pré-natal | 14 |
+| 14.1.1 | 7.3.6.1 | Componentes da consulta pré-natal | 14 |
+| 14.1.2 | — (novo) | Procura activa de faltosas — consulta pré-natal | 14 |
+| 14.2 | 7.3.7 | Partos — porta | 14 |
+| 14.2.1 | 7.3.7.1 | CONU-B | 14 |
+| 14.2.2 | 7.3.7.2 | CONU-C | 14 |
+| 14.2.3 | 7.3.7.3 | Funções-sinal obstétricas e neonatais | 14 |
+| 14.2.4 | 7.3.7.4 | Partos 24 horas por pessoal qualificado | 14 |
+| 14.3 | 7.3.8 | Consulta pós-parto | 14 |
+| 14.3.1.0 | 7.3.8.1.0 | Rastreios do recém-nascido — porta | 14 |
+| 14.3.1.1 a 14.3.1.8 | 7.3.8.1.1 a 7.3.8.1.8 | Rastreios do recém-nascido, rastreio a rastreio | 14 |
+| 14.3.2.0 | 7.3.8.2.0 | Recém-nascido pequeno ou doente — porta | 14 |
+| 14.3.2.1 a 14.3.2.10 | 7.3.8.2.1 a 7.3.8.2.10 | Cuidados ao recém-nascido pequeno ou doente | 14 |
+| 14.4 | 7.3.9 | Planeamento familiar — porta | 14 |
+| 14.4.1 a 14.4.12 | 7.3.9.1 a 7.3.9.12 | Métodos de planeamento familiar | 14 |
+| 14.4.13 | — (novo) | Procura activa de faltosas — planeamento familiar | 14 |
+| 15.1 | 7.3.10 | VIH — aconselhamento e testagem | 15 |
+| 15.1.1 | 7.3.10.1 | Testagem do VIH por grupo de idade | 15 |
+| 15.2.1 | 7.3.10.2.1 | Profilaxia pré-exposição (PrEP) ao VIH | 15 |
+| 15.2.2 a 15.2.6 | 7.3.10.2.2 a 7.3.10.2.6 | Grupos a quem é oferecida a PrEP | 15 |
+| 15.3.1 | 7.3.10.3.1 | PEP ao VIH após exposição ocupacional | 15 |
+| 15.3.2 | 7.3.10.3.2 | PEP ao VIH após exposição sexual fora do contexto da violência | 15 |
+| 15.3.3 | 7.3.10.3.3 | Protocolo escrito de PEP | 15 |
+| 15.4 | 7.3.12 | Tratamento antirretroviral — porta | 15 |
+| 15.4.1 | 7.3.12.1 | Tratamento antirretroviral por grupo de idade | 15 |
+| 15.4.2 | 7.3.12.2 | Componentes do tratamento antirretroviral | 15 |
+| 15.4.3 | — (novo) | Procura activa de faltosos — tratamento antirretroviral | 15 |
+| 15.5 | 7.3.11 | Prevenção da transmissão vertical | 15 |
+| 15.6 | 7.3.12.3 | Cuidados e apoio ao doente com VIH | 15 |
+| 15.7 | 7.3.13 | Tuberculose — porta | 15 |
+| 15.7.1 | 7.3.13.1 | Diagnóstico da tuberculose | 15 |
+| 15.7.2 | 7.3.13.2 | Seguimento do doente com tuberculose | 15 |
+| 15.7.3 | 7.3.13.3 | Testagem do VIH nos doentes com tuberculose | 15 |
+| 15.7.4 | 7.3.13.4 | Tuberculose resistente aos medicamentos | 15 |
+| 15.7.5 | 7.3.13.5 | Quarto de isolamento | 15 |
+| 15.7.6 | — (novo) | Procura activa de faltosos — tuberculose | 15 |
+| 15.8.1 | 7.3.14.A | Malária — porta | 15 |
+| 15.8.2 | 7.3.14.B | Via de diagnóstico da malária | 15 |
+| 15.8.3 | 7.3.14.C | Tratamento da malária | 15 |
+| 16.1 | 7.3.14 | Distribuição de redes mosquiteiras | 16 |
+| 16.2 | 7.3.15 | Brigadas móveis de vacinação | 16 |
+| 16.3 | 7.3.16 | Equipas avançadas de vacinação | 16 |
+| 16.4 | 7.3.17 | ADECOS | 16 |
+| 16.4.0 | 7.3.17.0 | Número de ADECOS | 16 |
+| 16.4.1 | 7.3.17.1 | Articulação com os ADECOS | 16 |
+| 16.4.2 | — (novo) | Procura de faltosos pelos ADECOS | 16 |
+| 17.1.1 | 2.1 | Propriedade | 17 |
+| 17.1.2 | 2.2 | Gestão | 17 |
+| 17.1.3 | 0.2 | Orçamento próprio | 17 |
+| 17.2.1 a 17.2.17 | 7.4.1 a 7.4.17 | Lista dos serviços e órgãos de gestão | 17 |
+| 17.2.14.1 | 7.4.14.1 | Revisão formal de casos | 17 |
+| 17.2.14.2 | 7.4.14.2 | Frequência das revisões de casos | 17 |
+| 17.2.14.3 | 7.4.14.3 | Revisão de caso nos últimos 3 meses | 17 |
+| 17.2.14.4 | 7.4.14.4 | Revisão formal de óbitos | 17 |
+| 17.2.14.5 | 7.4.14.5 | Revisão de óbitos por tipo de morte | 17 |
+| 17.2.14.6 | 7.4.14.6 | Revisão de óbito nos últimos 3 meses | 17 |
+| 17.2.13.1 | 7.4.13.1 | Comissão e reuniões de prevenção e controlo de infecções | 17 |
+| 17.2.13.2 | 7.4.13.2 | Reunião mais recente sobre prevenção e controlo de infecções | 17 |
+| 17.2.18.1 | 7.4.18.1 | Actividades de garantia de qualidade | 17 |
+| 17.2.18.2 | 7.4.18.2 | Âmbito da garantia de qualidade | 17 |
+| 17.2.18.3 | 7.4.18.3 | Comissão de garantia de qualidade | 17 |
+| 17.2.18.4 | 7.4.18.4 | Frequência das reuniões da comissão | 17 |
+| 17.2.18.5 | 7.4.18.5 | Reunião mais recente da comissão | 17 |
+| 17.2.18.6 | 7.4.18.6 | Documentação da análise da qualidade | 17 |
+| 17.2.18.7 | 7.4.18.7 | Ponto focal para a qualidade | 17 |
+| 17.2.18.8 | 7.4.18.8 | Formação em qualidade | 17 |
+| 17.2.18.9 | 7.4.18.9 | Apoio externo para a qualidade | 17 |
+| 17.2.1 + 17.2.10 e 17.2.2 + 17.2.6 | 7.4.1 + 7.4.10 e 7.4.2 + 7.4.6 | Arquivo, reporte e comité de gestão | 17 |
+| 18.1 | 7.5.1 | Acesso a transporte de emergência | 18 |
+| 18.1.1 | 7.5.1.1 | Transporte de emergência disponível hoje | 18 |
+| 18.2 a 18.18 | 7.5.2 a 7.5.18 | Lista dos serviços gerais | 18 |
+| 18.5.2 | 7.5.5.2 | Gavetas mortuárias | 18 |
+| 18.18.1 | 7.5.18.1 | Recolha da opinião dos utentes | 18 |
+| 18.18.2 | 7.5.18.2 | Análise da opinião dos utentes | 18 |
+| 18.7 e 18.16 | 7.5.7 e 7.5.16 | Duas remissões | 18 |
+| 18.8 | 7.5.8 | Bloco de manutenção | 18 |

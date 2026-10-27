@@ -29,13 +29,14 @@ book:
     - formulario/08-aparelhos.qmd
     - formulario/09-transportes.qmd
     - formulario/10-clinicos-cirurgicos.qmd
-    - formulario/11-diagnostico-apoio.qmd
-    - formulario/12-crianca-vacinacao.qmd
-    - formulario/13-materna-neonatal-pf.qmd
-    - formulario/14-vih-tb-malaria.qmd
-    - formulario/15-accao-comunitaria.qmd
-    - formulario/16-gestao.qmd
-    - formulario/17-servicos-gerais.qmd
+    - formulario/11-doencas-cronicas.qmd
+    - formulario/12-diagnostico-apoio.qmd
+    - formulario/13-crianca-vacinacao.qmd
+    - formulario/14-materna-neonatal-pf.qmd
+    - formulario/15-vih-tb-malaria.qmd
+    - formulario/16-accao-comunitaria.qmd
+    - formulario/17-gestao.qmd
+    - formulario/18-servicos-gerais.qmd
 
 format:
   html:

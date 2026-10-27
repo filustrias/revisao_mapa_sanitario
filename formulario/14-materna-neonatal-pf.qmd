@@ -1,0 +1,769 @@
+---
+title: "Secção 14 — Saúde materna, do recém-nascido e planeamento familiar"
+---
+
+Consulta pré-natal, partos e cuidados obstétricos de urgência, consulta pós-parto, rastreios e cuidados ao recém-nascido, e planeamento familiar.
+
+[51 campos, contra 5 na Ficha 19_01; mais 11 se o bloco do recém-nascido pequeno ou doente (14.3.2) for incluído.]{.campos}
+
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
+
+| Quesito | O que se obtém |
+|---|---|
+| 14.1 e 14.1.1 | Consulta pré-natal e as suas prestações [(17 indicadores do HHFA)]{.hhfa} |
+| 14.1.2 | Procura activa de grávidas que faltam à consulta pré-natal [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 14.2 a 14.2.4 | Partos, CONU-B e CONU-C, funções-sinal, cobertura 24 horas [(23 indicadores do HHFA)]{.hhfa} |
+| 14.3 | Consulta pós-parto à mãe e ao recém-nascido [(2 indicadores do HHFA)]{.hhfa} |
+| 14.3.1.0 a 14.3.1.8 | Rastreios do recém-nascido, realizados na unidade ou por envio de amostra [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 14.3.2.0 a 14.3.2.10 | Cuidados ao recém-nascido pequeno ou doente (a decidir) [(13 indicadores do HHFA, se incluído)]{.hhfa} |
+| 14.4 a 14.4.12 | Planeamento familiar, método a método [(16 indicadores do HHFA)]{.hhfa} |
+| 14.4.13 | Procura activa de utentes de planeamento familiar que faltam ao seguimento [(medida própria do Mapa Sanitário)]{.hhfa} |
+
+</details>
+
+## 14.1 · Consulta pré-natal [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que oferecem quaisquer serviços de consulta pré-natal. É a porta da grelha seguinte, que permite confrontar a classificação «completa» ou «incompleta» com as prestações declaradas.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opções 1 e 2 (Sim, completa ou incompleta) | 3.1.2.1.1 | Unidades que oferecem quaisquer serviços de consulta pré-natal<br>*Percentage of facilities offering any antenatal care services* | Q1810 = 1; todas as unidades. O HHFA não distingue completa de incompleta |
+| Opções 1 e 2 (Sim, completa ou incompleta) | 1.3.2.1.4 | Unidades que oferecem consulta pré-natal (lista geral de serviços)<br>*Percentage of facilities offering antenatal care (ANC)* | Q204_2 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido de 14.1 |
+| Distinção entre opção 1 e opção 2 | — (medida própria) | Consulta pré-natal completa ou incompleta, segundo o Guião | Sem correspondência no HHFA |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Nesta unidade sanitária realiza-se consulta pré-natal?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, completa
+2. Sim, incompleta
+3. Não é realizada
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não é realizada», saltar para 14.2.
+:::
+
+::: {.nota .interno}
+**A escala de três níveis é do próprio Guião**, que na folha 12 manda registar se a consulta é «completa, incompleta ou não é realizada», e a proposta dá a cada nível a sua opção de resposta — como faz com as camas em armazém, a data da visita anterior e a quantidade de ADECOS.
+
+O Guião define ainda os critérios de «completa» — cartão de grávida, anamnese, peso, edemas, fundo uterino, mucosas, tensão arterial e manobras de Leopold, com um mínimo de TIP ou vacinação, ferro e ácido fólico, aconselhamento e desparasitação — e é essa lista que a grelha seguinte torna verificável item a item.
+:::
+
+## 14.1.1 · Componentes da consulta pré-natal [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades em que cada prestação faz parte da consulta pré-natal — catorze linhas, um indicador por linha; a testagem do VIH conta também no programa do VIH. Com a porta 14.1 e a articulação com os ADECOS em 16.4.1, a consulta pré-natal fica medida por inteiro.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 14.1.1.1 · Ferro | 3.1.2.1.2 | Unidades que oferecem suplementação com ferro<br>*Percentage of facilities offering iron supplementation* | Q1812_1 = 1; todas as unidades |
+| Linha 14.1.1.2 · Ácido fólico | 3.1.2.1.3 | Unidades que oferecem suplementação com ácido fólico<br>*Percentage of facilities offering folic acid supplementation* | Q1812_2 = 1; todas as unidades |
+| Linha 14.1.1.3 · TIP | 3.1.2.1.9 | Unidades que oferecem tratamento intermitente preventivo da malária (TIPg)<br>*Percentage of facilities offering intermittent preventive treatment  for malaria (IPTp)* | Q1812_3 = 1; todas as unidades |
+| Linha 14.1.1.4 · Rede mosquiteira | 3.1.2.1.11 | Unidades que oferecem RMTL ou voucher às grávidas<br>*Percentage of facilities offering LLIN or voucher for pregnant women* | Q1812_4 = 1; todas as unidades |
+| Linha 14.1.1.5 · Antitetânica | 3.1.2.1.4 | Unidades que oferecem vacinação com toxóide tetânico<br>*Percentage of facilities offering tetanus toxoid vaccination* | Q1812_5 = 1; todas as unidades |
+| Linha 14.1.1.6 · Doença hipertensiva | 3.1.2.1.5 | Unidades que oferecem vigilância da doença hipertensiva da gravidez<br>*Percentage of facilities offering monitoring for hypertensive disorder of pregnancy* | Q1812_6 = 1; todas as unidades |
+| Linha 14.1.1.7 · Proteínas na urina | 3.1.2.1.6 | Unidades que oferecem pesquisa de rotina de proteínas na urina<br>*Percentage of facilities offering routine checks for urine protein* | Q1812_7 = 1; todas as unidades |
+| Linha 14.1.1.8 · Cálcio | 3.1.2.1.7 | Unidades que oferecem suplementos de cálcio às mulheres com risco de pré-eclâmpsia<br>*Percentage of facilities offering calcium supplements for women with pre-eclampsia risk* | Q1812_8 = 1; todas as unidades |
+| Linha 14.1.1.9 · Aspirina | 3.1.2.1.8 | Unidades que oferecem aspirina em baixa dose às mulheres com risco de pré-eclâmpsia<br>*Percentage of facilities offering low-dose aspirin for women with pre-eclampsia risk* | Q1812_9 = 1; todas as unidades |
+| Linha 14.1.1.10 · Testagem do VIH | 3.1.2.1.10 | Unidades que oferecem testagem do VIH às grávidas<br>*Percentage of facilities offering HIV testing for pregnant women* | Q1812_10 = 1 ou Q1821_1 = 1 (PTV); todas as unidades |
+| Linha 14.1.1.10 · Testagem do VIH | 3.2.8.1.2 | Unidades que oferecem testagem do VIH a todas as grávidas na consulta pré-natal<br>*Percentage of facilities offering HIV testing for all pregnant women at ANC* | Q1821_1 = 1 ou Q1812_10 = 1; todas as unidades (tabela do VIH/PTV) |
+| Linha 14.1.1.11 · Testagem da sífilis | 3.1.2.1.12 | Unidades que oferecem testagem de rotina da sífilis às grávidas<br>*Percentage of facilities offering routine syphilis testing for pregnant women* | Q1812_11 = 1; todas as unidades |
+| Linha 14.1.1.12 · Tratamento da sífilis | 3.1.2.1.13 | Unidades que oferecem tratamento da sífilis às grávidas<br>*Percentage of facilities offering treatment  of syphilis in pregnant women* | Q1812_12 = 1; todas as unidades |
+| Linha 14.1.1.13 · Outras IST | 3.1.2.1.14 | Unidades que oferecem diagnóstico e tratamento de outras IST às grávidas<br>*Percentage of facilities offering diagnosis and treatment of other STIs in pregnant women* | Q1812_13 = 1; todas as unidades |
+| Linha 14.1.1.14 · Mutilação genital feminina | 3.1.2.1.15 | Unidades que oferecem aconselhamento para prevenir a mutilação genital feminina (MGF)<br>*Percentage of facilities offering counselling to prevent female genital mutilation (FGM)* | Q1812_14 = 1; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada prestação seguinte, diga-me se faz habitualmente parte da consulta pré-natal nesta unidade sanitária.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Prestação | 1 · Sim, faz parte habitualmente | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 14.1.1.1 | Suplementação com ferro [HHFA 3.1.2.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.1.1.2 | Suplementação com ácido fólico [HHFA 3.1.2.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.1.1.3 | Tratamento intermitente preventivo da malária (TIP) [HHFA 3.1.2.1.9]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.1.1.4 | Entrega de rede mosquiteira tratada, ou de voucher, à grávida [HHFA 3.1.2.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.1.1.5 | Vacina antitetânica [HHFA 3.1.2.1.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.1.1.6 | Vigilância da doença hipertensiva da gravidez [HHFA 3.1.2.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.1.1.7 | Pesquisa de proteínas na urina [HHFA 3.1.2.1.6]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.1.1.8 | Suplementação com cálcio nas grávidas com risco de pré-eclâmpsia [HHFA 3.1.2.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.1.1.9 | Aspirina em baixa dose nas grávidas com risco de pré-eclâmpsia [HHFA 3.1.2.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.1.1.10 | Testagem do VIH [HHFA 3.1.2.1.10 · 3.2.8.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.1.1.11 | Testagem da sífilis [HHFA 3.1.2.1.12]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.1.1.12 | Tratamento da sífilis [HHFA 3.1.2.1.13]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.1.1.13 | Diagnóstico e tratamento de outras infecções de transmissão sexual [HHFA 3.1.2.1.14]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.1.1.14 | Aconselhamento para prevenção da mutilação genital feminina [HHFA 3.1.2.1.15]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+:::
+
+::: {.nota .interno}
+Catorze linhas, um indicador por linha; com a porta 14.1 e a articulação com os ADECOS em 16.4.1, a consulta pré-natal fica medida por inteiro. **Quatro destas linhas são o mínimo que o próprio Guião exige para classificar a consulta como completa**, pelo que a grelha permite calcular a resposta de 14.1 em vez de a pedir como juízo.
+
+**Articula-se com o laboratório:** a pesquisa de proteínas na urina é a fita reagente de 12.C.0.9, a testagem da sífilis é o teste rápido de 12.C.0.3 e a testagem do VIH é a de 12.C.0.1 — três pontos onde a coerência interna do formulário passa a ser verificável.
+
+**A linha 14, sobre mutilação genital feminina, pode ser retirada** se não for pertinente para Angola: perde-se apenas um indicador e nada mais na tabela.
+:::
+
+## 14.1.2 · Procura activa de faltosas — consulta pré-natal [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que identificam e procuram as grávidas que faltam à consulta pré-natal, dentre as unidades que oferecem consulta pré-natal. Lido com 16.4.2, mostra se a procura conta com os ADECOS.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 4.5.2.6.9 — Unidades que mantêm uma lista de utentes registados para grupos seleccionados (*Percentage of facilities that maintain a panel/list of registered patients for selected patient groups*) — porque regista utentes, mas não diz se a unidade identifica e procura os faltosos.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quando uma grávida falta a uma consulta pré-natal marcada, esta unidade sanitária identifica a falta e procura a grávida activamente?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, há registo dos faltosos e a unidade procura-os activamente
+2. Sim, a falta é registada, mas não há procura activa
+3. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Procura activa é qualquer contacto feito por iniciativa da unidade para trazer o utente de volta: telefone ou SMS, visita domiciliar pelo pessoal da unidade, ou pedido aos ADECOS para o localizar.
+:::
+
+::: {.nota .interno}
+**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 16.4.2, como função dos ADECOS.
+
+**Verificação a programar.** Na resposta 1, pedir para ver a lista ou o livro de faltosos do último mês.
+:::
+
+## 14.2 · Partos — porta [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que oferecem quaisquer serviços de parto. É a porta do bloco dos partos: só a unidade com sala de partos própria responde às perguntas seguintes.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 3.1.3.1.1 | Unidades que oferecem quaisquer serviços de parto<br>*Percentage of facilities offering any delivery services* | Q2201 = 1; todas as unidades |
+| Resposta 1 (Sim) | 1.3.2.1.6 | Unidades que oferecem quaisquer serviços de parto (lista geral de serviços)<br>*Percentage of facilities offering any delivery/childbirth services* | Q204_18 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido de 14.2 |
+| Resposta 1 (Sim) | — | Define o denominador de 3.1.3.2.1 a 3.1.3.2.7 (ver 14.2.3) | Q2201 = 1 |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+São atendidos partos nesta unidade sanitária, em sala de partos própria?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 14.3.
+:::
+
+::: {.nota .interno}
+**A porta dos partos é nova** e junta-se às duas caixas de CONU-B e CONU-C, que se mantêm. Com ela, a unidade que atende partos normais sem capacidade obstétrica de urgência — que é a situação de muitos centros de saúde — fica registada como unidade com partos.
+
+Conserva-se integralmente a instrução do Guião (folha 12), que manda registar «se houver sala de partos» e expressamente não registar quando «os trabalhadores da US atendem partos no domicílio das parturientes» — por isso a condição está escrita dentro da pergunta.
+:::
+
+## 14.2.1 · CONU-B [MANTÉM-SE]{.etiqueta .mantem}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades com cuidados obstétricos e neonatais de urgência básicos (CONU-B). Uma caixa, dois indicadores: CONU-B na tabela dos serviços de parto e na lista geral de serviços disponíveis.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 3.1.3.1.3 | Unidades que oferecem cuidados obstétricos de urgência básicos (CONU-B)<br>*Percentage of facilities offering basic emergency obstetric care (BEmONC)* | Q2202 = 1; todas as unidades |
+| Resposta 1 (Sim) | 1.3.2.1.7 | Unidades que oferecem cuidados obstétricos e neonatais de urgência básicos (CONU-B) (lista geral de serviços)<br>*Percentage of facilities offering basic emergency obstetric and newborn care (BEmONC)* | Q204_19 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido de 14.2.1 |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade tem capacidade para Cuidados Obstétricos e Neonatais de Urgência Básicos (CONU-B)?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.nota .interno}
+**Duas caixas que já existem, cinco indicadores, e nem uma palavra a mudar: é o melhor custo-benefício de toda a secção.** A Ficha e o instrumento internacional usam aqui exactamente a mesma categoria, e as definições do Guião coincidem com as internacionais — CONU-B como antibióticos, ocitocina e anticonvulsivante parenterais, remoção manual da placenta e de restos ovulares; CONU-C como tudo o B mais cirurgia, isto é, cesariana e transfusão.
+
+Às cinco funções-sinal do CONU-B enumeradas no Guião, a grelha seguinte junta o parto assistido instrumental e a reanimação do recém-nascido, que completam as sete da definição internacional.
+
+**Nota de articulação com a avaliação EmONC** conduzida em paralelo: estes dois quesitos e a grelha seguinte são o ponto de contacto entre os dois instrumentos, e convirá que as definições sejam as mesmas nos dois.
+:::
+
+## 14.2.2 · CONU-C [MANTÉM-SE]{.etiqueta .mantem}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades com cuidados obstétricos e neonatais de urgência completos (CONU-C). Uma caixa, três indicadores: CONU-C na tabela dos serviços de parto, outra vez na área própria dos cuidados obstétricos completos, e na lista geral de serviços disponíveis.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 3.1.3.1.5 | Unidades que oferecem cuidados obstétricos e neonatais de urgência completos (CONU-C)<br>*Percentage of facilities offering comprehensive emergency obstetric and newborn care (CEmONC)* | Q2203 = 1; todas as unidades (tabela dos serviços de parto) |
+| Resposta 1 (Sim) | 3.1.4.1.1 | Idem, na área dos cuidados obstétricos completos<br>*Percentage of facilities offering comprehensive emergency obstetric and newborn care (CEmONC)* | Q2203 = 1; todas as unidades |
+| Resposta 1 (Sim) | 1.3.2.1.8 | Idem (lista geral de serviços)<br>*Percentage of facilities offering comprehensive emergency obstetric and newborn care (CEmONC)* | Q204_20 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido de 14.2.2 |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+E para Cuidados Obstétricos e Neonatais de Urgência Completos (CONU-C)?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+## 14.2.3 · Funções-sinal obstétricas e neonatais [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que realizaram as funções-sinal obstétricas e neonatais nos últimos 3 meses. A grelha dá quinze indicadores: cada uma das sete funções do CONU-B, entre as unidades com partos (linhas 1 a 7); as sete do CONU-B todas realizadas; as nove do CONU-C todas realizadas (linhas 1 a 9); a cesariana e a transfusão de sangue; e, partilhados com a cirurgia e com o serviço de sangue, mais quatro indicadores de cesariana, remoção de restos ovulares e transfusão.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 14.2.3.1 · Antibióticos parenterais | 3.1.3.2.1 | Unidades com partos que administram antibióticos parenterais às mães<br>*Percentage of facilities offering delivery services that provide parenteral antibiotics for mothers* | Q2210_1 = 1; entre as unidades com partos (Q2201 = 1; aqui 14.2 = 1) |
+| Linha 14.2.3.2 · Uterotónicos | 3.1.3.2.2 | Unidades com partos que administram ocitócico parenteral para tratamento da hemorragia pós-parto<br>*Percentage of facilities offering delivery services that provide parental oxytocic for treatment of postpartum haemorrhage* | Q2210_2 = 1; entre as unidades com partos (Q2201 = 1) |
+| Linha 14.2.3.3 · Anticonvulsivantes | 3.1.3.2.3 | Unidades com partos que administram sulfato de magnésio parenteral na pré-eclâmpsia ou eclâmpsia<br>*Percentage of facilities offering delivery services that provide parenteral magnesium sulfate for pre-eclampsia or eclampsia* | Q2210_3 = 1; entre as unidades com partos (Q2201 = 1) |
+| Linha 14.2.3.4 · Remoção manual da placenta | 3.1.3.2.5 | Unidades com partos que fazem remoção manual da placenta<br>*Percentage of facilities offering delivery services that provide manual removal of placenta* | Q2210_5 = 1; entre as unidades com partos (Q2201 = 1) |
+| Linha 14.2.3.5 · Remoção de restos ovulares | 3.1.3.2.6 | Unidades com partos que fazem remoção de restos ovulares (curetagem ou AMIU)<br>*Percentage of facilities offering delivery services that provide removal of retained products (D&C or MVA)* | Q2210_6 = 1; entre as unidades com partos (Q2201 = 1) |
+| Linha 14.2.3.5 · Remoção de restos ovulares | 3.4.2.2.2 | Unidades que fazem dilatação e curetagem ou aspiração por vácuo<br>*Percentage of facilities offering dilatation and curettage or vacuum aspiration* | Q2509_3 = 1 ou Q1905_4 = 1 ou Q1905_2 = 1 ou Q2210_6 = 1; todas as unidades (tabela da cirurgia; também alimentado pela cirurgia e pelos cuidados pós-aborto) |
+| Linha 14.2.3.6 · Parto vaginal assistido | 3.1.3.2.4 | Unidades com partos que fazem parto vaginal assistido<br>*Percentage of facilities offering delivery services that provide assisted vaginal delivery* | Q2210_4 = 1; entre as unidades com partos (Q2201 = 1) |
+| Linha 14.2.3.7 · Reanimação do recém-nascido | 3.1.3.2.7 | Unidades com partos que fazem reanimação neonatal com insuflador e máscara<br>*Percentage of facilities offering delivery services that provide neonatal resuscitation with bag and mask* | Q2210_7 = 1; entre as unidades com partos (Q2201 = 1) |
+| Calculado com as linhas 14.2.3.1 a 14.2.3.7 | 3.1.3.1.4 | Unidades que realizam as 7 funções-sinal do CONU-B<br>*Percentage of facilities offering all 7 BEmONC signal functions* | Q2210_1 a Q2210_7, todas = 1; todas as unidades |
+| Calculado com as linhas 14.2.3.1 a 14.2.3.9 | 3.1.4.1.2 | Unidades que realizam as 9 funções-sinal obstétricas e neonatais (CONU-C)<br>*Percentage of facilities offering all 9 obstetric and newborn care signal functions (CEmONC)* | Q2210_1 a Q2210_9, todas = 1; todas as unidades |
+| Linha 14.2.3.8 · Cesariana | 3.1.4.1.3 | Unidades que fazem cesariana<br>*Percentage of facilities offering caesarean section* | Q2210_8 = 1 ou Q2507_1 = 1 (cesariana na lista de cirurgias); todas as unidades |
+| Linha 14.2.3.8 · Cesariana | 3.4.2.2.1 | Unidades que fazem cesariana (tabela da cirurgia)<br>*Percentage of facilities offering caesarean section* | Q2507_1 = 1 ou Q2210_8 = 1; todas as unidades |
+| Linha 14.2.3.8 · Cesariana | 3.4.2.1.3 | Unidades que fazem cesariana (procedimento de referência)<br>*Percentage of facilities offering caesarean section (Bellwether procedure)* | Q2507_1 = 1 ou Q2210_8 = 1; todas as unidades |
+| Linha 14.2.3.9 · Transfusão de sangue | 3.1.4.1.4 | Unidades que fazem transfusão de sangue<br>*Percentage of facilities offering blood transfusion* | Q2210_9 = 1 ou Q2800 = 1 (serviço de transfusão); todas as unidades |
+| Linha 14.2.3.9 · Transfusão de sangue | 3.7.3.1.1 | Unidades que oferecem quaisquer serviços de transfusão de sangue<br>*Percentage of facilities offering any blood transfusion services* | Q2800 = 1 ou Q2210_9 = 1; todas as unidades (tabela da transfusão) |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada prestação seguinte, diga-me se foi realizada nesta unidade sanitária pelo menos uma vez nos últimos 3 meses.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Prestação | 1 · Sim, realizada nos últimos 3 meses | 2 · Não realizada | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 14.2.3.1 | Administração parenteral de antibióticos [HHFA 3.1.3.2.1 · 3.1.3.1.4 · 3.1.4.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.2.3.2 | Administração parenteral de uterotónicos (ocitocina) [HHFA 3.1.3.2.2 · 3.1.3.1.4 · 3.1.4.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.2.3.3 | Administração parenteral de anticonvulsivantes (sulfato de magnésio) [HHFA 3.1.3.2.3 · 3.1.3.1.4 · 3.1.4.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.2.3.4 | Remoção manual da placenta [HHFA 3.1.3.2.5 · 3.1.3.1.4 · 3.1.4.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.2.3.5 | Remoção de restos ovulares [HHFA 3.1.3.2.6 · 3.4.2.2.2 · 3.1.3.1.4 · 3.1.4.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.2.3.6 | Parto vaginal assistido com ventosa ou fórceps [HHFA 3.1.3.2.4 · 3.1.3.1.4 · 3.1.4.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.2.3.7 | Reanimação do recém-nascido com insuflador e máscara [HHFA 3.1.3.2.7 · 3.1.3.1.4 · 3.1.4.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.2.3.8 | Cesariana [HHFA 3.1.4.1.3 · 3.4.2.2.1 · 3.4.2.1.3 · 3.1.4.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.2.3.9 | Transfusão de sangue [HHFA 3.1.4.1.4 · 3.7.3.1.1 · 3.1.4.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+:::
+
+::: {.nota .interno}
+**Transforma a marcação de CONU-B e CONU-C de juízo em cálculo:** as caixas de 14.2.1 e 14.2.2 continuam a ser respondidas, e passam a poder ser confrontadas com as nove linhas que as definem. Uma unidade que marca CONU-B e declara não ter administrado anticonvulsivante parenteral nos últimos 3 meses é uma inconsistência a assinalar — e é informação útil, não um erro a corrigir, porque pode significar ausência de casos e não ausência de capacidade.
+
+**O período de referência é de 3 meses e pergunta pelo que foi FEITO**, não pelo que a unidade poderia fazer: é a mesma opção de desenho dos três procedimentos de referência de 10.F, e por isso mede capacidade efectiva.
+:::
+
+## 14.2.4 · Partos 24 horas por pessoal qualificado [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades com serviço de partos 24 horas por dia e 7 dias por semana, assegurado por pessoal qualificado. O indicador conta as opções 1 e 2 — pessoal presente ou de chamada.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opções 1 e 2 | 3.1.3.1.2 | Unidades que oferecem serviços de parto 24 horas por dia, 7 dias por semana, por pessoal qualificado<br>*Percentage of facilities offering 24/7 delivery services by a skilled service provider* | Q2206 = 1 ou Q2206 = 2; todas as unidades |
+| Distinção entre opção 1 e opção 2 | — (medida própria) | Pessoal presente ou de chamada | Não altera o indicador; serve a leitura nacional |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Os partos são atendidos nesta unidade sanitária 24 horas por dia e todos os dias da semana, por pessoal qualificado — médico, enfermeiro ou parteira com formação?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, 24 horas por dia e todos os dias
+2. Sim, mas com pessoal qualificado de chamada fora do horário
+3. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.nota .interno}
+O indicador conta as opções 1 e 2 — isto é, aceita o pessoal de chamada, ao contrário do que se fez na urgência em 12.E.5, onde o cálculo exige presença física. Mantemos a distinção nas opções porque ela importa à leitura nacional, mesmo não alterando o indicador.
+
+Uma caixa, e uma informação nova no instrumento: **o parto é o acto que menos espera**, e saber quantas unidades com sala de partos têm de facto cobertura permanente é decisão de dotação de pessoal directa.
+:::
+
+## 14.3 · Consulta pós-parto [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que oferecem quaisquer cuidados pós-parto à mãe ou ao recém-nascido. O indicador cumpre-se com qualquer das opções 1, 2 ou 3.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opções 1, 2 e 3 | 3.1.6.1.1 | Unidades que oferecem quaisquer cuidados pós-parto à mãe e/ou ao recém-nascido<br>*Percentage of facilities offering any maternal and/or newborn postpartum care* | Q2241 = 1 ou Q2241 = 2 ou Q1826 = 1; todas as unidades |
+| Opções 1, 2 e 3 | 1.3.2.1.12 | Unidades que oferecem cuidados pós-parto (lista geral de serviços)<br>*Percentage of facilities offering postpartum care* | Q204_4 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido de 14.3 |
+| Distinção entre as opções 1, 2 e 3 | — (medida própria) | Consulta à mãe, ao recém-nascido ou a ambos | Não altera o indicador |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Nesta unidade sanitária realiza-se consulta pós-parto à mãe, ao recém-nascido, ou a ambos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, à mãe e ao recém-nascido
+2. Sim, apenas à mãe
+3. Sim, apenas ao recém-nascido
+4. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.nota .interno}
+A única alteração é separar a mãe do recém-nascido nas opções, porque são duas consultas distintas que muitas vezes não coexistem — e porque o indicador se cumpre com qualquer das duas, pelo que separá-las não o põe em risco. O Guião pede o mínimo de «uma anamnese» e esse critério mantém-se.
+
+**Ampliação registada para uma ronda seguinte:** uma grelha de aconselhamento pós-parto (imunização, nutrição infantil, sinais de perigo no recém-nascido, cuidados do cordão, planeamento familiar, BCG e VOP ao recém-nascido, rede mosquiteira, amamentação exclusiva) daria mais 9 indicadores por 9 campos. Não foi incluída para conter o volume da secção.
+
+[Indicadores que essa grelha daria: 3.1.6.1.2 a 3.1.6.1.10 (Q1835 e Q2248).]{.hhfa}
+:::
+
+## 14.3.1.0 · Rastreios do recém-nascido — porta [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Onde é realizado algum rastreio ao recém-nascido. É a porta da grelha seguinte. É medida própria do Mapa Sanitário.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 3.2.8.2.7 — Unidades com PTV que têm papel de filtro para gota de sangue seca (*Percentage of facilities offering PMTCT with filter paper for dried blood spot*) — porque o papel de filtro serve o diagnóstico precoce do VIH no lactente exposto, não o rastreio neonatal; e o oxímetro de pulso só aparece como equipamento (2.2.1.1.4, *Percentage of facilities with pulse oximeter*), não como rastreio.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Nesta unidade sanitária é realizado algum rastreio ao recém-nascido?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 14.3.2.0.
+:::
+
+::: {.nota .interno}
+**Bloco inteiramente novo.** Os rastreios do recém-nascido são medida própria do Mapa Sanitário e respondem a uma prioridade nacional.
+:::
+
+## 14.3.1.1 a 14.3.1.8 · Rastreios do recém-nascido, rastreio a rastreio [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Onde é rastreado o recém-nascido, rastreio a rastreio, e por que via: na própria unidade ou por envio da amostra com retorno do resultado. É medida própria do Mapa Sanitário.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 3.2.8.2.7 — Unidades com PTV que têm papel de filtro para gota de sangue seca (*Percentage of facilities offering PMTCT with filter paper for dried blood spot*) — porque o papel de filtro serve o diagnóstico precoce do VIH no lactente exposto, não o rastreio neonatal; e o oxímetro de pulso só aparece como equipamento (2.2.1.1.4, *Percentage of facilities with pulse oximeter*), não como rastreio.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada rastreio seguinte, diga-me qual destas três situações descreve o que acontece habitualmente nesta unidade sanitária: o rastreio é realizado aqui; a amostra é recolhida aqui e enviada para análise noutro local, regressando o resultado; ou o rastreio não é obtido por nenhuma destas vias.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Rastreio | 1 · Realizado nesta unidade | 2 · Amostra recolhida aqui e enviada para fora, com retorno do resultado | 3 · Não obtido por nenhuma destas vias | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|:-:|
+| 14.3.1.1 | **Rastreio metabólico por punção do calcanhar em papel de filtro (teste do pezinho)** — hipotiroidismo congénito, fenilcetonúria, hiperplasia congénita da suprarrenal e fibrose cística | ☐ | ☐ | ☐ | ☐ |
+| 14.3.1.2 | Pesquisa de hemoglobinopatias no recém-nascido (drepanocitose) | ☐ | ☐ | ☐ | ☐ |
+| 14.3.1.3 | Rastreio auditivo neonatal, por emissões otoacústicas ou potenciais evocados | ☐ | ☐ | ☐ | ☐ |
+| 14.3.1.4 | Rastreio ocular, por reflexo pupilar e teste do reflexo vermelho | ☐ | ☐ | ☐ | ☐ |
+| 14.3.1.5 | Rastreio de cardiopatia congénita crítica por oximetria de pulso nos membros superior e inferior | ☐ | ☐ | ☐ | ☐ |
+| 14.3.1.6 | Rastreio da displasia do desenvolvimento da anca, por manobras de Ortolani e Barlow | ☐ | ☐ | ☐ | ☐ |
+| 14.3.1.7 | Determinação do grupo sanguíneo e factor Rh do recém-nascido | ☐ | ☐ | ☐ | ☐ |
+| 14.3.1.8 | Rastreio da sífilis congénita no recém-nascido de mãe com sífilis | ☐ | ☐ | ☐ | ☐ |
+:::
+
+::: {.nota .interno}
+A escala de três níveis é a mesma dos blocos de laboratório, pela mesma razão: num rastreio em papel de filtro o que importa é saber se a amostra sai e o resultado volta.
+
+**Duas remissões, para não duplicar:** o diagnóstico precoce do VIH no recém-nascido exposto está em 15.5; a electroforese de hemoglobina e a pesquisa de hemoglobina S estão em 12.C.I, pelo que a linha 2 pergunta pelo **rastreio sistemático**, que é coisa distinta de ter o exame disponível.
+
+**Nota para a revisão:** se for preciso cortar, as linhas 3 a 6 são as de menor exequibilidade na rede de cuidados primários e as candidatas naturais; as linhas 1, 2, 7 e 8 fazem-se com uma punção e um papel de filtro.
+:::
+
+## 14.3.2.0 · Recém-nascido pequeno ou doente — porta [A DECIDIR]{.etiqueta .decidir}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Se o bloco for incluído: percentagem de unidades que prestam cuidados em internamento ao recém-nascido pequeno ou doente, com ou sem unidade de cuidados especiais. Só entram na contagem da secção se o bloco for aprovado.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS) · só se o bloco for incluído
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opções 1 e 2 | 3.1.7.1.1 | Unidades que oferecem quaisquer serviços ao recém-nascido pequeno ou doente<br>*Percentage of facilities offering any services for small or sick newborn care* | Q2255 = 1 ou Q2255 = 2; todas as unidades |
+| Opções 1 e 2 | 1.3.2.1.11 | Unidades que oferecem cuidados ao recém-nascido pequeno ou doente (lista geral de serviços)<br>*Percentage of facilities offering care for the small and sick newborn* | Q204_7 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido de 14.3.2.0 |
+| Distinção entre opção 1 e opção 2 | — (medida própria) | Com ou sem unidade de cuidados especiais | Não altera os indicadores |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária presta cuidados em internamento ao recém-nascido pequeno ou doente? E, se sim, existe uma unidade de cuidados especiais para esse fim?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, com unidade de cuidados especiais
+2. Sim, sem unidade de cuidados especiais
+3. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», terminar o bloco.
+:::
+
+::: {.nota .interno}
+**Fica registado para decisão.** Trata dos cuidados ao recém-nascido pequeno ou doente, que a proposta ainda não cobre.
+
+É **declarada** — não exige observação —, são 11 campos para 13 indicadores, e **nada há a inventar: as perguntas existem, estão validadas e têm indicador**. Ao contrário dos rastreios de 14.3.1, aqui o retorno é imediato.
+
+A porta de três níveis distingue a unidade com unidade de cuidados especiais da que interna recém-nascidos doentes nas enfermarias comuns — distinção que a secção 7 não capta, porque a lista de camas decompõe por especialidade e por sexo da enfermaria e tem UCI neonatal, mas não cuidados especiais neonatais.
+:::
+
+## 14.3.2.1 a 14.3.2.10 · Cuidados ao recém-nascido pequeno ou doente [A DECIDIR]{.etiqueta .decidir}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Se o bloco for incluído: quais os cuidados prestados ao recém-nascido pequeno ou doente, cuidado a cuidado. Só entram na contagem da secção se o bloco for aprovado.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS) · só se o bloco for incluído
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 14.3.2.1 · Método canguru | 3.1.7.1.2 | Unidades que oferecem o método mãe canguru<br>*Percentage of facilities offering kangaroo mother care (KMC)* | Q2257 = 1; todas as unidades |
+| Linha 14.3.2.1 · Método canguru | 3.1.3.2.10 | Unidades com partos que oferecem o método mãe canguru a prematuros ou recém-nascidos muito pequenos<br>*Percentage of facilities offering delivery services that provide kangaroo mother care (KMC) for premature/very small babies* | Q2257 = 1; entre as unidades com partos (Q2201 = 1; aqui 14.2 = 1) |
+| Linha 14.3.2.2 · Canguru nos últimos 3 meses | 3.1.7.1.3 | Unidades que praticaram o método mãe canguru nos últimos 3 meses<br>*Percentage of facilities offering kangaroo mother care (KMC) provided in last 3 months* | Q2258 = 1; todas as unidades |
+| Linha 14.3.2.3 · Alimentação alternativa | 3.1.7.1.4 | Unidades que oferecem alimentação alternativa se o recém-nascido não consegue mamar<br>*Percentage of facilities offering alternative feeding if newborn unable to breastfeed* | Q2259 = 1; todas as unidades |
+| Linha 14.3.2.4 · Protecção térmica | 3.1.7.1.5 | Unidades que oferecem protecção térmica<br>*Percentage of facilities offering thermal protection* | Q2261_4 = 1 ou Q2261_5 = 1; todas as unidades |
+| Linha 14.3.2.5 · Oxigénio | 3.1.7.1.6 | Unidades que oferecem oxigénio<br>*Percentage of facilities offering oxygen* | Q2261_1 = 1; todas as unidades |
+| Linha 14.3.2.6 · Reidratação intravenosa | 3.1.7.1.7 | Unidades que oferecem reidratação intravenosa<br>*Percentage of facilities offering intravenous rehydration* | Q2261_3 = 1; todas as unidades |
+| Linha 14.3.2.7 · Exsanguineotransfusão | 3.1.7.1.8 | Unidades que oferecem exsanguineotransfusão<br>*Percentage of facilities offering exchange transfusion services* | Q2261_2 = 1; todas as unidades |
+| Linha 14.3.2.8 · Ventilação artificial | 3.1.7.1.9 | Unidades que oferecem ventilação artificial<br>*Percentage of facilities offering artificial ventilation* | Q2261_6 = 1; todas as unidades |
+| Linha 14.3.2.9 · Antibióticos para sépsis neonatal | 3.1.7.1.10 | Unidades que oferecem antibióticos injectáveis para a sépsis neonatal<br>*Percentage of facilities offering injectable antibiotics for neonatal sepsis* | Q2261_8 = 1; todas as unidades |
+| Linha 14.3.2.10 · Fototerapia | 3.1.7.1.11 | Unidades que oferecem fototerapia para a icterícia neonatal<br>*Percentage of facilities offering phototherapy for neonatal jaundice* | Q2261_7 = 1; todas as unidades |
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Cuidado | 1 · Sim, rotineiramente disponível quando necessário | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 14.3.2.1 | Método canguru [HHFA 3.1.7.1.2 · 3.1.3.2.10]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.3.2.2 | Método canguru efectivamente praticado nos últimos 3 meses [HHFA 3.1.7.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.3.2.3 | Alimentação alternativa quando o recém-nascido não consegue mamar [HHFA 3.1.7.1.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.3.2.4 | Protecção térmica [HHFA 3.1.7.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.3.2.5 | Administração de oxigénio [HHFA 3.1.7.1.6]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.3.2.6 | Reidratação intravenosa [HHFA 3.1.7.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.3.2.7 | Exsanguineotransfusão [HHFA 3.1.7.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.3.2.8 | Ventilação artificial [HHFA 3.1.7.1.9]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.3.2.9 | Antibióticos injectáveis para sépsis neonatal [HHFA 3.1.7.1.10]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.3.2.10 | Fototerapia para icterícia neonatal [HHFA 3.1.7.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+:::
+
+## 14.4 · Planeamento familiar — porta [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que oferecem planeamento familiar. É a porta da grelha dos métodos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 3.1.1.1.1 | Unidades que oferecem quaisquer serviços de planeamento familiar<br>*Percentage of facilities offering any family planning services* | Q1800 = 1; todas as unidades |
+| Resposta 1 (Sim) | 1.3.2.1.3 | Unidades que oferecem planeamento familiar (lista geral de serviços)<br>*Percentage of facilities offering family planning* | Q204_1 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido de 14.4 |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária oferece serviços de planeamento familiar?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 15.1.
+:::
+
+::: {.nota .interno}
+**Dezasseis indicadores por treze campos, e o ganho não é só de volume — é de conteúdo.** O Guião manda marcar a caixa «se é oferecido pelo menos um método de planeamento familiar moderno (depo injetável, pílula, DiU, diafragma) excluindo o preservativo». A grelha método a método distingue a unidade que só tem pílula da unidade que coloca implantes e DIU — e a diferença entre as duas é justamente a que decide se uma mulher consegue um método de longa duração sem sair do seu município.
+:::
+
+## 14.4.1 a 14.4.12 · Métodos de planeamento familiar [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Método a método, quais os métodos de planeamento familiar fornecidos. As doze linhas dão 14 indicadores, entre eles o de qualquer método moderno, calculado a partir da grelha — que inclui o preservativo masculino e o feminino e deixa de fora apenas o colar do ciclo.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 14.4.1 · Pílula combinada | 3.1.1.1.3 | Unidades que oferecem pílula contraceptiva oral combinada<br>*Percentage of facilities offering combined oral contraceptive pills* | Q1802_1 = 1; todas as unidades |
+| Linha 14.4.2 · Pílula só de progestagénio | 3.1.1.1.4 | Unidades que oferecem pílula só de progestagénio<br>*Percentage of facilities offering progestin-only contraceptive pills* | Q1802_2 = 1; todas as unidades |
+| Linha 14.4.3 · Injectável combinado | 3.1.1.1.5 | Unidades que oferecem contraceptivo injectável combinado<br>*Percentage of facilities offering combined injectable contraceptives* | Q1802_3 = 1; todas as unidades |
+| Linha 14.4.4 · Injectável só de progestagénio | 3.1.1.1.6 | Unidades que oferecem contraceptivo injectável só de progestagénio<br>*Percentage of facilities offering progestin-only injectable contraceptives* | Q1802_4 = 1; todas as unidades |
+| Linha 14.4.5 · Preservativo masculino | 3.1.1.1.7 | Unidades que oferecem preservativo masculino<br>*Percentage of facilities offering male condoms* | Q1802_5 = 1; todas as unidades |
+| Linha 14.4.5 · Preservativo masculino | 3.1.9.2.9 | Unidades com serviços para adolescentes que têm preservativo masculino no serviço de planeamento familiar<br>*Percentage of facilities offering adolescent health services with male condoms at familiy planning service site* | Q1802_5 = 1; entre as unidades com serviços para adolescentes (Q2007 = 1) |
+| Linha 14.4.6 · Preservativo feminino | 3.1.1.1.8 | Unidades que oferecem preservativo feminino<br>*Percentage of facilities offering female condoms* | Q1802_6 = 1; todas as unidades |
+| Linha 14.4.7 · DIU | 3.1.1.1.9 | Unidades que oferecem dispositivo intra-uterino (DIU)<br>*Percentage of facilities offering intrauterine contraceptive devices (IUCD)* | Q1802_9A = 1 ou Q1802_9B = 1; todas as unidades. O HHFA pergunta dois tipos de DIU; aqui uma só linha |
+| Linha 14.4.8 · Implante | 3.1.1.1.10 | Unidades que oferecem implantes<br>*Percentage of facilities offering implants* | Q1802_7 = 1; todas as unidades |
+| Linha 14.4.9 · Contracepção de emergência | 3.1.1.1.11 | Unidades que oferecem contracepção de emergência<br>*Percentage of facilities offering emergency contraceptives* | Q1802_8 = 1; todas as unidades |
+| Linha 14.4.10 · Colar do ciclo | 3.1.1.1.14 | Unidades que oferecem colar do ciclo para o método dos dias fixos<br>*Percentage of facilities offering cycle beads for standard days method* | Q1802_10 = 1; todas as unidades |
+| Linha 14.4.11 · Esterilização masculina | 3.1.1.1.12 | Unidades que oferecem esterilização masculina<br>*Percentage of facilities offering male sterilization* | Q1802_11 = 1; todas as unidades |
+| Linha 14.4.12 · Esterilização feminina | 3.1.1.1.13 | Unidades que oferecem esterilização feminina<br>*Percentage of facilities offering female sterilization* | Q1802_12 = 1; todas as unidades |
+| Calculado com as linhas 14.4.1 a 14.4.9, 14.4.11 e 14.4.12 | 3.1.1.1.2 | Unidades que oferecem qualquer método contraceptivo moderno<br>*Percentage of facilities offering any modern method of contraception* | Q1802_1 a Q1802_8, Q1802_9A, Q1802_9B, Q1802_11 ou Q1802_12 = 1 (sem o colar do ciclo, Q1802_10); todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada método seguinte, diga-me se é habitualmente fornecido nesta unidade sanitária.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Método | 1 · Sim, habitualmente fornecido | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 14.4.1 | Pílula combinada de estrogénio e progestagénio [HHFA 3.1.1.1.3 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.4.2 | Pílula só de progestagénio [HHFA 3.1.1.1.4 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.4.3 | Injectável combinado [HHFA 3.1.1.1.5 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.4.4 | Injectável só de progestagénio [HHFA 3.1.1.1.6 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.4.5 | Preservativo masculino [HHFA 3.1.1.1.7 · 3.1.9.2.9 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.4.6 | Preservativo feminino [HHFA 3.1.1.1.8 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.4.7 | Dispositivo intra-uterino (DIU) [HHFA 3.1.1.1.9 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.4.8 | Implante subcutâneo [HHFA 3.1.1.1.10 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.4.9 | Contracepção de emergência [HHFA 3.1.1.1.11 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.4.10 | Colar do ciclo [HHFA 3.1.1.1.14]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.4.11 | Esterilização masculina [HHFA 3.1.1.1.12 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.4.12 | Esterilização feminina [HHFA 3.1.1.1.13 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+:::
+
+::: {.nota .interno}
+Com o preservativo perguntado em linha própria, a grelha permite os dois cálculos: o «método moderno» do Guião, que exclui o preservativo, e o «qualquer método moderno», que o inclui. O preservativo tem, além disso, indicador próprio e é o método mais distribuído da rede.
+:::
+
+## 14.4.13 · Procura activa de faltosas — planeamento familiar [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades que identificam e procuram as utentes de planeamento familiar que faltam à consulta de seguimento ou de reabastecimento, dentre as unidades que oferecem planeamento familiar. Lido com 16.4.2, mostra se a procura conta com os ADECOS.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 4.5.2.6.9 — Unidades que mantêm uma lista de utentes registados para grupos seleccionados (*Percentage of facilities that maintain a panel/list of registered patients for selected patient groups*) — porque regista utentes, mas não diz se a unidade identifica e procura os faltosos.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quando uma utente de planeamento familiar falta a uma consulta de seguimento ou de reabastecimento marcada, esta unidade sanitária identifica a falta e procura a utente activamente?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, há registo dos faltosos e a unidade procura-os activamente
+2. Sim, a falta é registada, mas não há procura activa
+3. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Procura activa é qualquer contacto feito por iniciativa da unidade para trazer o utente de volta: telefone ou SMS, visita domiciliar pelo pessoal da unidade, ou pedido aos ADECOS para o localizar.
+:::
+
+::: {.nota .interno}
+**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 16.4.2, como função dos ADECOS.
+
+**Verificação a programar.** Na resposta 1, pedir para ver a lista ou o livro de faltosos do último mês.
+:::

@@ -67,7 +67,7 @@ Para cada um dos aparelhos seguintes, indique quantas unidades existem nesta uni
 ::: {.nota .interno}
 **Porque mudou.** Os 15 tipos de aparelho mantêm-se, com os mesmos códigos. O enunciado passa a dizer o que se conta: os aparelhos em condições de utilização no último mês.
 
-**Remissões.** O esterilizador, o aparelho de raios X e o ecógrafo contam-se aqui como equipamento; a oferta dos serviços correspondentes — esterilização, imagiologia — está na secção 11.
+**Remissões.** O esterilizador, o aparelho de raios X e o ecógrafo contam-se aqui como equipamento; a oferta dos serviços correspondentes — esterilização, imagiologia — está na secção 12.
 :::
 
 ## 8.1.16 a 8.1.23 Verificação do equipamento básico [NOVO]{.etiqueta .novo}

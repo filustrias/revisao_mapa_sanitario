@@ -30,7 +30,7 @@ Frota de cada unidade sanitária por tipo de veículo e por estado. As colunas 1
 ::: {.hhfa .fonte-indicadores}
 **Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
 
-Indicador mais próximo: 2.1.1.1.7 — unidades com sistema de transporte de emergência para doentes (*Percentage of facilities with emergency transportation system for patients*) — porque não é o mesmo: mede o acesso a transporte de emergência (próprio ou chamado de outro local), perguntado em 17.1; aqui conta-se a frota própria por tipo e estado.
+Indicador mais próximo: 2.1.1.1.7 — unidades com sistema de transporte de emergência para doentes (*Percentage of facilities with emergency transportation system for patients*) — porque não é o mesmo: mede o acesso a transporte de emergência (próprio ou chamado de outro local), perguntado em 18.1; aqui conta-se a frota própria por tipo e estado.
 :::
 
 ::: {.enunciado .rotulado}
@@ -188,5 +188,5 @@ Esta unidade sanitária cumpre o plano de manutenção dos seus veículos?
 ## Pendência desta secção
 
 ::: {.nota}
-**Nível a que se regista a frota.** A secção conta apenas os veículos da própria unidade. Para a maioria das unidades de cuidados primários, o que decide a evacuação de um doente é haver uma viatura disponível no município ou na região. A capacidade de chamar um veículo de outro local já está nos quesitos 17.1 e 17.1.1 (transporte de emergência) e 11.E.6 (transporte para referir doentes de urgência). Falta decidir onde se regista a frota ao nível municipal: num quesito à unidade sobre a frota a que tem acesso através do município, ou num instrumento próprio dirigido à Direcção Municipal de Saúde, fora da ficha da unidade.
+**Nível a que se regista a frota.** A secção conta apenas os veículos da própria unidade. Para a maioria das unidades de cuidados primários, o que decide a evacuação de um doente é haver uma viatura disponível no município ou na região. A capacidade de chamar um veículo de outro local já está nos quesitos 18.1 e 18.1.1 (transporte de emergência) e 12.E.6 (transporte para referir doentes de urgência). Falta decidir onde se regista a frota ao nível municipal: num quesito à unidade sobre a frota a que tem acesso através do município, ou num instrumento próprio dirigido à Direcção Municipal de Saúde, fora da ficha da unidade.
 :::

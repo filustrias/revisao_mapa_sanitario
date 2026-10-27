@@ -10,7 +10,7 @@ GEPE/MINSA · OMS Angola · projecto HIIP
 |---|---|
 | `index.qmd` | Nota de apresentação e orientações de leitura — o que é o documento, como ler um quesito, as convenções de desenho, o que ficou parqueado, as decisões em aberto, as pendências a pedir ao MINSA e como enviar comentários |
 | `formulario.qmd` | Página de entrada do formulário, com a lista dos capítulos |
-| `formulario/` | O formulário em 17 secções, por tema, quesito a quesito: enunciado, opções de resposta e comentário |
+| `formulario/` | O formulário em 18 secções, por tema, quesito a quesito: enunciado, opções de resposta e comentário |
 | `_legenda.qmd` | Legenda das caixas e etiquetas, incluída no topo de cada capítulo |
 | `comentar.html` | Botão «Comentar» ao lado de cada quesito, que abre o Google Forms com o quesito, o nome e o email preenchidos; o link do formulário configura-se em `FORMULARIO` |
 | `_quarto.yml` | Configuração do livro |
@@ -41,7 +41,7 @@ feita primeiro na matriz e só depois transcrita para aqui, para que as duas nã
 
 ## Estado
 
-Todas as secções estão transcritas e organizadas em 17 secções por tema. Os quesitos foram renumerados.
+Todas as secções estão transcritas e organizadas em 18 secções por tema. Os quesitos foram renumerados.
 A correspondência com os códigos da versão anterior (usados na matriz de decisão) está em `notas/correspondencia-codigos.md`, fora do livro.
 
 ## Orientações para o guião do inquiridor (a escrever)

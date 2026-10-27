@@ -281,6 +281,8 @@ ol + ol { margin-top: 0.12rem; }
 .grelha th[style*="center"], .grelha td[style*="center"] { width: 1%; }
 /* Nas tabelas com coluna de código, a coluna do item (a segunda, não centrada) não fica estreita */
 .grelha td:nth-child(2):not([style*="center"]) { min-width: 13rem; }
+/* Grelhas com seis ou mais colunas (condição × quatro funções): coluna do item mais estreita, para caber na caixa */
+.grelha table:has(th:nth-child(6)) td:nth-child(2):not([style*="center"]) { min-width: 8.5rem; }
 
 /* Comentário: o que acontece com cada resposta */
 
