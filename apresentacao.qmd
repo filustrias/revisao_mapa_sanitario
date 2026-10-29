@@ -11,7 +11,7 @@ As páginas seguintes mostram, secção a secção e quesito a quesito, **o que 
 O que este documento **não** é: não é a justificação técnica de cada decisão de desenho. Essa está na matriz de decisão da adaptação, uma folha de cálculo com uma linha por quesito, que registra o item original, o item proposto, o tipo de mudança, a explicação da decisão e o seu estado. A matriz é a fonte; este documento é a face legível dela.
 
 ::: {.callout-note appearance="simple"}
-**Estado da proposta.** O formulário está organizado em 19 secções, por tema e pela ordem em que o inquiridor o percorre. Os quesitos estão numerados de forma sequencial. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.
+**Estado da proposta.** O formulário está organizado em 20 secções, por tema e pela ordem em que o inquiridor o percorre. Os quesitos estão numerados de forma sequencial. Alguns blocos ficaram deliberadamente parqueados e outros aguardam decisão; uns e outros estão assinalados no texto e listados no fim desta nota.
 :::
 
 ## Um formulário único para toda a rede
@@ -32,7 +32,7 @@ Vale ver isto com números concretos, porque é a diferença entre um formulári
 
 - a porta geral do laboratório (quesito 12.1) fecha os quatro blocos de exames — **69 caixas** — e a pergunta do destino da amostra, **mais 1**; sobram as 11 linhas dos testes rápidos, que são exactamente aquilo que um centro de saúde faz;
 - a porta da imagiologia (12.A.0) fecha a grelha dos exames de imagem — **8 caixas**;
-- a porta dos partos (15.2) fecha as duas caixas de CONU, a grelha das nove funções-sinal e a cobertura permanente — **12 caixas**;
+- a porta dos partos (16.2) fecha as duas caixas de CONU, a grelha das nove funções-sinal e a cobertura permanente — **12 caixas**;
 - a porta da cirurgia (10.29) fecha os procedimentos de pequena e de grande cirurgia, as salas de operações e as especialidades cirúrgicas — **41 caixas**;
 - a porta do internamento (8.1) fecha os grupos de internamento da grelha de camas — **20 linhas** — e, na secção de gestão, o bloco de revisão de casos e de óbitos;
 - a porta das doenças crónicas não transmissíveis (11.1), se a unidade não as acompanhar, fecha a secção 11 inteira — **29 condições em seis grelhas, 116 caixas**, mais o cancro e a procura de faltosos; a do cancro, sozinha, **4**; a dos sobreviventes de violência, **11**; a do recém-nascido pequeno ou doente, **10**.
@@ -47,7 +47,7 @@ A leitura prática, para a revisão: **não avalie o volume total, avalie o volu
 
 Cada quesito é apresentado sempre com a mesma estrutura.
 
-**O código** identifica o quesito. Os quesitos estão numerados de forma sequencial dentro de cada secção, e um quesito que depende de outro recebe um código que o prende a esse quesito: 14.1.2 é a grelha dos antigénios que depende da porta da vacinação, 14.1; 12.C.I é o primeiro bloco de exames que depende da porta do laboratório. Os códigos são a referência estável para comentar: um comentário que diga «15.1.1.14» é inequívoco, um que diga «aquela pergunta da mutilação genital» obriga a procurar.
+**O código** identifica o quesito. Os quesitos estão numerados de forma sequencial dentro de cada secção, e um quesito que depende de outro recebe um código que o prende a esse quesito: 15.1.2 é a grelha dos antigénios que depende da porta da vacinação, 15.1; 12.C.I é o primeiro bloco de exames que depende da porta do laboratório. Os códigos são a referência estável para comentar: um comentário que diga «16.1.1.14» é inequívoco, um que diga «aquela pergunta da mutilação genital» obriga a procurar.
 
 **A etiqueta** diz, de relance, o estado do quesito:
 
@@ -71,7 +71,7 @@ A porta do laboratório não é **«tem laboratório?»** mas **«realiza exames
 Do mesmo modo, a porta da urgência não é «tem banco de urgência?» mas «atende doentes em situação de urgência, mesmo sem espaço próprio?», e a porta da revisão de óbitos não é «tem comissão de óbitos?» mas «realiza revisões formais de óbitos?».
 :::
 
-Isto não é uma subtileza de redacção. Se a porta fosse o órgão, perderíamos exactamente as unidades que fazem o trabalho sem o órgão formal — que são a maioria da rede de cuidados primários. Um centro de saúde que atende urgências na própria consulta ficaria contado como unidade sem atendimento de urgência. As caixas dos órgãos mantêm-se, em paralelo, nas listas próprias: o laboratório como serviço continua na lista da secção 12, as comissões continuam na lista da 18.2. O órgão e a actividade convivem porque respondem a perguntas diferentes.
+Isto não é uma subtileza de redacção. Se a porta fosse o órgão, perderíamos exactamente as unidades que fazem o trabalho sem o órgão formal — que são a maioria da rede de cuidados primários. Um centro de saúde que atende urgências na própria consulta ficaria contado como unidade sem atendimento de urgência. As caixas dos órgãos mantêm-se, em paralelo, nas listas próprias: o laboratório como serviço continua na lista da secção 12, as comissões continuam na lista da 19.2. O órgão e a actividade convivem porque respondem a perguntas diferentes.
 
 **Segunda: é a resposta que decide o percurso, nunca o tipo de unidade.** Nenhum salto deste formulário é accionado pelo tipo de unidade sanitária, e há razão para isso em cada caso: há postos com camas e centros de saúde sem internamento; há centros de saúde que seguem trezentos hipertensos e hospitais que não têm cardiologista. O percurso é decidido pelo que a unidade responde sobre si mesma.
 
@@ -92,28 +92,28 @@ Algumas famílias de informação ficaram deliberadamente fora desta versão. N�
 
 As três primeiras dependem de **verificação física**, e a arquitectura desta versão é autorreferida:
 
-- **Medicamentos** (12.10). O que interessa à farmácia não é a existência do serviço mas a presença observada dos produtos na prateleira, dentro da validade. Merece decisão própria, apoiada na Lista Nacional de Medicamentos Essenciais. Quatro medicamentos entram desde já, porque a Ficha já os pergunta como actividade de programa: a vitamina A, o albendazol, os sais de reidratação oral e o alimento terapêutico, todos na secção 14.
-- **Cadeia de frio** (14.1.4). Exige ver o frigorífico a funcionar e ler o termómetro no dia da visita. A contagem de geleiras e arcas, que a Ficha já faz na secção de aparelhos (secção 9), mantém-se intacta.
+- **Verificação dos medicamentos na prateleira** (13.5). Conta só o produto visto e dentro da validade. A farmácia e a disponibilidade declarada de 38 medicamentos essenciais entram já, na secção 13; a verificação fica para a fase com visita, apoiada na Lista Nacional de Medicamentos Essenciais.
+- **Cadeia de frio** (15.1.4). Exige ver o frigorífico a funcionar e ler o termómetro no dia da visita. A contagem de geleiras e arcas, que a Ficha já faz na secção de aparelhos (secção 9), mantém-se intacta.
 - **Esterilização** (12.14). Interessa saber qual o método, se o autoclave funciona no dia da visita, se há indicador de processo e se o pessoal foi formado — tudo matéria de observação.
 
 Ficam ainda parqueados:
 
 - o **funcionamento do sistema de referência** (3.4 a 3.9) — normas de referência e contrarreferência, registo dos doentes referidos e informação de retorno —, que passa para o bloco de gestão;
-- para o bloco de gestão e finanças que será desenhado depois, o **orçamento próprio** (18.1.3) e a **cadeia de arquivo e reporte de dados e o comité de gestão** (18.2.1 + 18.2.10 e 18.2.2 + 18.2.6);
-- o **bloco de manutenção** de infraestrutura e de equipamento (19.8).
+- para o bloco de gestão e finanças que será desenhado depois, o **orçamento próprio** (19.1.3) e a **cadeia de arquivo e reporte de dados e o comité de gestão** (19.2.1 + 19.2.10 e 19.2.2 + 19.2.6);
+- o **bloco de manutenção** de infraestrutura e de equipamento (20.8).
 
 ## Decisões que esta revisão deve tomar
 
 Estas são as questões em aberto. Estão assinaladas no texto com a etiqueta [A DECIDIR]{.etiqueta .decidir} ou com uma nota de pendência, e é sobre elas que o parecer dos revisores é mais necessário.
 
-1. **Rupturas de stock de vacinas** (14.1.3). Acrescentar uma coluna à grelha dos antigénios, perguntando se houve ruptura nos últimos 3 meses. A ruptura é memória de quem responde e não exige verificação física. Custa fazer a grelha do PAV passar de 18 para 29 caixas. Recomendação: incluir, mas só para os antigénios do calendário infantil de rotina.
-2. **Cuidados ao recém-nascido pequeno ou doente** (15.3.2.0 a 15.3.2.10). São 11 caixas, todas declaradas. É a maior lacuna da proposta no que respeita ao recém-nascido.
+1. **Rupturas de stock de vacinas** (15.1.3). Acrescentar uma coluna à grelha dos antigénios, perguntando se houve ruptura nos últimos 3 meses. A ruptura é memória de quem responde e não exige verificação física. Custa fazer a grelha do PAV passar de 18 para 29 caixas. Recomendação: incluir, mas só para os antigénios do calendário infantil de rotina.
+2. **Cuidados ao recém-nascido pequeno ou doente** (16.3.2.0 a 16.3.2.10). São 11 caixas, todas declaradas. É a maior lacuna da proposta no que respeita ao recém-nascido.
 3. **Tipos de informação em base de dados** (6.3.2). É a informação que muda mais depressa em todo o formulário; falta decidir se entra já ou se fica para as recolhas com visita.
 4. **Interrupção da gravidez** (10.E.3.7 e 10.E.3.8). As duas linhas devem ser confirmadas contra o quadro legal angolano antes de irem a terreno. Se a prestação não for legalmente possível, as duas linhas saem.
 5. **Âmbito da secção 9** (aparelhos médico-cirúrgicos). O Guião restringe a secção a centros e postos de saúde, com fundamento. Mantendo a restrição, perde-se a leitura do equipamento no topo da árvore de referência.
 6. **Frota ao nível municipal** (secção 7). Para a maioria das unidades de cuidados primários, o que decide a evacuação de um doente não é a unidade ter viatura própria mas o município ter uma viatura disponível — pelo que importa decidir se a frota municipal deve ser recolhida, e onde.
-7. **Unidades de ensino** (18.2.8 e 18.2.9). Propõe-se um quesito que registe se a unidade acolhe formação de estudantes, internos, médicos em especialização ou técnicos de saúde.
-8. **Bloco de manutenção** (19.8). São cerca de 25 caixas, cobrindo a manutenção de 9 sistemas de infraestrutura e de 11 tipos de equipamento. Está parqueado, mas a decisão de o activar agora é legítima.
+7. **Unidades de ensino** (19.2.8 e 19.2.9). Propõe-se um quesito que registe se a unidade acolhe formação de estudantes, internos, médicos em especialização ou técnicos de saúde.
+8. **Bloco de manutenção** (20.8). São cerca de 25 caixas, cobrindo a manutenção de 9 sistemas de infraestrutura e de 11 tipos de equipamento. Está parqueado, mas a decisão de o activar agora é legítima.
 
 ## Pendências a pedir ao MINSA
 
@@ -124,6 +124,6 @@ Seis normas nacionais são invocadas pela proposta e não estão em nosso poder.
 | Definição do INSP dos **Laboratórios tipo I e tipo II**, a que o Guião se refere na folha 13 | Transforma a leitura do laboratório de descritiva — «esta unidade realiza 14 dos 82 exames» — em cumprimento: «este centro de saúde realiza 11 dos 20 exames exigidos a um Laboratório tipo I» |
 | **Lista Nacional de Medicamentos Essenciais**, com o exigido a cada nível da rede | Única forma defensável de definir que medicamentos verificar em cada nível da rede |
 | **Calendário nacional de vacinação** em vigor | Confirmar as 19 linhas de antigénios, retirando os que Angola não utiliza e acrescentando os que faltem |
-| **Populações-chave definidas pelo PNLS** para a profilaxia pré-exposição ao VIH (PrEP) | Fixar a grelha de 16.2 |
+| **Populações-chave definidas pelo PNLS** para a profilaxia pré-exposição ao VIH (PrEP) | Fixar a grelha de 17.2 |
 | **Norma nacional sobre atendimento a sobreviventes de violência sexual**, se existir | Ancorar o enunciado do bloco 10.E, que de outro modo cria expectativa de capacidade sem base normativa |
 | **Nomenclatura nacional de carreiras da saúde** | Fechar a lista de categorias profissionais de 1.8.3, que servirá também o futuro bloco de pessoal |

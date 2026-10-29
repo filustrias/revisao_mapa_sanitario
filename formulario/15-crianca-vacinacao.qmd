@@ -1,5 +1,5 @@
 ---
-title: "Secção 14 — Saúde da criança e vacinação"
+title: "Secção 15 — Saúde da criança e vacinação"
 ---
 
 Vacinação de rotina — periodicidade, vacinas administradas, rupturas de stock e cadeia de frio — e cuidados à criança menor de 5 anos.
@@ -11,16 +11,16 @@ Vacinação de rotina — periodicidade, vacinas administradas, rupturas de stoc
 
 | Quesito | O que se obtém |
 |---|---|
-| 14.1 a 14.1.2 | Unidades que vacinam, periodicidade e antigénios oferecidos [(30 indicadores do HHFA)]{.hhfa} |
-| 14.1.3 | Rupturas de stock por antigénio nos últimos 3 meses [(a decidir nesta revisão; 11 indicadores do HHFA, se incluída)]{.hhfa} |
-| 14.1.4 | Cadeia de frio (parqueado, para a fase da observação) [(nenhum indicador do HHFA nesta fase; 5 parqueados)]{.hhfa} |
-| 14.1.5 | Procura activa de crianças com doses de vacina em atraso [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 14.2 e 14.2.1 | Cuidados à criança menor de 5 anos, serviço a serviço [(12 indicadores do HHFA)]{.hhfa} |
-| 14.2.2 | Procura activa de crianças menores de 1 ano que faltam à puericultura [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 15.1 a 15.1.2 | Unidades que vacinam, periodicidade e antigénios oferecidos [(30 indicadores do HHFA)]{.hhfa} |
+| 15.1.3 | Rupturas de stock por antigénio nos últimos 3 meses [(a decidir nesta revisão; 11 indicadores do HHFA, se incluída)]{.hhfa} |
+| 15.1.4 | Cadeia de frio (parqueado, para a fase da observação) [(nenhum indicador do HHFA nesta fase; 5 parqueados)]{.hhfa} |
+| 15.1.5 | Procura activa de crianças com doses de vacina em atraso [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 15.2 e 15.2.1 | Cuidados à criança menor de 5 anos, serviço a serviço [(12 indicadores do HHFA)]{.hhfa} |
+| 15.2.2 | Procura activa de crianças menores de 1 ano que faltam à puericultura [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
-## 14.1 · Vacinação — porta do PAV [ALTERADO]{.etiqueta .alterado}
+## 15.1 · Vacinação — porta do PAV [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -37,7 +37,7 @@ A mesma caixa dá também o indicador correspondente na lista geral de serviços
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
 | Resposta 1 (Sim) | 3.2.1.1.1 | Unidades que oferecem qualquer serviço de imunização<br>*Percentage of facilities offering any immunization services* | Q2100 = 1; todas as unidades |
-| Resposta 1 (Sim) | 1.3.2.2.1 | Unidades que oferecem qualquer serviço de imunização (lista geral de serviços)<br>*Percentage of facilities offering any immunization services* | Q204_14 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido de 14.1 |
+| Resposta 1 (Sim) | 1.3.2.2.1 | Unidades que oferecem qualquer serviço de imunização (lista geral de serviços)<br>*Percentage of facilities offering any immunization services* | Q204_14 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido de 15.1 |
 | Resposta 2 (Não, apenas em campanhas) | — (medida própria) | Unidades que só vacinam em campanhas | Sem correspondência no HHFA; não conta como «Sim» em nenhum dos dois indicadores |
 :::
 
@@ -56,16 +56,16 @@ Esta unidade sanitária realiza vacinação de rotina, com periodicidade fixa, m
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não, apenas em campanhas» ou «Não», saltar para 14.2.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não, apenas em campanhas» ou «Não», saltar para 15.2.
 :::
 
 ::: {.nota .interno}
-**Porque mudou.** A definição do Guião (folha 12) reúne três critérios: «a menores de 5 anos, com todos os antigénios (= Posto Fixo de Vacinação); será considerado afirmativo se são realizadas vacinações de rotina na US com periodicidade fixa, mesmo que não seja diária» — grupo de idade, completude dos antigénios e periodicidade. A proposta aproveita-a e dá a cada critério o seu quesito: a periodicidade em 14.1.1, a completude em 14.1.2, e o grupo de idade resolve-se na própria grelha.
+**Porque mudou.** A definição do Guião (folha 12) reúne três critérios: «a menores de 5 anos, com todos os antigénios (= Posto Fixo de Vacinação); será considerado afirmativo se são realizadas vacinações de rotina na US com periodicidade fixa, mesmo que não seja diária» — grupo de idade, completude dos antigénios e periodicidade. A proposta aproveita-a e dá a cada critério o seu quesito: a periodicidade em 15.1.1, a completude em 15.1.2, e o grupo de idade resolve-se na própria grelha.
 
 **A opção 2 é nova** e serve a leitura que o Guião já implica: uma unidade que só vacina em campanhas não é um posto fixo de vacinação, mas também não é uma unidade onde nada acontece.
 :::
 
-## 14.1.1 · Periodicidade da vacinação de rotina [NOVO]{.etiqueta .novo}
+## 15.1.1 · Periodicidade da vacinação de rotina [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -111,7 +111,7 @@ Uma caixa, três indicadores. Aproveita a instrução do Guião, que já manda a
 **É provavelmente o dado mais útil de todo o bloco do PAV** para a rede de cuidados primários: a distância entre vacinar todos os dias e vacinar uma vez por mês é a distância entre uma mãe que leva a criança quando pode e uma mãe que tem de acertar com o dia certo — e explica oportunidades perdidas de vacinação sem que nada falte na unidade.
 :::
 
-## 14.1.2 · Antigénios oferecidos [NOVO]{.etiqueta .novo}
+## 15.1.2 · Antigénios oferecidos [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -127,33 +127,33 @@ A linha 11 (reforços do calendário infantil) não tem indicador próprio e ent
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha 14.1.2.1 · Hepatite B, dose ao nascer | 3.2.1.1.9 | Unidades que oferecem vacinação contra a hepatite B: dose ao nascer<br>*Percentage of facilities offering hepatitis B vaccination: birth dose* | Q2104_1 = 1, 2 ou 3; todas as unidades |
-| Linha 14.1.2.2 · BCG, dose ao nascer | 3.2.1.1.10 | Unidades que oferecem vacinação BCG: dose ao nascer<br>*Percentage of facilities offering BCG vaccination: birth dose* | Q2104_2 = 1, 2 ou 3; todas as unidades |
-| Linha 14.1.2.3 · VOP dose zero | 3.2.1.1.11 | Unidades que oferecem vacina oral da poliomielite (VOP): dose ao nascer<br>*Percentage of facilities offering oral polio vaccination (OPV): birth dose* | Q2104_3 = 1, 2 ou 3; todas as unidades |
-| Linha 14.1.2.4 · BCG, lactente | 3.2.1.1.12 | Unidades que oferecem vacinação BCG: lactente<br>*Percentage of facilities offering BCG vaccination: infant* | Q2104_4 = 1, 2 ou 3; todas as unidades |
-| Linha 14.1.2.5 · VOP, lactente | 3.2.1.1.13 | Unidades que oferecem VOP: lactente<br>*Percentage of facilities offering oral polio vaccination (OPV): infant* | Q2104_5 = 1, 2 ou 3; todas as unidades |
-| Linha 14.1.2.6 · Pentavalente, lactente | 3.2.1.1.14 | Unidades que oferecem vacinação DTP: lactente<br>*Percentage of facilities offering DPT vaccination: infant* | Q2104_6 = 1, 2 ou 3; todas as unidades. O HHFA diz DTP; a nossa linha diz pentavalente DTP-Hib-HepB |
-| Linha 14.1.2.7 · Rotavírus, lactente | 3.2.1.1.15 | Unidades que oferecem vacinação contra o rotavírus: lactente<br>*Percentage of facilities offering rotavirus vaccination: infant* | Q2104_7 = 1, 2 ou 3; todas as unidades |
-| Linha 14.1.2.8 · VPI, lactente | 3.2.1.1.16 | Unidades que oferecem vacina inactivada da poliomielite (VPI): lactente<br>*Percentage of facilities offering inactivated polio vaccination (IPV): infant* | Q2104_8 = 1, 2 ou 3; todas as unidades |
-| Linha 14.1.2.9 · Sarampo, lactente | 3.2.1.1.17 | Unidades que oferecem vacinação contra o sarampo: lactente ou criança<br>*Percentage of facilities offering measles vaccination: infant/child* | Q2104_9 = 1, 2 ou 3; todas as unidades |
-| Linha 14.1.2.10 · Pneumocócica, lactente | 3.2.1.1.18 | Unidades que oferecem vacinação pneumocócica: lactente ou criança<br>*Percentage of facilities offering pneumococcal vaccination: infant/child* | Q2104_10 = 1, 2 ou 3; todas as unidades |
-| Linha 14.1.2.11 · Reforços do calendário infantil | — (medida própria) | Sem indicador próprio; entra no agregado 3.2.1.1.4 | Corresponde, pela posição, a Q2104_11 |
-| Linha 14.1.2.12 · COVID-19, criança | 3.2.1.1.19 | Unidades que oferecem vacinação contra a COVID-19: criança<br>*Percentage of facilities offering COVID-19 vaccination: child* | Q2104_12 = 1, 2 ou 3; todas as unidades |
-| Linha 14.1.2.13 · HPV | 3.2.1.1.21 | Unidades que oferecem vacinação contra o vírus do papiloma humano (HPV): adolescente ou adulto<br>*Percentage of facilities offering human papilloma virus (HPV) vaccination: adolescent/adult* | Q2104_13 = 1, 2 ou 3; todas as unidades |
-| Linha 14.1.2.13 · HPV | 3.1.9.1.4 | Unidades que oferecem vacinação contra o HPV para adolescentes<br>*Percentage of facilities offering HPV vaccination for adolescents* | Q2104_13 = 1, 2 ou 3; todas as unidades (tabela da saúde do adolescente) |
-| Linha 14.1.2.14 · Antitetânica | 3.2.1.1.20 | Unidades que oferecem vacinação antitetânica: adolescente ou adulto<br>*Percentage of facilities offering tetanus vaccination: adolescent/adult* | Q2104_14 = 1, 2 ou 3; todas as unidades |
-| Linha 14.1.2.15 · Gripe | 3.2.1.1.22 | Unidades que oferecem vacinação contra a gripe: adolescente ou adulto<br>*Percentage of facilities offering influenza vaccination: adolescent/adult* | Q2104_15 = 1, 2 ou 3; todas as unidades |
-| Linha 14.1.2.16 · COVID-19, adolescente ou adulto | 3.2.1.1.23 | Unidades que oferecem vacinação contra a COVID-19: adolescente ou adulto<br>*Percentage of facilities offering COVID-19 vaccination: adolescent/adult* | Q2104_16 = 1, 2 ou 3; todas as unidades |
-| Linha 14.1.2.17 · Pneumocócica, adolescente ou adulto | 3.2.1.1.24 | Unidades que oferecem vacinação pneumocócica: adolescente ou adulto<br>*Percentage of facilities offering pneumococcal vaccination: adolescent/adult* | Q2104_17 = 1, 2 ou 3; todas as unidades |
-| Linha 14.1.2.18 · Hepatite B, adolescente ou adulto | 3.2.1.1.25 | Unidades que oferecem vacinação contra a hepatite B: adolescente ou adulto<br>*Percentage of facilities offering hepatitis B vaccination: adolescent/adult* | Q2104_18 = 1 (no catálogo, só o valor 1, ao contrário das outras linhas); todas as unidades |
-| Linha 14.1.2.19 · Febre amarela | — (medida própria) | Sem indicador no HHFA | — |
-| Calculado com as linhas 14.1.2.1 a 14.1.2.3 | 3.2.1.1.2 | Unidades que oferecem qualquer dose ao nascer<br>*Percentage of facilities offering any birth doses* | Q2104_1, _2 ou _3 = 1, 2 ou 3; todas as unidades |
-| Calculado com as linhas 14.1.2.4 a 14.1.2.10 | 3.2.1.1.3 | Unidades que oferecem qualquer vacina do lactente<br>*Percentage of facilities offering any infant immunizations* | Q2104_4 a Q2104_10, alguma = 1, 2 ou 3; todas as unidades |
-| Calculado com as linhas 14.1.2.11 e 14.1.2.12 | 3.2.1.1.4 | Unidades que oferecem qualquer vacina da criança<br>*Percentage of facilities offering any child immunizations* | Q2104_11 ou Q2104_12 = 1, 2 ou 3; todas as unidades |
-| Calculado com as linhas 14.1.2.13 a 14.1.2.18 | 3.2.1.1.5 | Unidades que oferecem qualquer vacina de adolescente ou adulto<br>*Percentage of facilities offering any adolescent/adult immunizations* | Q2104_13 a Q2104_18, alguma = 1, 2 ou 3; todas as unidades |
-| Calculado com as linhas 14.1.2.4 a 14.1.2.10 | 1.3.2.2.2 | Unidades que oferecem imunização do lactente (menos de 1 ano) (lista geral de serviços)<br>*Percentage of facilities offering infant (<1 year) immunizations* | Q204_15 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido da grelha |
-| Calculado com as linhas 14.1.2.11 e 14.1.2.12 | 1.3.2.2.3 | Unidades que oferecem imunização da criança (1 a 5 anos) (lista geral de serviços)<br>*Percentage of facilities offering child (1-5 year) immunizations* | Q204_16 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido da grelha |
-| Calculado com as linhas 14.1.2.13 a 14.1.2.18 | 1.3.2.2.4 | Unidades que oferecem imunização de adolescente ou adulto (lista geral de serviços)<br>*Percentage of facilities offering adolescent/adult immunizations* | Q204_17 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido da grelha |
+| Linha 15.1.2.1 · Hepatite B, dose ao nascer | 3.2.1.1.9 | Unidades que oferecem vacinação contra a hepatite B: dose ao nascer<br>*Percentage of facilities offering hepatitis B vaccination: birth dose* | Q2104_1 = 1, 2 ou 3; todas as unidades |
+| Linha 15.1.2.2 · BCG, dose ao nascer | 3.2.1.1.10 | Unidades que oferecem vacinação BCG: dose ao nascer<br>*Percentage of facilities offering BCG vaccination: birth dose* | Q2104_2 = 1, 2 ou 3; todas as unidades |
+| Linha 15.1.2.3 · VOP dose zero | 3.2.1.1.11 | Unidades que oferecem vacina oral da poliomielite (VOP): dose ao nascer<br>*Percentage of facilities offering oral polio vaccination (OPV): birth dose* | Q2104_3 = 1, 2 ou 3; todas as unidades |
+| Linha 15.1.2.4 · BCG, lactente | 3.2.1.1.12 | Unidades que oferecem vacinação BCG: lactente<br>*Percentage of facilities offering BCG vaccination: infant* | Q2104_4 = 1, 2 ou 3; todas as unidades |
+| Linha 15.1.2.5 · VOP, lactente | 3.2.1.1.13 | Unidades que oferecem VOP: lactente<br>*Percentage of facilities offering oral polio vaccination (OPV): infant* | Q2104_5 = 1, 2 ou 3; todas as unidades |
+| Linha 15.1.2.6 · Pentavalente, lactente | 3.2.1.1.14 | Unidades que oferecem vacinação DTP: lactente<br>*Percentage of facilities offering DPT vaccination: infant* | Q2104_6 = 1, 2 ou 3; todas as unidades. O HHFA diz DTP; a nossa linha diz pentavalente DTP-Hib-HepB |
+| Linha 15.1.2.7 · Rotavírus, lactente | 3.2.1.1.15 | Unidades que oferecem vacinação contra o rotavírus: lactente<br>*Percentage of facilities offering rotavirus vaccination: infant* | Q2104_7 = 1, 2 ou 3; todas as unidades |
+| Linha 15.1.2.8 · VPI, lactente | 3.2.1.1.16 | Unidades que oferecem vacina inactivada da poliomielite (VPI): lactente<br>*Percentage of facilities offering inactivated polio vaccination (IPV): infant* | Q2104_8 = 1, 2 ou 3; todas as unidades |
+| Linha 15.1.2.9 · Sarampo, lactente | 3.2.1.1.17 | Unidades que oferecem vacinação contra o sarampo: lactente ou criança<br>*Percentage of facilities offering measles vaccination: infant/child* | Q2104_9 = 1, 2 ou 3; todas as unidades |
+| Linha 15.1.2.10 · Pneumocócica, lactente | 3.2.1.1.18 | Unidades que oferecem vacinação pneumocócica: lactente ou criança<br>*Percentage of facilities offering pneumococcal vaccination: infant/child* | Q2104_10 = 1, 2 ou 3; todas as unidades |
+| Linha 15.1.2.11 · Reforços do calendário infantil | — (medida própria) | Sem indicador próprio; entra no agregado 3.2.1.1.4 | Corresponde, pela posição, a Q2104_11 |
+| Linha 15.1.2.12 · COVID-19, criança | 3.2.1.1.19 | Unidades que oferecem vacinação contra a COVID-19: criança<br>*Percentage of facilities offering COVID-19 vaccination: child* | Q2104_12 = 1, 2 ou 3; todas as unidades |
+| Linha 15.1.2.13 · HPV | 3.2.1.1.21 | Unidades que oferecem vacinação contra o vírus do papiloma humano (HPV): adolescente ou adulto<br>*Percentage of facilities offering human papilloma virus (HPV) vaccination: adolescent/adult* | Q2104_13 = 1, 2 ou 3; todas as unidades |
+| Linha 15.1.2.13 · HPV | 3.1.9.1.4 | Unidades que oferecem vacinação contra o HPV para adolescentes<br>*Percentage of facilities offering HPV vaccination for adolescents* | Q2104_13 = 1, 2 ou 3; todas as unidades (tabela da saúde do adolescente) |
+| Linha 15.1.2.14 · Antitetânica | 3.2.1.1.20 | Unidades que oferecem vacinação antitetânica: adolescente ou adulto<br>*Percentage of facilities offering tetanus vaccination: adolescent/adult* | Q2104_14 = 1, 2 ou 3; todas as unidades |
+| Linha 15.1.2.15 · Gripe | 3.2.1.1.22 | Unidades que oferecem vacinação contra a gripe: adolescente ou adulto<br>*Percentage of facilities offering influenza vaccination: adolescent/adult* | Q2104_15 = 1, 2 ou 3; todas as unidades |
+| Linha 15.1.2.16 · COVID-19, adolescente ou adulto | 3.2.1.1.23 | Unidades que oferecem vacinação contra a COVID-19: adolescente ou adulto<br>*Percentage of facilities offering COVID-19 vaccination: adolescent/adult* | Q2104_16 = 1, 2 ou 3; todas as unidades |
+| Linha 15.1.2.17 · Pneumocócica, adolescente ou adulto | 3.2.1.1.24 | Unidades que oferecem vacinação pneumocócica: adolescente ou adulto<br>*Percentage of facilities offering pneumococcal vaccination: adolescent/adult* | Q2104_17 = 1, 2 ou 3; todas as unidades |
+| Linha 15.1.2.18 · Hepatite B, adolescente ou adulto | 3.2.1.1.25 | Unidades que oferecem vacinação contra a hepatite B: adolescente ou adulto<br>*Percentage of facilities offering hepatitis B vaccination: adolescent/adult* | Q2104_18 = 1 (no catálogo, só o valor 1, ao contrário das outras linhas); todas as unidades |
+| Linha 15.1.2.19 · Febre amarela | — (medida própria) | Sem indicador no HHFA | — |
+| Calculado com as linhas 15.1.2.1 a 15.1.2.3 | 3.2.1.1.2 | Unidades que oferecem qualquer dose ao nascer<br>*Percentage of facilities offering any birth doses* | Q2104_1, _2 ou _3 = 1, 2 ou 3; todas as unidades |
+| Calculado com as linhas 15.1.2.4 a 15.1.2.10 | 3.2.1.1.3 | Unidades que oferecem qualquer vacina do lactente<br>*Percentage of facilities offering any infant immunizations* | Q2104_4 a Q2104_10, alguma = 1, 2 ou 3; todas as unidades |
+| Calculado com as linhas 15.1.2.11 e 15.1.2.12 | 3.2.1.1.4 | Unidades que oferecem qualquer vacina da criança<br>*Percentage of facilities offering any child immunizations* | Q2104_11 ou Q2104_12 = 1, 2 ou 3; todas as unidades |
+| Calculado com as linhas 15.1.2.13 a 15.1.2.18 | 3.2.1.1.5 | Unidades que oferecem qualquer vacina de adolescente ou adulto<br>*Percentage of facilities offering any adolescent/adult immunizations* | Q2104_13 a Q2104_18, alguma = 1, 2 ou 3; todas as unidades |
+| Calculado com as linhas 15.1.2.4 a 15.1.2.10 | 1.3.2.2.2 | Unidades que oferecem imunização do lactente (menos de 1 ano) (lista geral de serviços)<br>*Percentage of facilities offering infant (<1 year) immunizations* | Q204_15 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido da grelha |
+| Calculado com as linhas 15.1.2.11 e 15.1.2.12 | 1.3.2.2.3 | Unidades que oferecem imunização da criança (1 a 5 anos) (lista geral de serviços)<br>*Percentage of facilities offering child (1-5 year) immunizations* | Q204_16 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido da grelha |
+| Calculado com as linhas 15.1.2.13 a 15.1.2.18 | 1.3.2.2.4 | Unidades que oferecem imunização de adolescente ou adulto (lista geral de serviços)<br>*Percentage of facilities offering adolescent/adult immunizations* | Q204_17 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido da grelha |
 :::
 
 ::: {.enunciado .rotulado}
@@ -169,25 +169,25 @@ Considere os últimos 3 meses, e não uma falha pontual de stock.
 
 | Código | Vacina | 1 · Sim, habitualmente administrada | 2 · Não | 98 · Não sabe |
 |---|---|:-:|:-:|:-:|
-| 14.1.2.1 | Hepatite B — dose ao nascer [HHFA 3.2.1.1.9 · 3.2.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.2 | BCG — dose ao nascer [HHFA 3.2.1.1.10 · 3.2.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.3 | VOP dose zero — dose ao nascer [HHFA 3.2.1.1.11 · 3.2.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.4 | BCG — lactente, menos de 1 ano [HHFA 3.2.1.1.12 · 3.2.1.1.3 · 1.3.2.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.5 | VOP — lactente, menos de 1 ano [HHFA 3.2.1.1.13 · 3.2.1.1.3 · 1.3.2.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.6 | Pentavalente DTP-Hib-HepB — lactente, menos de 1 ano [HHFA 3.2.1.1.14 · 3.2.1.1.3 · 1.3.2.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.7 | Rotavírus — lactente, menos de 1 ano [HHFA 3.2.1.1.15 · 3.2.1.1.3 · 1.3.2.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.8 | VPI — lactente, menos de 1 ano [HHFA 3.2.1.1.16 · 3.2.1.1.3 · 1.3.2.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.9 | Sarampo — lactente, menos de 1 ano [HHFA 3.2.1.1.17 · 3.2.1.1.3 · 1.3.2.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.10 | Pneumocócica — lactente, menos de 1 ano [HHFA 3.2.1.1.18 · 3.2.1.1.3 · 1.3.2.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.11 | Reforços do calendário infantil — criança de 1 a 5 anos [HHFA 3.2.1.1.4 · 1.3.2.2.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.12 | COVID-19 — criança de 1 a 5 anos [HHFA 3.2.1.1.19 · 3.2.1.1.4 · 1.3.2.2.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.13 | HPV — adolescente ou adulto [HHFA 3.2.1.1.21 · 3.1.9.1.4 · 3.2.1.1.5 · 1.3.2.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.14 | Antitetânica — adolescente ou adulto [HHFA 3.2.1.1.20 · 3.2.1.1.5 · 1.3.2.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.15 | Gripe — adolescente ou adulto [HHFA 3.2.1.1.22 · 3.2.1.1.5 · 1.3.2.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.16 | COVID-19 — adolescente ou adulto [HHFA 3.2.1.1.23 · 3.2.1.1.5 · 1.3.2.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.17 | Pneumocócica — adolescente ou adulto [HHFA 3.2.1.1.24 · 3.2.1.1.5 · 1.3.2.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.18 | Hepatite B — adolescente ou adulto [HHFA 3.2.1.1.25 · 3.2.1.1.5 · 1.3.2.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.1.2.19 | Febre amarela — linha adicional para Angola | ☐ | ☐ | ☐ |
+| 15.1.2.1 | Hepatite B — dose ao nascer [HHFA 3.2.1.1.9 · 3.2.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.2 | BCG — dose ao nascer [HHFA 3.2.1.1.10 · 3.2.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.3 | VOP dose zero — dose ao nascer [HHFA 3.2.1.1.11 · 3.2.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.4 | BCG — lactente, menos de 1 ano [HHFA 3.2.1.1.12 · 3.2.1.1.3 · 1.3.2.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.5 | VOP — lactente, menos de 1 ano [HHFA 3.2.1.1.13 · 3.2.1.1.3 · 1.3.2.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.6 | Pentavalente DTP-Hib-HepB — lactente, menos de 1 ano [HHFA 3.2.1.1.14 · 3.2.1.1.3 · 1.3.2.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.7 | Rotavírus — lactente, menos de 1 ano [HHFA 3.2.1.1.15 · 3.2.1.1.3 · 1.3.2.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.8 | VPI — lactente, menos de 1 ano [HHFA 3.2.1.1.16 · 3.2.1.1.3 · 1.3.2.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.9 | Sarampo — lactente, menos de 1 ano [HHFA 3.2.1.1.17 · 3.2.1.1.3 · 1.3.2.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.10 | Pneumocócica — lactente, menos de 1 ano [HHFA 3.2.1.1.18 · 3.2.1.1.3 · 1.3.2.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.11 | Reforços do calendário infantil — criança de 1 a 5 anos [HHFA 3.2.1.1.4 · 1.3.2.2.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.12 | COVID-19 — criança de 1 a 5 anos [HHFA 3.2.1.1.19 · 3.2.1.1.4 · 1.3.2.2.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.13 | HPV — adolescente ou adulto [HHFA 3.2.1.1.21 · 3.1.9.1.4 · 3.2.1.1.5 · 1.3.2.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.14 | Antitetânica — adolescente ou adulto [HHFA 3.2.1.1.20 · 3.2.1.1.5 · 1.3.2.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.15 | Gripe — adolescente ou adulto [HHFA 3.2.1.1.22 · 3.2.1.1.5 · 1.3.2.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.16 | COVID-19 — adolescente ou adulto [HHFA 3.2.1.1.23 · 3.2.1.1.5 · 1.3.2.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.17 | Pneumocócica — adolescente ou adulto [HHFA 3.2.1.1.24 · 3.2.1.1.5 · 1.3.2.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.18 | Hepatite B — adolescente ou adulto [HHFA 3.2.1.1.25 · 3.2.1.1.5 · 1.3.2.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.1.2.19 | Febre amarela — linha adicional para Angola | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota .interno}
@@ -198,7 +198,7 @@ A **febre amarela** é acrescento próprio, por ser doença com transmissão em 
 **Pendência a abrir com o PAV:** confirmar estas dezanove linhas contra o calendário nacional de vacinação em vigor, retirando os antigénios que Angola não utiliza e acrescentando os que faltem. Retirar uma linha custa apenas o indicador correspondente e não afecta nenhum dos outros.
 :::
 
-## 14.1.3 · Rupturas de stock por antigénio [A DECIDIR]{.etiqueta .decidir}
+## 15.1.3 · Rupturas de stock por antigénio [A DECIDIR]{.etiqueta .decidir}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -212,7 +212,7 @@ Se a coluna for incluída: percentagem de unidades que tiveram ruptura de stock 
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha BCG · Resposta 1 (Sim) | 3.2.1.4.1 | Unidades com serviços de imunização que tiveram ruptura de stock nos últimos 3 meses: vacina BCG<br>*Percentage of facilities offering immunization services with stock-out in last 3 months : BCG vaccine* | Q2117_4B = 1; entre as unidades que vacinam (Q2100 = 1; aqui 14.1 = 1) |
+| Linha BCG · Resposta 1 (Sim) | 3.2.1.4.1 | Unidades com serviços de imunização que tiveram ruptura de stock nos últimos 3 meses: vacina BCG<br>*Percentage of facilities offering immunization services with stock-out in last 3 months : BCG vaccine* | Q2117_4B = 1; entre as unidades que vacinam (Q2100 = 1; aqui 15.1 = 1) |
 | Linha VOP · Resposta 1 (Sim) | 3.2.1.4.2 | Idem: vacina oral da poliomielite (VOP)<br>*Percentage of facilities offering immunization services with stock-out in last 3 months : oral polio vaccine (OPV)* | Q2117_3B = 1; entre as unidades que vacinam (Q2100 = 1) |
 | Linha VPI · Resposta 1 (Sim) | 3.2.1.4.3 | Idem: vacina inactivada da poliomielite (VPI)<br>*Percentage of facilities offering immunization services with stock-out in last 3 months : nactivated polio vaccine (IPV)* | Q2117_7B = 1; entre as unidades que vacinam (Q2100 = 1) |
 | Linha Pentavalente · Resposta 1 (Sim) | 3.2.1.4.4 | Idem: vacina DTP+Hib+HepB / pentavalente<br>*Percentage of facilities offering immunization services with stock-out in last 3 months : DPT+Hib+HepB / pentavalent vaccine* | Q2117_2B = 1; entre as unidades que vacinam (Q2100 = 1) |
@@ -226,7 +226,7 @@ Se a coluna for incluída: percentagem de unidades que tiveram ruptura de stock 
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Coluna (B) opcional, a acrescentar à grelha de 14.1.2. Fazer esta pergunta apenas em 11 das 18 linhas (BCG, VOP, VPI, pentavalente, sarampo, rotavírus, pneumocócica, HPV, raiva, COVID-19, hepatite B).
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Coluna (B) opcional, a acrescentar à grelha de 15.1.2. Fazer esta pergunta apenas em 11 das 18 linhas (BCG, VOP, VPI, pentavalente, sarampo, rotavírus, pneumocócica, HPV, raiva, COVID-19, hepatite B).
 :::
 
 ::: {.enunciado .rotulado}
@@ -263,7 +263,7 @@ Nos últimos 3 meses, houve algum período em que esta vacina não estivesse dis
 *Recomendação:* incluir, mas só para os antigénios do calendário infantil de rotina que Angola utiliza — o que, feita a confirmação com o PAV, deve reduzir as 11 linhas a 7 ou 8.
 :::
 
-## 14.1.4 · Cadeia de frio [PARQUEADO]{.etiqueta .parqueado}
+## 15.1.4 · Cadeia de frio [PARQUEADO]{.etiqueta .parqueado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -283,21 +283,21 @@ Nada nesta fase. Na fase da observação, a cadeia de frio alimentará a tabela 
 | Parqueado · frigorífico funcional | 3.2.1.2.7 | Unidades com serviços de imunização com frigorífico funcional<br>*Percentage of facilities offering immunization services with functional refrigerator* | Q2109 = 1; entre as unidades que vacinam (Q2100 = 1) |
 | Parqueado · monitorização da temperatura | 3.2.1.2.8 | Unidades com serviços de imunização com dispositivo de monitorização da temperatura do frigorífico<br>*Percentage of facilities offering immunization services with temperature monitoring device for the refrigerator* | (Q2110_1A = 1 e Q2110_1B = 1) ou (Q2110_2A = 1 e Q2110_2B = 1); entre as unidades que vacinam (Q2100 = 1) |
 | Parqueado · temperatura entre 2 e 8 °C | 3.2.1.2.9 | Unidades com serviços de imunização com a temperatura do frigorífico mantida entre 2 e 8 °C<br>*Percentage of facilities offering immunization services with refrigerator temperature maintained at 2-8C* | Q2111 = 1 e Q2112 = 1 e Q2113 = 1 e Q2114 = 1; entre as unidades que vacinam (Q2100 = 1) |
-| Parqueado · manutenção de frigoríficos (bloco 19.8) | 4.1.2.2.4 | Unidades com manutenção de rotina dos frigoríficos de vacinas, medicamentos ou sangue<br>*Percentage of facilities with routine maintenance of refrigerators for vaccines, medicines  or blood* | Q809_3 = 1; todas as unidades |
+| Parqueado · manutenção de frigoríficos (bloco 20.8) | 4.1.2.2.4 | Unidades com manutenção de rotina dos frigoríficos de vacinas, medicamentos ou sangue<br>*Percentage of facilities with routine maintenance of refrigerators for vaccines, medicines  or blood* | Q809_3 = 1; todas as unidades |
 :::
 
 ::: {.nota}
 Parqueada para a fase da observação. **Não é omissão, é fronteira de módulo:** a tabela de prontidão da imunização tem 31 indicadores e exige ver o frigorífico a funcionar, ler o termómetro no dia da visita e verificar as vacinas na prateleira.
 
-**Remissões.** A contagem de geleiras e arcas está no quesito 9.1.2 da secção 9 — e é contributo próprio do Mapa Sanitário, que conta as geleiras em vez de verificar apenas uma. A energia que as alimenta está no quesito 5.2.3. A manutenção de frigoríficos está no bloco 19.8, também parqueado.
+**Remissões.** A contagem de geleiras e arcas está no quesito 9.1.2 da secção 9 — e é contributo próprio do Mapa Sanitário, que conta as geleiras em vez de verificar apenas uma. A energia que as alimenta está no quesito 5.2.3. A manutenção de frigoríficos está no bloco 20.8, também parqueado.
 :::
 
-## 14.1.5 · Procura activa de faltosos — vacinação [NOVO]{.etiqueta .novo}
+## 15.1.5 · Procura activa de faltosos — vacinação [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que identificam as crianças com doses de vacina em atraso e as procuram para completar o calendário, dentre as unidades que vacinam. Lido com 17.4.2, mostra se a procura conta com os ADECOS.
+Percentagem de unidades que identificam as crianças com doses de vacina em atraso e as procuram para completar o calendário, dentre as unidades que vacinam. Lido com 18.4.2, mostra se a procura conta com os ADECOS.
 
 </details>
 
@@ -332,12 +332,12 @@ Quando uma criança tem uma dose de vacina em atraso, esta unidade sanitária id
 :::
 
 ::: {.nota .interno}
-**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 17.4.2, como função dos ADECOS.
+**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 18.4.2, como função dos ADECOS.
 
 **Verificação a programar.** Na resposta 1, pedir para ver a lista ou o livro de faltosos do último mês.
 :::
 
-## 14.2 · Puericultura — porta dos cuidados à criança [ALTERADO]{.etiqueta .alterado}
+## 15.2 · Puericultura — porta dos cuidados à criança [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -352,7 +352,7 @@ Percentagem de unidades que prestam quaisquer cuidados preventivos ou curativos 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
 | Resposta 1 (Sim) | 3.1.8.1.1 | Unidades que oferecem a crianças menores de 5 anos quaisquer serviços preventivos ou curativos<br>*Percentage of facilities offering for children < 5 years any preventative or curative care services* | Q2000 = 1; todas as unidades |
-| Resposta 1 (Sim) | 1.3.2.1.1 | Unidades que oferecem serviços preventivos e/ou curativos a crianças menores de 5 anos (lista geral de serviços)<br>*Percentage of facilities offering preventive and/or curative care services for children under 5* | Q204_11 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido de 14.2 |
+| Resposta 1 (Sim) | 1.3.2.1.1 | Unidades que oferecem serviços preventivos e/ou curativos a crianças menores de 5 anos (lista geral de serviços)<br>*Percentage of facilities offering preventive and/or curative care services for children under 5* | Q204_11 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido de 15.2 |
 :::
 
 ::: {.enunciado .rotulado}
@@ -369,14 +369,14 @@ Esta unidade sanitária presta cuidados preventivos ou curativos a crianças men
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 15.1.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 16.1.
 :::
 
 ::: {.nota .interno}
 **A puericultura deixa de ser uma caixa entre outras e passa a ser a porta de toda a família dos cuidados à criança**, porque é isso que ela é na prática: o Guião define-a como «quando inclui peso e registo do mesmo no cartão infantil» (folha 12), isto é, a consulta de vigilância da criança. A monitorização do crescimento, que é o conteúdo dessa definição, passa a ser a primeira linha da grelha seguinte, onde gera indicador próprio.
 :::
 
-## 14.2.1 · Cuidados à criança menor de 5 anos [NOVO]{.etiqueta .novo}
+## 15.2.1 · Cuidados à criança menor de 5 anos [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -390,17 +390,17 @@ Percentagem de unidades que prestam cada serviço à criança menor de 5 anos: c
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha 14.2.1.1 · Monitorização do crescimento | 3.1.8.1.2 | Unidades que oferecem a crianças menores de 5 anos monitorização de rotina do crescimento<br>*Percentage of facilities offering for children < 5 years routine growth monitoring* | Q2002_1 = 1; todas as unidades |
-| Linha 14.2.1.2 · Malnutrição | 3.1.8.1.3 | Unidades que oferecem a crianças menores de 5 anos diagnóstico e/ou tratamento da malnutrição<br>*Percentage of facilities offering for children < 5 years diagnosis and/or treatment of malnutrition* | Q2002_2 = 1; todas as unidades |
-| Linha 14.2.1.3 · Malnutrição aguda grave, ambulatório | 3.1.8.1.4 | Unidades que oferecem a crianças menores de 5 anos tratamento em ambulatório da malnutrição aguda grave sem complicações<br>*Percentage of facilities offering for children < 5 years outpatient management of severe acute malnutrition without complications* | Q2002_3 = 1; todas as unidades |
-| Linha 14.2.1.4 · Malnutrição moderada, ambulatório | 3.1.8.1.5 | Unidades que oferecem a crianças menores de 5 anos tratamento em ambulatório de outras categorias de malnutrição/desnutrição<br>*Percentage of facilities offering for children < 5 years outpatient management of other categories of malnutrition/undernutrition* | Q2002_4 = 1; todas as unidades. O HHFA diz «outras categorias»; a nossa linha diz «moderada» |
-| Linha 14.2.1.5 · Malnutrição grave, internamento | 3.1.8.1.6 | Unidades que oferecem a crianças menores de 5 anos tratamento em internamento da malnutrição grave com complicações<br>*Percentage of facilities offering for children < 5 years inpatient management of severe malnutrition with complications* | Q2002_5 = 1; todas as unidades |
-| Linha 14.2.1.6 · Vitamina A | 3.1.8.1.7 | Unidades que oferecem a crianças menores de 5 anos suplementação de rotina com vitamina A<br>*Percentage of facilities offering for children < 5 years routine vitamin A supplementation* | Q2002_6 = 1; todas as unidades |
-| Linha 14.2.1.7 · Desparasitação de rotina | — (medida própria) | Indicador mais próximo: 3.1.8.2.21 — unidades com cuidados a menores de 5 anos com mebendazol/albendazol (*Percentage of facilities offering < 5 preventative and curative services with mebendazole/albendazole tab/cap*) — não é o mesmo: verifica o medicamento em stock, não o serviço | Q3103_1 = 1 (observação), entre Q2000 = 1 |
-| Linha 14.2.1.8 · Anemia | 3.1.8.1.8 | Unidades que oferecem a crianças menores de 5 anos diagnóstico e tratamento da anemia com suplementação de ferro<br>*Percentage of facilities offering for children < 5 years diagnosis and treatment of anaemia with iron supplementation* | Q2002_7 = 1; todas as unidades. O HHFA especifica «com suplementação de ferro» |
-| Linha 14.2.1.9 · Diarreia | 3.1.8.1.9 | Unidades que oferecem a crianças menores de 5 anos diagnóstico e tratamento da diarreia com SRO e zinco<br>*Percentage of facilities offering for children < 5 years diagnosis and treatment of diarrhoea with ORS and zinc* | Q2002_11 = 1; todas as unidades |
-| Linhas 14.2.1.10 e 14.2.1.11 · Malária: tratamento de primeira linha e teste de sangue | 3.1.8.1.11 | Unidades que oferecem a crianças menores de 5 anos diagnóstico da malária com teste de sangue e tratamento com ACT<br>*Percentage of facilities offering for children < 5 years diagnosis of malaria with blood test and treatment with ACT* | Q2002_9 = 1; todas as unidades. No HHFA é uma só pergunta; aqui, ambas as linhas «Sim» |
-| Linha 14.2.1.12 · Rede mosquiteira | 3.1.8.1.12 | Unidades que oferecem a crianças menores de 5 anos rede mosquiteira tratada de longa duração (RMTL) ou voucher<br>*Percentage of facilities offering for children < 5 years LLIN or voucher for LLIN* | Q2002_10 = 1; todas as unidades |
+| Linha 15.2.1.1 · Monitorização do crescimento | 3.1.8.1.2 | Unidades que oferecem a crianças menores de 5 anos monitorização de rotina do crescimento<br>*Percentage of facilities offering for children < 5 years routine growth monitoring* | Q2002_1 = 1; todas as unidades |
+| Linha 15.2.1.2 · Malnutrição | 3.1.8.1.3 | Unidades que oferecem a crianças menores de 5 anos diagnóstico e/ou tratamento da malnutrição<br>*Percentage of facilities offering for children < 5 years diagnosis and/or treatment of malnutrition* | Q2002_2 = 1; todas as unidades |
+| Linha 15.2.1.3 · Malnutrição aguda grave, ambulatório | 3.1.8.1.4 | Unidades que oferecem a crianças menores de 5 anos tratamento em ambulatório da malnutrição aguda grave sem complicações<br>*Percentage of facilities offering for children < 5 years outpatient management of severe acute malnutrition without complications* | Q2002_3 = 1; todas as unidades |
+| Linha 15.2.1.4 · Malnutrição moderada, ambulatório | 3.1.8.1.5 | Unidades que oferecem a crianças menores de 5 anos tratamento em ambulatório de outras categorias de malnutrição/desnutrição<br>*Percentage of facilities offering for children < 5 years outpatient management of other categories of malnutrition/undernutrition* | Q2002_4 = 1; todas as unidades. O HHFA diz «outras categorias»; a nossa linha diz «moderada» |
+| Linha 15.2.1.5 · Malnutrição grave, internamento | 3.1.8.1.6 | Unidades que oferecem a crianças menores de 5 anos tratamento em internamento da malnutrição grave com complicações<br>*Percentage of facilities offering for children < 5 years inpatient management of severe malnutrition with complications* | Q2002_5 = 1; todas as unidades |
+| Linha 15.2.1.6 · Vitamina A | 3.1.8.1.7 | Unidades que oferecem a crianças menores de 5 anos suplementação de rotina com vitamina A<br>*Percentage of facilities offering for children < 5 years routine vitamin A supplementation* | Q2002_6 = 1; todas as unidades |
+| Linha 15.2.1.7 · Desparasitação de rotina | — (medida própria) | Indicador mais próximo: 3.1.8.2.21 — unidades com cuidados a menores de 5 anos com mebendazol/albendazol (*Percentage of facilities offering < 5 preventative and curative services with mebendazole/albendazole tab/cap*) — não é o mesmo: verifica o medicamento em stock, não o serviço | Q3103_1 = 1 (observação), entre Q2000 = 1 |
+| Linha 15.2.1.8 · Anemia | 3.1.8.1.8 | Unidades que oferecem a crianças menores de 5 anos diagnóstico e tratamento da anemia com suplementação de ferro<br>*Percentage of facilities offering for children < 5 years diagnosis and treatment of anaemia with iron supplementation* | Q2002_7 = 1; todas as unidades. O HHFA especifica «com suplementação de ferro» |
+| Linha 15.2.1.9 · Diarreia | 3.1.8.1.9 | Unidades que oferecem a crianças menores de 5 anos diagnóstico e tratamento da diarreia com SRO e zinco<br>*Percentage of facilities offering for children < 5 years diagnosis and treatment of diarrhoea with ORS and zinc* | Q2002_11 = 1; todas as unidades |
+| Linhas 15.2.1.10 e 15.2.1.11 · Malária: tratamento de primeira linha e teste de sangue | 3.1.8.1.11 | Unidades que oferecem a crianças menores de 5 anos diagnóstico da malária com teste de sangue e tratamento com ACT<br>*Percentage of facilities offering for children < 5 years diagnosis of malaria with blood test and treatment with ACT* | Q2002_9 = 1; todas as unidades. No HHFA é uma só pergunta; aqui, ambas as linhas «Sim» |
+| Linha 15.2.1.12 · Rede mosquiteira | 3.1.8.1.12 | Unidades que oferecem a crianças menores de 5 anos rede mosquiteira tratada de longa duração (RMTL) ou voucher<br>*Percentage of facilities offering for children < 5 years LLIN or voucher for LLIN* | Q2002_10 = 1; todas as unidades |
 :::
 
 ::: {.enunciado .rotulado}
@@ -414,18 +414,18 @@ Para cada serviço seguinte, diga-me se é habitualmente prestado a crianças me
 
 | Código | Serviço | 1 · Sim, habitualmente prestado | 2 · Não | 98 · Não sabe |
 |---|---|:-:|:-:|:-:|
-| 14.2.1.1 | Monitorização do crescimento, com peso e registo no cartão infantil [HHFA 3.1.8.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.2.1.2 | Diagnóstico ou tratamento da malnutrição [HHFA 3.1.8.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.2.1.3 | Tratamento em ambulatório da malnutrição aguda grave, com alimento terapêutico [HHFA 3.1.8.1.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.2.1.4 | Tratamento em ambulatório da malnutrição moderada, com suplementos alimentares [HHFA 3.1.8.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.2.1.5 | Tratamento em internamento da malnutrição grave [HHFA 3.1.8.1.6]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.2.1.6 | Suplementação de rotina com vitamina A [HHFA 3.1.8.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.2.1.7 | Desparasitação de rotina com albendazol ou mebendazol | ☐ | ☐ | ☐ |
-| 14.2.1.8 | Diagnóstico e tratamento da anemia [HHFA 3.1.8.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.2.1.9 | Diagnóstico e tratamento da diarreia com sais de reidratação oral e zinco [HHFA 3.1.8.1.9]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.2.1.10 | Diagnóstico e tratamento de primeira linha da malária [HHFA 3.1.8.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.2.1.11 | Diagnóstico da malária com teste de sangue [HHFA 3.1.8.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.2.1.12 | Entrega de rede mosquiteira tratada de longa duração, ou de voucher para a obter [HHFA 3.1.8.1.12]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.2.1.1 | Monitorização do crescimento, com peso e registo no cartão infantil [HHFA 3.1.8.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.2.1.2 | Diagnóstico ou tratamento da malnutrição [HHFA 3.1.8.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.2.1.3 | Tratamento em ambulatório da malnutrição aguda grave, com alimento terapêutico [HHFA 3.1.8.1.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.2.1.4 | Tratamento em ambulatório da malnutrição moderada, com suplementos alimentares [HHFA 3.1.8.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.2.1.5 | Tratamento em internamento da malnutrição grave [HHFA 3.1.8.1.6]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.2.1.6 | Suplementação de rotina com vitamina A [HHFA 3.1.8.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.2.1.7 | Desparasitação de rotina com albendazol ou mebendazol | ☐ | ☐ | ☐ |
+| 15.2.1.8 | Diagnóstico e tratamento da anemia [HHFA 3.1.8.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.2.1.9 | Diagnóstico e tratamento da diarreia com sais de reidratação oral e zinco [HHFA 3.1.8.1.9]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.2.1.10 | Diagnóstico e tratamento de primeira linha da malária [HHFA 3.1.8.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.2.1.11 | Diagnóstico da malária com teste de sangue [HHFA 3.1.8.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 15.2.1.12 | Entrega de rede mosquiteira tratada de longa duração, ou de voucher para a obter [HHFA 3.1.8.1.12]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota .interno}
@@ -434,12 +434,12 @@ Para cada serviço seguinte, diga-me se é habitualmente prestado a crianças me
 O **albendazol** ganha linha própria: a desparasitação de rotina é contributo próprio do Mapa Sanitário, e conserva-se porque é a âncora de medicamentos mais simples do instrumento.
 :::
 
-## 14.2.2 · Procura activa de faltosos — puericultura [NOVO]{.etiqueta .novo}
+## 15.2.2 · Procura activa de faltosos — puericultura [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que identificam e procuram as crianças menores de 1 ano que faltam à consulta de puericultura, dentre as unidades que oferecem consulta de puericultura. Lido com 17.4.2, mostra se a procura conta com os ADECOS.
+Percentagem de unidades que identificam e procuram as crianças menores de 1 ano que faltam à consulta de puericultura, dentre as unidades que oferecem consulta de puericultura. Lido com 18.4.2, mostra se a procura conta com os ADECOS.
 
 </details>
 
@@ -474,7 +474,7 @@ Quando uma criança menor de 1 ano falta a uma consulta de puericultura marcada,
 :::
 
 ::: {.nota .interno}
-**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 17.4.2, como função dos ADECOS.
+**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 18.4.2, como função dos ADECOS.
 
 **Verificação a programar.** Na resposta 1, pedir para ver a lista ou o livro de faltosos do último mês.
 :::

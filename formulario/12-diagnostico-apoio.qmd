@@ -2,7 +2,7 @@
 title: "Secção 12 — Diagnóstico e serviços de apoio"
 ---
 
-Testes rápidos, exames de laboratório e de imagem, procedimentos e tecnologias e outros serviços de apoio. Os serviços de urgência estão na secção 13.
+Testes rápidos, exames de laboratório e de imagem, procedimentos e tecnologias e outros serviços de apoio. A farmácia e os medicamentos estão na secção 13; os serviços de urgência, na secção 14.
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
@@ -20,7 +20,7 @@ Testes rápidos, exames de laboratório e de imagem, procedimentos e tecnologias
 | 12.A | Exames de imagem realizados ou obtidos por encaminhamento, com a ecografia por tipo [(14 indicadores do HHFA)]{.hhfa} |
 | 12.B | Procedimentos e tecnologias realizados na unidade [(14 indicadores do HHFA)]{.hhfa} |
 | 12.D | Outros serviços de apoio em funcionamento [(4 indicadores do HHFA)]{.hhfa} |
-| 12.10 e 12.14 | Existência de farmácia e de esterilização (parqueados) [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 12.14 | Existência de esterilização (parqueado) [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
@@ -38,7 +38,7 @@ Percentagem de unidades sanitárias que realizam, no momento da consulta, cada u
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha 12.C.0.1 · Teste rápido de diagnóstico do VIH | 1.3.3.3.5 | Unidades que oferecem testagem diagnóstica do VIH<br>*Percentage of facilities offering HIV diagnostic testing* | Q205_2 = 1 ou Q212_2 = 1; todas as unidades. Resposta 1 (Sim). Q205_2 é a oferta de testagem do VIH, que este formulário recolhe na secção 16 |
+| Linha 12.C.0.1 · Teste rápido de diagnóstico do VIH | 1.3.3.3.5 | Unidades que oferecem testagem diagnóstica do VIH<br>*Percentage of facilities offering HIV diagnostic testing* | Q205_2 = 1 ou Q212_2 = 1; todas as unidades. Resposta 1 (Sim). Q205_2 é a oferta de testagem do VIH, que este formulário recolhe na secção 17 |
 | Linha 12.C.0.2 · Autoteste do VIH | — (medida própria) | — | Sem item correspondente no catálogo |
 | Linha 12.C.0.3 · Teste rápido de sífilis | 1.3.3.3.4 | Unidades que oferecem teste rápido de sífilis<br>*Percentage of facilities offering syphilis RDT test* | Q212_3 = 1; todas as unidades. Resposta 1 |
 | Linhas 12.C.0.4 e 12.C.0.5 · Testes rápidos de hepatite B e C | — (medida própria) | — | Os mais próximos, 3.7.1.2.10 e 3.7.1.2.11 (Q2911_9 = 1, Q2911_10 = 1), contam-se só entre as unidades com serviço de laboratório (Q2900 = 1) e não são o mesmo item |
@@ -300,8 +300,8 @@ Oito indicadores: grupo sanguíneo, hepatite B, hepatite C, sífilis por teste q
 | Linha 12.C.III.5 · VDRL ou outro teste de sífilis que não o rápido | 3.7.1.1.15 | Unidades que realizam no local: sífilis por teste que não o rápido<br>*Percentage of facilities offering diagnostic test onsite: syphilis other than RDT* | Q2915_36 = 1; todas as unidades. Opção 1 |
 | Linha 12.C.III.6 · HBsAg laboratorial | 3.7.1.1.13 | Unidades que realizam no local: hepatite B<br>*Percentage of facilities offering diagnostic test onsite: Hepatitis B* | Q2915_34 = 1; todas as unidades. Opção 1 |
 | Linha 12.C.III.8 · Anti-HCV laboratorial | 3.7.1.1.14 | Unidades que realizam no local: hepatite C<br>*Percentage of facilities offering diagnostic test onsite: Hepatitis C* | Q2915_35 = 1; todas as unidades. Opção 1 |
-| Linha 12.C.III.9 · Carga viral do VIH | 3.2.5.2.4 | Unidades que oferecem tratamento antirretroviral com carga viral do VIH<br>*Percentage of facilities offering ART with HIV viral load test* | Q2915_38 = 1 e Q2917_29A = 1; entre as unidades que oferecem tratamento antirretroviral (Q2312 = 1; ver 16.4). Aproximado: Q2917_29A não tem correspondência neste formulário |
-| Linha 12.C.III.10 · Contagem de CD4 | 3.2.5.2.3 | Unidades que oferecem tratamento antirretroviral com contagem de CD4<br>*Percentage of facilities offering ART with CD4 count test* | Q2915_39 = 1 e Q2917_31A = 1 e Q2917_32A = 1; entre as unidades que oferecem tratamento antirretroviral (Q2312 = 1; ver 16.4). Aproximado: Q2917_31A e Q2917_32A não têm correspondência neste formulário |
+| Linha 12.C.III.9 · Carga viral do VIH | 3.2.5.2.4 | Unidades que oferecem tratamento antirretroviral com carga viral do VIH<br>*Percentage of facilities offering ART with HIV viral load test* | Q2915_38 = 1 e Q2917_29A = 1; entre as unidades que oferecem tratamento antirretroviral (Q2312 = 1; ver 17.4). Aproximado: Q2917_29A não tem correspondência neste formulário |
+| Linha 12.C.III.10 · Contagem de CD4 | 3.2.5.2.3 | Unidades que oferecem tratamento antirretroviral com contagem de CD4<br>*Percentage of facilities offering ART with CD4 count test* | Q2915_39 = 1 e Q2917_31A = 1 e Q2917_32A = 1; entre as unidades que oferecem tratamento antirretroviral (Q2312 = 1; ver 17.4). Aproximado: Q2917_31A e Q2917_32A não têm correspondência neste formulário |
 | Linha 12.C.III.11 · Antigénio criptocócico | 3.7.1.1.17 | Unidades que realizam no local: antigénio criptocócico<br>*Percentage of facilities offering diagnostic test onsite: cryptococcal antigen* | Q2915_40 = 1; todas as unidades. Opção 1 |
 | Linha 12.C.III.12 · PCR para COVID-19 | 3.7.1.1.16 | Unidades que realizam no local: PCR para COVID-19<br>*Percentage of facilities offering diagnostic test onsite: COVID 19 PCR* | Q2915_37 = 1; todas as unidades. Opção 1 |
 | Linhas 12.C.III.3 e 12.C.III.4 · Prova de compatibilidade e Coombs indirecto | — (medida própria) | — | Os mais próximos, 3.1.4.2.10 e 3.7.3.2.5 (prova cruzada), contam-se entre as unidades com CONU-C ou com transfusão e exigem também itens Q2917, sem correspondência neste formulário |
@@ -359,7 +359,7 @@ Dez indicadores: microscopia, cultura e antibiograma, tuberculose por baciloscop
 |---|---|---|---|
 | Linhas 12.C.IV.1 e 12.C.IV.2 · Microscopia a fresco ou com coloração de Gram | 1.3.3.3.1 | Unidades que oferecem microscopia geral<br>*Percentage of facilities offering general microscopy* | Q214_15 = 1 ou Q214_16 = 1; todas as unidades. Opção 1 em qualquer das duas linhas |
 | Linha 12.C.IV.1 · Microscopia a fresco | 3.7.1.1.10 | Unidades que realizam no local: microscopia a fresco<br>*Percentage of facilities offering diagnostic test onsite: microscopy - wet mount* | Q2915_24 = 1; todas as unidades. Opção 1 |
-| Linha 12.C.IV.5 · Gota espessa | — | Entra no cálculo de 1.3.3.3.3 (ver 12.C.0) e de 3.2.2.1.4 e 3.2.2.1.8 (ver 16.8.2) | Q214_26 = 1 em 1.3.3.3.3; Q2915_43 = 1 em 3.2.2.1.4 e 3.2.2.1.8. Opção 1 |
+| Linha 12.C.IV.5 · Gota espessa | — | Entra no cálculo de 1.3.3.3.3 (ver 12.C.0) e de 3.2.2.1.4 e 3.2.2.1.8 (ver 17.8.2) | Q214_26 = 1 em 1.3.3.3.3; Q2915_43 = 1 em 3.2.2.1.4 e 3.2.2.1.8. Opção 1 |
 | Linhas 12.C.IV.6 e 12.C.IV.7 · Baciloscopia ou teste molecular para tuberculose | 1.3.3.3.6 | Unidades que oferecem teste de diagnóstico da tuberculose<br>*Percentage of facilities offering tuberculosis diagnostic test* | Q214_24 = 1 ou Q214_25 = 1; todas as unidades. Opção 1 em qualquer das duas linhas |
 | Linha 12.C.IV.6 · Baciloscopia com Ziehl-Neelsen | 3.7.1.1.18 | Unidades que realizam no local: baciloscopia da expectoração com coloração de Ziehl-Neelsen<br>*Percentage of facilities offering diagnostic test onsite: Sputum microscopy with Ziehl-Neelsen stain for TB* | Q2915_41 = 1; todas as unidades. Opção 1 |
 | Linhas 12.C.IV.8 e 12.C.IV.10 · Cultura e antibiograma | 1.3.3.3.2 | Unidades que oferecem cultura e antibiograma<br>*Percentage of facilities offering culture and sensitivity* | Q214_17 = 1; todas as unidades. Um só item no catálogo; conta-se a opção 1 nas linhas 8 e 10 |
@@ -571,8 +571,8 @@ Percentagem de unidades sanitárias que realizam cada um de onze procedimentos e
 | Linha 12.B.7 · Diálise renal | 1.3.3.2.7 | Unidades que oferecem diálise renal<br>*Percentage of facilities offering renal dialysis* | Q210_18 = 1; todas as unidades. Resposta 1 |
 | Linha 12.B.8 · Ventilação mecânica | 1.3.3.2.8 | Unidades que oferecem ventilação mecânica<br>*Percentage of facilities offering mechanical ventilation* | Q210_16 = 1; todas as unidades. Resposta 1 |
 | Linha 12.B.9 · Transfusão de sangue | 1.3.3.2.9 | Unidades que oferecem transfusão de sangue<br>*Percentage of facilities offering blood transfusion* | Q210_19 = 1; todas as unidades. Resposta 1 |
-| Linha 12.B.9 · Transfusão de sangue | 3.7.3.1.1 | Unidades que oferecem algum serviço de transfusão de sangue<br>*Percentage of facilities offering any blood transfusion services* | Q2800 = 1 ou Q2210_9 = 1; todas as unidades. Resposta 1, ou a transfusão nas funções-sinal de 15.2.3 |
-| Linha 12.B.9 · Transfusão de sangue | — | Entra no cálculo de 3.1.4.1.4 (ver 15.2.3) | Q2210_9 = 1 ou Q2800 = 1 |
+| Linha 12.B.9 · Transfusão de sangue | 3.7.3.1.1 | Unidades que oferecem algum serviço de transfusão de sangue<br>*Percentage of facilities offering any blood transfusion services* | Q2800 = 1 ou Q2210_9 = 1; todas as unidades. Resposta 1, ou a transfusão nas funções-sinal de 16.2.3 |
+| Linha 12.B.9 · Transfusão de sangue | — | Entra no cálculo de 3.1.4.1.4 (ver 16.2.3) | Q2210_9 = 1 ou Q2800 = 1 |
 | Linha 12.B.10 · Colonoscopia | 1.3.3.2.10 | Unidades que oferecem colonoscopia<br>*Percentage of facilities offering colonoscopy* | Q210_9 = 1; todas as unidades. Resposta 1 |
 | Linha 12.B.11 · Administração de oxigénio | 1.3.3.2.11 | Unidades que oferecem administração de oxigénio<br>*Percentage of facilities offering oxygen administration* | Q210_20 = 1; todas as unidades. Resposta 1 |
 :::
@@ -655,41 +655,6 @@ Para cada um dos serviços seguintes, diga-me se existe nesta unidade sanitária
 **Porque mudou.** As caixas da Ficha mantêm-se com o mesmo sentido; muda o enunciado, que passa a dizer «em funcionamento» por palavras. O bloco operatório e o número de blocos passam para a cirurgia, como salas de operações (10.29.2.1).
 
 A reabilitação ganha a definição internacional, mais larga do que a fisioterapia. O acrescento são os **cuidados paliativos**, uma oferta própria dos cuidados primários: o controlo da dor no doente oncológico avançado faz-se no centro de saúde e no domicílio, não no hospital.
-:::
-
-## 12.10 · Farmácia [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Se existe serviço de farmácia em funcionamento em cada unidade. Nesta ronda não gera indicador: o rendimento da farmácia está nos 37 indicadores de medicamentos essenciais, que exigem ver os produtos na prateleira e ficam parqueados para o bloco de medicamentos.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
-
-Indicador mais próximo: tabela 2.4.1.1 (37 indicadores de medicamentos essenciais; por exemplo 2.4.1.1.37 — Medicamentos essenciais: unidades com todos os produtos (*Essential medicines: percentage of facilities with all items*)) — porque conta os produtos observados na prateleira, não a existência do serviço de farmácia; fica parqueada para o bloco de medicamentos.
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Existe nesta unidade sanitária um serviço de farmácia em funcionamento?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Sim, em funcionamento · 2 Não
-:::
-
-::: {.nota .interno}
-**Mantém-se como caixa única.** O horário de funcionamento para a urgência é recolhido em 13.8.1, e a disponibilidade de medicamentos fica para o bloco próprio.
-
-**Razão do parqueamento.** O que interessa medir na farmácia não é a existência do serviço, é a presença **observada** dos produtos na prateleira, dentro da validade: 181 linhas de produto em dez grupos, mais blocos condicionais de malária, tuberculose e antirretrovirais. Os indicadores contam apenas o produto visto e válido, pelo que a escala colapsa sem observação. É a tabela de maior rendimento para os cuidados primários — 37 indicadores — e merece decisão própria.
-
-**Pendência aberta.** Está pedida ao MINSA a Lista Nacional de Medicamentos Essenciais com a indicação do exigido a cada nível da rede. Sem ela, as 181 linhas são demasiadas para um posto de saúde e não há critério defensável para as encurtar.
 :::
 
 ## 12.14 · Esterilização [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}

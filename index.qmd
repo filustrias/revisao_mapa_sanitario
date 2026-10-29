@@ -17,4 +17,4 @@ Este documento apresenta a proposta de revisão da **Ficha de Cadastramento de U
 |---|---|
 | [Nota de apresentação](apresentacao.qmd) | O que é este documento, como ler um quesito e as convenções do formulário |
 | [Orientações aos revisores](revisores.qmd) | O que se pede a cada revisor e como enviar comentários |
-| [Sobre o formulário](formulario.qmd) | As 19 secções do formulário, com ligação a cada uma |
+| [Sobre o formulário](formulario.qmd) | As 20 secções do formulário, com ligação a cada uma |

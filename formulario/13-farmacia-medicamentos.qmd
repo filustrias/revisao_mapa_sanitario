@@ -1,0 +1,266 @@
+---
+title: "Secção 13 — Farmácia e medicamentos"
+---
+
+Serviço de farmácia, quem dispensa os medicamentos, e disponibilidade e rupturas de stock de 38 medicamentos essenciais.
+
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
+
+| Quesito | O que se obtém |
+|---|---|
+| 13.1 | Unidades com serviço de farmácia em funcionamento [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 13.2 | Dias por semana de funcionamento da farmácia [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 13.3 | Profissional que dispensa os medicamentos [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 13.4.1 a 13.4.38 | Disponibilidade declarada e rupturas de stock de 38 medicamentos essenciais [(37 indicadores do HHFA, por aproximação)]{.hhfa} |
+| 13.5 | Verificação dos medicamentos na prateleira (parqueado) [(medida própria do Mapa Sanitário)]{.hhfa} |
+
+</details>
+
+## 13.1 · Farmácia [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com serviço de farmácia em funcionamento.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 1.2.1.5.3 — Número de técnicos ou auxiliares de farmácia (*Number of pharmacy technicians/assistants*; Q310_3C) — conta o pessoal, não a existência do serviço.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Existe nesta unidade sanitária um serviço de farmácia em funcionamento?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, em funcionamento
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 13.3.
+:::
+
+::: {.nota .interno}
+**Porque mudou.** A caixa da Ficha (antigo 12.10) sai do parqueamento e passa a abrir uma secção própria, com os medicamentos. A unidade sem farmácia continua a responder a 13.3 e a 13.4, porque os medicamentos podem ser dispensados na própria consulta.
+:::
+
+## 13.2 · Dias de funcionamento da farmácia [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Número de dias por semana em que a farmácia está aberta, nas unidades que a têm — o acesso efectivo aos medicamentos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 3.5.1.1.5 — Unidades com farmácia 24 horas (*Percentage of facilities offering 24-hour pharmacy services*) — mede as horas por dia para a urgência, que se perguntam em 14.8.1.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Em quantos dias por semana está a farmácia aberta?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Número de 0 a 7 · **98** Não sabe
+:::
+
+## 13.3 · Quem dispensa os medicamentos [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Que profissional dispensa habitualmente os medicamentos em cada unidade — onde a dispensa depende de pessoal sem formação em farmácia.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 1.2.1.5.3 — Número de técnicos ou auxiliares de farmácia (*Number of pharmacy technicians/assistants*) — conta o pessoal do quadro, não quem dispensa.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quem dispensa habitualmente os medicamentos aos utentes nesta unidade sanitária?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Farmacêutico ou técnico de farmácia
+2. Enfermeiro
+3. Outro profissional de saúde
+4. Pessoal não clínico
+
+<!-- -->
+
+96. Outro *(especificar)*
+
+<!-- -->
+
+97. A unidade não dispensa medicamentos
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar uma só opção: quem dispensa na maior parte dos dias. Fazer esta pergunta a todas as unidades, com ou sem farmácia.
+:::
+
+## 13.4.1 a 13.4.38 · Medicamentos essenciais — disponibilidade e rupturas [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias que declaram ter disponível hoje cada um de 38 medicamentos essenciais, e percentagem que teve ruptura de stock de cada um nos últimos 3 meses. Agregado, dá a proporção do cabaz de medicamentos essenciais disponível em cada unidade e os medicamentos que mais faltam na rede.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 13.4.1 · Salbutamol, inalador — coluna A = Sim | 2.4.1.1.1 | Unidades com salbutamol, inalador<br>*Percentage of facilities with salbutamol inhaler* | No HHFA: produto observado e dentro da validade (Q3104_2 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.2 · Beclometasona ou outro corticóide, inalador — coluna A = Sim | 2.4.1.1.2 | Unidades com beclometasona ou outro corticóide, inalador<br>*Percentage of facilities with beclometasone or other corticosteroid inhaler* | No HHFA: produto observado e dentro da validade (Q3104_1 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.3 · Glibenclamida, gliclazida ou outra sulfonilureia — coluna A = Sim | 2.4.1.1.3 | Unidades com glibenclamida, gliclazida ou outra sulfonilureia<br>*Percentage of facilities with gliclazide or other sulphonylurea tab/cap* | No HHFA: produto observado e dentro da validade (Q3106_1 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.4 · Metformina — coluna A = Sim | 2.4.1.1.4 | Unidades com metformina<br>*Percentage of facilities with metformin cap/tab* | No HHFA: produto observado e dentro da validade (Q3106_5 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.5 · Insulina regular, injectável — coluna A = Sim | 2.4.1.1.5 | Unidades com insulina regular, injectável<br>*Percentage of facilities with insulin (regular) injection* | No HHFA: produto observado e dentro da validade (Q3106_3 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linhas 13.4.6, 13.4.7, 13.4.8, 13.4.9 — coluna A = Sim em pelo menos duas | 2.4.1.1.6 | Unidades com pelo menos dois de quatro anti-hipertensores (betabloqueante, bloqueador dos canais de cálcio, diurético tiazídico, IECA)<br>*Percentage of facilities with any two of the following anti-hypertensive tabs/caps:  beta blocker, calcium blocker, thiazide-like diuretic, ACE inhibitor* | No HHFA: produtos observados e dentro da validade; aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.10 · Sinvastatina ou outra estatina — coluna A = Sim | 2.4.1.1.7 | Unidades com sinvastatina ou outra estatina<br>*Percentage of facilities with simvastatin or other statin tab/cap* | No HHFA: produto observado e dentro da validade (Q3105_13 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.11 · Ácido acetilsalicílico — coluna A = Sim | 2.4.1.1.8 | Unidades com ácido acetilsalicílico<br>*Percentage of facilities with aspirin tab/cap* | No HHFA: produto observado e dentro da validade (Q3105_2 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.12 · Furosemida, oral ou injectável — coluna A = Sim | 2.4.1.1.9 | Unidades com furosemida, oral ou injectável<br>*Percentage of facilities with furosemide tab/cap or injection* | No HHFA: produto observado e dentro da validade (Q3105_9 = 1 OR Q3105_8 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.13 · Levotiroxina — coluna A = Sim | 2.4.1.1.35 | Unidades com levotiroxina<br>*Percentage of facilities with levothyroxine tab/cap* | No HHFA: produto observado e dentro da validade (Q3108_11 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.14 · Paracetamol — coluna A = Sim | 2.4.1.1.10 | Unidades com paracetamol<br>*Percentage of facilities with paracetamol tab/cap* | No HHFA: produto observado e dentro da validade (Q3108_17 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.15 · Ibuprofeno — coluna A = Sim | 2.4.1.1.11 | Unidades com ibuprofeno<br>*Percentage of facilities with ibuprofen tab/cap* | No HHFA: produto observado e dentro da validade (Q3108_10 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.16 · Morfina, oral ou injectável — coluna A = Sim | 2.4.1.1.12 | Unidades com morfina, oral ou injectável<br>*Percentage of facilities with morphine (oral or injectable)* | No HHFA: produto observado e dentro da validade (Q2658_16 = 1 OR Q3108_14 = 1 OR Q3108_15 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.17 · Fluoxetina ou outro antidepressivo ISRS — coluna A = Sim | 2.4.1.1.13 | Unidades com fluoxetina ou outro antidepressivo isrs<br>*Percentage of facilities with fluoxetine or other SSRI tab/cap* | No HHFA: produto observado e dentro da validade (Q3109_8 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.18 · Fenitoína ou carbamazepina — coluna A = Sim | 2.4.1.1.14 | Unidades com fenitoína ou carbamazepina<br>*Percentage of facilities with phenytoin or carbamazepine tab/cap* | No HHFA: produto observado e dentro da validade (Q3109_3 = 1 ou Q3109_20 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.19 · Amoxicilina, comprimidos ou cápsulas — coluna A = Sim | 2.4.1.1.15 | Unidades com amoxicilina, comprimidos ou cápsulas<br>*Percentage of facilities with amoxicillin tab/cap* | No HHFA: produto observado e dentro da validade (Q3103_2 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.20 · Penicilina procaína ou benzatina, injectável — coluna A = Sim | 2.4.1.1.16 | Unidades com penicilina procaína ou benzatina, injectável<br>*Percentage of facilities with procaine penicillin or benzathine penicillin injection* | No HHFA: produto observado e dentro da validade (Q3103_7 = 1 ou Q3103_25 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.21 · Gentamicina, injectável — coluna A = Sim | 2.4.1.1.17 | Unidades com gentamicina, injectável<br>*Percentage of facilities with gentamicin injection* | No HHFA: produto observado e dentro da validade (Q3103_17 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.22 · Ceftriaxona, injectável — coluna A = Sim | 2.4.1.1.18 | Unidades com ceftriaxona, injectável<br>*Percentage of facilities with ceftriaxone injection* | No HHFA: produto observado e dentro da validade (Q3103_9 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.23 · Fluconazol — coluna A = Sim | 2.4.1.1.33 | Unidades com fluconazol<br>*Percentage of facilities with fluconazole tab/cap* | No HHFA: produto observado e dentro da validade (Q3103_15 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.24 · Nistatina — coluna A = Sim | 2.4.1.1.34 | Unidades com nistatina<br>*Percentage of facilities with nystatin tab/cap* | No HHFA: produto observado e dentro da validade (Q3103_21 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.25 · Combinação terapêutica à base de artemisinina — coluna A = Sim | 2.4.1.1.19 | Unidades com combinação terapêutica à base de artemisinina<br>*Percentage of facilities with artemisinin-based combination therapy (ACT)* | No HHFA: produto observado e dentro da validade (Q3115_1A = 1 OR Q3115_2A = 1 OR (Q3115_3A = 1 AND (Q3115_6A = 1 OR Q3115_7A = 1))); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.26 · Artesunato, injectável ou rectal — coluna A = Sim | 2.4.1.1.20 | Unidades com artesunato, injectável ou rectal<br>*Percentage of facilities with artesunate (injection or suppository)* | No HHFA: produto observado e dentro da validade (Q3115_6A = 1 ou Q3115_7A = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.27 · Antirretrovirais de primeira linha — coluna A = Sim | 2.4.1.1.21 | Unidades com antirretrovirais de primeira linha<br>*Percentage of facilities with ARVs for first line combination treatment* | No HHFA: produto observado e dentro da validade (Q3123_18 = 1 OR (Q3126_9 = 1 AND Q3123_17 = 1) OR (Q3126_9 = 1 AND Q3123_16 = 1) OR (Q3123_4 = 1 AND Q3123_6 = 1 AND Q3126_9 = 1) OR (Q3123_11 = 1 AND Q3123_6 = 1 AND Q3126_9 = 1) OR (Q3123_17 = 1 AND Q3123_9 = 1) OR (Q3123_4 = 1 AND Q3123_6 = 1 AND Q3123_9 = 1)); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.28 · Tratamento combinado da tuberculose — coluna A = Sim | 2.4.1.1.22 | Unidades com tratamento combinado da tuberculose<br>*Percentage of facilities with combination therapy for tuberculosis* | No HHFA: produto observado e dentro da validade (Q3119_12A = 1 OR (Q3119_11A = 1 AND Q3119_4A = 1) OR (Q3119_10A = 1 AND Q3119_1A = 1) OR (Q3119_7A = 1 AND Q3119_1A = 1 AND Q3119_4A = 1) OR (Q3119_8A = 1 AND Q3119_4A = 1 AND Q3119_5A = 1) OR (Q3119_1A = 1 AND Q3119_2A = 1 AND Q3119_4A = 1 AND Q3119_5A = 1)); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.29 · Contraceptivos hormonais — orais, injectáveis ou implantes — coluna A = Sim | 2.4.1.1.23 | Unidades com contraceptivos hormonais — orais, injectáveis ou implantes<br>*Percentage of facilities with hormonal contraceptives (oral, injectable and/or implants)* | No HHFA: produto observado e dentro da validade (Q3130_1A = 1 OR Q3130_2A = 1 OR Q3130_3A = 1 OR Q3130_4A = 1 OR Q3130_7A = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.30 · Sais de reidratação oral — coluna A = Sim | 2.4.1.1.24 | Unidades com sais de reidratação oral<br>*Percentage of facilities with oral rehydration salts (ORS)* | No HHFA: produto observado e dentro da validade (Q3110_15 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.31 · Sulfato de zinco, comprimidos ou xarope — coluna A = Sim | 2.4.1.1.25 | Unidades com sulfato de zinco, comprimidos ou xarope<br>*Percentage of facilities with zinc sulfate tab or syrup* | No HHFA: produto observado e dentro da validade (Q3110_17 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.32 · Alimento terapêutico pronto a usar — coluna A = Sim | 2.4.1.1.26 | Unidades com alimento terapêutico pronto a usar<br>*Percentage of facilities with ready-to-use therapeutic food (RUTF)* | No HHFA: produto observado e dentro da validade (Q3133_1 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.33 · Ácido fólico — coluna A = Sim | 2.4.1.1.27 | Unidades com ácido fólico<br>*Percentage of facilities with folic acid tab/cap* | No HHFA: produto observado e dentro da validade (Q3110_7 = 1 ou Q3110_6 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.34 · Ocitocina, injectável — coluna A = Sim | 2.4.1.1.28 | Unidades com ocitocina, injectável<br>*Percentage of facilities with oxytocin injection* | No HHFA: produto observado e dentro da validade (Q2236_12A = 1 OR Q3110_18 = 1 OR Q2658_14 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.35 · Sulfato de magnésio, injectável — coluna A = Sim | 2.4.1.1.29 | Unidades com sulfato de magnésio, injectável<br>*Percentage of facilities with magnesium sulfate injection* | No HHFA: produto observado e dentro da validade (Q2658_12 = 1 OR Q3110_10 = 1 OR Q2236_1A = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.36 · Clorexidina ou outro desinfectante cutâneo — coluna A = Sim | 2.4.1.1.30 | Unidades com clorexidina ou outro desinfectante cutâneo<br>*Percentage of facilities with skin disinfectant/chlorhexidine* | No HHFA: produto observado e dentro da validade (Q2236_10A = 1 OR Q3001_18 = 1 OR Q3110_4 = 1 OR Q2658_23 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.37 · Adrenalina, injectável — coluna A = Sim | 2.4.1.1.31 | Unidades com adrenalina, injectável<br>*Percentage of facilities with adrenalin/epinephrine injection* | No HHFA: produto observado e dentro da validade (Q3108_1 = 1 OR Q2549_13 = 1 OR Q2658_1 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Linha 13.4.38 · Dexametasona, injectável — coluna A = Sim | 2.4.1.1.32 | Unidades com dexametasona, injectável<br>*Percentage of facilities with dexamethasone injection* | No HHFA: produto observado e dentro da validade (Q2236_3A = 1 OR Q3108_5 = 1); aqui declarado — correspondência aproximada; todas as unidades |
+| Coluna A, nas 38 linhas | 2.4.1.1.36 | Medicamentos essenciais: percentagem média de produtos disponíveis<br>*Essential medicines: mean percentage of items at facilities* | Média das linhas com A = Sim (os quatro anti-hipertensores contam como um item, pela regra «dois de quatro»); aqui declarado — correspondência aproximada |
+| Coluna A, nas 38 linhas | 2.4.1.1.37 | Medicamentos essenciais: unidades com todos os produtos<br>*Essential medicines: percentage of facilities with all items* | Todas as linhas com A = Sim (com a mesma regra para os anti-hipertensores); aqui declarado — correspondência aproximada |
+| Coluna B (ruptura nos últimos 3 meses) | — (medida própria) | O catálogo não tem indicador de ruptura de stock de medicamentos; tem-no só para as vacinas | — |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Vou ler uma lista de medicamentos. Para cada um, diga-me (A) se está disponível hoje nesta unidade sanitária, e (B) se houve ruptura de stock em algum momento dos últimos 3 meses.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Disponível = pelo menos uma unidade do medicamento, em qualquer dosagem, dentro da validade, na unidade sanitária. Ruptura = o medicamento esteve em falta pelo menos um dia nos últimos 3 meses. Ler os medicamentos um a um; em cada linha, marcar a coluna A e a coluna B. Nesta fase não se pede para ver os medicamentos.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Medicamento | A · Disponível hoje | B · Ruptura de stock nos últimos 3 meses |
+|---|---|:-:|:-:|
+| | **A · Doenças crónicas não transmissíveis** | | |
+| 13.4.1 | Salbutamol, inalador [HHFA 2.4.1.1.1]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.2 | Beclometasona ou outro corticóide, inalador [HHFA 2.4.1.1.2]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.3 | Glibenclamida, gliclazida ou outra sulfonilureia [HHFA 2.4.1.1.3]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.4 | Metformina [HHFA 2.4.1.1.4]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.5 | Insulina regular, injectável [HHFA 2.4.1.1.5]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.6 | Betabloqueante (por exemplo atenolol ou propranolol) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.7 | Bloqueador dos canais de cálcio (por exemplo amlodipina) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.8 | Diurético tiazídico (por exemplo hidroclorotiazida) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.9 | Inibidor da enzima de conversão (por exemplo enalapril ou captopril) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.10 | Sinvastatina ou outra estatina [HHFA 2.4.1.1.7]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.11 | Ácido acetilsalicílico [HHFA 2.4.1.1.8]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.12 | Furosemida, oral ou injectável [HHFA 2.4.1.1.9]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.13 | Levotiroxina [HHFA 2.4.1.1.35]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| | **B · Dor** | | |
+| 13.4.14 | Paracetamol [HHFA 2.4.1.1.10]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.15 | Ibuprofeno [HHFA 2.4.1.1.11]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.16 | Morfina, oral ou injectável [HHFA 2.4.1.1.12]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| | **C · Saúde mental e neurologia** | | |
+| 13.4.17 | Fluoxetina ou outro antidepressivo ISRS [HHFA 2.4.1.1.13]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.18 | Fenitoína ou carbamazepina [HHFA 2.4.1.1.14]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| | **D · Anti-infecciosos** | | |
+| 13.4.19 | Amoxicilina, comprimidos ou cápsulas [HHFA 2.4.1.1.15]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.20 | Penicilina procaína ou benzatina, injectável [HHFA 2.4.1.1.16]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.21 | Gentamicina, injectável [HHFA 2.4.1.1.17]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.22 | Ceftriaxona, injectável [HHFA 2.4.1.1.18]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.23 | Fluconazol [HHFA 2.4.1.1.33]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.24 | Nistatina [HHFA 2.4.1.1.34]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| | **E · Malária, VIH e tuberculose** | | |
+| 13.4.25 | Combinação terapêutica à base de artemisinina (por exemplo arteméter-lumefantrina) [HHFA 2.4.1.1.19]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.26 | Artesunato, injectável ou rectal [HHFA 2.4.1.1.20]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.27 | Antirretrovirais de primeira linha [HHFA 2.4.1.1.21]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.28 | Tratamento combinado da tuberculose [HHFA 2.4.1.1.22]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| | **F · Saúde materna, infantil e reprodutiva** | | |
+| 13.4.29 | Contraceptivos hormonais — orais, injectáveis ou implantes [HHFA 2.4.1.1.23]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.30 | Sais de reidratação oral [HHFA 2.4.1.1.24]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.31 | Sulfato de zinco, comprimidos ou xarope [HHFA 2.4.1.1.25]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.32 | Alimento terapêutico pronto a usar (ATPU) [HHFA 2.4.1.1.26]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.33 | Ácido fólico [HHFA 2.4.1.1.27]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.34 | Ocitocina, injectável [HHFA 2.4.1.1.28]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.35 | Sulfato de magnésio, injectável [HHFA 2.4.1.1.29]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| | **G · Urgência e outros** | | |
+| 13.4.36 | Clorexidina ou outro desinfectante cutâneo [HHFA 2.4.1.1.30]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.37 | Adrenalina, injectável [HHFA 2.4.1.1.31]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.4.38 | Dexametasona, injectável [HHFA 2.4.1.1.32]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+:::
+
+::: {.nota .interno}
+**Porque entra.** A lista segue, linha a linha, a lista de medicamentos essenciais traçadores do instrumento internacional, para que cada linha tenha um indicador correspondente; os anti-hipertensores estão separados por classe. A lista deve ser validada contra a Lista Nacional de Medicamentos Essenciais, que está pedida ao MINSA.
+
+**Declarado, não observado.** O instrumento internacional conta apenas o produto visto e dentro da validade. Aqui pergunta-se à unidade, o que torna a recolha possível em toda a rede mas faz da comparação uma aproximação. A verificação na prateleira fica para a fase com visita (13.5).
+:::
+
+## 13.5 · Verificação dos medicamentos na prateleira [PARQUEADO]{.etiqueta .parqueado}
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Quando entrar: tabela 2.4.1.1 (35 medicamentos essenciais traçadores e os índices 2.4.1.1.36 e 2.4.1.1.37), contados só com o produto observado e válido, e as condições de armazenamento da farmácia (tabela 2.4.5.1, 17 indicadores).
+:::
+
+::: {.nota}
+**Parqueado para a fase com visita.** A verificação dos medicamentos — ver cada produto na prateleira e confirmar a validade — e das condições de armazenamento da farmácia (temperatura, protecção da luz e da humidade, registos de stock) exige observação. Fica parqueada até haver a Lista Nacional de Medicamentos Essenciais por nível da rede, que define o que verificar em cada tipo de unidade.
+:::
+

@@ -4,7 +4,7 @@ title: "Secção 6 — Conectividade e meios informáticos"
 
 Cobertura de rede móvel, ligação à internet e a sua disponibilidade, equipamento informático, bases de dados electrónicas, reporte dos dados de rotina e pessoal dedicado aos dados.
 
-[36 campos. Um deles vem da caixa «Comunicação» dos serviços gerais (19.7), que passa para esta secção.]{.campos}
+[36 campos. Um deles vem da caixa «Comunicação» dos serviços gerais (20.7), que passa para esta secção.]{.campos}
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
@@ -115,7 +115,7 @@ Há acesso a correio electrónico ou à internet nesta unidade hoje?
 :::
 
 ::: {.nota .interno}
-**De onde vem.** A caixa «Comunicação» dos serviços gerais (19.7) passa para esta secção, desdobrada nesta pergunta e em 6.1.4.
+**De onde vem.** A caixa «Comunicação» dos serviços gerais (20.7) passa para esta secção, desdobrada nesta pergunta e em 6.1.4.
 :::
 
 ## 6.1.4 Custo da ligação à internet [ALTERADO]{.etiqueta .alterado}

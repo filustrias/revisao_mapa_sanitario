@@ -178,7 +178,7 @@ Número inteiro (0–999) · **998** Não sabe
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de equipamentos de exame existentes e a funcionar em cada unidade. A verificação destes equipamentos em cada serviço — consulta pré-natal, parto, rastreio do cancro do colo do útero — faz-se nas secções 10 a 17.
+Número de equipamentos de exame existentes e a funcionar em cada unidade. A verificação destes equipamentos em cada serviço — consulta pré-natal, parto, rastreio do cancro do colo do útero — faz-se nas secções 10 a 18.
 
 </details>
 

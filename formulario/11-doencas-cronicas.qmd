@@ -233,7 +233,7 @@ Percentagem de unidades sanitárias que oferecem serviços para a doença renal 
 |---|---|---|---|
 | Linhas 11.5.1 a 11.5.3 | — (medida própria) | O catálogo não tem indicador de serviço para doença renal crónica, anemias ou desnutrição no adulto | — |
 
-Indicadores próximos, de outra natureza: 1.3.3.3.16 — testes de função renal e 1.3.3.2.7 — diálise (secção 12); 3.1.8.1.3 a 3.1.8.1.6 — malnutrição na criança menor de 5 anos (secção 14, 15.2.1); 3.2.6.1.17 — reabilitação nutricional no VIH.
+Indicadores próximos, de outra natureza: 1.3.3.3.16 — testes de função renal e 1.3.3.2.7 — diálise (secção 12); 3.1.8.1.3 a 3.1.8.1.6 — malnutrição na criança menor de 5 anos (secção 15, 17.2.1); 3.2.6.1.17 — reabilitação nutricional no VIH.
 :::
 
 ::: {.enunciado .rotulado}
@@ -243,7 +243,7 @@ E para cada uma das condições seguintes, quais destas funções são prestadas
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler as condições uma a uma e, para cada uma, as quatro funções. Em cada célula, marcar Sim ou Não. Conta a função prestada nesta unidade, haja ou não especialista. A desnutrição da criança menor de 5 anos pergunta-se na secção 14; aqui conta só a de adolescentes e adultos.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler as condições uma a uma e, para cada uma, as quatro funções. Em cada célula, marcar Sim ou Não. Conta a função prestada nesta unidade, haja ou não especialista. A desnutrição da criança menor de 5 anos pergunta-se na secção 15; aqui conta só a de adolescentes e adultos.
 :::
 
 ::: {.grelha .rotulado}
@@ -257,7 +257,7 @@ E para cada uma das condições seguintes, quais destas funções são prestadas
 :::
 
 ::: {.nota .interno}
-A desnutrição da criança menor de 5 anos está na secção 14 (14.2.1, linhas 2 a 5); aqui fica a do adolescente e do adulto.
+A desnutrição da criança menor de 5 anos está na secção 15 (15.2.1, linhas 2 a 5); aqui fica a do adolescente e do adulto.
 :::
 
 ## 11.6 · Doenças neurológicas [NOVO]{.etiqueta .novo}
@@ -457,7 +457,7 @@ O cancro do colo do útero é o que mais interessa à rede de cuidados primário
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que identificam e procuram os doentes com doença crónica não transmissível que faltam ao seguimento, dentre as unidades que oferecem serviços para doenças crónicas não transmissíveis. Lido com 17.4.2, mostra se a procura conta com os ADECOS.
+Percentagem de unidades que identificam e procuram os doentes com doença crónica não transmissível que faltam ao seguimento, dentre as unidades que oferecem serviços para doenças crónicas não transmissíveis. Lido com 18.4.2, mostra se a procura conta com os ADECOS.
 
 </details>
 
@@ -492,7 +492,7 @@ Quando um doente com doença crónica não transmissível — por exemplo hipert
 :::
 
 ::: {.nota .interno}
-**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 17.4.2, como função dos ADECOS.
+**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 18.4.2, como função dos ADECOS.
 
 **Verificação a programar.** Na resposta 1, pedir para ver a lista ou o livro de faltosos do último mês.
 :::
