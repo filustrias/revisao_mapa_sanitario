@@ -2,28 +2,23 @@
 title: "Secção 7 — Camas e equipamentos de exame"
 ---
 
-Camas de internamento por tamanho, por enfermaria e por sexo, camas de observação e de curta estadia, macas e outros equipamentos de exame.
-
-[35 campos numa unidade com internamento e 15 numa unidade sem internamento, contra 16 na Ficha 19_01.]{.campos}
+Camas instaladas por serviço — enfermarias, cuidados intensivos e intermédios, isolamento, hospital de dia e observação —, camas autorizadas, macas e outros equipamentos de exame.
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
 
 | Quesito | O que se obtém |
 |---|---|
-| 7.0.1 | Unidades sanitárias com internamento [(1 indicador do HHFA)]{.hhfa} |
-| 7.1.1 a 7.1.3 | Camas de internamento de adulto, pediátricas e berços de recém-nascido; com a população da secção 3, camas por 10 000 habitantes [(4 indicadores do HHFA)]{.hhfa} |
-| 7.1.4 | Diferença entre camas autorizadas e camas instaladas [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 7.2 | Camas por enfermaria ou serviço [(11 indicadores do HHFA)]{.hhfa} |
-| 7.2b | Camas de adulto por sexo da enfermaria [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 7.3.1 a 7.3.3 | Capacidade de observação e de curta estadia em todas as unidades [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 7.1 | Unidades sanitárias com internamento [(1 indicador do HHFA)]{.hhfa} |
+| 7.2 | Camas por serviço e tipo de cama, sem duplicação; totais de adulto, pediátricas e neonatais, e camas por 10 000 habitantes [(15 indicadores do HHFA)]{.hhfa} |
+| 7.3 | Diferença entre camas autorizadas e camas instaladas [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 7.4 | Macas, marquesas e cadeiras de estomatologia existentes e a funcionar [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 7.5 | Camas guardadas em armazém ou fora de uso — capacidade de expansão [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 7.6 e 7.7 | Outros recursos e observações [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
-## 7.0.1 Internamento — porta [NOVO]{.etiqueta .novo}
+## 7.1 Internamento — porta [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -57,19 +52,19 @@ Esta unidade sanitária tem internamento, isto é, doentes que pernoitam na unid
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», passar directamente ao quesito 7.3.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», em 7.2 preencher apenas os grupos D e E (hospital de dia e observação).
 :::
 
 ::: {.nota .interno}
-**Porque é necessária.** A porta antecede a contagem de camas: com ela, uma unidade sem internamento salta as perguntas sobre camas de internamento e responde apenas às que se aplicam a todas as unidades.
+**Porque é necessária.** A porta antecede a contagem de camas: com ela, uma unidade sem internamento salta os grupos de internamento da grelha 7.2 e responde apenas aos que se aplicam a todas as unidades — hospital de dia e observação.
 :::
 
-## 7.1.1 a 7.1.3 Camas instaladas, por tipo de cama [ALTERADO]{.etiqueta .alterado}
+## 7.2 Camas instaladas, por serviço [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de camas de internamento instaladas em cada unidade, por tipo de cama: de adulto, pediátricas e berços de lactentes, e berços de recém-nascido. Cruzado com a população da área de abrangência (secção 3), dá as camas de internamento por 10 000 habitantes.
+Número de camas instaladas em cada unidade, por serviço e por tipo de cama — enfermarias, cuidados intensivos e intermédios por idade, isolamento, hospital de dia e observação. Cada cama conta uma só vez, pelo que os totais — camas de internamento de adulto, pediátricas e berços de recém-nascido — se obtêm somando as linhas. Cruzado com a população da área de abrangência (secção 3), dá as camas de internamento por 10 000 habitantes.
 
 </details>
 
@@ -78,44 +73,81 @@ Número de camas de internamento instaladas em cada unidade, por tipo de cama: d
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha 7.1.1 · Camas de adulto | 1.1.2.1.1 | Número total de camas de internamento (tamanho adulto)<br>*Total number of inpatient beds (adult-sized)* | Q403; soma em todas as unidades |
-| Linha 7.1.1 · Camas de adulto, com a população de 3.1 | 1.1.1.1.3 | Número de camas de internamento por 10 000 habitantes<br>*Number of inpatient beds per 10,000 population* | Q403; por 10 000 habitantes da população de referência (3.1) |
-| Linha 7.1.2 · Camas pediátricas e berços de lactentes | 1.1.2.1.2 | Número total de camas de internamento (tamanho pediátrico)<br>*Total number of inpatient beds (paediatric-sized)* | Q405; soma em todas as unidades |
-| Linha 7.1.3 · Berços de recém-nascido | 1.1.2.1.3 | Número total de berços neonatais<br>*Total number of neonatal cots* | Q407; soma em todas as unidades |
+| Soma das linhas de adulto: 7.2.1, 7.2.2, 7.2.3, 7.2.4, 7.2.5, 7.2.6, 7.2.7, 7.2.9, 7.2.11, 7.2.12, 7.2.13, 7.2.16, 7.2.19 | 1.1.2.1.1 | Número total de camas de internamento (tamanho adulto)<br>*Total number of inpatient beds (adult-sized)* | Q403; soma em todas as unidades. Não entram o hospital de dia (D) nem a observação (E) |
+| A mesma soma, com a população de 3.1 | 1.1.1.1.3 | Número de camas de internamento por 10 000 habitantes<br>*Number of inpatient beds per 10,000 population* | Q403; por 10 000 habitantes da população de referência (3.1) |
+| Soma das linhas pediátricas: 7.2.10, 7.2.14, 7.2.17, 7.2.20 | 1.1.2.1.2 | Número total de camas de internamento (tamanho pediátrico)<br>*Total number of inpatient beds (paediatric-sized)* | Q405; soma em todas as unidades |
+| Soma das linhas neonatais: 7.2.8, 7.2.15, 7.2.18 | 1.1.2.1.3 | Número total de berços neonatais<br>*Total number of neonatal cots* | Q407; soma em todas as unidades |
+| Linha 7.2.7 | 1.1.2.2.1 | Número de camas de maternidade dedicadas<br>*Number of dedicated maternity beds* | Q404_1; soma em todas as unidades |
+| Linha 7.2.7, com as grávidas esperadas na área (3.1) | 1.1.1.1.4 | Número de camas de maternidade por 1 000 grávidas<br>*Number of maternity beds per 1,000 pregnant women* | Q404_1; por 1 000 grávidas da área geográfica |
+| Linha 7.2.7 | 1.4.1.1.3 | Índice de densidade de camas de maternidade<br>*Maternity bed density score* | Q404_1 / 10 |
+| Soma das linhas 7.2.4 a 7.2.6 | 1.1.2.2.2 | Número de camas cirúrgicas dedicadas<br>*Number of dedicated surgical beds* | Q404_2; soma em todas as unidades |
+| Linha 7.2.11 | 1.1.2.2.3 | Número de camas psiquiátricas dedicadas<br>*Number of dedicated psychiatric beds* | Q404_3; soma em todas as unidades |
+| Linha 7.2.22 | 1.1.2.2.4 | Número de camas dedicadas do serviço de urgência<br>*Number of dedicated emergency unit beds* | Q404_4; soma em todas as unidades. Correspondência aproximada: aqui são as camas de observação de urgência |
+| Linha 7.2.13 | 1.1.2.2.5 | Número de camas de cuidados intensivos de adultos dedicadas<br>*Number of dedicated  adult ICU beds* | Q404_5; soma em todas as unidades |
+| Linha 7.2.14 | 1.1.2.2.6 | Número de camas de cuidados intensivos pediátricos dedicadas<br>*Number of dedicated  paediatric ICU beds* | Q406; soma em todas as unidades |
+| Linha 7.2.15 | 1.1.2.2.7 | Número de berços de cuidados intensivos neonatais dedicados<br>*Number of dedicated neonatal ICU cots* | Q408; soma em todas as unidades |
+| Linha 7.2.16 | 1.1.2.2.8 | Número de camas de alta dependência dedicadas<br>*Number of dedicated high-dependency beds* | Q404_6; soma em todas as unidades |
+| Soma das linhas 7.2.19 e 7.2.20 | 1.1.2.2.9 | Número de camas de isolamento dedicadas<br>*Number of dedicated isolation beds* | Q409 = 1 e Q410_1B ≥ 1; soma em todas as unidades |
+| Linhas 7.2.1 a 7.2.3, 7.2.9, 7.2.12, 7.2.17, 7.2.18, 7.2.21 e 7.2.23; separação por sexo em medicina e cirurgia | — (medida própria) | Medicina, ginecologia, outras enfermarias, cuidados intermédios pediátricos e neonatais, hospital de dia, curta estadia e sexo da enfermaria não têm indicador próprio no catálogo; as linhas de adulto entram nas somas acima | — |
 :::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-Quantas camas de internamento, instaladas e disponíveis para receber doentes no dia da visita, existem nesta unidade sanitária, de cada um dos tipos seguintes?
+Quantas camas, instaladas e disponíveis para receber doentes no dia da visita, existem nesta unidade sanitária em cada um dos serviços seguintes?
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Contar apenas camas permanentes, propriedade da unidade, em área ou sala de internamento, observadas no local na altura da visita. Não contar «espaço para camas», camas guardadas em armazém nem camas não permanentes (esteiras, marquesas). Cada cama conta numa só linha: os berços de recém-nascido contam-se em 7.1.3 e não em 7.1.2. Se não houver camas de um tipo, escrever 0.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Cada cama conta numa só linha**: no serviço onde está instalada. Uma cama de isolamento conta-se no isolamento e não na enfermaria; um berço na maternidade conta-se em 7.2.8 e não em 7.2.7. Contar apenas camas permanentes, propriedade da unidade, observadas no local; não contar «espaço para camas», camas guardadas em armazém (contam-se em 7.5) nem camas não permanentes (esteiras, marquesas). Escrever 0 nos serviços que não existem. Nas unidades sem internamento (7.1 = «Não»), preencher apenas os grupos D e E.
 :::
 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Tipo de cama | Número de camas (0–999) | 998 · Não sabe |
+| Código | Serviço e tipo de cama | Número de camas (0–999) | 998 · Não sabe |
 |---|---|:-:|:-:|
-| 7.1.1 | Camas de tamanho adulto [HHFA 1.1.2.1.1 · 1.1.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
-| 7.1.2 | Camas de tamanho pediátrico e berços de lactentes [HHFA 1.1.2.1.2]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
-| 7.1.3 | Berços ou camas para recém-nascidos [HHFA 1.1.2.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| | **A · Enfermarias de internamento** | | |
+| 7.2.1 | Medicina — enfermaria masculina [HHFA 1.1.2.1.1 · 1.1.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.2 | Medicina — enfermaria feminina [HHFA 1.1.2.1.1 · 1.1.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.3 | Medicina — enfermaria mista [HHFA 1.1.2.1.1 · 1.1.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.4 | Cirurgia — enfermaria masculina [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.2]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.5 | Cirurgia — enfermaria feminina [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.2]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.6 | Cirurgia — enfermaria mista [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.2]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.7 | Obstetrícia e maternidade — camas para grávidas e puérperas [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.1 · 1.1.1.1.4 · 1.4.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.8 | Maternidade ou berçário — berços para recém-nascidos [HHFA 1.1.2.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.9 | Ginecologia [HHFA 1.1.2.1.1 · 1.1.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.10 | Pediatria — camas pediátricas e berços de lactentes [HHFA 1.1.2.1.2]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.11 | Psiquiatria [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.12 | Outra enfermaria *(especificar)* [HHFA 1.1.2.1.1 · 1.1.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| | **B · Cuidados intensivos e intermédios, por idade** | | |
+| 7.2.13 | Cuidados intensivos — adultos [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.5]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.14 | Cuidados intensivos — pediátricos [HHFA 1.1.2.2.6]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.15 | Cuidados intensivos — neonatais [HHFA 1.1.2.2.7]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.16 | Cuidados intermédios ou de alta dependência — adultos [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.8]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.17 | Cuidados intermédios ou de alta dependência — pediátricos | \_\_\_ | ☐ |
+| 7.2.18 | Cuidados intermédios ou de alta dependência — neonatais | \_\_\_ | ☐ |
+| | **C · Isolamento** | | |
+| 7.2.19 | Isolamento — adultos [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.9]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.20 | Isolamento — pediátrico [HHFA 1.1.2.2.9]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| | **D · Hospital de dia** (sem pernoita) | | |
+| 7.2.21 | Camas ou cadeirões para procedimentos em regime de hospital de dia | \_\_\_ | ☐ |
+| | **E · Observação** | | |
+| 7.2.22 | Observação de urgência, até 24 horas [HHFA 1.1.2.2.4]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.2.23 | Curta estadia, até 72 horas | \_\_\_ | ☐ |
 :::
 
 ::: {.nota .interno}
-**Porque mudou.** As três contagens passam a uma só grelha: o critério de contagem é o mesmo e lê-se uma vez. Mantém-se a definição do Guião. A linha 7.1.1 acrescenta «de tamanho adulto», para separar estas camas das pediátricas; a linha 7.1.2 é nova e dá contagem própria às camas pediátricas e aos berços de lactentes; a linha 7.1.3 já existia e ganha o momento de referência — o dia da visita — e a distinção face aos berços de lactentes, para que a mesma criança não seja contada duas vezes.
+**Porque mudou.** As contagens de camas por tamanho (antigos 7.1.1 a 7.1.3), por enfermaria (7.2), por sexo (7.2b) e as camas de observação e de curta estadia (7.3.1 a 7.3.3) passam a uma só grelha, em que cada cama tem um só lugar. Acabam as contagens paralelas do mesmo total, que podiam não coincidir. Os totais da Ficha obtêm-se somando as linhas.
 
-Aqui as camas contam-se pelo tamanho; em 7.2 contam-se também pela enfermaria. As duas leituras servem fins diferentes e ambas ficam disponíveis.
+A observação e a curta estadia ficam na mesma grelha mas fora dos totais de internamento, como o Guião já prevê: a cama de observação não é cama de internamento.
 :::
 
-## 7.1.4 Camas autorizadas [NOVO]{.etiqueta .novo}
+## 7.3 Camas autorizadas [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de camas de internamento de adulto autorizadas para a unidade no seu quadro oficial. Comparado com 7.1.1, mostra a diferença entre o que está autorizado e o que está instalado.
+Número de camas de internamento de adulto autorizadas para a unidade no seu quadro oficial. Comparado com as camas de adulto contadas em 7.2, mostra a diferença entre o que está autorizado e o que está instalado.
 
 </details>
 
@@ -138,200 +170,7 @@ Número inteiro (0–999) · **998** Não sabe
 ::: {.nota .interno}
 **Para que serve.** A distância entre as camas autorizadas e as instaladas é informação de planeamento que passa a ficar disponível.
 
-**Verificação a programar.** Assinalar quando 7.1.1 for maior que 7.1.4.
-:::
-
-## 7.2 Camas por enfermaria ou serviço [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Número de camas de internamento em cada enfermaria ou serviço.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Linha 1 · Medicina ou clínica médica | — (medida própria) | Camas de medicina | — |
-| Linha 2 · Cirurgia | 1.1.2.2.2 | Número de camas dedicadas de cirurgia<br>*Number of dedicated surgical beds* | Q404_2; soma em todas as unidades |
-| Linha 3 · Obstetrícia e maternidade | 1.1.2.2.1 | Número de camas dedicadas de maternidade<br>*Number of dedicated maternity beds* | Q404_1; soma em todas as unidades |
-| Linha 3 · Obstetrícia e maternidade, com a população de 3.1 | 1.1.1.1.4 | Número de camas de maternidade por 1 000 grávidas<br>*Number of maternity beds per 1,000 pregnant women* | Q404_1; por 1 000 grávidas estimadas na população de referência (3.1) |
-| Linha 3 · Obstetrícia e maternidade, com a população de 3.1 | 1.4.1.1.3 | Índice de densidade de camas de maternidade<br>*Maternity bed density score* | Q404_1 / 10; índice calculado com a população de referência (3.1) |
-| Linha 4 · Ginecologia | — (medida própria) | Camas de ginecologia | — |
-| Linha 5 · Pediatria | — (medida própria) | Camas de pediatria (por enfermaria; o tamanho da cama conta-se em 7.1.2) | — |
-| Linha 6 · Psiquiatria | 1.1.2.2.3 | Número de camas dedicadas de psiquiatria<br>*Number of dedicated psychiatric beds* | Q404_3; soma em todas as unidades |
-| Linha 7 · Banco de urgência (camas de pernoita) | 1.1.2.2.4 | Número de camas dedicadas do serviço de urgência<br>*Number of dedicated emergency unit beds* | Q404_4; soma em todas as unidades |
-| Linha 8 · Unidade de cuidados intensivos de adultos | 1.1.2.2.5 | Número de camas dedicadas de cuidados intensivos de adultos<br>*Number of dedicated  adult ICU beds* | Q404_5; soma em todas as unidades |
-| Linha 9 · Cuidados intermédios ou de alta dependência | 1.1.2.2.8 | Número de camas dedicadas de alta dependência<br>*Number of dedicated high-dependency beds* | Q404_6; soma em todas as unidades |
-| Linha 10 · Isolamento | 1.1.2.2.9 | Número de camas dedicadas de isolamento<br>*Number of dedicated isolation beds* | Q409 = 1 e Q410_1B ≥ 1; todas as unidades. Aqui: linha 10 ≥ 1 |
-| Linha 11 · Unidade de cuidados intensivos pediátricos | 1.1.2.2.6 | Número de camas dedicadas de cuidados intensivos pediátricos<br>*Number of dedicated  paediatric ICU beds* | Q406; soma em todas as unidades |
-| Linha 12 · Unidade de cuidados intensivos neonatais | 1.1.2.2.7 | Número de berços dedicados de cuidados intensivos neonatais<br>*Number of dedicated neonatal ICU cots* | Q408; soma em todas as unidades |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Quantas camas de internamento, instaladas e disponíveis no dia da visita, existem em cada uma das seguintes enfermarias ou serviços desta unidade sanitária?
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Escrever 0 nas enfermarias que não existem. A soma das enfermarias não pode ser maior do que os totais de 7.1.1 a 7.1.3; se for, rever as contagens com o respondente.
-:::
-
-::: {.grelha .rotulado}
-[Grelha de resposta]{.rotulo}
-
-| N.º | Enfermaria ou serviço | Número de camas (0–999) | 998 · Não sabe |
-|---|---|:-:|:-:|
-| 1 | Medicina ou clínica médica | \_\_\_ | ☐ |
-| 2 | Cirurgia [HHFA 1.1.2.2.2]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
-| 3 | Obstetrícia e maternidade [HHFA 1.1.2.2.1 · 1.1.1.1.4 · 1.4.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
-| 4 | Ginecologia | \_\_\_ | ☐ |
-| 5 | Pediatria | \_\_\_ | ☐ |
-| 6 | Psiquiatria [HHFA 1.1.2.2.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
-| 7 | Banco de urgência (camas de pernoita) [HHFA 1.1.2.2.4]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
-| 8 | Unidade de cuidados intensivos de adultos [HHFA 1.1.2.2.5]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
-| 9 | Cuidados intermédios ou de alta dependência [HHFA 1.1.2.2.8]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
-| 10 | Isolamento [HHFA 1.1.2.2.9]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
-| 11 | Unidade de cuidados intensivos pediátricos [HHFA 1.1.2.2.6]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
-| 12 | Unidade de cuidados intensivos neonatais [HHFA 1.1.2.2.7]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
-:::
-
-::: {.nota .interno}
-**Porque é necessária.** Ao total de camas da Ficha acrescenta-se a distribuição por enfermaria, que mostra que serviços de internamento cada unidade tem de facto e com que dimensão.
-
-**Verificações a programar.** A soma das linhas de adulto não pode exceder 7.1.1; a linha 11 não pode exceder 7.1.2; a linha 12 não pode exceder 7.1.3.
-:::
-
-## 7.2b Camas de adulto por sexo da enfermaria [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Distribuição das camas de internamento de adulto por enfermaria masculina, feminina e mista — leitura da ocupação e da privacidade por sexo.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Ainda sobre as camas de internamento de adulto contadas em 7.1.1, quantas estão em enfermaria masculina, quantas em enfermaria feminina e quantas em enfermaria mista?
-:::
-
-::: {.grelha .rotulado}
-[Grelha de resposta]{.rotulo}
-
-| N.º | Enfermaria | Número de camas (0–999) | 998 · Não sabe |
-|---|---|:-:|:-:|
-| 1 | Masculina | \_\_\_ | ☐ |
-| 2 | Feminina | \_\_\_ | ☐ |
-| 3 | Mista | \_\_\_ | ☐ |
-:::
-
-::: {.nota .interno}
-**Porque é necessária.** A mesma cama é classificada por enfermaria ou serviço em 7.2 e por sexo da enfermaria aqui, em duas perguntas separadas sobre o mesmo total. Assim cada caixa tem uma resposta única, sem obrigar a cruzar os dois critérios numa só grelha.
-
-**Verificação a programar.** A soma das três linhas deve ser igual a 7.1.1.
-:::
-
-## 7.3.1 Camas de observação [ALTERADO]{.etiqueta .alterado}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Capacidade de observação até 24 horas, em todas as unidades sanitárias — muitas vezes, com a curta estadia (7.3.2), a única capacidade de permanência de um posto ou de um centro de saúde.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Quantas camas ou marquesas de observação, até 24 horas, existem nesta unidade sanitária?
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Fazer esta pergunta a todas as unidades, com ou sem internamento.
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Número inteiro (0–999) · **998** Não sabe
-:::
-
-::: {.nota .interno}
-**Porque mudou.** O Guião já distingue a observação até 24 horas da curta estadia até 72 horas; a proposta segue essa distinção e dá uma caixa a cada uma.
-:::
-
-## 7.3.2 Camas de curta estadia [ALTERADO]{.etiqueta .alterado}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Capacidade de curta estadia até 72 horas, em todas as unidades sanitárias.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Quantas camas de curta estadia, até 72 horas, existem nesta unidade sanitária?
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Fazer esta pergunta a todas as unidades, com ou sem internamento.
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Número inteiro (0–999) · **998** Não sabe
-:::
-
-## 7.3.3 Camas de observação com pernoita [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Número de camas de observação e de curta estadia habitualmente ocupadas por doentes que pernoitam na unidade. Permite somar estas camas às de internamento quando há pernoita, sem alterar a série nacional.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
-
-Indicador mais próximo: 1.1.2.1.1 — número total de camas de internamento (tamanho adulto) (*Total number of inpatient beds (adult-sized)*) — porque não é o mesmo: este campo não gera indicador; serve para somar a 7.1.1 (e à linha 7 de 7.2, para 1.1.2.2.4) as camas de observação com pernoita, que o HHFA conta como camas de internamento e o Guião exclui.
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Dessas camas de observação e de curta estadia, quantas são habitualmente ocupadas por doentes que pernoitam na unidade?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Número inteiro (0–999) · **998** Não sabe
-:::
-
-::: {.nota .interno}
-**Para que serve.** O Guião exclui as camas de observação das camas de internamento. Com este campo ficam disponíveis as duas leituras: a nacional, que mantém a série das edições anteriores, e a que soma às camas de internamento as camas de observação em que os doentes pernoitam.
+**Verificação a programar.** Assinalar quando as camas de adulto contadas em 7.2 forem mais do que as autorizadas.
 :::
 
 ## 7.4 Macas, marquesas e cadeiras de estomatologia [NOVO]{.etiqueta .novo}
@@ -396,7 +235,7 @@ Número inteiro (0–999) · **998** Não sabe
 :::
 
 ::: {.nota .interno}
-**Porque é necessária.** Como o Guião prevê, as camas guardadas em armazém registam-se «aparte»: passam a ter caixa própria, que evita que entrem na contagem de 7.1.1.
+**Porque é necessária.** Como o Guião prevê, as camas guardadas em armazém registam-se «aparte»: passam a ter caixa própria, que evita que entrem na contagem de 7.2.
 :::
 
 ## 7.6 Outros recursos de estadia ou de exame [ALTERADO]{.etiqueta .alterado}
@@ -425,7 +264,7 @@ Designação (texto) · Número inteiro (0–999)
 :::
 
 ::: {.nota .interno}
-**Porque mudou.** As cinco linhas abertas da Ficha passam a uma: com as camas por enfermaria e por sexo, a observação, a curta estadia e os equipamentos de exame em perguntas próprias, uma linha aberta é suficiente.
+**Porque mudou.** As cinco linhas abertas da Ficha passam a uma: com as camas por serviço numa só grelha e os equipamentos de exame em pergunta própria, uma linha aberta é suficiente.
 :::
 
 ## 7.7 Observações [MANTÉM-SE]{.etiqueta .mantem}

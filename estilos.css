@@ -602,3 +602,6 @@ img.capa-foto { width: 100%; border-radius: 6px; margin: 0.4rem 0 1.2rem; }
   color: #4a1a16;
 }
 .aviso-tamanho strong { color: #93332c; }
+
+/* Linhas de grupo dentro das grelhas (primeira célula vazia): A · Enfermarias, B · Cuidados intensivos... */
+.grelha tr:has(> td:first-child:empty) td { background: #eef2f7; padding-top: 0.45rem; padding-bottom: 0.45rem; }

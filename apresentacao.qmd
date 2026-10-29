@@ -34,7 +34,7 @@ Vale ver isto com números concretos, porque é a diferença entre um formulári
 - a porta da imagiologia (12.A.0) fecha a grelha dos exames de imagem — **8 caixas**;
 - a porta dos partos (14.2) fecha as duas caixas de CONU, a grelha das nove funções-sinal e a cobertura permanente — **12 caixas**;
 - a porta da cirurgia (10.29) fecha os procedimentos e as especialidades cirúrgicas — **11 caixas**;
-- a porta do internamento (7.0.1) fecha a decomposição das camas por enfermaria e por sexo — **15 caixas** — e, na secção de gestão, o bloco de revisão de casos e de óbitos;
+- a porta do internamento (7.1) fecha os grupos de internamento da grelha de camas — **20 linhas** — e, na secção de gestão, o bloco de revisão de casos e de óbitos;
 - a porta das doenças crónicas não transmissíveis (11.1), se a unidade não as acompanhar, fecha a secção 11 inteira — **29 condições em seis grelhas, 116 caixas**, mais o cancro e a procura de faltosos; a do cancro, sozinha, **4**; a dos sobreviventes de violência, **11**; a do recém-nascido pequeno ou doente, **10**.
 
 Só nestes blocos são mais de **250 caixas que a unidade não vê**. Um posto de saúde fecha ainda mais: sem vacinação de rotina com periodicidade fixa saltam as 19 caixas dos antigénios; sem tratamento antirretroviral saltam 7; sem serviços de tuberculose, 7.
