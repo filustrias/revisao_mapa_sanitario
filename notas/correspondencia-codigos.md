@@ -56,12 +56,12 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 5.4 | 6.4 | Recolha de resíduos comuns | 5 |
 | 5.5 | 6.5 | Destino final dos resíduos comuns | 5 |
 | 5.6 | 6.6 | Destino final dos resíduos hospitalares | 5 |
-| 5.5.3 | 6.5.3 | O meio de tratamento funciona | 5 |
-| 5.5.4 | 6.5.4 | Combustível para o incinerador | 5 |
-| 5.5.5 | 6.5.5 | Normas de gestão de resíduos | 5 |
-| 5.5.6 | 6.5.6 | Formação em gestão de resíduos | 5 |
-| 5.7.1 | 6.7.1 | Tratamento de águas residuais | 5 |
-| 5.7.2 | 6.7.2 | Funcionamento do tratamento de águas residuais | 5 |
+| 5.6.1 | 6.5.3 | O meio de tratamento funciona | 5 |
+| 5.6.2 | 6.5.4 | Combustível para o incinerador | 5 |
+| 5.7 | 6.5.5 | Normas de gestão de resíduos | 5 |
+| 5.8 | 6.5.6 | Formação em gestão de resíduos | 5 |
+| 5.9 | 6.7.1 | Tratamento de águas residuais | 5 |
+| 5.9.1 | 6.7.2 | Funcionamento do tratamento de águas residuais | 5 |
 | 6.1.1 | 13.1.1 | Cobertura de rede móvel | 6 |
 | 6.1.2 | 13.1.2 | Meio de ligação à internet | 6 |
 | 6.1.3 | 13.1.3 | Acesso à internet | 6 |

@@ -16,11 +16,11 @@ Fontes de água e de electricidade e a sua disponibilidade, saneamento, recolha 
 | 5.3 | Unidades sanitárias com saneamento melhorado acessível a utentes e pessoal [(1 indicador do HHFA)]{.hhfa} |
 | 5.4 | Modo de recolha do lixo comum [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 5.5 | Destino final dos resíduos comuns [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 5.6, 5.5.3 e 5.5.4 | Unidades sanitárias com destino final seguro dos resíduos cortantes e dos infecciosos [(2 indicadores do HHFA)]{.hhfa} |
-| 5.5.5 | Unidades sanitárias com normas escritas de gestão de resíduos [(1 indicador do HHFA)]{.hhfa} |
-| 5.5.6 | Unidades sanitárias com pessoal formado em gestão de resíduos [(1 indicador do HHFA)]{.hhfa} |
-| 5.7.1 | Unidades sanitárias com tratamento de águas residuais [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 5.7.2 | Unidades sanitárias em que o tratamento de águas residuais funciona [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 5.6 a 5.6.2 | Unidades sanitárias com destino final seguro dos resíduos cortantes e dos infecciosos [(2 indicadores do HHFA)]{.hhfa} |
+| 5.7 | Unidades sanitárias com normas escritas de gestão de resíduos [(1 indicador do HHFA)]{.hhfa} |
+| 5.8 | Unidades sanitárias com pessoal formado em gestão de resíduos [(1 indicador do HHFA)]{.hhfa} |
+| 5.9 | Unidades sanitárias com tratamento de águas residuais [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 5.9.1 | Unidades sanitárias em que o tratamento de águas residuais funciona [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
@@ -336,7 +336,7 @@ Qual é o destino final dos resíduos comuns produzidos nesta unidade?
 
 1. Incinerador
 2. Aterro sanitário
-3. Queimar ao ar livre
+3. Queima ao ar livre
 
 <!-- -->
 
@@ -351,12 +351,12 @@ Qual é o destino final dos resíduos comuns produzidos nesta unidade?
 Categorias mantidas.
 :::
 
-## 5.6 Destino final dos resíduos hospitalares [MANTÉM-SE]{.etiqueta .mantem}
+## 5.6 Destino final dos resíduos hospitalares [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-A partir do destino dos resíduos hospitalares (5.6), e com 5.5.3 e 5.5.4, a «Percentagem de unidades sanitárias com destino final seguro dos resíduos cortantes» e a «Percentagem de unidades sanitárias com destino final seguro dos resíduos infecciosos não cortantes». O que decide é se o destino é adequado — recolha e tratamento fora da unidade, incineração, aterro — ou não, como a queima ao ar livre.
+A partir do destino dos resíduos hospitalares (5.6), e com 5.6.1 e 5.6.2, a «Percentagem de unidades sanitárias com destino final seguro dos resíduos cortantes» e a «Percentagem de unidades sanitárias com destino final seguro dos resíduos infecciosos não cortantes». O que decide é se o destino é adequado — incineração com o incinerador a funcionar e com combustível, recolha e tratamento por empresa especializada, aterro — ou não, como a queima ao ar livre.
 
 </details>
 
@@ -365,8 +365,8 @@ A partir do destino dos resíduos hospitalares (5.6), e com 5.5.3 e 5.5.4, a «P
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Opções 1 e 2 (correspondência aproximada) | 2.5.1.1.12 | Unidades com destino final seguro dos resíduos cortantes<br>*Percentage of facilities with safe final disposal of sharps waste* | ((Q1214 = 2 ou 4) e Q1219 = 1 e Q1220 = 1) ou Q1214 = 7, 9, 10, 12 ou 13; e (Q1215 = 1 ou 2); todas as unidades. Incineração só conta com o incinerador a funcionar (5.5.3) e com combustível (5.5.4) |
-| Opções 1 e 2 (correspondência aproximada) | 2.5.1.1.13 | Unidades com destino final seguro dos resíduos infecciosos não cortantes<br>*Percentage of facilities with safe final disposal of non-sharp infectious waste* | ((Q1216 = 2 ou 4) e Q1219 = 1 e Q1220 = 1) ou Q1216 = 7, 9, 10, 12 ou 13; e (Q1217 = 1 ou 2); todas as unidades. Incineração só conta com o incinerador a funcionar (5.5.3) e com combustível (5.5.4) |
+| Opção 1 com 5.6.1 = 1 e 5.6.2 = 1; ou opções 2 e 3 (correspondência aproximada) | 2.5.1.1.12 | Unidades com destino final seguro dos resíduos cortantes<br>*Percentage of facilities with safe final disposal of sharps waste* | ((Q1214 = 2 ou 4) e Q1219 = 1 e Q1220 = 1) ou Q1214 = 7, 9, 10, 12 ou 13; e (Q1215 = 1 ou 2); todas as unidades. Incineração só conta com o incinerador a funcionar (5.6.1) e com combustível (5.6.2) |
+| Opção 1 com 5.6.1 = 1 e 5.6.2 = 1; ou opções 2 e 3 (correspondência aproximada) | 2.5.1.1.13 | Unidades com destino final seguro dos resíduos infecciosos não cortantes<br>*Percentage of facilities with safe final disposal of non-sharp infectious waste* | ((Q1216 = 2 ou 4) e Q1219 = 1 e Q1220 = 1) ou Q1216 = 7, 9, 10, 12 ou 13; e (Q1217 = 1 ou 2); todas as unidades. Incineração só conta com o incinerador a funcionar (5.6.1) e com combustível (5.6.2) |
 :::
 
 ::: {.enunciado .rotulado}
@@ -382,9 +382,10 @@ E qual é o destino final dos resíduos hospitalares — cortantes, perfurantes 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-1. Empresa especializada
-2. Aterro sanitário
-3. Queimar ao ar livre
+1. Incinerador da unidade
+2. Recolha e tratamento por empresa especializada
+3. Aterro sanitário
+4. Queima ao ar livre
 
 <!-- -->
 
@@ -395,16 +396,20 @@ E qual é o destino final dos resíduos hospitalares — cortantes, perfurantes 
 98. Não sabe
 :::
 
-::: {.nota .interno}
-Categorias mantidas. O quesito 5.6 é o único da secção 5 sem coluna «Outros», e assim permanece.
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 5.5 ou a 5.6 for «Incinerador», fazer 5.6.1 e 5.6.2. Caso contrário, saltar para 5.7.
 :::
 
-## 5.5.3 O meio de tratamento funciona [NOVO]{.etiqueta .novo}
+::: {.nota .interno}
+**Porque mudou.** Acrescenta-se a opção «Incinerador da unidade», que faltava: é para os resíduos hospitalares que o incinerador mais importa, e é esta resposta que abre as duas perguntas seguintes, sobre o incinerador a funcionar e o combustível. As restantes categorias mantêm-se.
+:::
+
+## 5.6.1 O incinerador funciona [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Completa os indicadores de destino final seguro dos resíduos cortantes e dos resíduos infecciosos não cortantes: quando o destino é a incineração, só conta como seguro se o incinerador estiver a funcionar e, com 5.5.4, tiver combustível. Dá também, por si só, a lista dos meios de tratamento parados.
+Completa os indicadores de destino final seguro dos resíduos cortantes e dos resíduos infecciosos não cortantes: quando o destino é a incineração, só conta como seguro se o incinerador estiver a funcionar e, com 5.6.2, tiver combustível. Dá também, por si só, a lista dos incineradores parados.
 
 </details>
 
@@ -416,17 +421,17 @@ Completa os indicadores de destino final seguro dos resíduos cortantes e dos re
 | Resposta 1 (Sim, observado a funcionar) | 2.5.1.1.12 | Unidades com destino final seguro dos resíduos cortantes<br>*Percentage of facilities with safe final disposal of sharps waste* | Entra no cálculo de 2.5.1.1.12 (ver 5.6): Q1219 = 1 |
 | Resposta 1 (Sim, observado a funcionar) | 2.5.1.1.13 | Unidades com destino final seguro dos resíduos infecciosos não cortantes<br>*Percentage of facilities with safe final disposal of non-sharp infectious waste* | Entra no cálculo de 2.5.1.1.13 (ver 5.6): Q1219 = 1 |
 
-Uso próprio do Mapa Sanitário: lista dos meios de tratamento parados.
+Uso próprio do Mapa Sanitário: lista dos incineradores parados.
 :::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-O incinerador ou outro meio de tratamento de resíduos desta unidade estava a funcionar hoje?
+O incinerador desta unidade estava a funcionar hoje?
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Pedir para ver. Se o destino indicado em 5.5 e 5.6 não envolver tratamento na unidade, anotar 97.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Pedir para ver o incinerador.
 :::
 
 ::: {.respostas .rotulado}
@@ -437,15 +442,14 @@ O incinerador ou outro meio de tratamento de resíduos desta unidade estava a fu
 
 <!-- -->
 
-97. Não se aplica
 98. Não sabe
 :::
 
 ::: {.nota .interno}
-**O que acontece com cada resposta.** O destino adequado dos resíduos cortantes e dos resíduos infecciosos só conta para o indicador **se** o meio de tratamento estiver a funcionar e tiver combustível. Um incinerador parado por falta de gasóleo é, na prática, queima ao ar livre — e é essa a situação que estas duas caixas tornam visível.
+**O que acontece com cada resposta.** A incineração só conta como destino seguro dos resíduos cortantes e infecciosos **se** o incinerador estiver a funcionar e tiver combustível. Um incinerador parado por falta de gasóleo é, na prática, queima ao ar livre — e é essa a situação que estas duas caixas tornam visível.
 :::
 
-## 5.5.4 Combustível para o incinerador [NOVO]{.etiqueta .novo}
+## 5.6.2 Combustível para o incinerador [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -470,7 +474,7 @@ Havia hoje combustível disponível para o incinerador?
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Pedir para ver. Se o destino indicado em 5.5 e 5.6 não envolver tratamento na unidade, anotar 97.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Pedir para ver o combustível.
 :::
 
 ::: {.respostas .rotulado}
@@ -481,11 +485,10 @@ Havia hoje combustível disponível para o incinerador?
 
 <!-- -->
 
-97. Não se aplica
 98. Não sabe
 :::
 
-## 5.5.5 Normas de gestão de resíduos [NOVO]{.etiqueta .novo}
+## 5.7 Normas de gestão de resíduos [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -524,7 +527,7 @@ Existem nesta unidade normas escritas ou instruções de trabalho sobre a gestã
 Duas caixas, dois indicadores, e a ligação ao bloco de prevenção e controlo de infecções — que fica parqueado, mas de que estas duas perguntas são a parte que se responde por declaração.
 :::
 
-## 5.5.6 Formação em gestão de resíduos [NOVO]{.etiqueta .novo}
+## 5.8 Formação em gestão de resíduos [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -558,7 +561,7 @@ Nos últimos 2 anos, algum profissional que actualmente trabalha nesta unidade r
 98. Não sabe
 :::
 
-## 5.7.1 Tratamento de águas residuais [ALTERADO]{.etiqueta .alterado}
+## 5.9 Tratamento de águas residuais [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -587,14 +590,14 @@ Existe nesta unidade uma estação ou sistema de tratamento de águas residuais?
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 5.7.1 for «Não», saltar para a secção 6.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 5.9 for «Não», saltar para a secção 6.
 :::
 
 ::: {.nota .interno}
-Os dois campos mantêm-se. A codificação passa a ser Sim = 1 e Não = 2 nas duas perguntas, para que a mesma resposta tenha sempre o mesmo código; na conversão para a série histórica, recorde-se que na Ficha 5.7.1 usa Não = 1 e Sim = 2.
+Os dois campos mantêm-se. A codificação passa a ser Sim = 1 e Não = 2 nas duas perguntas, para que a mesma resposta tenha sempre o mesmo código; na conversão para a série histórica, recorde-se que na Ficha esta pergunta usa Não = 1 e Sim = 2.
 :::
 
-## 5.7.2 Funcionamento do tratamento de águas residuais [ALTERADO]{.etiqueta .alterado}
+## 5.9.1 Funcionamento do tratamento de águas residuais [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
