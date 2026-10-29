@@ -20,7 +20,6 @@ Testes rápidos, exames de laboratório e de imagem, procedimentos e tecnologias
 | 12.A | Exames de imagem realizados ou obtidos por encaminhamento, com a ecografia por tipo [(14 indicadores do HHFA)]{.hhfa} |
 | 12.B | Procedimentos e tecnologias realizados na unidade [(14 indicadores do HHFA)]{.hhfa} |
 | 12.D | Outros serviços de apoio em funcionamento [(4 indicadores do HHFA)]{.hhfa} |
-| 12.14 | Existência de esterilização (parqueado) [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
@@ -657,35 +656,3 @@ Para cada um dos serviços seguintes, diga-me se existe nesta unidade sanitária
 A reabilitação ganha a definição internacional, mais larga do que a fisioterapia. O acrescento são os **cuidados paliativos**, uma oferta própria dos cuidados primários: o controlo da dor no doente oncológico avançado faz-se no centro de saúde e no domicílio, não no hospital.
 :::
 
-## 12.14 · Esterilização [MANTÉM-SE]{.etiqueta .mantem} [PARQUEADO]{.etiqueta .parqueado}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Se existe serviço de esterilização em funcionamento em cada unidade. Nesta ronda não gera indicador: o indicador de esterilização — unidades com equipamento de esterilização ou com sistema de envio do material para esterilizar fora — exige verificação e fica para o bloco de prevenção e controlo de infecções.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
-
-Indicador mais próximo: 2.5.1.1.8 — Unidades com equipamento de esterilização ou com sistema de envio do material para esterilizar fora (*Percentage of facilities with sterilization equipment in facility or system for sending items outside for sterilization*) — porque se calcula do método e do equipamento verificados (Q1223, Q1225), não da existência do serviço; fica parqueado para o bloco de prevenção e controlo de infecções.
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Existe nesta unidade sanitária um serviço de esterilização em funcionamento?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Sim, em funcionamento · 2 Não
-:::
-
-::: {.nota .interno}
-Parqueado para o bloco de prevenção e controlo de infecções, e não por omissão: é o quesito em que a distância entre a existência do serviço e a sua eficácia é maior. O instrumento internacional não pergunta se existe esterilização — pergunta qual o método, se o autoclave está a funcionar no dia da visita, se há indicador de processo e se o pessoal foi formado. Nenhuma destas perguntas se responde sem observação.
-
-**Remissão a registar:** o quesito 9.1.1 da secção 9 é o **esterilizador** enquanto equipamento, contado no inventário; este 12.14 é a esterilização enquanto **serviço**. Não se sobrepõem e nenhum substitui o outro.
-:::

@@ -92,7 +92,7 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 8.7 | 8.7 | Observações | 8 |
 | 9.1.1 a 9.1.15 | 9.1.1 a 9.1.15 | Número de aparelhos | 9 |
 | 9.1.16 a 9.1.23 | 9.1.16 a 9.1.23 | Verificação do equipamento básico | 9 |
-| 9.2 | 9.2 | Observações | 9 |
+| 9.3 | 9.2 | Observações | 9 |
 | 7.1.1 a 7.1.7 | 10.1.1 a 10.1.7 | Veículos por tipo e estado | 7 |
 | 7.1.8 a 7.1.10 | 10.1.8 a 10.1.10 | Outros meios de transporte | 7 |
 | 7.2 | 10.2 | Observações | 7 |
@@ -136,7 +136,7 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 14.7 | 7.2.E.7 | Acompanhamento na transferência | 12 |
 | 14.8 | 7.2.E.8 | Serviços de apoio à urgência — horas por dia | 12 |
 | 13.1 | 7.2.10 | Farmácia | 13 |
-| 12.14 | 7.2.14 | Esterilização | 12 |
+| 9.2 | 7.2.14 | Esterilização do material (método) | 9 |
 | 15.1 | 7.3.1 | Vacinação — porta do PAV | 15 |
 | 15.1.1 | 7.3.1.1 | Periodicidade da vacinação de rotina | 15 |
 | 15.1.2 | 7.3.1.2 | Antigénios oferecidos | 15 |
