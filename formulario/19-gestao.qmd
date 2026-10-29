@@ -15,7 +15,7 @@ Propriedade e entidade gestora da unidade, orçamento próprio, serviços e órg
 | 19.1.2 | Nível que gere a unidade — nacional, provincial ou municipal [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 19.2.1 a 19.2.17 | Existência e funcionamento de 17 serviços e órgãos de gestão [(4 indicadores do HHFA)]{.hhfa} |
 | 19.2.14.1 a 19.2.14.4 | Revisão de óbitos, por tipo de óbito, nas unidades com internamento [(5 indicadores do HHFA)]{.hhfa} |
-| 19.2.13.1 e 19.2.13.2 | Estrutura de gestão da prevenção e controlo de infecções [(3 indicadores do HHFA)]{.hhfa} |
+| 19.2.13.1 e 19.2.13.2 | Prevenção e controlo de infecções: comissão, reuniões multidisciplinares e reunião mais recente [(3 indicadores do HHFA)]{.hhfa} |
 | 19.2.18.1 a 19.2.18.9 | Garantia e melhoria da qualidade [(7 indicadores do HHFA)]{.hhfa} |
 | Parqueados | Arquivo e reporte de dados; equipa de gestão [(7 indicadores do HHFA identificados e cerca de 8 da área 4.5 por definir, fora desta ronda)]{.hhfa} |
 
@@ -254,12 +254,12 @@ Para cada tipo de óbito seguinte, diga-me (A) se esta unidade sanitária faz re
 **A porta é a actividade e não o órgão:** pergunta-se se a unidade faz revisões de óbitos, o que acontece muitas vezes sem comissão formalmente constituída.
 :::
 
-## 19.2.13.1 · Comissão e reuniões de prevenção e controlo de infecções [NOVO]{.etiqueta .novo}
+## 19.2.13.1 e 19.2.13.2 · Prevenção e controlo de infecções — comissão, reuniões e reunião mais recente [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Unidades com comissão técnica de prevenção e controlo de infecções e unidades com reuniões multidisciplinares que analisam os resultados de prevenção e controlo de infecções. O denominador é o conjunto de todas as unidades, por isso o bloco é feito a todas.
+Unidades com comissão técnica de prevenção e controlo de infecções, unidades com reuniões multidisciplinares que analisam os resultados de prevenção e controlo de infecções, e há quanto tempo foi a reunião mais recente. O denominador é o conjunto de todas as unidades, por isso o bloco é feito a todas.
 
 </details>
 
@@ -268,71 +268,32 @@ Unidades com comissão técnica de prevenção e controlo de infecções e unida
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha «comissão técnica de prevenção e controlo de infecções», resposta 1 | 4.4.1.1.4 | Unidades com comissão técnica de prevenção e controlo de infecções<br>*Percentage of facilities with an IPC technical committee* | Q744_1 = 1; todas as unidades |
-| Linha «reuniões multidisciplinares», resposta 1 | 4.4.1.1.5 | Unidades com reuniões multidisciplinares que analisam os resultados de prevenção e controlo de infecções<br>*Percentage of facilities with multidisciplinary meetings that review IPC results* | Q744_2 = 1; todas as unidades |
+| Linha 19.2.13.1 · Comissão técnica — coluna A = 1 | 4.4.1.1.4 | Unidades com comissão técnica de prevenção e controlo de infecções<br>*Percentage of facilities with an IPC technical committee* | Q744_1 = 1; todas as unidades |
+| Linha 19.2.13.2 · Reuniões multidisciplinares — coluna A = 1 | 4.4.1.1.5 | Unidades com reuniões multidisciplinares que analisam os resultados de prevenção e controlo de infecções<br>*Percentage of facilities with multidisciplinary meetings that review IPC results* | Q744_2 = 1; todas as unidades |
+| Coluna B com opção 1, 2 ou 3 em qualquer linha | 4.4.1.1.6 | Unidades com reunião de análise de prevenção e controlo de infecções nos últimos 6 meses<br>*Percentage of facilities with IPC review meeting in last 6 months* | Q747 = 1, 2 ou 3; todas as unidades. No HHFA é uma só pergunta sobre a reunião mais recente; aqui conta a mais recente das duas linhas |
 :::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-Vou perguntar sobre a estrutura de gestão da prevenção e controlo de infecções desta unidade sanitária. Para cada item, diga-me se se aplica nesta unidade. — comissão técnica de prevenção e controlo de infecções · reuniões multidisciplinares onde os resultados de prevenção e controlo de infecções são reportados ou analisados
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha:
-
-1. Sim
-2. Não
-
-<!-- -->
-
-98. Não sabe
+Vou perguntar sobre a estrutura de gestão da prevenção e controlo de infecções desta unidade sanitária. Para cada item, diga-me (A) se existe nesta unidade e (B) quando foi a reunião mais recente — uma reunião técnica ou interdisciplinar em que os resultados de prevenção e controlo de infecções tenham sido discutidos.
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não» nas duas linhas, não fazer 19.2.13.2.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Coluna B só nas linhas com A = 1. Escala da coluna B: 1 No último mês · 2 Há 2 a 3 meses · 3 Há 4 a 6 meses · 4 Há mais de 6 meses · 98 Não sabe.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Item | A · Existe nesta unidade | B · Reunião mais recente |
+|---|---|:-:|:-:|
+| 19.2.13.1 | Comissão técnica de prevenção e controlo de infecções [HHFA 4.4.1.1.4 · 4.4.1.1.6]{.hhfa .cod-hhfa} | ☐1 Sim ☐2 Não ☐98 | ☐1 ☐2 ☐3 ☐4 ☐98 |
+| 19.2.13.2 | Reuniões multidisciplinares onde os resultados de prevenção e controlo de infecções são reportados ou analisados [HHFA 4.4.1.1.5 · 4.4.1.1.6]{.hhfa .cod-hhfa} | ☐1 Sim ☐2 Não ☐98 | ☐1 ☐2 ☐3 ☐4 ☐98 |
 :::
 
 ::: {.nota .interno}
-Mesmo desenho: a actividade, não o órgão. A segunda linha de 19.2.13.1 — reuniões multidisciplinares onde os resultados são analisados — é a que capta as unidades sem comissão constituída que, apesar disso, discutem infecções. **É a parte da prevenção e controlo de infecções que cabe na gestão;** o resto — normas de prevenção e de isolamento, pessoal formado, avaliação sistemática, normas de limpeza — fica para um bloco próprio, ainda por construir.
-:::
-
-## 19.2.13.2 · Reunião mais recente sobre prevenção e controlo de infecções [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Unidades com reunião de análise de prevenção e controlo de infecções nos últimos 6 meses.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Opções 1, 2 e 3 (nos últimos 6 meses) | 4.4.1.1.6 | Unidades com reunião de análise de prevenção e controlo de infecções nos últimos 6 meses<br>*Percentage of facilities with IPC review meeting in last 6 months* | Q747 = 1, 2 ou 3; todas as unidades |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Quando foi a reunião mais recente da comissão de prevenção e controlo de infecções, ou com a pessoa responsável por essa área? Pode ser uma reunião técnica ou uma reunião interdisciplinar em que os resultados tenham sido discutidos.
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. No último mês
-2. Há 2 a 3 meses
-3. Há 4 a 6 meses
-4. Há mais de 6 meses
-
-<!-- -->
-
-98. Não sabe
+**Porque mudou.** A pergunta sobre a comissão e as reuniões (antigo 19.2.13.1) e a pergunta sobre a reunião mais recente (antigo 19.2.13.2) passam a uma só grelha. Mesmo desenho: a actividade, não o órgão — a segunda linha capta as unidades sem comissão constituída que, apesar disso, discutem infecções. O resto da prevenção e controlo de infecções — normas, pessoal formado, avaliação, limpeza — fica para um bloco próprio, ainda por construir.
 :::
 
 ## 19.2.18.1 · Actividades de garantia de qualidade [NOVO]{.etiqueta .novo}
@@ -373,12 +334,12 @@ Esta unidade sanitária realiza rotineiramente actividades de garantia de qualid
 **Quesito inteiramente novo**, e o único acrescento desta subsecção que não tem correspondência em nenhuma caixa da Ficha. O bloco tem nove caixas, quase todas de resposta declarada pelo respondente.
 :::
 
-## 19.2.18.2 · Âmbito da garantia de qualidade [NOVO]{.etiqueta .novo}
+## 19.2.18.2.1 a 19.2.18.2.10 · Âmbito da garantia de qualidade [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se as actividades de garantia de qualidade abrangem toda a unidade ou apenas serviços específicos.
+Se as actividades de garantia de qualidade abrangem toda a unidade ou apenas alguns serviços — e, neste caso, quais.
 
 </details>
 
@@ -387,21 +348,40 @@ Se as actividades de garantia de qualidade abrangem toda a unidade ou apenas ser
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Opção 1 (Em toda a unidade), com 19.2.18.1 = 1 | 4.4.2.3.1 | Unidades com actividades de rotina de garantia de qualidade em toda a unidade<br>*Percentage of facilities with routine quality assurance activities: facility-wide* | Q705 = 1 e Q706 = 1; todas as unidades |
-| Opção 2 (Apenas em serviços específicos), com 19.2.18.1 = 1 | 4.4.2.3.2 | Unidades com actividades de rotina de garantia de qualidade em algum serviço específico<br>*Percentage of facilities with routine quality assurance activities: any specific service* | Q705 = 1 e Q706 = 2; todas as unidades |
+| Linha 19.2.18.2.1 · Em toda a unidade = Sim, com 19.2.18.1 = 1 | 4.4.2.3.1 | Unidades com actividades de rotina de garantia de qualidade em toda a unidade<br>*Percentage of facilities with routine quality assurance activities: facility-wide* | Q705 = 1 e Q706 = 1; todas as unidades |
+| Linha 19.2.18.2.1 = Não e Sim em pelo menos uma das linhas 19.2.18.2.2 a 19.2.18.2.10, com 19.2.18.1 = 1 | 4.4.2.3.2 | Unidades com actividades de rotina de garantia de qualidade em algum serviço específico<br>*Percentage of facilities with routine quality assurance activities: any specific service* | Q705 = 1 e Q706 = 2; todas as unidades |
+| Linhas 19.2.18.2.2 a 19.2.18.2.10, serviço a serviço | — (medida própria) | O catálogo não pergunta em que serviços | — |
 :::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-Esse sistema é aplicado em toda a unidade ou apenas em serviços específicos?
+Essas actividades de garantia de qualidade são aplicadas em toda a unidade? Se não, em quais dos serviços seguintes?
 :::
 
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se as actividades abrangem toda a unidade, marcar Sim na linha 19.2.18.2.1 e passar a 19.2.18.3. Caso contrário, marcar Não nessa linha e responder serviço a serviço.
+:::
 
-1. Em toda a unidade
-2. Apenas em serviços específicos
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Âmbito | 1 · Sim | 2 · Não |
+|---|---|:-:|:-:|
+| 19.2.18.2.1 | Em toda a unidade [HHFA 4.4.2.3.1]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 19.2.18.2.2 | Consulta externa [HHFA 4.4.2.3.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 19.2.18.2.3 | Internamento [HHFA 4.4.2.3.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 19.2.18.2.4 | Maternidade e partos [HHFA 4.4.2.3.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 19.2.18.2.5 | Urgência [HHFA 4.4.2.3.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 19.2.18.2.6 | Bloco operatório [HHFA 4.4.2.3.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 19.2.18.2.7 | Laboratório [HHFA 4.4.2.3.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 19.2.18.2.8 | Farmácia [HHFA 4.4.2.3.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 19.2.18.2.9 | Vacinação [HHFA 4.4.2.3.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 19.2.18.2.10 | Outro serviço *(especificar)* [HHFA 4.4.2.3.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+:::
+
+::: {.nota .interno}
+**Porque mudou.** A escolha entre «toda a unidade» e «serviços específicos» passa a grelha: quando as actividades não abrangem toda a unidade, fica a saber-se em que serviços são feitas. Os dois indicadores do instrumento internacional calculam-se da primeira linha e das restantes.
 :::
 
 ## 19.2.18.3 · Comissão de garantia de qualidade [NOVO]{.etiqueta .novo}

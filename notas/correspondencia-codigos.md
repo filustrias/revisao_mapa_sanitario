@@ -200,7 +200,7 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 19.2.13.1 | 7.4.13.1 | Comissão e reuniões de prevenção e controlo de infecções | 19 |
 | 19.2.13.2 | 7.4.13.2 | Reunião mais recente sobre prevenção e controlo de infecções | 19 |
 | 19.2.18.1 | 7.4.18.1 | Actividades de garantia de qualidade | 19 |
-| 19.2.18.2 | 7.4.18.2 | Âmbito da garantia de qualidade | 19 |
+| 19.2.18.2.1 a 19.2.18.2.10 | 7.4.18.2 | Âmbito da garantia de qualidade | 19 |
 | 19.2.18.3 | 7.4.18.3 | Comissão de garantia de qualidade | 19 |
 | 19.2.18.4 | 7.4.18.4 | Frequência das reuniões da comissão | 19 |
 | 19.2.18.5 | 7.4.18.5 | Reunião mais recente da comissão | 19 |
