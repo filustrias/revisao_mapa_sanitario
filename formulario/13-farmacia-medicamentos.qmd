@@ -2,7 +2,7 @@
 title: "Secção 13 — Farmácia e medicamentos"
 ---
 
-Serviço de farmácia, quem dispensa os medicamentos, e disponibilidade e rupturas de stock de 38 medicamentos essenciais.
+Serviço de farmácia, quem dispensa os medicamentos, e a lista de produtos farmacêuticos do instrumento internacional — 228 produtos, em dez grupos de medicamentos gerais e seis blocos condicionais.
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
@@ -12,8 +12,35 @@ Serviço de farmácia, quem dispensa os medicamentos, e disponibilidade e ruptur
 | 13.1 | Unidades com serviço de farmácia em funcionamento [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 13.2 | Dias por semana de funcionamento da farmácia [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 13.3 | Profissional que dispensa os medicamentos [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 13.4.1 a 13.4.38 | Disponibilidade declarada e rupturas de stock de 38 medicamentos essenciais [(37 indicadores do HHFA, por aproximação)]{.hhfa} |
-| 13.5 | Verificação dos medicamentos na prateleira (parqueado) [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 13.4 | Porta da lista: unidades que armazenam medicamentos, vacinas ou contraceptivos; índices do cabaz de medicamentos essenciais [(2 indicadores do HHFA)]{.hhfa} |
+| 13.5.1 a 13.5.28 | Medicamentos gerais — Anti-infecciosos e antiparasitários (28 produtos) [(5 indicadores do HHFA da lista traçadora)]{.hhfa} |
+| 13.6.1 a 13.6.5 | Medicamentos gerais — Respiratório (5 produtos) [(2 indicadores do HHFA da lista traçadora)]{.hhfa} |
+| 13.7.1 a 13.7.9 | Medicamentos gerais — Cardiovascular (9 produtos) [(2 indicadores do HHFA da lista traçadora)]{.hhfa} |
+| 13.8.1 a 13.8.6 | Medicamentos gerais — Diabetes (6 produtos) [(3 indicadores do HHFA da lista traçadora)]{.hhfa} |
+| 13.9.1 a 13.9.4 | Medicamentos gerais — Cancro (4 produtos) [(sem indicador da lista traçadora)]{.hhfa} |
+| 13.10.1 a 13.10.51 | Medicamentos gerais — Outros e gerais (51 produtos) [(10 indicadores do HHFA da lista traçadora)]{.hhfa} |
+| 13.11.1 a 13.11.21 | Medicamentos gerais — Saúde mental e neurologia (21 produtos) [(2 indicadores do HHFA da lista traçadora)]{.hhfa} |
+| 13.12.1 a 13.12.9 | Medicamentos gerais — Materno-neonatal (9 produtos) [(3 indicadores do HHFA da lista traçadora)]{.hhfa} |
+| 13.13 | Ocitocina guardada em frio [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 13.14.1 a 13.14.11 | Medicamentos gerais — Medicamentos para anestesia (11 produtos) [(sem indicador da lista traçadora)]{.hhfa} |
+| 13.15.1 a 13.15.5 | Medicamentos gerais — Fluidos intravenosos (5 produtos) [(sem indicador da lista traçadora)]{.hhfa} |
+| 13.16 | Antimaláricos: porta do bloco [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 13.17.1 a 13.17.4 | Antimaláricos — primeira linha (4 produtos) [(1 indicadores do HHFA da lista traçadora)]{.hhfa} |
+| 13.18.1 a 13.18.14 | Antimaláricos — outros (14 produtos) [(1 indicadores do HHFA da lista traçadora)]{.hhfa} |
+| 13.19 | Anti-tuberculose: porta do bloco [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 13.20.1 a 13.20.15 | Anti-tuberculose (15 produtos) [(1 indicadores do HHFA da lista traçadora)]{.hhfa} |
+| 13.21 | Antirretrovirais: porta do bloco [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 13.22 | Antirretrovirais: local de armazenamento [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 13.23.1 a 13.23.20 | Antirretrovirais (20 produtos) [(1 indicadores do HHFA da lista traçadora)]{.hhfa} |
+| 13.24 | Inibidores da protease e da integrase: porta do bloco [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 13.25 | Inibidores da protease e da integrase: local de armazenamento [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 13.26.1 a 13.26.12 | Inibidores da protease e da integrase (12 produtos) [(sem indicador da lista traçadora)]{.hhfa} |
+| 13.27 | Planeamento familiar: porta do bloco [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 13.28 | Planeamento familiar: local de armazenamento [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 13.29.1 a 13.29.10 | Planeamento familiar (10 produtos) [(1 indicadores do HHFA da lista traçadora)]{.hhfa} |
+| 13.30 | Suplementos nutricionais para a malnutrição: porta do bloco [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 13.31.1 a 13.31.4 | Suplementos nutricionais para a malnutrição (4 produtos) [(1 indicadores do HHFA da lista traçadora)]{.hhfa} |
+| 13.32 | Condições de armazenamento e gestão de stocks (parqueado) [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
@@ -52,7 +79,7 @@ Existe nesta unidade sanitária um serviço de farmácia em funcionamento?
 :::
 
 ::: {.nota .interno}
-**Porque mudou.** A caixa da Ficha (antigo 12.10) sai do parqueamento e passa a abrir uma secção própria, com os medicamentos. A unidade sem farmácia continua a responder a 13.3 e a 13.4, porque os medicamentos podem ser dispensados na própria consulta.
+**Porque mudou.** A caixa da Ficha (antigo 12.10) sai do parqueamento e passa a abrir uma secção própria, com os medicamentos. A unidade sem farmácia continua a responder a 13.3 e à lista de medicamentos, porque os medicamentos podem ser dispensados na própria consulta.
 :::
 
 ## 13.2 · Dias de funcionamento da farmácia [NOVO]{.etiqueta .novo}
@@ -128,12 +155,12 @@ Quem dispensa habitualmente os medicamentos aos utentes nesta unidade sanitária
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar uma só opção: quem dispensa na maior parte dos dias. Fazer esta pergunta a todas as unidades, com ou sem farmácia.
 :::
 
-## 13.4.1 a 13.4.38 · Medicamentos essenciais — disponibilidade e rupturas [NOVO]{.etiqueta .novo}
+## 13.4 · Medicamentos, vacinas e contraceptivos — porta [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que declaram ter disponível hoje cada um de 38 medicamentos essenciais, e percentagem que teve ruptura de stock de cada um nos últimos 3 meses. Agregado, dá a proporção do cabaz de medicamentos essenciais disponível em cada unidade e os medicamentos que mais faltam na rede.
+Percentagem de unidades sanitárias que armazenam algum medicamento, vacina ou contraceptivo. É a porta da lista de produtos farmacêuticos.
 
 </details>
 
@@ -142,125 +169,1459 @@ Percentagem de unidades sanitárias que declaram ter disponível hoje cada um de
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha 13.4.1 · Salbutamol, inalador — coluna A = Sim | 2.4.1.1.1 | Unidades com salbutamol, inalador<br>*Percentage of facilities with salbutamol inhaler* | No HHFA: produto observado e dentro da validade (Q3104_2 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.2 · Beclometasona ou outro corticóide, inalador — coluna A = Sim | 2.4.1.1.2 | Unidades com beclometasona ou outro corticóide, inalador<br>*Percentage of facilities with beclometasone or other corticosteroid inhaler* | No HHFA: produto observado e dentro da validade (Q3104_1 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.3 · Glibenclamida, gliclazida ou outra sulfonilureia — coluna A = Sim | 2.4.1.1.3 | Unidades com glibenclamida, gliclazida ou outra sulfonilureia<br>*Percentage of facilities with gliclazide or other sulphonylurea tab/cap* | No HHFA: produto observado e dentro da validade (Q3106_1 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.4 · Metformina — coluna A = Sim | 2.4.1.1.4 | Unidades com metformina<br>*Percentage of facilities with metformin cap/tab* | No HHFA: produto observado e dentro da validade (Q3106_5 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.5 · Insulina regular, injectável — coluna A = Sim | 2.4.1.1.5 | Unidades com insulina regular, injectável<br>*Percentage of facilities with insulin (regular) injection* | No HHFA: produto observado e dentro da validade (Q3106_3 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linhas 13.4.6, 13.4.7, 13.4.8, 13.4.9 — coluna A = Sim em pelo menos duas | 2.4.1.1.6 | Unidades com pelo menos dois de quatro anti-hipertensores (betabloqueante, bloqueador dos canais de cálcio, diurético tiazídico, IECA)<br>*Percentage of facilities with any two of the following anti-hypertensive tabs/caps:  beta blocker, calcium blocker, thiazide-like diuretic, ACE inhibitor* | No HHFA: produtos observados e dentro da validade; aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.10 · Sinvastatina ou outra estatina — coluna A = Sim | 2.4.1.1.7 | Unidades com sinvastatina ou outra estatina<br>*Percentage of facilities with simvastatin or other statin tab/cap* | No HHFA: produto observado e dentro da validade (Q3105_13 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.11 · Ácido acetilsalicílico — coluna A = Sim | 2.4.1.1.8 | Unidades com ácido acetilsalicílico<br>*Percentage of facilities with aspirin tab/cap* | No HHFA: produto observado e dentro da validade (Q3105_2 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.12 · Furosemida, oral ou injectável — coluna A = Sim | 2.4.1.1.9 | Unidades com furosemida, oral ou injectável<br>*Percentage of facilities with furosemide tab/cap or injection* | No HHFA: produto observado e dentro da validade (Q3105_9 = 1 OR Q3105_8 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.13 · Levotiroxina — coluna A = Sim | 2.4.1.1.35 | Unidades com levotiroxina<br>*Percentage of facilities with levothyroxine tab/cap* | No HHFA: produto observado e dentro da validade (Q3108_11 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.14 · Paracetamol — coluna A = Sim | 2.4.1.1.10 | Unidades com paracetamol<br>*Percentage of facilities with paracetamol tab/cap* | No HHFA: produto observado e dentro da validade (Q3108_17 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.15 · Ibuprofeno — coluna A = Sim | 2.4.1.1.11 | Unidades com ibuprofeno<br>*Percentage of facilities with ibuprofen tab/cap* | No HHFA: produto observado e dentro da validade (Q3108_10 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.16 · Morfina, oral ou injectável — coluna A = Sim | 2.4.1.1.12 | Unidades com morfina, oral ou injectável<br>*Percentage of facilities with morphine (oral or injectable)* | No HHFA: produto observado e dentro da validade (Q2658_16 = 1 OR Q3108_14 = 1 OR Q3108_15 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.17 · Fluoxetina ou outro antidepressivo ISRS — coluna A = Sim | 2.4.1.1.13 | Unidades com fluoxetina ou outro antidepressivo isrs<br>*Percentage of facilities with fluoxetine or other SSRI tab/cap* | No HHFA: produto observado e dentro da validade (Q3109_8 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.18 · Fenitoína ou carbamazepina — coluna A = Sim | 2.4.1.1.14 | Unidades com fenitoína ou carbamazepina<br>*Percentage of facilities with phenytoin or carbamazepine tab/cap* | No HHFA: produto observado e dentro da validade (Q3109_3 = 1 ou Q3109_20 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.19 · Amoxicilina, comprimidos ou cápsulas — coluna A = Sim | 2.4.1.1.15 | Unidades com amoxicilina, comprimidos ou cápsulas<br>*Percentage of facilities with amoxicillin tab/cap* | No HHFA: produto observado e dentro da validade (Q3103_2 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.20 · Penicilina procaína ou benzatina, injectável — coluna A = Sim | 2.4.1.1.16 | Unidades com penicilina procaína ou benzatina, injectável<br>*Percentage of facilities with procaine penicillin or benzathine penicillin injection* | No HHFA: produto observado e dentro da validade (Q3103_7 = 1 ou Q3103_25 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.21 · Gentamicina, injectável — coluna A = Sim | 2.4.1.1.17 | Unidades com gentamicina, injectável<br>*Percentage of facilities with gentamicin injection* | No HHFA: produto observado e dentro da validade (Q3103_17 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.22 · Ceftriaxona, injectável — coluna A = Sim | 2.4.1.1.18 | Unidades com ceftriaxona, injectável<br>*Percentage of facilities with ceftriaxone injection* | No HHFA: produto observado e dentro da validade (Q3103_9 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.23 · Fluconazol — coluna A = Sim | 2.4.1.1.33 | Unidades com fluconazol<br>*Percentage of facilities with fluconazole tab/cap* | No HHFA: produto observado e dentro da validade (Q3103_15 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.24 · Nistatina — coluna A = Sim | 2.4.1.1.34 | Unidades com nistatina<br>*Percentage of facilities with nystatin tab/cap* | No HHFA: produto observado e dentro da validade (Q3103_21 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.25 · Combinação terapêutica à base de artemisinina — coluna A = Sim | 2.4.1.1.19 | Unidades com combinação terapêutica à base de artemisinina<br>*Percentage of facilities with artemisinin-based combination therapy (ACT)* | No HHFA: produto observado e dentro da validade (Q3115_1A = 1 OR Q3115_2A = 1 OR (Q3115_3A = 1 AND (Q3115_6A = 1 OR Q3115_7A = 1))); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.26 · Artesunato, injectável ou rectal — coluna A = Sim | 2.4.1.1.20 | Unidades com artesunato, injectável ou rectal<br>*Percentage of facilities with artesunate (injection or suppository)* | No HHFA: produto observado e dentro da validade (Q3115_6A = 1 ou Q3115_7A = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.27 · Antirretrovirais de primeira linha — coluna A = Sim | 2.4.1.1.21 | Unidades com antirretrovirais de primeira linha<br>*Percentage of facilities with ARVs for first line combination treatment* | No HHFA: produto observado e dentro da validade (Q3123_18 = 1 OR (Q3126_9 = 1 AND Q3123_17 = 1) OR (Q3126_9 = 1 AND Q3123_16 = 1) OR (Q3123_4 = 1 AND Q3123_6 = 1 AND Q3126_9 = 1) OR (Q3123_11 = 1 AND Q3123_6 = 1 AND Q3126_9 = 1) OR (Q3123_17 = 1 AND Q3123_9 = 1) OR (Q3123_4 = 1 AND Q3123_6 = 1 AND Q3123_9 = 1)); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.28 · Tratamento combinado da tuberculose — coluna A = Sim | 2.4.1.1.22 | Unidades com tratamento combinado da tuberculose<br>*Percentage of facilities with combination therapy for tuberculosis* | No HHFA: produto observado e dentro da validade (Q3119_12A = 1 OR (Q3119_11A = 1 AND Q3119_4A = 1) OR (Q3119_10A = 1 AND Q3119_1A = 1) OR (Q3119_7A = 1 AND Q3119_1A = 1 AND Q3119_4A = 1) OR (Q3119_8A = 1 AND Q3119_4A = 1 AND Q3119_5A = 1) OR (Q3119_1A = 1 AND Q3119_2A = 1 AND Q3119_4A = 1 AND Q3119_5A = 1)); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.29 · Contraceptivos hormonais — orais, injectáveis ou implantes — coluna A = Sim | 2.4.1.1.23 | Unidades com contraceptivos hormonais — orais, injectáveis ou implantes<br>*Percentage of facilities with hormonal contraceptives (oral, injectable and/or implants)* | No HHFA: produto observado e dentro da validade (Q3130_1A = 1 OR Q3130_2A = 1 OR Q3130_3A = 1 OR Q3130_4A = 1 OR Q3130_7A = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.30 · Sais de reidratação oral — coluna A = Sim | 2.4.1.1.24 | Unidades com sais de reidratação oral<br>*Percentage of facilities with oral rehydration salts (ORS)* | No HHFA: produto observado e dentro da validade (Q3110_15 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.31 · Sulfato de zinco, comprimidos ou xarope — coluna A = Sim | 2.4.1.1.25 | Unidades com sulfato de zinco, comprimidos ou xarope<br>*Percentage of facilities with zinc sulfate tab or syrup* | No HHFA: produto observado e dentro da validade (Q3110_17 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.32 · Alimento terapêutico pronto a usar — coluna A = Sim | 2.4.1.1.26 | Unidades com alimento terapêutico pronto a usar<br>*Percentage of facilities with ready-to-use therapeutic food (RUTF)* | No HHFA: produto observado e dentro da validade (Q3133_1 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.33 · Ácido fólico — coluna A = Sim | 2.4.1.1.27 | Unidades com ácido fólico<br>*Percentage of facilities with folic acid tab/cap* | No HHFA: produto observado e dentro da validade (Q3110_7 = 1 ou Q3110_6 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.34 · Ocitocina, injectável — coluna A = Sim | 2.4.1.1.28 | Unidades com ocitocina, injectável<br>*Percentage of facilities with oxytocin injection* | No HHFA: produto observado e dentro da validade (Q2236_12A = 1 OR Q3110_18 = 1 OR Q2658_14 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.35 · Sulfato de magnésio, injectável — coluna A = Sim | 2.4.1.1.29 | Unidades com sulfato de magnésio, injectável<br>*Percentage of facilities with magnesium sulfate injection* | No HHFA: produto observado e dentro da validade (Q2658_12 = 1 OR Q3110_10 = 1 OR Q2236_1A = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.36 · Clorexidina ou outro desinfectante cutâneo — coluna A = Sim | 2.4.1.1.30 | Unidades com clorexidina ou outro desinfectante cutâneo<br>*Percentage of facilities with skin disinfectant/chlorhexidine* | No HHFA: produto observado e dentro da validade (Q2236_10A = 1 OR Q3001_18 = 1 OR Q3110_4 = 1 OR Q2658_23 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.37 · Adrenalina, injectável — coluna A = Sim | 2.4.1.1.31 | Unidades com adrenalina, injectável<br>*Percentage of facilities with adrenalin/epinephrine injection* | No HHFA: produto observado e dentro da validade (Q3108_1 = 1 OR Q2549_13 = 1 OR Q2658_1 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Linha 13.4.38 · Dexametasona, injectável — coluna A = Sim | 2.4.1.1.32 | Unidades com dexametasona, injectável<br>*Percentage of facilities with dexamethasone injection* | No HHFA: produto observado e dentro da validade (Q2236_3A = 1 OR Q3108_5 = 1); aqui declarado — correspondência aproximada; todas as unidades |
-| Coluna A, nas 38 linhas | 2.4.1.1.36 | Medicamentos essenciais: percentagem média de produtos disponíveis<br>*Essential medicines: mean percentage of items at facilities* | Média das linhas com A = Sim (os quatro anti-hipertensores contam como um item, pela regra «dois de quatro»); aqui declarado — correspondência aproximada |
-| Coluna A, nas 38 linhas | 2.4.1.1.37 | Medicamentos essenciais: unidades com todos os produtos<br>*Essential medicines: percentage of facilities with all items* | Todas as linhas com A = Sim (com a mesma regra para os anti-hipertensores); aqui declarado — correspondência aproximada |
-| Coluna B (ruptura nos últimos 3 meses) | — (medida própria) | O catálogo não tem indicador de ruptura de stock de medicamentos; tem-no só para as vacinas | — |
+| Calculado com todas as linhas da lista traçadora (as que têm código 2.4.1.1.x), escala A | 2.4.1.1.36 | Medicamentos essenciais: percentagem média de produtos disponíveis<br>*Essential medicines: mean percentage of items at facilities* | Média da proporção de produtos com código 1; todas as unidades. A versão de 2022 não tem linha para a levotiroxina (2.4.1.1.35) nem para a nistatina (2.4.1.1.34) |
+| O mesmo, com código 1 em todos os produtos | 2.4.1.1.37 | Medicamentos essenciais: unidades com todos os produtos<br>*Essential medicines: percentage of facilities with all items* | Todos os produtos com código 1; todas as unidades |
+
+A porta propriamente dita (`Q12500`) não gera indicador: resposta «Não» fecha toda a lista.
 :::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-Vou ler uma lista de medicamentos. Para cada um, diga-me (A) se está disponível hoje nesta unidade sanitária, e (B) se houve ruptura de stock em algum momento dos últimos 3 meses.
+Este estabelecimento armazena algum medicamento, vacina ou contraceptivo?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Disponível = pelo menos uma unidade do medicamento, em qualquer dosagem, dentro da validade, na unidade sanitária. Ruptura = o medicamento esteve em falta pelo menos um dia nos últimos 3 meses. Ler os medicamentos um a um; em cada linha, marcar a coluna A e a coluna B. Nesta fase não se pede para ver os medicamentos.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para a secção 14. Se for «Sim», pedir para ver a área principal de armazenamento dos produtos farmacêuticos.
+:::
+
+::: {.nota .interno}
+**Porque entra.** A lista de produtos farmacêuticos segue, linha a linha, a secção 22 do questionário de prontidão do instrumento internacional (versão Core de Janeiro de 2022), com os rótulos em português do inventário `hhfa-terapeuticas_novo.md`. A lista deve ser validada contra a Lista Nacional de Medicamentos Essenciais, que está pedida ao MINSA, e é preciso decidir a versão do instrumento (2022 ou 2023), porque as listas não coincidem.
+:::
+
+## 13.5.1 a 13.5.28 · Medicamentos gerais — Anti-infecciosos e antiparasitários [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada medicamento do grupo «Anti-infecciosos e antiparasitários» disponível — 28 produtos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linhas 13.5.2, 13.5.3 — escala A, código 1 em pelo menos uma | 2.4.1.1.15 | Unidades com amoxicilina, comprimido/cápsula<br>*Percentage of facilities with amoxicillin tab/cap* | Q3103_2 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linhas 13.5.8, 13.5.25 — escala A, código 1 em pelo menos uma | 2.4.1.1.16 | Unidades com penicilina procaína ou benzatina, injectável<br>*Percentage of facilities with procaine penicillin or benzathine penicillin injection* | Q3103_7 = 1 ou Q3103_25 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.5.10 — escala A, código 1 | 2.4.1.1.18 | Unidades com ceftriaxona, injectável<br>*Percentage of facilities with ceftriaxone injection* | Q3103_9 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.5.16 — escala A, código 1 | 2.4.1.1.33 | Unidades com fluconazol<br>*Percentage of facilities with fluconazole tab/cap* | Q3103_15 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.5.18 — escala A, código 1 | 2.4.1.1.17 | Unidades com gentamicina, injectável<br>*Percentage of facilities with gentamicin injection* | Q3103_17 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+
+**Códigos do questionário HHFA** (`Q12501`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.5.1 (01) — BGC, BTZ, MKD, MKL, MKM, NPB, NPL, NPM
+- 13.5.2 (02) — ASO, CHE, NXL, NXM, KWP, KWY, KWZ
+- 13.5.3 (03) — ASO, CHE, NXL, NXM, KWP, KWY, KWZ
+- 13.5.4 (04) — ATJ, BDW, BEU, BFY, BGL, JXC, JXL, JXM, OAP, OAY, OAZ, LUC, LUL, LUM, MKD, MKL, MKM, JDY, JDZ
+- 13.5.5 (05) — ATF, AYU, AZZ, BAW, BCX, BDX, OAN, OAO, OAP, OAY, OAZ, BES, BET, LUA, LUB, LUC, LUL, LUM, BGM, COT, CPK, JXB, JXL, JXM, MYO, MYY, MYZ, MEC, MEL, MEM, LOY, LOZ, MVP, MVY, MVZ, JDY, JDZ, LKA, LKL, LKM, LHO, LHY, LHZ
+- 13.5.6 (06) — BQE, MZP, MZY, MZZ
+- 13.5.7 (07) — BBA, BSY, BSZ, BUE, CBD, CBE, CHE, LOY, LOZ, OIC, OIL, OIM, NPB, NPL, NPM, LTC, LTL, LTM, KWP, KWY, KWZ
+- 13.5.8 (08) — ASP, ATF, AYB, AYU, AZZ, BBC, BDX, OAN, OAO, OAP, OAY, OAZ, BES, BET, LUA, LUB, LUC, LUL, LUM, BSW, CBB, COT, CPK, NXL, NXM, JXB, JXL, JXM, LEP, LEY, LEZ, MYO, MYY, MYZ, MEC, MEL, MEM, LOY, LOZ, OIC, OIL, OIM, LTC, LTL, LTM, LKA, LKL, LKM, LHO, LHY, LHZ
+- 13.5.9 (09) — BBB, BSY, CBD, CHE, LOY, LOZ, OIC, OIL, OIM, LTC, LTL, LTM, KWP, KWY, KWZ
+- 13.5.10 (10) — ASN, ATF, AYU, AZZ, BCX, BDX, OAN, OAO, OAP, OAY, OAZ, BES, BET, LUA, LUB, LUC, LUL, LUM, BGN, BSY, CBD, COT, CPK, NXL, NXM, JXB, JXL, JXM, MYO, MYY, MYZ, MEC, MEL, MEM, MVP, MVY, MVZ, JDY, JDZ, OIC, OIL, OIM, LTC, LTL, LTM, LKA, LKL, LKM, LHO, LHY, LHZ
+- 13.5.11 (11) — AYB, CBB, CHE, LEP, LEY, LEZ, LTC, LTL, LTM, KWP, KWY, KWZ
+- 13.5.12 (12) — BQA, MZP, MZY, MZZ
+- 13.5.13 (13) — BFZ, BSC, KHA, KHB, KHC, KHD, KHL, KHM, BSI, MKD, MKL, MKM, NXY, NXZ
+- 13.5.14 (14) — BUC, NPB, NPL, NPM
+- 13.5.15 (15) — nenhum
+- 13.5.16 (16) — BQC, MZP, MZY, MZZ
+- 13.5.17 (17) — BQE, MZP, MZY, MZZ
+- 13.5.18 (18) — ASM, ATF, AYU, AZZ, BAX, BCX, BDX, OAN, OAO, OAP, OAY, OAZ, BES, BET, LUA, LUB, LUC, LUL, LUM, BGO, COT, CPK, NXL, NXM, JXB, JXL, JXM, MYO, MYY, MYZ, MEC, MEL, MEM, LOY, LOZ, MVP, MVY, MVZ, JDY, JDZ, LKA, LKL, LKM, LHO, LHY, LHZ
+- 13.5.19 (19) — BUB, NPB, NPL, NPM
+- 13.5.20 (20) — BSX, CBC, OIC, OIL, OIM, LTC, LTL, LTM
+- 13.5.21 (21) — BAY, LOY, LOZ
+- 13.5.22 (22) — BUD, NPB, NPL, NPM
+- 13.5.23 (23) — nenhum
+- 13.5.24 (24) — BUA, NPB, NPL, NPM
+- 13.5.25 (25) — ASP, ATF, AYB, AYU, AZZ, BCX, BDX, OAN, OAO, OAP, OAY, OAZ, BES, BET, LUA, LUB, LUC, LUL, LUM, BGP, COT, CPK, NXL, NXM, JXB, JXL, JXM, LEP, LEY, LEZ, MYO, MYY, MYZ, MEC, MEL, MEM, MVP, MVY, MVZ, JDY, JDZ, LKA, LKL, LKM, LHO, LHY, LHZ
+- 13.5.26 (26) — nenhum
+- 13.5.27 (27) — nenhum
+- 13.5.28 (28) — nenhum
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.
 :::
 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Medicamento | A · Disponível hoje | B · Ruptura de stock nos últimos 3 meses |
+| Código | Produto | A · Disponibilidade |
+|---|---|:-:|
+| 13.5.1 | Albendazol ou mebendazol, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.2 | Amoxicilina, comprimido/cápsula (500 mg) [HHFA 2.4.1.1.15]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.3 | Amoxicilina, comprimido (250 mg) [HHFA 2.4.1.1.15]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.4 | Amoxicilina, suspensão ou comprimido dispersível (250 ou 500 mg) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.5 | Ampicilina, pó para injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.6 | Anfotericina, injectável [MEDICAMENTO IV PARA INFECÇÃO FÚNGICA] | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.7 | Azitromicina, comprimido ou suspensão | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.8 | Benzilpenicilina benzatínica, pó para injectável (acção prolongada) [HHFA 2.4.1.1.16]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.9 | Cefixima (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.10 | Ceftriaxona, injectável [HHFA 2.4.1.1.18]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.11 | Ciprofloxacina (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.12 | Cotrimoxazol (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.13 | Cotrimoxazol, xarope ou comprimidos dispersíveis | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.14 | Dietilcarbamazina (DEC) (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.15 | Doxiciclina, comprimidos | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.16 | Fluconazol (cápsula/comprimido) [TRATAMENTO DE CONTINUAÇÃO DA INFECÇÃO FÚNGICA] [HHFA 2.4.1.1.33]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.17 | Flucitosina, injectável [MEDICAMENTO IV PARA INFECÇÃO FÚNGICA] | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.18 | Gentamicina, injectável [HHFA 2.4.1.1.17]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.19 | Ivermectina (oral) (oncocercose) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.20 | Metronidazol (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.21 | Metronidazol, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.22 | Pentamidina (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.23 | Permanganato de potássio (tópico) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.24 | Praziquantel (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.25 | Benzilpenicilina procaínica, injectável [HHFA 2.4.1.1.16]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.26 | Vancomicina, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.27 | Pomada de Whitfield | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.5.28 | Antibióticos tópicos (ex. povidona iodada, polisporina, bacitracina) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+:::
+
+## 13.6.1 a 13.6.5 · Medicamentos gerais — Respiratório [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada medicamento do grupo «Respiratório» disponível — 5 produtos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 13.6.1 — escala A, código 1 | 2.4.1.1.2 | Unidades com beclometasona ou outro corticóide, inalador<br>*Percentage of facilities with beclometasone or other corticosteroid inhaler* | Q3104_1 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.6.2 — escala A, código 1 | 2.4.1.1.1 | Unidades com salbutamol, inalador<br>*Percentage of facilities with salbutamol inhaler* | Q3104_2 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+
+**Códigos do questionário HHFA** (`Q12502`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.6.1 (01) — ARZ, BWQ, NXL, NXM, MIQ, MIY, MIZ
+- 13.6.2 (02) — ARY, BWP, NXL, NXM, MIQ, MIY, MIZ
+- 13.6.3 (03) — nenhum
+- 13.6.4 (04) — nenhum
+- 13.6.5 (05) — nenhum
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade |
+|---|---|:-:|
+| 13.6.1 | Beclometasona, inalador [HHFA 2.4.1.1.2]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.6.2 | Salbutamol, inalador [HHFA 2.4.1.1.1]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.6.3 | Salbutamol, solução para nebulização | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.6.4 | Medidores de débito expiratório máximo (peak flow) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.6.5 | Câmaras expansoras para inaladores | ☐1 ☐2 ☐3 ☐4 ☐5 |
+:::
+
+## 13.7.1 a 13.7.9 · Medicamentos gerais — Cardiovascular [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada medicamento do grupo «Cardiovascular» disponível — 9 produtos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linhas 13.7.1, 13.7.2, 13.7.3, 13.7.6 — escala A, pelo menos dois dos quatro com código 1 | 2.4.1.1.6 | Unidades com pelo menos dois de quatro anti-hipertensores (betabloqueante, bloqueador dos canais de cálcio, diurético tiazídico, IECA)<br>*Percentage of facilities with any two of the following anti-hypertensive tabs/caps:  beta blocker, calcium blocker, thiazide-like diuretic, ACE inhibitor* | (IFELSE(Q3105_3 = 1, 1, 0) + IFELSE(Q3105_4 = 1, 1, 0) + IFELSE(Q3105_16 = 1, 1, 0) + IFELSE(Q3105_1 = 1, 1, 0))>=2; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.7.8 — escala A, código 1 | 2.4.1.1.7 | Unidades com sinvastatina ou outra estatina<br>*Percentage of facilities with simvastatin or other statin tab/cap* | Q3105_13 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+
+**Códigos do questionário HHFA** (`Q12503`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.7.1 (01) — ASD, BUU, NXL, NXM, MNC, MNL, MNM
+- 13.7.2 (02) — ASD, DGW, NXL, NXM, MNC, MNL, MNM
+- 13.7.3 (03) — ASD, BUR, NXL, NXM, MNC, MNL, MNM
+- 13.7.4 (04) — BVH
+- 13.7.5 (05) — BVB
+- 13.7.6 (06) — ASD, BUV, NXL, NXM, MNC, MNL, MNM
+- 13.7.7 (07) — BVC
+- 13.7.8 (08) — ASE, BUW, MNA, MNB, MNC, MNL, MNM, NXL, NXM
+- 13.7.9 (09) — BVF
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade |
+|---|---|:-:|
+| 13.7.1 | Bloqueador dos canais de cálcio (ex. amlodipina), comprimido (oral) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.7.2 | Betabloqueante (ex. bisoprolol, metoprolol, carvedilol), comprimido (oral) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.7.3 | Inibidor da ECA (ex. enalapril), comprimido (oral) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.7.4 | Digoxina, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.7.5 | Trinitrato de glicerilo, comprimido sublingual | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.7.6 | Diurético tiazídico ou similar (ex. hidroclorotiazida, clortalidona, indapamida), comprimido (oral) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.7.7 | Dinitrato de isossorbida (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.7.8 | Estatina (ex. sinvastatina), comprimido (oral) [HHFA 2.4.1.1.7]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.7.9 | Varfarina (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+:::
+
+## 13.8.1 a 13.8.6 · Medicamentos gerais — Diabetes [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada medicamento do grupo «Diabetes» disponível — 6 produtos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 13.8.1 — escala A, código 1 | 2.4.1.1.4 | Unidades com metformina<br>*Percentage of facilities with metformin cap/tab* | Q3106_5 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linhas 13.8.2, 13.8.5 — escala A, código 1 em pelo menos uma | 2.4.1.1.3 | Unidades com gliclazida ou outra sulfonilureia<br>*Percentage of facilities with gliclazide or other sulphonylurea tab/cap* | Q3106_1 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.8.3 — escala A, código 1 | 2.4.1.1.5 | Unidades com insulina regular, injectável<br>*Percentage of facilities with insulin (regular) injection* | Q3106_3 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+
+**Códigos do questionário HHFA** (`Q12504`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.8.1 (01) — ASB, BVY, NXL, NXM, MNQ, MNY, MNZ
+- 13.8.2 (02) — ASA, BVZ, NXL, NXM, MNQ, MNY, MNZ
+- 13.8.3 (03) — ASC, BWB, COG, NXL, NXM, MNQ, MNY, MNZ, KJO, KJY, KJZ
+- 13.8.4 (04) — BWD, COG, KJO, KJY, KJZ
+- 13.8.5 (05) — ASA, BWA, NXL, NXM, MNQ, MNY, MNZ
+- 13.8.6 (06) — BWC, MNN, MNO, MNP, MNQ, MNY, MNZ
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade |
+|---|---|:-:|
+| 13.8.1 | Metformina (cápsula/comprimido) [HHFA 2.4.1.1.4]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.8.2 | Glibenclamida, comprimido [HHFA 2.4.1.1.3]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.8.3 | Insulina injectável (regular) [HHFA 2.4.1.1.5]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.8.4 | Insulina injectável (outra que não a regular) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.8.5 | Gliclazida ou outra sulfonilureia (ex. glipizida), comprimido (oral) [HHFA 2.4.1.1.3]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.8.6 | Glucose a 50%, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+:::
+
+## 13.9.1 a 13.9.4 · Medicamentos gerais — Cancro [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada medicamento do grupo «Cancro» disponível — 4 produtos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** nenhum item deste grupo está na lista traçadora de medicamentos essenciais do catálogo (2.4.1.1).
+
+**Códigos do questionário HHFA** (`Q12505`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.9.1 (01) — BYG, LWO, LWY, LWZ
+- 13.9.2 (02) — BYH, LWN, LWO, LWY, LWZ
+- 13.9.3 (03) — BZA, ODN, ODO, ODP, ODY, ODZ
+- 13.9.4 (04) — BXT
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade |
+|---|---|:-:|
+| 13.9.1 | Tamoxifeno, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.9.2 | Ciclofosfamida, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.9.3 | Fluorouracilo (5FU), intravenoso (cancro colorrectal) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.9.4 | Cisplatina, intravenosa (cancro do colo do útero) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+:::
+
+## 13.10.1 a 13.10.51 · Medicamentos gerais — Outros e gerais [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada medicamento do grupo «Outros e gerais» disponível — 51 produtos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 13.10.1 — escala A, código 1 | 2.4.1.1.10 | Unidades com paracetamol<br>*Percentage of facilities with paracetamol tab/cap* | Q3108_17 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.10.3 — escala A, código 1 | 2.4.1.1.8 | Unidades com ácido acetilsalicílico<br>*Percentage of facilities with aspirin tab/cap* | Q3105_2 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.10.4 — escala A, código 1 | 2.4.1.1.31 | Unidades com adrenalina, injectável<br>*Percentage of facilities with adrenalin/epinephrine injection* | Q3108_1 = 1 OR Q2549_13 = 1 OR Q2658_1 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.10.13 — escala A, código 1 | 2.4.1.1.32 | Unidades com dexametasona, injectável<br>*Percentage of facilities with dexamethasone injection* | Q2236_3A = 1 OR Q3108_5 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.10.17 — escala A, código 1 | 2.4.1.1.27 | Unidades com ácido fólico<br>*Percentage of facilities with folic acid tab/cap* | Q3110_7 = 1 ou Q3110_6 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linhas 13.10.19, 13.10.20 — escala A, código 1 em pelo menos uma | 2.4.1.1.9 | Unidades com furosemida<br>*Percentage of facilities with furosemide tab/cap or injection* | Q3105_9 = 1 OR Q3105_8 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.10.26 — escala A, código 1 | 2.4.1.1.11 | Unidades com ibuprofeno<br>*Percentage of facilities with ibuprofen tab/cap* | Q3108_10 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linhas 13.10.32, 13.10.33 — escala A, código 1 em pelo menos uma | 2.4.1.1.12 | Unidades com morfina, oral ou injectável<br>*Percentage of facilities with morphine (oral or injectable)* | Q2658_16 = 1 OR Q3108_14 = 1 OR Q3108_15 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.10.35 — escala A, código 1 | 2.4.1.1.24 | Unidades com sais de reidratação oral<br>*Percentage of facilities with oral rehydration salts (ORS)* | Q3110_15 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linhas 13.10.50, 13.10.51 — escala A, código 1 em pelo menos uma | 2.4.1.1.25 | Unidades com sulfato de zinco<br>*Percentage of facilities with zinc sulfate tab or syrup* | Q3110_17 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+
+**Códigos do questionário HHFA** (`Q12506`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.10.1 (01) — ASI, BCY, BKN, BQG, CHF, CQS, NXL, NXM, MVP, MVY, MVZ, KEC, KEL, KEM, MZP, MZY, MZZ, KWP, KWY, KWZ, MDB, MDL, MDM
+- 13.10.2 (02) — BGA, BGW, JDY, JDZ, MKD, MKL, MKM
+- 13.10.3 (03) — ASF, BUS, CNY, NXL, NXM, MNC, MNL, MNM, LMP, LMY, LMZ
+- 13.10.4 (04) — BCF, BWT, MIN, MIO, MIP, MIQ, MIY, MIZ, CET, CHB, LWD, LWL, LWM, LRP, LRY, LRZ, KWP, KWY, KWZ
+- 13.10.5 (05) — BCH, LWA, LWB, LWC, LWD, LWL, LWM, CES, LRP, LRY, LRZ
+- 13.10.6 (06) — ATG, BAD, MEA, MEB, MEC, MEL, MEM, BBD, JXB, JXL, JXM, LOY, LOZ
+- 13.10.7 (07) — CQU, MDA, MDB, MDL, MDM
+- 13.10.8 (08) — BAU, LOY, LOZ
+- 13.10.9 (09) — nenhum
+- 13.10.10 (10) — CAE, MRN, MRO, MRY, MRZ
+- 13.10.11 (11) — nenhum
+- 13.10.12 (12) — CAE, MRN, MRO, MRY, MRZ, CEV, LRP, LRY, LRZ
+- 13.10.13 (13) — ATG, BAD, MEA, MEB, MEC, MEL, MEM, BBD, JXB, JXL, JXM, LOY, LOZ
+- 13.10.14 (14) — COU, LKA, LKL, LKM
+- 13.10.15 (15) — CEW, LRP, LRY, LRZ
+- 13.10.16 (16) — AXV, BGG, CQR, LEP, LEY, LEZ, MKD, MKL, MKM, MDB, MDL, MDM
+- 13.10.17 (17) — ASV, AXW, NXL, NXM, LEP, LEY, LEZ
+- 13.10.18 (18) — ASV, AXV, AXW, CQR, NXL, NXM, LEP, LEY, LEZ, MDB, MDL, MDM
+- 13.10.19 (19) — ASG, BVK, NXL, NXM
+- 13.10.20 (20) — nenhum
+- 13.10.21 (21) — BVE
+- 13.10.22 (22) — BVI
+- 13.10.23 (23) — BBF, LOY, LOZ
+- 13.10.24 (24) — BWS, CHC, MIQ, MIY, MIZ, KWP, KWY, KWZ
+- 13.10.25 (25) — nenhum
+- 13.10.26 (26) — ASJ, BCY, BQG, CHF, CQS, NXL, NXM, MVP, MVY, MVZ, MZP, MZY, MZZ, KWP, KWY, KWZ, MDB, MDL, MDM
+- 13.10.27 (27) — nenhum
+- 13.10.28 (28) — nenhum
+- 13.10.29 (29) — BQG, CQT, CQU, MDA, MDB, MDL, MDM, MZP, MZY, MZZ
+- 13.10.30 (30) — BBG, LOY, LOZ
+- 13.10.31 (31) — nenhum
+- 13.10.32 (32) — ASH, BGV, BZM, CQT, NXL, NXM, JDY, JDZ, MDB, MDL, MDM
+- 13.10.33 (33) — ASH, BGV, BQG, BZM, CQT, NXL, NXM, JDY, JDZ, MZP, MZY, MZZ, MDB, MDL, MDM
+- 13.10.34 (34) — CQU, MDA, MDB, MDL, MDM
+- 13.10.35 (35) — ASR, ATK, BFX, BGQ, NXL, NXM, JXC, JXL, JXM, MKD, MKL, MKM, JDY, JDZ
+- 13.10.36 (36) — nenhum
+- 13.10.37 (37) — BQG, CQT, MZP, MZY, MZZ, MDB, MDL, MDM
+- 13.10.38 (38) — CQT, MDB, MDL, MDM
+- 13.10.39 (39) — nenhum
+- 13.10.40 (40) — BWR, MIQ, MIY, MIZ
+- 13.10.41 (41) — BVG
+- 13.10.42 (42) — nenhum
+- 13.10.43 (43) — nenhum
+- 13.10.44 (44) — nenhum
+- 13.10.45 (45) — nenhum
+- 13.10.46 (46) — BVJ
+- 13.10.47 (47) — BVD, CNZ, LMN, LMO, LMP, LMY, LMZ
+- 13.10.48 (48) — BGB, BGU, CQQ, MKD, MKL, MKM, JDY, JDZ, MDB, MDL, MDM
+- 13.10.49 (49) — nenhum
+- 13.10.50 (50) — ASS, ATL, BGD, BGR, NXL, NXM, JXC, JXL, JXM, MKD, MKL, MKM, JDY, JDZ
+- 13.10.51 (51) — ASS, ATL, BGD, BGR, NXL, NXM, JXC, JXL, JXM, MKD, MKL, MKM, JDY, JDZ
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade |
+|---|---|:-:|
+| 13.10.1 | Paracetamol (acetaminofeno) (cápsula/comprimido) [HHFA 2.4.1.1.10]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.2 | Paracetamol, xarope/suspensão | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.3 | Ácido acetilsalicílico (aspirina) (oral) [HHFA 2.4.1.1.8]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.4 | Adrenalina (epinefrina), injectável [HHFA 2.4.1.1.31]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.5 | Atropina, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.6 | Betametasona, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.7 | Buprenorfina (Buprenex), analgésico narcótico (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.8 | Gluconato de cálcio, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.9 | Cloreto de cálcio, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.10 | Diazepam, supositório/gel | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.11 | Diazepam (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.12 | Diazepam, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.13 | Dexametasona, injectável [HHFA 2.4.1.1.32]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.14 | Dopamina, injectável [ADAPTAR AO PAÍS — VASOPRESSOR] | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.15 | Efedrina (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.16 | Sulfato ferroso (ferro) (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.17 | Ácido fólico (cápsula/comprimido) [HHFA 2.4.1.1.27]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.18 | Comprimidos combinados de ferro e ácido fólico | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.19 | Furosemida (cápsula/comprimido) [HHFA 2.4.1.1.9]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.20 | Furosemida, injectável [HHFA 2.4.1.1.9]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.21 | Heparina sódica, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.22 | Hidralazina, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.23 | Hidralazina, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.24 | Hidrocortisona, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.25 | Hioscina (butilbrometo), injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.26 | Ibuprofeno, comprimido [HHFA 2.4.1.1.11]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.27 | Preparação de levodopa/carbidopa (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.28 | Loperamida, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.29 | Metadona (opiáceo usado no tratamento da dependência) (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.30 | Metildopa, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.31 | Metoclopramida, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.32 | Morfina, injectável [HHFA 2.4.1.1.12]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.33 | Morfina, comprimido ou solução [HHFA 2.4.1.1.12]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.34 | Naloxona (Narcan), injectável (antagonista dos opiáceos) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.35 | Sais de rehidratação oral (SRO) [HHFA 2.4.1.1.24]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.36 | Omeprazol, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.37 | Petidina (meperidina, Demerol) (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.38 | Nalbufina (Nubain, Manfine), injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.39 | Cloreto de potássio, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.40 | Prednisolona, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.41 | Protamina (sulfato), injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.42 | Inibidor da bomba de protões (ex. omeprazol, rabeprazol), comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.43 | Piridoxina (vitamina B6) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.44 | Ranitidina, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.45 | Preparação de sene (ou outro laxante) (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.46 | Espironolactona (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.47 | Estreptoquinase, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.48 | Vitamina A (retinol), cápsulas | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.49 | Vitamina K, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.50 | Sulfato de zinco, comprimido [HHFA 2.4.1.1.25]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.10.51 | Sulfato de zinco, xarope ou comprimidos dispersíveis [HHFA 2.4.1.1.25]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+:::
+
+## 13.11.1 a 13.11.21 · Medicamentos gerais — Saúde mental e neurologia [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada medicamento do grupo «Saúde mental e neurologia» disponível — 21 produtos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linhas 13.11.4, 13.11.19 — escala A, código 1 em pelo menos uma | 2.4.1.1.14 | Unidades com fenitoína ou carbamazepina<br>*Percentage of facilities with phenytoin or carbamazepine tab/cap* | Q3109_3 = 1 ou Q3109_20 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.11.8 — escala A, código 1 | 2.4.1.1.13 | Unidades com fluoxetina ou outro ISRS<br>*Percentage of facilities with fluoxetine or other SSRI tab/cap* | Q3109_8 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+
+**Códigos do questionário HHFA** (`Q12507`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.11.1 (01) — CAB, MRO, MRY, MRZ
+- 13.11.2 (02) — nenhum
+- 13.11.3 (03) — nenhum
+- 13.11.4 (04) — ASL, BAZ, CAD, CAE, MRN, MRO, MRY, MRZ, NXL, NXM, LOY, LOZ
+- 13.11.5 (05) — CAC, MRO, MRY, MRZ
+- 13.11.6 (06) — CAC, MRO, MRY, MRZ
+- 13.11.7 (07) — CAB, MRO, MRY, MRZ
+- 13.11.8 (08) — ASK, CAB, NXL, NXM, MRO, MRY, MRZ
+- 13.11.9 (09) — CAC, MRO, MRY, MRZ
+- 13.11.10 (10) — CAC, MRO, MRY, MRZ
+- 13.11.11 (11) — CAC, CAE, MRN, MRO, MRY, MRZ
+- 13.11.12 (12) — CAE, MRN, MRO, MRY, MRZ
+- 13.11.13 (13) — CAD, MRO, MRY, MRZ
+- 13.11.14 (14) — CAE, MRN, MRO, MRY, MRZ
+- 13.11.15 (15) — CAE, MRN, MRO, MRY, MRZ
+- 13.11.16 (16) — CAE, MRN, MRO, MRY, MRZ
+- 13.11.17 (17) — CAE, MRN, MRO, MRY, MRZ
+- 13.11.18 (18) — CAE, MRN, MRO, MRY, MRZ
+- 13.11.19 (19) — ASL, CAE, MRN, MRO, MRY, MRZ, NXL, NXM
+- 13.11.20 (20) — CAC, MRO, MRY, MRZ
+- 13.11.21 (21) — CAD, CAE, MRN, MRO, MRY, MRZ
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade |
+|---|---|:-:|
+| 13.11.1 | Amitriptilina, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.2 | Benzodiazepina, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.3 | Triexifenidilo ou biperideno, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.4 | Carbamazepina, comprimido [HHFA 2.4.1.1.14]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.5 | Clorpromazina, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.6 | Clozapina, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.7 | Clomipramina, cápsula | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.8 | Fluoxetina, cápsula [HHFA 2.4.1.1.13]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.9 | Flufenazina, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.10 | Haloperidol, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.11 | Haloperidol, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.12 | Lamotrigina, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.13 | Carbonato de lítio, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.14 | Lorazepam, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.15 | Lorazepam, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.16 | Midazolam, solução | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.17 | Fenobarbital, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.18 | Fenobarbital, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.19 | Fenitoína, comprimido [HHFA 2.4.1.1.14]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.20 | Risperidona, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.11.21 | Valproato de sódio, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+:::
+
+## 13.12.1 a 13.12.9 · Medicamentos gerais — Materno-neonatal [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada medicamento do grupo «Materno-neonatal» disponível — 9 produtos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 13.12.3 — escala A, código 1 | 2.4.1.1.29 | Unidades com sulfato de magnésio, injectável<br>*Percentage of facilities with magnesium sulfate injection* | Q2658_12 = 1 OR Q3110_10 = 1 OR Q2236_1A = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.12.7 — escala A, código 1 | 2.4.1.1.30 | Unidades com desinfectante cutâneo ou clorexidina<br>*Percentage of facilities with skin disinfectant/chlorhexidine* | Q2236_10A = 1 OR Q3001_18 = 1 OR Q3110_4 = 1 OR Q2658_23 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.12.9 — escala A, código 1 | 2.4.1.1.28 | Unidades com ocitocina, injectável<br>*Percentage of facilities with oxytocin injection* | Q2236_12A = 1 OR Q3110_18 = 1 OR Q2658_14 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+
+**Códigos do questionário HHFA** (`Q12508`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.12.1 (01) — AZX, BUF, NPA, NPB, NPL, NPM, MEC, MEL, MEM
+- 13.12.2 (02) — nenhum
+- 13.12.3 (03) — ASU, ATE, BAA, BAV, NXL, NXM, JXA, JXL, JXM, MEC, MEL, MEM, LOY, LOZ
+- 13.12.4 (04) — ATD, BAH, BCW, JXA, JXL, JXM, MVP, MVY, MVZ
+- 13.12.5 (05) — BBE, LOY, LOZ
+- 13.12.6 (06) — AYA, LEP, LEY, LEZ
+- 13.12.7 (07) — ASZ, NXL, NXM, ATH, BAB, BEP, CCD, JXB, JXL, JXM, MEC, MEL, MEM, LUC, LUL, LUM, JKB, JKL, JKM
+- 13.12.8 (08) — BAI
+- 13.12.9 (09) — AST, ATC, AZY, BAS, NXL, NXM, JXA, JXL, JXM, MEC, MEL, MEM, LOY, LOZ
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha. Se a ocitocina (última linha) tiver código 1, 2 ou 3, fazer 13.13; caso contrário, saltar para 13.14.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade |
+|---|---|:-:|
+| 13.12.1 | Pomada oftálmica para o recém-nascido ou para o tracoma (tetraciclina) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.12.2 | Citrato de cafeína, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.12.3 | Sulfato de magnésio, injectável [HHFA 2.4.1.1.29]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.12.4 | Misoprostol, comprimido de 200 mcg | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.12.5 | Nifedipina 10 mg de libertação imediata (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.12.6 | Comprimidos de cálcio | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.12.7 | Solução de clorexidina a 4% para o cordão umbilical, para limpeza do períneo/colo, ou desinfectante da pele [HHFA 2.4.1.1.30]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.12.8 | Imunoglobulina anti-D para incompatibilidade Rh, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.12.9 | Ocitocina, injectável [HHFA 2.4.1.1.28]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+:::
+
+## 13.13 · Conservação da ocitocina [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades com ocitocina disponível que a guardam em frio — a ocitocina perde potência fora da cadeia de frio e é o uterotónico de primeira linha na hemorragia pós-parto.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** pergunta-porta do HHFA (`Q12509`); não gera indicador próprio — abre a grelha seguinte. Pergunta de conservação, feita só se a ocitocina estiver disponível.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+A ocitocina está guardada em frio?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Fazer só se a ocitocina (13.12.9) tiver código 1, 2 ou 3.
+:::
+
+## 13.14.1 a 13.14.11 · Medicamentos gerais — Medicamentos para anestesia [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada medicamento do grupo «Medicamentos para anestesia» disponível — 11 produtos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** nenhum item deste grupo está na lista traçadora de medicamentos essenciais do catálogo (2.4.1.1).
+
+**Códigos do questionário HHFA** (`Q12510`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.14.1 (01) — CFN
+- 13.14.2 (02) — CEU, LRP, LRY, LRZ
+- 13.14.3 (03) — BCG, CEX, LWD, LWL, LWM, LRP, LRY, LRZ
+- 13.14.4 (04) — CFM
+- 13.14.5 (05) — BCK, CEY, LWD, LWL, LWM, LRP, LRY, LRZ
+- 13.14.6 (06) — CCE, CHG, JKB, JKL, JKM, KWP, KWY, KWZ
+- 13.14.7 (07) — BCE, CEZ, LWD, LWL, LWM, LRP, LRY, LRZ
+- 13.14.8 (08) — CFK
+- 13.14.9 (09) — CFL
+- 13.14.10 (10) — BCJ, CFB, LWD, LWL, LWM, LRP, LRY, LRZ
+- 13.14.11 (11) — BCI, CFC, LRN, LRO, LRP, LRY, LRZ, LWD, LWL, LWM
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade |
+|---|---|:-:|
+| 13.14.1 | Atracúrio (besilato), injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.14.2 | Bupivacaína, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.14.3 | Halotano (inalatório líquido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.14.4 | Isoflurano, desflurano ou sevoflurano (inalatório líquido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.14.5 | Cetamina, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.14.6 | Lidocaína a 1% ou 2%, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.14.7 | Lidocaína a 5% hiperbárica, injectável para raquianestesia | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.14.8 | Midazolam, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.14.9 | Óxido nitroso (gás) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.14.10 | Brometo ou cloreto de suxametónio, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.14.11 | Tiopental (pó) para injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+:::
+
+## 13.15.1 a 13.15.5 · Medicamentos gerais — Fluidos intravenosos [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada medicamento do grupo «Fluidos intravenosos» disponível — 5 produtos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** nenhum item deste grupo está na lista traçadora de medicamentos essenciais do catálogo (2.4.1.1).
+
+**Códigos do questionário HHFA** (`Q12511`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.15.1 (01) — BAC, BAT, BDV, BQF, CHA, CQN, MEC, MEL, MEM, LOY, LOZ, OAO, OAY, OAZ, MZP, MZY, MZZ, KWP, KWY, KWZ, MDB, MDL, MDM
+- 13.15.2 (02) — BAC, BDV, BQF, MEC, MEL, MEM, OAO, OAY, OAZ, MZP, MZY, MZZ
+- 13.15.3 (03) — BAC, BDV, BQF, CHA, CQN, MEC, MEL, MEM, OAO, OAY, OAZ, MZP, MZY, MZZ, KWP, KWY, KWZ, MDB, MDL, MDM
+- 13.15.4 (04) — BAC, BDV, BQF, MEC, MEL, MEM, OAO, OAY, OAZ, MZP, MZY, MZZ
+- 13.15.5 (05) — CQO, MDB, MDL, MDM
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade |
+|---|---|:-:|
+| 13.15.1 | Cloreto de sódio a 0,09% (soro fisiológico) (0.09NS) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.15.2 | Dextrose a 5% em soro fisiológico (D5NS) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.15.3 | Lactato de sódio (lactato de Ringer) (RL) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.15.4 | Dextrose a 5% em água (D5W) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.15.5 | Nutrição parenteral [DESIGNAÇÃO NACIONAL] | ☐1 ☐2 ☐3 ☐4 ☐5 |
+:::
+
+## 13.16 · Antimaláricos — porta [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias que armazenam produtos do grupo «Antimaláricos». É a porta do bloco.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** pergunta-porta do HHFA (`Q12512`); não gera indicador próprio — abre a grelha seguinte. Resposta «Não» salta para a porta do bloco seguinte.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Este estabelecimento armazena algum medicamento para o tratamento da malária?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 13.19.
+:::
+
+## 13.17.1 a 13.17.4 · Antimaláricos — primeira linha [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada produto do grupo «Antimaláricos — primeira linha» disponível — 4 produtos, e percentagem que teve ruptura de stock nos últimos 3 meses.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linhas 13.17.1, 13.17.2, 13.17.3, 13.17.4 — escala A, código 1 em pelo menos uma | 2.4.1.1.19 | Unidades com combinação terapêutica à base de artemisinina<br>*Percentage of facilities with artemisinin-based combination therapy (ACT)* | Q3115_1A = 1 OR Q3115_2A = 1 OR (Q3115_3A = 1 AND (Q3115_6A = 1 OR Q3115_7A = 1)); todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+
+**Códigos do questionário HHFA** (`Q12513`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.17.1 (01) — ASW, BGF, BGS, BKM, BKY, BKZ, BLA, BLB, BLC, NXL, NXM, MKD, MKL, MKM, JDY, JDZ, KEC, KEL, KEM
+- 13.17.2 (02) — ASW, BGF, BGS, BKM, BKY, BKZ, BLA, BLB, BLC, NXL, NXM, MKD, MKL, MKM, JDY, JDZ, KEC, KEL, KEM
+- 13.17.3 (03) — ASW, BGF, BGS, BKM, BKY, BKZ, BLA, BLB, BLC, NXL, NXM, MKD, MKL, MKM, JDY, JDZ, KEC, KEL, KEM
+- 13.17.4 (04) — ASW, BGF, BGS, BKM, BKY, BKZ, BLA, BLB, BLC, NXL, NXM, MKD, MKL, MKM, JDY, JDZ, KEC, KEL, KEM
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Algum dos medicamentos para a malária seguintes está disponível hoje no estabelecimento?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. **Escala B — ruptura de stock nos últimos 3 meses:** 1 Sim, houve ruptura · 2 Não houve ruptura. Verificar que pelo menos uma unidade está dentro da validade. Uma resposta por linha; a coluna B (e a C, onde existir) só para os produtos com código 1 ou 3.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade | B · Ruptura (3 meses) |
 |---|---|:-:|:-:|
-| | **A · Doenças crónicas não transmissíveis** | | |
-| 13.4.1 | Salbutamol, inalador [HHFA 2.4.1.1.1]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.2 | Beclometasona ou outro corticóide, inalador [HHFA 2.4.1.1.2]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.3 | Glibenclamida, gliclazida ou outra sulfonilureia [HHFA 2.4.1.1.3]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.4 | Metformina [HHFA 2.4.1.1.4]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.5 | Insulina regular, injectável [HHFA 2.4.1.1.5]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.6 | Betabloqueante (por exemplo atenolol ou propranolol) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.7 | Bloqueador dos canais de cálcio (por exemplo amlodipina) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.8 | Diurético tiazídico (por exemplo hidroclorotiazida) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.9 | Inibidor da enzima de conversão (por exemplo enalapril ou captopril) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.10 | Sinvastatina ou outra estatina [HHFA 2.4.1.1.7]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.11 | Ácido acetilsalicílico [HHFA 2.4.1.1.8]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.12 | Furosemida, oral ou injectável [HHFA 2.4.1.1.9]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.13 | Levotiroxina [HHFA 2.4.1.1.35]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| | **B · Dor** | | |
-| 13.4.14 | Paracetamol [HHFA 2.4.1.1.10]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.15 | Ibuprofeno [HHFA 2.4.1.1.11]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.16 | Morfina, oral ou injectável [HHFA 2.4.1.1.12]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| | **C · Saúde mental e neurologia** | | |
-| 13.4.17 | Fluoxetina ou outro antidepressivo ISRS [HHFA 2.4.1.1.13]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.18 | Fenitoína ou carbamazepina [HHFA 2.4.1.1.14]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| | **D · Anti-infecciosos** | | |
-| 13.4.19 | Amoxicilina, comprimidos ou cápsulas [HHFA 2.4.1.1.15]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.20 | Penicilina procaína ou benzatina, injectável [HHFA 2.4.1.1.16]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.21 | Gentamicina, injectável [HHFA 2.4.1.1.17]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.22 | Ceftriaxona, injectável [HHFA 2.4.1.1.18]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.23 | Fluconazol [HHFA 2.4.1.1.33]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.24 | Nistatina [HHFA 2.4.1.1.34]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| | **E · Malária, VIH e tuberculose** | | |
-| 13.4.25 | Combinação terapêutica à base de artemisinina (por exemplo arteméter-lumefantrina) [HHFA 2.4.1.1.19]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.26 | Artesunato, injectável ou rectal [HHFA 2.4.1.1.20]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.27 | Antirretrovirais de primeira linha [HHFA 2.4.1.1.21]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.28 | Tratamento combinado da tuberculose [HHFA 2.4.1.1.22]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| | **F · Saúde materna, infantil e reprodutiva** | | |
-| 13.4.29 | Contraceptivos hormonais — orais, injectáveis ou implantes [HHFA 2.4.1.1.23]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.30 | Sais de reidratação oral [HHFA 2.4.1.1.24]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.31 | Sulfato de zinco, comprimidos ou xarope [HHFA 2.4.1.1.25]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.32 | Alimento terapêutico pronto a usar (ATPU) [HHFA 2.4.1.1.26]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.33 | Ácido fólico [HHFA 2.4.1.1.27]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.34 | Ocitocina, injectável [HHFA 2.4.1.1.28]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.35 | Sulfato de magnésio, injectável [HHFA 2.4.1.1.29]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| | **G · Urgência e outros** | | |
-| 13.4.36 | Clorexidina ou outro desinfectante cutâneo [HHFA 2.4.1.1.30]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.37 | Adrenalina, injectável [HHFA 2.4.1.1.31]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 13.4.38 | Dexametasona, injectável [HHFA 2.4.1.1.32]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 13.17.1 | Artemeter + lumefantrina (AL): embalagem de 6 comprimidos [HHFA 2.4.1.1.19]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.17.2 | Artemeter + lumefantrina (AL): embalagem de 12 comprimidos [HHFA 2.4.1.1.19]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.17.3 | Artemeter + lumefantrina (AL): embalagem de 18 comprimidos [HHFA 2.4.1.1.19]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.17.4 | Artemeter + lumefantrina (AL): embalagem de 24 comprimidos [HHFA 2.4.1.1.19]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
 :::
 
-::: {.nota .interno}
-**Porque entra.** A lista segue, linha a linha, a lista de medicamentos essenciais traçadores do instrumento internacional, para que cada linha tenha um indicador correspondente; os anti-hipertensores estão separados por classe. A lista deve ser validada contra a Lista Nacional de Medicamentos Essenciais, que está pedida ao MINSA.
+## 13.18.1 a 13.18.14 · Antimaláricos — outros [NOVO]{.etiqueta .novo}
 
-**Declarado, não observado.** O instrumento internacional conta apenas o produto visto e dentro da validade. Aqui pergunta-se à unidade, o que torna a recolha possível em toda a rede mas faz da comparação uma aproximação. A verificação na prateleira fica para a fase com visita (13.5).
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada produto do grupo «Antimaláricos — outros» disponível — 14 produtos, e percentagem que teve ruptura de stock nos últimos 3 meses.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linhas 13.18.4, 13.18.5 — escala A, código 1 em pelo menos uma | 2.4.1.1.20 | Unidades com artesunato, injectável ou supositório<br>*Percentage of facilities with artesunate (injection or suppository)* | Q3115_6A = 1 ou Q3115_7A = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+
+**Códigos do questionário HHFA** (`Q12514`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.18.1 (01) — AXY, BKO, LEP, LEY, LEZ, KEC, KEL, KEM
+- 13.18.2 (02) — BLE
+- 13.18.3 (03) — nenhum
+- 13.18.4 (04) — ASX, BGT, BLD, NXL, NXM, JDY, JDZ
+- 13.18.5 (05) — ASX, BGT, BLD, NXL, NXM, JDY, JDZ
+- 13.18.6 (06) — nenhum
+- 13.18.7 (07) — nenhum
+- 13.18.8 (08) — nenhum
+- 13.18.9 (09) — nenhum
+- 13.18.10 (10) — BLF
+- 13.18.11 (11) — AXZ, BGE, LEP, LEY, LEZ, MKD, MKL, MKM
+- 13.18.12 (12) — AXZ, BGE, BKP, KEA, KEB, KEC, KEL, KEM, LEP, LEY, LEZ, MKD, MKL, MKM
+- 13.18.13 (13) — BEO, BGE, LUC, LUL, LUM, MKD, MKL, MKM
+- 13.18.14 (14) — nenhum
 :::
 
-## 13.5 · Verificação dos medicamentos na prateleira [PARQUEADO]{.etiqueta .parqueado}
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Algum dos outros medicamentos para a malária seguintes está disponível hoje no estabelecimento?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. **Escala B — ruptura de stock nos últimos 3 meses:** 1 Sim, houve ruptura · 2 Não houve ruptura. Verificar que pelo menos uma unidade está dentro da validade. Uma resposta por linha; a coluna B (e a C, onde existir) só para os produtos com código 1 ou 3.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade | B · Ruptura (3 meses) |
+|---|---|:-:|:-:|
+| 13.18.1 | Fansidar/SP (sulfadoxina + pirimetamina), comprimidos | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.18.2 | Quinino, comprimidos | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.18.3 | Quinino, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.18.4 | Artesunato, injectável [HHFA 2.4.1.1.20]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.18.5 | Artesunato, supositórios (via rectal) [HHFA 2.4.1.1.20]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.18.6 | Artesunato + amodiaquina (ASAQ), comprimidos de 25 mg/67,5 mg | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.18.7 | Artesunato + amodiaquina (ASAQ), comprimidos de 50 mg/135 mg | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.18.8 | Artesunato + amodiaquina (ASAQ), comprimidos de 100 mg/270 mg | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.18.9 | Cloroquina (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.18.10 | Primaquina (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.18.11 | Outro antimalárico ___________ (ESPECIFICAR) | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.18.12 | Mosquiteiros tratados com insecticida (MTI) para os doentes, as suas famílias e agregados | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.18.13 | Voucher para mosquiteiros tratados com insecticida, para os doentes, as suas famílias e agregados | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.18.14 | Mosquiteiros tratados com insecticida para lactentes | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+:::
+
+## 13.19 · Anti-tuberculose — porta [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias que armazenam produtos do grupo «Anti-tuberculose». É a porta do bloco.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** pergunta-porta do HHFA (`Q12515`); não gera indicador próprio — abre a grelha seguinte. Resposta «Não» salta para a porta do bloco seguinte.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Este estabelecimento armazena algum medicamento para o tratamento da tuberculose?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 13.21.
+:::
+
+## 13.20.1 a 13.20.15 · Anti-tuberculose [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada produto do grupo «Anti-tuberculose» disponível — 15 produtos, e percentagem que teve ruptura de stock nos últimos 3 meses.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linhas 13.20.5, 13.20.6, 13.20.7, 13.20.8, 13.20.9 — escala A, código 1 em pelo menos uma | 2.4.1.1.22 | Unidades com tratamento combinado da tuberculose<br>*Percentage of facilities with combination therapy for tuberculosis* | Q3119_12A = 1 OR (Q3119_11A = 1 AND Q3119_4A = 1) OR (Q3119_10A = 1 AND Q3119_1A = 1) OR (Q3119_7A = 1 AND Q3119_1A = 1 AND Q3119_4A = 1) OR (Q3119_8A = 1 AND Q3119_4A = 1 AND Q3119_5A = 1) OR (Q3119_1A = 1 AND Q3119_2A = 1 AND Q3119_4A = 1 AND Q3119_5A = 1); todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+
+**Códigos do questionário HHFA** (`Q12517`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.20.1 (01) — BMO, BMW, BNA, BQD, MJP, MJY, MJZ, MZP, MZY, MZZ, BNL, BNP
+- 13.20.2 (02) — BMO, BMW, BMY, BQB, BQD, MJP, MJY, MJZ, MZP, MZY, MZZ, BNL, BNN
+- 13.20.3 (03) — BMO, BMW, BNB, BQD, MJP, MJY, MJZ, MZP, MZY, MZZ, BNL, BNQ
+- 13.20.4 (04) — BMO, BMW, BMZ, BQD, MJP, MJY, MJZ, MZP, MZY, MZZ, BNL, BNO
+- 13.20.5 (05) — BMO, BMW, BNC, BQD, MJP, MJY, MJZ, MZP, MZY, MZZ, BNL, BNR
+- 13.20.6 (06) — BMO, BMW, BND, BQD, MJP, MJY, MJZ, MZP, MZY, MZZ, BNL, BNS
+- 13.20.7 (07) — ATB, BMO, BMW, BNF, BQD, NXL, NXM, MJP, MJY, MJZ, MZP, MZY, MZZ, BNL, BNT
+- 13.20.8 (08) — BMO, BMW, BNE, BQD, MJP, MJY, MJZ, MZP, MZY, MZZ, BNL, BNU
+- 13.20.9 (09) — BMO, BMW, BNG, BQD, MJP, MJY, MJZ, MZP, MZY, MZZ, BNL, BNV
+- 13.20.10 (10) — BMP, BNH, MJP, MJY, MJZ, BNW
+- 13.20.11 (11) — BMP, BNI, MJP, MJY, MJZ, BNX
+- 13.20.12 (12) — BMP, BNJ, MJP, MJY, MJZ, BNY
+- 13.20.13 (13) — BMP, BNK, MJP, MJY, MJZ, BNZ
+- 13.20.14 (14) — nenhum
+- 13.20.15 (15) — BMV, MHN, MHO, MHP, MHY, MHZ, BMX, BNM
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Algum dos medicamentos para a tuberculose seguintes está disponível hoje no estabelecimento?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. **Escala B — ruptura de stock nos últimos 3 meses:** 1 Sim, houve ruptura · 2 Não houve ruptura. **Escala C — dias de ruptura nas últimas 4 semanas:** 1 Menos de 7 dias · 2 7 a 14 dias · 3 Mais de 14 dias. Verificar que pelo menos uma unidade está dentro da validade. Uma resposta por linha; a coluna B (e a C, onde existir) só para os produtos com código 1 ou 3.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade | B · Ruptura (3 meses) | C · Dias de ruptura (4 semanas) |
+|---|---|:-:|:-:|:-:|
+| 13.20.1 | Etambutol (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+| 13.20.2 | Isoniazida (INH) (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+| 13.20.3 | Pirazinamida (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+| 13.20.4 | Rifampicina (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+| 13.20.5 | Isoniazida + rifampicina (2 DFC) (oral) [HHFA 2.4.1.1.22]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+| 13.20.6 | Isoniazida + etambutol (EH) (2 DFC) (oral) [HHFA 2.4.1.1.22]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+| 13.20.7 | Isoniazida + rifampicina + pirazinamida (RHZ) (3 DFC) (oral) [HHFA 2.4.1.1.22]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+| 13.20.8 | Isoniazida + rifampicina + etambutol (RHE) (3 DFC) (oral) [HHFA 2.4.1.1.22]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+| 13.20.9 | Isoniazida + rifampicina + pirazinamida + etambutol (4 DFC) (oral) [HHFA 2.4.1.1.22]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+| 13.20.10 | Formulação pediátrica de isoniazida — medicamento único, para terapia preventiva com isoniazida (TPI) (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+| 13.20.11 | Formulação pediátrica de rifampicina (pode ser em associação) | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+| 13.20.12 | Formulação pediátrica de pirazinamida (pode ser em associação) | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+| 13.20.13 | Formulação pediátrica de etambutol (pode ser em associação) | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+| 13.20.14 | Estreptomicina, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+| 13.20.15 | Esquema nacional de primeira linha para a TB multirresistente [ADAPTAR AO PAÍS] | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+:::
+
+## 13.21 · Antirretrovirais — porta [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias que armazenam produtos do grupo «Antirretrovirais». É a porta do bloco.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** pergunta-porta do HHFA (`Q12525`); não gera indicador próprio — abre a grelha seguinte. Resposta «Não» salta para a porta do bloco seguinte.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Este estabelecimento armazena algum medicamento antirretroviral (ARV) para a prevenção da transmissão vertical ou para o tratamento do VIH?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 13.24.
+:::
+
+## 13.22 · Antirretrovirais — local de armazenamento [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Onde estão guardados estes produtos. No desenho do instrumento internacional, só continua o bloco quem os guarda na farmácia principal.
+
+</details>
 
 ::: {.hhfa .fonte-indicadores}
 **Fonte dos indicadores** · catálogo do HHFA (OMS)
 
 **Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
 
-Quando entrar: tabela 2.4.1.1 (35 medicamentos essenciais traçadores e os índices 2.4.1.1.36 e 2.4.1.1.37), contados só com o produto observado e válido, e as condições de armazenamento da farmácia (tabela 2.4.5.1, 17 indicadores).
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Onde é o armazém principal destes produtos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Farmácia principal do estabelecimento
+2. Outro local do estabelecimento
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Outro local», saltar para 13.24.
+:::
+
+## 13.23.1 a 13.23.20 · Antirretrovirais [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada produto do grupo «Antirretrovirais» disponível — 20 produtos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linhas 13.23.19, 13.23.20 — escala A, código 1 em pelo menos uma | 2.4.1.1.21 | Unidades com ARV para tratamento combinado de primeira linha<br>*Percentage of facilities with ARVs for first line combination treatment* | Q3123_18 = 1 OR (Q3126_9 = 1 AND Q3123_17 = 1) OR (Q3126_9 = 1 AND Q3123_16 = 1) OR (Q3123_4 = 1 AND Q3123_6 = 1 AND Q3126_9 = 1) OR (Q3123_11 = 1 AND Q3123_6 = 1 AND Q3126_9 = 1) OR (Q3123_17 = 1 AND Q3123_9 = 1) OR (Q3123_4 = 1 AND Q3123_6 = 1 AND Q3123_9 = 1); todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+
+**Códigos do questionário HHFA** (`Q12527`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.23.1 (01) — BQW, BQZ, BRA
+- 13.23.2 (02) — BSA, BSM, NXY, NXZ, KHD, KHL, KHM
+- 13.23.3 (03) — nenhum
+- 13.23.4 (04) — BQY, BQZ, BRA, CBF, LTC, LTL, LTM
+- 13.23.5 (05) — BSK, NXY, NXZ
+- 13.23.6 (06) — CBF, LTC, LTL, LTM
+- 13.23.7 (07) — BQX, BRA
+- 13.23.8 (08) — BRZ, BSH, KHD, KHL, KHM, NXY, NXZ
+- 13.23.9 (09) — nenhum
+- 13.23.10 (10) — nenhum
+- 13.23.11 (11) — BSJ, NXY, NXZ
+- 13.23.12 (12) — CBF, LTC, LTL, LTM
+- 13.23.13 (13) — nenhum
+- 13.23.14 (14) — BQZ
+- 13.23.15 (15) — nenhum
+- 13.23.16 (16) — BRA
+- 13.23.17 (17) — nenhum
+- 13.23.18 (18) — nenhum
+- 13.23.19 (19) — ASY, NXL, NXM
+- 13.23.20 (20) — ASY, NXL, NXM
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Algum dos ARV seguintes está disponível hoje neste estabelecimento?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Verificar que pelo menos uma unidade está dentro da validade. Uma resposta por linha; a coluna B (e a C, onde existir) só para os produtos com código 1 ou 3.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade |
+|---|---|:-:|
+| 13.23.1 | Zidovudina (ZDV, AZT) (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.2 | Zidovudina (ZDV, AZT), xarope | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.3 | Abacavir (ABC) (oral) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.4 | Lamivudina (3TC) (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.5 | Lamivudina (3TC), xarope | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.6 | Tenofovir disoproxil fumarato (TDF) (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.7 | Nevirapina (NVP) (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.8 | Nevirapina (NVP), xarope | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.9 | Efavirenz (EFV) 600 mg (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.10 | Efavirenz (EFV) 400 mg (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.11 | Efavirenz (EFV), xarope | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.12 | Emtricitabina (FTC) (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.13 | Lamivudina + abacavir (3TC + ABC) (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.14 | Zidovudina + lamivudina (AZT + 3TC) (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.15 | Zidovudina + lamivudina + abacavir (AZT + 3TC + ABC) (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.16 | Zidovudina + lamivudina + nevirapina (AZT + 3TC + NVP) (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.17 | Tenofovir + emtricitabina (TDF + FTC) (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.18 | Tenofovir + lamivudina (TDF + 3TC) (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.19 | Tenofovir + lamivudina + efavirenz (TDF + 3TC + EFV) (cápsula/comprimido) [HHFA 2.4.1.1.21]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.23.20 | Tenofovir + emtricitabina + efavirenz (TDF + FTC + EFV) (cápsula/comprimido) [HHFA 2.4.1.1.21]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+:::
+
+## 13.24 · Inibidores da protease e da integrase — porta [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias que armazenam produtos do grupo «Inibidores da protease e da integrase». É a porta do bloco.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** pergunta-porta do HHFA (`Q12528`); não gera indicador próprio — abre a grelha seguinte. Resposta «Não» salta para a porta do bloco seguinte.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Este estabelecimento armazena algum inibidor da protease para o tratamento do VIH/SIDA?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 13.27.
+:::
+
+## 13.25 · Inibidores da protease e da integrase — local de armazenamento [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Onde estão guardados estes produtos. No desenho do instrumento internacional, só continua o bloco quem os guarda na farmácia principal.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Onde é o armazém principal destes produtos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Farmácia principal do estabelecimento
+2. Outro local do estabelecimento
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Outro local», saltar para 13.27.
+:::
+
+## 13.26.1 a 13.26.12 · Inibidores da protease e da integrase [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada produto do grupo «Inibidores da protease e da integrase» disponível — 12 produtos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** nenhum item deste grupo está na lista traçadora de medicamentos essenciais do catálogo (2.4.1.1).
+
+**Códigos do questionário HHFA** (`Q12529`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.26.1 (01) — nenhum
+- 13.26.2 (02) — nenhum
+- 13.26.3 (03) — BSL, NXY, NXZ
+- 13.26.4 (04) — nenhum
+- 13.26.5 (05) — nenhum
+- 13.26.6 (06) — nenhum
+- 13.26.7 (07) — CBF, LTC, LTL, LTM
+- 13.26.8 (08) — nenhum
+- 13.26.9 (09) — nenhum
+- 13.26.10 (10) — nenhum
+- 13.26.11 (11) — nenhum
+- 13.26.12 (12) — nenhum
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Algum dos inibidores da protease seguintes está disponível hoje neste estabelecimento?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Verificar que pelo menos uma unidade está dentro da validade. Uma resposta por linha; a coluna B (e a C, onde existir) só para os produtos com código 1 ou 3.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade |
+|---|---|:-:|
+| 13.26.1 | Lopinavir (LPV), comprimidos | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.26.2 | Lopinavir (LPV), grânulos (pellets) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.26.3 | Lopinavir (LPV), xarope | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.26.4 | Ritonavir (RTV) (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.26.5 | Atazanavir (ATV) (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.26.6 | Darunavir (DRV) (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.26.7 | Lopinavir + ritonavir (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.26.8 | Atazanavir + ritonavir (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.26.9 | Raltegravir (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.26.10 | Dolutegravir (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.26.11 | Etravirina (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.26.12 | Inibidor não nucleosídeo da transcriptase reversa (INNTR) de terceira linha (cápsula/comprimido) [ADAPTAR AO PAÍS] | ☐1 ☐2 ☐3 ☐4 ☐5 |
+:::
+
+## 13.27 · Planeamento familiar — porta [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias que armazenam produtos do grupo «Planeamento familiar». É a porta do bloco.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** pergunta-porta do HHFA (`Q12536`); não gera indicador próprio — abre a grelha seguinte. Resposta «Não» salta para a porta do bloco seguinte.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Este estabelecimento armazena algum produto de planeamento familiar ou contraceptivo?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 13.30.
+:::
+
+## 13.28 · Planeamento familiar — local de armazenamento [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Onde estão guardados estes produtos. No desenho do instrumento internacional, só continua o bloco quem os guarda na farmácia principal.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Onde é o armazém principal destes produtos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Farmácia principal do estabelecimento
+2. Outro local do estabelecimento
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Outro local», saltar para 13.30.
+:::
+
+## 13.29.1 a 13.29.10 · Planeamento familiar [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada produto do grupo «Planeamento familiar» disponível — 10 produtos, e percentagem que teve ruptura de stock nos últimos 3 meses.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linhas 13.29.1, 13.29.2, 13.29.3, 13.29.4, 13.29.7 — escala A, código 1 em pelo menos uma | 2.4.1.1.23 | Unidades com contraceptivos hormonais (orais, injectáveis ou implantes)<br>*Percentage of facilities with hormonal contraceptives (oral, injectable and/or implants)* | Q3130_1A = 1 OR Q3130_2A = 1 OR Q3130_3A = 1 OR Q3130_4A = 1 OR Q3130_7A = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+
+**Códigos do questionário HHFA** (`Q12538`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.29.1 (01) — ASQ, AWJ, AWO, BCZ, NXL, NXM, KRC, KRL, KRM, MVP, MVY, MVZ
+- 13.29.2 (02) — ASQ, AWK, AWO, BCZ, NXL, NXM, KRC, KRL, KRM, MVP, MVY, MVZ
+- 13.29.3 (03) — ASQ, AWL, BCZ, NXL, NXM, KRC, KRL, KRM, MVP, MVY, MVZ
+- 13.29.4 (04) — ASQ, AWL, BCZ, NXL, NXM, KRC, KRL, KRM, MVP, MVY, MVZ
+- 13.29.5 (05) — AWM, KRA, KRB, KRC, KRL, KRM, BCZ, BJX, KTA, KTB, KTC, KTL, KTM, BSV, NON, NOO, NOP, NOY, NOZ, MVP, MVY, MVZ
+- 13.29.6 (06) — ATM, AWM, KRA, KRB, KRC, KRL, KRM, BCZ, JXD, JXL, JXM, MVP, MVY, MVZ, AWU
+- 13.29.7 (07) — ASQ, ATN, AWQ, BDA, MVN, MVO, MVP, MVY, MVZ, NXL, NXM, JXD, JXL, JXM, AWV
+- 13.29.8 (08) — ATO, JXA, JXB, JXC, JXD, JXL, JXM, CBG, LTA, LTB, LTC, LTL, LTM, AWW
+- 13.29.9 (09) — AWR, BDA, MVN, MVO, MVP, MVY, MVZ
+- 13.29.10 (10) — nenhum
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Algum dos produtos de planeamento familiar seguintes está disponível hoje neste estabelecimento?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. **Escala B — ruptura de stock nos últimos 3 meses:** 1 Sim, houve ruptura · 2 Não houve ruptura. Verificar que pelo menos uma unidade está dentro da validade. Uma resposta por linha; a coluna B (e a C, onde existir) só para os produtos com código 1 ou 3.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade | B · Ruptura (3 meses) |
+|---|---|:-:|:-:|
+| 13.29.1 | Pílulas contraceptivas orais combinadas (estrogénio + progestagénio) [HHFA 2.4.1.1.23]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.29.2 | Pílulas contraceptivas só de progestagénio [HHFA 2.4.1.1.23]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.29.3 | Contraceptivos injectáveis combinados (estrogénio + progestagénio) [HHFA 2.4.1.1.23]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.29.4 | Contraceptivos injectáveis só de progestagénio [HHFA 2.4.1.1.23]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.29.5 | Preservativos masculinos | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.29.6 | Preservativos femininos | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.29.7 | Implante (ex. levonorgestrel, etonogestrel) [HHFA 2.4.1.1.23]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.29.8 | Contraceptivo de emergência (ex. levonorgestrel, acetato de ulipristal, mifepristona 10-25 mg), comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.29.9 | Dispositivo intra-uterino (DIU) | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+| 13.29.10 | Colar do ciclo, para o método dos dias fixos | ☐1 ☐2 ☐3 ☐4 ☐5 | ☐1 ☐2 |
+:::
+
+## 13.30 · Suplementos nutricionais para a malnutrição — porta [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias que armazenam produtos do grupo «Suplementos nutricionais para a malnutrição». É a porta do bloco.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** pergunta-porta do HHFA (`Q12539`); não gera indicador próprio — abre a grelha seguinte. Resposta «Não» salta para a porta do bloco seguinte.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Há neste estabelecimento algum suplemento nutricional para a malnutrição?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 13.32.
+:::
+
+## 13.31.1 a 13.31.4 · Suplementos nutricionais para a malnutrição [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias com cada produto do grupo «Suplementos nutricionais para a malnutrição» disponível — 4 produtos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 13.31.1 — escala A, código 1 | 2.4.1.1.26 | Unidades com alimento terapêutico pronto a usar<br>*Percentage of facilities with ready-to-use therapeutic food (RUTF)* | Q3133_1 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+
+**Códigos do questionário HHFA** (`Q12540`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
+
+- 13.31.1 (01) — ATA, BGH, BQH, CQP, NXL, NXM, MKD, MKL, MKM, MZP, MZY, MZZ, MDB, MDL, MDM
+- 13.31.2 (02) — BGI, BQH, CQP, MKD, MKL, MKM, MZP, MZY, MZZ, MDB, MDL, MDM
+- 13.31.3 (03) — BGJ, BQH, CQP, MKD, MKL, MKM, MZP, MZY, MZZ, MDB, MDL, MDM
+- 13.31.4 (04) — BGK, MKA, MKB, MKC, MKD, MKL, MKM, BQH, CQP, MZP, MZY, MZZ, MDB, MDL, MDM
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quais dos suplementos nutricionais para a malnutrição seguintes estão disponíveis neste estabelecimento?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Escala A — disponibilidade:** 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Verificar que pelo menos uma unidade está dentro da validade. Uma resposta por linha; a coluna B (e a C, onde existir) só para os produtos com código 1 ou 3.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Produto | A · Disponibilidade |
+|---|---|:-:|
+| 13.31.1 | Alimento terapêutico pronto a usar (ATPU) [HHFA 2.4.1.1.26]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.31.2 | F-75 (Fórmula 75) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.31.3 | F-100 (Fórmula 100) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.31.4 | Pó de micronutrientes (PMN) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+:::
+
+## 13.32 · Condições de armazenamento e gestão de stocks [PARQUEADO]{.etiqueta .parqueado}
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** quando entrar — condições do armazém principal e do armazém a granel (tabelas 2.4.5.1 e 2.4.5.2), armazéns de TB e de ARV, frigorífico de medicamentos e registos de stock (perguntas `Q12519` a `Q12561`). Tudo observado.
 :::
 
 ::: {.nota}
-**Parqueado para a fase com visita.** A verificação dos medicamentos — ver cada produto na prateleira e confirmar a validade — e das condições de armazenamento da farmácia (temperatura, protecção da luz e da humidade, registos de stock) exige observação. Fica parqueada até haver a Lista Nacional de Medicamentos Essenciais por nível da rede, que define o que verificar em cada tipo de unidade.
+**Parqueado para a fase com visita.** As condições de armazenamento — temperatura, protecção da luz e da humidade, frigorífico de medicamentos, registos de stock — são integralmente observadas no instrumento internacional e ficam para a fase com visita.
 :::
 
