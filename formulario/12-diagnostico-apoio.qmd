@@ -19,10 +19,9 @@ Testes rápidos, exames de laboratório e de imagem, procedimentos e tecnologias
 | 12.C.IV | Microbiologia, parasitologia e outros [(10 indicadores do HHFA)]{.hhfa} |
 | 12.C.V | Destino habitual das amostras enviadas para fora [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 12.A.0 | Porta da imagiologia: algum exame de imagem realizado ou obtido por encaminhamento (abre a grelha de 12.A) [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 12.A | Exames de imagem realizados ou obtidos por encaminhamento [(14 indicadores do HHFA)]{.hhfa} |
+| 12.A | Exames de imagem realizados ou obtidos por encaminhamento, com a ecografia por tipo [(14 indicadores do HHFA)]{.hhfa} |
 | 12.B | Procedimentos e tecnologias realizados na unidade [(14 indicadores do HHFA)]{.hhfa} |
 | 12.D | Outros serviços de apoio em funcionamento [(4 indicadores do HHFA)]{.hhfa} |
-| 12.D.5 | Número de blocos operatórios em condições de utilização [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 12.E.1 | Atendimento de urgência, com ou sem banco de urgência próprio [(2 indicadores do HHFA)]{.hhfa} |
 | 12.E.2.1 e 12.E.2.2 | Banco de urgência com espaço próprio e horas de funcionamento [(2 indicadores do HHFA)]{.hhfa} |
 | 12.E.3 | Sistema formal de triagem [(1 indicador do HHFA)]{.hhfa} |
@@ -417,7 +416,7 @@ Esta unidade sanitária realiza algum exame de imagem — ecografia, raio X ou o
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que realizam cada um de oito exames de imagem. Os indicadores contam apenas a opção 1, realizado nesta unidade; a opção 2, encaminhamento com retorno do resultado, é medida própria do Mapa e distingue a unidade que garante o acesso daquela onde o exame não acontece.
+Percentagem de unidades sanitárias que realizam cada um de onze exames de imagem, com a ecografia separada por tipo — obstétrica, abdominal ou geral, cardíaca e Doppler vascular. Os indicadores contam apenas a opção 1, realizado nesta unidade; a opção 2, encaminhamento com retorno do resultado, é medida própria do Mapa e distingue a unidade que garante o acesso daquela onde o exame não acontece.
 
 </details>
 
@@ -426,20 +425,21 @@ Percentagem de unidades sanitárias que realizam cada um de oito exames de image
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha 1 · Ecografia | 1.3.3.1.1 | Unidades que oferecem ecografia<br>*Percentage of facilities offering ultrasound* | Q210_1 = 1; todas as unidades. Opção 1 |
-| Linha 1 · Ecografia | 3.7.2.1.5 | Unidades que oferecem ecografia (módulo de imagiologia)<br>*Percentage of facilities offering ultrasound* | Q2702_2A = 1; todas as unidades. Opção 1 |
-| Linha 2 · Raio X | 1.3.3.1.2 | Unidades que oferecem raio X<br>*Percentage of facilities offering x-ray* | Q210_2 = 1; todas as unidades. Opção 1 |
-| Linha 2 · Raio X | 3.7.2.1.11 | Unidades que oferecem raio X (módulo de imagiologia)<br>*Percentage of facilities offering X-ray* | Q2705_3A = 1 ou Q2705_4A = 1; todas as unidades. Opção 1 |
-| Linha 3 · Fluoroscopia | 1.3.3.1.7 | Unidades que oferecem fluoroscopia<br>*Percentage of facilities offering fluoroscopy* | Q210_4 = 1; todas as unidades. Opção 1 |
-| Linha 3 · Fluoroscopia | 3.7.2.1.13 | Unidades que oferecem fluoroscopia (módulo de imagiologia)<br>*Percentage of facilities offering fluoroscopy* | Q2705_5A = 1; todas as unidades. Opção 1 |
-| Linha 4 · Mamografia | 1.3.3.1.3 | Unidades que oferecem mamografia<br>*Percentage of facilities offering mammogram* | Q210_3 = 1; todas as unidades. Opção 1 |
-| Linha 5 · Tomografia computorizada | 1.3.3.1.4 | Unidades que oferecem tomografia computorizada<br>*Percentage of facilities offering CT scan* | Q210_5 = 1; todas as unidades. Opção 1 |
-| Linha 5 · Tomografia computorizada | 3.7.2.1.7 | Unidades que oferecem tomografia computorizada (módulo de imagiologia)<br>*Percentage of facilities offering CT scan* | Q2705_1A = 1; todas as unidades. Opção 1 |
-| Linha 6 · Angiografia ou cateterismo | 1.3.3.1.6 | Unidades que oferecem angiografia ou cateterismo<br>*Percentage of facilities offering angiography/catheterization* | Q210_6 = 1; todas as unidades. Opção 1 |
-| Linha 6 · Angiografia ou cateterismo | 3.7.2.1.15 | Unidades que oferecem angiografia (módulo de imagiologia)<br>*Percentage of facilities offering angiography* | Q2705_6A = 1; todas as unidades. Opção 1 |
-| Linha 7 · Ressonância magnética | 1.3.3.1.5 | Unidades que oferecem ressonância magnética<br>*Percentage of facilities offering MRI* | Q210_7 = 1; todas as unidades. Opção 1 |
-| Linha 7 · Ressonância magnética | 3.7.2.1.9 | Unidades que oferecem ressonância magnética (módulo de imagiologia)<br>*Percentage of facilities offering MRI* | Q2705_2A = 1; todas as unidades. Opção 1 |
-| Linha 8 · Medicina nuclear | 1.3.3.1.8 | Unidades que oferecem medicina nuclear<br>*Percentage of facilities offering nuclear medicine* | Q210_8 = 1; todas as unidades. Opção 1 |
+| Qualquer das linhas 12.A.1 a 12.A.4 · Ecografia | 1.3.3.1.1 | Unidades que oferecem ecografia<br>*Percentage of facilities offering ultrasound* | Q210_1 = 1; todas as unidades. Opção 1 |
+| Qualquer das linhas 12.A.1 a 12.A.4 · Ecografia | 3.7.2.1.5 | Unidades que oferecem ecografia (módulo de imagiologia)<br>*Percentage of facilities offering ultrasound* | Q2702_2A = 1; todas as unidades. Opção 1 |
+| Linha 12.A.5 · Raio X | 1.3.3.1.2 | Unidades que oferecem raio X<br>*Percentage of facilities offering x-ray* | Q210_2 = 1; todas as unidades. Opção 1 |
+| Linha 12.A.5 · Raio X | 3.7.2.1.11 | Unidades que oferecem raio X (módulo de imagiologia)<br>*Percentage of facilities offering X-ray* | Q2705_3A = 1 ou Q2705_4A = 1; todas as unidades. Opção 1 |
+| Linha 12.A.6 · Fluoroscopia | 1.3.3.1.7 | Unidades que oferecem fluoroscopia<br>*Percentage of facilities offering fluoroscopy* | Q210_4 = 1; todas as unidades. Opção 1 |
+| Linha 12.A.6 · Fluoroscopia | 3.7.2.1.13 | Unidades que oferecem fluoroscopia (módulo de imagiologia)<br>*Percentage of facilities offering fluoroscopy* | Q2705_5A = 1; todas as unidades. Opção 1 |
+| Linha 12.A.7 · Mamografia | 1.3.3.1.3 | Unidades que oferecem mamografia<br>*Percentage of facilities offering mammogram* | Q210_3 = 1; todas as unidades. Opção 1 |
+| Linha 12.A.8 · Tomografia computorizada | 1.3.3.1.4 | Unidades que oferecem tomografia computorizada<br>*Percentage of facilities offering CT scan* | Q210_5 = 1; todas as unidades. Opção 1 |
+| Linha 12.A.8 · Tomografia computorizada | 3.7.2.1.7 | Unidades que oferecem tomografia computorizada (módulo de imagiologia)<br>*Percentage of facilities offering CT scan* | Q2705_1A = 1; todas as unidades. Opção 1 |
+| Linha 12.A.9 · Angiografia ou cateterismo | 1.3.3.1.6 | Unidades que oferecem angiografia ou cateterismo<br>*Percentage of facilities offering angiography/catheterization* | Q210_6 = 1; todas as unidades. Opção 1 |
+| Linha 12.A.9 · Angiografia ou cateterismo | 3.7.2.1.15 | Unidades que oferecem angiografia (módulo de imagiologia)<br>*Percentage of facilities offering angiography* | Q2705_6A = 1; todas as unidades. Opção 1 |
+| Linha 12.A.10 · Ressonância magnética | 1.3.3.1.5 | Unidades que oferecem ressonância magnética<br>*Percentage of facilities offering MRI* | Q210_7 = 1; todas as unidades. Opção 1 |
+| Linha 12.A.10 · Ressonância magnética | 3.7.2.1.9 | Unidades que oferecem ressonância magnética (módulo de imagiologia)<br>*Percentage of facilities offering MRI* | Q2705_2A = 1; todas as unidades. Opção 1 |
+| Linha 12.A.11 · Medicina nuclear | 1.3.3.1.8 | Unidades que oferecem medicina nuclear<br>*Percentage of facilities offering nuclear medicine* | Q210_8 = 1; todas as unidades. Opção 1 |
+| Linhas 12.A.1 a 12.A.4 separadas | — (medida própria) | O HHFA tem a ecografia como um só item; a separação por tipo é medida própria | — |
 | Opção 2 (encaminhamento com retorno do resultado) | — (medida própria) | — | Não entra em nenhum indicador |
 :::
 
@@ -454,17 +454,23 @@ Considere a situação habitual dos últimos 3 meses, e não uma avaria pontual 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Ecografia [HHFA 1.3.3.1.1 · 3.7.2.1.5]{.hhfa .cod-hhfa} · 2 Raio X [HHFA 1.3.3.1.2 · 3.7.2.1.11]{.hhfa .cod-hhfa} · 3 Fluoroscopia [HHFA 1.3.3.1.7 · 3.7.2.1.13]{.hhfa .cod-hhfa} · 4 Mamografia [HHFA 1.3.3.1.3]{.hhfa .cod-hhfa} · 5 Tomografia computorizada (TAC) [HHFA 1.3.3.1.4 · 3.7.2.1.7]{.hhfa .cod-hhfa} · 6 Angiografia ou cateterismo [HHFA 1.3.3.1.6 · 3.7.2.1.15]{.hhfa .cod-hhfa} · 7 Ressonância magnética [HHFA 1.3.3.1.5 · 3.7.2.1.9]{.hhfa .cod-hhfa} · 8 Medicina nuclear [HHFA 1.3.3.1.8]{.hhfa .cod-hhfa}
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Realizado nesta unidade · 2 Doente encaminhado para outra unidade, com retorno do resultado · 3 Não obtido por nenhuma destas vias · 98 Não sabe
+| Código | Exame | 1 · Realizado nesta unidade | 2 · Encaminhado, com retorno do resultado | 3 · Não obtido | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|:-:|
+| 12.A.1 | Ecografia obstétrica [HHFA 1.3.3.1.1 · 3.7.2.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ | ☐ |
+| 12.A.2 | Ecografia abdominal ou geral [HHFA 1.3.3.1.1 · 3.7.2.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ | ☐ |
+| 12.A.3 | Ecocardiograma (ecografia cardíaca) [HHFA 1.3.3.1.1 · 3.7.2.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ | ☐ |
+| 12.A.4 | Ecografia Doppler vascular [HHFA 1.3.3.1.1 · 3.7.2.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ | ☐ |
+| 12.A.5 | Raio X [HHFA 1.3.3.1.2 · 3.7.2.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ | ☐ |
+| 12.A.6 | Fluoroscopia [HHFA 1.3.3.1.7 · 3.7.2.1.13]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ | ☐ |
+| 12.A.7 | Mamografia [HHFA 1.3.3.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ | ☐ |
+| 12.A.8 | Tomografia computorizada (TAC) [HHFA 1.3.3.1.4 · 3.7.2.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ | ☐ |
+| 12.A.9 | Angiografia ou cateterismo [HHFA 1.3.3.1.6 · 3.7.2.1.15]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ | ☐ |
+| 12.A.10 | Ressonância magnética [HHFA 1.3.3.1.5 · 3.7.2.1.9]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ | ☐ |
+| 12.A.11 | Medicina nuclear [HHFA 1.3.3.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota .interno}
-**Porque mudou.** A caixa da imagiologia desdobra-se em oito linhas, uma por exame; os indicadores contam apenas a opção 1, o que mantém a comparabilidade com outros países. A opção 2 é o acrescento nosso e é a que serve o país, porque distingue a unidade que garante o acesso por encaminhamento daquela onde o exame não acontece.
+**Porque mudou.** A caixa da imagiologia desdobra-se em onze linhas, uma por exame, com a ecografia em quatro tipos; os indicadores contam apenas a opção 1, o que mantém a comparabilidade com outros países. A opção 2 é o acrescento nosso e é a que serve o país, porque distingue a unidade que garante o acesso por encaminhamento daquela onde o exame não acontece.
 
 **Articula-se com a secção 8**, onde se **contam** os aparelhos de ecografia e de raio X: aqui mede-se a oferta do exame, lá o inventário do equipamento.
 
@@ -485,21 +491,21 @@ Percentagem de unidades sanitárias que realizam cada um de onze procedimentos e
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha 1 · Desfibrilhação | 1.3.3.2.1 | Unidades que oferecem desfibrilhação<br>*Percentage of facilities offering defibrillation* | Q210_15 = 1; todas as unidades. Resposta 1 |
-| Linha 2 · Electrocardiograma | 1.3.3.2.2 | Unidades que oferecem electrocardiograma (ECG)<br>*Percentage of facilities offering electrocardiogram (ECG)* | Q210_12 = 1; todas as unidades. Resposta 1 |
-| Linha 2 · Electrocardiograma | 3.7.2.1.1 | Unidades que oferecem ECG (módulo de diagnóstico)<br>*Percentage of facilities offering ECG* | Q2702_1A = 1; todas as unidades. Resposta 1 |
-| Linha 3 · Electroencefalograma | 1.3.3.2.3 | Unidades que oferecem electroencefalograma (EEG)<br>*Percentage of facilities offering electroencephalogram (EEG)* | Q210_11 = 1; todas as unidades. Resposta 1 |
-| Linha 3 · Electroencefalograma | 3.7.2.1.3 | Unidades que oferecem EEG (módulo de diagnóstico)<br>*Percentage of facilities offering EEG* | Q2705_7A = 1; todas as unidades. Resposta 1 |
-| Linha 4 · Incubadora para recém-nascidos | 1.3.3.2.4 | Unidades que oferecem incubadora para recém-nascidos<br>*Percentage of facilities offering infant incubator services* | Q210_14 = 1; todas as unidades. Resposta 1 |
-| Linha 5 · Fototerapia do recém-nascido | 1.3.3.2.5 | Unidades que oferecem fototerapia<br>*Percentage of facilities offering phototherapy* | Q210_13 = 1; todas as unidades. Resposta 1 |
-| Linha 6 · Radioterapia | 1.3.3.2.6 | Unidades que oferecem radioterapia<br>*Percentage of facilities offering radiotherapy* | Q210_17 = 1; todas as unidades. Resposta 1 |
-| Linha 7 · Diálise renal | 1.3.3.2.7 | Unidades que oferecem diálise renal<br>*Percentage of facilities offering renal dialysis* | Q210_18 = 1; todas as unidades. Resposta 1 |
-| Linha 8 · Ventilação mecânica | 1.3.3.2.8 | Unidades que oferecem ventilação mecânica<br>*Percentage of facilities offering mechanical ventilation* | Q210_16 = 1; todas as unidades. Resposta 1 |
-| Linha 9 · Transfusão de sangue | 1.3.3.2.9 | Unidades que oferecem transfusão de sangue<br>*Percentage of facilities offering blood transfusion* | Q210_19 = 1; todas as unidades. Resposta 1 |
-| Linha 9 · Transfusão de sangue | 3.7.3.1.1 | Unidades que oferecem algum serviço de transfusão de sangue<br>*Percentage of facilities offering any blood transfusion services* | Q2800 = 1 ou Q2210_9 = 1; todas as unidades. Resposta 1, ou a transfusão nas funções-sinal de 14.2.3 |
-| Linha 9 · Transfusão de sangue | — | Entra no cálculo de 3.1.4.1.4 (ver 14.2.3) | Q2210_9 = 1 ou Q2800 = 1 |
-| Linha 10 · Colonoscopia | 1.3.3.2.10 | Unidades que oferecem colonoscopia<br>*Percentage of facilities offering colonoscopy* | Q210_9 = 1; todas as unidades. Resposta 1 |
-| Linha 11 · Administração de oxigénio | 1.3.3.2.11 | Unidades que oferecem administração de oxigénio<br>*Percentage of facilities offering oxygen administration* | Q210_20 = 1; todas as unidades. Resposta 1 |
+| Linha 12.B.1 · Desfibrilhação | 1.3.3.2.1 | Unidades que oferecem desfibrilhação<br>*Percentage of facilities offering defibrillation* | Q210_15 = 1; todas as unidades. Resposta 1 |
+| Linha 12.B.2 · Electrocardiograma | 1.3.3.2.2 | Unidades que oferecem electrocardiograma (ECG)<br>*Percentage of facilities offering electrocardiogram (ECG)* | Q210_12 = 1; todas as unidades. Resposta 1 |
+| Linha 12.B.2 · Electrocardiograma | 3.7.2.1.1 | Unidades que oferecem ECG (módulo de diagnóstico)<br>*Percentage of facilities offering ECG* | Q2702_1A = 1; todas as unidades. Resposta 1 |
+| Linha 12.B.3 · Electroencefalograma | 1.3.3.2.3 | Unidades que oferecem electroencefalograma (EEG)<br>*Percentage of facilities offering electroencephalogram (EEG)* | Q210_11 = 1; todas as unidades. Resposta 1 |
+| Linha 12.B.3 · Electroencefalograma | 3.7.2.1.3 | Unidades que oferecem EEG (módulo de diagnóstico)<br>*Percentage of facilities offering EEG* | Q2705_7A = 1; todas as unidades. Resposta 1 |
+| Linha 12.B.4 · Incubadora para recém-nascidos | 1.3.3.2.4 | Unidades que oferecem incubadora para recém-nascidos<br>*Percentage of facilities offering infant incubator services* | Q210_14 = 1; todas as unidades. Resposta 1 |
+| Linha 12.B.5 · Fototerapia do recém-nascido | 1.3.3.2.5 | Unidades que oferecem fototerapia<br>*Percentage of facilities offering phototherapy* | Q210_13 = 1; todas as unidades. Resposta 1 |
+| Linha 12.B.6 · Radioterapia | 1.3.3.2.6 | Unidades que oferecem radioterapia<br>*Percentage of facilities offering radiotherapy* | Q210_17 = 1; todas as unidades. Resposta 1 |
+| Linha 12.B.7 · Diálise renal | 1.3.3.2.7 | Unidades que oferecem diálise renal<br>*Percentage of facilities offering renal dialysis* | Q210_18 = 1; todas as unidades. Resposta 1 |
+| Linha 12.B.8 · Ventilação mecânica | 1.3.3.2.8 | Unidades que oferecem ventilação mecânica<br>*Percentage of facilities offering mechanical ventilation* | Q210_16 = 1; todas as unidades. Resposta 1 |
+| Linha 12.B.9 · Transfusão de sangue | 1.3.3.2.9 | Unidades que oferecem transfusão de sangue<br>*Percentage of facilities offering blood transfusion* | Q210_19 = 1; todas as unidades. Resposta 1 |
+| Linha 12.B.9 · Transfusão de sangue | 3.7.3.1.1 | Unidades que oferecem algum serviço de transfusão de sangue<br>*Percentage of facilities offering any blood transfusion services* | Q2800 = 1 ou Q2210_9 = 1; todas as unidades. Resposta 1, ou a transfusão nas funções-sinal de 14.2.3 |
+| Linha 12.B.9 · Transfusão de sangue | — | Entra no cálculo de 3.1.4.1.4 (ver 14.2.3) | Q2210_9 = 1 ou Q2800 = 1 |
+| Linha 12.B.10 · Colonoscopia | 1.3.3.2.10 | Unidades que oferecem colonoscopia<br>*Percentage of facilities offering colonoscopy* | Q210_9 = 1; todas as unidades. Resposta 1 |
+| Linha 12.B.11 · Administração de oxigénio | 1.3.3.2.11 | Unidades que oferecem administração de oxigénio<br>*Percentage of facilities offering oxygen administration* | Q210_20 = 1; todas as unidades. Resposta 1 |
 :::
 
 ::: {.enunciado .rotulado}
@@ -513,13 +519,19 @@ Considere a situação habitual dos últimos 3 meses.
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 **Desfibrilhação** [HHFA 1.3.3.2.1]{.hhfa .cod-hhfa} · 2 Electrocardiograma (ECG) [HHFA 1.3.3.2.2 · 3.7.2.1.1]{.hhfa .cod-hhfa} · 3 Electroencefalograma (EEG) [HHFA 1.3.3.2.3 · 3.7.2.1.3]{.hhfa .cod-hhfa} · 4 Incubadora para recém-nascidos [HHFA 1.3.3.2.4]{.hhfa .cod-hhfa} · 5 Fototerapia do recém-nascido [HHFA 1.3.3.2.5]{.hhfa .cod-hhfa} · 6 Radioterapia [HHFA 1.3.3.2.6]{.hhfa .cod-hhfa} · 7 Diálise renal [HHFA 1.3.3.2.7]{.hhfa .cod-hhfa} · 8 Ventilação mecânica [HHFA 1.3.3.2.8]{.hhfa .cod-hhfa} · 9 Transfusão de sangue [HHFA 1.3.3.2.9 · 3.7.3.1.1 · 3.1.4.1.4]{.hhfa .cod-hhfa} · 10 Colonoscopia [HHFA 1.3.3.2.10]{.hhfa .cod-hhfa} · 11 **Administração de oxigénio** [HHFA 1.3.3.2.11]{.hhfa .cod-hhfa}
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Sim, realizado nesta unidade sanitária · 2 Não · 98 Não sabe
+| Código | Procedimento ou tecnologia | 1 · Sim, realizado nesta unidade | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 12.B.1 | **Desfibrilhação** [HHFA 1.3.3.2.1]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 12.B.2 | Electrocardiograma (ECG) [HHFA 1.3.3.2.2 · 3.7.2.1.1]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 12.B.3 | Electroencefalograma (EEG) [HHFA 1.3.3.2.3 · 3.7.2.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 12.B.4 | Incubadora para recém-nascidos [HHFA 1.3.3.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 12.B.5 | Fototerapia do recém-nascido [HHFA 1.3.3.2.5]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 12.B.6 | Radioterapia [HHFA 1.3.3.2.6]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 12.B.7 | Diálise renal [HHFA 1.3.3.2.7]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 12.B.8 | Ventilação mecânica [HHFA 1.3.3.2.8]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 12.B.9 | Transfusão de sangue [HHFA 1.3.3.2.9 · 3.7.3.1.1 · 3.1.4.1.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 12.B.10 | Colonoscopia [HHFA 1.3.3.2.10]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 12.B.11 | **Administração de oxigénio** [HHFA 1.3.3.2.11]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota .interno}
@@ -535,7 +547,7 @@ A escala é de sim ou não porque nenhum destes procedimentos se faz por encamin
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Que serviços de apoio existem e estão em funcionamento em cada unidade. Duas linhas geram indicador: unidades que oferecem algum cuidado de reabilitação — na definição larga, que inclui terapia ocupacional, terapia da fala e adaptação de próteses e ortóteses — e unidades que oferecem algum cuidado paliativo. As outras cinco linhas são medida própria do Mapa.
+Que serviços de apoio existem e estão em funcionamento em cada unidade. Duas linhas geram indicador: unidades que oferecem algum cuidado de reabilitação — na definição larga, que inclui terapia ocupacional, terapia da fala e adaptação de próteses e ortóteses — e unidades que oferecem algum cuidado paliativo. As outras quatro linhas são medida própria do Mapa.
 
 </details>
 
@@ -544,11 +556,11 @@ Que serviços de apoio existem e estão em funcionamento em cada unidade. Duas l
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha 3 · Reabilitação | 1.3.2.10.1 | Unidades que oferecem algum cuidado de reabilitação<br>*Percentage of facilities offering any rehabilitation care* | Q203_2 = 1, 2 ou 3; todas as unidades. Resposta 1 |
-| Linha 3 · Reabilitação | 3.6.2.1.1 | Unidades que oferecem algum serviço de reabilitação (módulo de reabilitação)<br>*Percentage of facilities offering any rehabilitative care services* | Q1706 = 1; todas as unidades. Resposta 1 |
-| Linha 8 · Cuidados paliativos | 1.3.2.9.1 | Unidades que oferecem algum cuidado paliativo<br>*Percentage of facilities offering any palliative care services* | Q203_1 = 1, 2 ou 3; todas as unidades. Resposta 1 |
-| Linha 8 · Cuidados paliativos | 3.6.1.1.1 | Unidades que oferecem algum cuidado paliativo (módulo de cuidados paliativos)<br>*Percentage of facilities offering any palliative care services* | Q1700 = 1; todas as unidades. Resposta 1 |
-| Linhas 1, 2, 4, 6 e 7 · Anatomia patológica, anestesia, bloco operatório, gases medicinais canalizados, banco de sangue | — (medida própria) | — | Sem indicador de existência do serviço no catálogo |
+| Linha 12.D.3 · Reabilitação | 1.3.2.10.1 | Unidades que oferecem algum cuidado de reabilitação<br>*Percentage of facilities offering any rehabilitation care* | Q203_2 = 1, 2 ou 3; todas as unidades. Resposta 1 |
+| Linha 12.D.3 · Reabilitação | 3.6.2.1.1 | Unidades que oferecem algum serviço de reabilitação (módulo de reabilitação)<br>*Percentage of facilities offering any rehabilitative care services* | Q1706 = 1; todas as unidades. Resposta 1 |
+| Linha 12.D.6 · Cuidados paliativos | 1.3.2.9.1 | Unidades que oferecem algum cuidado paliativo<br>*Percentage of facilities offering any palliative care services* | Q203_1 = 1, 2 ou 3; todas as unidades. Resposta 1 |
+| Linha 12.D.6 · Cuidados paliativos | 3.6.1.1.1 | Unidades que oferecem algum cuidado paliativo (módulo de cuidados paliativos)<br>*Percentage of facilities offering any palliative care services* | Q1700 = 1; todas as unidades. Resposta 1 |
+| Linhas 12.D.1, 12.D.2, 12.D.4 e 12.D.5 · Anatomia patológica, anestesia, gases medicinais canalizados, banco de sangue | — (medida própria) | — | Sem indicador de existência do serviço no catálogo |
 :::
 
 ::: {.enunciado .rotulado}
@@ -560,48 +572,20 @@ Para cada um dos serviços seguintes, diga-me se existe nesta unidade sanitária
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Anatomia patológica · 2 Anestesia · 3 Reabilitação — fisioterapia, terapia ocupacional, terapia da fala ou adaptação de próteses e ortóteses [HHFA 1.3.2.10.1 · 3.6.2.1.1]{.hhfa .cod-hhfa} · 4 Bloco operatório · 6 Gases medicinais canalizados · 7 Banco de sangue · 8 **Cuidados paliativos** — controlo da dor e acompanhamento de doentes em fim de vida, no ambulatório ou no domicílio [HHFA 1.3.2.9.1 · 3.6.1.1.1]{.hhfa .cod-hhfa}
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada linha: 1 Sim, em funcionamento · 2 Não · 98 Não sabe
+| Código | Serviço | 1 · Sim, em funcionamento | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 12.D.1 | Anatomia patológica | ☐ | ☐ | ☐ |
+| 12.D.2 | Anestesia | ☐ | ☐ | ☐ |
+| 12.D.3 | Reabilitação — fisioterapia, terapia ocupacional, terapia da fala ou adaptação de próteses e ortóteses [HHFA 1.3.2.10.1 · 3.6.2.1.1]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 12.D.4 | Gases medicinais canalizados | ☐ | ☐ | ☐ |
+| 12.D.5 | Banco de sangue | ☐ | ☐ | ☐ |
+| 12.D.6 | **Cuidados paliativos** — controlo da dor e acompanhamento de doentes em fim de vida, no ambulatório ou no domicílio [HHFA 1.3.2.9.1 · 3.6.1.1.1]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota .interno}
-Sete das oito caixas são as da Ficha e mantêm-se com o mesmo sentido; muda apenas o enunciado, que passa a dizer «em funcionamento» por palavras.
+**Porque mudou.** As caixas da Ficha mantêm-se com o mesmo sentido; muda o enunciado, que passa a dizer «em funcionamento» por palavras. O bloco operatório e o número de blocos passam para a cirurgia, como salas de operações (10.29.2.1).
 
-**Duas precisões e um acrescento.** A reabilitação ganha a definição internacional, mais larga do que a fisioterapia — escrita no enunciado, a caixa abrange também quem faz reabilitação sem gabinete de fisioterapia. O número de blocos operatórios ganha «em condições de utilização». E o acrescento são os **cuidados paliativos**, uma caixa e um indicador, uma oferta própria dos cuidados primários: o controlo da dor no doente oncológico avançado faz-se no centro de saúde e no domicílio, não no hospital.
-:::
-
-## 12.D.5 · Número de blocos operatórios [ALTERADO]{.etiqueta .alterado}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Quantos blocos operatórios estão em condições de utilização em cada unidade.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
-:::
-
-::: {.grelha .rotulado}
-[Grelha de resposta]{.rotulo}
-
-5 **Número** de blocos operatórios em condições de utilização
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Linha 5: número de 00 a 99.
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Perguntar a linha 5 só se a resposta à linha 4 for 1.
+A reabilitação ganha a definição internacional, mais larga do que a fisioterapia. O acrescento são os **cuidados paliativos**, uma oferta própria dos cuidados primários: o controlo da dor no doente oncológico avançado faz-se no centro de saúde e no domicílio, não no hospital.
 :::
 
 ## 12.E.1 · Serviços de urgência — porta [NOVO]{.etiqueta .novo}

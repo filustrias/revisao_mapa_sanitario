@@ -11,13 +11,13 @@ Número de aparelhos médico-cirúrgicos de cada tipo e, nas unidades visitadas,
 
 | Quesito | O que se obtém |
 |---|---|
-| 8.1.1 a 8.1.15 | Número de aparelhos de cada tipo em condições de utilização, em cada unidade e na rede [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 8.1.1 a 8.1.15 e 8.1.24 | Número de aparelhos de cada tipo em condições de utilização, em cada unidade e na rede [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 8.1.16 a 8.1.23 e colunas A e B | Equipamento básico na área de atendimento, observado e a funcionar, item a item; proporção do equipamento básico reunida em cada unidade e unidades com todos os itens [(14 indicadores do HHFA)]{.hhfa} |
 | 8.2 | Observações e outros equipamentos relevantes [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
-## 8.1.1 a 8.1.15 Número de aparelhos [ALTERADO]{.etiqueta .alterado}
+## 8.1.1 a 8.1.15 e 8.1.24 Número de aparelhos [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -56,6 +56,7 @@ Para cada um dos aparelhos seguintes, indique quantas unidades existem nesta uni
 | 8.1.7 | Estetoscópio clínico | \_\_\_ | ☐ |
 | 8.1.8 | Aparelho de medir a tensão arterial, digital ou esfigmomanómetro manual | \_\_\_ | ☐ |
 | 8.1.9 | Ecógrafo de obstetrícia | \_\_\_ | ☐ |
+| 8.1.24 | Ecógrafo geral (abdominal, cardíaco ou outro) | \_\_\_ | ☐ |
 | 8.1.10 | Kit para exame vaginal ou cervical, com espéculo | \_\_\_ | ☐ |
 | 8.1.11 | Kit de evacuação uterina (curetagem ou aspirador manual) | \_\_\_ | ☐ |
 | 8.1.12 | Ressuscitador neonatal (insuflador com máscara) | \_\_\_ | ☐ |

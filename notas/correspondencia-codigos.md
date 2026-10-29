@@ -115,7 +115,7 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 10.29.1 | 7.1.29.1 | Pequena cirurgia | 10 |
 | 10.29.2 | 7.1.29.2 | Grande cirurgia | 10 |
 | 10.29.3 | 7.1.29.3 | Circuncisão masculina médica voluntária | 10 |
-| 10.29.4 | 7.1.29.4 | Procedimentos de referência nos últimos 12 meses | 10 |
+| 10.29.2.2 a 10.29.2.4 | 7.1.29.4 | Procedimentos de referência nos últimos 12 meses | 10 |
 | 10.30 a 10.34 | 7.1.30 a 7.1.34 | Cirurgia de especialidade | 10 |
 | 12.C.0 | 7.2.C.0 | Testes rápidos de diagnóstico | 12 |
 | 12.1 | 7.2.1 | Porta geral do laboratório | 12 |

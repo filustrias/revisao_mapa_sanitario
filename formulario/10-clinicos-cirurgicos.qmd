@@ -17,9 +17,11 @@ Atendimento por especialidade clínica, serviços a sobreviventes de violência 
 | 10.E.4 | Profissional do mesmo sexo disponível para o exame — condição de acesso [(1 indicador do HHFA)]{.hhfa} |
 | 10.29 | Oferta de algum procedimento cirúrgico [(1 indicador do HHFA)]{.hhfa} |
 | 10.29.1 | Pequena cirurgia [(2 indicadores do HHFA)]{.hhfa} |
-| 10.29.2 | Grande cirurgia [(2 indicadores do HHFA)]{.hhfa} |
+| 10.29.1.1 a 10.29.1.11 | Procedimentos de pequena cirurgia realizados nos últimos 12 meses [(11 indicadores do HHFA)]{.hhfa} |
+| 10.29.2 | Grande cirurgia, de urgência e electiva [(2 indicadores do HHFA)]{.hhfa} |
+| 10.29.2.1 | Salas de operações em condições de utilização [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 10.29.2.2 a 10.29.2.22 | Procedimentos de grande cirurgia realizados nos últimos 12 meses, com os três de referência [(24 indicadores do HHFA)]{.hhfa} |
 | 10.29.3 | Circuncisão masculina médica voluntária [(1 indicador do HHFA)]{.hhfa} |
-| 10.29.4 | Procedimentos de referência realizados nos últimos 12 meses [(6 indicadores do HHFA)]{.hhfa} |
 | 10.30 a 10.34 | Cirurgia de especialidade [(1 indicador do HHFA)]{.hhfa} |
 
 </details>
@@ -345,7 +347,7 @@ Esta unidade sanitária realiza algum procedimento cirúrgico, de pequena ou de 
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 11.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para a secção 11.
 :::
 
 ## 10.29.1 · Pequena cirurgia [ALTERADO]{.etiqueta .alterado}
@@ -379,8 +381,71 @@ Realiza procedimentos de pequena cirurgia, isto é, efectuados sob anestesia loc
 2. Não
 :::
 
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 10.29.2.
+:::
+
 ::: {.nota .interno}
 **Porque mudou.** A Ficha divide a cirurgia geral em urgência, electiva e pequena; o instrumento internacional divide em pequena e grande, pelo critério da anestesia e do bloco operatório. A proposta adopta o critério internacional, que é o verificável, e conserva a distinção urgência/electiva como informação própria dentro da grande cirurgia. As definições do Guião (folha 10) para as três caixas da Ficha mantêm-se válidas.
+:::
+
+## 10.29.1.1 a 10.29.1.11 · Procedimentos de pequena cirurgia [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias que realizaram cada procedimento de pequena cirurgia nos últimos 12 meses — do desbridamento de feridas à cistostomia.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 10.29.1.1 · Desbridamento de feridas — Sim | 3.4.1.1.2 | Unidades que oferecem: desbridamento de feridas<br>*Percentage of facilities offering wound debridement* | Q2503_2 = 1 ou Q2503_2 = 2 ou Q2503_2 = 3; todas as unidades |
+| Linha 10.29.1.2 · Sutura de lacerações — Sim | 3.4.1.1.3 | Unidades que oferecem: sutura de lacerações<br>*Percentage of facilities offering suturing of laceration* | Q2503_4 = 1 ou Q2503_4 = 2 ou Q2503_4 = 3; todas as unidades |
+| Linha 10.29.1.3 · Tratamento de queimaduras agudas — Sim | 3.4.1.1.4 | Unidades que oferecem: tratamento de queimaduras agudas<br>*Percentage of facilities offering acute burn management* | Q2503_3 = 1 ou Q2503_3 = 2 ou Q2503_3 = 3; todas as unidades |
+| Linha 10.29.1.4 · Incisão e drenagem de abcessos — Sim | 3.4.1.1.5 | Unidades que oferecem: incisão e drenagem de abcessos<br>*Percentage of facilities offering incision and drainage of abscesses* | Q2503_1 = 1 ou Q2503_1 = 2 ou Q2503_1 = 3; todas as unidades |
+| Linha 10.29.1.5 · Colocação de dreno torácico — Sim | 3.4.1.1.6 | Unidades que oferecem: colocação de dreno torácico<br>*Percentage of facilities offering chest tube insertion* | (Q2503_8 = 1 ou Q2503_8 = 2 ou Q2503_8 = 3); todas as unidades |
+| Linha 10.29.1.6 · Biópsia de gânglio linfático ou de outra massa — Sim | 3.4.1.1.7 | Unidades que oferecem: biópsia de gânglio linfático ou de outra massa<br>*Percentage of facilities offering biopsy of lymph node or other mass* | Q2503_9 = 1 ou Q2503_9 = 2 ou Q2503_9 = 3; todas as unidades |
+| Linha 10.29.1.7 · Circuncisão masculina — Sim | 3.4.1.1.8 | Unidades que oferecem: circuncisão masculina<br>*Percentage of facilities offering male circumcision* | Q2503_7 = 1 ou Q2503_7 = 2 ou Q2503_7 = 3; todas as unidades |
+| Linha 10.29.1.8 · Remoção de corpo estranho — Sim | 3.4.1.1.9 | Unidades que oferecem: remoção de corpo estranho<br>*Percentage of facilities offering removal of foreign body* | Q2503_10 = 1 ou Q2503_10 = 2 ou Q2503_10 = 3; todas as unidades |
+| Linha 10.29.1.9 · Redução fechada de fractura — Sim | 3.4.1.1.10 | Unidades que oferecem: redução fechada de fractura<br>*Percentage of facilities offering closed repair of fracture* | Q2503_5 = 1 ou Q2503_5 = 2 ou Q2503_5 = 3; todas as unidades |
+| Linha 10.29.1.10 · Redução fechada de luxação articular — Sim | 3.4.1.1.11 | Unidades que oferecem: redução fechada de luxação articular<br>*Percentage of facilities offering closed reduction of dislocated joint* | Q2503_6 = 1 ou Q2503_6 = 2 ou Q2503_6 = 3; todas as unidades |
+| Linha 10.29.1.11 · Cateterização suprapúbica ou cistostomia — Sim | 3.4.1.1.12 | Unidades que oferecem: cateterização suprapúbica ou cistostomia<br>*Percentage of facilities offering suprapubic catheterization / cystostomy* | Q2503_11 = 1; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quais dos procedimentos de pequena cirurgia seguintes foram realizados nesta unidade sanitária nos últimos 12 meses?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler os procedimentos um a um e marcar Sim ou Não em cada linha.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Procedimento | 1 · Sim | 2 · Não |
+|---|---|:-:|:-:|
+| 10.29.1.1 | Desbridamento de feridas [HHFA 3.4.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.1.2 | Sutura de lacerações [HHFA 3.4.1.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.1.3 | Tratamento de queimaduras agudas [HHFA 3.4.1.1.4]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.1.4 | Incisão e drenagem de abcessos [HHFA 3.4.1.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.1.5 | Colocação de dreno torácico [HHFA 3.4.1.1.6]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.1.6 | Biópsia de gânglio linfático ou de outra massa [HHFA 3.4.1.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.1.7 | Circuncisão masculina [HHFA 3.4.1.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.1.8 | Remoção de corpo estranho [HHFA 3.4.1.1.9]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.1.9 | Redução fechada de fractura [HHFA 3.4.1.1.10]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.1.10 | Redução fechada de luxação articular [HHFA 3.4.1.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.1.11 | Cateterização suprapúbica ou cistostomia [HHFA 3.4.1.1.12]{.hhfa .cod-hhfa} | ☐ | ☐ |
+:::
+
+::: {.nota .interno}
+**Porque entra.** A pergunta sobre a pequena cirurgia passa a ser seguida da lista de procedimentos, cada um com o seu indicador. A circuncisão aparece aqui como procedimento cirúrgico; a circuncisão masculina médica voluntária, enquanto programa de prevenção do VIH, continua em 10.29.3.
 :::
 
 ## 10.29.2 · Grande cirurgia [ALTERADO]{.etiqueta .alterado}
@@ -397,8 +462,8 @@ Percentagem de unidades sanitárias que realizam procedimentos de grande cirurgi
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Resposta 1 (Sim) | 1.3.2.7.3 | Unidades que oferecem procedimentos de grande cirurgia<br>*Percentage of facilities offering major surgical procedures* | Q207_4 = 1, 2 ou 3; todas as unidades |
-| Resposta 1 (Sim) | 3.4.2.1.1 | Unidades que oferecem algum procedimento de grande cirurgia<br>*Percentage of facilities offering any major surgical procedures* | Q2504 = 1; todas as unidades |
+| Respostas 1, 2 e 3 | 1.3.2.7.3 | Unidades que oferecem procedimentos de grande cirurgia<br>*Percentage of facilities offering major surgical procedures* | Q207_4 = 1, 2 ou 3; todas as unidades |
+| Respostas 1, 2 e 3 | 3.4.2.1.1 | Unidades que oferecem algum procedimento de grande cirurgia<br>*Percentage of facilities offering any major surgical procedures* | Q2504 = 1; todas as unidades |
 :::
 
 ::: {.enunciado .rotulado}
@@ -410,8 +475,135 @@ Realiza procedimentos de grande cirurgia, isto é, efectuados sob anestesia gera
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-1. Sim
-2. Não
+1. Sim, de urgência e electiva
+2. Sim, apenas de urgência
+3. Sim, apenas electiva
+4. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 10.29.3.
+:::
+
+::: {.nota .interno}
+**Porque mudou.** A Ficha separava a cirurgia de urgência da electiva; as opções de resposta conservam essa distinção dentro da grande cirurgia. Para os indicadores, as respostas 1, 2 e 3 contam como Sim.
+:::
+
+## 10.29.2.1 · Salas de operações [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Número de salas de operações em condições de utilização em cada unidade — a capacidade instalada de grande cirurgia, agregável por município e por província.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quantas salas de operações, equipadas e em condições de utilização, existem nesta unidade sanitária?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Contar cada sala de operações, e não o bloco operatório: um bloco com três salas conta 3. Contar apenas as salas equipadas e em condições de serem usadas hoje.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Número de 00 a 99 · **98** Não sabe
+:::
+
+::: {.nota .interno}
+**Porque mudou.** O bloco operatório e o número de blocos estavam na lista de serviços de apoio da secção 12 (antigas 12.D linha 4 e 12.D.5). Passam para junto da grande cirurgia, e a contagem passa a ser por sala de operações, que é a unidade que não deixa dúvidas: «bloco» pode querer dizer o conjunto ou cada sala.
+:::
+
+## 10.29.2.2 a 10.29.2.22 · Procedimentos de grande cirurgia [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias que realizaram cada procedimento de grande cirurgia nos últimos 12 meses. As três primeiras linhas são os procedimentos de referência — cesariana, laparotomia e fractura exposta —, que medem a capacidade cirúrgica essencial efectiva, porque perguntam o que foi feito e não o que a unidade poderia fazer.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Calculado com as linhas 10.29.2.2 a 10.29.2.4: Sim em pelo menos uma | 1.3.2.7.5 | Unidades que oferecem pelo menos um dos três procedimentos cirúrgicos de referência<br>*Percentage of facilities offering any of the three Bellwether surgical procedures* | Q207_5, Q207_6 ou Q207_7 = 1, 2 ou 3; todas as unidades |
+| Calculado com as linhas 10.29.2.2 a 10.29.2.4: Sim nas três | 1.3.2.7.6 | Unidades que oferecem os três procedimentos cirúrgicos de referência<br>*Percentage of facilities offering all of the three Bellwether surgical procedures* | Q207_5 e Q207_6 e Q207_7 = 1, 2 ou 3; todas as unidades |
+| Calculado com as linhas 10.29.2.2 a 10.29.2.4: Sim nas três | 3.4.2.1.2 | Unidades que oferecem os três procedimentos de referência<br>*Percentage of facilities offering all three Bellwether procedures* | Q2507_1 = 1 e Q2507_2 = 1 e Q2507_3 = 1; todas as unidades |
+| Linha 10.29.2.2 · Cesariana — Sim | 3.4.2.1.3 | Unidades que oferecem: cesariana<br>*Percentage of facilities offering caesarean section (Bellwether procedure)* | Q2507_1 = 1 OR Q2210_8 = 1; todas as unidades. A cesariana das funções-sinal obstétricas (14.2.3.8) também conta |
+| Linha 10.29.2.3 · Laparotomia — Sim | 3.4.2.1.4 | Unidades que oferecem: laparotomia<br>*Percentage of facilities offering laparotomy (Bellwether procedure)* | Q2507_3 = 1 OR Q2509_17 = 1; todas as unidades |
+| Linha 10.29.2.4 · Redução e fixação de fractura exposta de osso longo — Sim | 3.4.2.1.5 | Unidades que oferecem: redução e fixação de fractura exposta de osso longo<br>*Percentage of facilities offering reduction and fixation of open fracture (Bellwether procedure)* | Q2507_2 = 1; todas as unidades |
+| Linha 10.29.2.5 · Apendicectomia — Sim | 3.4.2.1.6 | Unidades que oferecem: apendicectomia<br>*Percentage of facilities offering appendectomy* | Q2509_7 = 1; todas as unidades |
+| Linha 10.29.2.6 · Reparação de perfuração intestinal — Sim | 3.4.2.1.7 | Unidades que oferecem: reparação de perfuração intestinal<br>*Percentage of facilities offering repair of intestinal perforation* | Q2509_8 = 1; todas as unidades |
+| Linha 10.29.2.7 · Cirurgia da oclusão intestinal — Sim | 3.4.2.1.8 | Unidades que oferecem: cirurgia da oclusão intestinal<br>*Percentage of facilities offering surgery for bowel obstruction* | Q2509_9 = 1; todas as unidades |
+| Linha 10.29.2.8 · Colostomia ou ileostomia — Sim | 3.4.2.1.9 | Unidades que oferecem: colostomia ou ileostomia<br>*Percentage of facilities offering colostomy/ileostomy* | Q2509_11 = 1; todas as unidades |
+| Linha 10.29.2.9 · Cirurgia da vesícula biliar — Sim | 3.4.2.1.10 | Unidades que oferecem: cirurgia da vesícula biliar<br>*Percentage of facilities offering gall bladder surgery* | Q2509_12 = 1; todas as unidades |
+| Linha 10.29.2.10 · Reparação de hérnia — Sim | 3.4.2.1.11 | Unidades que oferecem: reparação de hérnia<br>*Percentage of facilities offering hernia repair* | Q2509_13 = 1; todas as unidades |
+| Linha 10.29.2.11 · Reparação de hidrocelo — Sim | 3.4.2.1.12 | Unidades que oferecem: reparação de hidrocelo<br>*Percentage of facilities offering hydrocele repair* | Q2509_14 = 1; todas as unidades |
+| Linha 10.29.2.12 · Cirurgia da catarata — Sim | 3.4.2.1.13 | Unidades que oferecem: cirurgia da catarata<br>*Percentage of facilities offering cataract surgery* | Q2509_10 = 1; todas as unidades |
+| Linha 10.29.2.13 · Enxerto de pele — Sim | 3.4.2.1.14 | Unidades que oferecem: enxerto de pele<br>*Percentage of facilities offering skin grafting* | Q2509_20 = 1; todas as unidades |
+| Linha 10.29.2.14 · Traqueostomia — Sim | 3.4.2.1.15 | Unidades que oferecem: traqueostomia<br>*Percentage of facilities offering tracheostomy* | Q2509_16 = 1; todas as unidades |
+| Linha 10.29.2.15 · Trepanação craniana — Sim | 3.4.2.1.16 | Unidades que oferecem: trepanação craniana<br>*Percentage of facilities offering burr hole surgery* | Q2509_23 = 1; todas as unidades |
+| Linha 10.29.2.16 · Craniotomia — Sim | 3.4.2.1.17 | Unidades que oferecem: craniotomia<br>*Percentage of facilities offering craniotomy* | Q2509_24 = 1; todas as unidades |
+| Linha 10.29.2.17 · Colocação de fixador externo — Sim | 3.4.2.1.18 | Unidades que oferecem: colocação de fixador externo<br>*Percentage of facilities offering placement of external fixator* | Q2509_22 = 1; todas as unidades |
+| Linha 10.29.2.18 · Irrigação e desbridamento de fracturas expostas — Sim | 3.4.2.1.19 | Unidades que oferecem: irrigação e desbridamento de fracturas expostas<br>*Percentage of facilities offering irrigation and debridement of open fractures* | Q2509_21 = 1; todas as unidades |
+| Linha 10.29.2.19 · Escarotomia, fasciotomia ou libertação de contracturas — Sim | 3.4.2.1.20 | Unidades que oferecem: escarotomia, fasciotomia ou libertação de contracturas<br>*Percentage of facilities offering escharotomy/fasciotomy/contracture release* | Q2509_19 = 1; todas as unidades |
+| Linha 10.29.2.20 · Amputação — Sim | 3.4.2.1.21 | Unidades que oferecem: amputação<br>*Percentage of facilities offering amputation* | Q2509_18 = 1; todas as unidades |
+| Linha 10.29.2.21 · Drenagem de artrite séptica — Sim | 3.4.2.1.22 | Unidades que oferecem: drenagem de artrite séptica<br>*Percentage of facilities offering drainage of septic arthritis* | Q2509_25 = 1; todas as unidades |
+| Linha 10.29.2.22 · Desbridamento de osteomielite — Sim | 3.4.2.1.23 | Unidades que oferecem: desbridamento de osteomielite<br>*Percentage of facilities offering debridement of osteomyelitis* | Q2509_26 = 1; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quais dos procedimentos de grande cirurgia seguintes foram realizados nesta unidade sanitária nos últimos 12 meses?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler os procedimentos um a um e marcar Sim ou Não em cada linha. As três primeiras linhas são os procedimentos de referência.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Procedimento | 1 · Sim | 2 · Não |
+|---|---|:-:|:-:|
+| 10.29.2.2 | **Cesariana** [HHFA 3.4.2.1.3 · 1.3.2.7.5 · 1.3.2.7.6 · 3.4.2.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.3 | **Laparotomia** [HHFA 3.4.2.1.4 · 1.3.2.7.5 · 1.3.2.7.6 · 3.4.2.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.4 | **Redução e fixação de fractura exposta de osso longo** [HHFA 3.4.2.1.5 · 1.3.2.7.5 · 1.3.2.7.6 · 3.4.2.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.5 | Apendicectomia [HHFA 3.4.2.1.6]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.6 | Reparação de perfuração intestinal [HHFA 3.4.2.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.7 | Cirurgia da oclusão intestinal [HHFA 3.4.2.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.8 | Colostomia ou ileostomia [HHFA 3.4.2.1.9]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.9 | Cirurgia da vesícula biliar [HHFA 3.4.2.1.10]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.10 | Reparação de hérnia [HHFA 3.4.2.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.11 | Reparação de hidrocelo [HHFA 3.4.2.1.12]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.12 | Cirurgia da catarata [HHFA 3.4.2.1.13]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.13 | Enxerto de pele [HHFA 3.4.2.1.14]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.14 | Traqueostomia [HHFA 3.4.2.1.15]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.15 | Trepanação craniana [HHFA 3.4.2.1.16]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.16 | Craniotomia [HHFA 3.4.2.1.17]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.17 | Colocação de fixador externo [HHFA 3.4.2.1.18]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.18 | Irrigação e desbridamento de fracturas expostas [HHFA 3.4.2.1.19]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.19 | Escarotomia, fasciotomia ou libertação de contracturas [HHFA 3.4.2.1.20]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.20 | Amputação [HHFA 3.4.2.1.21]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.21 | Drenagem de artrite séptica [HHFA 3.4.2.1.22]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.22 | Desbridamento de osteomielite [HHFA 3.4.2.1.23]{.hhfa .cod-hhfa} | ☐ | ☐ |
+:::
+
+::: {.nota .interno}
+**Porque mudou.** Os três procedimentos de referência (antigo 10.29.4) passam a abrir uma grelha com a lista de procedimentos de grande cirurgia, cada um com o seu indicador. Cruzam-se com as salas de operações (10.29.2.1) e com a anestesia (12.D.2).
 :::
 
 ## 10.29.3 · Circuncisão masculina médica voluntária [NOVO]{.etiqueta .novo}
@@ -442,50 +634,6 @@ Realiza circuncisão masculina médica voluntária?
 
 1. Sim
 2. Não
-:::
-
-## 10.29.4 · Procedimentos de referência nos últimos 12 meses [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Os três procedimentos de referência — cesariana, laparotomia e tratamento de fractura exposta de osso longo — dão dois indicadores: unidades que realizaram pelo menos um dos três e unidades que realizaram os três, nos últimos 12 meses.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Calculado com a), b) e c): Sim em pelo menos um | 1.3.2.7.5 | Unidades que oferecem pelo menos um dos três procedimentos cirúrgicos de referência<br>*Percentage of facilities offering any of the three Bellwether surgical procedures* | Q207_5, Q207_6 ou Q207_7 = 1, 2 ou 3; todas as unidades |
-| Calculado com a), b) e c): Sim nos três | 1.3.2.7.6 | Unidades que oferecem os três procedimentos cirúrgicos de referência<br>*Percentage of facilities offering all of the three Bellwether surgical procedures* | Q207_5 e Q207_6 e Q207_7 = 1, 2 ou 3; todas as unidades |
-| Calculado com a), b) e c): Sim nos três | 3.4.2.1.2 | Unidades que oferecem os três procedimentos de referência<br>*Percentage of facilities offering all three Bellwether procedures* | Q2507_1 = 1 e Q2507_2 = 1 e Q2507_3 = 1; todas as unidades |
-| a) Cesariana — Sim | 3.4.2.1.3 | Unidades que oferecem cesariana (procedimento de referência)<br>*Percentage of facilities offering caesarean section (Bellwether procedure)* | Q2507_1 = 1 ou Q2210_8 = 1 (a cesariana das funções-sinal obstétricas, 14.2.3.8, também conta); todas as unidades |
-| b) Laparotomia — Sim | 3.4.2.1.4 | Unidades que oferecem laparotomia (procedimento de referência)<br>*Percentage of facilities offering laparotomy (Bellwether procedure)* | Q2507_3 = 1 ou Q2509_17 = 1; todas as unidades |
-| c) Tratamento de fractura exposta de osso longo — Sim | 3.4.2.1.5 | Unidades que oferecem redução e fixação de fractura exposta (procedimento de referência)<br>*Percentage of facilities offering reduction and fixation of open fracture (Bellwether procedure)* | Q2507_2 = 1; todas as unidades |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Dos três procedimentos seguintes, quais foram realizados nesta unidade nos últimos 12 meses? a) cesariana; b) laparotomia; c) tratamento de fractura exposta de osso longo.
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada procedimento: 1 Sim · 2 Não
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em 10.29.4, ler os três procedimentos e marcar Sim ou Não para cada um.
-:::
-
-::: {.nota .interno}
-**Os três procedimentos de 10.29.4** são os procedimentos de referência: medem capacidade cirúrgica essencial **efectiva** e não declarada, porque perguntam o que foi feito nos últimos 12 meses e não o que a unidade poderia fazer.
-
-**Cruzam-se** com o número de blocos operatórios (12.D.5) e com a anestesia (12.D.2).
 :::
 
 ## 10.30 a 10.34 · Cirurgia de especialidade [ALTERADO]{.etiqueta .alterado}
@@ -521,5 +669,5 @@ Para cada área: 1 Sim · 2 Não
 ::: {.nota .interno}
 **Fecho da secção 10.** Decisão de fundo a registar: nesta secção adopta-se o olhar internacional, que é o mais adequado ao objecto, **sem retirar a lista de especialidades da Ficha**. As duas convivem porque respondem a perguntas diferentes — a especialidade diz como a unidade está organizada e serve a gestão da rede; a condição diz o que a unidade consegue resolver e serve o planeamento do cuidado. É o mesmo desenho usado nas comissões de 17.2, onde o órgão e a actividade convivem.
 
-[**52 indicadores do HHFA** nesta secção.]{.hhfa}
+[**81 indicadores do HHFA** nesta secção.]{.hhfa}
 :::
