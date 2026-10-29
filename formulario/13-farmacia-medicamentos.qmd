@@ -2,7 +2,7 @@
 title: "Secção 13 — Farmácia e medicamentos"
 ---
 
-Serviço de farmácia, quem dispensa os medicamentos, e a lista de produtos farmacêuticos do instrumento internacional — 229 produtos, em dez grupos de medicamentos gerais e seis blocos condicionais.
+Serviço de farmácia, quem dispensa os medicamentos, e a lista de produtos farmacêuticos do instrumento internacional — 228 produtos, em dez grupos de medicamentos gerais e seis blocos condicionais.
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
@@ -15,7 +15,7 @@ Serviço de farmácia, quem dispensa os medicamentos, e a lista de produtos farm
 | 13.4 | Porta da lista: unidades que armazenam medicamentos, vacinas ou contraceptivos; índices do cabaz de medicamentos essenciais [(2 indicadores do HHFA)]{.hhfa} |
 | 13.5.1 a 13.5.28 | Medicamentos gerais — Anti-infecciosos e antiparasitários (28 produtos) [(5 indicadores do HHFA da lista traçadora)]{.hhfa} |
 | 13.6.1 a 13.6.5 | Medicamentos gerais — Respiratório (5 produtos) [(2 indicadores do HHFA da lista traçadora)]{.hhfa} |
-| 13.7.1 a 13.7.10 | Medicamentos gerais — Cardiovascular (10 produtos) [(2 indicadores do HHFA da lista traçadora)]{.hhfa} |
+| 13.7.1 a 13.7.9 | Medicamentos gerais — Cardiovascular (9 produtos) [(2 indicadores do HHFA da lista traçadora)]{.hhfa} |
 | 13.8.1 a 13.8.6 | Medicamentos gerais — Diabetes (6 produtos) [(3 indicadores do HHFA da lista traçadora)]{.hhfa} |
 | 13.9.1 a 13.9.4 | Medicamentos gerais — Cancro (4 produtos) [(sem indicador da lista traçadora)]{.hhfa} |
 | 13.10.1 a 13.10.51 | Medicamentos gerais — Outros e gerais (51 produtos) [(10 indicadores do HHFA da lista traçadora)]{.hhfa} |
@@ -341,12 +341,12 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 | 13.6.5 | Câmaras expansoras para inaladores | ☐1 ☐2 ☐3 ☐4 ☐5 |
 :::
 
-## 13.7.1 a 13.7.10 · Medicamentos gerais — Cardiovascular [NOVO]{.etiqueta .novo}
+## 13.7.1 a 13.7.9 · Medicamentos gerais — Cardiovascular [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada medicamento do grupo «Cardiovascular» disponível — 10 produtos.
+Percentagem de unidades sanitárias com cada medicamento do grupo «Cardiovascular» disponível — 9 produtos.
 
 </details>
 
@@ -355,21 +355,20 @@ Percentagem de unidades sanitárias com cada medicamento do grupo «Cardiovascul
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linhas 13.7.1, 13.7.2, 13.7.3, 13.7.7 — escala A, pelo menos dois dos quatro com código 1 | 2.4.1.1.6 | Unidades com pelo menos dois de quatro anti-hipertensores (betabloqueante, bloqueador dos canais de cálcio, diurético tiazídico, IECA)<br>*Percentage of facilities with any two of the following anti-hypertensive tabs/caps:  beta blocker, calcium blocker, thiazide-like diuretic, ACE inhibitor* | (IFELSE(Q3105_3 = 1, 1, 0) + IFELSE(Q3105_4 = 1, 1, 0) + IFELSE(Q3105_16 = 1, 1, 0) + IFELSE(Q3105_1 = 1, 1, 0))>=2; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
-| Linha 13.7.9 — escala A, código 1 | 2.4.1.1.7 | Unidades com sinvastatina ou outra estatina<br>*Percentage of facilities with simvastatin or other statin tab/cap* | Q3105_13 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linhas 13.7.1, 13.7.2, 13.7.3, 13.7.6 — escala A, pelo menos dois dos quatro com código 1 | 2.4.1.1.6 | Unidades com pelo menos dois de quatro anti-hipertensores (betabloqueante, bloqueador dos canais de cálcio, diurético tiazídico, IECA)<br>*Percentage of facilities with any two of the following anti-hypertensive tabs/caps:  beta blocker, calcium blocker, thiazide-like diuretic, ACE inhibitor* | (IFELSE(Q3105_3 = 1, 1, 0) + IFELSE(Q3105_4 = 1, 1, 0) + IFELSE(Q3105_16 = 1, 1, 0) + IFELSE(Q3105_1 = 1, 1, 0))>=2; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linha 13.7.8 — escala A, código 1 | 2.4.1.1.7 | Unidades com sinvastatina ou outra estatina<br>*Percentage of facilities with simvastatin or other statin tab/cap* | Q3105_13 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
 
 **Códigos do questionário HHFA** (`Q12503`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
 
 - 13.7.1 (01) — ASD, BUU, NXL, NXM, MNC, MNL, MNM
 - 13.7.2 (02) — ASD, DGW, NXL, NXM, MNC, MNL, MNM
 - 13.7.3 (03) — ASD, BUR, NXL, NXM, MNC, MNL, MNM
-- 13.7.4 (04a) — nenhum — linha acrescentada pela revisão, sem equivalente no HHFA
-- 13.7.5 (04) — BVH
-- 13.7.6 (05) — BVB
-- 13.7.7 (06) — ASD, BUV, NXL, NXM, MNC, MNL, MNM
-- 13.7.8 (07) — BVC
-- 13.7.9 (08) — ASE, BUW, MNA, MNB, MNC, MNL, MNM, NXL, NXM
-- 13.7.10 (09) — BVF
+- 13.7.4 (04) — nenhum — a linha do HHFA era a digoxina injectável (BVH); a revisão substituiu-a pela digoxina em comprimido, sem equivalente no HHFA
+- 13.7.5 (05) — BVB
+- 13.7.6 (06) — ASD, BUV, NXL, NXM, MNC, MNL, MNM
+- 13.7.7 (07) — BVC
+- 13.7.8 (08) — ASE, BUW, MNA, MNB, MNC, MNL, MNM, NXL, NXM
+- 13.7.9 (09) — BVF
 :::
 
 ::: {.enunciado .rotulado}
@@ -390,13 +389,12 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 | 13.7.1 | Bloqueador dos canais de cálcio (ex. amlodipina), comprimido (oral) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
 | 13.7.2 | Betabloqueante (ex. bisoprolol, metoprolol, carvedilol), comprimido (oral) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
 | 13.7.3 | Inibidor da ECA (ex. enalapril, captopril, ramipril, lisinopril), comprimido (oral) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
-| 13.7.4 | Digoxina, oral | ☐1 ☐2 ☐3 ☐4 ☐5 |
-| 13.7.5 | Digoxina, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
-| 13.7.6 | Trinitrato de glicerilo, comprimido sublingual | ☐1 ☐2 ☐3 ☐4 ☐5 |
-| 13.7.7 | Diurético tiazídico ou similar (ex. hidroclorotiazida, clortalidona, indapamida), comprimido (oral) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
-| 13.7.8 | Dinitrato de isossorbida (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
-| 13.7.9 | Estatina (ex. sinvastatina), comprimido (oral) [HHFA 2.4.1.1.7]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
-| 13.7.10 | Varfarina (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.7.4 | Digoxina, comprimido | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.7.5 | Trinitrato de glicerilo, comprimido sublingual | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.7.6 | Diurético tiazídico ou similar (ex. hidroclorotiazida, clortalidona, indapamida), comprimido (oral) [HHFA 2.4.1.1.6]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.7.7 | Dinitrato de isossorbida (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.7.8 | Estatina (ex. sinvastatina), comprimido (oral) [HHFA 2.4.1.1.7]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.7.9 | Varfarina (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
 :::
 
 ## 13.8.1 a 13.8.6 · Medicamentos gerais — Diabetes [NOVO]{.etiqueta .novo}
