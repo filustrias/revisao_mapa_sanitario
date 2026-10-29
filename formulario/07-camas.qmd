@@ -64,12 +64,12 @@ Esta unidade sanitária tem internamento, isto é, doentes que pernoitam na unid
 **Porque é necessária.** A porta antecede a contagem de camas: com ela, uma unidade sem internamento salta as perguntas sobre camas de internamento e responde apenas às que se aplicam a todas as unidades.
 :::
 
-## 7.1.1 Camas de internamento de adulto [ALTERADO]{.etiqueta .alterado}
+## 7.1.1 a 7.1.3 Camas instaladas, por tipo de cama [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de camas de internamento de tamanho adulto instaladas em cada unidade. Cruzado com a população da área de abrangência (secção 3), dá as camas de internamento por 10 000 habitantes.
+Número de camas de internamento instaladas em cada unidade, por tipo de cama: de adulto, pediátricas e berços de lactentes, e berços de recém-nascido. Cruzado com a população da área de abrangência (secção 3), dá as camas de internamento por 10 000 habitantes.
 
 </details>
 
@@ -78,98 +78,36 @@ Número de camas de internamento de tamanho adulto instaladas em cada unidade. C
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Número de camas de adulto | 1.1.2.1.1 | Número total de camas de internamento (tamanho adulto)<br>*Total number of inpatient beds (adult-sized)* | Q403; soma em todas as unidades |
-| Número de camas de adulto, com a população de 3.1 | 1.1.1.1.3 | Número de camas de internamento por 10 000 habitantes<br>*Number of inpatient beds per 10,000 population* | Q403; por 10 000 habitantes da população de referência (3.1) |
+| Linha 7.1.1 · Camas de adulto | 1.1.2.1.1 | Número total de camas de internamento (tamanho adulto)<br>*Total number of inpatient beds (adult-sized)* | Q403; soma em todas as unidades |
+| Linha 7.1.1 · Camas de adulto, com a população de 3.1 | 1.1.1.1.3 | Número de camas de internamento por 10 000 habitantes<br>*Number of inpatient beds per 10,000 population* | Q403; por 10 000 habitantes da população de referência (3.1) |
+| Linha 7.1.2 · Camas pediátricas e berços de lactentes | 1.1.2.1.2 | Número total de camas de internamento (tamanho pediátrico)<br>*Total number of inpatient beds (paediatric-sized)* | Q405; soma em todas as unidades |
+| Linha 7.1.3 · Berços de recém-nascido | 1.1.2.1.3 | Número total de berços neonatais<br>*Total number of neonatal cots* | Q407; soma em todas as unidades |
 :::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-Quantas camas de internamento de tamanho adulto, instaladas e disponíveis para receber doentes no dia da visita, existem nesta unidade sanitária?
+Quantas camas de internamento, instaladas e disponíveis para receber doentes no dia da visita, existem nesta unidade sanitária, de cada um dos tipos seguintes?
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Contar apenas camas permanentes, propriedade da unidade, em área ou sala de internamento, observadas no local na altura da visita. Não contar «espaço para camas», camas guardadas em armazém nem camas não permanentes (esteiras, marquesas).
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Contar apenas camas permanentes, propriedade da unidade, em área ou sala de internamento, observadas no local na altura da visita. Não contar «espaço para camas», camas guardadas em armazém nem camas não permanentes (esteiras, marquesas). Cada cama conta numa só linha: os berços de recém-nascido contam-se em 7.1.3 e não em 7.1.2. Se não houver camas de um tipo, escrever 0.
 :::
 
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
 
-Número inteiro (0–999) · **998** Não sabe
-:::
-
-::: {.nota .interno}
-**Porque mudou.** Mantém-se a definição do Guião. Acrescenta-se apenas «de tamanho adulto», para separar estas camas das pediátricas, contadas em 7.1.2.
-:::
-
-## 7.1.2 Camas pediátricas e berços de lactentes [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Número de camas de tamanho pediátrico e de berços para lactentes instalados em cada unidade.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Número de camas pediátricas e berços de lactentes | 1.1.2.1.2 | Número total de camas de internamento (tamanho pediátrico)<br>*Total number of inpatient beds (paediatric-sized)* | Q405; soma em todas as unidades |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Além dessas, quantas camas de tamanho pediátrico ou berços para lactentes, instalados e disponíveis no dia da visita, existem nesta unidade sanitária?
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Não incluir os berços de recém-nascidos, que são contados em 7.1.3.
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Número inteiro (0–999) · **998** Não sabe
+| Código | Tipo de cama | Número de camas (0–999) | 998 · Não sabe |
+|---|---|:-:|:-:|
+| 7.1.1 | Camas de tamanho adulto [HHFA 1.1.2.1.1 · 1.1.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.1.2 | Camas de tamanho pediátrico e berços de lactentes [HHFA 1.1.2.1.2]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 7.1.3 | Berços ou camas para recém-nascidos [HHFA 1.1.2.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
 :::
 
 ::: {.nota .interno}
-**Porque é necessária.** As camas pediátricas passam a ter contagem própria. Aqui contam-se pelo tamanho da cama; em 7.2 contam-se também pela enfermaria. As duas leituras servem fins diferentes e ambas ficam disponíveis.
-:::
+**Porque mudou.** As três contagens passam a uma só grelha: o critério de contagem é o mesmo e lê-se uma vez. Mantém-se a definição do Guião. A linha 7.1.1 acrescenta «de tamanho adulto», para separar estas camas das pediátricas; a linha 7.1.2 é nova e dá contagem própria às camas pediátricas e aos berços de lactentes; a linha 7.1.3 já existia e ganha o momento de referência — o dia da visita — e a distinção face aos berços de lactentes, para que a mesma criança não seja contada duas vezes.
 
-## 7.1.3 Berços para recém-nascidos [ALTERADO]{.etiqueta .alterado}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Número de berços ou camas para recém-nascidos instalados em cada unidade.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Número de berços de recém-nascidos | 1.1.2.1.3 | Número total de berços neonatais<br>*Total number of neonatal cots* | Q407; soma em todas as unidades |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Quantos berços ou camas para recém-nascidos, instalados e disponíveis no dia da visita, existem nesta unidade sanitária?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Número inteiro (0–999) · **998** Não sabe
-:::
-
-::: {.nota .interno}
-**Porque mudou.** O quesito já existe. Acrescenta-se o momento de referência — o dia da visita — e a distinção face aos berços de lactentes de 7.1.2, para que a mesma criança não seja contada duas vezes.
+Aqui as camas contam-se pelo tamanho; em 7.2 contam-se também pela enfermaria. As duas leituras servem fins diferentes e ambas ficam disponíveis.
 :::
 
 ## 7.1.4 Camas autorizadas [NOVO]{.etiqueta .novo}
@@ -237,6 +175,10 @@ Número de camas de internamento em cada enfermaria ou serviço.
 [Pergunta · ler ao respondente]{.rotulo}
 
 Quantas camas de internamento, instaladas e disponíveis no dia da visita, existem em cada uma das seguintes enfermarias ou serviços desta unidade sanitária?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Escrever 0 nas enfermarias que não existem. A soma das enfermarias não pode ser maior do que os totais de 7.1.1 a 7.1.3; se for, rever as contagens com o respondente.
 :::
 
 ::: {.grelha .rotulado}
