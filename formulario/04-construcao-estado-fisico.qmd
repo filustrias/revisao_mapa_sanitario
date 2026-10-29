@@ -330,19 +330,22 @@ Indicador mais próximo: 1.1.4.31.1 — Unidades sem defeito grave na cobertura 
 Para cada elemento construtivo do edifício principal, indique o estado, aplicando os critérios do Guião.
 :::
 
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar uma única opção por linha. A coluna 97 só se usa na latrina, quando não existe.
+:::
 
-- **4.8.1** Fundação · **4.8.2** Estrutura · **4.8.3** Pavimento · **4.8.4** Paredes · **4.8.5** Cobertura · **4.8.6** Tecto falso · **4.8.7** Latrina
-- Para cada elemento:
-  1. Bom estado
-  2. Reabilitação ligeira
-  3. Reabilitação pesada
-  4. Reconstrução
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
 
-  <!-- -->
-
-  97. Não se aplica (latrina inexistente)
+| Código | Elemento construtivo | 1 · Bom estado | 2 · Reabilitação ligeira | 3 · Reabilitação pesada | 4 · Reconstrução | 97 · Não se aplica |
+|---|---|:-:|:-:|:-:|:-:|:-:|
+| 4.8.1 | Fundação | ☐ | ☐ | ☐ | ☐ | — |
+| 4.8.2 | Estrutura | ☐ | ☐ | ☐ | ☐ | — |
+| 4.8.3 | Pavimento | ☐ | ☐ | ☐ | ☐ | — |
+| 4.8.4 | Paredes | ☐ | ☐ | ☐ | ☐ | — |
+| 4.8.5 | Cobertura | ☐ | ☐ | ☐ | ☐ | — |
+| 4.8.6 | Tecto falso | ☐ | ☐ | ☐ | ☐ | — |
+| 4.8.7 | Latrina | ☐ | ☐ | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota .interno}
