@@ -14,10 +14,10 @@ Serviços para doenças crónicas não transmissíveis, por família de condiç�
 | 11.3 | Doenças endócrinas e metabólicas, incluindo diabetes tipo 1 e tipo 2 [(6 indicadores do HHFA)]{.hhfa} |
 | 11.4 | Asma e doença pulmonar obstrutiva crónica [(8 indicadores do HHFA)]{.hhfa} |
 | 11.5 | Doença renal crónica, anemias e desnutrição em adolescentes e adultos [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 11.6 | Doenças neurológicas: epilepsia, demência, parkinsonismo, plegias, dor crónica [(8 indicadores do HHFA)]{.hhfa} |
-| 11.7 | Saúde mental: depressão, ansiedade, psicoses, drogas, álcool, tabagismo [(15 indicadores do HHFA)]{.hhfa} |
+| 11.6 | Doenças neurológicas: epilepsia, demência, parkinsonismo, plegias, dores crónicas e neuropáticas [(8 indicadores do HHFA)]{.hhfa} |
+| 11.7 | Saúde mental: depressão e ansiedade, psicoses, drogas, álcool, tabagismo [(9 indicadores do HHFA)]{.hhfa} |
 | 11.8.0 | Oferta de algum serviço de cancro [(1 indicador do HHFA)]{.hhfa} |
-| 11.8.1 a 11.8.4 | Oferta de serviços de cancro, por localização [(8 indicadores do HHFA)]{.hhfa} |
+| 11.8.1 a 11.8.4 | Serviços de cancro, por localização e por função [(8 indicadores do HHFA)]{.hhfa} |
 | 11.9 | Procura activa de doentes crónicos que faltam ao seguimento [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
@@ -265,7 +265,7 @@ A desnutrição da criança menor de 5 anos está na secção 13 (13.2.1, linhas
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que oferecem serviços para epilepsia, demência, parkinsonismo, plegias e dor crónica, condição a condição e função a função, haja ou não neurologista.
+Percentagem de unidades sanitárias que oferecem serviços para epilepsia, demência, parkinsonismo, plegias e dores crónicas e neuropáticas, condição a condição e função a função, haja ou não neurologista.
 
 </details>
 
@@ -283,7 +283,7 @@ Percentagem de unidades sanitárias que oferecem serviços para epilepsia, demê
 | Linha 11.6.2 · Demência — (a), (b) e (d) = Sim | 3.3.6.2.13 | Unidades que oferecem diagnóstico, tratamento e aconselhamento: demência<br>*Percentage of facilities offering dementia diagnosis, treatment and counseling* | Q1603_5A = 1 e Q1603_5B = 1 e Q1603_5C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
 | Linha 11.6.2 · Demência — (a) = Não, (b) e (d) = Sim | 3.3.6.2.14 | Unidades que oferecem tratamento e aconselhamento, sem diagnóstico: demência<br>*Percentage of facilities offering dementia treatment and counseling* | Q1603_5A = 2 e Q1603_5B = 1 e Q1603_5C = 1; todas as unidades |
 | Linha 11.6.2 · Demência — só (d) = Sim | 3.3.6.2.15 | Unidades que oferecem apenas aconselhamento: demência<br>*Percentage of facilities offering dementia counseling only* | Q1603_5A = 2 e Q1603_5B = 2 e Q1603_5C = 1; todas as unidades |
-| Linhas 11.6.3 a 11.6.5 | — (medida própria) | Parkinsonismo, plegias e dor crónica não têm indicador de serviço no catálogo | — |
+| Linhas 11.6.3 a 11.6.5 | — (medida própria) | Parkinsonismo, plegias e dores crónicas e neuropáticas não têm indicador de serviço no catálogo | — |
 
 No HHFA, «C» é aconselhamento (counseling); aqui corresponde à coluna (d).
 :::
@@ -307,7 +307,7 @@ E para cada uma das condições neurológicas seguintes, quais destas funções 
 | 11.6.2 | Demência [HHFA 3.3.6.2.13 · 3.3.6.2.14 · 3.3.6.2.15]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
 | 11.6.3 | Parkinsonismo | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
 | 11.6.4 | Plegias | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 11.6.5 | Dor crónica | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 11.6.5 | Dores crónicas e dores neuropáticas | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
 :::
 
 ::: {.nota .interno}
@@ -331,21 +331,16 @@ Percentagem de unidades sanitárias que oferecem serviços para depressão, ansi
 | Qualquer linha, qualquer coluna = Sim | 1.3.2.5.1 | Unidades que oferecem algum serviço para transtornos mentais<br>*Percentage of facilities offering any services for mental disorders* | Q202_27 = 1, 2 ou 3; todas as unidades |
 | Qualquer linha, qualquer coluna = Sim | 3.3.6.1.2 | Unidades que oferecem serviços para transtornos mentais<br>*Percentage of facilities offering services for mental disorders* | Q1601_1 = 1, 2 ou 3; todas as unidades |
 | Qualquer linha de 11.6 ou de 11.7 = Sim | 3.3.6.1.1 | Unidades que oferecem algum serviço para transtornos mentais ou doenças neurológicas<br>*Percentage of facilities offering any services for mental or neurological disorders* | Q1600 = 1; todas as unidades |
-| Linha 11.7.1 · Perturbações do humor — (a), (b) e (d) = Sim | 3.3.6.2.1 | Unidades que oferecem diagnóstico, tratamento e aconselhamento: perturbações do humor<br>*Percentage of facilities offering mood disorder diagnosis, treatment and counseling* | Q1603_1A = 1 e Q1603_1B = 1 e Q1603_1C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
-| Linha 11.7.1 · Perturbações do humor — (a) = Não, (b) e (d) = Sim | 3.3.6.2.2 | Unidades que oferecem tratamento e aconselhamento, sem diagnóstico: perturbações do humor<br>*Percentage of facilities offering mood disorder treatment and counseling* | Q1603_1A = 2 e Q1603_1B = 1 e Q1603_1C = 1; todas as unidades |
-| Linha 11.7.1 · Perturbações do humor — só (d) = Sim | 3.3.6.2.3 | Unidades que oferecem apenas aconselhamento: perturbações do humor<br>*Percentage of facilities offering mood disorder counseling only* | Q1603_1A = 2 e Q1603_1B = 2 e Q1603_1C = 1; todas as unidades |
-| Linha 11.7.2 · Perturbações de ansiedade — (a), (b) e (d) = Sim | 3.3.6.2.7 | Unidades que oferecem diagnóstico, tratamento e aconselhamento: perturbações de ansiedade<br>*Percentage of facilities offering anxiety disorder diagnosis, treatment and counseling* | Q1603_3A = 1 e Q1603_3B = 1 e Q1603_3C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
-| Linha 11.7.2 · Perturbações de ansiedade — (a) = Não, (b) e (d) = Sim | 3.3.6.2.8 | Unidades que oferecem tratamento e aconselhamento, sem diagnóstico: perturbações de ansiedade<br>*Percentage of facilities offering anxiety disorder treatment and counseling* | Q1603_3A = 2 e Q1603_3B = 1 e Q1603_3C = 1; todas as unidades |
-| Linha 11.7.2 · Perturbações de ansiedade — só (d) = Sim | 3.3.6.2.9 | Unidades que oferecem apenas aconselhamento: perturbações de ansiedade<br>*Percentage of facilities offering anxiety disorder counseling only* | Q1603_3A = 2 e Q1603_3B = 2 e Q1603_3C = 1; todas as unidades |
-| Linha 11.7.3 · Psicoses e esquizofrenias — (a), (b) e (d) = Sim | 3.3.6.2.4 | Unidades que oferecem diagnóstico, tratamento e aconselhamento: psicoses e esquizofrenias<br>*Percentage of facilities offering schizophrenia diagnosis, treatment and counseling* | Q1603_2A = 1 e Q1603_2B = 1 e Q1603_2C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
-| Linha 11.7.3 · Psicoses e esquizofrenias — (a) = Não, (b) e (d) = Sim | 3.3.6.2.5 | Unidades que oferecem tratamento e aconselhamento, sem diagnóstico: psicoses e esquizofrenias<br>*Percentage of facilities offering schizophrenia treatment and counseling* | Q1603_2A = 2 e Q1603_2B = 1 e Q1603_2C = 1; todas as unidades |
-| Linha 11.7.3 · Psicoses e esquizofrenias — só (d) = Sim | 3.3.6.2.6 | Unidades que oferecem apenas aconselhamento: psicoses e esquizofrenias<br>*Percentage of facilities offering schizophrenia counseling only* | Q1603_2A = 2 e Q1603_2B = 2 e Q1603_2C = 1; todas as unidades |
-| Linha 11.7.4 ou 11.7.5 — (a), (b) e (d) = Sim | 3.3.6.2.16 | Unidades que oferecem diagnóstico, tratamento e aconselhamento: uso de substâncias<br>*Percentage of facilities offering substance abuse / addictive behavior diagnosis, treatment and counseling* | Q1603_6A = 1 e Q1603_6B = 1 e Q1603_6C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
-| Linha 11.7.4 ou 11.7.5 — (a) = Não, (b) e (d) = Sim | 3.3.6.2.17 | Unidades que oferecem tratamento e aconselhamento, sem diagnóstico: uso de substâncias<br>*Percentage of facilities offering substance abuse / addictive behavior treatment and counseling* | Q1603_6A = 2 e Q1603_6B = 1 e Q1603_6C = 1; todas as unidades |
-| Linha 11.7.4 ou 11.7.5 — só (d) = Sim | 3.3.6.2.18 | Unidades que oferecem apenas aconselhamento: uso de substâncias<br>*Percentage of facilities offering substance abuse / addictive behavior counseling only* | Q1603_6A = 2 e Q1603_6B = 2 e Q1603_6C = 1; todas as unidades |
-| Linha 11.7.6 | — (medida própria) | Tabagismo: sem indicador de serviço no catálogo; não entra no indicador de uso de substâncias, que aqui se calcula com drogas e álcool | — |
+| Linha 11.7.2 · Psicoses e esquizofrenias — (a), (b) e (d) = Sim | 3.3.6.2.4 | Unidades que oferecem diagnóstico, tratamento e aconselhamento: psicoses e esquizofrenias<br>*Percentage of facilities offering schizophrenia diagnosis, treatment and counseling* | Q1603_2A = 1 e Q1603_2B = 1 e Q1603_2C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
+| Linha 11.7.2 · Psicoses e esquizofrenias — (a) = Não, (b) e (d) = Sim | 3.3.6.2.5 | Unidades que oferecem tratamento e aconselhamento, sem diagnóstico: psicoses e esquizofrenias<br>*Percentage of facilities offering schizophrenia treatment and counseling* | Q1603_2A = 2 e Q1603_2B = 1 e Q1603_2C = 1; todas as unidades |
+| Linha 11.7.2 · Psicoses e esquizofrenias — só (d) = Sim | 3.3.6.2.6 | Unidades que oferecem apenas aconselhamento: psicoses e esquizofrenias<br>*Percentage of facilities offering schizophrenia counseling only* | Q1603_2A = 2 e Q1603_2B = 2 e Q1603_2C = 1; todas as unidades |
+| Linha 11.7.3 ou 11.7.4 — (a), (b) e (d) = Sim | 3.3.6.2.16 | Unidades que oferecem diagnóstico, tratamento e aconselhamento: uso de substâncias<br>*Percentage of facilities offering substance abuse / addictive behavior diagnosis, treatment and counseling* | Q1603_6A = 1 e Q1603_6B = 1 e Q1603_6C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
+| Linha 11.7.3 ou 11.7.4 — (a) = Não, (b) e (d) = Sim | 3.3.6.2.17 | Unidades que oferecem tratamento e aconselhamento, sem diagnóstico: uso de substâncias<br>*Percentage of facilities offering substance abuse / addictive behavior treatment and counseling* | Q1603_6A = 2 e Q1603_6B = 1 e Q1603_6C = 1; todas as unidades |
+| Linha 11.7.3 ou 11.7.4 — só (d) = Sim | 3.3.6.2.18 | Unidades que oferecem apenas aconselhamento: uso de substâncias<br>*Percentage of facilities offering substance abuse / addictive behavior counseling only* | Q1603_6A = 2 e Q1603_6B = 2 e Q1603_6C = 1; todas as unidades |
+| Linha 11.7.1 | — (medida própria) | O HHFA separa perturbações do humor (3.3.6.2.1 a 3.3.6.2.3, Q1603_1) e de ansiedade (3.3.6.2.7 a 3.3.6.2.9, Q1603_3); com uma só linha «Depressão e ansiedade» os seis indicadores não se calculam | — |
+| Linha 11.7.5 | — (medida própria) | Tabagismo: sem indicador de serviço no catálogo; não entra no indicador de uso de substâncias, que aqui se calcula com drogas e álcool | — |
 
-Na linha 11.7.3 o HHFA diz «esquizofrenia»; a nossa linha é mais larga (psicoses e esquizofrenias).
+Na linha 11.7.2 o HHFA diz «esquizofrenia»; a nossa linha é mais larga (psicoses e esquizofrenias).
 :::
 
 ::: {.enunciado .rotulado}
@@ -363,12 +358,11 @@ E para cada uma das condições de saúde mental seguintes, quais destas funçõ
 
 | Código | Condição | (a) Diagnóstico nesta unidade | (b) Início e ajuste do tratamento nesta unidade | (c) Seguimento regular, com dia marcado | (d) Aconselhamento ao doente para o autocuidado |
 |---|---|:-:|:-:|:-:|:-:|
-| 11.7.1 | Depressão e outras perturbações do humor [HHFA 3.3.6.2.1 · 3.3.6.2.2 · 3.3.6.2.3]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 11.7.2 | Perturbações de ansiedade [HHFA 3.3.6.2.7 · 3.3.6.2.8 · 3.3.6.2.9]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 11.7.3 | Psicoses e esquizofrenias [HHFA 3.3.6.2.4 · 3.3.6.2.5 · 3.3.6.2.6]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 11.7.4 | Problemas por uso de drogas ilícitas [HHFA 3.3.6.2.16 · 3.3.6.2.17 · 3.3.6.2.18]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 11.7.5 | Problemas por uso de álcool [HHFA 3.3.6.2.16 · 3.3.6.2.17 · 3.3.6.2.18]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
-| 11.7.6 | Tabagismo | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 11.7.1 | Depressão e ansiedade | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 11.7.2 | Psicoses e esquizofrenias [HHFA 3.3.6.2.4 · 3.3.6.2.5 · 3.3.6.2.6]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 11.7.3 | Problemas por uso de drogas ilícitas [HHFA 3.3.6.2.16 · 3.3.6.2.17 · 3.3.6.2.18]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 11.7.4 | Problemas por uso de álcool [HHFA 3.3.6.2.16 · 3.3.6.2.17 · 3.3.6.2.18]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 11.7.5 | Tabagismo | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
 :::
 
 ::: {.nota .interno}
@@ -414,7 +408,7 @@ Esta unidade sanitária presta algum serviço relacionado com cancro — rastrei
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que oferecem, por localização, serviços para o cancro do colo do útero, da mama, colorrectal e da próstata; cada localização dá um indicador. Cruzado com a maca de exame ginecológico (secção 8) e o espéculo (secção 9), mostra as unidades que têm a condição material para rastrear o cancro do colo do útero e não rastreiam.
+Percentagem de unidades sanitárias que oferecem serviços para o cancro do colo do útero, da mama, colorrectal e da próstata, localização a localização e função a função — do diagnóstico e rastreio ao seguimento. Cruzado com a maca de exame ginecológico (secção 8) e o espéculo (secção 9), mostra as unidades que têm a condição material para rastrear o cancro do colo do útero e não rastreiam.
 
 </details>
 
@@ -423,36 +417,39 @@ Percentagem de unidades sanitárias que oferecem, por localização, serviços p
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| 11.8.1 Cancro do colo do útero — resposta 1 (Sim) | 1.3.2.4.6 | Unidades que oferecem algum serviço para o cancro do colo do útero<br>*Percentage of facilities offering any services for cervical cancer* | Q202_15 = 1, 2 ou 3; todas as unidades |
-| 11.8.1 Cancro do colo do útero — resposta 1 (Sim) | 3.3.4.1.1 | Unidades que oferecem algum serviço para o cancro do colo do útero<br>*Percentage of facilities offering any  services for cervical cancer* | Q1527 = 1; todas as unidades |
-| 11.8.2 Cancro da mama — resposta 1 (Sim) | 1.3.2.4.7 | Unidades que oferecem algum serviço para o cancro da mama<br>*Percentage of facilities offering any services for breast cancer* | Q202_18 = 1, 2 ou 3; todas as unidades |
-| 11.8.2 Cancro da mama — resposta 1 (Sim) | 3.3.4.4.1 | Unidades que oferecem algum serviço para o cancro da mama<br>*Percentage of facilities offering any services for breast cancer* | Q1535 = 1; todas as unidades |
-| 11.8.3 Cancro colorrectal — resposta 1 (Sim) | 1.3.2.4.8 | Unidades que oferecem algum serviço para o cancro colorrectal<br>*Percentage of facilities offering any  services for colorectal cancer* | Q202_21 = 1, 2 ou 3; todas as unidades |
-| 11.8.3 Cancro colorrectal — resposta 1 (Sim) | 3.3.4.6.1 | Unidades que oferecem algum serviço para o cancro colorrectal<br>*Percentage of facilities offering any services for colorectal cancer* | Q1540 = 1; todas as unidades |
-| 11.8.4 Cancro da próstata — resposta 1 (Sim) | 1.3.2.4.9 | Unidades que oferecem algum serviço para o cancro da próstata<br>*Percentage of facilities offering any  services for prostate cancer* | Q202_24 = 1, 2 ou 3; todas as unidades |
-| 11.8.4 Cancro da próstata — resposta 1 (Sim) | 3.3.4.8.1 | Unidades que oferecem algum serviço para o cancro da próstata<br>*Percentage of facilities offering any services for prostate cancer* | Q1545 = 1; todas as unidades |
+| Linha 11.8.1 Cancro do colo do útero — qualquer coluna = Sim | 1.3.2.4.6 | Unidades que oferecem algum serviço para o cancro do colo do útero<br>*Percentage of facilities offering any services for cervical cancer* | Q202_15 = 1, 2 ou 3; todas as unidades |
+| Linha 11.8.1 Cancro do colo do útero — qualquer coluna = Sim | 3.3.4.1.1 | Unidades que oferecem algum serviço para o cancro do colo do útero<br>*Percentage of facilities offering any  services for cervical cancer* | Q1527 = 1; todas as unidades |
+| Linha 11.8.2 Cancro da mama — qualquer coluna = Sim | 1.3.2.4.7 | Unidades que oferecem algum serviço para o cancro da mama<br>*Percentage of facilities offering any services for breast cancer* | Q202_18 = 1, 2 ou 3; todas as unidades |
+| Linha 11.8.2 Cancro da mama — qualquer coluna = Sim | 3.3.4.4.1 | Unidades que oferecem algum serviço para o cancro da mama<br>*Percentage of facilities offering any services for breast cancer* | Q1535 = 1; todas as unidades |
+| Linha 11.8.3 Cancro colorrectal — qualquer coluna = Sim | 1.3.2.4.8 | Unidades que oferecem algum serviço para o cancro colorrectal<br>*Percentage of facilities offering any  services for colorectal cancer* | Q202_21 = 1, 2 ou 3; todas as unidades |
+| Linha 11.8.3 Cancro colorrectal — qualquer coluna = Sim | 3.3.4.6.1 | Unidades que oferecem algum serviço para o cancro colorrectal<br>*Percentage of facilities offering any services for colorectal cancer* | Q1540 = 1; todas as unidades |
+| Linha 11.8.4 Cancro da próstata — qualquer coluna = Sim | 1.3.2.4.9 | Unidades que oferecem algum serviço para o cancro da próstata<br>*Percentage of facilities offering any  services for prostate cancer* | Q202_24 = 1, 2 ou 3; todas as unidades |
+| Linha 11.8.4 Cancro da próstata — qualquer coluna = Sim | 3.3.4.8.1 | Unidades que oferecem algum serviço para o cancro da próstata<br>*Percentage of facilities offering any services for prostate cancer* | Q1545 = 1; todas as unidades |
 :::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-E para cada uma das localizações seguintes?
+Para cada uma das localizações de cancro seguintes, diga-me quais destas funções são prestadas nesta unidade sanitária: diagnóstico; início e ajuste do tratamento; seguimento regular dos doentes já diagnosticados, com dia marcado; e aconselhamento ao doente para o autocuidado.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler as localizações uma a uma e, para cada uma, as quatro funções. Em cada célula, marcar Sim ou Não. No cancro, o diagnóstico (a) inclui o rastreio — por exemplo a inspecção visual com ácido acético no colo do útero.
 :::
 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-- **11.8.1** Cancro do colo do útero · **11.8.2** Cancro da mama · **11.8.3** Cancro colorrectal · **11.8.4** Cancro da próstata
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-Para cada localização: 1 Sim · 2 Não
+| Código | Localização | (a) Diagnóstico nesta unidade | (b) Início e ajuste do tratamento nesta unidade | (c) Seguimento regular, com dia marcado | (d) Aconselhamento ao doente para o autocuidado |
+|---|---|:-:|:-:|:-:|:-:|
+| 11.8.1 | Cancro do colo do útero [HHFA 1.3.2.4.6 · 3.3.4.1.1]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 11.8.2 | Cancro da mama [HHFA 1.3.2.4.7 · 3.3.4.4.1]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 11.8.3 | Cancro colorrectal [HHFA 1.3.2.4.8 · 3.3.4.6.1]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 11.8.4 | Cancro da próstata [HHFA 1.3.2.4.9 · 3.3.4.8.1]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
 :::
 
 ::: {.nota .interno}
-Cinco caixas, cinco indicadores. O cancro do colo do útero é o que mais interessa à rede de cuidados primários, porque o rastreio por inspecção visual com ácido acético é factível num centro de saúde — e já temos a maca de exame ginecológico na secção 8 e o espéculo na secção 9. **Cruzando os três, passa a ser possível ver quais as unidades que têm a condição material para rastrear e não rastreiam** — que é uma lacuna de organização e não de investimento, e portanto barata de corrigir.
+O cancro do colo do útero é o que mais interessa à rede de cuidados primários, porque o rastreio por inspecção visual com ácido acético é factível num centro de saúde — e já temos a maca de exame ginecológico na secção 8 e o espéculo na secção 9. **Cruzando os três, passa a ser possível ver quais as unidades que têm a condição material para rastrear e não rastreiam** — que é uma lacuna de organização e não de investimento, e portanto barata de corrigir.
 :::
 
 ## 11.9 · Procura activa de faltosos — doenças crónicas não transmissíveis [NOVO]{.etiqueta .novo}
@@ -483,7 +480,7 @@ Quando um doente com doença crónica não transmissível — por exemplo hipert
 
 1. Sim, há registo dos faltosos e a unidade procura-os activamente
 2. Sim, a falta é registada, mas não há procura activa
-3. Não
+3. Não, não sabemos quem são os utentes de quem perdemos o seguimento do cuidado
 
 <!-- -->
 
