@@ -358,7 +358,7 @@ Quando a amostra é recolhida aqui e enviada para análise noutro local, qual é
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-1. A unidade de referência indicada em 3.2.2
+1. A unidade de referência indicada em 3.2.1
 2. Outra unidade pública do Serviço Nacional de Saúde, diferente da unidade de referência
 3. Um laboratório privado
 

@@ -15,12 +15,15 @@ População da área de abrangência da unidade sanitária e unidades para onde 
 | 3.1.1 | Origem de cada estimativa da população [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 3.1.2 | Ano de cada estimativa da população [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 3.1.3 | Total de controlo da árvore de referência [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 3.2.1 a 3.2.3 | Nó superior de cada unidade — a árvore nacional de referência [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 3.2.4 | Meio de transporte usado para transferir doentes ao nó superior [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 3.2.5 a 3.2.7 | Distância ao nó superior, no total, em estrada asfaltada e em estrada de terra ou picada [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 3.2.8 e 3.2.9 | Tempo ao nó superior, na época seca e na das chuvas [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.2.1 | Unidade de referência superior de cada unidade — a árvore nacional de referência [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.2.2 | Categoria da unidade de referência superior [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.2.3 | Código do Mapa Sanitário da unidade de referência superior [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.2.4 | Meio de transporte usado para transferir doentes à unidade de referência superior [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.2.5 a 3.2.7 | Distância à unidade de referência superior, no total, em estrada asfaltada e em estrada de terra ou picada [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.2.8 e 3.2.9 | Tempo até à unidade de referência superior, na época seca e na das chuvas [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 3.3.1 | Grupos de doentes com referência lateral, com a rede obstétrica em separado [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 3.3.2 a 3.3.6 | Unidade de referência lateral, distância e tempo até ela [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.3.2 a 3.3.4 | Unidade de referência lateral: designação, categoria e código [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 3.3.5 e 3.3.6 | Distância e tempo até à unidade de referência lateral [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 3.4 a 3.9 | Funcionamento do sistema de referência [(parqueado; 6 indicadores do HHFA)]{.hhfa} |
 
 </details>
@@ -171,7 +174,7 @@ A que ano se refere essa estimativa?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Total de controlo da árvore de referência. Confrontado com o número de unidades que indicam esta como nó superior, mostra se faltam fichas e em que município procurar.
+Total de controlo da árvore de referência. Confrontado com o número de unidades que indicam esta como unidade de referência superior, mostra se faltam fichas e em que município procurar.
 
 </details>
 
@@ -203,12 +206,12 @@ Quantas unidades sanitárias referem habitualmente doentes para esta unidade?
 É o total de controlo da árvore de referência: permite confrontar o que cada unidade declara receber com o que as outras declaram enviar. Divergências entre os dois lados são informação sobre o funcionamento real da rede, não erros a corrigir.
 :::
 
-## 3.2.1 a 3.2.3 Nó superior da referência [ALTERADO]{.etiqueta .alterado}
+## 3.2.1 Unidade de referência superior — designação [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-A unidade para onde cada unidade transfere os doentes que precisam de cuidados de nível superior. Com o código do Mapa Sanitário, a árvore de referência nacional reconstrói-se a partir das fichas — e com ela, por exemplo, a proporção de postos cujo centro de referência tem laboratório ou assiste partos.
+A unidade para onde cada unidade transfere os doentes que precisam de cuidados de nível superior. Com a categoria (3.2.2) e o código (3.2.3), reconstrói-se a árvore de referência nacional — e com ela, por exemplo, a proporção de postos cujo centro de referência tem laboratório ou assiste partos.
 
 </details>
 
@@ -221,28 +224,94 @@ A unidade para onde cada unidade transfere os doentes que precisam de cuidados d
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**3.2.1** Para que unidade sanitária são habitualmente transferidos os doentes desta unidade que necessitam de cuidados de nível superior?
-
-**3.2.2** Designação dessa unidade. **3.2.3** Código do Mapa Sanitário dessa unidade.
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Preenchimento obrigatório: indicar uma só unidade de referência superior. Categoria segundo a lista do Mapa Sanitário.
+Para que unidade sanitária são habitualmente transferidos os doentes desta unidade que precisam de cuidados de nível superior?
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- **3.2.1** Categoria: lista de 6 (CS, CMI, CSR, HM, HP e hospital de referência ou nacional)
-- **3.2.2** Designação: texto
-- **3.2.3** Código: 6 dígitos
+Nome da unidade sanitária (texto). Na versão digital, seleccionar a unidade na lista do Mapa Sanitário.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Preenchimento obrigatório. Indicar uma só unidade: a que recebe a maior parte dos doentes transferidos desta unidade.
 :::
 
 ::: {.nota .interno}
-**Porque mudou.** A Ficha oferece duas filas para duas unidades de referência. A proposta dá a cada uma um papel próprio e separa o nó superior, que é obrigatório e único, da referência lateral de 3.3, que é opcional e definida por grupo de doentes. O acrescento com mais consequência é **3.2.3, o código**: com ele, a árvore de referência nacional passa a ser reconstruível a partir das fichas, sem depender da grafia com que cada unidade escreve o nome do hospital de destino.
+**Porque mudou.** A Ficha oferece duas filas para duas unidades de referência. A proposta separa o nó superior, obrigatório e único, da referência lateral de 3.3, opcional e definida por grupo de doentes. Cada informação passa a ter o seu quesito: a designação (3.2.1), a categoria (3.2.2) e o código (3.2.3), que é o acrescento com mais consequência — com ele, a árvore de referência deixa de depender da grafia com que cada unidade escreve o nome do hospital de destino.
 :::
 
-## 3.2.4 Meio de transporte ao nó superior [NOVO]{.etiqueta .novo}
+## 3.2.2 Unidade de referência superior — categoria [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+O nível da unidade para onde cada unidade transfere os doentes que precisam de cuidados de nível superior: permite ver, por exemplo, quantos postos referem directamente para um hospital e quantos para um centro de saúde de referência.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Categoria da unidade indicada em 3.2.1, segundo a classificação do Mapa Sanitário.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+2. Centro de Saúde (CS)
+3. Centro Materno-Infantil (CMI)
+4. Centro de Saúde de Referência (CSR)
+5. Hospital Municipal (HM)
+6. Hospital Geral (HG)
+7. Hospital Provincial (HP)
+8. Hospital Regional (HR)
+9. Hospital Nacional ou Central (HN)
+10. Estabelecimento e Serviço Especial (ESE)
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Na versão digital, a categoria é preenchida automaticamente quando a unidade é seleccionada na lista em 3.2.1. Se a unidade não constar da lista, perguntar a categoria ao respondente e registá-la. A lista é a mesma de 2.7, sem o posto de saúde.
+:::
+
+## 3.2.3 Unidade de referência superior — código do Mapa Sanitário [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Liga cada unidade à sua unidade de referência sem depender da grafia do nome, o que permite reconstruir a árvore de referência nacional a partir das fichas.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
+
+::: {.enunciado .rotulado}
+[Campo · registado pelo sistema digital]{.rotulo}
+
+Código do Mapa Sanitário da unidade indicada em 3.2.1.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Código, 6 dígitos
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Na versão digital, o código é preenchido automaticamente quando a unidade é seleccionada na lista em 3.2.1. Na versão em papel, copiar o código da lista do Mapa Sanitário. Se a unidade não constar da lista, deixar em branco e escrever «fora da lista».
+:::
+
+## 3.2.4 Meio de transporte à unidade de referência superior [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -284,7 +353,7 @@ Qual é o meio de transporte mais frequentemente utilizado para transferir doent
 **O meio de transporte** (3.2.4) é novo e pergunta pelo que de facto se usa, não pelo que deveria usar-se. A opção 5, transporte pago pelo doente, e a opção 6, a pé ou em maca, são respostas frequentes no terreno, que passam a ter opção própria.
 :::
 
-## 3.2.5 Distância total ao nó superior [ALTERADO]{.etiqueta .alterado}
+## 3.2.5 Distância total à unidade de referência superior [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -363,7 +432,7 @@ Quantos são em estrada de terra ou picada.
 **Verificação a programar.** A soma de 3.2.6 e 3.2.7 deve ser igual a 3.2.5.
 :::
 
-## 3.2.8 Tempo ao nó superior na época seca [ALTERADO]{.etiqueta .alterado}
+## 3.2.8 Tempo à unidade de referência superior na época seca [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -390,7 +459,7 @@ Tempo em minutos na época seca.
 - Minutos, 3 dígitos; **997** se intransitável, **998** se não sabe
 :::
 
-## 3.2.9 Tempo ao nó superior na época das chuvas [NOVO]{.etiqueta .novo}
+## 3.2.9 Tempo à unidade de referência superior na época das chuvas [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -465,12 +534,12 @@ Esta unidade envia habitualmente algum grupo específico de doentes para uma uni
 **Porque mudou.** A segunda fila da Ficha passa a ser uma referência qualificada: além de saber para onde, passa a saber-se **para quem**. O próprio Guião dá o exemplo — o envio das grávidas ao Centro Materno Infantil —, e a proposta passa a recolher o motivo, para que a segunda unidade de referência possa ser interpretada.
 :::
 
-## 3.3.2 a 3.3.4 Unidade de referência lateral [ALTERADO]{.etiqueta .alterado}
+## 3.3.2 Unidade de referência lateral — designação [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Para onde cada unidade envia o grupo de doentes indicado em 3.3.1.
+Para onde cada unidade envia o grupo de doentes indicado em 3.3.1 — por exemplo, as grávidas enviadas a um centro materno-infantil. Com a categoria (3.3.3) e o código (3.3.4), a rede obstétrica pode ser mapeada separadamente da rede geral.
 
 </details>
 
@@ -483,13 +552,87 @@ Para onde cada unidade envia o grupo de doentes indicado em 3.3.1.
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-**3.3.2** Categoria. **3.3.3** Designação. **3.3.4** Código do Mapa Sanitário.
+Para que unidade sanitária são habitualmente enviados os doentes do grupo indicado em 3.3.1?
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- **3.3.2** a **3.3.4**: como no nó superior
+Nome da unidade sanitária (texto). Na versão digital, seleccionar a unidade na lista do Mapa Sanitário.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Indicar a unidade que recebe esse grupo de doentes. Se forem vários grupos com destinos diferentes, registar o grupo com mais doentes.
+:::
+
+## 3.3.3 Unidade de referência lateral — categoria [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+O nível da unidade para onde cada unidade envia o grupo de doentes indicado em 3.3.1: permite ver, por exemplo, quantos postos referem directamente para um hospital e quantos para um centro de saúde de referência.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Categoria da unidade indicada em 3.3.2, segundo a classificação do Mapa Sanitário.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+2. Centro de Saúde (CS)
+3. Centro Materno-Infantil (CMI)
+4. Centro de Saúde de Referência (CSR)
+5. Hospital Municipal (HM)
+6. Hospital Geral (HG)
+7. Hospital Provincial (HP)
+8. Hospital Regional (HR)
+9. Hospital Nacional ou Central (HN)
+10. Estabelecimento e Serviço Especial (ESE)
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Na versão digital, a categoria é preenchida automaticamente quando a unidade é seleccionada na lista em 3.3.2. Se a unidade não constar da lista, perguntar a categoria ao respondente e registá-la. A lista é a mesma de 2.7, sem o posto de saúde.
+:::
+
+## 3.3.4 Unidade de referência lateral — código do Mapa Sanitário [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Liga cada unidade à sua unidade de referência sem depender da grafia do nome, o que permite reconstruir a árvore de referência nacional a partir das fichas.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
+
+::: {.enunciado .rotulado}
+[Campo · registado pelo sistema digital]{.rotulo}
+
+Código do Mapa Sanitário da unidade indicada em 3.3.2.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Código, 6 dígitos
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Na versão digital, o código é preenchido automaticamente quando a unidade é seleccionada na lista em 3.3.2. Na versão em papel, copiar o código da lista do Mapa Sanitário. Se a unidade não constar da lista, deixar em branco e escrever «fora da lista».
 :::
 
 ## 3.3.5 Distância à referência lateral [ALTERADO]{.etiqueta .alterado}
