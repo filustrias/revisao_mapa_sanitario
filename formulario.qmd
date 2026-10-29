@@ -1,30 +1,30 @@
 ---
-title: "O formulário, com comentários"
+title: "Sobre o formulário"
 ---
 
 {{< include _legenda.qmd >}}
 
-O formulário está dividido em 18 secções, pela ordem em que o inquiridor o percorre. Cada secção pode ser lida e discutida por si, numa sessão de revisão. Cada quesito mostra, em pequeno, o código que tinha na versão anterior; a tabela completa está em «Correspondência de códigos».
+O formulário está dividido em 18 secções, pela ordem em que o inquiridor o percorre. Cada secção pode ser lida e discutida por si, numa sessão de revisão.
 
-Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário curto já com o código do quesito preenchido. Os comentários vão para a mesma folha de respostas, um por linha, e são depois cruzados com a matriz pelo código.
+Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário curto já com o código do quesito preenchido. As [Orientações aos revisores](revisores.qmd) explicam como comentar.
 
 | Secção | Conteúdo |
 |---|---|
-| [Secção 1](formulario/01-identificacao.qmd) | Identificação e finalização da recolha |
-| [Secção 2](formulario/02-localizacao.qmd) | Localização |
-| [Secção 3](formulario/03-populacao-referencia.qmd) | População e sistema de referência |
-| [Secção 4](formulario/04-construcao-estado-fisico.qmd) | Construção e estado físico |
-| [Secção 5](formulario/05-agua-energia-saneamento.qmd) | Água, energia, saneamento e resíduos |
-| [Secção 6](formulario/06-conectividade.qmd) | Conectividade e meios informáticos |
-| [Secção 7](formulario/07-camas.qmd) | Camas e equipamentos de exame |
-| [Secção 8](formulario/08-aparelhos.qmd) | Aparelhos médico-cirúrgicos |
-| [Secção 9](formulario/09-transportes.qmd) | Meios de transporte |
-| [Secção 10](formulario/10-clinicos-cirurgicos.qmd) | Serviços clínicos e cirúrgicos |
-| [Secção 11](formulario/11-doencas-cronicas.qmd) | Doenças crónicas não transmissíveis |
-| [Secção 12](formulario/12-diagnostico-apoio.qmd) | Diagnóstico e serviços de apoio |
-| [Secção 13](formulario/13-crianca-vacinacao.qmd) | Saúde da criança e vacinação |
-| [Secção 14](formulario/14-materna-neonatal-pf.qmd) | Saúde materna, do recém-nascido e planeamento familiar |
-| [Secção 15](formulario/15-vih-tb-malaria.qmd) | VIH, tuberculose e malária |
-| [Secção 16](formulario/16-accao-comunitaria.qmd) | Acção comunitária |
-| [Secção 17](formulario/17-gestao.qmd) | Gestão |
-| [Secção 18](formulario/18-servicos-gerais.qmd) | Serviços gerais |
+| [Secção 1](formulario/01-identificacao.qmd) | Identificação e finalização da recolha. Data, hora e forma da recolha, quem recolheu os dados e quem respondeu. |
+| [Secção 2](formulario/02-localizacao.qmd) | Localização. Província, município, endereço, categoria da unidade e coordenadas geográficas. |
+| [Secção 3](formulario/03-populacao-referencia.qmd) | População e sistema de referência. População adstrita e distância e tempo até às unidades de referência. |
+| [Secção 4](formulario/04-construcao-estado-fisico.qmd) | Construção e estado físico. Edifícios, superfície, ano e material de construção e estado de conservação. |
+| [Secção 5](formulario/05-agua-energia-saneamento.qmd) | Água, energia, saneamento e resíduos. Fontes de água e electricidade, saneamento e destino dos resíduos comuns e hospitalares. |
+| [Secção 6](formulario/06-conectividade.qmd) | Conectividade e meios informáticos. Rede móvel, internet, equipamento informático e uso de bases de dados. |
+| [Secção 7](formulario/07-camas.qmd) | Camas e equipamentos de exame. Camas de internamento por enfermaria e por sexo, camas de observação e macas. |
+| [Secção 8](formulario/08-aparelhos.qmd) | Aparelhos médico-cirúrgicos. Número de aparelhos por tipo e verificação do equipamento básico. |
+| [Secção 9](formulario/09-transportes.qmd) | Meios de transporte. Veículos por tipo e estado de funcionamento, e manutenção de rotina. |
+| [Secção 10](formulario/10-clinicos-cirurgicos.qmd) | Serviços clínicos e cirúrgicos. Atendimento nas 28 especialidades, sobreviventes de violência e cirurgia. |
+| [Secção 11](formulario/11-doencas-cronicas.qmd) | Doenças crónicas não transmissíveis. Serviços por família de condições — cardiovasculares, endócrinas, respiratórias, renal, neurológicas, saúde mental e cancro. |
+| [Secção 12](formulario/12-diagnostico-apoio.qmd) | Diagnóstico e serviços de apoio. Testes rápidos, laboratório, imagiologia, procedimentos e serviços de urgência. |
+| [Secção 13](formulario/13-crianca-vacinacao.qmd) | Saúde da criança e vacinação. Vacinação de rotina, antigénios oferecidos e cuidados à criança menor de 5 anos. |
+| [Secção 14](formulario/14-materna-neonatal-pf.qmd) | Saúde materna, do recém-nascido e planeamento familiar. Consulta pré-natal, partos, cuidados ao recém-nascido e métodos contraceptivos. |
+| [Secção 15](formulario/15-vih-tb-malaria.qmd) | VIH, tuberculose e malária. Testagem, profilaxia e tratamento do VIH, diagnóstico e seguimento da tuberculose, e malária. |
+| [Secção 16](formulario/16-accao-comunitaria.qmd) | Acção comunitária. Redes mosquiteiras, brigadas móveis e articulação com os ADECOS. |
+| [Secção 17](formulario/17-gestao.qmd) | Gestão. Propriedade, órgãos de gestão, revisão de casos e de óbitos, controlo de infecções e qualidade. |
+| [Secção 18](formulario/18-servicos-gerais.qmd) | Serviços gerais. Transporte de emergência, serviços de apoio e opinião dos utentes. |

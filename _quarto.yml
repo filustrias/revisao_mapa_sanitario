@@ -3,13 +3,13 @@ project:
   output-dir: docs
   resources:
     - .nojekyll
+    - unidade_sanitaria_rural.jpeg
 
 lang: pt
 
 book:
-  title: "Mapa Sanitário — proposta de revisão do formulário"
-  subtitle: "Ficha de Cadastramento de Unidades Sanitárias · versão 2 · documento para revisão"
-  author: "GEPE/MINSA · OMS Angola · projecto HIIP"
+  title: "Revisão da segunda versão do Mapa Sanitário (2026)"
+  author: "Equipa do GEPE/MINSA, com apoio da OMS Angola"
   date: today
   date-format: long
   search: true
@@ -17,7 +17,10 @@ book:
     style: docked
     collapse-level: 2
   chapters:
-    - index.qmd
+    - text: "Capa"
+      href: index.qmd
+    - apresentacao.qmd
+    - revisores.qmd
     - formulario.qmd
     - formulario/01-identificacao.qmd
     - formulario/02-localizacao.qmd

@@ -1,0 +1,35 @@
+---
+title: "Orientações aos revisores"
+---
+
+## O que se pede a cada revisor
+
+Pedimos-lhe que leia o formulário e diga onde há problemas: uma pergunta pouco clara, opções de resposta que faltam ou sobram, um salto no lugar errado, um termo que não se usa em Angola, uma pergunta que não chega às unidades certas.
+
+- **Não precisa de comentar todos os quesitos.** Comente apenas aqueles em que acredita haver um problema. Se não houver problema no quesito, não comente e passe para o seguinte.
+- **Não precisa de rever o formulário inteiro.** Se não tiver tempo disponível, vá directamente à secção de maior interesse para si e àquela em que tem maior experiência e envolvimento. A lista das secções está em [Sobre o formulário](formulario.qmd).
+- **Leia a [Nota de apresentação](apresentacao.qmd) antes de começar**, sobretudo «Um formulário único para toda a rede» e «Três convenções». Explicam por que há tantas perguntas e por que a maior parte delas não chega a cada unidade.
+
+## Como enviar comentários
+
+Cada quesito tem ao lado um botão **💬 Comentar**, e cada secção, junto ao título, um botão **Comentar este capítulo** para comentários gerais.
+
+1. **Na primeira vez**, o botão pede o seu nome, email e instituição. Ficam guardados neste navegador e são preenchidos automaticamente nos comentários seguintes.
+2. **O formulário de comentário abre-se por cima da página**, já com o código do quesito preenchido. Escolha o tipo de comentário, escreva o comentário e envie.
+3. **A janela fecha-se sozinha** depois do envio, e o botão do quesito fica assinalado.
+
+Para que um comentário seja accionável, basta que diga **o que deve mudar e porquê**. Exemplos do tipo de observação mais útil:
+
+- «A vacina X não faz parte do calendário nacional; retirar esta linha.»
+- «A opção 3 não se distingue da opção 2 na prática; juntar as duas.»
+- «Nos postos de saúde ninguém saberá responder a esta pergunta; deve ser feita só a partir do centro de saúde.»
+
+São igualmente úteis, e talvez mais, os comentários sobre **sequência e carga de resposta**: se um bloco está no lugar errado do percurso, se uma porta deveria vir antes, se uma grelha é longa demais para ser respondida com cuidado no fim de uma visita de duas horas.
+
+Os comentários são reunidos numa única folha, um por linha, e analisados quesito a quesito pela equipa do GEPE/MINSA e da OMS Angola.
+
+## Uma nota final sobre o tom desta proposta
+
+A Ficha 19_01 e o seu Guião são um instrumento sólido e, em dois lugares, mais exigente do que o padrão internacional: a Ficha **conta** camas, aparelhos e veículos, enquanto o instrumento da OMS se limita a verificar a presença de um. Essa granularidade é informação de planeamento que não existe em nenhum instrumento internacional e foi integralmente preservada.
+
+A proposta faz três coisas, e nenhuma delas é substituir: dá campo próprio, no formulário, a instruções que o Guião já contém; dá uma caixa a cada informação que se pretende ler em separado; e acrescenta perguntas onde a comparação internacional fica barata. O que o instrumento actual já recolhe mantém-se.

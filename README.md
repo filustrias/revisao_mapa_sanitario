@@ -8,8 +8,10 @@ GEPE/MINSA · OMS Angola · projecto HIIP
 
 | Ficheiro | Conteúdo |
 |---|---|
-| `index.qmd` | Nota de apresentação e orientações de leitura — o que é o documento, como ler um quesito, as convenções de desenho, o que ficou parqueado, as decisões em aberto, as pendências a pedir ao MINSA e como enviar comentários |
-| `formulario.qmd` | Página de entrada do formulário, com a lista dos capítulos |
+| `index.qmd` | Capa: título, fotografia (`unidade_sanitaria_rural.jpeg`), autores e entrada no documento |
+| `apresentacao.qmd` | Nota de apresentação e orientações de leitura — o que é o documento, como ler um quesito, as convenções de desenho, o que ficou parqueado, as decisões em aberto e as pendências a pedir ao MINSA |
+| `revisores.qmd` | Orientações aos revisores — o que se pede, como enviar comentários e a nota sobre o tom da proposta |
+| `formulario.qmd` | «Sobre o formulário»: página de entrada, com a lista das 18 secções |
 | `formulario/` | O formulário em 18 secções, por tema, quesito a quesito: enunciado, opções de resposta e comentário |
 | `_legenda.qmd` | Legenda das caixas e etiquetas, incluída no topo de cada capítulo |
 | `comentar.html` | Botão «Comentar» ao lado de cada quesito, que abre o Google Forms com o quesito, o nome e o email preenchidos; o link do formulário configura-se em `FORMULARIO` |
