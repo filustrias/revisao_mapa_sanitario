@@ -16,9 +16,9 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 4](formulario/04-construcao-estado-fisico.qmd) | Construção e estado físico. Edifícios, superfície, ano e material de construção e estado de conservação. |
 | [Secção 5](formulario/05-agua-energia-saneamento.qmd) | Água, energia, saneamento e resíduos. Fontes de água e electricidade, saneamento e destino dos resíduos comuns e hospitalares. |
 | [Secção 6](formulario/06-conectividade.qmd) | Conectividade e meios informáticos. Rede móvel, internet, equipamento informático e uso de bases de dados. |
-| [Secção 7](formulario/07-camas.qmd) | Camas e equipamentos de exame. Camas de internamento por enfermaria e por sexo, camas de observação e macas. |
-| [Secção 8](formulario/08-aparelhos.qmd) | Aparelhos médico-cirúrgicos. Número de aparelhos por tipo e verificação do equipamento básico. |
-| [Secção 9](formulario/09-transportes.qmd) | Meios de transporte. Veículos por tipo e estado de funcionamento, e manutenção de rotina. |
+| [Secção 7](formulario/07-transportes.qmd) | Meios de transporte. Veículos por tipo e estado de funcionamento, e manutenção de rotina. |
+| [Secção 8](formulario/08-camas.qmd) | Camas e equipamentos de exame. Camas instaladas por serviço — enfermarias, cuidados intensivos, isolamento, hospital de dia e observação — e macas. |
+| [Secção 9](formulario/09-aparelhos.qmd) | Aparelhos médico-cirúrgicos. Número de aparelhos por tipo e verificação do equipamento básico. |
 | [Secção 10](formulario/10-clinicos-cirurgicos.qmd) | Serviços clínicos e cirúrgicos. Atendimento nas 28 especialidades, sobreviventes de violência e cirurgia. |
 | [Secção 11](formulario/11-doencas-cronicas.qmd) | Doenças crónicas não transmissíveis. Serviços por família de condições — cardiovasculares, endócrinas, respiratórias, renal, neurológicas, saúde mental e cancro. |
 | [Secção 12](formulario/12-diagnostico-apoio.qmd) | Diagnóstico e serviços de apoio. Testes rápidos, laboratório, imagiologia, procedimentos e serviços de urgência. |

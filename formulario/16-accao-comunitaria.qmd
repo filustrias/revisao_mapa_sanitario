@@ -100,7 +100,7 @@ Mantêm-se integralmente, com as definições do Guião — incluindo as três e
 
 **Contributo próprio do Mapa Sanitário.** A actividade extramural e as brigadas móveis organizadas pela unidade são uma parte importante dos cuidados primários num país com a densidade populacional de Angola.
 
-**Articula-se com a secção 9:** as motorizadas e as bicicletas da Ficha são, em muitas unidades, o meio exacto com que isto se faz.
+**Articula-se com a secção 7:** as motorizadas e as bicicletas da Ficha são, em muitas unidades, o meio exacto com que isto se faz.
 :::
 
 ## 16.3 · Equipas avançadas de vacinação [MANTÉM-SE]{.etiqueta .mantem}

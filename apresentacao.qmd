@@ -34,12 +34,12 @@ Vale ver isto com números concretos, porque é a diferença entre um formulári
 - a porta da imagiologia (12.A.0) fecha a grelha dos exames de imagem — **8 caixas**;
 - a porta dos partos (14.2) fecha as duas caixas de CONU, a grelha das nove funções-sinal e a cobertura permanente — **12 caixas**;
 - a porta da cirurgia (10.29) fecha os procedimentos de pequena e de grande cirurgia, as salas de operações e as especialidades cirúrgicas — **41 caixas**;
-- a porta do internamento (7.1) fecha os grupos de internamento da grelha de camas — **20 linhas** — e, na secção de gestão, o bloco de revisão de casos e de óbitos;
+- a porta do internamento (8.1) fecha os grupos de internamento da grelha de camas — **20 linhas** — e, na secção de gestão, o bloco de revisão de casos e de óbitos;
 - a porta das doenças crónicas não transmissíveis (11.1), se a unidade não as acompanhar, fecha a secção 11 inteira — **29 condições em seis grelhas, 116 caixas**, mais o cancro e a procura de faltosos; a do cancro, sozinha, **4**; a dos sobreviventes de violência, **11**; a do recém-nascido pequeno ou doente, **10**.
 
 Só nestes blocos são mais de **280 caixas que a unidade não vê**. Um posto de saúde fecha ainda mais: sem vacinação de rotina com periodicidade fixa saltam as 19 caixas dos antigénios; sem tratamento antirretroviral saltam 7; sem serviços de tuberculose, 7.
 
-**O inverso também acontece.** A secção de aparelhos médico-cirúrgicos — secção 9 da Ficha, secção 8 desta proposta, 39 caixas — é hoje dirigida apenas a centros e postos de saúde, por instrução expressa do Guião (folha 17), pelo que um hospital não a percorre. O formulário adapta-se nos dois sentidos.
+**O inverso também acontece.** A secção de aparelhos médico-cirúrgicos — secção 9 tanto na Ficha como nesta proposta, 39 caixas — é hoje dirigida apenas a centros e postos de saúde, por instrução expressa do Guião (folha 17), pelo que um hospital não a percorre. O formulário adapta-se nos dois sentidos.
 
 A leitura prática, para a revisão: **não avalie o volume total, avalie o volume por tipo de unidade.** A pergunta útil não é «são muitas perguntas?», mas «quantas destas perguntas chegam de facto a um posto de saúde do Cuanza Sul, e são as certas?».
 
@@ -93,7 +93,7 @@ Algumas famílias de informação ficaram deliberadamente fora desta versão. N�
 As três primeiras dependem de **verificação física**, e a arquitectura desta versão é autorreferida:
 
 - **Medicamentos** (12.10). O que interessa à farmácia não é a existência do serviço mas a presença observada dos produtos na prateleira, dentro da validade. Merece decisão própria, apoiada na Lista Nacional de Medicamentos Essenciais. Quatro medicamentos entram desde já, porque a Ficha já os pergunta como actividade de programa: a vitamina A, o albendazol, os sais de reidratação oral e o alimento terapêutico, todos na secção 13.
-- **Cadeia de frio** (13.1.4). Exige ver o frigorífico a funcionar e ler o termómetro no dia da visita. A contagem de geleiras e arcas, que a Ficha já faz na secção de aparelhos (secção 8), mantém-se intacta.
+- **Cadeia de frio** (13.1.4). Exige ver o frigorífico a funcionar e ler o termómetro no dia da visita. A contagem de geleiras e arcas, que a Ficha já faz na secção de aparelhos (secção 9), mantém-se intacta.
 - **Esterilização** (12.14). Interessa saber qual o método, se o autoclave funciona no dia da visita, se há indicador de processo e se o pessoal foi formado — tudo matéria de observação.
 
 Ficam ainda parqueados:
@@ -110,8 +110,8 @@ Estas são as questões em aberto. Estão assinaladas no texto com a etiqueta [A
 2. **Cuidados ao recém-nascido pequeno ou doente** (14.3.2.0 a 14.3.2.10). São 11 caixas, todas declaradas. É a maior lacuna da proposta no que respeita ao recém-nascido.
 3. **Tipos de informação em base de dados** (6.3.2). É a informação que muda mais depressa em todo o formulário; falta decidir se entra já ou se fica para as recolhas com visita.
 4. **Interrupção da gravidez** (10.E.3.7 e 10.E.3.8). As duas linhas devem ser confirmadas contra o quadro legal angolano antes de irem a terreno. Se a prestação não for legalmente possível, as duas linhas saem.
-5. **Âmbito da secção 8** (aparelhos médico-cirúrgicos). O Guião restringe a secção a centros e postos de saúde, com fundamento. Mantendo a restrição, perde-se a leitura do equipamento no topo da árvore de referência.
-6. **Frota ao nível municipal** (secção 9). Para a maioria das unidades de cuidados primários, o que decide a evacuação de um doente não é a unidade ter viatura própria mas o município ter uma viatura disponível — pelo que importa decidir se a frota municipal deve ser recolhida, e onde.
+5. **Âmbito da secção 9** (aparelhos médico-cirúrgicos). O Guião restringe a secção a centros e postos de saúde, com fundamento. Mantendo a restrição, perde-se a leitura do equipamento no topo da árvore de referência.
+6. **Frota ao nível municipal** (secção 7). Para a maioria das unidades de cuidados primários, o que decide a evacuação de um doente não é a unidade ter viatura própria mas o município ter uma viatura disponível — pelo que importa decidir se a frota municipal deve ser recolhida, e onde.
 7. **Unidades de ensino** (17.2.8 e 17.2.9). Propõe-se um quesito que registe se a unidade acolhe formação de estudantes, internos, médicos em especialização ou técnicos de saúde.
 8. **Bloco de manutenção** (18.8). São cerca de 25 caixas, cobrindo a manutenção de 9 sistemas de infraestrutura e de 11 tipos de equipamento. Está parqueado, mas a decisão de o activar agora é legítima.
 

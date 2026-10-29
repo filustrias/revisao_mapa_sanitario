@@ -20,7 +20,7 @@ Notas de justificação de cada quesito (porque mudou, de onde vem, para que ser
 
 ### 1.4 Forma de recolha
 
-**É o campo que faz funcionar toda a arquitectura da proposta.** A grelha de verificação da secção 8 e as colunas «a funcionar» das secções 7 e 8 aplicam-se apenas às unidades visitadas. Sem este campo não é possível saber, na análise, se uma célula vazia significa «não tem» ou «não foi verificado».
+**É o campo que faz funcionar toda a arquitectura da proposta.** A grelha de verificação da secção 9 e as colunas «a funcionar» das secções 8 e 9 aplicam-se apenas às unidades visitadas. Sem este campo não é possível saber, na análise, se uma célula vazia significa «não tem» ou «não foi verificado».
 
 **Consequência analítica.** Permite calcular os indicadores com o denominador correcto — apenas as unidades em que a verificação foi efectivamente possível — em vez de misturar observação e declaração numa mesma percentagem. Uma caixa resolve isto para todo o instrumento.
 
@@ -244,7 +244,7 @@ Mantém-se a especificação da causa, que o Guião já pede. Acrescenta-se o pe
 
 ### 6.2.1 a 6.2.6 Equipamento informático e telefone
 
-**Para que serve.** Segue a lógica usada para os veículos na secção 9: quantos existem e quantos funcionam. A bateria de apoio entra porque, com os cortes de energia medidos em 5.2.3, é ela que decide se um registo em curso se perde.
+**Para que serve.** Segue a lógica usada para os veículos na secção 7: quantos existem e quantos funcionam. A bateria de apoio entra porque, com os cortes de energia medidos em 5.2.3, é ela que decide se um registo em curso se perde.
 
 ### 6.3.2 Tipos de informação em base de dados
 
@@ -266,95 +266,95 @@ Mantém-se a especificação da causa, que o Guião já pede. Acrescenta-se o pe
 
 **Para que serve.** Lidas ao lado do equipamento e dos sistemas, 6.4.1 e 6.4.2 mostram as unidades que têm meios informáticos mas ninguém designado para os usar.
 
-## Secção 7 — Camas e equipamentos de exame
+## Secção 8 — Camas e equipamentos de exame
 
-### 7.0.1 Internamento — porta
+### 8.0.1 Internamento — porta
 
 **Porque é necessária.** A porta antecede a contagem de camas: com ela, uma unidade sem internamento salta as perguntas sobre camas de internamento e responde apenas às que se aplicam a todas as unidades.
 
-### 7.1.1 Camas de internamento de adulto
+### 8.1.1 Camas de internamento de adulto
 
-**Porque mudou.** Mantém-se a definição do Guião. Acrescenta-se apenas «de tamanho adulto», para separar estas camas das pediátricas, contadas em 7.1.2.
+**Porque mudou.** Mantém-se a definição do Guião. Acrescenta-se apenas «de tamanho adulto», para separar estas camas das pediátricas, contadas em 8.1.2.
 
-### 7.1.2 Camas pediátricas e berços de lactentes
+### 8.1.2 Camas pediátricas e berços de lactentes
 
-**Porque é necessária.** As camas pediátricas passam a ter contagem própria. Aqui contam-se pelo tamanho da cama; em 7.2 contam-se também pela enfermaria. As duas leituras servem fins diferentes e ambas ficam disponíveis.
+**Porque é necessária.** As camas pediátricas passam a ter contagem própria. Aqui contam-se pelo tamanho da cama; em 8.2 contam-se também pela enfermaria. As duas leituras servem fins diferentes e ambas ficam disponíveis.
 
-### 7.1.3 Berços para recém-nascidos
+### 8.1.3 Berços para recém-nascidos
 
-**Porque mudou.** O quesito já existe. Acrescenta-se o momento de referência — o dia da visita — e a distinção face aos berços de lactentes de 7.1.2, para que a mesma criança não seja contada duas vezes.
+**Porque mudou.** O quesito já existe. Acrescenta-se o momento de referência — o dia da visita — e a distinção face aos berços de lactentes de 8.1.2, para que a mesma criança não seja contada duas vezes.
 
-### 7.1.4 Camas autorizadas
+### 8.1.4 Camas autorizadas
 
 **Para que serve.** A distância entre as camas autorizadas e as instaladas é informação de planeamento que passa a ficar disponível.
 
-**Verificação a programar.** Assinalar quando 7.1.1 for maior que 7.1.4.
+**Verificação a programar.** Assinalar quando 8.1.1 for maior que 8.1.4.
 
-### 7.2 Camas por enfermaria ou serviço
+### 8.2 Camas por enfermaria ou serviço
 
 **Porque é necessária.** Ao total de camas da Ficha acrescenta-se a distribuição por enfermaria, que mostra que serviços de internamento cada unidade tem de facto e com que dimensão.
 
-**Verificações a programar.** A soma das linhas de adulto não pode exceder 7.1.1; a linha 11 não pode exceder 7.1.2; a linha 12 não pode exceder 7.1.3.
+**Verificações a programar.** A soma das linhas de adulto não pode exceder 8.1.1; a linha 11 não pode exceder 8.1.2; a linha 12 não pode exceder 8.1.3.
 
-### 7.2b Camas de adulto por sexo da enfermaria
+### 8.2b Camas de adulto por sexo da enfermaria
 
-**Porque é necessária.** A mesma cama é classificada por enfermaria ou serviço em 7.2 e por sexo da enfermaria aqui, em duas perguntas separadas sobre o mesmo total. Assim cada caixa tem uma resposta única, sem obrigar a cruzar os dois critérios numa só grelha.
+**Porque é necessária.** A mesma cama é classificada por enfermaria ou serviço em 8.2 e por sexo da enfermaria aqui, em duas perguntas separadas sobre o mesmo total. Assim cada caixa tem uma resposta única, sem obrigar a cruzar os dois critérios numa só grelha.
 
-**Verificação a programar.** A soma das três linhas deve ser igual a 7.1.1.
+**Verificação a programar.** A soma das três linhas deve ser igual a 8.1.1.
 
-### 7.3.1 Camas de observação
+### 8.3.1 Camas de observação
 
 **Porque mudou.** O Guião já distingue a observação até 24 horas da curta estadia até 72 horas; a proposta segue essa distinção e dá uma caixa a cada uma.
 
-### 7.3.3 Camas de observação com pernoita
+### 8.3.3 Camas de observação com pernoita
 
 **Para que serve.** O Guião exclui as camas de observação das camas de internamento. Com este campo ficam disponíveis as duas leituras: a nacional, que mantém a série das edições anteriores, e a que soma às camas de internamento as camas de observação em que os doentes pernoitam.
 
-### 7.4 Macas, marquesas e cadeiras de estomatologia
+### 8.4 Macas, marquesas e cadeiras de estomatologia
 
 **Porque mudou.** As marquesas de parto e as cadeiras de estomatologia, que a Ficha conta junto das camas, passam a ter pergunta própria: a cama é lugar de estadia, a maca é lugar de exame. Acrescentam-se a maca para exame físico e a maca ou mesa para exame ginecológico, e a coluna «a funcionar» estende a todos os equipamentos a indicação do Guião sobre o estado de funcionamento da cadeira de estomatologia.
 
-### 7.5 Camas em armazém ou fora de uso
+### 8.5 Camas em armazém ou fora de uso
 
-**Porque é necessária.** Como o Guião prevê, as camas guardadas em armazém registam-se «aparte»: passam a ter caixa própria, que evita que entrem na contagem de 7.1.1.
+**Porque é necessária.** Como o Guião prevê, as camas guardadas em armazém registam-se «aparte»: passam a ter caixa própria, que evita que entrem na contagem de 8.1.1.
 
-### 7.6 Outros recursos de estadia ou de exame
+### 8.6 Outros recursos de estadia ou de exame
 
 **Porque mudou.** As cinco linhas abertas da Ficha passam a uma: com as camas por enfermaria e por sexo, a observação, a curta estadia e os equipamentos de exame em perguntas próprias, uma linha aberta é suficiente.
 
-## Secção 8 — Aparelhos médico-cirúrgicos
+## Secção 9 — Aparelhos médico-cirúrgicos
 
-### 8.1.1 a 8.1.15 Número de aparelhos
+### 9.1.1 a 9.1.15 Número de aparelhos
 
 **Porque mudou.** Os 15 tipos de aparelho mantêm-se, com os mesmos códigos. O enunciado passa a dizer o que se conta: os aparelhos em condições de utilização no último mês.
 
 **Remissões.** O esterilizador, o aparelho de raios X e o ecógrafo contam-se aqui como equipamento; a oferta dos serviços correspondentes — esterilização, imagiologia — está na secção 12.
 
-### 8.1.16 a 8.1.23 Verificação do equipamento básico
+### 9.1.16 a 9.1.23 Verificação do equipamento básico
 
-**Porque é necessária.** A contagem de 8.1.1 a 8.1.15 diz quantos aparelhos existem; esta grelha verifica se estão presentes e a funcionar na área de atendimento. As duas servem decisões diferentes — a contagem orienta a distribuição de equipamento, a verificação mostra onde estão as falhas —, e por isso os quatro aparelhos que entram nas duas conservam a sua caixa de quantidade.
+**Porque é necessária.** A contagem de 9.1.1 a 9.1.15 diz quantos aparelhos existem; esta grelha verifica se estão presentes e a funcionar na área de atendimento. As duas servem decisões diferentes — a contagem orienta a distribuição de equipamento, a verificação mostra onde estão as falhas —, e por isso os quatro aparelhos que entram nas duas conservam a sua caixa de quantidade.
 
-**Códigos.** Os oito itens novos continuam a numeração da Ficha, de 8.1.16 a 8.1.23, para que nada do que já existe mude de número. A balança de criança (graduação de 250 g) é distinta da balança de bebé (graduação de 100 g), que se mantém.
+**Códigos.** Os oito itens novos continuam a numeração da Ficha, de 9.1.16 a 9.1.23, para que nada do que já existe mude de número. A balança de criança (graduação de 250 g) é distinta da balança de bebé (graduação de 100 g), que se mantém.
 
 ### Pendência desta secção
 
 **Âmbito da secção.** Hoje a secção aplica-se apenas a centros e postos de saúde. O Guião (folha 17) justifica a restrição: nos hospitais, a informação sobre aparelhos está incluída nos dados das provas diagnósticas e de tratamento. Falta decidir se a secção passa a aplicar-se a todas as unidades sanitárias. Com a restrição, a contagem e a verificação do equipamento básico ficam disponíveis só para centros e postos de saúde. Como a verificação se faz apenas nas unidades visitadas, o custo de alargar a secção depende do número de visitas e não do total de unidades.
 
-## Secção 9 — Meios de transporte
+## Secção 7 — Meios de transporte
 
-### 9.1.1 a 9.1.7 Veículos por tipo e estado
+### 7.1.1 a 7.1.7 Veículos por tipo e estado
 
 **Porque mudou.** Os sete tipos de veículo mantêm-se. As duas colunas da Ficha — funcionantes e não funcionantes — passam a três. A definição de funcional do Guião (folha 18) fica preservada e passa a estar escrita na pergunta: um veículo é funcional se está em funcionamento ou tem uma avaria que a unidade pode resolver com os seus recursos. A soma das colunas 1 e 2 corresponde aos «funcionantes» da Ficha e a coluna 3 aos «não funcionantes».
 
-### 9.1.8 a 9.1.10 Outros meios de transporte
+### 7.1.8 a 7.1.10 Outros meios de transporte
 
-**Porque mudou.** As três linhas abertas mantêm-se, com a terceira coluna acrescentada, como em 9.1.1 a 9.1.7.
+**Porque mudou.** As três linhas abertas mantêm-se, com a terceira coluna acrescentada, como em 7.1.1 a 7.1.7.
 
-### 9.3.1 Plano de manutenção dos veículos
+### 7.3.1 Plano de manutenção dos veículos
 
 **Porque é necessária.** A opção «A unidade não tem veículos» evita que uma unidade sem frota seja contada como unidade sem plano de manutenção.
 
-**Verificação a programar.** Se a contagem de 9.1.1 a 9.1.10 for zero em todas as colunas, 9.3.1 tem de ser 5.
+**Verificação a programar.** Se a contagem de 7.1.1 a 7.1.10 for zero em todas as colunas, 7.3.1 tem de ser 5.
 
 ### Pendência desta secção
 
@@ -394,7 +394,7 @@ Duas caixas, dois indicadores. Mesma lógica de 10.B: a psiquiatria e a psicolog
 
 ### 10.D.1 a 10.D.4 · Cancro, por localização
 
-Cinco caixas, cinco indicadores. O cancro do colo do útero é o que mais interessa à rede de cuidados primários, porque o rastreio por inspecção visual com ácido acético é factível num centro de saúde — e já temos a maca de exame ginecológico na secção 7 e o espéculo na secção 8. **Cruzando os três, passa a ser possível ver quais as unidades que têm a condição material para rastrear e não rastreiam** — que é uma lacuna de organização e não de investimento, e portanto barata de corrigir.
+Cinco caixas, cinco indicadores. O cancro do colo do útero é o que mais interessa à rede de cuidados primários, porque o rastreio por inspecção visual com ácido acético é factível num centro de saúde — e já temos a maca de exame ginecológico na secção 8 e o espéculo na secção 9. **Cruzando os três, passa a ser possível ver quais as unidades que têm a condição material para rastrear e não rastreiam** — que é uma lacuna de organização e não de investimento, e portanto barata de corrigir.
 
 ### 10.E.0 · Sobreviventes de violência — porta
 
@@ -466,9 +466,9 @@ O **exame parasitológico de fezes** é o item que o Guião exige no seu mínimo
 
 **Porque mudou.** A caixa da imagiologia desdobra-se em oito linhas, uma por exame; os indicadores contam apenas a opção 1, o que mantém a comparabilidade com outros países. A opção 2 é o acrescento nosso e é a que serve o país, porque distingue a unidade que garante o acesso por encaminhamento daquela onde o exame não acontece.
 
-**Articula-se com a secção 8**, onde se **contam** os aparelhos de ecografia e de raio X: aqui mede-se a oferta do exame, lá o inventário do equipamento.
+**Articula-se com a secção 9**, onde se **contam** os aparelhos de ecografia e de raio X: aqui mede-se a oferta do exame, lá o inventário do equipamento.
 
-**Verificação a programar.** Assinalar quando a unidade declara realizar ecografia ou raio X e conta zero aparelhos correspondentes na secção 8.
+**Verificação a programar.** Assinalar quando a unidade declara realizar ecografia ou raio X e conta zero aparelhos correspondentes na secção 9.
 
 ### 12.B · Procedimentos e tecnologias
 
@@ -508,7 +508,7 @@ O indicador exige as duas condições ao mesmo tempo — um médico ou clínico 
 
 ### 12.E.6 · Transporte para transferência
 
-Um indicador por uma caixa. **Fecha pelo lado da urgência a discussão sobre a frota:** o que importa não é a unidade ter viatura própria, mas conseguir transporte quando precisa — e a opção 2, a ambulância chamada de outro local, é precisamente a resposta da maior parte dos centros de saúde. Articula-se com a secção 9 (frota da unidade), com 3.9 (viatura e motorista 24 horas) e com 18.1 (transporte de emergência nos serviços gerais): três leituras do mesmo problema, cada uma na sua secção, sem duplicação de campo.
+Um indicador por uma caixa. **Fecha pelo lado da urgência a discussão sobre a frota:** o que importa não é a unidade ter viatura própria, mas conseguir transporte quando precisa — e a opção 2, a ambulância chamada de outro local, é precisamente a resposta da maior parte dos centros de saúde. Articula-se com a secção 7 (frota da unidade), com 3.9 (viatura e motorista 24 horas) e com 18.1 (transporte de emergência nos serviços gerais): três leituras do mesmo problema, cada uma na sua secção, sem duplicação de campo.
 
 ### 12.E.7 · Acompanhamento na transferência
 
@@ -532,7 +532,7 @@ Pergunta-se o **número de horas** e não sim ou não, porque os três indicador
 
 Parqueado para o bloco de prevenção e controlo de infecções, e não por omissão: é o quesito em que a distância entre a existência do serviço e a sua eficácia é maior. O instrumento internacional não pergunta se existe esterilização — pergunta qual o método, se o autoclave está a funcionar no dia da visita, se há indicador de processo e se o pessoal foi formado. Nenhuma destas perguntas se responde sem observação.
 
-**Remissão a registar:** o quesito 8.1.1 da secção 8 é o **esterilizador** enquanto equipamento, contado no inventário; este 12.14 é a esterilização enquanto **serviço**. Não se sobrepõem e nenhum substitui o outro.
+**Remissão a registar:** o quesito 9.1.1 da secção 9 é o **esterilizador** enquanto equipamento, contado no inventário; este 12.14 é a esterilização enquanto **serviço**. Não se sobrepõem e nenhum substitui o outro.
 
 ## Secção 13 — Saúde da criança e vacinação
 
@@ -570,7 +570,7 @@ A **febre amarela** é acrescento próprio, por ser doença com transmissão em 
 
 Parqueada para a fase da observação. **Não é omissão, é fronteira de módulo:** a tabela de prontidão da imunização tem 31 indicadores e exige ver o frigorífico a funcionar, ler o termómetro no dia da visita e verificar as vacinas na prateleira.
 
-**Remissões.** A contagem de geleiras e arcas está no quesito 8.1.2 da secção 8 — e é contributo próprio do Mapa Sanitário, que conta as geleiras em vez de verificar apenas uma. A energia que as alimenta está no quesito 5.2.3. A manutenção de frigoríficos está no bloco 18.8, também parqueado.
+**Remissões.** A contagem de geleiras e arcas está no quesito 9.1.2 da secção 9 — e é contributo próprio do Mapa Sanitário, que conta as geleiras em vez de verificar apenas uma. A energia que as alimenta está no quesito 5.2.3. A manutenção de frigoríficos está no bloco 18.8, também parqueado.
 
 ### 13.1.5 · Procura activa de faltosos — vacinação
 
@@ -668,7 +668,7 @@ A escala de três níveis é a mesma dos blocos de laboratório, pela mesma raz�
 
 É **declarada** — não exige observação —, são 11 campos para 13 indicadores, e **nada há a inventar: as perguntas existem, estão validadas e têm indicador**. Ao contrário dos rastreios de 14.3.1, aqui o retorno é imediato.
 
-A porta de três níveis distingue a unidade com unidade de cuidados especiais da que interna recém-nascidos doentes nas enfermarias comuns — distinção que a secção 7 não capta, porque a lista de camas decompõe por especialidade e por sexo da enfermaria e tem UCI neonatal, mas não cuidados especiais neonatais.
+A porta de três níveis distingue a unidade com unidade de cuidados especiais da que interna recém-nascidos doentes nas enfermarias comuns — distinção que a secção 8 não capta, porque a lista de camas decompõe por especialidade e por sexo da enfermaria e tem UCI neonatal, mas não cuidados especiais neonatais.
 
 ### 14.4 · Planeamento familiar — porta
 
@@ -814,7 +814,7 @@ Mantêm-se integralmente, com as definições do Guião — incluindo as três e
 
 **Contributo próprio do Mapa Sanitário.** A actividade extramural e as brigadas móveis organizadas pela unidade são uma parte importante dos cuidados primários num país com a densidade populacional de Angola.
 
-**Articula-se com a secção 9:** as motorizadas e as bicicletas da Ficha são, em muitas unidades, o meio exacto com que isto se faz.
+**Articula-se com a secção 7:** as motorizadas e as bicicletas da Ficha são, em muitas unidades, o meio exacto com que isto se faz.
 
 ### 16.4 · ADECOS
 
@@ -914,7 +914,7 @@ O enunciado inclui expressamente o veículo **chamado de outro local**, porque �
 
 ### 18.1.1 · Transporte de emergência disponível hoje
 
-**18.1.1 é a verificação da declaração:** ter acesso a uma ambulância e ter uma ambulância com combustível e motorista hoje são coisas diferentes. Articula-se com 12.E.6 (urgência), com 3.9 (sistema de referência) e com a secção 9 (frota), sem duplicação de campo.
+**18.1.1 é a verificação da declaração:** ter acesso a uma ambulância e ter uma ambulância com combustível e motorista hoje são coisas diferentes. Articula-se com 12.E.6 (urgência), com 3.9 (sistema de referência) e com a secção 7 (frota), sem duplicação de campo.
 
 ### 18.2 a 18.18 · Lista dos serviços gerais
 
@@ -936,5 +936,5 @@ A caixa de 18.8 mantém-se na lista de três níveis. O bloco completo — cerca
 
 **Manutenção de equipamento médico, de esterilização e de laboratório** — se é feita inspecção, teste ou manutenção preventiva, se existe plano conforme as recomendações do fabricante, e uma lista de 11 equipamentos: tanques ou concentradores de oxigénio, ventiladores, frigoríficos de vacinas, medicamentos ou sangue, incubadoras, autoclaves eléctricas, esterilizadores eléctricos de calor seco, analisador de hematologia, analisador de bioquímica, aparelho de raios X, TAC e ecógrafo — e ainda se existe um sistema de rotina de inspecção, manutenção e substituição.
 
-**É candidato legítimo a entrar nesta ronda**, e está na lista de decisões da nota de apresentação: a manutenção é o lugar onde a diferença entre a contagem de equipamento (secção 8) e a sua verificação se explica.
+**É candidato legítimo a entrar nesta ronda**, e está na lista de decisões da nota de apresentação: a manutenção é o lugar onde a diferença entre a contagem de equipamento (secção 9) e a sua verificação se explica.
 

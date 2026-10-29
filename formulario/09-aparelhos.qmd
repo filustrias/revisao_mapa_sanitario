@@ -1,0 +1,168 @@
+---
+title: "Secção 9 — Aparelhos médico-cirúrgicos"
+---
+
+Número de aparelhos médico-cirúrgicos de cada tipo e, nas unidades visitadas, a verificação do equipamento básico na área principal de atendimento: presente e a funcionar.
+
+[39 campos, contra 16 na Ficha 19_01. As colunas de verificação aplicam-se só nas unidades visitadas.]{.campos}
+
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
+
+| Quesito | O que se obtém |
+|---|---|
+| 9.1.1 a 9.1.15 e 9.1.24 | Número de aparelhos de cada tipo em condições de utilização, em cada unidade e na rede [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 9.1.16 a 9.1.23 e colunas A e B | Equipamento básico na área de atendimento, observado e a funcionar, item a item; proporção do equipamento básico reunida em cada unidade e unidades com todos os itens [(14 indicadores do HHFA)]{.hhfa} |
+| 9.2 | Observações e outros equipamentos relevantes [(medida própria do Mapa Sanitário)]{.hhfa} |
+
+</details>
+
+## 9.1.1 a 9.1.15 e 9.1.24 Número de aparelhos [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Número de aparelhos de cada tipo em condições de utilização em cada unidade sanitária. Somado por município e província, orienta a distribuição de equipamento na rede.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 3.2.1.2.7 — unidades com serviço de vacinação que têm frigorífico a funcionar (*Percentage of facilities offering immunization services with functional refrigerator*) — porque não é o mesmo: os indicadores de prontidão por serviço medem a presença de um equipamento na área do serviço, entre as unidades que o oferecem; aqui conta-se o número de aparelhos de cada tipo na unidade.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Nesta versão, a secção aplica-se a centros e postos de saúde; ver a pendência sobre o âmbito no fim da secção.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada um dos aparelhos seguintes, indique quantas unidades existem nesta unidade sanitária e estavam em condições de utilização no último mês.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Aparelho | Número (0–999) | 998 · Não sabe |
+|---|---|:-:|:-:|
+| 9.1.1 | Esterilizador (estufa ou autoclave) | \_\_\_ | ☐ |
+| 9.1.2 | Mini-arca do Programa Alargado de Vacinação | \_\_\_ | ☐ |
+| 9.1.3 | Balança de bebé, com graduação de 100 g | \_\_\_ | ☐ |
+| 9.1.4 | Balança de adulto | \_\_\_ | ☐ |
+| 9.1.5 | Aparelho de raios X | \_\_\_ | ☐ |
+| 9.1.6 | Estetoscópio fetal de Pinard | \_\_\_ | ☐ |
+| 9.1.7 | Estetoscópio clínico | \_\_\_ | ☐ |
+| 9.1.8 | Aparelho de medir a tensão arterial, digital ou esfigmomanómetro manual | \_\_\_ | ☐ |
+| 9.1.9 | Ecógrafo de obstetrícia | \_\_\_ | ☐ |
+| 9.1.24 | Ecógrafo geral (abdominal, cardíaco ou outro) | \_\_\_ | ☐ |
+| 9.1.10 | Kit para exame vaginal ou cervical, com espéculo | \_\_\_ | ☐ |
+| 9.1.11 | Kit de evacuação uterina (curetagem ou aspirador manual) | \_\_\_ | ☐ |
+| 9.1.12 | Ressuscitador neonatal (insuflador com máscara) | \_\_\_ | ☐ |
+| 9.1.13 | Kit de parto instrumental | \_\_\_ | ☐ |
+| 9.1.14 | Kit de parto descartável | \_\_\_ | ☐ |
+| 9.1.15 | Kit de cesariana | \_\_\_ | ☐ |
+:::
+
+::: {.nota .interno}
+**Porque mudou.** Os 15 tipos de aparelho mantêm-se, com os mesmos códigos. O enunciado passa a dizer o que se conta: os aparelhos em condições de utilização no último mês.
+
+**Remissões.** O esterilizador, o aparelho de raios X e o ecógrafo contam-se aqui como equipamento; a oferta dos serviços correspondentes — esterilização, imagiologia — está na secção 12.
+:::
+
+## 9.1.16 a 9.1.23 Verificação do equipamento básico [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Presença e funcionamento de doze itens de equipamento básico na área principal de atendimento, nas unidades visitadas, e a proporção desse equipamento reunida em cada unidade. Conta apenas o aparelho observado e a funcionar (coluna A = 1 e coluna B = 1). Comparada com a contagem de 9.1.1 a 9.1.15, mostra a dimensão dos problemas de manutenção.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 9.1.3 · Balança de bebé, com graduação de 100 g | 2.2.1.1.10 | Unidades com balança de bebé<br>*Percentage of facilities with infant weighing scale* | Q1322_7A = 1 e Q1322_7B = 1; todas as unidades (aqui: unidades visitadas). Coluna A = 1 e coluna B = 1 |
+| Linha 9.1.16 · Balança de criança, com graduação de 250 g | 2.2.1.1.9 | Unidades com balança de criança<br>*Percentage of facilities with child weighing scale* | Q1322_6A = 1 e Q1322_6B = 1; todas as unidades (aqui: unidades visitadas). Coluna A = 1 e coluna B = 1 |
+| Linha 9.1.4 · Balança de adulto | 2.2.1.1.8 | Unidades com balança de adulto<br>*Percentage of facilities with adult weighing scale* | Q1322_1A = 1 e Q1322_1B = 1; todas as unidades (aqui: unidades visitadas). Coluna A = 1 e coluna B = 1 |
+| Linha 9.1.8 · Aparelho de medir a tensão arterial, digital ou esfigmomanómetro manual | 2.2.1.1.3 | Unidades com aparelho de medir a tensão arterial<br>*Percentage of facilities with blood pressure apparatus* | Q1322_2A = 1 e Q1322_2B = 1; todas as unidades (aqui: unidades visitadas). Coluna A = 1 e coluna B = 1 |
+| Linha 9.1.7 · Estetoscópio clínico | 2.2.1.1.2 | Unidades com estetoscópio<br>*Percentage of facilities with stethoscope* | Q1322_4A = 1 e Q1322_4B = 1; todas as unidades (aqui: unidades visitadas). Coluna A = 1 e coluna B = 1 |
+| Linha 9.1.17 · Termómetro | 2.2.1.1.1 | Unidades com termómetro<br>*Percentage of facilities with thermometer* | Q1322_3A = 1 e Q1322_3B = 1; todas as unidades (aqui: unidades visitadas). Coluna A = 1 e coluna B = 1 |
+| Linha 9.1.18 · Oxímetro de pulso | 2.2.1.1.4 | Unidades com oxímetro de pulso<br>*Percentage of facilities with pulse oximeter* | Q1322_9A = 1 e Q1322_9B = 1; todas as unidades (aqui: unidades visitadas). Coluna A = 1 e coluna B = 1 |
+| Linha 9.1.19 · Foco de exame orientável para observar o doente (lanterna aceitável) | 2.2.1.1.5 | Unidades com foco de exame<br>*Percentage of facilities with examination light* | Q1322_5A = 1 e Q1322_5B = 1; todas as unidades (aqui: unidades visitadas). Coluna A = 1 e coluna B = 1 |
+| Linha 9.1.20 · Otoscópio | 2.2.1.1.6 | Unidades com otoscópio<br>*Percentage of facilities with otoscope* | Q1322_14A = 1 e Q1322_14B = 1; todas as unidades (aqui: unidades visitadas). Coluna A = 1 e coluna B = 1 |
+| Linha 9.1.21 · Oftalmoscópio | 2.2.1.1.7 | Unidades com oftalmoscópio<br>*Percentage of facilities with ophthalmoscope* | Q1322_15A = 1 e Q1322_15B = 1; todas as unidades (aqui: unidades visitadas). Coluna A = 1 e coluna B = 1 |
+| Linha 9.1.22 · Fita métrica | 2.2.1.1.11 | Unidades com fita métrica<br>*Percentage of facilities with measuring tape* | Q1322_10A = 1; todas as unidades (aqui: unidades visitadas). Só coluna A = 1 |
+| Linha 9.1.23 · Craveira ou estadiómetro | 2.2.1.1.12 | Unidades com craveira ou estadiómetro<br>*Percentage of facilities with height board/ stadiometer* | Q1322_8A = 1 e Q1322_8B = 1; todas as unidades (aqui: unidades visitadas). Coluna A = 1 e coluna B = 1 |
+| Calculado com as 12 linhas (colunas A e B) | 2.2.1.1.13 | Equipamento básico na área principal de atendimento: percentagem média de itens disponíveis por unidade<br>*Basic equipment in main service area of facility: mean percentage of items at facilities* | média, em todas as unidades (aqui: unidades visitadas), da proporção dos 12 itens observados e a funcionar |
+| Calculado com as 12 linhas (colunas A e B) | 2.2.1.1.14 | Equipamento básico na área principal de atendimento: unidades com todos os itens<br>*Basic equipment in main service area of facility: percentage of facilities with all items* | todas as unidades (aqui: unidades visitadas) com os 12 itens observados e a funcionar |
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Aplicar só nas unidades visitadas com observação (1.4 = 1). Pedir para ver cada aparelho e marcar «1 Observado» apenas quando for visto. Considerar só os aparelhos da área de atendimento, não os guardados em armazém. A fita métrica não tem coluna B.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Vou perguntar por alguns aparelhos que devem existir na área principal de atendimento desta unidade. Para cada um, peço que me mostre o aparelho e que me diga, quando for aplicável, se está a funcionar.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+- **A · Disponibilidade:** 1 Observado · 2 Referido, não visto · 3 Não tem
+- **B · Funcionamento:** 1 Sim, funciona · 2 Não funciona · 98 Não sabe
+
+| Código | Aparelho | A · Disponibilidade | B · Funcionamento |
+|---|---|:-:|:-:|
+| 9.1.3 | Balança de bebé, com graduação de 100 g [HHFA 2.2.1.1.10]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 ☐ 3 | ☐ 1 ☐ 2 ☐ 98 |
+| 9.1.16 | Balança de criança, com graduação de 250 g [HHFA 2.2.1.1.9]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 ☐ 3 | ☐ 1 ☐ 2 ☐ 98 |
+| 9.1.4 | Balança de adulto [HHFA 2.2.1.1.8]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 ☐ 3 | ☐ 1 ☐ 2 ☐ 98 |
+| 9.1.8 | Aparelho de medir a tensão arterial, digital ou esfigmomanómetro manual [HHFA 2.2.1.1.3]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 ☐ 3 | ☐ 1 ☐ 2 ☐ 98 |
+| 9.1.7 | Estetoscópio clínico [HHFA 2.2.1.1.2]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 ☐ 3 | ☐ 1 ☐ 2 ☐ 98 |
+| 9.1.17 | Termómetro [HHFA 2.2.1.1.1]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 ☐ 3 | ☐ 1 ☐ 2 ☐ 98 |
+| 9.1.18 | Oxímetro de pulso [HHFA 2.2.1.1.4]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 ☐ 3 | ☐ 1 ☐ 2 ☐ 98 |
+| 9.1.19 | Foco de exame orientável para observar o doente (lanterna aceitável) [HHFA 2.2.1.1.5]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 ☐ 3 | ☐ 1 ☐ 2 ☐ 98 |
+| 9.1.20 | Otoscópio [HHFA 2.2.1.1.6]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 ☐ 3 | ☐ 1 ☐ 2 ☐ 98 |
+| 9.1.21 | Oftalmoscópio [HHFA 2.2.1.1.7]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 ☐ 3 | ☐ 1 ☐ 2 ☐ 98 |
+| 9.1.22 | Fita métrica [HHFA 2.2.1.1.11]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 ☐ 3 | — |
+| 9.1.23 | Craveira ou estadiómetro [HHFA 2.2.1.1.12]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 ☐ 3 | ☐ 1 ☐ 2 ☐ 98 |
+:::
+
+::: {.nota .interno}
+**Porque é necessária.** A contagem de 9.1.1 a 9.1.15 diz quantos aparelhos existem; esta grelha verifica se estão presentes e a funcionar na área de atendimento. As duas servem decisões diferentes — a contagem orienta a distribuição de equipamento, a verificação mostra onde estão as falhas —, e por isso os quatro aparelhos que entram nas duas conservam a sua caixa de quantidade.
+
+**Códigos.** Os oito itens novos continuam a numeração da Ficha, de 9.1.16 a 9.1.23, para que nada do que já existe mude de número. A balança de criança (graduação de 250 g) é distinta da balança de bebé (graduação de 100 g), que se mantém.
+:::
+
+## 9.2 Observações [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Observações sobre os aparelhos desta unidade sanitária.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Mencionar também qualquer outro equipamento relevante encontrado na unidade, mesmo que não conste da lista — por exemplo, equipamento de fisioterapia.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Texto livre
+:::
+
+## Pendência desta secção
+
+::: {.nota}
+**Âmbito da secção.** Hoje a secção aplica-se apenas a centros e postos de saúde. O Guião (folha 17) justifica a restrição: nos hospitais, a informação sobre aparelhos está incluída nos dados das provas diagnósticas e de tratamento. Falta decidir se a secção passa a aplicar-se a todas as unidades sanitárias. Com a restrição, a contagem e a verificação do equipamento básico ficam disponíveis só para centros e postos de saúde. Como a verificação se faz apenas nas unidades visitadas, o custo de alargar a secção depende do número de visitas e não do total de unidades.
+:::

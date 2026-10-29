@@ -201,7 +201,7 @@ Para cada linha:
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se as unidades com internamento revêem formalmente a qualidade do cuidado prestado a doentes internados que não faleceram. O bloco 17.2.14.1 a 17.2.14.6 é uma porta: só respondem as unidades que declararam internamento em 7.0.1, e esse é também o denominador de todo o bloco.
+Se as unidades com internamento revêem formalmente a qualidade do cuidado prestado a doentes internados que não faleceram. O bloco 17.2.14.1 a 17.2.14.6 é uma porta: só respondem as unidades que declararam internamento em 8.0.1, e esse é também o denominador de todo o bloco.
 
 </details>
 
@@ -227,7 +227,7 @@ Esta unidade sanitária realiza rotineiramente revisões formais de casos de doe
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Fazer este bloco apenas nas unidades que declararam ter internamento no quesito 7.0.1.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Fazer este bloco apenas nas unidades que declararam ter internamento no quesito 8.0.1.
 
 Se a resposta for «Não», passar a 17.2.14.4.
 :::

@@ -578,7 +578,7 @@ Esta unidade sanitária presta cuidados em internamento ao recém-nascido pequen
 
 É **declarada** — não exige observação —, são 11 campos para 13 indicadores, e **nada há a inventar: as perguntas existem, estão validadas e têm indicador**. Ao contrário dos rastreios de 14.3.1, aqui o retorno é imediato.
 
-A porta de três níveis distingue a unidade com unidade de cuidados especiais da que interna recém-nascidos doentes nas enfermarias comuns — distinção que a secção 7 não capta, porque a lista de camas decompõe por especialidade e por sexo da enfermaria e tem UCI neonatal, mas não cuidados especiais neonatais.
+A porta de três níveis distingue a unidade com unidade de cuidados especiais da que interna recém-nascidos doentes nas enfermarias comuns — distinção que a secção 8 não capta, porque a lista de camas decompõe por especialidade e por sexo da enfermaria e tem UCI neonatal, mas não cuidados especiais neonatais.
 :::
 
 ## 14.3.2.1 a 14.3.2.10 · Cuidados ao recém-nascido pequeno ou doente [A DECIDIR]{.etiqueta .decidir}

@@ -289,7 +289,7 @@ Nada nesta fase. Na fase da observação, a cadeia de frio alimentará a tabela 
 ::: {.nota}
 Parqueada para a fase da observação. **Não é omissão, é fronteira de módulo:** a tabela de prontidão da imunização tem 31 indicadores e exige ver o frigorífico a funcionar, ler o termómetro no dia da visita e verificar as vacinas na prateleira.
 
-**Remissões.** A contagem de geleiras e arcas está no quesito 8.1.2 da secção 8 — e é contributo próprio do Mapa Sanitário, que conta as geleiras em vez de verificar apenas uma. A energia que as alimenta está no quesito 5.2.3. A manutenção de frigoríficos está no bloco 18.8, também parqueado.
+**Remissões.** A contagem de geleiras e arcas está no quesito 9.1.2 da secção 9 — e é contributo próprio do Mapa Sanitário, que conta as geleiras em vez de verificar apenas uma. A energia que as alimenta está no quesito 5.2.3. A manutenção de frigoríficos está no bloco 18.8, também parqueado.
 :::
 
 ## 13.1.5 · Procura activa de faltosos — vacinação [NOVO]{.etiqueta .novo}

@@ -99,7 +99,7 @@ Esse veículo está disponível hoje, em condições de funcionamento, com combu
 :::
 
 ::: {.nota .interno}
-**18.1.1 é a verificação da declaração:** ter acesso a uma ambulância e ter uma ambulância com combustível e motorista hoje são coisas diferentes. Articula-se com 12.E.6 (urgência), com 3.9 (sistema de referência) e com a secção 9 (frota), sem duplicação de campo.
+**18.1.1 é a verificação da declaração:** ter acesso a uma ambulância e ter uma ambulância com combustível e motorista hoje são coisas diferentes. Articula-se com 12.E.6 (urgência), com 3.9 (sistema de referência) e com a secção 7 (frota), sem duplicação de campo.
 :::
 
 ## 18.2 a 18.18 · Lista dos serviços gerais [ALTERADO]{.etiqueta .alterado}
@@ -277,7 +277,7 @@ Nada nesta secção: a comunicação é medida na secção 6 e o tratamento do l
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Nesta ronda, nada além da linha de manutenção na lista de três níveis. O bloco parqueado mediria a manutenção de rotina dos sistemas de infraestrutura e a do equipamento médico, de esterilização e de laboratório. Com a manutenção de veículos de 9.3, completaria a medição da manutenção.
+Nesta ronda, nada além da linha de manutenção na lista de três níveis. O bloco parqueado mediria a manutenção de rotina dos sistemas de infraestrutura e a do equipamento médico, de esterilização e de laboratório. Com a manutenção de veículos de 7.3, completaria a medição da manutenção.
 
 </details>
 
@@ -320,5 +320,5 @@ A caixa de 18.8 mantém-se na lista de três níveis. O bloco completo — cerca
 
 **Manutenção de equipamento médico, de esterilização e de laboratório** — se é feita inspecção, teste ou manutenção preventiva, se existe plano conforme as recomendações do fabricante, e uma lista de 11 equipamentos: tanques ou concentradores de oxigénio, ventiladores, frigoríficos de vacinas, medicamentos ou sangue, incubadoras, autoclaves eléctricas, esterilizadores eléctricos de calor seco, analisador de hematologia, analisador de bioquímica, aparelho de raios X, TAC e ecógrafo — e ainda se existe um sistema de rotina de inspecção, manutenção e substituição.
 
-**É candidato legítimo a entrar nesta ronda**, e está na lista de decisões da nota de apresentação: a manutenção é o lugar onde a diferença entre a contagem de equipamento (secção 8) e a sua verificação se explica.
+**É candidato legítimo a entrar nesta ronda**, e está na lista de decisões da nota de apresentação: a manutenção é o lugar onde a diferença entre a contagem de equipamento (secção 9) e a sua verificação se explica.
 :::

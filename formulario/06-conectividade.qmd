@@ -223,7 +223,7 @@ Para cada um dos equipamentos seguintes, indique quantos existem nesta unidade e
 :::
 
 ::: {.nota .interno}
-**Para que serve.** Segue a lógica usada para os veículos na secção 9: quantos existem e quantos funcionam. A bateria de apoio entra porque, com os cortes de energia medidos em 5.2.3, é ela que decide se um registo em curso se perde.
+**Para que serve.** Segue a lógica usada para os veículos na secção 7: quantos existem e quantos funcionam. A bateria de apoio entra porque, com os cortes de energia medidos em 5.2.3, é ela que decide se um registo em curso se perde.
 :::
 
 ## 6.3.1 Bases de dados electrónicas — porta [NOVO]{.etiqueta .novo}

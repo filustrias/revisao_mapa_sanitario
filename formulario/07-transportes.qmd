@@ -1,5 +1,5 @@
 ---
-title: "Secção 9 — Meios de transporte"
+title: "Secção 7 — Meios de transporte"
 ---
 
 Veículos afectos à unidade sanitária, por tipo e por estado de funcionamento, e manutenção de rotina desses veículos.
@@ -11,14 +11,14 @@ Veículos afectos à unidade sanitária, por tipo e por estado de funcionamento,
 
 | Quesito | O que se obtém |
 |---|---|
-| 9.1.1 a 9.1.10 | Frota de cada unidade por tipo de veículo: em funcionamento, avariada com reparação ao alcance da unidade e avariada sem reparação possível [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 9.2 | Situações que a contagem não exprime — viaturas partilhadas, cedidas ou imobilizadas por falta de documentação [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 9.3.1 | Unidades com plano de manutenção de rotina dos veículos [(1 indicador do HHFA)]{.hhfa} |
-| 9.3.2 | Unidades que cumprem rotineiramente o plano de manutenção [(1 indicador do HHFA)]{.hhfa} |
+| 7.1.1 a 7.1.10 | Frota de cada unidade por tipo de veículo: em funcionamento, avariada com reparação ao alcance da unidade e avariada sem reparação possível [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 7.2 | Situações que a contagem não exprime — viaturas partilhadas, cedidas ou imobilizadas por falta de documentação [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 7.3.1 | Unidades com plano de manutenção de rotina dos veículos [(1 indicador do HHFA)]{.hhfa} |
+| 7.3.2 | Unidades que cumprem rotineiramente o plano de manutenção [(1 indicador do HHFA)]{.hhfa} |
 
 </details>
 
-## 9.1.1 a 9.1.7 Veículos por tipo e estado [ALTERADO]{.etiqueta .alterado}
+## 7.1.1 a 7.1.7 Veículos por tipo e estado [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -40,7 +40,7 @@ Vou perguntar pelos meios de transporte afectos a esta unidade sanitária. Para 
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Contar apenas os veículos que pertencem à unidade ou que lhe estão permanentemente afectos. A ambulância define-se pela preparação para o transporte de doentes, e não pelo tipo de viatura. Um veículo imobilizado por falta de documentação não é avaria: não entra em nenhuma coluna e regista-se em 9.2. Em cada caixa, um número de 0 a 97; 98 se não souber.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Contar apenas os veículos que pertencem à unidade ou que lhe estão permanentemente afectos. A ambulância define-se pela preparação para o transporte de doentes, e não pelo tipo de viatura. Um veículo imobilizado por falta de documentação não é avaria: não entra em nenhuma coluna e regista-se em 7.2. Em cada caixa, um número de 0 a 97; 98 se não souber.
 :::
 
 ::: {.grelha .rotulado}
@@ -48,20 +48,20 @@ Vou perguntar pelos meios de transporte afectos a esta unidade sanitária. Para 
 
 | Código | Tipo de veículo | (1) Em funcionamento hoje | (2) Avariado, reparação ao alcance da unidade | (3) Avariado, sem reparação possível com os recursos da unidade |
 |---|---|:-:|:-:|:-:|
-| 9.1.1 | Ambulâncias — viaturas especificamente preparadas para o transporte de doentes | \_\_ | \_\_ | \_\_ |
-| 9.1.2 | Camiões | \_\_ | \_\_ | \_\_ |
-| 9.1.3 | Viaturas para expediente — viaturas de serviço geral, de caixa aberta ou outras, não preparadas para o transporte de doentes | \_\_ | \_\_ | \_\_ |
-| 9.1.4 | Motorizadas | \_\_ | \_\_ | \_\_ |
-| 9.1.5 | Bicicletas | \_\_ | \_\_ | \_\_ |
-| 9.1.6 | Tractores | \_\_ | \_\_ | \_\_ |
-| 9.1.7 | Carrinhas | \_\_ | \_\_ | \_\_ |
+| 7.1.1 | Ambulâncias — viaturas especificamente preparadas para o transporte de doentes | \_\_ | \_\_ | \_\_ |
+| 7.1.2 | Camiões | \_\_ | \_\_ | \_\_ |
+| 7.1.3 | Viaturas para expediente — viaturas de serviço geral, de caixa aberta ou outras, não preparadas para o transporte de doentes | \_\_ | \_\_ | \_\_ |
+| 7.1.4 | Motorizadas | \_\_ | \_\_ | \_\_ |
+| 7.1.5 | Bicicletas | \_\_ | \_\_ | \_\_ |
+| 7.1.6 | Tractores | \_\_ | \_\_ | \_\_ |
+| 7.1.7 | Carrinhas | \_\_ | \_\_ | \_\_ |
 :::
 
 ::: {.nota .interno}
 **Porque mudou.** Os sete tipos de veículo mantêm-se. As duas colunas da Ficha — funcionantes e não funcionantes — passam a três. A definição de funcional do Guião (folha 18) fica preservada e passa a estar escrita na pergunta: um veículo é funcional se está em funcionamento ou tem uma avaria que a unidade pode resolver com os seus recursos. A soma das colunas 1 e 2 corresponde aos «funcionantes» da Ficha e a coluna 3 aos «não funcionantes».
 :::
 
-## 9.1.8 a 9.1.10 Outros meios de transporte [ALTERADO]{.etiqueta .alterado}
+## 7.1.8 a 7.1.10 Outros meios de transporte [ALTERADO]{.etiqueta .alterado}
 
 ::: {.hhfa .fonte-indicadores}
 **Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
@@ -78,16 +78,16 @@ Existe algum outro meio de transporte afecto a esta unidade sanitária que não 
 
 | Código | Designação | (1) Em funcionamento hoje | (2) Avariado, reparação ao alcance da unidade | (3) Avariado, sem reparação possível com os recursos da unidade |
 |---|---|:-:|:-:|:-:|
-| 9.1.8 | \_\_\_\_\_\_\_\_\_\_\_\_ | \_\_ | \_\_ | \_\_ |
-| 9.1.9 | \_\_\_\_\_\_\_\_\_\_\_\_ | \_\_ | \_\_ | \_\_ |
-| 9.1.10 | \_\_\_\_\_\_\_\_\_\_\_\_ | \_\_ | \_\_ | \_\_ |
+| 7.1.8 | \_\_\_\_\_\_\_\_\_\_\_\_ | \_\_ | \_\_ | \_\_ |
+| 7.1.9 | \_\_\_\_\_\_\_\_\_\_\_\_ | \_\_ | \_\_ | \_\_ |
+| 7.1.10 | \_\_\_\_\_\_\_\_\_\_\_\_ | \_\_ | \_\_ | \_\_ |
 :::
 
 ::: {.nota .interno}
-**Porque mudou.** As três linhas abertas mantêm-se, com a terceira coluna acrescentada, como em 9.1.1 a 9.1.7.
+**Porque mudou.** As três linhas abertas mantêm-se, com a terceira coluna acrescentada, como em 7.1.1 a 7.1.7.
 :::
 
-## 9.2 Observações [MANTÉM-SE]{.etiqueta .mantem}
+## 7.2 Observações [MANTÉM-SE]{.etiqueta .mantem}
 
 ::: {.hhfa .fonte-indicadores}
 **Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
@@ -109,12 +109,12 @@ Observações sobre os meios de transporte desta unidade sanitária.
 Texto livre
 :::
 
-## 9.3.1 Plano de manutenção dos veículos [NOVO]{.etiqueta .novo}
+## 7.3.1 Plano de manutenção dos veículos [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com plano de manutenção de rotina para algum dos seus veículos. Lida com a coluna das avarias de 9.1, mostra se o problema da frota tende a agravar-se ou a resolver-se.
+Percentagem de unidades sanitárias com plano de manutenção de rotina para algum dos seus veículos. Lida com a coluna das avarias de 7.1, mostra se o problema da frota tende a agravar-se ou a resolver-se.
 
 </details>
 
@@ -123,8 +123,8 @@ Percentagem de unidades sanitárias com plano de manutenção de rotina para alg
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Resposta 1 (Sim) | 4.1.2.3.1 | Unidades com plano de manutenção de rotina para algum dos seus veículos<br>*Percentage of facilities with a routine maintenance schedule for any facility vehicles* | Q800 = 1; entre as unidades com veículos (filtro Q800 = 1 ou 2: aqui 9.3.1 = 1 ou 2; a opção 5 sai do denominador) |
-| Resposta 1 (Sim) | 4.1.2.3.2 | Entra no cálculo de 4.1.2.3.2 (ver 9.3.2) | Q800 = 1 |
+| Resposta 1 (Sim) | 4.1.2.3.1 | Unidades com plano de manutenção de rotina para algum dos seus veículos<br>*Percentage of facilities with a routine maintenance schedule for any facility vehicles* | Q800 = 1; entre as unidades com veículos (filtro Q800 = 1 ou 2: aqui 7.3.1 = 1 ou 2; a opção 5 sai do denominador) |
+| Resposta 1 (Sim) | 4.1.2.3.2 | Entra no cálculo de 4.1.2.3.2 (ver 7.3.2) | Q800 = 1 |
 :::
 
 ::: {.enunciado .rotulado}
@@ -145,16 +145,16 @@ Esta unidade sanitária segue um plano de manutenção de rotina para algum dos 
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 9.3.1 for «Não» ou «A unidade não tem veículos», terminar a secção sem fazer 9.3.2.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 7.3.1 for «Não» ou «A unidade não tem veículos», terminar a secção sem fazer 7.3.2.
 :::
 
 ::: {.nota .interno}
 **Porque é necessária.** A opção «A unidade não tem veículos» evita que uma unidade sem frota seja contada como unidade sem plano de manutenção.
 
-**Verificação a programar.** Se a contagem de 9.1.1 a 9.1.10 for zero em todas as colunas, 9.3.1 tem de ser 5.
+**Verificação a programar.** Se a contagem de 7.1.1 a 7.1.10 for zero em todas as colunas, 7.3.1 tem de ser 5.
 :::
 
-## 9.3.2 Cumprimento do plano de manutenção [NOVO]{.etiqueta .novo}
+## 7.3.2 Cumprimento do plano de manutenção [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -168,7 +168,7 @@ Percentagem de unidades sanitárias que cumprem rotineiramente o plano de manute
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Resposta 1 (Sim, rotineiramente) | 4.1.2.3.2 | Unidades que cumprem rotineiramente o plano de manutenção dos veículos<br>*Percentage of facilities with routine adherence to a vehicle maintenance schedule* | Q800 = 1 e Q801 = 1; entre as unidades com veículos (filtro Q800 = 1 ou 2: aqui 9.3.1 = 1 ou 2) |
+| Resposta 1 (Sim, rotineiramente) | 4.1.2.3.2 | Unidades que cumprem rotineiramente o plano de manutenção dos veículos<br>*Percentage of facilities with routine adherence to a vehicle maintenance schedule* | Q800 = 1 e Q801 = 1; entre as unidades com veículos (filtro Q800 = 1 ou 2: aqui 7.3.1 = 1 ou 2) |
 :::
 
 ::: {.enunciado .rotulado}

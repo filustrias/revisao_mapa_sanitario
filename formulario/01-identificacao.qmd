@@ -111,7 +111,7 @@ Forma como foi feita esta recolha de dados.
 :::
 
 ::: {.nota .interno}
-**É o campo que faz funcionar toda a arquitectura da proposta.** A grelha de verificação da secção 8 e as colunas «a funcionar» das secções 7 e 8 aplicam-se apenas às unidades visitadas. Sem este campo não é possível saber, na análise, se uma célula vazia significa «não tem» ou «não foi verificado».
+**É o campo que faz funcionar toda a arquitectura da proposta.** A grelha de verificação da secção 9 e as colunas «a funcionar» das secções 8 e 9 aplicam-se apenas às unidades visitadas. Sem este campo não é possível saber, na análise, se uma célula vazia significa «não tem» ou «não foi verificado».
 
 **Consequência analítica.** Permite calcular os indicadores com o denominador correcto — apenas as unidades em que a verificação foi efectivamente possível — em vez de misturar observação e declaração numa mesma percentagem. Uma caixa resolve isto para todo o instrumento.
 :::

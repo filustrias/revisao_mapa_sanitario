@@ -472,9 +472,9 @@ Considere a situação habitual dos últimos 3 meses, e não uma avaria pontual 
 ::: {.nota .interno}
 **Porque mudou.** A caixa da imagiologia desdobra-se em onze linhas, uma por exame, com a ecografia em quatro tipos; os indicadores contam apenas a opção 1, o que mantém a comparabilidade com outros países. A opção 2 é o acrescento nosso e é a que serve o país, porque distingue a unidade que garante o acesso por encaminhamento daquela onde o exame não acontece.
 
-**Articula-se com a secção 8**, onde se **contam** os aparelhos de ecografia e de raio X: aqui mede-se a oferta do exame, lá o inventário do equipamento.
+**Articula-se com a secção 9**, onde se **contam** os aparelhos de ecografia e de raio X: aqui mede-se a oferta do exame, lá o inventário do equipamento.
 
-**Verificação a programar.** Assinalar quando a unidade declara realizar ecografia ou raio X e conta zero aparelhos correspondentes na secção 8.
+**Verificação a programar.** Assinalar quando a unidade declara realizar ecografia ou raio X e conta zero aparelhos correspondentes na secção 9.
 :::
 
 ## 12.B · Procedimentos e tecnologias [NOVO]{.etiqueta .novo}
@@ -848,7 +848,7 @@ Em caso de necessidade de transferir um doente de urgência, esta unidade sanit�
 :::
 
 ::: {.nota .interno}
-Um indicador por uma caixa. **Fecha pelo lado da urgência a discussão sobre a frota:** o que importa não é a unidade ter viatura própria, mas conseguir transporte quando precisa — e a opção 2, a ambulância chamada de outro local, é precisamente a resposta da maior parte dos centros de saúde. Articula-se com a secção 9 (frota da unidade), com 3.9 (viatura e motorista 24 horas) e com 18.1 (transporte de emergência nos serviços gerais): três leituras do mesmo problema, cada uma na sua secção, sem duplicação de campo.
+Um indicador por uma caixa. **Fecha pelo lado da urgência a discussão sobre a frota:** o que importa não é a unidade ter viatura própria, mas conseguir transporte quando precisa — e a opção 2, a ambulância chamada de outro local, é precisamente a resposta da maior parte dos centros de saúde. Articula-se com a secção 7 (frota da unidade), com 3.9 (viatura e motorista 24 horas) e com 18.1 (transporte de emergência nos serviços gerais): três leituras do mesmo problema, cada uma na sua secção, sem duplicação de campo.
 :::
 
 ## 12.E.7 · Acompanhamento na transferência [NOVO]{.etiqueta .novo}
@@ -993,5 +993,5 @@ Existe nesta unidade sanitária um serviço de esterilização em funcionamento?
 ::: {.nota .interno}
 Parqueado para o bloco de prevenção e controlo de infecções, e não por omissão: é o quesito em que a distância entre a existência do serviço e a sua eficácia é maior. O instrumento internacional não pergunta se existe esterilização — pergunta qual o método, se o autoclave está a funcionar no dia da visita, se há indicador de processo e se o pessoal foi formado. Nenhuma destas perguntas se responde sem observação.
 
-**Remissão a registar:** o quesito 8.1.1 da secção 8 é o **esterilizador** enquanto equipamento, contado no inventário; este 12.14 é a esterilização enquanto **serviço**. Não se sobrepõem e nenhum substitui o outro.
+**Remissão a registar:** o quesito 9.1.1 da secção 9 é o **esterilizador** enquanto equipamento, contado no inventário; este 12.14 é a esterilização enquanto **serviço**. Não se sobrepõem e nenhum substitui o outro.
 :::

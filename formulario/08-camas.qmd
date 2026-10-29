@@ -1,0 +1,290 @@
+---
+title: "Secção 8 — Camas e equipamentos de exame"
+---
+
+Camas instaladas por serviço — enfermarias, cuidados intensivos e intermédios, isolamento, hospital de dia e observação —, camas autorizadas, macas e outros equipamentos de exame.
+
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
+
+| Quesito | O que se obtém |
+|---|---|
+| 8.1 | Unidades sanitárias com internamento [(1 indicador do HHFA)]{.hhfa} |
+| 8.2 | Camas por serviço e tipo de cama, sem duplicação; totais de adulto, pediátricas e neonatais, e camas por 10 000 habitantes [(15 indicadores do HHFA)]{.hhfa} |
+| 8.3 | Diferença entre camas autorizadas e camas instaladas [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 8.4 | Macas, marquesas e cadeiras de estomatologia existentes e a funcionar [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 8.5 | Camas guardadas em armazém ou fora de uso — capacidade de expansão [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 8.6 e 8.7 | Outros recursos e observações [(medida própria do Mapa Sanitário)]{.hhfa} |
+
+</details>
+
+## 8.1 Internamento — porta [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Percentagem de unidades sanitárias que oferecem algum serviço de internamento. É a resposta a esta pergunta — e não o tipo de unidade — que decide o percurso da secção, porque há postos de saúde com camas e centros de saúde sem internamento.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 1.3.1.1.2 | Unidades que oferecem algum serviço de internamento<br>*Percentage of facilities offering any inpatient services* | Q117 = 2 ou Q117 = 3; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária tem internamento, isto é, doentes que pernoitam na unidade sob cuidados da unidade?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+
+<!-- -->
+
+0. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», em 8.2 preencher apenas os grupos D e E (hospital de dia e observação).
+:::
+
+::: {.nota .interno}
+**Porque é necessária.** A porta antecede a contagem de camas: com ela, uma unidade sem internamento salta os grupos de internamento da grelha 8.2 e responde apenas aos que se aplicam a todas as unidades — hospital de dia e observação.
+:::
+
+## 8.2 Camas instaladas, por serviço [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Número de camas instaladas em cada unidade, por serviço e por tipo de cama — enfermarias, cuidados intensivos e intermédios por idade, isolamento, hospital de dia e observação. Cada cama conta uma só vez, pelo que os totais — camas de internamento de adulto, pediátricas e berços de recém-nascido — se obtêm somando as linhas. Cruzado com a população da área de abrangência (secção 3), dá as camas de internamento por 10 000 habitantes.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Soma das linhas de adulto: 8.2.1, 8.2.2, 8.2.3, 8.2.4, 8.2.5, 8.2.6, 8.2.7, 8.2.9, 8.2.11, 8.2.12, 8.2.13, 8.2.16, 8.2.19 | 1.1.2.1.1 | Número total de camas de internamento (tamanho adulto)<br>*Total number of inpatient beds (adult-sized)* | Q403; soma em todas as unidades. Não entram o hospital de dia (D) nem a observação (E) |
+| A mesma soma, com a população de 3.1 | 1.1.1.1.3 | Número de camas de internamento por 10 000 habitantes<br>*Number of inpatient beds per 10,000 population* | Q403; por 10 000 habitantes da população de referência (3.1) |
+| Soma das linhas pediátricas: 8.2.10, 8.2.14, 8.2.17, 8.2.20 | 1.1.2.1.2 | Número total de camas de internamento (tamanho pediátrico)<br>*Total number of inpatient beds (paediatric-sized)* | Q405; soma em todas as unidades |
+| Soma das linhas neonatais: 8.2.8, 8.2.15, 8.2.18 | 1.1.2.1.3 | Número total de berços neonatais<br>*Total number of neonatal cots* | Q407; soma em todas as unidades |
+| Linha 8.2.7 | 1.1.2.2.1 | Número de camas de maternidade dedicadas<br>*Number of dedicated maternity beds* | Q404_1; soma em todas as unidades |
+| Linha 8.2.7, com as grávidas esperadas na área (3.1) | 1.1.1.1.4 | Número de camas de maternidade por 1 000 grávidas<br>*Number of maternity beds per 1,000 pregnant women* | Q404_1; por 1 000 grávidas da área geográfica |
+| Linha 8.2.7 | 1.4.1.1.3 | Índice de densidade de camas de maternidade<br>*Maternity bed density score* | Q404_1 / 10 |
+| Soma das linhas 8.2.4 a 8.2.6 | 1.1.2.2.2 | Número de camas cirúrgicas dedicadas<br>*Number of dedicated surgical beds* | Q404_2; soma em todas as unidades |
+| Linha 8.2.11 | 1.1.2.2.3 | Número de camas psiquiátricas dedicadas<br>*Number of dedicated psychiatric beds* | Q404_3; soma em todas as unidades |
+| Linha 8.2.22 | 1.1.2.2.4 | Número de camas dedicadas do serviço de urgência<br>*Number of dedicated emergency unit beds* | Q404_4; soma em todas as unidades. Correspondência aproximada: aqui são as camas de observação de urgência |
+| Linha 8.2.13 | 1.1.2.2.5 | Número de camas de cuidados intensivos de adultos dedicadas<br>*Number of dedicated  adult ICU beds* | Q404_5; soma em todas as unidades |
+| Linha 8.2.14 | 1.1.2.2.6 | Número de camas de cuidados intensivos pediátricos dedicadas<br>*Number of dedicated  paediatric ICU beds* | Q406; soma em todas as unidades |
+| Linha 8.2.15 | 1.1.2.2.7 | Número de berços de cuidados intensivos neonatais dedicados<br>*Number of dedicated neonatal ICU cots* | Q408; soma em todas as unidades |
+| Linha 8.2.16 | 1.1.2.2.8 | Número de camas de alta dependência dedicadas<br>*Number of dedicated high-dependency beds* | Q404_6; soma em todas as unidades |
+| Soma das linhas 8.2.19 e 8.2.20 | 1.1.2.2.9 | Número de camas de isolamento dedicadas<br>*Number of dedicated isolation beds* | Q409 = 1 e Q410_1B ≥ 1; soma em todas as unidades |
+| Linhas 8.2.1 a 8.2.3, 8.2.9, 8.2.12, 8.2.17, 8.2.18, 8.2.21 e 8.2.23; separação por sexo em medicina e cirurgia | — (medida própria) | Medicina, ginecologia, outras enfermarias, cuidados intermédios pediátricos e neonatais, hospital de dia, curta estadia e sexo da enfermaria não têm indicador próprio no catálogo; as linhas de adulto entram nas somas acima | — |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quantas camas, instaladas e disponíveis para receber doentes no dia da visita, existem nesta unidade sanitária em cada um dos serviços seguintes?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — **Cada cama conta numa só linha**: no serviço onde está instalada. Uma cama de isolamento conta-se no isolamento e não na enfermaria; um berço na maternidade conta-se em 8.2.8 e não em 8.2.7. Contar apenas camas permanentes, propriedade da unidade, observadas no local; não contar «espaço para camas», camas guardadas em armazém (contam-se em 8.5) nem camas não permanentes (esteiras, marquesas). Escrever 0 nos serviços que não existem. Nas unidades sem internamento (8.1 = «Não»), preencher apenas os grupos D e E.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Serviço e tipo de cama | Número de camas (0–999) | 998 · Não sabe |
+|---|---|:-:|:-:|
+| | **A · Enfermarias de internamento** | | |
+| 8.2.1 | Medicina — enfermaria masculina [HHFA 1.1.2.1.1 · 1.1.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.2 | Medicina — enfermaria feminina [HHFA 1.1.2.1.1 · 1.1.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.3 | Medicina — enfermaria mista [HHFA 1.1.2.1.1 · 1.1.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.4 | Cirurgia — enfermaria masculina [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.2]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.5 | Cirurgia — enfermaria feminina [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.2]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.6 | Cirurgia — enfermaria mista [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.2]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.7 | Obstetrícia e maternidade — camas para grávidas e puérperas [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.1 · 1.1.1.1.4 · 1.4.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.8 | Maternidade ou berçário — berços para recém-nascidos [HHFA 1.1.2.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.9 | Ginecologia [HHFA 1.1.2.1.1 · 1.1.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.10 | Pediatria — camas pediátricas e berços de lactentes [HHFA 1.1.2.1.2]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.11 | Psiquiatria [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.12 | Outra enfermaria *(especificar)* [HHFA 1.1.2.1.1 · 1.1.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| | **B · Cuidados intensivos e intermédios, por idade** | | |
+| 8.2.13 | Cuidados intensivos — adultos [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.5]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.14 | Cuidados intensivos — pediátricos [HHFA 1.1.2.2.6]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.15 | Cuidados intensivos — neonatais [HHFA 1.1.2.2.7]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.16 | Cuidados intermédios ou de alta dependência — adultos [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.8]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.17 | Cuidados intermédios ou de alta dependência — pediátricos | \_\_\_ | ☐ |
+| 8.2.18 | Cuidados intermédios ou de alta dependência — neonatais | \_\_\_ | ☐ |
+| | **C · Isolamento** | | |
+| 8.2.19 | Isolamento — adultos [HHFA 1.1.2.1.1 · 1.1.1.1.3 · 1.1.2.2.9]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.20 | Isolamento — pediátrico [HHFA 1.1.2.2.9]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| | **D · Hospital de dia** (sem pernoita) | | |
+| 8.2.21 | Camas ou cadeirões para procedimentos em regime de hospital de dia | \_\_\_ | ☐ |
+| | **E · Observação** | | |
+| 8.2.22 | Observação de urgência, até 24 horas [HHFA 1.1.2.2.4]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
+| 8.2.23 | Curta estadia, até 72 horas | \_\_\_ | ☐ |
+:::
+
+::: {.nota .interno}
+**Porque mudou.** As contagens de camas por tamanho (antigos 8.1.1 a 8.1.3), por enfermaria (8.2), por sexo (8.2b) e as camas de observação e de curta estadia (8.3.1 a 8.3.3) passam a uma só grelha, em que cada cama tem um só lugar. Acabam as contagens paralelas do mesmo total, que podiam não coincidir. Os totais da Ficha obtêm-se somando as linhas.
+
+A observação e a curta estadia ficam na mesma grelha mas fora dos totais de internamento, como o Guião já prevê: a cama de observação não é cama de internamento.
+:::
+
+## 8.3 Camas autorizadas [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Número de camas de internamento de adulto autorizadas para a unidade no seu quadro oficial. Comparado com as camas de adulto contadas em 8.2, mostra a diferença entre o que está autorizado e o que está instalado.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quantas camas de internamento de adulto estão autorizadas ou aprovadas para esta unidade sanitária, segundo o seu quadro oficial?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Número inteiro (0–999) · **998** Não sabe
+:::
+
+::: {.nota .interno}
+**Para que serve.** A distância entre as camas autorizadas e as instaladas é informação de planeamento que passa a ficar disponível.
+
+**Verificação a programar.** Assinalar quando as camas de adulto contadas em 8.2 forem mais do que as autorizadas.
+:::
+
+## 8.4 Macas, marquesas e cadeiras de estomatologia [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Número de equipamentos de exame existentes e a funcionar em cada unidade. A verificação destes equipamentos em cada serviço — consulta pré-natal, parto, rastreio do cancro do colo do útero — faz-se nas secções 10 a 16.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 3.1.2.2.12 — unidades com consulta pré-natal que têm marquesa de exame (*Percentage of facilities offering ANC services with examination bed*) — porque não é o mesmo: os indicadores de prontidão por serviço (também 3.3.4.3.1, mesa de exame ginecológico, e 3.1.3.3.8, marquesa de parto) medem a presença e o funcionamento do equipamento na área do serviço, entre as unidades que o oferecem; aqui conta-se o número de equipamentos da unidade.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada um dos seguintes equipamentos, quantos existem nesta unidade sanitária e quantos estão a funcionar no dia da visita?
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| N.º | Equipamento | Número existente (0–99) | Número a funcionar (0–99) |
+|---|---|:-:|:-:|
+| 1 | Maca para exame físico | \_\_ | \_\_ |
+| 2 | Maca ou mesa para exame ginecológico | \_\_ | \_\_ |
+| 3 | Marquesa de parto | \_\_ | \_\_ |
+| 4 | Cadeira de estomatologia | \_\_ | \_\_ |
+:::
+
+::: {.nota .interno}
+**Porque mudou.** As marquesas de parto e as cadeiras de estomatologia, que a Ficha conta junto das camas, passam a ter pergunta própria: a cama é lugar de estadia, a maca é lugar de exame. Acrescentam-se a maca para exame físico e a maca ou mesa para exame ginecológico, e a coluna «a funcionar» estende a todos os equipamentos a indicação do Guião sobre o estado de funcionamento da cadeira de estomatologia.
+:::
+
+## 8.5 Camas em armazém ou fora de uso [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Número de camas de internamento guardadas em armazém ou fora de uso — a capacidade latente de expansão de cada unidade.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Além das camas contadas acima, quantas camas de internamento estão guardadas em armazém ou fora de uso nesta unidade sanitária?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Número inteiro (0–999) · **998** Não sabe
+:::
+
+::: {.nota .interno}
+**Porque é necessária.** Como o Guião prevê, as camas guardadas em armazém registam-se «aparte»: passam a ter caixa própria, que evita que entrem na contagem de 8.2.
+:::
+
+## 8.6 Outros recursos de estadia ou de exame [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Outros recursos de estadia ou de exame relevantes na unidade que não tenham lugar nas perguntas anteriores.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Existe algum outro recurso de estadia ou de exame, relevante nesta unidade, que não tenha sido contemplado nas perguntas anteriores? Se sim, indique a designação e a quantidade.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Designação (texto) · Número inteiro (0–999)
+:::
+
+::: {.nota .interno}
+**Porque mudou.** As cinco linhas abertas da Ficha passam a uma: com as camas por serviço numa só grelha e os equipamentos de exame em pergunta própria, uma linha aberta é suficiente.
+:::
+
+## 8.7 Observações [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Observações sobre os recursos cama e de exame desta unidade sanitária.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Registar o que não cabe nas caixas: obras em curso, enfermarias fechadas, camas emprestadas.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Texto livre
+:::

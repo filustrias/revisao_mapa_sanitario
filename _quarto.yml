@@ -28,9 +28,9 @@ book:
     - formulario/04-construcao-estado-fisico.qmd
     - formulario/05-agua-energia-saneamento.qmd
     - formulario/06-conectividade.qmd
-    - formulario/07-camas.qmd
-    - formulario/08-aparelhos.qmd
-    - formulario/09-transportes.qmd
+    - formulario/07-transportes.qmd
+    - formulario/08-camas.qmd
+    - formulario/09-aparelhos.qmd
     - formulario/10-clinicos-cirurgicos.qmd
     - formulario/11-doencas-cronicas.qmd
     - formulario/12-diagnostico-apoio.qmd

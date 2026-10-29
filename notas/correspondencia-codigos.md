@@ -76,28 +76,28 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 6.3.6 | 13.3.6 | Plataforma de registo e reporte | 6 |
 | 6.4.1 | 13.4.1 | Pessoa designada para a gestão dos dados | 6 |
 | 6.4.2 | 13.4.2 | Pessoal formado no uso dos dados | 6 |
-| 7.0.1 | 8.0.1 | Internamento — porta | 7 |
-| 7.1.1 | 8.1.1 | Camas de internamento de adulto | 7 |
-| 7.1.2 | 8.1.2 | Camas pediátricas e berços de lactentes | 7 |
-| 7.1.3 | 8.1.3 | Berços para recém-nascidos | 7 |
-| 7.1.4 | 8.1.4 | Camas autorizadas | 7 |
-| 7.2 | 8.2 | Camas por enfermaria ou serviço | 7 |
-| 7.2b | 8.2b | Camas de adulto por sexo da enfermaria | 7 |
-| 7.3.1 | 8.3.1 | Camas de observação | 7 |
-| 7.3.2 | 8.3.2 | Camas de curta estadia | 7 |
-| 7.3.3 | 8.3.3 | Camas de observação com pernoita | 7 |
-| 7.4 | 8.4 | Macas, marquesas e cadeiras de estomatologia | 7 |
-| 7.5 | 8.5 | Camas em armazém ou fora de uso | 7 |
-| 7.6 | 8.6 | Outros recursos de estadia ou de exame | 7 |
-| 7.7 | 8.7 | Observações | 7 |
-| 8.1.1 a 8.1.15 | 9.1.1 a 9.1.15 | Número de aparelhos | 8 |
-| 8.1.16 a 8.1.23 | 9.1.16 a 9.1.23 | Verificação do equipamento básico | 8 |
-| 8.2 | 9.2 | Observações | 8 |
-| 9.1.1 a 9.1.7 | 10.1.1 a 10.1.7 | Veículos por tipo e estado | 9 |
-| 9.1.8 a 9.1.10 | 10.1.8 a 10.1.10 | Outros meios de transporte | 9 |
-| 9.2 | 10.2 | Observações | 9 |
-| 9.3.1 | 10.3.1 | Plano de manutenção dos veículos | 9 |
-| 9.3.2 | 10.3.2 | Cumprimento do plano de manutenção | 9 |
+| 8.0.1 | 8.0.1 | Internamento — porta | 8 |
+| 8.1.1 | 8.1.1 | Camas de internamento de adulto | 8 |
+| 8.1.2 | 8.1.2 | Camas pediátricas e berços de lactentes | 8 |
+| 8.1.3 | 8.1.3 | Berços para recém-nascidos | 8 |
+| 8.1.4 | 8.1.4 | Camas autorizadas | 8 |
+| 8.2 | 8.2 | Camas por enfermaria ou serviço | 8 |
+| 8.2b | 8.2b | Camas de adulto por sexo da enfermaria | 8 |
+| 8.3.1 | 8.3.1 | Camas de observação | 8 |
+| 8.3.2 | 8.3.2 | Camas de curta estadia | 8 |
+| 8.3.3 | 8.3.3 | Camas de observação com pernoita | 8 |
+| 8.4 | 8.4 | Macas, marquesas e cadeiras de estomatologia | 8 |
+| 8.5 | 8.5 | Camas em armazém ou fora de uso | 8 |
+| 8.6 | 8.6 | Outros recursos de estadia ou de exame | 8 |
+| 8.7 | 8.7 | Observações | 8 |
+| 9.1.1 a 9.1.15 | 9.1.1 a 9.1.15 | Número de aparelhos | 9 |
+| 9.1.16 a 9.1.23 | 9.1.16 a 9.1.23 | Verificação do equipamento básico | 9 |
+| 9.2 | 9.2 | Observações | 9 |
+| 7.1.1 a 7.1.7 | 10.1.1 a 10.1.7 | Veículos por tipo e estado | 7 |
+| 7.1.8 a 7.1.10 | 10.1.8 a 10.1.10 | Outros meios de transporte | 7 |
+| 7.2 | 10.2 | Observações | 7 |
+| 7.3.1 | 10.3.1 | Plano de manutenção dos veículos | 7 |
+| 7.3.2 | 10.3.2 | Cumprimento do plano de manutenção | 7 |
 | 10.A | 7.1.A | Especialidades clínicas (10.1 a 10.28) | 10 |
 | 11.1 | 7.1.B.0 | Doenças crónicas não transmissíveis — porta | 11 |
 | 11.2 a 11.5 | 7.1.B | Grelhas por família (cardiovasculares, endócrinas, respiratórias, renal/anemias/desnutrição); substituem a grelha única | 11 |
