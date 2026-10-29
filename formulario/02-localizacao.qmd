@@ -2,7 +2,7 @@
 title: "Secção 2 — Localização"
 ---
 
-Localização administrativa, designação e endereço da unidade sanitária, a sua categoria, as coordenadas geográficas e a zona urbana, periurbana ou rural.
+Localização administrativa, designação e categoria da unidade sanitária, o seu endereço, as coordenadas geográficas e a zona urbana, periurbana ou rural.
 
 [17 campos.]{.campos}
 
@@ -12,8 +12,8 @@ Localização administrativa, designação e endereço da unidade sanitária, a 
 | Quesito | O que se obtém |
 |---|---|
 | 2.1 a 2.5 | Identificação da unidade e estratificação por província, município, comuna e bairro [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 2.6 | Endereço completo, para localizar a unidade no terreno [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 2.7 | Estratificação de todos os indicadores por categoria da unidade; definição das unidades de cuidados primários [(1 indicador do HHFA)]{.hhfa} |
+| 2.6 | Estratificação de todos os indicadores por categoria da unidade; definição das unidades de cuidados primários [(1 indicador do HHFA)]{.hhfa} |
+| 2.7 | Endereço completo, para localizar a unidade no terreno [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 2.8 e 2.9 | Localização exacta da unidade, base das densidades e do acesso geográfico [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 2.10 | Qualidade de cada leitura de coordenadas [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 2.11 | Desagregação de todos os indicadores por zona urbana, rural e periurbana [(medida própria do Mapa Sanitário)]{.hhfa} |
@@ -53,40 +53,7 @@ Uso na análise: identificador da unidade e estratificador por província, munic
 **O que muda.** Os campos mantêm-se. Com a lista prévia carregada no sistema, deixam de ser escritos de novo em cada ronda: confirmam-se e corrigem-se. As unidades encontradas no terreno que não constam da lista entram como unidades novas.
 :::
 
-## 2.6 Endereço completo [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Endereço de cada unidade sanitária, para a localizar no terreno e para a comunicação com a unidade.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
-
-Uso na análise: identificador da unidade.
-:::
-
-::: {.enunciado .rotulado}
-[Confirmar com o respondente]{.rotulo}
-
-Endereço completo da unidade sanitária: rua ou avenida, número, bairro e um ponto de referência próximo.
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a unidade consta da lista prévia e o endereço vem pré-carregado, confirmá-lo com o respondente e corrigir se necessário. Se não consta, perguntar o endereço ao respondente e registá-lo.
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-- Texto
-:::
-
-## 2.7 Categoria da unidade [MANTÉM-SE]{.etiqueta .mantem}
+## 2.6 Categoria da unidade [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -132,6 +99,39 @@ Categoria da unidade, segundo a classificação do Mapa Sanitário.
 
 ::: {.nota .interno}
 É o estratificador principal de toda a análise: é por esta caixa que todos os indicadores se leem por tipo de unidade. Mantém-se exactamente como está. A categoria não decide nenhum salto do formulário.
+:::
+
+## 2.7 Endereço completo [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+Endereço de cada unidade sanitária, para a localizar no terreno e para a comunicação com a unidade.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Uso na análise: identificador da unidade.
+:::
+
+::: {.enunciado .rotulado}
+[Confirmar com o respondente]{.rotulo}
+
+Endereço completo da unidade sanitária: rua ou avenida, número, bairro e um ponto de referência próximo.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a unidade consta da lista prévia e o endereço vem pré-carregado, confirmá-lo com o respondente e corrigir se necessário. Se não consta, perguntar o endereço ao respondente e registá-lo.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+- Texto
 :::
 
 ## 2.8 e 2.9 Coordenadas [ALTERADO]{.etiqueta .alterado}

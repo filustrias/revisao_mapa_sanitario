@@ -22,7 +22,7 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 10](formulario/10-clinicos-cirurgicos.qmd) | Serviços clínicos e cirúrgicos. Atendimento nas 28 especialidades e na fisioterapia, sobreviventes de violência e cirurgia. |
 | [Secção 11](formulario/11-doencas-cronicas.qmd) | Doenças crónicas não transmissíveis. Serviços por família de condições — cardiovasculares, endócrinas, respiratórias, renal, neurológicas, saúde mental e cancro. |
 | [Secção 12](formulario/12-diagnostico-apoio.qmd) | Diagnóstico e serviços de apoio. Testes rápidos, laboratório, imagiologia, procedimentos e serviços de apoio. |
-| [Secção 13](formulario/13-farmacia-medicamentos.qmd) | Farmácia e medicamentos. Serviço de farmácia, quem dispensa os medicamentos, e a lista de 228 produtos farmacêuticos do instrumento internacional, em dez grupos e seis blocos condicionais. |
+| [Secção 13](formulario/13-farmacia-medicamentos.qmd) | Farmácia e medicamentos. Serviço de farmácia, quem dispensa os medicamentos, e a lista de produtos farmacêuticos do instrumento internacional — 228 produtos, mais a digoxina oral —, em dez grupos e seis blocos condicionais. |
 | [Secção 14](formulario/14-urgencia.qmd) | Serviços de urgência. Atendimento de urgência, banco de urgência, triagem, pessoal, transferência e serviços de apoio 24 horas. |
 | [Secção 15](formulario/15-crianca-vacinacao.qmd) | Saúde da criança e vacinação. Vacinação de rotina, antigénios oferecidos e cuidados à criança menor de 5 anos. |
 | [Secção 16](formulario/16-materna-neonatal-pf.qmd) | Saúde materna, do recém-nascido e planeamento familiar. Consulta pré-natal, partos, cuidados ao recém-nascido e métodos contraceptivos. |

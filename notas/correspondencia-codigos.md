@@ -17,8 +17,8 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 1.9 | 11.2 | Pessoas que responderam ao inquérito | 1 |
 | 1.10 | 12.1 | Responsável do preenchimento | 1 |
 | 2.1 a 2.5 | 1.1 a 1.5 | Localização administrativa e nome da unidade | 2 |
-| 2.6 | 1.5.1 | Endereço completo | 2 |
-| 2.7 | 1.6 | Categoria da unidade | 2 |
+| 2.6 | 1.6 | Categoria da unidade | 2 |
+| 2.7 | 1.5.1 | Endereço completo | 2 |
 | 2.8 e 2.9 | 1.7 e 1.8 | Coordenadas | 2 |
 | 2.10 | 1.8.1 | Precisão da leitura | 2 |
 | 2.11 | 1.9 | Zona urbana, rural ou periurbana | 2 |
