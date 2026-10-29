@@ -9,7 +9,7 @@ Atendimento por especialidade clínica, serviços a sobreviventes de violência 
 
 | Quesito | O que se obtém |
 |---|---|
-| 10.A | Densidade de oferta em 28 especialidades: atendimento, número de especialistas, turnos por semana e forma de acesso [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 10.A | Densidade de oferta em 28 especialidades e na fisioterapia: atendimento, número de especialistas, turnos por semana e forma de acesso [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 10.E.0 | Algum serviço a sobreviventes de violência [(2 indicadores do HHFA)]{.hhfa} |
 | 10.E.1 | Serviços a sobreviventes de violação ou de violência sexual ou por parceiro íntimo [(1 indicador do HHFA)]{.hhfa} |
 | 10.E.2 | Serviços a crianças afectadas por maus-tratos [(2 indicadores do HHFA)]{.hhfa} |
@@ -17,32 +17,31 @@ Atendimento por especialidade clínica, serviços a sobreviventes de violência 
 | 10.E.4 | Profissional do mesmo sexo disponível para o exame — condição de acesso [(1 indicador do HHFA)]{.hhfa} |
 | 10.29 | Oferta de algum procedimento cirúrgico [(1 indicador do HHFA)]{.hhfa} |
 | 10.29.1 | Pequena cirurgia [(2 indicadores do HHFA)]{.hhfa} |
-| 10.29.1.1 a 10.29.1.11 | Procedimentos de pequena cirurgia realizados nos últimos 12 meses [(11 indicadores do HHFA)]{.hhfa} |
+| 10.29.1.1 a 10.29.1.12 | Procedimentos de pequena cirurgia realizados nos últimos 12 meses, incluindo a circuncisão médica voluntária [(12 indicadores do HHFA)]{.hhfa} |
 | 10.29.2 | Grande cirurgia, de urgência e electiva [(2 indicadores do HHFA)]{.hhfa} |
 | 10.29.2.1 | Salas de operações em condições de utilização [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 10.29.2.2 a 10.29.2.22 | Procedimentos de grande cirurgia realizados nos últimos 12 meses, com os três de referência [(24 indicadores do HHFA)]{.hhfa} |
-| 10.29.3 | Circuncisão masculina médica voluntária [(1 indicador do HHFA)]{.hhfa} |
 | 10.30 a 10.34 | Cirurgia de especialidade [(1 indicador do HHFA)]{.hhfa} |
 
 </details>
 
-## 10.A · Especialidades clínicas (10.1 a 10.28) [ALTERADO]{.etiqueta .alterado}
+## 10.A · Especialidades clínicas (10.1 a 10.28 e 10.35) [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-A densidade de oferta de atendimento em cada uma das 28 especialidades dentro da área de abrangência da unidade: que especialidades são oferecidas, por quantos especialistas e em quantos turnos de atendimento por semana. Cruzada com a população da área de abrangência (secção 3), permite medir melhor a relação entre a oferta e a demanda de serviços e de especialidades. A forma de acesso — marcação directa ou carta de encaminhamento — mostra onde a especialidade funciona como porta de entrada e onde depende da referência.
+A densidade de oferta de atendimento em cada uma das 28 especialidades da Ficha e na fisioterapia, dentro da área de abrangência da unidade: que especialidades são oferecidas, por quantos especialistas e em quantos turnos de atendimento por semana. Cruzada com a população da área de abrangência (secção 3), permite medir melhor a relação entre a oferta e a demanda de serviços e de especialidades. A forma de acesso — marcação directa ou carta de encaminhamento — mostra onde a especialidade funciona como porta de entrada e onde depende da referência.
 
 </details>
 
 ::: {.hhfa .fonte-indicadores}
 **Fonte dos indicadores** · catálogo do HHFA (OMS)
 
-**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item. Nenhuma das 28 linhas (10.1 a 10.28) e nenhuma das quatro colunas (A a D) gera indicador do HHFA: o catálogo pergunta pelo serviço ou pela condição, não pela especialidade.
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item. Nenhuma das 29 linhas (10.1 a 10.28 e 10.35) e nenhuma das quatro colunas (A a D) gera indicador do HHFA: o catálogo pergunta pelo serviço ou pela condição, não pela especialidade.
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Coluna A · Oferece atendimento? — linhas 10.1 a 10.28 | — (medida própria) | Sem indicador por especialidade. Indicadores mais próximos, por linha: 10.11 Fisiatria → 1.3.2.10.1 — Unidades que oferecem algum cuidado de reabilitação (*Percentage of facilities offering any rehabilitation care*); 10.19 Neurologia → 1.3.2.5.2 (*Percentage of facilities offering services for neurological disorders*); 10.22 Oncologia → 1.3.2.4.5 (*Percentage of facilities offering any cancer services*); 10.26 Psiquiatria e 10.27 Psicologia → 1.3.2.5.1 (*Percentage of facilities offering any services for mental disorders*) | Não são o mesmo: medem a oferta do serviço, com ou sem especialista; 1.3.2.5.2, 1.3.2.4.5 e 1.3.2.5.1 são gerados por 10.C.2, 10.D.0 e 10.C.1 |
+| Coluna A · Oferece atendimento? — linhas 10.1 a 10.28 | — (medida própria) | Sem indicador por especialidade. Indicadores mais próximos, por linha: 10.11 Fisiatria e 10.35 Fisioterapia → 1.3.2.10.1 — Unidades que oferecem algum cuidado de reabilitação (*Percentage of facilities offering any rehabilitation care*); 10.19 Neurologia → 1.3.2.5.2 (*Percentage of facilities offering services for neurological disorders*); 10.22 Oncologia → 1.3.2.4.5 (*Percentage of facilities offering any cancer services*); 10.26 Psiquiatria e 10.27 Psicologia → 1.3.2.5.1 (*Percentage of facilities offering any services for mental disorders*) | Não são o mesmo: medem a oferta do serviço, com ou sem especialista; 1.3.2.5.2, 1.3.2.4.5 e 1.3.2.5.1 são gerados por 10.C.2, 10.D.0 e 10.C.1 |
 | Coluna B · N.º de especialistas — linhas 10.1 a 10.28 | — (medida própria) | Indicadores mais próximos: 1.2.1.2.5 — Número de médicos especialistas (*Number of medical doctors: specialists*); linha 10.3 → 1.2.1.2.7 (*Number of medical doctors: specialist - paediatricians*); linha 10.5 → 1.2.1.2.8 (*Number of medical doctors: specialist - obstetricians/gynaecologists*); linha 10.26 → 1.2.1.2.10 (*Number of medical doctors: specialist - psychiatrists*) | Não são o mesmo: Q306C e Q307_2C/3C/4C contam os médicos do quadro de pessoal da unidade, não os especialistas que atendem em cada serviço; o código 00 não tem equivalente |
 | Coluna C · Turnos por semana — linhas 10.1 a 10.28 | — (medida própria) | Indicador mais próximo: 1.3.1.3.1 — Média de dias por semana com consulta externa, entre as unidades que a oferecem (*Among facilities offering outpatient services, availability of services by mean number of days per week*) | Não é o mesmo: Q1304 dá dias por semana da consulta externa no seu conjunto, não turnos por especialidade |
 | Coluna D · Acesso — linhas 10.1 a 10.28 | — (medida própria) | Sem indicador próximo no catálogo | — |
@@ -55,7 +54,7 @@ Vou ler uma lista de especialidades clínicas. Para cada uma, diga-me se esta un
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Quatro perguntas por especialidade (colunas A a D). Não considerar atendimentos ocasionais nem consultas suspensas há mais de 3 meses. Se a resposta na coluna A for «Não», passar à especialidade seguinte.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Quatro perguntas por especialidade (colunas A a D). Não considerar atendimentos ocasionais nem consultas suspensas há mais de 3 meses. Se a resposta na coluna A for «Não», passar à especialidade seguinte. Na fisioterapia (10.35), a coluna B conta os fisioterapeutas.
 :::
 
 ::: {.grelha .rotulado}
@@ -79,6 +78,7 @@ Vou ler uma lista de especialidades clínicas. Para cada uma, diga-me se esta un
 | 10.9 | Endocrinologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
 | 10.10 | Estomatologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
 | 10.11 | Fisiatria | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 10.35 | Fisioterapia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
 | 10.12 | Gastroenterologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
 | 10.13 | Reumatologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
 | 10.14 | Geriatria | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
@@ -99,7 +99,7 @@ Vou ler uma lista de especialidades clínicas. Para cada uma, diga-me se esta un
 :::
 
 ::: {.nota .interno}
-**Porque mudou.** A pergunta da Ficha — se há atendimento em cada especialidade — mantém-se e ganha a companhia de outras três, para que se possa distinguir um centro de saúde onde o clínico geral acompanha hipertensos uma manhã por semana de um hospital com três cardiologistas em consulta diária. As quatro perguntas separam a **existência** da oferta, a sua **dimensão** — especialistas e turnos de atendimento — e a **forma de acesso**. O número de especialistas, com o código 00, conserva a distinção entre atendimento por especialista e por outro profissional.
+**Porque mudou.** Acrescenta-se a fisioterapia (10.35), com código a seguir aos da cirurgia para não renumerar a lista da Ficha. A pergunta da Ficha — se há atendimento em cada especialidade — mantém-se e ganha a companhia de outras três, para que se possa distinguir um centro de saúde onde o clínico geral acompanha hipertensos uma manhã por semana de um hospital com três cardiologistas em consulta diária. As quatro perguntas separam a **existência** da oferta, a sua **dimensão** — especialistas e turnos de atendimento — e a **forma de acesso**. O número de especialistas, com o código 00, conserva a distinção entre atendimento por especialista e por outro profissional.
 
 **O enunciado fixa o critério** de atendimento regular — dias marcados na semana, não suspenso há mais de 3 meses —, para que todas as unidades respondam com a mesma régua.
 
@@ -257,7 +257,7 @@ Para cada prestação seguinte, diga-me se é habitualmente oferecida aos sobrev
 
 1. Avaliação e exame forense
 2. Imunização contra a hepatite B
-3. **Profilaxia pós-exposição ao VIH (PEP)**
+3. Profilaxia pós-exposição ao VIH (PEP)
 4. Contracepção de emergência
 5. Tratamento presuntivo de infecções de transmissão sexual, de acordo com os protocolos nacionais
 6. Vacina antitetânica ou imunoglobulina
@@ -389,7 +389,7 @@ Realiza procedimentos de pequena cirurgia, isto é, efectuados sob anestesia loc
 **Porque mudou.** A Ficha divide a cirurgia geral em urgência, electiva e pequena; o instrumento internacional divide em pequena e grande, pelo critério da anestesia e do bloco operatório. A proposta adopta o critério internacional, que é o verificável, e conserva a distinção urgência/electiva como informação própria dentro da grande cirurgia. As definições do Guião (folha 10) para as três caixas da Ficha mantêm-se válidas.
 :::
 
-## 10.29.1.1 a 10.29.1.11 · Procedimentos de pequena cirurgia [NOVO]{.etiqueta .novo}
+## 10.29.1.1 a 10.29.1.12 · Procedimentos de pequena cirurgia [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -414,6 +414,7 @@ Percentagem de unidades sanitárias que realizaram cada procedimento de pequena 
 | Linha 10.29.1.9 · Redução fechada de fractura — Sim | 3.4.1.1.10 | Unidades que oferecem: redução fechada de fractura<br>*Percentage of facilities offering closed repair of fracture* | Q2503_5 = 1 ou Q2503_5 = 2 ou Q2503_5 = 3; todas as unidades |
 | Linha 10.29.1.10 · Redução fechada de luxação articular — Sim | 3.4.1.1.11 | Unidades que oferecem: redução fechada de luxação articular<br>*Percentage of facilities offering closed reduction of dislocated joint* | Q2503_6 = 1 ou Q2503_6 = 2 ou Q2503_6 = 3; todas as unidades |
 | Linha 10.29.1.11 · Cateterização suprapúbica ou cistostomia — Sim | 3.4.1.1.12 | Unidades que oferecem: cateterização suprapúbica ou cistostomia<br>*Percentage of facilities offering suprapubic catheterization / cystostomy* | Q2503_11 = 1; todas as unidades |
+| Linha 10.29.1.12 · Circuncisão masculina médica voluntária — Sim | 1.3.2.7.4 | Unidades que oferecem circuncisão masculina médica voluntária (CMMV)<br>*Percentage of facilities offering voluntary male medical circumcision (VMMC)* | Q207_3 = 1, 2 ou 3; todas as unidades |
 :::
 
 ::: {.enunciado .rotulado}
@@ -442,10 +443,11 @@ Quais dos procedimentos de pequena cirurgia seguintes foram realizados nesta uni
 | 10.29.1.9 | Redução fechada de fractura [HHFA 3.4.1.1.10]{.hhfa .cod-hhfa} | ☐ | ☐ |
 | 10.29.1.10 | Redução fechada de luxação articular [HHFA 3.4.1.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ |
 | 10.29.1.11 | Cateterização suprapúbica ou cistostomia [HHFA 3.4.1.1.12]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.1.12 | Circuncisão masculina médica voluntária, para prevenção do VIH [HHFA 1.3.2.7.4]{.hhfa .cod-hhfa} | ☐ | ☐ |
 :::
 
 ::: {.nota .interno}
-**Porque entra.** A pergunta sobre a pequena cirurgia passa a ser seguida da lista de procedimentos, cada um com o seu indicador. A circuncisão aparece aqui como procedimento cirúrgico; a circuncisão masculina médica voluntária, enquanto programa de prevenção do VIH, continua em 10.29.3.
+**Porque entra.** A pergunta sobre a pequena cirurgia passa a ser seguida da lista de procedimentos, cada um com o seu indicador. A circuncisão masculina aparece em duas linhas: como procedimento cirúrgico (10.29.1.7) e como circuncisão médica voluntária para prevenção do VIH (10.29.1.12, antes quesito próprio, 10.29.3).
 :::
 
 ## 10.29.2 · Grande cirurgia [ALTERADO]{.etiqueta .alterado}
@@ -482,7 +484,7 @@ Realiza procedimentos de grande cirurgia, isto é, efectuados sob anestesia gera
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 10.29.3.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 10.30.
 :::
 
 ::: {.nota .interno}
@@ -579,9 +581,9 @@ Quais dos procedimentos de grande cirurgia seguintes foram realizados nesta unid
 
 | Código | Procedimento | 1 · Sim | 2 · Não |
 |---|---|:-:|:-:|
-| 10.29.2.2 | **Cesariana** [HHFA 3.4.2.1.3 · 1.3.2.7.5 · 1.3.2.7.6 · 3.4.2.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
-| 10.29.2.3 | **Laparotomia** [HHFA 3.4.2.1.4 · 1.3.2.7.5 · 1.3.2.7.6 · 3.4.2.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
-| 10.29.2.4 | **Redução e fixação de fractura exposta de osso longo** [HHFA 3.4.2.1.5 · 1.3.2.7.5 · 1.3.2.7.6 · 3.4.2.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.2 | Cesariana [HHFA 3.4.2.1.3 · 1.3.2.7.5 · 1.3.2.7.6 · 3.4.2.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.3 | Laparotomia [HHFA 3.4.2.1.4 · 1.3.2.7.5 · 1.3.2.7.6 · 3.4.2.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.29.2.4 | Redução e fixação de fractura exposta de osso longo [HHFA 3.4.2.1.5 · 1.3.2.7.5 · 1.3.2.7.6 · 3.4.2.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
 | 10.29.2.5 | Apendicectomia [HHFA 3.4.2.1.6]{.hhfa .cod-hhfa} | ☐ | ☐ |
 | 10.29.2.6 | Reparação de perfuração intestinal [HHFA 3.4.2.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
 | 10.29.2.7 | Cirurgia da oclusão intestinal [HHFA 3.4.2.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ |
@@ -606,36 +608,6 @@ Quais dos procedimentos de grande cirurgia seguintes foram realizados nesta unid
 **Porque mudou.** Os três procedimentos de referência (antigo 10.29.4) passam a abrir uma grelha com a lista de procedimentos de grande cirurgia, cada um com o seu indicador. Cruzam-se com as salas de operações (10.29.2.1) e com a anestesia (12.D.2).
 :::
 
-## 10.29.3 · Circuncisão masculina médica voluntária [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-Percentagem de unidades sanitárias que realizam circuncisão masculina médica voluntária.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Resposta 1 (Sim) | 1.3.2.7.4 | Unidades que oferecem circuncisão masculina médica voluntária (CMMV)<br>*Percentage of facilities offering voluntary male medical circumcision (VMMC)* | Q207_3 = 1, 2 ou 3; todas as unidades |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Realiza circuncisão masculina médica voluntária?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Sim
-2. Não
-:::
-
 ## 10.30 a 10.34 · Cirurgia de especialidade [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
@@ -657,13 +629,19 @@ Percentagem de unidades sanitárias que realizam procedimentos de cirurgia de es
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-Realiza procedimentos cirúrgicos em alguma das seguintes áreas de especialidade? Cirurgia pediátrica · maxilofacial · vascular · neurocirurgia · plástica e queimados.
+Para cada uma das áreas de especialidade seguintes, diga-me se esta unidade sanitária realiza procedimentos cirúrgicos.
 :::
 
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
 
-Para cada área: 1 Sim · 2 Não
+| Código | Área de especialidade cirúrgica | 1 · Sim | 2 · Não |
+|---|---|:-:|:-:|
+| 10.30 | Cirurgia pediátrica [HHFA 1.3.2.7.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.31 | Cirurgia maxilofacial [HHFA 1.3.2.7.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.32 | Cirurgia vascular [HHFA 1.3.2.7.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.33 | Neurocirurgia [HHFA 1.3.2.7.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 10.34 | Cirurgia plástica e de queimados [HHFA 1.3.2.7.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
 :::
 
 ::: {.nota .interno}
