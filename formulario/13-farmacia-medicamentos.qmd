@@ -2,7 +2,7 @@
 title: "Secção 13 — Farmácia e medicamentos"
 ---
 
-Serviço de farmácia, quem dispensa os medicamentos, e a lista de produtos farmacêuticos do instrumento internacional — 228 produtos, em dez grupos de medicamentos gerais e seis blocos condicionais.
+Serviço de farmácia, quem dispensa os medicamentos, e a lista de produtos farmacêuticos do instrumento internacional — 230 produtos, em dez grupos de medicamentos gerais e seis blocos condicionais.
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
@@ -16,7 +16,7 @@ Serviço de farmácia, quem dispensa os medicamentos, e a lista de produtos farm
 | 13.5.1 a 13.5.28 | Medicamentos gerais — Anti-infecciosos e antiparasitários (28 produtos) [(5 indicadores do HHFA da lista traçadora)]{.hhfa} |
 | 13.6.1 a 13.6.5 | Medicamentos gerais — Respiratório (5 produtos) [(2 indicadores do HHFA da lista traçadora)]{.hhfa} |
 | 13.7.1 a 13.7.9 | Medicamentos gerais — Cardiovascular (9 produtos) [(2 indicadores do HHFA da lista traçadora)]{.hhfa} |
-| 13.8.1 a 13.8.6 | Medicamentos gerais — Diabetes (6 produtos) [(3 indicadores do HHFA da lista traçadora)]{.hhfa} |
+| 13.8.1 a 13.8.8 | Medicamentos gerais — Diabetes (8 produtos) [(3 indicadores do HHFA da lista traçadora)]{.hhfa} |
 | 13.9.1 a 13.9.4 | Medicamentos gerais — Cancro (4 produtos) [(sem indicador da lista traçadora)]{.hhfa} |
 | 13.10.1 a 13.10.51 | Medicamentos gerais — Outros e gerais (51 produtos) [(10 indicadores do HHFA da lista traçadora)]{.hhfa} |
 | 13.11.1 a 13.11.21 | Medicamentos gerais — Saúde mental e neurologia (21 produtos) [(2 indicadores do HHFA da lista traçadora)]{.hhfa} |
@@ -397,12 +397,12 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 | 13.7.9 | Varfarina (cápsula/comprimido) | ☐1 ☐2 ☐3 ☐4 ☐5 |
 :::
 
-## 13.8.1 a 13.8.6 · Medicamentos gerais — Diabetes [NOVO]{.etiqueta .novo}
+## 13.8.1 a 13.8.8 · Medicamentos gerais — Diabetes [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada medicamento do grupo «Diabetes» disponível — 6 produtos.
+Percentagem de unidades sanitárias com cada medicamento do grupo «Diabetes» disponível — 8 produtos.
 
 </details>
 
@@ -412,7 +412,7 @@ Percentagem de unidades sanitárias com cada medicamento do grupo «Diabetes» d
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
 | Linha 13.8.1 — escala A, código 1 | 2.4.1.1.4 | Unidades com metformina<br>*Percentage of facilities with metformin cap/tab* | Q3106_5 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
-| Linhas 13.8.2, 13.8.5 — escala A, código 1 em pelo menos uma | 2.4.1.1.3 | Unidades com gliclazida ou outra sulfonilureia<br>*Percentage of facilities with gliclazide or other sulphonylurea tab/cap* | Q3106_1 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
+| Linhas 13.8.2, 13.8.7 — escala A, código 1 em pelo menos uma | 2.4.1.1.3 | Unidades com gliclazida ou outra sulfonilureia<br>*Percentage of facilities with gliclazide or other sulphonylurea tab/cap* | Q3106_1 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
 | Linha 13.8.3 — escala A, código 1 | 2.4.1.1.5 | Unidades com insulina regular, injectável<br>*Percentage of facilities with insulin (regular) injection* | Q3106_3 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade) |
 
 **Códigos do questionário HHFA** (`Q12504`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
@@ -420,9 +420,11 @@ Percentagem de unidades sanitárias com cada medicamento do grupo «Diabetes» d
 - 13.8.1 (01) — ASB, BVY, NXL, NXM, MNQ, MNY, MNZ
 - 13.8.2 (02) — ASA, BVZ, NXL, NXM, MNQ, MNY, MNZ
 - 13.8.3 (03) — ASC, BWB, COG, NXL, NXM, MNQ, MNY, MNZ, KJO, KJY, KJZ
-- 13.8.4 (04) — BWD, COG, KJO, KJY, KJZ
-- 13.8.5 (05) — ASA, BWA, NXL, NXM, MNQ, MNY, MNZ
-- 13.8.6 (06) — BWC, MNN, MNO, MNP, MNQ, MNY, MNZ
+- 13.8.4 (04a) — BWD, COG, KJO, KJY, KJZ — códigos da linha do HHFA «Insulin injection (other than regular)», que a revisão desdobrou em três tipos
+- 13.8.5 (04b) — BWD, COG, KJO, KJY, KJZ — códigos da linha do HHFA «Insulin injection (other than regular)», que a revisão desdobrou em três tipos
+- 13.8.6 (04c) — BWD, COG, KJO, KJY, KJZ — códigos da linha do HHFA «Insulin injection (other than regular)», que a revisão desdobrou em três tipos
+- 13.8.7 (05) — ASA, BWA, NXL, NXM, MNQ, MNY, MNZ
+- 13.8.8 (06) — BWC, MNN, MNO, MNP, MNQ, MNY, MNZ
 :::
 
 ::: {.enunciado .rotulado}
@@ -442,10 +444,12 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 |---|---|:-:|
 | 13.8.1 | Metformina (cápsula/comprimido) [HHFA 2.4.1.1.4]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
 | 13.8.2 | Glibenclamida, comprimido [HHFA 2.4.1.1.3]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
-| 13.8.3 | Insulina injectável (regular) [HHFA 2.4.1.1.5]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
-| 13.8.4 | Insulina injectável (outra que não a regular) | ☐1 ☐2 ☐3 ☐4 ☐5 |
-| 13.8.5 | Gliclazida ou outra sulfonilureia (ex. glipizida), comprimido (oral) [HHFA 2.4.1.1.3]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
-| 13.8.6 | Glucose a 50%, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.8.3 | Insulina de acção curta (regular), injectável [HHFA 2.4.1.1.5]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.8.4 | Insulina de acção intermédia (NPH), injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.8.5 | Insulina de acção longa (glargina, detemir), injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.8.6 | Insulina de acção rápida e ultra-rápida (lispro, asparte), injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.8.7 | Gliclazida ou outra sulfonilureia (ex. glipizida), comprimido (oral) [HHFA 2.4.1.1.3]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 ☐4 ☐5 |
+| 13.8.8 | Glucose a 50%, injectável | ☐1 ☐2 ☐3 ☐4 ☐5 |
 :::
 
 ## 13.9.1 a 13.9.4 · Medicamentos gerais — Cancro [NOVO]{.etiqueta .novo}
