@@ -544,3 +544,49 @@ img.capa-foto { width: 100%; border-radius: 6px; margin: 0.4rem 0 1.2rem; }
   margin-bottom: 1.2rem;
 }
 .capa-autores p { margin-bottom: 0.2rem; }
+
+/* Orientações aos revisores */
+.rev-cartoes { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 0.9rem; margin: 0.8rem 0 1.4rem; }
+.rev-cartao { border-radius: 8px; padding: 0.9rem 1rem 0.6rem; border: 1px solid; border-top-width: 4px; }
+.rev-cartao p { margin-bottom: 0.45rem; font-size: 0.95rem; }
+.rev-icone { display: block; font-size: 1.5rem; line-height: 1; margin-bottom: 0.3rem; }
+.rev-verde { background: #eef7f0; border-color: #b9dcc3; border-top-color: #2e7d4f; }
+.rev-azul { background: #eef4fb; border-color: #bfd3ea; border-top-color: #1f5f99; }
+.rev-amarelo { background: #fdf7e7; border-color: #ecd9a2; border-top-color: #b7950b; }
+.rev-verde strong { color: #24633f; }
+.rev-azul strong { color: #1f5f99; }
+.rev-amarelo strong { color: #8a6d07; }
+
+.rev-botao {
+  display: inline-block; font-size: 0.85rem; padding: 0.05rem 0.6rem;
+  border: 1px solid #c9c2e6; border-radius: 999px; background: #f6f4fd; color: #4b3f8f; white-space: nowrap;
+}
+
+.rev-passos { counter-reset: passo; margin: 0.9rem 0 1.4rem; }
+.rev-passo {
+  counter-increment: passo; position: relative;
+  background: #f7f9fc; border: 1px solid #dfe6ef; border-radius: 8px;
+  padding: 0.75rem 1rem 0.55rem 3.4rem; margin-bottom: 0.6rem;
+}
+.rev-passo::before {
+  content: counter(passo); position: absolute; left: 0.9rem; top: 0.75rem;
+  width: 1.7rem; height: 1.7rem; border-radius: 50%;
+  background: #1f5f99; color: #fff; font-weight: 700; font-size: 0.95rem;
+  display: flex; align-items: center; justify-content: center;
+}
+.rev-passo p { margin-bottom: 0.2rem; }
+
+.rev-exemplos { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 0.9rem; margin: 0.8rem 0 1.2rem; }
+.rev-exemplo { border-radius: 8px; padding: 0.8rem 1rem 0.4rem; border-left: 4px solid; }
+.rev-exemplo ul { padding-left: 1.1rem; margin-bottom: 0.5rem; }
+.rev-exemplo p { margin-bottom: 0.4rem; }
+.rev-bom { background: #eef7f0; border-left-color: #2e7d4f; }
+.rev-bom > p:first-child strong { color: #24633f; }
+.rev-fraco { background: #fbefee; border-left-color: #b3423a; }
+.rev-fraco > p:first-child strong { color: #93332c; }
+.rev-fraco > p:last-child { font-size: 0.9rem; color: var(--ms-apagado); }
+
+.rev-nota-final {
+  background: #f6f6f4; border: 1px solid #e3e2dc; border-radius: 8px;
+  padding: 0.9rem 1.1rem 0.4rem; font-size: 0.97rem;
+}

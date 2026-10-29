@@ -114,7 +114,7 @@
     "href": "revisores.html#o-que-se-pede-a-cada-revisor",
     "title": "Orientações aos revisores",
     "section": "",
-    "text": "Não precisa de comentar todos os quesitos. Comente apenas aqueles em que acredita haver um problema. Se não houver problema no quesito, não comente e passe para o seguinte.\nNão precisa de rever o formulário inteiro. Se não tiver tempo disponível, vá directamente à secção de maior interesse para si e àquela em que tem maior experiência e envolvimento. A lista das secções está em Sobre o formulário.\nLeia a Nota de apresentação antes de começar, sobretudo «Um formulário único para toda a rede» e «Três convenções». Explicam por que há tantas perguntas e por que a maior parte delas não chega a cada unidade.",
+    "text": "✔\nComente só o que tem problema\nNão precisa de comentar todos os quesitos. Se não houver problema no quesito, não comente e passe para o seguinte.\n\n\n⏱\nNão precisa de rever tudo\nSe não tiver tempo, vá directamente à secção de maior interesse para si e àquela em que tem maior experiência e envolvimento. A lista está em Sobre o formulário.\n\n\n📖\nLeia primeiro a nota de apresentação\nSobretudo «Um formulário único para toda a rede» e «Três convenções», na Nota de apresentação: explicam por que a maior parte das perguntas não chega a cada unidade.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Orientações aos revisores</span>"
     ]
@@ -124,7 +124,17 @@
     "href": "revisores.html#como-enviar-comentários",
     "title": "Orientações aos revisores",
     "section": "Como enviar comentários",
-    "text": "Como enviar comentários\nCada quesito tem ao lado um botão 💬 Comentar, e cada secção, junto ao título, um botão Comentar este capítulo para comentários gerais.\n\nNa primeira vez, o botão pede o seu nome, email e instituição. Ficam guardados neste navegador e são preenchidos automaticamente nos comentários seguintes.\nO formulário de comentário abre-se por cima da página, já com o código do quesito preenchido. Escolha o tipo de comentário, escreva o comentário e envie.\nA janela fecha-se sozinha depois do envio, e o botão do quesito fica assinalado.\n\nPara que um comentário seja accionável, basta que diga o que deve mudar e porquê. Exemplos do tipo de observação mais útil:\n\n«A vacina X não faz parte do calendário nacional; retirar esta linha.»\n«A opção 3 não se distingue da opção 2 na prática; juntar as duas.»\n«Nos postos de saúde ninguém saberá responder a esta pergunta; deve ser feita só a partir do centro de saúde.»\n\nSão igualmente úteis, e talvez mais, os comentários sobre sequência e carga de resposta: se um bloco está no lugar errado do percurso, se uma porta deveria vir antes, se uma grelha é longa demais para ser respondida com cuidado no fim de uma visita de duas horas.\nOs comentários são reunidos numa única folha, um por linha, e analisados quesito a quesito pela equipa do GEPE/MINSA e da OMS Angola.",
+    "text": "Como enviar comentários\nCada quesito tem ao lado um botão 💬 Comentar, e cada secção, junto ao título, um botão 💬 Comentar este capítulo para comentários gerais.\n\n\nIdentifique-se uma vez. Na primeira vez, o botão pede o seu nome, email e instituição. Ficam guardados neste navegador e são preenchidos nos comentários seguintes.\n\n\nEscreva o comentário. O formulário abre-se por cima da página, já com o código do quesito preenchido. Escolha o tipo de comentário, escreva e envie.\n\n\nSiga em frente. A janela fecha-se sozinha depois do envio, e o botão do quesito fica assinalado.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Orientações aos revisores</span>"
+    ]
+  },
+  {
+    "objectID": "revisores.html#que-comentários-ajudam-mais",
+    "href": "revisores.html#que-comentários-ajudam-mais",
+    "title": "Orientações aos revisores",
+    "section": "Que comentários ajudam mais",
+    "text": "Que comentários ajudam mais\nPara que um comentário seja accionável, basta que diga o que deve mudar e porquê.\n\n\nAjuda\n\n«A vacina X não faz parte do calendário nacional; retirar esta linha.»\n«A opção 3 não se distingue da opção 2 na prática; juntar as duas.»\n«Nos postos de saúde ninguém saberá responder a esta pergunta; fazê-la só a partir do centro de saúde.»\n\n\n\nAjuda pouco\n\n«Esta pergunta está mal.»\n«Rever.»\n«Não concordo.»\n\nSem dizer o que mudar, a equipa não consegue agir sobre o comentário.\n\n\n\n\n\n\n\n\nSequência e carga de resposta. São igualmente úteis, e talvez mais, os comentários sobre o percurso: se um bloco está no lugar errado, se uma pergunta-porta deveria vir antes, se uma grelha é longa demais para ser respondida com cuidado no fim de uma visita de duas horas.\n\n\n\nOs comentários são reunidos numa única folha, um por linha, e analisados quesito a quesito pela equipa do GEPE/MINSA e da OMS Angola.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Orientações aos revisores</span>"
     ]
@@ -134,7 +144,7 @@
     "href": "revisores.html#uma-nota-final-sobre-o-tom-desta-proposta",
     "title": "Orientações aos revisores",
     "section": "Uma nota final sobre o tom desta proposta",
-    "text": "Uma nota final sobre o tom desta proposta\nA Ficha 19_01 e o seu Guião são um instrumento sólido e, em dois lugares, mais exigente do que o padrão internacional: a Ficha conta camas, aparelhos e veículos, enquanto o instrumento da OMS se limita a verificar a presença de um. Essa granularidade é informação de planeamento que não existe em nenhum instrumento internacional e foi integralmente preservada.\nA proposta faz três coisas, e nenhuma delas é substituir: dá campo próprio, no formulário, a instruções que o Guião já contém; dá uma caixa a cada informação que se pretende ler em separado; e acrescenta perguntas onde a comparação internacional fica barata. O que o instrumento actual já recolhe mantém-se.",
+    "text": "Uma nota final sobre o tom desta proposta\n\nA Ficha 19_01 e o seu Guião são um instrumento sólido e, em dois lugares, mais exigente do que o padrão internacional: a Ficha conta camas, aparelhos e veículos, enquanto o instrumento da OMS se limita a verificar a presença de um. Essa granularidade é informação de planeamento que não existe em nenhum instrumento internacional e foi integralmente preservada.\nA proposta faz três coisas, e nenhuma delas é substituir: dá campo próprio, no formulário, a instruções que o Guião já contém; dá uma caixa a cada informação que se pretende ler em separado; e acrescenta perguntas onde a comparação internacional fica barata. O que o instrumento actual já recolhe mantém-se.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Orientações aos revisores</span>"
     ]
