@@ -1,5 +1,5 @@
 ---
-title: "Secção 18 — Serviços gerais"
+title: "Secção 19 — Serviços gerais"
 ---
 
 Serviços gerais da unidade, como o transporte de emergência, a cozinha, a lavandaria, a morgue e o gabinete do utente.
@@ -11,16 +11,16 @@ Serviços gerais da unidade, como o transporte de emergência, a cozinha, a lava
 
 | Quesito | O que se obtém |
 |---|---|
-| 18.1 e 18.1.1 | Transporte de emergência disponível hoje, com combustível e motorista [(2 indicadores do HHFA)]{.hhfa} |
-| 18.2 a 18.18 | Existência e funcionamento de 15 serviços gerais [(6 indicadores do HHFA)]{.hhfa} |
-| 18.5.2 | Capacidade da morgue [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 18.18.1 e 18.18.2 | Recolha e análise da opinião dos utentes [(2 indicadores do HHFA)]{.hhfa} |
-| 18.7 e 18.16 | Remissões para as secções 6 e 5 (a informação recolhe-se nessas secções) |
-| 18.8 | Manutenção [(parqueado; 23 indicadores do HHFA)]{.hhfa} |
+| 19.1 e 19.1.1 | Transporte de emergência disponível hoje, com combustível e motorista [(2 indicadores do HHFA)]{.hhfa} |
+| 19.2 a 19.18 | Existência e funcionamento de 15 serviços gerais [(6 indicadores do HHFA)]{.hhfa} |
+| 19.5.2 | Capacidade da morgue [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 19.18.1 e 19.18.2 | Recolha e análise da opinião dos utentes [(2 indicadores do HHFA)]{.hhfa} |
+| 19.7 e 19.16 | Remissões para as secções 6 e 5 (a informação recolhe-se nessas secções) |
+| 19.8 | Manutenção [(parqueado; 23 indicadores do HHFA)]{.hhfa} |
 
 </details>
 
-## 18.1 · Acesso a transporte de emergência [ALTERADO]{.etiqueta .alterado}
+## 19.1 · Acesso a transporte de emergência [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -34,7 +34,7 @@ Unidades com acesso a veículo para o transporte de emergência de doentes — a
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Opções 1 e 2 (Sim, ambulância; Sim, outro veículo) | 2.1.1.1.7 · 3.1.3.3.6 | Entra no cálculo (ver 18.1.1) | Q1232 = 1 ou 2 |
+| Opções 1 e 2 (Sim, ambulância; Sim, outro veículo) | 2.1.1.1.7 · 3.1.3.3.6 | Entra no cálculo (ver 19.1.1) | Q1232 = 1 ou 2 |
 :::
 
 ::: {.enunciado .rotulado}
@@ -52,19 +52,19 @@ Esta unidade sanitária tem acesso a uma ambulância ou a outro veículo em cond
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», passar a 18.2.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», passar a 19.2.
 :::
 
 ::: {.nota .interno}
 O enunciado inclui expressamente o veículo **chamado de outro local**, porque é essa a situação da maior parte dos centros de saúde — e uma pergunta sobre veículo próprio deixaria essas unidades contadas como unidades sem transporte de emergência.
 :::
 
-## 18.1.1 · Transporte de emergência disponível hoje [ALTERADO]{.etiqueta .alterado}
+## 19.1.1 · Transporte de emergência disponível hoje [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Unidades com sistema de transporte de emergência para doentes — veículo em condições de funcionamento, com combustível e motorista, disponível hoje. Regra de cálculo: conta a unidade com 18.1 igual a 1 ou 2 e 18.1.1 igual a 1.
+Unidades com sistema de transporte de emergência para doentes — veículo em condições de funcionamento, com combustível e motorista, disponível hoje. Regra de cálculo: conta a unidade com 19.1 igual a 1 ou 2 e 19.1.1 igual a 1.
 
 </details>
 
@@ -73,8 +73,8 @@ Unidades com sistema de transporte de emergência para doentes — veículo em c
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Resposta 1 (Sim), com 18.1 = 1 ou 2 | 2.1.1.1.7 | Unidades com sistema de transporte de emergência para doentes<br>*Percentage of facilities with emergency transportation system for patients* | (Q1232 = 1 ou 2) e Q1234 = 1; todas as unidades |
-| Resposta 1 (Sim), com 18.1 = 1 ou 2 | 3.1.3.3.6 | Unidades que fazem partos com transporte de emergência<br>*Percentage of facilities offering delivery services with emergency transport* | (Q1232 = 1 ou 2) e Q1234 = 1; entre as unidades que fazem partos (no HHFA: Q2201 = 1) |
+| Resposta 1 (Sim), com 19.1 = 1 ou 2 | 2.1.1.1.7 | Unidades com sistema de transporte de emergência para doentes<br>*Percentage of facilities with emergency transportation system for patients* | (Q1232 = 1 ou 2) e Q1234 = 1; todas as unidades |
+| Resposta 1 (Sim), com 19.1 = 1 ou 2 | 3.1.3.3.6 | Unidades que fazem partos com transporte de emergência<br>*Percentage of facilities offering delivery services with emergency transport* | (Q1232 = 1 ou 2) e Q1234 = 1; entre as unidades que fazem partos (no HHFA: Q2201 = 1) |
 :::
 
 ::: {.enunciado .rotulado}
@@ -99,10 +99,10 @@ Esse veículo está disponível hoje, em condições de funcionamento, com combu
 :::
 
 ::: {.nota .interno}
-**18.1.1 é a verificação da declaração:** ter acesso a uma ambulância e ter uma ambulância com combustível e motorista hoje são coisas diferentes. Articula-se com 12.E.6 (urgência), com 3.9 (sistema de referência) e com a secção 7 (frota), sem duplicação de campo.
+**19.1.1 é a verificação da declaração:** ter acesso a uma ambulância e ter uma ambulância com combustível e motorista hoje são coisas diferentes. Articula-se com 13.6 (urgência), com 3.9 (sistema de referência) e com a secção 7 (frota), sem duplicação de campo.
 :::
 
-## 18.2 a 18.18 · Lista dos serviços gerais [ALTERADO]{.etiqueta .alterado}
+## 19.2 a 19.18 · Lista dos serviços gerais [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -116,14 +116,14 @@ Que serviços gerais de apoio existem em cada unidade sanitária e quais estiver
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha 18.2 · Cozinha, opções 1 e 2 | 4.1.1.2.6 | Unidades com serviço de apoio de alimentação e cozinha para doentes<br>*Percentage of facilities with support services for patient food/patient kitchen* | Q520_6 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe) |
-| Linha 18.3 · Refeitório ou cantina, opções 1 e 2 | 4.3.1.2.2 | Unidades que oferecem refeitório ou cantina ao pessoal<br>*Percentage of facilities offering staff cafeteria or canteen* | Q600_2 = 1; todas as unidades. Aqui contam as opções 1 e 2 (existe) |
-| Linhas 18.4 · Lavandaria e 18.6 · Higiene e limpeza, opções 1 e 2 em qualquer das duas | 4.1.1.2.5 | Unidades com serviço de apoio de limpeza, higiene e lavandaria<br>*Percentage of facilities with support services for cleaning/house-keeping/laundry* | Q520_5 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe) |
-| Linha 18.5.1 · Morgue, opções 1 e 2 | 4.1.1.2.7 | Unidades com morgue<br>*Percentage of facilities with a mortuary* | Q520_7 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe) |
-| Linha 18.8 · Manutenção, opções 1 e 2 | 4.1.1.2.4 | Unidades com serviço de apoio de manutenção dos edifícios<br>*Percentage of facilities with support services for building maintenance* | Q520_4 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe). Aproximado: a linha «Manutenção» não se limita aos edifícios |
-| Linha 18.12 · Residência, opções 1 e 2 | 4.3.1.2.1 | Unidades que oferecem residência ao pessoal, gratuita ou subsidiada<br>*Percentage of facilities offering living quarters (free of charge or subsidized) for staff* | Q600_1 = 1; todas as unidades. Aqui contam as opções 1 e 2 (existe). Aproximado: aqui não se pergunta se a residência é gratuita ou subsidiada |
-| Linha 18.18 · Gabinete do utente | — (medida própria) | A recolha e a análise da opinião dos utentes medem-se em 18.18.1 e 18.18.2 | — |
-| Linhas 18.9 Segurança, 18.10 Salão de actos, 18.11 Biblioteca, 18.13 Capela, 18.14 Parqueamento, 18.15 Ajardinamento e 18.17 Videovigilância | — (medida própria) |  | — |
+| Linha 19.2 · Cozinha, opções 1 e 2 | 4.1.1.2.6 | Unidades com serviço de apoio de alimentação e cozinha para doentes<br>*Percentage of facilities with support services for patient food/patient kitchen* | Q520_6 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe) |
+| Linha 19.3 · Refeitório ou cantina, opções 1 e 2 | 4.3.1.2.2 | Unidades que oferecem refeitório ou cantina ao pessoal<br>*Percentage of facilities offering staff cafeteria or canteen* | Q600_2 = 1; todas as unidades. Aqui contam as opções 1 e 2 (existe) |
+| Linhas 19.4 · Lavandaria e 19.6 · Higiene e limpeza, opções 1 e 2 em qualquer das duas | 4.1.1.2.5 | Unidades com serviço de apoio de limpeza, higiene e lavandaria<br>*Percentage of facilities with support services for cleaning/house-keeping/laundry* | Q520_5 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe) |
+| Linha 19.5.1 · Morgue, opções 1 e 2 | 4.1.1.2.7 | Unidades com morgue<br>*Percentage of facilities with a mortuary* | Q520_7 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe) |
+| Linha 19.8 · Manutenção, opções 1 e 2 | 4.1.1.2.4 | Unidades com serviço de apoio de manutenção dos edifícios<br>*Percentage of facilities with support services for building maintenance* | Q520_4 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe). Aproximado: a linha «Manutenção» não se limita aos edifícios |
+| Linha 19.12 · Residência, opções 1 e 2 | 4.3.1.2.1 | Unidades que oferecem residência ao pessoal, gratuita ou subsidiada<br>*Percentage of facilities offering living quarters (free of charge or subsidized) for staff* | Q600_1 = 1; todas as unidades. Aqui contam as opções 1 e 2 (existe). Aproximado: aqui não se pergunta se a residência é gratuita ou subsidiada |
+| Linha 19.18 · Gabinete do utente | — (medida própria) | A recolha e a análise da opinião dos utentes medem-se em 19.18.1 e 19.18.2 | — |
+| Linhas 19.9 Segurança, 19.10 Salão de actos, 19.11 Biblioteca, 19.13 Capela, 19.14 Parqueamento, 19.15 Ajardinamento e 19.17 Videovigilância | — (medida própria) |  | — |
 :::
 
 ::: {.enunciado .rotulado}
@@ -135,7 +135,7 @@ Vou ler uma lista de serviços gerais de apoio. Para cada um, diga-me se existe 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-18.2 Cozinha · 18.3 Refeitório ou cantina · 18.4 Lavandaria · 18.5.1 Morgue · 18.6 Higiene e limpeza · 18.8 Manutenção · 18.9 Segurança · 18.10 Salão de actos · 18.11 Biblioteca · 18.12 Residência · 18.13 Capela · 18.14 Parqueamento · 18.15 Ajardinamento · 18.17 Videovigilância · 18.18 Gabinete do utente
+19.2 Cozinha · 19.3 Refeitório ou cantina · 19.4 Lavandaria · 19.5.1 Morgue · 19.6 Higiene e limpeza · 19.8 Manutenção · 19.9 Segurança · 19.10 Salão de actos · 19.11 Biblioteca · 19.12 Residência · 19.13 Capela · 19.14 Parqueamento · 19.15 Ajardinamento · 19.17 Videovigilância · 19.18 Gabinete do utente
 :::
 
 ::: {.respostas .rotulado}
@@ -145,15 +145,15 @@ Para cada linha: 1 Existe e funcionou nos últimos 3 meses · 2 Existe mas não 
 :::
 
 ::: {.nota .interno}
-Mesma razão de 17.2: a escala de três níveis distingue o serviço que existe e funciona do que existe no organigrama. A lista mantém-se por inteiro, incluindo os serviços sem equivalente internacional — capela, ajardinamento, salão de actos —, que são informação de gestão patrimonial com valor próprio.
+Mesma razão de 18.2: a escala de três níveis distingue o serviço que existe e funciona do que existe no organigrama. A lista mantém-se por inteiro, incluindo os serviços sem equivalente internacional — capela, ajardinamento, salão de actos —, que são informação de gestão patrimonial com valor próprio.
 :::
 
-## 18.5.2 · Gavetas mortuárias [MANTÉM-SE]{.etiqueta .mantem}
+## 19.5.2 · Gavetas mortuárias [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Capacidade da morgue de cada unidade sanitária, em número de gavetas. O código 97 separa a unidade sem morgue da unidade com morgue e sem gavetas. Verificação a programar: se 18.5.1 for 3, 18.5.2 tem de ser 97.
+Capacidade da morgue de cada unidade sanitária, em número de gavetas. O código 97 separa a unidade sem morgue da unidade com morgue e sem gavetas. Verificação a programar: se 19.5.1 for 3, 19.5.2 tem de ser 97.
 
 </details>
 
@@ -175,7 +175,7 @@ Quantas gavetas mortuárias tem a morgue desta unidade sanitária?
 - Número inteiro, 0 a 99 · **97** não tem morgue
 :::
 
-## 18.18.1 · Recolha da opinião dos utentes [NOVO]{.etiqueta .novo}
+## 19.18.1 · Recolha da opinião dos utentes [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -190,7 +190,7 @@ Unidades com procedimento de rotina para recolher ou reportar a opinião dos ute
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
 | Opção 1 (Sim, observado) | 4.4.2.3.9 | Unidades com sistema para recolher a opinião dos utentes sobre os serviços<br>*Percentage of facilities with system for eliciting client opinions on facility services* | Q730 = 1; todas as unidades |
-| Opção 1 (Sim, observado) | 4.4.2.3.10 | Entra no cálculo (ver 18.18.2) | Faz as vezes da Q731 = 1 |
+| Opção 1 (Sim, observado) | 4.4.2.3.10 | Entra no cálculo (ver 19.18.2) | Faz as vezes da Q731 = 1 |
 :::
 
 ::: {.enunciado .rotulado}
@@ -210,19 +210,19 @@ Existe nesta unidade sanitária um procedimento de rotina para recolher ou repor
 ::: {.instrucao .rotulado}
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for sim, pedir para ver notas ou relatórios relativos à opinião dos utentes antes de marcar «Sim, observado» ou «Sim, referido, não visto».
 
-Se a resposta for «Não», não fazer 18.18.2.
+Se a resposta for «Não», não fazer 19.18.2.
 :::
 
 ::: {.nota .interno}
 O Gabinete do Utente existe na Ficha como caixa e passa a ter o seu conteúdo medido: não se pergunta apenas se existe, mas se a opinião dos utentes é de facto recolhida e analisada, e com que periodicidade. É a única porta de entrada do instrumento para a perspectiva de quem usa os serviços.
 :::
 
-## 18.18.2 · Análise da opinião dos utentes [NOVO]{.etiqueta .novo}
+## 19.18.2 · Análise da opinião dos utentes [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Unidades com sistema de análise da opinião dos utentes pelo menos a cada 3 meses. Regra de cálculo: conta a unidade com 18.18.1 igual a 1 e 18.18.2 igual a 1 ou 2.
+Unidades com sistema de análise da opinião dos utentes pelo menos a cada 3 meses. Regra de cálculo: conta a unidade com 19.18.1 igual a 1 e 19.18.2 igual a 1 ou 2.
 
 </details>
 
@@ -231,7 +231,7 @@ Unidades com sistema de análise da opinião dos utentes pelo menos a cada 3 mes
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Opções 1 e 2 (pelo menos a cada 3 meses), com 18.18.1 = 1 | 4.4.2.3.10 | Unidades com sistema de análise da opinião dos utentes pelo menos a cada 3 meses<br>*Percentage of facilities with system of reviewing client feedback at least every 3 months* | Q731 = 1 e Q732 = 1 ou 2; todas as unidades. O formulário não tem pergunta própria equivalente à Q731; faz as vezes dela 18.18.1 = 1 |
+| Opções 1 e 2 (pelo menos a cada 3 meses), com 19.18.1 = 1 | 4.4.2.3.10 | Unidades com sistema de análise da opinião dos utentes pelo menos a cada 3 meses<br>*Percentage of facilities with system of reviewing client feedback at least every 3 months* | Q731 = 1 e Q732 = 1 ou 2; todas as unidades. O formulário não tem pergunta própria equivalente à Q731; faz as vezes dela 19.18.1 = 1 |
 :::
 
 ::: {.enunciado .rotulado}
@@ -253,7 +253,7 @@ Com que frequência é analisada a opinião dos utentes?
 98. Não sabe
 :::
 
-## 18.7 e 18.16 · Duas remissões [MANTÉM-SE]{.etiqueta .mantem}
+## 19.7 e 19.16 · Duas remissões [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -265,14 +265,14 @@ Nada nesta secção: a comunicação é medida na secção 6 e o tratamento do l
 ::: {.hhfa .fonte-indicadores}
 **Fonte dos indicadores** · catálogo do HHFA (OMS)
 
-**Fonte:** nenhum indicador nesta secção — os indicadores da comunicação contam-se na secção 6 (18.7) e os do tratamento do lixo nos quesitos 5.5 e 5.6 (18.16).
+**Fonte:** nenhum indicador nesta secção — os indicadores da comunicação contam-se na secção 6 (19.7) e os do tratamento do lixo nos quesitos 5.5 e 5.6 (19.16).
 :::
 
 ::: {.nota}
-**18.7** é desenvolvido na secção 6, Conectividade e meios informáticos. **18.16** é desenvolvido nos quesitos 5.5 e 5.6, na secção 5. Em 17 ficam apenas as linhas de remissão, sem caixa a preencher, para que a informação não seja recolhida duas vezes.
+**19.7** é desenvolvido na secção 6, Conectividade e meios informáticos. **19.16** é desenvolvido nos quesitos 5.5 e 5.6, na secção 5. Em 17 ficam apenas as linhas de remissão, sem caixa a preencher, para que a informação não seja recolhida duas vezes.
 :::
 
-## 18.8 · Bloco de manutenção [PARQUEADO]{.etiqueta .parqueado}
+## 19.8 · Bloco de manutenção [PARQUEADO]{.etiqueta .parqueado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -314,7 +314,7 @@ Bloco parqueado: o que geraria, se entrar nesta ronda.
 :::
 
 ::: {.nota}
-A caixa de 18.8 mantém-se na lista de três níveis. O bloco completo — cerca de 25 campos — fica para o domínio de gestão e é a porta de entrada para duas subáreas inteiras:
+A caixa de 19.8 mantém-se na lista de três níveis. O bloco completo — cerca de 25 campos — fica para o domínio de gestão e é a porta de entrada para duas subáreas inteiras:
 
 **Manutenção de sistemas de infraestrutura** — se é feita manutenção preventiva ou correctiva, se existe plano de manutenção, e uma lista de 9 sistemas: electricidade, água, saneamento e esgotos, incinerador, ventilação ou ar condicionado, oxigénio central, altifalantes e comunicações, extintores e computadores, cada um com a escala «rotineiramente / às vezes, não rotineiramente / nunca / não aplicável».
 

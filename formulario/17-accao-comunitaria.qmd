@@ -1,5 +1,5 @@
 ---
-title: "Secção 16 — Acção comunitária"
+title: "Secção 17 — Acção comunitária"
 ---
 
 Actividade da unidade na comunidade: distribuição de redes mosquiteiras, brigadas móveis e equipas avançadas, e agentes de desenvolvimento comunitário e de saúde (ADECOS).
@@ -11,20 +11,20 @@ Actividade da unidade na comunidade: distribuição de redes mosquiteiras, briga
 
 | Quesito | O que se obtém |
 |---|---|
-| 16.1 | Distribuição regular de redes mosquiteiras à população [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 16.2 e 16.3 | Brigadas móveis e equipas avançadas organizadas pela unidade [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 16.4 e 16.4.0 | Número de ADECOS que trabalham a partir da unidade [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 16.4.1 | Articulação com os ADECOS em seis programas [(6 indicadores do HHFA)]{.hhfa} |
-| 16.4.2 | Procura de faltosos pelos ADECOS, por linha de cuidado [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 17.1 | Distribuição regular de redes mosquiteiras à população [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 17.2 e 17.3 | Brigadas móveis e equipas avançadas organizadas pela unidade [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 17.4 e 17.4.0 | Número de ADECOS que trabalham a partir da unidade [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 17.4.1 | Articulação com os ADECOS em seis programas [(6 indicadores do HHFA)]{.hhfa} |
+| 17.4.2 | Procura de faltosos pelos ADECOS, por linha de cuidado [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
-## 16.1 · Distribuição de redes mosquiteiras [MANTÉM-SE]{.etiqueta .mantem}
+## 17.1 · Distribuição de redes mosquiteiras [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que distribuem redes mosquiteiras tratadas de longa duração à população de forma regular, durante mais de 6 meses no ano. A rede entregue em consulta é recolhida em 14.1.1 (grávida) e 13.2.1 (criança). É medida própria do Mapa Sanitário.
+Percentagem de unidades que distribuem redes mosquiteiras tratadas de longa duração à população de forma regular, durante mais de 6 meses no ano. A rede entregue em consulta é recolhida em 15.1.1 (grávida) e 14.2.1 (criança). É medida própria do Mapa Sanitário.
 
 </details>
 
@@ -33,7 +33,7 @@ Percentagem de unidades que distribuem redes mosquiteiras tratadas de longa dura
 
 **Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
 
-Indicador mais próximo: 3.1.2.1.11 — unidades que oferecem rede mosquiteira tratada de longa duração, ou vale, à grávida (*Percentage of facilities offering LLIN or voucher for pregnant women*) — porque não é o mesmo: conta a rede entregue na consulta pré-natal (Q1812_4 = 1), que neste formulário está em 14.1.1, e não a distribuição à população. Do lado da criança, o equivalente é 3.1.8.1.12 (*Percentage of facilities offering for children < 5 years LLIN or voucher for LLIN*), em 13.2.1.
+Indicador mais próximo: 3.1.2.1.11 — unidades que oferecem rede mosquiteira tratada de longa duração, ou vale, à grávida (*Percentage of facilities offering LLIN or voucher for pregnant women*) — porque não é o mesmo: conta a rede entregue na consulta pré-natal (Q1812_4 = 1), que neste formulário está em 15.1.1, e não a distribuição à população. Do lado da criança, o equivalente é 3.1.8.1.12 (*Percentage of facilities offering for children < 5 years LLIN or voucher for LLIN*), em 14.2.1.
 :::
 
 ::: {.enunciado .rotulado}
@@ -59,7 +59,7 @@ Mantém-se o código e o sentido. A única alteração é trazer para dentro da 
 **É contributo próprio:** o instrumento internacional só pergunta pela rede entregue em consulta — pré-natal, pós-parto e cuidados à criança — e não pela distribuição à população em geral, que é a modalidade do programa angolano. As duas leituras passam a coexistir.
 :::
 
-## 16.2 · Brigadas móveis de vacinação [MANTÉM-SE]{.etiqueta .mantem}
+## 17.2 · Brigadas móveis de vacinação [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -103,7 +103,7 @@ Mantêm-se integralmente, com as definições do Guião — incluindo as três e
 **Articula-se com a secção 7:** as motorizadas e as bicicletas da Ficha são, em muitas unidades, o meio exacto com que isto se faz.
 :::
 
-## 16.3 · Equipas avançadas de vacinação [MANTÉM-SE]{.etiqueta .mantem}
+## 17.3 · Equipas avançadas de vacinação [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -139,12 +139,12 @@ E equipas avançadas de vacinação na área de referência, a menos de 10 km?
 [Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Inclui postos avançados. Exclui campanhas de vacinação e brigadas organizadas pela delegação ou secção municipal, mesmo com participação de pessoal desta unidade.
 :::
 
-## 16.4 · ADECOS [MANTÉM-SE]{.etiqueta .mantem}
+## 17.4 · ADECOS [MANTÉM-SE]{.etiqueta .mantem}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Quantas unidades têm ADECOS a trabalhar a partir delas. É a porta da pergunta seguinte e das grelhas 16.4.1 e 16.4.2. A articulação da unidade com eles é recolhida em 16.4.1. É medida própria do Mapa Sanitário.
+Quantas unidades têm ADECOS a trabalhar a partir delas. É a porta da pergunta seguinte e das grelhas 17.4.1 e 17.4.2. A articulação da unidade com eles é recolhida em 17.4.1. É medida própria do Mapa Sanitário.
 
 </details>
 
@@ -170,14 +170,14 @@ Existem Agentes de Desenvolvimento Comunitário e de Saúde (ADECOS) a trabalhar
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 16.4 for «Não», não perguntar 16.4.0 e saltar para a secção 17.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 17.4 for «Não», não perguntar 17.4.0 e saltar para a secção 18.
 :::
 
 ::: {.nota .interno}
 A caixa existe e mantém-se; **o que se acrescenta é o campo da quantidade, como o Guião já prevê**: «ADECOS: Agentes de Desenvolvimento Comunitário e de Saúde, trabalhando na Unidade Sanitária. Nesse caso, especificar a quantidade» (folhas 12 e 13).
 :::
 
-## 16.4.0 · Número de ADECOS [NOVO]{.etiqueta .novo}
+## 17.4.0 · Número de ADECOS [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -208,7 +208,7 @@ Número, 000 a 999
 Uma caixa de número resolve, e passa a haver pela primeira vez **um inventário da força de trabalho comunitária da rede**, que é informação central para um plano de investimentos em cuidados primários.
 :::
 
-## 16.4.1 · Articulação com os ADECOS [NOVO]{.etiqueta .novo}
+## 17.4.1 · Articulação com os ADECOS [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -222,12 +222,12 @@ Percentagem de unidades com articulação com os agentes comunitários em cada p
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha 16.4.1.1 · Planeamento familiar, resposta 1 | 3.1.1.1.15 | Unidades que oferecem ligação com agentes comunitários nos serviços de planeamento familiar<br>*Percentage of facilities offering links with CHWs for family planning services* | Q1804 = 1; todas as unidades |
-| Linha 16.4.1.2 · Consulta pré-natal, resposta 1 | 3.1.2.1.16 | Unidades que oferecem ligação com agentes comunitários na consulta pré-natal<br>*Percentage of facilities offering links with CHWs for ANC services* | Q1813 = 1; todas as unidades |
-| Linha 16.4.1.3 · Cuidados à criança menor de 5 anos, resposta 1 | 3.1.8.1.13 | Unidades que oferecem, para crianças menores de 5 anos, ligação com agentes comunitários na saúde da criança<br>*Percentage of facilities offering for children < 5 years linkages with community health workers  (CHWs)  for child health* | Q2003 = 1; todas as unidades |
-| Linha 16.4.1.4 · Malária, resposta 1 | 3.2.2.1.7 | Unidades que oferecem ligação com agentes comunitários nos serviços de malária<br>*Percentage of facilities offering links with CHWs for malaria services* | Q1402 = 1; todas as unidades |
-| Linha 16.4.1.5 · Tuberculose, resposta 1 | 3.2.3.1.8 | Unidades que oferecem ligação com agentes comunitários em algum serviço de tuberculose<br>*Percentage of facilities offering links with CHWs for any TB-related services* | Q2414 = 1; todas as unidades |
-| Linha 16.4.1.6 · VIH, resposta 1 | 3.2.6.1.5 | Unidades que oferecem ligação com agentes comunitários nos serviços de VIH<br>*Percentage of facilities offering links with CHWs for HIV-related services* | Q2311 = 1; todas as unidades |
+| Linha 17.4.1.1 · Planeamento familiar, resposta 1 | 3.1.1.1.15 | Unidades que oferecem ligação com agentes comunitários nos serviços de planeamento familiar<br>*Percentage of facilities offering links with CHWs for family planning services* | Q1804 = 1; todas as unidades |
+| Linha 17.4.1.2 · Consulta pré-natal, resposta 1 | 3.1.2.1.16 | Unidades que oferecem ligação com agentes comunitários na consulta pré-natal<br>*Percentage of facilities offering links with CHWs for ANC services* | Q1813 = 1; todas as unidades |
+| Linha 17.4.1.3 · Cuidados à criança menor de 5 anos, resposta 1 | 3.1.8.1.13 | Unidades que oferecem, para crianças menores de 5 anos, ligação com agentes comunitários na saúde da criança<br>*Percentage of facilities offering for children < 5 years linkages with community health workers  (CHWs)  for child health* | Q2003 = 1; todas as unidades |
+| Linha 17.4.1.4 · Malária, resposta 1 | 3.2.2.1.7 | Unidades que oferecem ligação com agentes comunitários nos serviços de malária<br>*Percentage of facilities offering links with CHWs for malaria services* | Q1402 = 1; todas as unidades |
+| Linha 17.4.1.5 · Tuberculose, resposta 1 | 3.2.3.1.8 | Unidades que oferecem ligação com agentes comunitários em algum serviço de tuberculose<br>*Percentage of facilities offering links with CHWs for any TB-related services* | Q2414 = 1; todas as unidades |
+| Linha 17.4.1.6 · VIH, resposta 1 | 3.2.6.1.5 | Unidades que oferecem ligação com agentes comunitários nos serviços de VIH<br>*Percentage of facilities offering links with CHWs for HIV-related services* | Q2311 = 1; todas as unidades |
 :::
 
 ::: {.enunciado .rotulado}
@@ -241,12 +241,12 @@ Para cada área seguinte, diga-me se existe articulação regular entre esta uni
 
 | Código | Área | 1 · Sim, articulação regular | 2 · Não | 98 · Não sabe |
 |---|---|:-:|:-:|:-:|
-| 16.4.1.1 | Planeamento familiar [HHFA 3.1.1.1.15]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 16.4.1.2 | Consulta pré-natal [HHFA 3.1.2.1.16]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 16.4.1.3 | Cuidados à criança menor de 5 anos [HHFA 3.1.8.1.13]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 16.4.1.4 | Malária [HHFA 3.2.2.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 16.4.1.5 | Tuberculose [HHFA 3.2.3.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 16.4.1.6 | VIH [HHFA 3.2.6.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.1 | Planeamento familiar [HHFA 3.1.1.1.15]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.2 | Consulta pré-natal [HHFA 3.1.2.1.16]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.3 | Cuidados à criança menor de 5 anos [HHFA 3.1.8.1.13]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.4 | Malária [HHFA 3.2.2.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.5 | Tuberculose [HHFA 3.2.3.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.6 | VIH [HHFA 3.2.6.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota .interno}
@@ -259,12 +259,12 @@ Reunir as seis numa única grelha, em vez de as dispersar pelos blocos, foi opç
 **Verificação a programar.** Declarar articulação em seis áreas com zero ADECOS é uma inconsistência a assinalar.
 :::
 
-## 16.4.2 · Procura de faltosos pelos ADECOS [NOVO]{.etiqueta .novo}
+## 17.4.2 · Procura de faltosos pelos ADECOS [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades em que os ADECOS procuram os utentes que faltaram, em cada linha de cuidado. Lida com a pergunta da procura activa de cada linha (11.9, 13.1.5, 13.2.2, 14.1.2, 14.4.13, 15.4.3, 15.7.6), mostra que parte da procura passa pela comunidade.
+Percentagem de unidades em que os ADECOS procuram os utentes que faltaram, em cada linha de cuidado. Lida com a pergunta da procura activa de cada linha (11.9, 14.1.5, 14.2.2, 15.1.2, 15.4.13, 16.4.3, 16.7.6), mostra que parte da procura passa pela comunidade.
 
 </details>
 
@@ -285,13 +285,13 @@ Para cada área seguinte, diga-me se os ADECOS procuram, a pedido desta unidade 
 
 | Código | Área | 1 · Sim | 2 · Não | 97 · A unidade não oferece este serviço | 98 · Não sabe |
 |---|---|:-:|:-:|:-:|:-:|
-| 16.4.2.1 | Consulta pré-natal | ☐ | ☐ | ☐ | ☐ |
-| 16.4.2.2 | Puericultura (criança menor de 1 ano) | ☐ | ☐ | ☐ | ☐ |
-| 16.4.2.3 | Vacinação (crianças com doses em atraso) | ☐ | ☐ | ☐ | ☐ |
-| 16.4.2.4 | Planeamento familiar | ☐ | ☐ | ☐ | ☐ |
-| 16.4.2.5 | Tratamento antirretroviral | ☐ | ☐ | ☐ | ☐ |
-| 16.4.2.6 | Tuberculose | ☐ | ☐ | ☐ | ☐ |
-| 16.4.2.7 | Doenças crónicas não transmissíveis | ☐ | ☐ | ☐ | ☐ |
+| 17.4.2.1 | Consulta pré-natal | ☐ | ☐ | ☐ | ☐ |
+| 17.4.2.2 | Puericultura (criança menor de 1 ano) | ☐ | ☐ | ☐ | ☐ |
+| 17.4.2.3 | Vacinação (crianças com doses em atraso) | ☐ | ☐ | ☐ | ☐ |
+| 17.4.2.4 | Planeamento familiar | ☐ | ☐ | ☐ | ☐ |
+| 17.4.2.5 | Tratamento antirretroviral | ☐ | ☐ | ☐ | ☐ |
+| 17.4.2.6 | Tuberculose | ☐ | ☐ | ☐ | ☐ |
+| 17.4.2.7 | Doenças crónicas não transmissíveis | ☐ | ☐ | ☐ | ☐ |
 :::
 
 ::: {.instrucao .rotulado}

@@ -11,8 +11,8 @@ GEPE/MINSA · OMS Angola · projecto HIIP
 | `index.qmd` | Capa: título, fotografia (`unidade_sanitaria_rural.jpeg`), autores e entrada no documento |
 | `apresentacao.qmd` | Nota de apresentação e orientações de leitura — o que é o documento, como ler um quesito, as convenções de desenho, o que ficou parqueado, as decisões em aberto e as pendências a pedir ao MINSA |
 | `revisores.qmd` | Orientações aos revisores — o que se pede, como enviar comentários e a nota sobre o tom da proposta |
-| `formulario.qmd` | «Sobre o formulário»: página de entrada, com a lista das 18 secções |
-| `formulario/` | O formulário em 18 secções, por tema, quesito a quesito: enunciado, opções de resposta e comentário |
+| `formulario.qmd` | «Sobre o formulário»: página de entrada, com a lista das 19 secções |
+| `formulario/` | O formulário em 19 secções, por tema, quesito a quesito: enunciado, opções de resposta e comentário |
 | `_legenda.qmd` | Legenda das caixas e etiquetas, incluída no topo de cada capítulo |
 | `comentar.html` | Botão «Comentar» ao lado de cada quesito, que abre o Google Forms com o quesito, o nome e o email preenchidos; o link do formulário configura-se em `FORMULARIO` |
 | `_quarto.yml` | Configuração do livro |
@@ -43,7 +43,7 @@ feita primeiro na matriz e só depois transcrita para aqui, para que as duas nã
 
 ## Estado
 
-Todas as secções estão transcritas e organizadas em 18 secções por tema. Os quesitos foram renumerados.
+Todas as secções estão transcritas e organizadas em 19 secções por tema. Os quesitos foram renumerados.
 A correspondência com os códigos da versão anterior (usados na matriz de decisão) está em `notas/correspondencia-codigos.md`, fora do livro.
 
 ## Orientações para o guião do inquiridor (a escrever)

@@ -272,7 +272,7 @@ Para cada linha: 1 Sim · 2 Não · 98 Não sabe
 :::
 
 ::: {.nota .interno}
-**A profilaxia pós-exposição ao VIH (PEP) dos sobreviventes de violência é recolhida aqui** — a linha 3 de 10.E.3. A profilaxia pós-exposição ao VIH (PEP) fora do contexto da violência está no quesito 15.3 e não se repete aqui.
+**A profilaxia pós-exposição ao VIH (PEP) dos sobreviventes de violência é recolhida aqui** — a linha 3 de 10.E.3. A profilaxia pós-exposição ao VIH (PEP) fora do contexto da violência está no quesito 16.3 e não se repete aqui.
 
 **Duas notas que importam à recolha.** A primeira é de prazo: a profilaxia pós-exposição ao VIH (PEP) só é eficaz nas primeiras 72 horas, pelo que a oferta declarada aqui deve ler-se ao lado do horário de funcionamento da unidade e da disponibilidade de antirretrovirais. A segunda é de enquadramento: **as linhas 7 e 8, sobre interrupção da gravidez, devem ser confirmadas com o GEPE contra o quadro legal angolano antes de irem a terreno.** Se a prestação não for legalmente possível, as duas linhas saem.
 :::
@@ -543,7 +543,7 @@ Percentagem de unidades sanitárias que realizaram cada procedimento de grande c
 | Calculado com as linhas 10.29.2.2 a 10.29.2.4: Sim em pelo menos uma | 1.3.2.7.5 | Unidades que oferecem pelo menos um dos três procedimentos cirúrgicos de referência<br>*Percentage of facilities offering any of the three Bellwether surgical procedures* | Q207_5, Q207_6 ou Q207_7 = 1, 2 ou 3; todas as unidades |
 | Calculado com as linhas 10.29.2.2 a 10.29.2.4: Sim nas três | 1.3.2.7.6 | Unidades que oferecem os três procedimentos cirúrgicos de referência<br>*Percentage of facilities offering all of the three Bellwether surgical procedures* | Q207_5 e Q207_6 e Q207_7 = 1, 2 ou 3; todas as unidades |
 | Calculado com as linhas 10.29.2.2 a 10.29.2.4: Sim nas três | 3.4.2.1.2 | Unidades que oferecem os três procedimentos de referência<br>*Percentage of facilities offering all three Bellwether procedures* | Q2507_1 = 1 e Q2507_2 = 1 e Q2507_3 = 1; todas as unidades |
-| Linha 10.29.2.2 · Cesariana — Sim | 3.4.2.1.3 | Unidades que oferecem: cesariana<br>*Percentage of facilities offering caesarean section (Bellwether procedure)* | Q2507_1 = 1 OR Q2210_8 = 1; todas as unidades. A cesariana das funções-sinal obstétricas (14.2.3.8) também conta |
+| Linha 10.29.2.2 · Cesariana — Sim | 3.4.2.1.3 | Unidades que oferecem: cesariana<br>*Percentage of facilities offering caesarean section (Bellwether procedure)* | Q2507_1 = 1 OR Q2210_8 = 1; todas as unidades. A cesariana das funções-sinal obstétricas (15.2.3.8) também conta |
 | Linha 10.29.2.3 · Laparotomia — Sim | 3.4.2.1.4 | Unidades que oferecem: laparotomia<br>*Percentage of facilities offering laparotomy (Bellwether procedure)* | Q2507_3 = 1 OR Q2509_17 = 1; todas as unidades |
 | Linha 10.29.2.4 · Redução e fixação de fractura exposta de osso longo — Sim | 3.4.2.1.5 | Unidades que oferecem: redução e fixação de fractura exposta de osso longo<br>*Percentage of facilities offering reduction and fixation of open fracture (Bellwether procedure)* | Q2507_2 = 1; todas as unidades |
 | Linha 10.29.2.5 · Apendicectomia — Sim | 3.4.2.1.6 | Unidades que oferecem: apendicectomia<br>*Percentage of facilities offering appendectomy* | Q2509_7 = 1; todas as unidades |
@@ -645,7 +645,7 @@ Para cada uma das áreas de especialidade seguintes, diga-me se esta unidade san
 :::
 
 ::: {.nota .interno}
-**Fecho da secção 10.** Decisão de fundo a registar: nesta secção adopta-se o olhar internacional, que é o mais adequado ao objecto, **sem retirar a lista de especialidades da Ficha**. As duas convivem porque respondem a perguntas diferentes — a especialidade diz como a unidade está organizada e serve a gestão da rede; a condição diz o que a unidade consegue resolver e serve o planeamento do cuidado. É o mesmo desenho usado nas comissões de 17.2, onde o órgão e a actividade convivem.
+**Fecho da secção 10.** Decisão de fundo a registar: nesta secção adopta-se o olhar internacional, que é o mais adequado ao objecto, **sem retirar a lista de especialidades da Ficha**. As duas convivem porque respondem a perguntas diferentes — a especialidade diz como a unidade está organizada e serve a gestão da rede; a condição diz o que a unidade consegue resolver e serve o planeamento do cuidado. É o mesmo desenho usado nas comissões de 18.2, onde o órgão e a actividade convivem.
 
 [**81 indicadores do HHFA** nesta secção.]{.hhfa}
 :::
