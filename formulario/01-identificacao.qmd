@@ -217,7 +217,7 @@ Identificação de quem recolheu os dados desta ficha.
 ## Finalização da recolha {.bloco}
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Preencher este bloco no fim da recolha, depois de todas as outras secções.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Preencher este bloco no fim da recolha, depois que todas as secções tenham sido exploradas.
 :::
 
 ## 1.8 Responsável da unidade sanitária [NOVO]{.etiqueta .novo}

@@ -25,7 +25,7 @@ Localização administrativa, designação e endereço da unidade sanitária, a 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Identificação de cada unidade sanitária e a sua localização administrativa. Permite ler todos os indicadores por província, município, comuna e bairro, e o nome com o código do Mapa Sanitário é a chave de ligação a qualquer outra base de dados do sector.
+Identificação de cada unidade sanitária e a sua localização administrativa, que permitem estratificar todas as análises feitas pelo Mapa Sanitário.
 
 </details>
 
@@ -100,7 +100,7 @@ Permite ler todos os indicadores por nível de cuidados. É também a categoria 
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Categorias de cuidados primários da lista do Mapa Sanitário | 1.1.1.1.2 | Número de unidades de cuidados primários por 10 000 habitantes<br>*Number of primary care facilities per 10,000 population* | Q115 = 6, 7, 8, 9 ou 10 (tipos de cuidados primários; o catálogo pede que a lista de tipos se adapte aos tipos nacionais); somado por área ÷ população da área geográfica (3.1) |
+| Opções 1 a 5 (PS, CS, CMI, CSR, HM — nível primário, segundo o REGUSAP) | 1.1.1.1.2 | Número de unidades de cuidados primários por 10 000 habitantes<br>*Number of primary care facilities per 10,000 population* | Q115 = 6, 7, 8, 9 ou 10 (tipos de cuidados primários; o catálogo pede que a lista de tipos se adapte aos tipos nacionais); somado por área ÷ população da área geográfica (3.1) |
 
 Uso na análise: estratificador principal de todos os indicadores.
 :::
@@ -109,6 +109,21 @@ Uso na análise: estratificador principal de todos os indicadores.
 [Confirmar com o respondente]{.rotulo}
 
 Categoria da unidade, segundo a classificação do Mapa Sanitário.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Posto de Saúde (PS)
+2. Centro de Saúde (CS)
+3. Centro Materno-Infantil (CMI)
+4. Centro de Saúde de Referência (CSR)
+5. Hospital Municipal (HM)
+6. Hospital Geral (HG)
+7. Hospital Provincial (HP)
+8. Hospital Regional (HR)
+9. Hospital Nacional ou Central (HN)
+10. Estabelecimento e Serviço Especial (ESE)
 :::
 
 ::: {.instrucao .rotulado}
