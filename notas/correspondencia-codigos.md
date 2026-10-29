@@ -196,12 +196,7 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 19.1.2 | 2.2 | Gestão | 19 |
 | 19.1.3 | 0.2 | Orçamento próprio | 19 |
 | 19.2.1 a 19.2.17 | 7.4.1 a 7.4.17 | Lista dos serviços e órgãos de gestão | 19 |
-| 19.2.14.1 | 7.4.14.1 | Revisão formal de casos | 19 |
-| 19.2.14.2 | 7.4.14.2 | Frequência das revisões de casos | 19 |
-| 19.2.14.3 | 7.4.14.3 | Revisão de caso nos últimos 3 meses | 19 |
-| 19.2.14.4 | 7.4.14.4 | Revisão formal de óbitos | 19 |
-| 19.2.14.5 | 7.4.14.5 | Revisão de óbitos por tipo de morte | 19 |
-| 19.2.14.6 | 7.4.14.6 | Revisão de óbito nos últimos 3 meses | 19 |
+| 19.2.14.1 a 19.2.14.4 | 7.4.14.4 a 7.4.14.6 | Revisão de óbitos, por tipo de óbito (grelha); a revisão de casos (7.4.14.1 a 7.4.14.3) foi retirada | 19 |
 | 19.2.13.1 | 7.4.13.1 | Comissão e reuniões de prevenção e controlo de infecções | 19 |
 | 19.2.13.2 | 7.4.13.2 | Reunião mais recente sobre prevenção e controlo de infecções | 19 |
 | 19.2.18.1 | 7.4.18.1 | Actividades de garantia de qualidade | 19 |

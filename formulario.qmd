@@ -28,5 +28,5 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 16](formulario/16-materna-neonatal-pf.qmd) | Saúde materna, do recém-nascido e planeamento familiar. Consulta pré-natal, partos, cuidados ao recém-nascido e métodos contraceptivos. |
 | [Secção 17](formulario/17-vih-tb-malaria.qmd) | VIH, tuberculose e malária. Testagem, profilaxia e tratamento do VIH, diagnóstico e seguimento da tuberculose, e malária. |
 | [Secção 18](formulario/18-accao-comunitaria.qmd) | Acção comunitária. Redes mosquiteiras, brigadas móveis e articulação com os ADECOS. |
-| [Secção 19](formulario/19-gestao.qmd) | Gestão. Propriedade, órgãos de gestão, revisão de casos e de óbitos, controlo de infecções e qualidade. |
+| [Secção 19](formulario/19-gestao.qmd) | Gestão. Propriedade, órgãos de gestão, revisão de óbitos, controlo de infecções e qualidade. |
 | [Secção 20](formulario/20-servicos-gerais.qmd) | Serviços gerais. Transporte de emergência, serviços de apoio e opinião dos utentes. |
