@@ -1,0 +1,747 @@
+---
+title: "Secção 11 — Serviços clínicos e cirúrgicos"
+---
+
+Atendimento por especialidade clínica, serviços a sobreviventes de violência e cirurgia. As doenças crónicas não transmissíveis, a saúde mental, as doenças neurológicas e o cancro estão na secção 11.
+
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
+
+| Quesito | O que se obtém |
+|---|---|
+| 11.A | Densidade de oferta em 28 especialidades e na fisioterapia: atendimento, número de especialistas, turnos por semana e forma de acesso [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 11.E.0 | Algum serviço a sobreviventes de violência [(2 indicadores do HHFA)]{.hhfa} |
+| 11.E.1 | Serviços a sobreviventes de violação ou de violência sexual ou por parceiro íntimo [(1 indicador do HHFA)]{.hhfa} |
+| 11.E.2 | Serviços a crianças afectadas por maus-tratos [(2 indicadores do HHFA)]{.hhfa} |
+| 11.E.3 | Prestações oferecidas aos sobreviventes de violência [(8 indicadores do HHFA)]{.hhfa} |
+| 11.E.4 | Profissional do mesmo sexo disponível para o exame — condição de acesso [(1 indicador do HHFA)]{.hhfa} |
+| 11.29 | Oferta de algum procedimento cirúrgico [(1 indicador do HHFA)]{.hhfa} |
+| 11.29.1 | Pequena cirurgia [(2 indicadores do HHFA)]{.hhfa} |
+| 11.29.1.1 a 11.29.1.12 | Procedimentos de pequena cirurgia realizados nos últimos 12 meses, incluindo a circuncisão médica voluntária [(12 indicadores do HHFA)]{.hhfa} |
+| 11.29.2 | Grande cirurgia, de urgência e electiva [(2 indicadores do HHFA)]{.hhfa} |
+| 11.29.2.1 | Salas de operações em condições de utilização [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 11.29.2.2 a 11.29.2.22 | Procedimentos de grande cirurgia realizados nos últimos 12 meses, com os três de referência [(24 indicadores do HHFA)]{.hhfa} |
+| 11.30 a 11.34 | Cirurgia de especialidade [(1 indicador do HHFA)]{.hhfa} |
+
+</details>
+
+## 11.A · Especialidades clínicas (11.1 a 11.28 e 11.35) [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.** Para cada especialidade da grelha (11.1 a 11.28) e para a fisioterapia (11.35):
+
+- **Percentagem de unidades sanitárias que oferecem atendimento regular na especialidade.**
+  - **Numerador:** unidades com coluna A = 1 na linha.
+  - **Denominador:** todas as unidades sanitárias inquiridas.
+- **Número de especialistas que atendem na especialidade por 10 000 habitantes.**
+  - **Numerador:** soma da coluna B das unidades da área geográfica (o código 00 conta zero).
+  - **Denominador:** população da área geográfica (ver 3.1).
+- **Percentagem de unidades em que o atendimento é prestado sem especialista dessa área.**
+  - **Numerador:** unidades com coluna B = 00 na linha.
+  - **Denominador:** unidades com coluna A = 1 na linha.
+- **Média de turnos de atendimento por semana**, e **número de turnos por semana por 10 000 habitantes.**
+  - **Numerador:** soma da coluna C da linha.
+  - **Denominador:** unidades com coluna A = 1 na linha (média); população da área geográfica, ver 3.1 (densidade).
+- **Percentagem de unidades em que o acesso à especialidade exige carta de encaminhamento.**
+  - **Numerador:** unidades com coluna D = 2 na linha (a distribuição completa inclui o acesso directo, D = 1, e misto, D = 3).
+  - **Denominador:** unidades com coluna A = 1 na linha.
+- **Desagregação:** categoria da unidade (2.6), província e município (2.1 a 2.5).
+
+**Função no formulário.** A coluna A funciona como salto linha a linha: só com A = 1 se perguntam as colunas B, C e D, e é esse o denominador dos indicadores de dimensão e de acesso. O número de especialistas declarado aqui compara-se com o quadro de pessoal da unidade.
+
+**Leitura.** Com a população da área, mede a relação entre a oferta e a procura de cada especialidade; a coluna D mostra onde a especialidade funciona como porta de entrada e onde depende da referência.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item. Nenhuma das 29 linhas (11.1 a 11.28 e 11.35) e nenhuma das quatro colunas (A a D) gera indicador do HHFA: o catálogo pergunta pelo serviço ou pela condição, não pela especialidade.
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Coluna A · Oferece atendimento? — linhas 11.1 a 11.28 | — (medida própria) | Sem indicador por especialidade. Indicadores mais próximos, por linha: 11.11 Fisiatria e 11.35 Fisioterapia → 1.3.2.10.1 — Unidades que oferecem algum cuidado de reabilitação (*Percentage of facilities offering any rehabilitation care*); 11.19 Neurologia → 1.3.2.5.2 (*Percentage of facilities offering services for neurological disorders*); 11.22 Oncologia → 1.3.2.4.5 (*Percentage of facilities offering any cancer services*); 11.26 Psiquiatria e 11.27 Psicologia → 1.3.2.5.1 (*Percentage of facilities offering any services for mental disorders*) | Não são o mesmo: medem a oferta do serviço, com ou sem especialista; 1.3.2.5.2, 1.3.2.4.5 e 1.3.2.5.1 são gerados por 11.C.2, 11.D.0 e 11.C.1 |
+| Coluna B · N.º de especialistas — linhas 11.1 a 11.28 | — (medida própria) | Indicadores mais próximos: 1.2.1.2.5 — Número de médicos especialistas (*Number of medical doctors: specialists*); linha 11.3 → 1.2.1.2.7 (*Number of medical doctors: specialist - paediatricians*); linha 11.5 → 1.2.1.2.8 (*Number of medical doctors: specialist - obstetricians/gynaecologists*); linha 11.26 → 1.2.1.2.10 (*Number of medical doctors: specialist - psychiatrists*) | Não são o mesmo: Q306C e Q307_2C/3C/4C contam os médicos do quadro de pessoal da unidade, não os especialistas que atendem em cada serviço; o código 00 não tem equivalente |
+| Coluna C · Turnos por semana — linhas 11.1 a 11.28 | — (medida própria) | Indicador mais próximo: 1.3.1.3.1 — Média de dias por semana com consulta externa, entre as unidades que a oferecem (*Among facilities offering outpatient services, availability of services by mean number of days per week*) | Não é o mesmo: Q1304 dá dias por semana da consulta externa no seu conjunto, não turnos por especialidade |
+| Coluna D · Acesso — linhas 11.1 a 11.28 | — (medida própria) | Sem indicador próximo no catálogo | — |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Vou ler uma lista de especialidades clínicas. Para cada uma, diga-me se esta unidade sanitária oferece atendimento regular nessa especialidade. Se oferece: quantos especialistas atendem nesse serviço, quantos turnos de atendimento há por semana, e se os doentes marcam a consulta directamente ou precisam de uma carta de encaminhamento de outro serviço.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Quatro perguntas por especialidade (colunas A a D). Não considerar atendimentos ocasionais nem consultas suspensas há mais de 3 meses. Se a resposta na coluna A for «Não», passar à especialidade seguinte. Na fisioterapia (11.35), a coluna B conta os fisioterapeutas.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+- **A · Oferece atendimento?** 1 Sim · 2 Não
+- **B · Quantos especialistas atendem neste serviço?** número, 2 dígitos — **00** se o atendimento é prestado por outro profissional, sem especialista nessa área
+- **C · Quantos turnos de atendimento há por semana?** número, 2 dígitos — por exemplo, consulta todas as manhãs de segunda a sexta-feira = 05
+- **D · Como chegam os doentes?** 1 Marcam directamente · 2 Só com carta de encaminhamento de outro serviço · 3 Das duas formas
+
+| Código | Especialidade | A · Oferece atendimento? | B · N.º de especialistas | C · Turnos de atendimento por semana | D · Acesso |
+|---|---|:-:|:-:|:-:|:-:|
+| 11.1 | Medicina geral | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.2 | Medicina interna | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.3 | Pediatria | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.4 | Neonatologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.5 | Ginecologia e obstetrícia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.6 | Cuidados intensivos | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.7 | Cardiologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.8 | Dermatologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.9 | Endocrinologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.10 | Estomatologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.11 | Fisiatria | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.35 | Fisioterapia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.12 | Gastroenterologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.13 | Reumatologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.14 | Geriatria | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.15 | Hematologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.16 | Infecciologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.17 | Imuno-hematologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.18 | Nefrologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.19 | Neurologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.20 | Nutrição | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.21 | Oftalmologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.22 | Oncologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.23 | Orto-traumatologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.24 | Otorrinolaringologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.25 | Pneumologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.26 | Psiquiatria | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.27 | Psicologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+| 11.28 | Urologia | ☐ Sim ☐ Não | \_\_ | \_\_ | ☐ 1 ☐ 2 ☐ 3 |
+:::
+
+::: {.nota .interno}
+**Porque mudou.** Acrescenta-se a fisioterapia (11.35), com código a seguir aos da cirurgia para não renumerar a lista da Ficha. A pergunta da Ficha — se há atendimento em cada especialidade — mantém-se e ganha a companhia de outras três, para que se possa distinguir um centro de saúde onde o clínico geral acompanha hipertensos uma manhã por semana de um hospital com três cardiologistas em consulta diária. As quatro perguntas separam a **existência** da oferta, a sua **dimensão** — especialistas e turnos de atendimento — e a **forma de acesso**. O número de especialistas, com o código 00, conserva a distinção entre atendimento por especialista e por outro profissional.
+
+**O enunciado fixa o critério** de atendimento regular — dias marcados na semana, não suspenso há mais de 3 meses —, para que todas as unidades respondam com a mesma régua.
+
+**Verificação a programar.** O número de especialistas declarado aqui deverá ser coerente com o quadro de pessoal da unidade, quando o bloco de pessoal for desenhado.
+
+*Proposta desta revisão, ainda por registar na matriz de decisão.*
+:::
+
+## 11.E.0 · Sobreviventes de violência — porta [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias que prestam algum serviço a sobreviventes de violação, de violência sexual ou por parceiro íntimo, ou a crianças vítimas de maus-tratos.
+
+- **Numerador:** unidades com resposta «Sim» (1) em 11.E.0.
+- **Denominador:** todas as unidades sanitárias inquiridas. A resposta 98 fica no denominador e não conta no numerador.
+
+**Função no formulário.** Define o universo do bloco dos sobreviventes de violência: as unidades com «Sim» formam o denominador dos indicadores de 11.E.1 a 11.E.4. As unidades com «Não» saltam para 11.29 e não entram nesses denominadores; expresso sobre o total das unidades inquiridas, contam como sem o serviço.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 1.3.2.6.3 | Unidades que oferecem algum serviço para sobreviventes de violência<br>*Percentage of facilities offering any services for survivors of violence* | Q203_3 = 1, 2 ou 3; todas as unidades |
+| Resposta 1 (Sim) | 3.6.3.1.1 | Unidades que oferecem algum serviço a sobreviventes de violação, de violência sexual ou por parceiro íntimo<br>*Percentage of facilities offering any services for survivors of rape,  sexual or intimate partner violence* | Q1713 = 1; todas as unidades. A porta inclui também as crianças vítimas de maus-tratos, que o indicador não abrange |
+| Resposta 98 (Não sabe) | — (medida própria) | Sem indicador | — |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária presta algum serviço a sobreviventes de violação, de violência sexual ou de violência por parceiro íntimo, ou a crianças vítimas de maus-tratos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 11.29.
+:::
+
+::: {.nota .interno}
+**Reserva registada.** Uma resposta afirmativa a este bloco cria expectativa de confidencialidade, de protocolo escrito e de articulação com a polícia e o sistema judicial. Perguntar sem que exista essa capacidade pode produzir um dado que sobrestima a resposta disponível. Está pedida ao MINSA a norma nacional sobre atendimento a sobreviventes de violência sexual, para ancorar o enunciado.
+:::
+
+## 11.E.1 · Sobreviventes de violação ou de violência sexual ou por parceiro íntimo [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias que prestam serviços a sobreviventes de violação ou de violência sexual ou por parceiro íntimo.
+
+- **Numerador:** unidades com resposta «Sim» (1) em 11.E.1.
+- **Denominador:** unidades com resposta 1 em 11.E.0.
+
+**Função no formulário.** Identifica as unidades a que se dirigem as prestações de 11.E.3 e a condição de acesso de 11.E.4; esses indicadores podem também ler-se só entre as unidades com resposta 1 em 11.E.1.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 1.3.2.6.1 | Unidades que oferecem serviços para sobreviventes de violação e/ou de violência sexual ou por parceiro íntimo<br>*Percentage of facilities offering services for survivors of rape and/or intimate partner/sexual violence* | Q203_4 = 1, 2 ou 3; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária presta serviços a sobreviventes de violação ou de violência sexual ou por parceiro íntimo?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+## 11.E.2 · Crianças afectadas por maus-tratos [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias que prestam serviços a crianças afectadas por maus-tratos.
+
+- **Numerador:** unidades com resposta «Sim» (1) em 11.E.2.
+- **Denominador:** unidades com resposta 1 em 11.E.0.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 1.3.2.6.2 | Unidades que oferecem serviços para crianças afectadas por maus-tratos<br>*Percentage of facilities offering services for children affected by maltreatment* | Q203_5 = 1, 2 ou 3; todas as unidades |
+| Resposta 1 (Sim) | 3.6.3.3.1 | Unidades que oferecem algum serviço para crianças afectadas por maus-tratos<br>*Percentage of facilities offering any services for children affected by maltreatment* | Q1720 = 1; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+E a crianças afectadas por maus-tratos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+## 11.E.3 · Prestações oferecidas aos sobreviventes [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.** Para cada prestação da grelha (linhas 1 a 8 — exame forense, hepatite B, profilaxia pós-exposição ao VIH, contracepção de emergência, tratamento presuntivo de IST, vacina antitetânica, aconselhamento e serviços de interrupção da gravidez): percentagem de unidades sanitárias que oferecem habitualmente a prestação aos sobreviventes de violação ou de violência por parceiro íntimo.
+
+- **Numerador:** unidades com resposta 1 na linha.
+- **Denominador:** unidades com resposta 1 em 11.E.0. A resposta 98 fica no denominador e não conta no numerador.
+- **Desagregação:** as mesmas percentagens entre as unidades com resposta 1 em 11.E.1.
+
+**Leitura.** A linha 3 é a medida da profilaxia pós-exposição ao VIH (PEP) oferecida aos sobreviventes; a PEP fora do contexto da violência mede-se em 18.3.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 1 · Avaliação e exame forense — Sim | 3.6.3.1.2 | Unidades que oferecem avaliação forense dos sobreviventes<br>*Percentage of facilities offering forensic assessment of survivors* | Q1714_1 = 1; todas as unidades |
+| Linha 2 · Imunização contra a hepatite B — Sim | 3.6.3.1.4 | Unidades que oferecem imunização contra a hepatite B aos sobreviventes<br>*Percentage of facilities offering Hepatitis B immunization for survivors* | Q1714_2 = 1; todas as unidades |
+| Linha 3 · Profilaxia pós-exposição ao VIH (PEP) — Sim | 3.6.3.1.3 | Unidades que oferecem profilaxia pós-exposição (PEP) aos sobreviventes<br>*Percentage of facilities offering post exposure prophylaxis (PEP) for survivors* | Q1714_3 = 1; todas as unidades. Único indicador do catálogo sobre PEP |
+| Linha 4 · Contracepção de emergência — Sim | 3.6.3.1.6 | Unidades que oferecem contracepção de emergência aos sobreviventes<br>*Percentage of facilities offering emergency contraception for survivors* | Q1714_4 = 1; todas as unidades |
+| Linha 5 · Tratamento presuntivo de IST — Sim | 3.6.3.1.7 | Unidades que oferecem tratamento presuntivo de IST aos sobreviventes<br>*Percentage of facilities offering presumptive treatment of STIs for survivors* | Q1714_5 = 1; todas as unidades |
+| Linha 6 · Vacina antitetânica ou imunoglobulina — Sim | 3.6.3.1.5 | Unidades que oferecem toxóide tetânico ou imunoglobulina aos sobreviventes<br>*Percentage of facilities offering tetanus toxoid or immunoglobulin for survivors* | Q1714_6 = 1; todas as unidades |
+| Linha 7 · Aconselhamento sobre interrupção da gravidez — Sim | 3.6.3.1.9 | Unidades que oferecem aconselhamento sobre serviços de interrupção da gravidez aos sobreviventes<br>*Percentage of facilities offering counseling on induced abortion services for survivors* | Q1714_7 = 1; todas as unidades. Se a linha sair por razão legal, perde-se este indicador |
+| Linha 8 · Serviços de interrupção da gravidez — Sim | 3.6.3.1.10 | Unidades que oferecem serviços de interrupção da gravidez aos sobreviventes, se necessário<br>*Percentage of facilities offering induced abortion services for survivors if needed* | Q1714_8 = 1; todas as unidades. Se a linha sair por razão legal, perde-se este indicador |
+| Resposta 98 (Não sabe), em qualquer linha | — (medida própria) | Sem indicador | — |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada prestação seguinte, diga-me se é habitualmente oferecida aos sobreviventes de violação ou de violência por parceiro íntimo nesta unidade sanitária.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+1. Avaliação e exame forense
+2. Imunização contra a hepatite B
+3. Profilaxia pós-exposição ao VIH (PEP)
+4. Contracepção de emergência
+5. Tratamento presuntivo de infecções de transmissão sexual, de acordo com os protocolos nacionais
+6. Vacina antitetânica ou imunoglobulina
+7. Aconselhamento sobre serviços de interrupção da gravidez
+8. Serviços de interrupção da gravidez
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Para cada linha: 1 Sim · 2 Não · 98 Não sabe
+:::
+
+::: {.nota .interno}
+**A profilaxia pós-exposição ao VIH (PEP) dos sobreviventes de violência é recolhida aqui** — a linha 3 de 11.E.3. A profilaxia pós-exposição ao VIH (PEP) fora do contexto da violência está no quesito 18.3 e não se repete aqui.
+
+**Duas notas que importam à recolha.** A primeira é de prazo: a profilaxia pós-exposição ao VIH (PEP) só é eficaz nas primeiras 72 horas, pelo que a oferta declarada aqui deve ler-se ao lado do horário de funcionamento da unidade e da disponibilidade de antirretrovirais. A segunda é de enquadramento: **as linhas 7 e 8, sobre interrupção da gravidez, devem ser confirmadas com o GEPE contra o quadro legal angolano antes de irem a terreno.** Se a prestação não for legalmente possível, as duas linhas saem.
+:::
+
+## 11.E.4 · Profissional do mesmo sexo para o exame [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias com um profissional de saúde do mesmo sexo do sobrevivente sempre disponível para realizar o exame ou estar presente na sala.
+
+- **Numerador:** unidades com resposta «Sim» (1) em 11.E.4.
+- **Denominador:** unidades com resposta 1 em 11.E.0. A resposta 98 fica no denominador e não conta no numerador.
+
+**Leitura.** Não mede uma prestação clínica mas uma condição de acesso: determina se a pessoa chega a ser examinada.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 3.6.3.1.8 | Unidades com profissional de saúde do mesmo sexo para realizar o exame ou estar na sala com os sobreviventes<br>*Percentage of facilities offering health worker of same sex  to conduct exam / be in room with survivors* | Q1716 = 1; todas as unidades |
+| Resposta 98 (Não sabe) | — (medida própria) | Sem indicador | — |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Está sempre disponível nesta unidade sanitária um profissional de saúde do mesmo sexo do sobrevivente, para realizar o exame ou para estar presente na sala durante o exame?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.nota .interno}
+**11.E.4** é o único quesito do bloco que não mede uma prestação clínica mas uma condição de acesso: determina se a pessoa chega a ser examinada. Numa rede onde muitas unidades têm um único profissional de turno, é uma restrição real.
+:::
+
+## 11.29 · Cirurgia — porta [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias que realizam algum procedimento cirúrgico, de pequena ou de grande cirurgia.
+
+- **Numerador:** unidades com resposta «Sim» (1) em 11.29.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província e município (2.1 a 2.5).
+
+**Função no formulário.** Define o universo da cirurgia: as unidades com «Sim» formam o denominador de 11.29.1 (pequena cirurgia), de 11.29.2 (grande cirurgia) e da cirurgia de especialidade (11.30 a 11.34). As unidades com «Não» saltam para a secção 12 e não entram nesses denominadores; expresso sobre o total das unidades inquiridas, contam como não realizando nenhum procedimento cirúrgico.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 1.3.2.7.1 | Unidades que oferecem algum procedimento cirúrgico, de pequena ou de grande cirurgia<br>*Percentage of facilities offering any minor or major surgical procedures* | Q207_1 = 1, 2 ou 3; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária realiza algum procedimento cirúrgico, de pequena ou de grande cirurgia?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para a secção 11.
+:::
+
+## 11.29.1 · Pequena cirurgia [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias que realizam procedimentos de pequena cirurgia (sob anestesia local, sem bloco operatório).
+
+- **Numerador:** unidades com resposta «Sim» (1) em 11.29.1.
+- **Denominador:** unidades com resposta 1 em 11.29.
+
+**Função no formulário.** Porta encadeada dentro de 11.29. As unidades com «Sim» formam o denominador da grelha de procedimentos de pequena cirurgia (11.29.1.1 a 11.29.1.12); as unidades com «Não» saltam para 11.29.2 e não entram nesse denominador.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 1.3.2.7.2 | Unidades que oferecem procedimentos de pequena cirurgia<br>*Percentage of facilities offering minor surgical procedures* | Q207_2 = 1, 2 ou 3; todas as unidades |
+| Resposta 1 (Sim) | 3.4.1.1.1 | Unidades que oferecem algum procedimento de pequena cirurgia<br>*Percentage of facilities offering any minor surgical procedures* | Q2501 = 1; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Realiza procedimentos de pequena cirurgia, isto é, efectuados sob anestesia local, sem necessidade de bloco operatório?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 11.29.2.
+:::
+
+::: {.nota .interno}
+**Porque mudou.** A Ficha divide a cirurgia geral em urgência, electiva e pequena; o instrumento internacional divide em pequena e grande, pelo critério da anestesia e do bloco operatório. A proposta adopta o critério internacional, que é o verificável, e conserva a distinção urgência/electiva como informação própria dentro da grande cirurgia. As definições do Guião (folha 10) para as três caixas da Ficha mantêm-se válidas.
+:::
+
+## 11.29.1.1 a 11.29.1.12 · Procedimentos de pequena cirurgia [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.** Para cada procedimento da grelha (11.29.1.1 a 11.29.1.12), incluindo a circuncisão masculina médica voluntária para prevenção do VIH (11.29.1.12): percentagem de unidades sanitárias que realizaram o procedimento nos últimos 12 meses.
+
+- **Numerador:** unidades com resposta 1 na linha.
+- **Denominador:** unidades com resposta 1 em 11.29.1.
+
+**Leitura.** Pergunta o que foi feito nos últimos 12 meses, e não o que a unidade poderia fazer: o conjunto das linhas dá o perfil de resolução cirúrgica de primeira linha da unidade.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 11.29.1.1 · Desbridamento de feridas — Sim | 3.4.1.1.2 | Unidades que oferecem: desbridamento de feridas<br>*Percentage of facilities offering wound debridement* | Q2503_2 = 1 ou Q2503_2 = 2 ou Q2503_2 = 3; todas as unidades |
+| Linha 11.29.1.2 · Sutura de lacerações — Sim | 3.4.1.1.3 | Unidades que oferecem: sutura de lacerações<br>*Percentage of facilities offering suturing of laceration* | Q2503_4 = 1 ou Q2503_4 = 2 ou Q2503_4 = 3; todas as unidades |
+| Linha 11.29.1.3 · Tratamento de queimaduras agudas — Sim | 3.4.1.1.4 | Unidades que oferecem: tratamento de queimaduras agudas<br>*Percentage of facilities offering acute burn management* | Q2503_3 = 1 ou Q2503_3 = 2 ou Q2503_3 = 3; todas as unidades |
+| Linha 11.29.1.4 · Incisão e drenagem de abcessos — Sim | 3.4.1.1.5 | Unidades que oferecem: incisão e drenagem de abcessos<br>*Percentage of facilities offering incision and drainage of abscesses* | Q2503_1 = 1 ou Q2503_1 = 2 ou Q2503_1 = 3; todas as unidades |
+| Linha 11.29.1.5 · Colocação de dreno torácico — Sim | 3.4.1.1.6 | Unidades que oferecem: colocação de dreno torácico<br>*Percentage of facilities offering chest tube insertion* | (Q2503_8 = 1 ou Q2503_8 = 2 ou Q2503_8 = 3); todas as unidades |
+| Linha 11.29.1.6 · Biópsia de gânglio linfático ou de outra massa — Sim | 3.4.1.1.7 | Unidades que oferecem: biópsia de gânglio linfático ou de outra massa<br>*Percentage of facilities offering biopsy of lymph node or other mass* | Q2503_9 = 1 ou Q2503_9 = 2 ou Q2503_9 = 3; todas as unidades |
+| Linha 11.29.1.7 · Circuncisão masculina — Sim | 3.4.1.1.8 | Unidades que oferecem: circuncisão masculina<br>*Percentage of facilities offering male circumcision* | Q2503_7 = 1 ou Q2503_7 = 2 ou Q2503_7 = 3; todas as unidades |
+| Linha 11.29.1.8 · Remoção de corpo estranho — Sim | 3.4.1.1.9 | Unidades que oferecem: remoção de corpo estranho<br>*Percentage of facilities offering removal of foreign body* | Q2503_10 = 1 ou Q2503_10 = 2 ou Q2503_10 = 3; todas as unidades |
+| Linha 11.29.1.9 · Redução fechada de fractura — Sim | 3.4.1.1.10 | Unidades que oferecem: redução fechada de fractura<br>*Percentage of facilities offering closed repair of fracture* | Q2503_5 = 1 ou Q2503_5 = 2 ou Q2503_5 = 3; todas as unidades |
+| Linha 11.29.1.10 · Redução fechada de luxação articular — Sim | 3.4.1.1.11 | Unidades que oferecem: redução fechada de luxação articular<br>*Percentage of facilities offering closed reduction of dislocated joint* | Q2503_6 = 1 ou Q2503_6 = 2 ou Q2503_6 = 3; todas as unidades |
+| Linha 11.29.1.11 · Cateterização suprapúbica ou cistostomia — Sim | 3.4.1.1.12 | Unidades que oferecem: cateterização suprapúbica ou cistostomia<br>*Percentage of facilities offering suprapubic catheterization / cystostomy* | Q2503_11 = 1; todas as unidades |
+| Linha 11.29.1.12 · Circuncisão masculina médica voluntária — Sim | 1.3.2.7.4 | Unidades que oferecem circuncisão masculina médica voluntária (CMMV)<br>*Percentage of facilities offering voluntary male medical circumcision (VMMC)* | Q207_3 = 1, 2 ou 3; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quais dos procedimentos de pequena cirurgia seguintes foram realizados nesta unidade sanitária nos últimos 12 meses?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler os procedimentos um a um e marcar Sim ou Não em cada linha.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Procedimento | 1 · Sim | 2 · Não |
+|---|---|:-:|:-:|
+| 11.29.1.1 | Desbridamento de feridas [HHFA 3.4.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.1.2 | Sutura de lacerações [HHFA 3.4.1.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.1.3 | Tratamento de queimaduras agudas [HHFA 3.4.1.1.4]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.1.4 | Incisão e drenagem de abcessos [HHFA 3.4.1.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.1.5 | Colocação de dreno torácico [HHFA 3.4.1.1.6]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.1.6 | Biópsia de gânglio linfático ou de outra massa [HHFA 3.4.1.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.1.7 | Circuncisão masculina [HHFA 3.4.1.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.1.8 | Remoção de corpo estranho [HHFA 3.4.1.1.9]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.1.9 | Redução fechada de fractura [HHFA 3.4.1.1.10]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.1.10 | Redução fechada de luxação articular [HHFA 3.4.1.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.1.11 | Cateterização suprapúbica ou cistostomia [HHFA 3.4.1.1.12]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.1.12 | Circuncisão masculina médica voluntária, para prevenção do VIH [HHFA 1.3.2.7.4]{.hhfa .cod-hhfa} | ☐ | ☐ |
+:::
+
+::: {.nota .interno}
+**Porque entra.** A pergunta sobre a pequena cirurgia passa a ser seguida da lista de procedimentos, cada um com o seu indicador. A circuncisão masculina aparece em duas linhas: como procedimento cirúrgico (11.29.1.7) e como circuncisão médica voluntária para prevenção do VIH (11.29.1.12, antes quesito próprio, 10.29.3).
+:::
+
+## 11.29.2 · Grande cirurgia [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias que realizam procedimentos de grande cirurgia (sob anestesia geral ou regional, em bloco operatório).
+
+- **Numerador:** unidades com resposta 1, 2 ou 3 em 11.29.2.
+- **Denominador:** unidades com resposta 1 em 11.29.
+- **Desagregação:** pelo tipo de grande cirurgia — de urgência e electiva (1), apenas de urgência (2), apenas electiva (3) —, com o mesmo denominador.
+
+**Função no formulário.** Porta encadeada dentro de 11.29. As unidades com resposta 1, 2 ou 3 formam o denominador das salas de operações (11.29.2.1) e da grelha de procedimentos de grande cirurgia (11.29.2.2 a 11.29.2.22), e também dos indicadores de prontidão da grande cirurgia noutras secções (por exemplo, a esterilização, 10.2). As unidades com «Não» (4) saltam para 11.30 e não entram nesses denominadores.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Respostas 1, 2 e 3 | 1.3.2.7.3 | Unidades que oferecem procedimentos de grande cirurgia<br>*Percentage of facilities offering major surgical procedures* | Q207_4 = 1, 2 ou 3; todas as unidades |
+| Respostas 1, 2 e 3 | 3.4.2.1.1 | Unidades que oferecem algum procedimento de grande cirurgia<br>*Percentage of facilities offering any major surgical procedures* | Q2504 = 1; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Realiza procedimentos de grande cirurgia, isto é, efectuados sob anestesia geral ou regional, em bloco operatório?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, de urgência e electiva
+2. Sim, apenas de urgência
+3. Sim, apenas electiva
+4. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 11.30.
+:::
+
+::: {.nota .interno}
+**Porque mudou.** A Ficha separava a cirurgia de urgência da electiva; as opções de resposta conservam essa distinção dentro da grande cirurgia. Para os indicadores, as respostas 1, 2 e 3 contam como Sim.
+:::
+
+## 11.29.2.1 · Salas de operações [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- **Número de salas de operações em condições de utilização por 100 000 habitantes.**
+  - **Numerador:** soma das respostas a 11.29.2.1 das unidades da área geográfica.
+  - **Denominador:** população da área geográfica (ver 3.1).
+- **Média de salas de operações por unidade com grande cirurgia.**
+  - **Numerador:** soma das respostas a 11.29.2.1.
+  - **Denominador:** unidades com resposta 1, 2 ou 3 em 11.29.2 e com número declarado (excluindo «Não sabe»).
+- **Desagregação:** província e município (2.1 a 2.5), categoria da unidade (2.6).
+
+**Função no formulário.** Lida com a grelha de grande cirurgia (11.29.2.2 a 11.29.2.22) e com a anestesia (13.D.2), distingue a capacidade instalada da capacidade utilizada; uma unidade que declara grande cirurgia e zero salas assinala-se para verificação.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quantas salas de operações, equipadas e em condições de utilização, existem nesta unidade sanitária?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Contar cada sala de operações, e não o bloco operatório: um bloco com três salas conta 3. Contar apenas as salas equipadas e em condições de serem usadas hoje.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Número de 00 a 99 · **98** Não sabe
+:::
+
+::: {.nota .interno}
+**Porque mudou.** O bloco operatório e o número de blocos estavam na lista de serviços de apoio da secção 13 (antigas 12.D linha 4 e 13.D.5). Passam para junto da grande cirurgia, e a contagem passa a ser por sala de operações, que é a unidade que não deixa dúvidas: «bloco» pode querer dizer o conjunto ou cada sala.
+:::
+
+## 11.29.2.2 a 11.29.2.22 · Procedimentos de grande cirurgia [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- **Percentagem de unidades sanitárias que realizaram pelo menos um dos três procedimentos de referência** — cesariana, laparotomia, redução e fixação de fractura exposta de osso longo — nos últimos 12 meses.
+  - **Numerador:** unidades com resposta 1 em pelo menos uma das linhas 11.29.2.2 a 11.29.2.4.
+  - **Denominador:** unidades com resposta 1, 2 ou 3 em 11.29.2.
+- **Percentagem de unidades sanitárias que realizaram os três procedimentos de referência.**
+  - **Numerador:** unidades com resposta 1 nas três linhas 11.29.2.2, 11.29.2.3 e 11.29.2.4.
+  - **Denominador:** unidades com resposta 1, 2 ou 3 em 11.29.2.
+- **Para cada procedimento da grelha (11.29.2.2 a 11.29.2.22):** percentagem de unidades que o realizaram nos últimos 12 meses.
+  - **Numerador:** unidades com resposta 1 na linha. Na cesariana, conta também a resposta 1 na linha 17.2.3.8 (funções-sinal obstétricas).
+  - **Denominador:** unidades com resposta 1, 2 ou 3 em 11.29.2.
+
+**Leitura.** Os três procedimentos de referência perguntam o que foi feito, e não o que a unidade poderia fazer: medem a capacidade cirúrgica essencial efectiva.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Calculado com as linhas 11.29.2.2 a 11.29.2.4: Sim em pelo menos uma | 1.3.2.7.5 | Unidades que oferecem pelo menos um dos três procedimentos cirúrgicos de referência<br>*Percentage of facilities offering any of the three Bellwether surgical procedures* | Q207_5, Q207_6 ou Q207_7 = 1, 2 ou 3; todas as unidades |
+| Calculado com as linhas 11.29.2.2 a 11.29.2.4: Sim nas três | 1.3.2.7.6 | Unidades que oferecem os três procedimentos cirúrgicos de referência<br>*Percentage of facilities offering all of the three Bellwether surgical procedures* | Q207_5 e Q207_6 e Q207_7 = 1, 2 ou 3; todas as unidades |
+| Calculado com as linhas 11.29.2.2 a 11.29.2.4: Sim nas três | 3.4.2.1.2 | Unidades que oferecem os três procedimentos de referência<br>*Percentage of facilities offering all three Bellwether procedures* | Q2507_1 = 1 e Q2507_2 = 1 e Q2507_3 = 1; todas as unidades |
+| Linha 11.29.2.2 · Cesariana — Sim | 3.4.2.1.3 | Unidades que oferecem: cesariana<br>*Percentage of facilities offering caesarean section (Bellwether procedure)* | Q2507_1 = 1 OR Q2210_8 = 1; todas as unidades. A cesariana das funções-sinal obstétricas (17.2.3.8) também conta |
+| Linha 11.29.2.3 · Laparotomia — Sim | 3.4.2.1.4 | Unidades que oferecem: laparotomia<br>*Percentage of facilities offering laparotomy (Bellwether procedure)* | Q2507_3 = 1 OR Q2509_17 = 1; todas as unidades |
+| Linha 11.29.2.4 · Redução e fixação de fractura exposta de osso longo — Sim | 3.4.2.1.5 | Unidades que oferecem: redução e fixação de fractura exposta de osso longo<br>*Percentage of facilities offering reduction and fixation of open fracture (Bellwether procedure)* | Q2507_2 = 1; todas as unidades |
+| Linha 11.29.2.5 · Apendicectomia — Sim | 3.4.2.1.6 | Unidades que oferecem: apendicectomia<br>*Percentage of facilities offering appendectomy* | Q2509_7 = 1; todas as unidades |
+| Linha 11.29.2.6 · Reparação de perfuração intestinal — Sim | 3.4.2.1.7 | Unidades que oferecem: reparação de perfuração intestinal<br>*Percentage of facilities offering repair of intestinal perforation* | Q2509_8 = 1; todas as unidades |
+| Linha 11.29.2.7 · Cirurgia da oclusão intestinal — Sim | 3.4.2.1.8 | Unidades que oferecem: cirurgia da oclusão intestinal<br>*Percentage of facilities offering surgery for bowel obstruction* | Q2509_9 = 1; todas as unidades |
+| Linha 11.29.2.8 · Colostomia ou ileostomia — Sim | 3.4.2.1.9 | Unidades que oferecem: colostomia ou ileostomia<br>*Percentage of facilities offering colostomy/ileostomy* | Q2509_11 = 1; todas as unidades |
+| Linha 11.29.2.9 · Cirurgia da vesícula biliar — Sim | 3.4.2.1.10 | Unidades que oferecem: cirurgia da vesícula biliar<br>*Percentage of facilities offering gall bladder surgery* | Q2509_12 = 1; todas as unidades |
+| Linha 11.29.2.10 · Reparação de hérnia — Sim | 3.4.2.1.11 | Unidades que oferecem: reparação de hérnia<br>*Percentage of facilities offering hernia repair* | Q2509_13 = 1; todas as unidades |
+| Linha 11.29.2.11 · Reparação de hidrocelo — Sim | 3.4.2.1.12 | Unidades que oferecem: reparação de hidrocelo<br>*Percentage of facilities offering hydrocele repair* | Q2509_14 = 1; todas as unidades |
+| Linha 11.29.2.12 · Cirurgia da catarata — Sim | 3.4.2.1.13 | Unidades que oferecem: cirurgia da catarata<br>*Percentage of facilities offering cataract surgery* | Q2509_10 = 1; todas as unidades |
+| Linha 11.29.2.13 · Enxerto de pele — Sim | 3.4.2.1.14 | Unidades que oferecem: enxerto de pele<br>*Percentage of facilities offering skin grafting* | Q2509_20 = 1; todas as unidades |
+| Linha 11.29.2.14 · Traqueostomia — Sim | 3.4.2.1.15 | Unidades que oferecem: traqueostomia<br>*Percentage of facilities offering tracheostomy* | Q2509_16 = 1; todas as unidades |
+| Linha 11.29.2.15 · Trepanação craniana — Sim | 3.4.2.1.16 | Unidades que oferecem: trepanação craniana<br>*Percentage of facilities offering burr hole surgery* | Q2509_23 = 1; todas as unidades |
+| Linha 11.29.2.16 · Craniotomia — Sim | 3.4.2.1.17 | Unidades que oferecem: craniotomia<br>*Percentage of facilities offering craniotomy* | Q2509_24 = 1; todas as unidades |
+| Linha 11.29.2.17 · Colocação de fixador externo — Sim | 3.4.2.1.18 | Unidades que oferecem: colocação de fixador externo<br>*Percentage of facilities offering placement of external fixator* | Q2509_22 = 1; todas as unidades |
+| Linha 11.29.2.18 · Irrigação e desbridamento de fracturas expostas — Sim | 3.4.2.1.19 | Unidades que oferecem: irrigação e desbridamento de fracturas expostas<br>*Percentage of facilities offering irrigation and debridement of open fractures* | Q2509_21 = 1; todas as unidades |
+| Linha 11.29.2.19 · Escarotomia, fasciotomia ou libertação de contracturas — Sim | 3.4.2.1.20 | Unidades que oferecem: escarotomia, fasciotomia ou libertação de contracturas<br>*Percentage of facilities offering escharotomy/fasciotomy/contracture release* | Q2509_19 = 1; todas as unidades |
+| Linha 11.29.2.20 · Amputação — Sim | 3.4.2.1.21 | Unidades que oferecem: amputação<br>*Percentage of facilities offering amputation* | Q2509_18 = 1; todas as unidades |
+| Linha 11.29.2.21 · Drenagem de artrite séptica — Sim | 3.4.2.1.22 | Unidades que oferecem: drenagem de artrite séptica<br>*Percentage of facilities offering drainage of septic arthritis* | Q2509_25 = 1; todas as unidades |
+| Linha 11.29.2.22 · Desbridamento de osteomielite — Sim | 3.4.2.1.23 | Unidades que oferecem: desbridamento de osteomielite<br>*Percentage of facilities offering debridement of osteomyelitis* | Q2509_26 = 1; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quais dos procedimentos de grande cirurgia seguintes foram realizados nesta unidade sanitária nos últimos 12 meses?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler os procedimentos um a um e marcar Sim ou Não em cada linha. As três primeiras linhas são os procedimentos de referência.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Procedimento | 1 · Sim | 2 · Não |
+|---|---|:-:|:-:|
+| 11.29.2.2 | Cesariana [HHFA 3.4.2.1.3 · 1.3.2.7.5 · 1.3.2.7.6 · 3.4.2.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.3 | Laparotomia [HHFA 3.4.2.1.4 · 1.3.2.7.5 · 1.3.2.7.6 · 3.4.2.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.4 | Redução e fixação de fractura exposta de osso longo [HHFA 3.4.2.1.5 · 1.3.2.7.5 · 1.3.2.7.6 · 3.4.2.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.5 | Apendicectomia [HHFA 3.4.2.1.6]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.6 | Reparação de perfuração intestinal [HHFA 3.4.2.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.7 | Cirurgia da oclusão intestinal [HHFA 3.4.2.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.8 | Colostomia ou ileostomia [HHFA 3.4.2.1.9]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.9 | Cirurgia da vesícula biliar [HHFA 3.4.2.1.10]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.10 | Reparação de hérnia [HHFA 3.4.2.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.11 | Reparação de hidrocelo [HHFA 3.4.2.1.12]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.12 | Cirurgia da catarata [HHFA 3.4.2.1.13]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.13 | Enxerto de pele [HHFA 3.4.2.1.14]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.14 | Traqueostomia [HHFA 3.4.2.1.15]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.15 | Trepanação craniana [HHFA 3.4.2.1.16]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.16 | Craniotomia [HHFA 3.4.2.1.17]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.17 | Colocação de fixador externo [HHFA 3.4.2.1.18]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.18 | Irrigação e desbridamento de fracturas expostas [HHFA 3.4.2.1.19]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.19 | Escarotomia, fasciotomia ou libertação de contracturas [HHFA 3.4.2.1.20]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.20 | Amputação [HHFA 3.4.2.1.21]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.21 | Drenagem de artrite séptica [HHFA 3.4.2.1.22]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.29.2.22 | Desbridamento de osteomielite [HHFA 3.4.2.1.23]{.hhfa .cod-hhfa} | ☐ | ☐ |
+:::
+
+::: {.nota .interno}
+**Porque mudou.** Os três procedimentos de referência (antigo 10.29.4) passam a abrir uma grelha com a lista de procedimentos de grande cirurgia, cada um com o seu indicador. Lêem-se com as salas de operações (11.29.2.1) e com a anestesia (13.D.2).
+:::
+
+## 11.30 a 11.34 · Cirurgia de especialidade [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- **Percentagem de unidades sanitárias que realizam cirurgia de especialidade.**
+  - **Numerador:** unidades com resposta 1 em pelo menos uma das linhas 11.30 a 11.34.
+  - **Denominador:** unidades com resposta 1 em 11.29.
+- **Para cada área** — cirurgia pediátrica (11.30), maxilofacial (11.31), vascular (11.32), neurocirurgia (11.33), plástica e de queimados (11.34): percentagem de unidades que realizam procedimentos nessa área.
+  - **Numerador:** unidades com resposta 1 na linha.
+  - **Denominador:** unidades com resposta 1 em 11.29.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Calculado com as cinco áreas: Sim em pelo menos uma | 1.3.2.7.7 | Unidades que oferecem procedimentos de cirurgia de especialidade<br>*Percentage of facilities offering specialty surgical procedures* | Q207_8 = 1, 2 ou 3; todas as unidades. No catálogo é uma só pergunta, sem as cinco áreas |
+| Cada área (pediátrica, maxilofacial, vascular, neurocirurgia, plástica e queimados), uma a uma | — (medida própria) | Sem indicador por área | — |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada uma das áreas de especialidade seguintes, diga-me se esta unidade sanitária realiza procedimentos cirúrgicos.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Área de especialidade cirúrgica | 1 · Sim | 2 · Não |
+|---|---|:-:|:-:|
+| 11.30 | Cirurgia pediátrica [HHFA 1.3.2.7.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.31 | Cirurgia maxilofacial [HHFA 1.3.2.7.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.32 | Cirurgia vascular [HHFA 1.3.2.7.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.33 | Neurocirurgia [HHFA 1.3.2.7.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 11.34 | Cirurgia plástica e de queimados [HHFA 1.3.2.7.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
+:::
+
+::: {.nota .interno}
+**Fecho da secção 10.** Decisão de fundo a registar: nesta secção adopta-se o olhar internacional, que é o mais adequado ao objecto, **sem retirar a lista de especialidades da Ficha**. As duas convivem porque respondem a perguntas diferentes — a especialidade diz como a unidade está organizada e serve a gestão da rede; a condição diz o que a unidade consegue resolver e serve o planeamento do cuidado. É o mesmo desenho usado nas comissões de 20.2, onde o órgão e a actividade convivem.
+
+[**81 indicadores do HHFA** nesta secção.]{.hhfa}
+:::

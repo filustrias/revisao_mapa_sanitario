@@ -1,0 +1,325 @@
+---
+title: "Secção 8 — Meios de transporte"
+---
+
+Veículos afectos à unidade sanitária, por tipo e por estado de funcionamento, manutenção de rotina desses veículos e acesso a transporte de emergência.
+
+[38 campos, contra 25 na Ficha 19_01, incluindo o acesso a transporte de emergência, que vem dos serviços gerais.]{.campos}
+
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
+
+| Quesito | O que se obtém |
+|---|---|
+| 8.1.1 a 8.1.10 | Frota de cada unidade por tipo de veículo: em funcionamento, avariada com reparação ao alcance da unidade e avariada sem reparação possível [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 8.2 | Situações que a contagem não exprime — viaturas partilhadas, cedidas ou imobilizadas por falta de documentação [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 8.3.1 | Unidades com plano de manutenção de rotina dos veículos [(1 indicador do HHFA)]{.hhfa} |
+| 8.3.2 | Unidades que cumprem rotineiramente o plano de manutenção [(1 indicador do HHFA)]{.hhfa} |
+| 8.4 e 8.4.1 | Transporte de emergência disponível hoje, com combustível e motorista [(2 indicadores do HHFA)]{.hhfa} |
+
+</details>
+
+## 8.1.1 a 8.1.7 Veículos por tipo e estado [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- Para cada tipo de veículo da grelha: número de veículos funcionais, por unidade e somado por município e província.
+  - **Numerador:** coluna 1 + coluna 2 da linha (em funcionamento mais avariados com reparação ao alcance da unidade — a definição de funcional do Guião, que mantém a série das edições anteriores). A coluna 3 dá os não funcionais.
+  - **Denominador:** não se aplica (contagem); as caixas com 98 ficam fora da soma.
+- Para cada tipo de veículo da grelha: percentagem de unidades sanitárias com pelo menos um veículo funcional.
+  - **Numerador:** unidades com coluna 1 + coluna 2 ≥ 1 na linha.
+  - **Denominador:** todas as unidades sanitárias inquiridas.
+- Percentagem de unidades sanitárias com pelo menos uma ambulância em funcionamento hoje.
+  - **Numerador:** unidades com coluna 1 ≥ 1 em 8.1.1.
+  - **Denominador:** todas as unidades sanitárias inquiridas.
+
+**Desagregação:** categoria da unidade (2.6), província e município.
+
+**Função no formulário.** A contagem de 8.1.1 a 8.1.10 controla a resposta a 8.3.1: se todas as colunas forem zero, 8.3.1 tem de ser «A unidade não tem veículos» (5). A coluna 2 mostra quantos veículos voltariam a circular com uma reparação ao alcance da unidade.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 2.1.1.1.7 — unidades com sistema de transporte de emergência para doentes (*Percentage of facilities with emergency transportation system for patients*) — porque não é o mesmo: mede o acesso a transporte de emergência (próprio ou chamado de outro local), perguntado em 8.4; aqui conta-se a frota própria por tipo e estado.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Vou perguntar pelos meios de transporte afectos a esta unidade sanitária. Para cada tipo, indique quantos estão em funcionamento hoje, quantos estão avariados com uma avaria que a unidade pode resolver com os seus próprios recursos, e quantos estão avariados sem possibilidade de reparação com os recursos da unidade.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Contar apenas os veículos que pertencem à unidade ou que lhe estão permanentemente afectos. A ambulância define-se pela preparação para o transporte de doentes, e não pelo tipo de viatura. Um veículo imobilizado por falta de documentação não é avaria: não entra em nenhuma coluna e regista-se em 8.2. Em cada caixa, um número de 0 a 97; 98 se não souber.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Tipo de veículo | (1) Em funcionamento hoje | (2) Avariado, reparação ao alcance da unidade | (3) Avariado, sem reparação possível com os recursos da unidade |
+|---|---|:-:|:-:|:-:|
+| 8.1.1 | Ambulâncias — viaturas especificamente preparadas para o transporte de doentes | \_\_ | \_\_ | \_\_ |
+| 8.1.2 | Camiões | \_\_ | \_\_ | \_\_ |
+| 8.1.3 | Viaturas para expediente — viaturas de serviço geral, de caixa aberta ou outras, não preparadas para o transporte de doentes | \_\_ | \_\_ | \_\_ |
+| 8.1.4 | Motorizadas | \_\_ | \_\_ | \_\_ |
+| 8.1.5 | Bicicletas | \_\_ | \_\_ | \_\_ |
+| 8.1.6 | Tractores | \_\_ | \_\_ | \_\_ |
+| 8.1.7 | Carrinhas | \_\_ | \_\_ | \_\_ |
+:::
+
+::: {.nota .interno}
+**Porque mudou.** Os sete tipos de veículo mantêm-se. As duas colunas da Ficha — funcionantes e não funcionantes — passam a três. A definição de funcional do Guião (folha 18) fica preservada e passa a estar escrita na pergunta: um veículo é funcional se está em funcionamento ou tem uma avaria que a unidade pode resolver com os seus recursos. A soma das colunas 1 e 2 corresponde aos «funcionantes» da Ficha e a coluna 3 aos «não funcionantes».
+:::
+
+## 8.1.8 a 8.1.10 Outros meios de transporte [ALTERADO]{.etiqueta .alterado}
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Existe algum outro meio de transporte afecto a esta unidade sanitária que não conste da lista anterior? Se sim, indique a designação e quantos estão em cada situação.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Designação | (1) Em funcionamento hoje | (2) Avariado, reparação ao alcance da unidade | (3) Avariado, sem reparação possível com os recursos da unidade |
+|---|---|:-:|:-:|:-:|
+| 8.1.8 | \_\_\_\_\_\_\_\_\_\_\_\_ | \_\_ | \_\_ | \_\_ |
+| 8.1.9 | \_\_\_\_\_\_\_\_\_\_\_\_ | \_\_ | \_\_ | \_\_ |
+| 8.1.10 | \_\_\_\_\_\_\_\_\_\_\_\_ | \_\_ | \_\_ | \_\_ |
+:::
+
+::: {.nota .interno}
+**Porque mudou.** As três linhas abertas mantêm-se, com a terceira coluna acrescentada, como em 8.1.1 a 8.1.7.
+:::
+
+## 8.2 Observações [MANTÉM-SE]{.etiqueta .mantem}
+
+::: {.hhfa .fonte-indicadores}
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+:::
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Observações sobre os meios de transporte desta unidade sanitária.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Registar as situações que a contagem não exprime: a viatura partilhada com outra unidade, a ambulância cedida à Direcção Municipal, o veículo em condições mecânicas mas imobilizado por falta de documentação.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+Texto livre
+:::
+
+## 8.3.1 Plano de manutenção dos veículos [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias com veículos que seguem um plano de manutenção de rotina para algum dos seus veículos.
+
+- **Numerador:** unidades com resposta 1 em 8.3.1.
+- **Denominador:** unidades com veículos (resposta 1 ou 2 em 8.3.1); as unidades com resposta 5 ficam fora.
+- **Desagregação:** categoria da unidade (2.6) e província.
+
+**Função no formulário.** Define dois universos: as unidades com veículos (respostas 1 e 2), denominador deste indicador e do de cumprimento do plano (8.3.2); e as unidades com plano (resposta 1), as únicas a quem se faz 8.3.2. As unidades com resposta 2 ou 5 passam a 8.4. Lida com a coluna 2 de 8.1, mostra se o problema da frota tende a agravar-se ou a resolver-se.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 4.1.2.3.1 | Unidades com plano de manutenção de rotina para algum dos seus veículos<br>*Percentage of facilities with a routine maintenance schedule for any facility vehicles* | Q800 = 1; entre as unidades com veículos (filtro Q800 = 1 ou 2: aqui 8.3.1 = 1 ou 2; a opção 5 sai do denominador) |
+| Resposta 1 (Sim) | 4.1.2.3.2 | Entra no cálculo de 4.1.2.3.2 (ver 8.3.2) | Q800 = 1 |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária segue um plano de manutenção de rotina para algum dos seus veículos? Por manutenção de rotina entende-se a manutenção feita com periodicidade fixa, haja ou não avaria.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+5. A unidade não tem veículos
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 8.3.1 for «Não» ou «A unidade não tem veículos», passar a 8.4 sem fazer 8.3.2.
+:::
+
+::: {.nota .interno}
+**Porque é necessária.** A opção «A unidade não tem veículos» evita que uma unidade sem frota seja contada como unidade sem plano de manutenção.
+
+**Verificação a programar.** Se a contagem de 8.1.1 a 8.1.10 for zero em todas as colunas, 8.3.1 tem de ser 5.
+:::
+
+## 8.3.2 Cumprimento do plano de manutenção [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- Percentagem de unidades sanitárias com veículos que cumprem rotineiramente um plano de manutenção dos veículos.
+  - **Numerador:** unidades com resposta 1 em 8.3.1 e resposta 1 em 8.3.2.
+  - **Denominador:** unidades com veículos (resposta 1 ou 2 em 8.3.1); as unidades sem plano contam como não cumprindo.
+- Percentagem de unidades sanitárias com plano de manutenção que o cumprem rotineiramente.
+  - **Numerador:** unidades com resposta 1 em 8.3.2.
+  - **Denominador:** unidades com plano (resposta 1 em 8.3.1), as únicas a quem a pergunta é feita.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim, rotineiramente) | 4.1.2.3.2 | Unidades que cumprem rotineiramente o plano de manutenção dos veículos<br>*Percentage of facilities with routine adherence to a vehicle maintenance schedule* | Q800 = 1 e Q801 = 1; entre as unidades com veículos (filtro Q800 = 1 ou 2: aqui 8.3.1 = 1 ou 2) |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária cumpre o plano de manutenção dos seus veículos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, rotineiramente
+2. Sim, às vezes, mas não rotineiramente
+3. Nunca
+:::
+
+## 8.4 · Acesso a transporte de emergência [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- Percentagem de unidades sanitárias com acesso a veículo em condições de funcionamento para o transporte de emergência de doentes — ambulância ou outro veículo, na unidade ou chamado de outro local.
+- Percentagem de unidades sanitárias com acesso a ambulância.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1 ou 2 em 8.4 (qualquer veículo); unidades com resposta 1 (ambulância).
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província e zona (2.11).
+
+**Função no formulário.** Porta de 8.4.1: as unidades com resposta 1 ou 2 respondem à disponibilidade do veículo hoje; as unidades com resposta 3 (Não) terminam a secção e contam como unidades sem transporte de emergência. Lida com a distância e o tempo até à unidade de referência (3.2.5, 3.2.8 e 3.2.9), mostra onde a evacuação, em especial a obstétrica, não é exequível em tempo útil.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opções 1 e 2 (Sim, ambulância; Sim, outro veículo) | 2.1.1.1.7 · 3.1.3.3.6 | Entra no cálculo (ver 8.4.1) | Q1232 = 1 ou 2 |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária tem acesso a uma ambulância ou a outro veículo em condições de funcionamento para o transporte de emergência de doentes — quer esteja estacionado nesta unidade, quer possa ser chamado de outro local?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, ambulância
+2. Sim, outro tipo de veículo
+3. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», terminar a secção.
+:::
+
+::: {.nota .interno}
+O enunciado inclui expressamente o veículo **chamado de outro local**, porque é essa a situação da maior parte dos centros de saúde — e uma pergunta sobre veículo próprio deixaria essas unidades contadas como unidades sem transporte de emergência.
+:::
+
+## 8.4.1 · Transporte de emergência disponível hoje [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- Percentagem de unidades sanitárias com sistema de transporte de emergência para doentes — veículo em condições de funcionamento, com combustível e motorista, disponível no dia da visita.
+- Percentagem de unidades que fazem partos com transporte de emergência disponível.
+- Proporção das unidades com acesso a veículo de emergência em que o veículo está disponível no dia da visita.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1 ou 2 em 8.4 e resposta 1 em 8.4.1 (para os três indicadores).
+- **Denominador:** todas as unidades sanitárias inquiridas (primeiro indicador); unidades com resposta 1 em 17.2 (partos); unidades com resposta 1 ou 2 em 8.4 (proporção).
+- **Desagregação:** categoria da unidade (2.6), província e zona (2.11).
+
+A diferença entre 8.4 e 8.4.1 mostra quantas unidades têm acesso declarado a um veículo que, na prática, não está pronto a sair.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim), com 8.4 = 1 ou 2 | 2.1.1.1.7 | Unidades com sistema de transporte de emergência para doentes<br>*Percentage of facilities with emergency transportation system for patients* | (Q1232 = 1 ou 2) e Q1234 = 1; todas as unidades |
+| Resposta 1 (Sim), com 8.4 = 1 ou 2 | 3.1.3.3.6 | Unidades que fazem partos com transporte de emergência<br>*Percentage of facilities offering delivery services with emergency transport* | (Q1232 = 1 ou 2) e Q1234 = 1; entre as unidades que fazem partos (no HHFA: Q2201 = 1) |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esse veículo está disponível hoje, em condições de funcionamento, com combustível e com motorista?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se o respondente não tiver a certeza, pedir que confirme com quem saiba.
+:::
+
+::: {.nota .interno}
+**8.4.1 é a verificação da declaração:** ter acesso a uma ambulância e ter uma ambulância com combustível e motorista hoje são coisas diferentes. Articula-se com 15.6 (urgência), com 4.6 (acesso 24 horas) e com 8.1 (frota), sem duplicação de campo.
+:::
+
+## Pendência desta secção
+
+::: {.nota}
+**Nível a que se regista a frota.** A secção conta apenas os veículos da própria unidade. Para a maioria das unidades de cuidados primários, o que decide a evacuação de um doente é haver uma viatura disponível no município ou na região. A capacidade de chamar um veículo de outro local já está nos quesitos 8.4 e 8.4.1 (transporte de emergência) e 15.6 (transporte para referir doentes de urgência). Falta decidir onde se regista a frota ao nível municipal: num quesito à unidade sobre a frota a que tem acesso através do município, ou num instrumento próprio dirigido à Direcção Municipal de Saúde, fora da ficha da unidade.
+:::

@@ -1,0 +1,607 @@
+---
+title: "Secção 12 — Doenças crónicas não transmissíveis"
+---
+
+Serviços para doenças crónicas não transmissíveis, por família de condições — cardiovasculares, endócrinas e metabólicas, respiratórias, renal, anemias e desnutrição, neurológicas, saúde mental e cancro — e procura activa dos doentes que faltam ao seguimento.
+
+<details class="medir-seccao">
+<summary>O que esta secção permite medir</summary>
+
+| Quesito | O que se obtém |
+|---|---|
+| 12.1 | Oferta de algum serviço para doenças crónicas não transmissíveis [(1 indicador do HHFA)]{.hhfa} |
+| 12.2 | Doenças cardiovasculares, condição a condição e função a função [(14 indicadores do HHFA)]{.hhfa} |
+| 12.3 | Doenças endócrinas e metabólicas, incluindo diabetes tipo 1 e tipo 2 [(6 indicadores do HHFA)]{.hhfa} |
+| 12.4 | Asma e doença pulmonar obstrutiva crónica [(8 indicadores do HHFA)]{.hhfa} |
+| 12.5 | Doença renal crónica, anemias e desnutrição em adolescentes e adultos [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 12.6 | Doenças neurológicas: epilepsia, demência, parkinsonismo, plegias, dores crónicas e neuropáticas [(8 indicadores do HHFA)]{.hhfa} |
+| 12.7 | Saúde mental: depressão e ansiedade, psicoses, drogas, álcool, tabagismo [(9 indicadores do HHFA)]{.hhfa} |
+| 12.8.0 | Oferta de algum serviço de cancro [(1 indicador do HHFA)]{.hhfa} |
+| 12.8.1 a 12.8.4 | Serviços de cancro, por localização e por função [(8 indicadores do HHFA)]{.hhfa} |
+| 12.9 | Procura activa de doentes crónicos que faltam ao seguimento [(medida própria do Mapa Sanitário)]{.hhfa} |
+
+</details>
+
+## 12.1 · Doenças crónicas não transmissíveis — porta [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias que oferecem algum serviço para doenças crónicas não transmissíveis — incluindo saúde mental, doenças neurológicas e cancro —, haja ou não especialista.
+
+- **Numerador:** unidades com resposta «Sim» (1) em 12.1.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província e município (2.1 a 2.5) e zona (2.11).
+
+**Função no formulário.** Define o universo das unidades com serviço de doenças crónicas: as unidades com «Sim» formam o denominador dos indicadores de oferta por condição e de procura activa desta secção (12.2 a 12.9, e 12.8.0 para o cancro). As unidades com «Não» saltam para a secção 13 e não entram nesses denominadores. Quando um indicador da secção se exprime sobre o total das unidades inquiridas, as unidades com «Não» contam como não oferecendo o serviço.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 1.3.2.4.1 | Unidades que oferecem algum serviço para doenças crónicas não transmissíveis (DNT)<br>*Percentage of facilities offering any services for chronic noncommunicable diseases (NCDs)* | Q202_1 = 1, 2 ou 3; todas as unidades. A nossa pergunta inclui também saúde mental, doenças neurológicas e cancro, que no HHFA são itens próprios da mesma lista (Q202_27, Q202_31, Q202_14) |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária presta algum serviço de diagnóstico, tratamento ou seguimento de doenças crónicas não transmissíveis — doenças cardiovasculares, endócrinas, respiratórias ou renais, anemias, desnutrição, doenças neurológicas, saúde mental ou cancro?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para a secção 12.
+:::
+
+## 12.2 · Doenças cardiovasculares [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- **Percentagem de unidades sanitárias que oferecem algum serviço para doenças cardiovasculares.**
+  - **Numerador:** unidades com «Sim» em pelo menos uma célula da grelha (linhas 12.2.1 a 12.2.8, colunas (a) a (d)).
+  - **Denominador:** unidades com resposta 1 em 12.1.
+- **Para cada condição da grelha (12.2.1 a 12.2.8) e cada função:** percentagem de unidades que prestam a função — diagnóstico (a), início e ajuste do tratamento (b), seguimento regular com dia marcado (c), aconselhamento para o autocuidado (d).
+  - **Numerador:** «Sim» na célula da condição e da função.
+  - **Denominador:** unidades com resposta 1 em 12.1.
+- **Para cada condição:** percentagem de unidades que oferecem diagnóstico, tratamento e aconselhamento para o autocuidado.
+  - **Numerador:** «Sim» nas colunas (a), (b) e (d) da linha.
+  - **Denominador:** unidades com resposta 1 em 12.1.
+- **Para cada condição:** percentagem de unidades que oferecem tratamento e aconselhamento para o autocuidado.
+  - **Numerador:** «Sim» nas colunas (b) e (d) da linha.
+  - **Denominador:** unidades com resposta 1 em 12.1.
+- **Para cada condição:** percentagem de unidades que asseguram as quatro funções, incluindo o seguimento com dia marcado.
+  - **Numerador:** «Sim» nas colunas (a), (b), (c) e (d) da linha.
+  - **Denominador:** unidades com resposta 1 em 12.1.
+
+**Leitura.** A comparação entre a coluna (a) e a coluna (c) distingue a unidade que diagnostica mas não segue da que faz as duas coisas.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Qualquer linha, qualquer coluna = Sim | 1.3.2.4.2 | Unidades que oferecem serviços para doenças cardiovasculares<br>*Percentage of facilities offering cardiovascular disease services* | Q202_6 = 1, 2 ou 3; todas as unidades |
+| Qualquer linha, qualquer coluna = Sim | 3.3.1.1.1 | Unidades que oferecem algum serviço para doenças cardiovasculares<br>*Percentage of facilities offering any services for cardiovascular diseases* | Q1510 = 1; todas as unidades |
+| Linha 12.2.2 · Hipertensão arterial — (a), (b) e (d) = Sim | 3.3.1.1.2 | Unidades que oferecem diagnóstico, tratamento e aconselhamento para o autocuidado: hipertensão arterial<br>*Percentage of facilities offering hypertension diagnosis, treatment and selfcare counseling* | Q1511_1A = 1 e Q1511_1B = 1 e Q1511_1C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
+| Linha 12.2.2 · Hipertensão arterial — (a) = Sim | 3.3.1.1.3 | Unidades que oferecem diagnóstico: hipertensão arterial<br>*Percentage of facilities offering hypertension diagnosis only* | Q1511_1A = 1; todas as unidades |
+| Linha 12.2.2 · Hipertensão arterial — (b) e (d) = Sim | 3.3.1.1.4 | Unidades que oferecem tratamento e aconselhamento para o autocuidado: hipertensão arterial<br>*Percentage of facilities offering hypertension treatment and selfcare counseling only* | Q1511_1B = 1 e Q1511_1C = 1; todas as unidades |
+| Linha 12.2.3 · Doença arterial coronária — (a), (b) e (d) = Sim | 3.3.1.1.8 | Unidades que oferecem diagnóstico, tratamento e aconselhamento para o autocuidado: doença arterial coronária<br>*Percentage of facilities offering acute myocardial infarction diagnosis, treatment and selfcare counseling* | Q1511_2A = 1 e Q1511_2B = 1 e Q1511_2C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
+| Linha 12.2.3 · Doença arterial coronária — (a) = Sim | 3.3.1.1.9 | Unidades que oferecem diagnóstico: doença arterial coronária<br>*Percentage of facilities offering acute myocardial infarction diagnosis only* | Q1511_2A = 1; todas as unidades |
+| Linha 12.2.3 · Doença arterial coronária — (b) e (d) = Sim | 3.3.1.1.10 | Unidades que oferecem tratamento e aconselhamento para o autocuidado: doença arterial coronária<br>*Percentage of facilities offering acute myocardial infarction treatment and selfcare counseling* | Q1511_2B = 1 e Q1511_2C = 1; todas as unidades |
+| Linha 12.2.4 · Insuficiência cardíaca — (a), (b) e (d) = Sim | 3.3.1.1.5 | Unidades que oferecem diagnóstico, tratamento e aconselhamento para o autocuidado: insuficiência cardíaca<br>*Percentage of facilities offering congestive heart failure diagnosis, treatment and selfcare counseling* | Q1511_3A = 1 e Q1511_3B = 1 e Q1511_3C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
+| Linha 12.2.4 · Insuficiência cardíaca — (a) = Sim | 3.3.1.1.6 | Unidades que oferecem diagnóstico: insuficiência cardíaca<br>*Percentage of facilities offering congestive heart failure diagnosis only* | Q1511_3A = 1; todas as unidades |
+| Linha 12.2.4 · Insuficiência cardíaca — (b) e (d) = Sim | 3.3.1.1.7 | Unidades que oferecem tratamento e aconselhamento para o autocuidado: insuficiência cardíaca<br>*Percentage of facilities offering congestive heart failure treatment and selfcare counseling only* | Q1511_3B = 1 e Q1511_3C = 1; todas as unidades |
+| Linha 12.2.6 · Acidente vascular cerebral — (a), (b) e (d) = Sim | 3.3.1.1.11 | Unidades que oferecem diagnóstico, tratamento e aconselhamento para o autocuidado: acidente vascular cerebral<br>*Percentage of facilities offering stroke diagnosis, treatment and selfcare counseling* | Q1511_4A = 1 e Q1511_4B = 1 e Q1511_4C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
+| Linha 12.2.6 · Acidente vascular cerebral — (a) = Sim | 3.3.1.1.12 | Unidades que oferecem diagnóstico: acidente vascular cerebral<br>*Percentage of facilities offering stroke diagnosis only* | Q1511_4A = 1; todas as unidades |
+| Linha 12.2.6 · Acidente vascular cerebral — (b) e (d) = Sim | 3.3.1.1.13 | Unidades que oferecem tratamento e aconselhamento para o autocuidado: acidente vascular cerebral<br>*Percentage of facilities offering stroke treatment and selfcare counseling only* | Q1511_4B = 1 e Q1511_4C = 1; todas as unidades |
+| Linhas 12.2.1, 12.2.5, 12.2.7 e 12.2.8 | — (medida própria) | Avaliação do risco cardiovascular, arritmias, doença vascular periférica e valvulopatias não têm indicador no catálogo | — |
+
+Na linha 12.2.3 o HHFA diz «enfarte agudo do miocárdio»; a nossa linha é mais larga (doença arterial coronária, incluindo a angina).
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada uma das condições cardiovasculares seguintes, diga-me quais destas funções são prestadas nesta unidade sanitária: diagnóstico; início e ajuste do tratamento; seguimento regular dos doentes já diagnosticados, com dia marcado; e aconselhamento ao doente para o autocuidado.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler as condições uma a uma e, para cada uma, as quatro funções. Em cada célula, marcar Sim ou Não. Conta a função prestada nesta unidade, haja ou não especialista. Na linha 12.2.1, (a) é a avaliação do risco cardiovascular com tabela ou calculadora; (b) a (d) referem-se à gestão do risco elevado.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Condição | (a) Diagnóstico nesta unidade | (b) Início e ajuste do tratamento nesta unidade | (c) Seguimento regular, com dia marcado | (d) Aconselhamento ao doente para o autocuidado |
+|---|---|:-:|:-:|:-:|:-:|
+| 12.2.1 | Avaliação do risco cardiovascular | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.2.2 | Hipertensão arterial [HHFA 3.3.1.1.2 · 3.3.1.1.3 · 3.3.1.1.4]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.2.3 | Doença arterial coronária (angina, enfarte) [HHFA 3.3.1.1.8 · 3.3.1.1.9 · 3.3.1.1.10]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.2.4 | Insuficiência cardíaca [HHFA 3.3.1.1.5 · 3.3.1.1.6 · 3.3.1.1.7]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.2.5 | Arritmias cardíacas | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.2.6 | Acidente vascular cerebral [HHFA 3.3.1.1.11 · 3.3.1.1.12 · 3.3.1.1.13]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.2.7 | Doença vascular periférica | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.2.8 | Valvulopatias | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+:::
+
+::: {.nota .interno}
+Grelha por família, a pedido da revisão de 27/10/2026. Substitui a linha única «Hipertensão arterial e outras doenças cardiovasculares» da antiga grelha 10.B.
+:::
+
+## 12.3 · Doenças endócrinas e metabólicas [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- **Percentagem de unidades sanitárias que oferecem algum serviço para a diabetes.**
+  - **Numerador:** unidades com «Sim» em pelo menos uma célula das linhas 12.3.1 ou 12.3.2.
+  - **Denominador:** unidades com resposta 1 em 12.1.
+- **Para cada função na diabetes** — diagnóstico (a), tratamento (b), seguimento regular (c), aconselhamento para o autocuidado (d): percentagem de unidades que a prestam.
+  - **Numerador:** «Sim» na coluna da função, na linha 12.3.1 ou na linha 12.3.2.
+  - **Denominador:** unidades com resposta 1 em 12.1.
+- **Para cada condição da grelha (12.3.1 a 12.3.5) e cada função:** percentagem de unidades que prestam a função.
+  - **Numerador:** «Sim» na célula da condição e da função.
+  - **Denominador:** unidades com resposta 1 em 12.1.
+
+**Função no formulário.** As unidades com algum serviço para a diabetes («Sim» em qualquer célula de 12.3.1 ou 12.3.2) formam o denominador do indicador de disponibilidade da hemoglobina glicada (13.C.II.6). As linhas separadas de diabetes tipo 1 e tipo 2 permitem ler a cadeia de cuidado do tipo 1, que exige insulina desde o início, com a disponibilidade de insulina na secção 13.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 12.3.1 ou 12.3.2 — qualquer coluna = Sim | 1.3.2.4.3 | Unidades que oferecem serviços para a diabetes<br>*Percentage of facilities offering diabetes services* | Q202_2 = 1, 2 ou 3; todas as unidades |
+| Linha 12.3.1 ou 12.3.2 — qualquer coluna = Sim | 3.3.2.1.1 | Unidades que oferecem algum serviço para a diabetes<br>*Percentage of facilities offering any services for diabetes* | Q1505 = 1; todas as unidades |
+| Linha 12.3.1 ou 12.3.2 · coluna (a) | 3.3.2.1.2 | Unidades que oferecem diagnóstico da diabetes<br>*Percentage of facilities offering diagnosis of diabetes* | Q1506_1 = 1; todas as unidades |
+| Linha 12.3.1 ou 12.3.2 · coluna (b) | 3.3.2.1.3 | Unidades que oferecem tratamento da diabetes<br>*Percentage of facilities offering treatment for diabetes* | Q1506_2 = 1; todas as unidades |
+| Linha 12.3.1 ou 12.3.2 · coluna (c) | 3.3.2.1.4 | Unidades que oferecem seguimento clínico dos doentes com diabetes<br>*Percentage of facilities offering clinical follow-up for diabetes clients* | Q1506_3 = 1; todas as unidades |
+| Linha 12.3.1 ou 12.3.2 · coluna (d) | 3.3.2.1.5 | Unidades que oferecem aconselhamento para o autocuidado da diabetes<br>*Percentage of facilities offering counselling for diabetes self-care* | Q1506_4 = 1; todas as unidades |
+| Linhas 12.3.1 e 12.3.2 separadas | — (medida própria) | O HHFA não distingue o tipo de diabetes; a separação é medida própria | — |
+| Linhas 12.3.3 a 12.3.5 | — (medida própria) | Obesidade, dislipidemia e doenças da tiróide não têm indicador de serviço no catálogo | — |
+
+Indicadores próximos, de outra natureza (teste de laboratório, secção 13): 3.7.1.1.7 — perfil lipídico; 3.7.1.1.9 — TSH.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+E para cada uma das condições endócrinas e metabólicas seguintes, quais destas funções são prestadas nesta unidade sanitária: diagnóstico; início e ajuste do tratamento; seguimento regular dos doentes já diagnosticados, com dia marcado; e aconselhamento ao doente para o autocuidado?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler as condições uma a uma e, para cada uma, as quatro funções. Em cada célula, marcar Sim ou Não. Conta a função prestada nesta unidade, haja ou não especialista.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Condição | (a) Diagnóstico nesta unidade | (b) Início e ajuste do tratamento nesta unidade | (c) Seguimento regular, com dia marcado | (d) Aconselhamento ao doente para o autocuidado |
+|---|---|:-:|:-:|:-:|:-:|
+| 12.3.1 | Diabetes mellitus tipo 2 [HHFA 1.3.2.4.3 · 3.3.2.1.1 · 3.3.2.1.2 · 3.3.2.1.3 · 3.3.2.1.4 · 3.3.2.1.5]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.3.2 | Diabetes mellitus tipo 1 [HHFA 1.3.2.4.3 · 3.3.2.1.1 · 3.3.2.1.2 · 3.3.2.1.3 · 3.3.2.1.4 · 3.3.2.1.5]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.3.3 | Obesidade | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.3.4 | Dislipidemia | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.3.5 | Doenças da tiróide | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+:::
+
+::: {.nota .interno}
+A diabetes passa a ter duas linhas, tipo 2 e tipo 1: o tipo 1 exige insulina desde o início e tem cadeia de cuidado própria.
+:::
+
+## 12.4 · Doenças respiratórias crónicas [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- **Percentagem de unidades sanitárias que oferecem algum serviço para doença respiratória crónica.**
+  - **Numerador:** unidades com «Sim» em pelo menos uma célula da grelha (linhas 12.4.1 e 12.4.2).
+  - **Denominador:** unidades com resposta 1 em 12.1.
+- **Para a asma (12.4.1) e para a DPOC (12.4.2), separadamente:**
+  - percentagem de unidades que oferecem diagnóstico, tratamento e aconselhamento — **numerador:** «Sim» nas colunas (a), (b) e (d) da linha;
+  - percentagem de unidades que oferecem tratamento e aconselhamento sem diagnóstico — **numerador:** «Não» na coluna (a) e «Sim» nas colunas (b) e (d);
+  - percentagem de unidades que oferecem apenas aconselhamento — **numerador:** «Não» nas colunas (a) e (b) e «Sim» na coluna (d);
+  - percentagem de unidades que prestam cada função, incluindo o seguimento regular (c) — **numerador:** «Sim» na célula.
+  - **Denominador** (todos): unidades com resposta 1 em 12.1.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Qualquer linha, qualquer coluna = Sim | 1.3.2.4.4 | Unidades que oferecem serviços para doença respiratória crónica<br>*Percentage of facilities offering chronic respiratory disease services* | Q202_10 = 1, 2 ou 3; todas as unidades |
+| Qualquer linha, qualquer coluna = Sim | 3.3.3.1.1 | Unidades que oferecem algum serviço para doença respiratória crónica<br>*Percentage of facilities offering any services for chronic respiratory disease* | Q1515 = 1; todas as unidades |
+| Linha 12.4.1 · Asma — (a), (b) e (d) = Sim | 3.3.3.1.2 | Unidades que oferecem diagnóstico, tratamento e aconselhamento: asma<br>*Percentage of facilities offering asthma diagnosis, treatment and selfcare* | Q1516_1A = 1 e Q1516_1B = 1 e Q1516_1C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
+| Linha 12.4.1 · Asma — (a) = Não, (b) e (d) = Sim | 3.3.3.1.3 | Unidades que oferecem tratamento e aconselhamento, sem diagnóstico: asma<br>*Percentage of facilities offering asthma treatment and selfcare counseling* | Q1516_1A = 2 e Q1516_1B = 1 e Q1516_1C = 1; todas as unidades |
+| Linha 12.4.1 · Asma — só (d) = Sim | 3.3.3.1.4 | Unidades que oferecem apenas aconselhamento: asma<br>*Percentage of facilities offering asthma selfcare counseling only* | Q1516_1A = 2 e Q1516_1B = 2 e Q1516_1C = 1; todas as unidades |
+| Linha 12.4.2 · DPOC — (a), (b) e (d) = Sim | 3.3.3.1.5 | Unidades que oferecem diagnóstico, tratamento e aconselhamento: dpoc<br>*Percentage of facilities offering COPD diagnosis, treatment and selfcare counseling* | Q1516_2A = 1 e Q1516_2B = 1 e Q1516_2C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
+| Linha 12.4.2 · DPOC — (a) = Não, (b) e (d) = Sim | 3.3.3.1.6 | Unidades que oferecem tratamento e aconselhamento, sem diagnóstico: dpoc<br>*Percentage of facilities offering COPD treatment and selfcare counseling* | Q1516_2A = 2 e Q1516_2B = 1 e Q1516_2C = 1; todas as unidades |
+| Linha 12.4.2 · DPOC — só (d) = Sim | 3.3.3.1.7 | Unidades que oferecem apenas aconselhamento: dpoc<br>*Percentage of facilities offering COPD selfcare counseling only* | Q1516_2A = 2 e Q1516_2B = 2 e Q1516_2C = 1; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+E para a asma e a doença pulmonar obstrutiva crónica, quais destas funções são prestadas nesta unidade sanitária: diagnóstico; início e ajuste do tratamento; seguimento regular dos doentes já diagnosticados, com dia marcado; e aconselhamento ao doente para o autocuidado?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler as condições uma a uma e, para cada uma, as quatro funções. Em cada célula, marcar Sim ou Não. Conta a função prestada nesta unidade, haja ou não especialista.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Condição | (a) Diagnóstico nesta unidade | (b) Início e ajuste do tratamento nesta unidade | (c) Seguimento regular, com dia marcado | (d) Aconselhamento ao doente para o autocuidado |
+|---|---|:-:|:-:|:-:|:-:|
+| 12.4.1 | Asma [HHFA 3.3.3.1.2 · 3.3.3.1.3 · 3.3.3.1.4]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.4.2 | Doença pulmonar obstrutiva crónica (DPOC) [HHFA 3.3.3.1.5 · 3.3.3.1.6 · 3.3.3.1.7]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+:::
+
+::: {.nota .interno}
+Asma e DPOC passam a linhas separadas: são condições com tratamento e seguimento distintos.
+:::
+
+## 12.5 · Doença renal crónica, anemias e desnutrição [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- **Para cada condição** — doença renal crónica (12.5.1), anemias (12.5.2), desnutrição em adolescentes e adultos (12.5.3): percentagem de unidades sanitárias que oferecem algum serviço para a condição.
+  - **Numerador:** «Sim» em pelo menos uma célula da linha.
+  - **Denominador:** unidades com resposta 1 em 12.1.
+- **Para cada condição e cada função** (colunas (a) a (d)): percentagem de unidades que prestam a função.
+  - **Numerador:** «Sim» na célula.
+  - **Denominador:** unidades com resposta 1 em 12.1.
+
+**Leitura.** Lida com a secção 13, mostra se a unidade que segue a doença renal crónica obtém creatinina e ureia (13.C.II.7 e 13.C.II.8) e se a que trata anemias obtém hemoglobina, ferro e ferritina (13.C.I.1, 13.C.II.20 e 13.C.II.21). A desnutrição da criança menor de 5 anos mede-se na secção 15.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linhas 12.5.1 a 12.5.3 | — (medida própria) | O catálogo não tem indicador de serviço para doença renal crónica, anemias ou desnutrição no adulto | — |
+
+Indicadores próximos, de outra natureza: 1.3.3.3.16 — testes de função renal e 1.3.3.2.7 — diálise (secção 13); 3.1.8.1.3 a 3.1.8.1.6 — malnutrição na criança menor de 5 anos (secção 16, 18.2.1); 3.2.6.1.17 — reabilitação nutricional no VIH.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+E para cada uma das condições seguintes, quais destas funções são prestadas nesta unidade sanitária: diagnóstico; início e ajuste do tratamento; seguimento regular dos doentes já diagnosticados, com dia marcado; e aconselhamento ao doente para o autocuidado?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler as condições uma a uma e, para cada uma, as quatro funções. Em cada célula, marcar Sim ou Não. Conta a função prestada nesta unidade, haja ou não especialista. A desnutrição da criança menor de 5 anos pergunta-se na secção 16; aqui conta só a de adolescentes e adultos.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Condição | (a) Diagnóstico nesta unidade | (b) Início e ajuste do tratamento nesta unidade | (c) Seguimento regular, com dia marcado | (d) Aconselhamento ao doente para o autocuidado |
+|---|---|:-:|:-:|:-:|:-:|
+| 12.5.1 | Doença renal crónica (insuficiência renal) | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.5.2 | Anemias | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.5.3 | Desnutrição em adolescentes e adultos | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+:::
+
+::: {.nota .interno}
+A desnutrição da criança menor de 5 anos está na secção 16 (16.2.1, linhas 2 a 5); aqui fica a do adolescente e do adulto.
+:::
+
+## 12.6 · Doenças neurológicas [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- **Percentagem de unidades sanitárias que oferecem algum serviço para doenças neurológicas.**
+  - **Numerador:** unidades com «Sim» em pelo menos uma célula da grelha (linhas 12.6.1 a 12.6.5).
+  - **Denominador:** unidades com resposta 1 em 12.1.
+- **Para a epilepsia (12.6.1) e para a demência (12.6.2), separadamente:**
+  - percentagem de unidades que oferecem diagnóstico, tratamento e aconselhamento — **numerador:** «Sim» nas colunas (a), (b) e (d) da linha;
+  - percentagem de unidades que oferecem tratamento e aconselhamento sem diagnóstico — **numerador:** «Não» na coluna (a) e «Sim» nas colunas (b) e (d);
+  - percentagem de unidades que oferecem apenas aconselhamento — **numerador:** «Não» nas colunas (a) e (b) e «Sim» na coluna (d).
+  - **Denominador:** unidades com resposta 1 em 12.1.
+- **Para cada condição da grelha (12.6.1 a 12.6.5) e cada função:** percentagem de unidades que prestam a função.
+  - **Numerador:** «Sim» na célula.
+  - **Denominador:** unidades com resposta 1 em 12.1.
+
+**Função no formulário.** Junta-se a 12.7 no indicador de oferta de algum serviço para transtornos mentais ou doenças neurológicas (ver 12.7).
+
+**Leitura.** Conta a função prestada nesta unidade, haja ou não neurologista. Lida com os medicamentos de saúde mental e neurologia (14.11), mostra se a unidade que trata a epilepsia tem os antiepilépticos.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Qualquer linha, qualquer coluna = Sim | 1.3.2.5.2 | Unidades que oferecem serviços para doenças neurológicas<br>*Percentage of facilities offering services for neurological disorders* | Q202_31 = 1, 2 ou 3; todas as unidades |
+| Qualquer linha, qualquer coluna = Sim | 3.3.6.1.3 | Unidades que oferecem serviços para doenças neurológicas<br>*Percentage of facilities offering services for neurological disorders* | Q1601_2 = 1, 2 ou 3; todas as unidades |
+| Qualquer linha = Sim | — | Entra no cálculo de 3.3.6.1.1 (ver 12.7) | — |
+| Linha 12.6.1 · Epilepsia — (a), (b) e (d) = Sim | 3.3.6.2.10 | Unidades que oferecem diagnóstico, tratamento e aconselhamento: epilepsia<br>*Percentage of facilities offering epilepsy diagnosis, treatment and counseling* | Q1603_4A = 1 e Q1603_4B = 1 e Q1603_4C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
+| Linha 12.6.1 · Epilepsia — (a) = Não, (b) e (d) = Sim | 3.3.6.2.11 | Unidades que oferecem tratamento e aconselhamento, sem diagnóstico: epilepsia<br>*Percentage of facilities offering epilepsy treatment and counseling* | Q1603_4A = 2 e Q1603_4B = 1 e Q1603_4C = 1; todas as unidades |
+| Linha 12.6.1 · Epilepsia — só (d) = Sim | 3.3.6.2.12 | Unidades que oferecem apenas aconselhamento: epilepsia<br>*Percentage of facilities offering epilepsy counseling only* | Q1603_4A = 2 e Q1603_4B = 2 e Q1603_4C = 1; todas as unidades |
+| Linha 12.6.2 · Demência — (a), (b) e (d) = Sim | 3.3.6.2.13 | Unidades que oferecem diagnóstico, tratamento e aconselhamento: demência<br>*Percentage of facilities offering dementia diagnosis, treatment and counseling* | Q1603_5A = 1 e Q1603_5B = 1 e Q1603_5C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
+| Linha 12.6.2 · Demência — (a) = Não, (b) e (d) = Sim | 3.3.6.2.14 | Unidades que oferecem tratamento e aconselhamento, sem diagnóstico: demência<br>*Percentage of facilities offering dementia treatment and counseling* | Q1603_5A = 2 e Q1603_5B = 1 e Q1603_5C = 1; todas as unidades |
+| Linha 12.6.2 · Demência — só (d) = Sim | 3.3.6.2.15 | Unidades que oferecem apenas aconselhamento: demência<br>*Percentage of facilities offering dementia counseling only* | Q1603_5A = 2 e Q1603_5B = 2 e Q1603_5C = 1; todas as unidades |
+| Linhas 12.6.3 a 12.6.5 | — (medida própria) | Parkinsonismo, plegias e dores crónicas e neuropáticas não têm indicador de serviço no catálogo | — |
+
+No HHFA, «C» é aconselhamento (counseling); aqui corresponde à coluna (d).
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+E para cada uma das condições neurológicas seguintes, quais destas funções são prestadas nesta unidade sanitária: diagnóstico; início e ajuste do tratamento; seguimento regular dos doentes já diagnosticados, com dia marcado; e aconselhamento ao doente para o autocuidado?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler as condições uma a uma e, para cada uma, as quatro funções. Em cada célula, marcar Sim ou Não. Conta a função prestada nesta unidade, haja ou não especialista.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Condição | (a) Diagnóstico nesta unidade | (b) Início e ajuste do tratamento nesta unidade | (c) Seguimento regular, com dia marcado | (d) Aconselhamento ao doente para o autocuidado |
+|---|---|:-:|:-:|:-:|:-:|
+| 12.6.1 | Epilepsia [HHFA 3.3.6.2.10 · 3.3.6.2.11 · 3.3.6.2.12]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.6.2 | Demência [HHFA 3.3.6.2.13 · 3.3.6.2.14 · 3.3.6.2.15]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.6.3 | Parkinsonismo | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.6.4 | Plegias | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.6.5 | Dores crónicas e dores neuropáticas | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+:::
+
+::: {.nota .interno}
+Substitui a pergunta única sobre doenças neurológicas da antiga 10.C.2. A epilepsia continua nomeada: é a condição neurológica cujo seguimento mais depende dos cuidados primários.
+:::
+
+## 12.7 · Saúde mental [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- **Percentagem de unidades sanitárias que oferecem algum serviço para transtornos mentais.**
+  - **Numerador:** unidades com «Sim» em pelo menos uma célula da grelha (linhas 12.7.1 a 12.7.5).
+  - **Denominador:** unidades com resposta 1 em 12.1.
+- **Percentagem de unidades sanitárias que oferecem algum serviço para transtornos mentais ou doenças neurológicas.**
+  - **Numerador:** unidades com «Sim» em pelo menos uma célula da grelha de 12.6 ou da grelha de 12.7.
+  - **Denominador:** unidades com resposta 1 em 12.1.
+- **Para as psicoses e esquizofrenias (12.7.2) e para o uso de substâncias (drogas ilícitas ou álcool, 12.7.3 ou 12.7.4):**
+  - percentagem de unidades que oferecem diagnóstico, tratamento e aconselhamento — **numerador:** «Sim» nas colunas (a), (b) e (d);
+  - percentagem de unidades que oferecem tratamento e aconselhamento sem diagnóstico — **numerador:** «Não» na coluna (a) e «Sim» nas colunas (b) e (d);
+  - percentagem de unidades que oferecem apenas aconselhamento — **numerador:** «Não» nas colunas (a) e (b) e «Sim» na coluna (d).
+  - No uso de substâncias, conta a linha 12.7.3 ou a linha 12.7.4; o tabagismo (12.7.5) não entra.
+  - **Denominador:** unidades com resposta 1 em 12.1.
+- **Para cada condição da grelha (12.7.1 a 12.7.5) e cada função:** percentagem de unidades que prestam a função.
+  - **Numerador:** «Sim» na célula.
+  - **Denominador:** unidades com resposta 1 em 12.1.
+
+**Leitura.** Conta a função prestada nesta unidade, haja ou não psiquiatra ou psicólogo: mostra quanto do atendimento em saúde mental acontece em unidades sem especialista.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Qualquer linha, qualquer coluna = Sim | 1.3.2.5.1 | Unidades que oferecem algum serviço para transtornos mentais<br>*Percentage of facilities offering any services for mental disorders* | Q202_27 = 1, 2 ou 3; todas as unidades |
+| Qualquer linha, qualquer coluna = Sim | 3.3.6.1.2 | Unidades que oferecem serviços para transtornos mentais<br>*Percentage of facilities offering services for mental disorders* | Q1601_1 = 1, 2 ou 3; todas as unidades |
+| Qualquer linha de 12.6 ou de 12.7 = Sim | 3.3.6.1.1 | Unidades que oferecem algum serviço para transtornos mentais ou doenças neurológicas<br>*Percentage of facilities offering any services for mental or neurological disorders* | Q1600 = 1; todas as unidades |
+| Linha 12.7.2 · Psicoses e esquizofrenias — (a), (b) e (d) = Sim | 3.3.6.2.4 | Unidades que oferecem diagnóstico, tratamento e aconselhamento: psicoses e esquizofrenias<br>*Percentage of facilities offering schizophrenia diagnosis, treatment and counseling* | Q1603_2A = 1 e Q1603_2B = 1 e Q1603_2C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
+| Linha 12.7.2 · Psicoses e esquizofrenias — (a) = Não, (b) e (d) = Sim | 3.3.6.2.5 | Unidades que oferecem tratamento e aconselhamento, sem diagnóstico: psicoses e esquizofrenias<br>*Percentage of facilities offering schizophrenia treatment and counseling* | Q1603_2A = 2 e Q1603_2B = 1 e Q1603_2C = 1; todas as unidades |
+| Linha 12.7.2 · Psicoses e esquizofrenias — só (d) = Sim | 3.3.6.2.6 | Unidades que oferecem apenas aconselhamento: psicoses e esquizofrenias<br>*Percentage of facilities offering schizophrenia counseling only* | Q1603_2A = 2 e Q1603_2B = 2 e Q1603_2C = 1; todas as unidades |
+| Linha 12.7.3 ou 12.7.4 — (a), (b) e (d) = Sim | 3.3.6.2.16 | Unidades que oferecem diagnóstico, tratamento e aconselhamento: uso de substâncias<br>*Percentage of facilities offering substance abuse / addictive behavior diagnosis, treatment and counseling* | Q1603_6A = 1 e Q1603_6B = 1 e Q1603_6C = 1; todas as unidades. O HHFA não pergunta pelo seguimento: a coluna (c) é medida própria |
+| Linha 12.7.3 ou 12.7.4 — (a) = Não, (b) e (d) = Sim | 3.3.6.2.17 | Unidades que oferecem tratamento e aconselhamento, sem diagnóstico: uso de substâncias<br>*Percentage of facilities offering substance abuse / addictive behavior treatment and counseling* | Q1603_6A = 2 e Q1603_6B = 1 e Q1603_6C = 1; todas as unidades |
+| Linha 12.7.3 ou 12.7.4 — só (d) = Sim | 3.3.6.2.18 | Unidades que oferecem apenas aconselhamento: uso de substâncias<br>*Percentage of facilities offering substance abuse / addictive behavior counseling only* | Q1603_6A = 2 e Q1603_6B = 2 e Q1603_6C = 1; todas as unidades |
+| Linha 12.7.1 | — (medida própria) | O HHFA separa perturbações do humor (3.3.6.2.1 a 3.3.6.2.3, Q1603_1) e de ansiedade (3.3.6.2.7 a 3.3.6.2.9, Q1603_3); com uma só linha «Depressão e ansiedade» os seis indicadores não se calculam | — |
+| Linha 12.7.5 | — (medida própria) | Tabagismo: sem indicador de serviço no catálogo; não entra no indicador de uso de substâncias, que aqui se calcula com drogas e álcool | — |
+
+Na linha 12.7.2 o HHFA diz «esquizofrenia»; a nossa linha é mais larga (psicoses e esquizofrenias).
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+E para cada uma das condições de saúde mental seguintes, quais destas funções são prestadas nesta unidade sanitária: diagnóstico; início e ajuste do tratamento; seguimento regular dos doentes já diagnosticados, com dia marcado; e aconselhamento ao doente para o autocuidado?
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler as condições uma a uma e, para cada uma, as quatro funções. Em cada célula, marcar Sim ou Não. Conta a função prestada nesta unidade, haja ou não especialista.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Condição | (a) Diagnóstico nesta unidade | (b) Início e ajuste do tratamento nesta unidade | (c) Seguimento regular, com dia marcado | (d) Aconselhamento ao doente para o autocuidado |
+|---|---|:-:|:-:|:-:|:-:|
+| 12.7.1 | Depressão e ansiedade | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.7.2 | Psicoses e esquizofrenias [HHFA 3.3.6.2.4 · 3.3.6.2.5 · 3.3.6.2.6]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.7.3 | Problemas por uso de drogas ilícitas [HHFA 3.3.6.2.16 · 3.3.6.2.17 · 3.3.6.2.18]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.7.4 | Problemas por uso de álcool [HHFA 3.3.6.2.16 · 3.3.6.2.17 · 3.3.6.2.18]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.7.5 | Tabagismo | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+:::
+
+::: {.nota .interno}
+Substitui a pergunta única sobre transtornos mentais da antiga 10.C.1. A psiquiatria e a psicologia são especialidades que quase nenhuma unidade de cuidados primários tem; o atendimento a transtornos mentais comuns acontece em centros de saúde sem especialista.
+:::
+
+## 12.8.0 · Cancro — porta [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias que oferecem algum serviço relacionado com cancro — rastreio, diagnóstico, tratamento, seguimento ou cuidados de suporte.
+
+- **Numerador:** unidades com resposta «Sim» (1) em 12.8.0.
+- **Denominador:** unidades com resposta 1 em 12.1.
+
+**Função no formulário.** Porta encadeada dentro da porta 12.1. Define o universo das unidades com serviço de cancro: as unidades com «Sim» formam o denominador dos indicadores por localização e por função (12.8.1 a 12.8.4) e do indicador de biópsia entre as unidades com serviços de cancro (13.C.IV.15). As unidades com «Não» saltam para 12.9 e não entram nesses denominadores. Expresso sobre o total das unidades inquiridas, contam como sem serviço de cancro as unidades com «Não» em 12.1 ou em 12.8.0.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 1.3.2.4.5 | Unidades que oferecem algum serviço de cancro<br>*Percentage of facilities offering any cancer services* | Q202_14 = 1, 2 ou 3; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária presta algum serviço relacionado com cancro — rastreio, diagnóstico, tratamento, seguimento ou cuidados de suporte?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 12.9.
+:::
+
+## 12.8.1 a 12.8.4 · Cancro, por localização [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- **Para cada localização** — colo do útero (12.8.1), mama (12.8.2), colorrectal (12.8.3), próstata (12.8.4): percentagem de unidades sanitárias que oferecem algum serviço para esse cancro.
+  - **Numerador:** «Sim» em pelo menos uma célula da linha.
+  - **Denominador:** unidades com resposta 1 em 12.8.0.
+- **Para cada localização e cada função** — diagnóstico e rastreio (a), tratamento (b), seguimento regular (c), aconselhamento (d): percentagem de unidades que prestam a função.
+  - **Numerador:** «Sim» na célula.
+  - **Denominador:** unidades com resposta 1 em 12.8.0.
+
+**Função no formulário.** A coluna (a) da linha 12.8.1 lê-se com a maca ou mesa de exame ginecológico (9.4, linha 2) e com o kit de exame vaginal com espéculo (10.1.10): as unidades que têm os dois equipamentos e não rastreiam o cancro do colo do útero mostram uma lacuna de organização, e não de investimento. As linhas 12.8.1 e 12.8.4 lêem-se também com o teste de HPV e o PSA (13.C.IV.13 e 13.C.IV.14).
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 12.8.1 Cancro do colo do útero — qualquer coluna = Sim | 1.3.2.4.6 | Unidades que oferecem algum serviço para o cancro do colo do útero<br>*Percentage of facilities offering any services for cervical cancer* | Q202_15 = 1, 2 ou 3; todas as unidades |
+| Linha 12.8.1 Cancro do colo do útero — qualquer coluna = Sim | 3.3.4.1.1 | Unidades que oferecem algum serviço para o cancro do colo do útero<br>*Percentage of facilities offering any  services for cervical cancer* | Q1527 = 1; todas as unidades |
+| Linha 12.8.2 Cancro da mama — qualquer coluna = Sim | 1.3.2.4.7 | Unidades que oferecem algum serviço para o cancro da mama<br>*Percentage of facilities offering any services for breast cancer* | Q202_18 = 1, 2 ou 3; todas as unidades |
+| Linha 12.8.2 Cancro da mama — qualquer coluna = Sim | 3.3.4.4.1 | Unidades que oferecem algum serviço para o cancro da mama<br>*Percentage of facilities offering any services for breast cancer* | Q1535 = 1; todas as unidades |
+| Linha 12.8.3 Cancro colorrectal — qualquer coluna = Sim | 1.3.2.4.8 | Unidades que oferecem algum serviço para o cancro colorrectal<br>*Percentage of facilities offering any  services for colorectal cancer* | Q202_21 = 1, 2 ou 3; todas as unidades |
+| Linha 12.8.3 Cancro colorrectal — qualquer coluna = Sim | 3.3.4.6.1 | Unidades que oferecem algum serviço para o cancro colorrectal<br>*Percentage of facilities offering any services for colorectal cancer* | Q1540 = 1; todas as unidades |
+| Linha 12.8.4 Cancro da próstata — qualquer coluna = Sim | 1.3.2.4.9 | Unidades que oferecem algum serviço para o cancro da próstata<br>*Percentage of facilities offering any  services for prostate cancer* | Q202_24 = 1, 2 ou 3; todas as unidades |
+| Linha 12.8.4 Cancro da próstata — qualquer coluna = Sim | 3.3.4.8.1 | Unidades que oferecem algum serviço para o cancro da próstata<br>*Percentage of facilities offering any services for prostate cancer* | Q1545 = 1; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada uma das localizações de cancro seguintes, diga-me quais destas funções são prestadas nesta unidade sanitária: diagnóstico; início e ajuste do tratamento; seguimento regular dos doentes já diagnosticados, com dia marcado; e aconselhamento ao doente para o autocuidado.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Ler as localizações uma a uma e, para cada uma, as quatro funções. Em cada célula, marcar Sim ou Não. No cancro, o diagnóstico (a) inclui o rastreio — por exemplo a inspecção visual com ácido acético no colo do útero.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Localização | (a) Diagnóstico nesta unidade | (b) Início e ajuste do tratamento nesta unidade | (c) Seguimento regular, com dia marcado | (d) Aconselhamento ao doente para o autocuidado |
+|---|---|:-:|:-:|:-:|:-:|
+| 12.8.1 | Cancro do colo do útero [HHFA 1.3.2.4.6 · 3.3.4.1.1]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.8.2 | Cancro da mama [HHFA 1.3.2.4.7 · 3.3.4.4.1]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.8.3 | Cancro colorrectal [HHFA 1.3.2.4.8 · 3.3.4.6.1]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+| 12.8.4 | Cancro da próstata [HHFA 1.3.2.4.9 · 3.3.4.8.1]{.hhfa .cod-hhfa} | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não | ☐ Sim<br>☐ Não |
+:::
+
+::: {.nota .interno}
+O cancro do colo do útero é o que mais interessa à rede de cuidados primários, porque o rastreio por inspecção visual com ácido acético é factível num centro de saúde — e já temos a maca de exame ginecológico na secção 9 e o espéculo na secção 9. **Lendo os três em conjunto, passa a ser possível ver quais as unidades que têm a condição material para rastrear e não rastreiam** — que é uma lacuna de organização e não de investimento, e portanto barata de corrigir.
+:::
+
+## 12.9 · Procura activa de faltosos — doenças crónicas não transmissíveis [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias com serviço de doenças crónicas não transmissíveis que identificam e procuram activamente os doentes que faltam ao seguimento.
+
+- **Numerador:** unidades com resposta 1 em 12.9.
+- **Denominador:** unidades com resposta 1 em 12.1 (as unidades com «Não» em 12.8.0 também respondem a 12.9). A resposta 98 fica no denominador e não conta no numerador.
+- **Desagregação:** distribuição das respostas 1, 2 e 3 — procura activa; registo da falta sem procura; desconhecimento de quem faltou —, por categoria da unidade (2.6) e zona (2.11).
+
+**Função no formulário.** Lido com 19.4.2, mostra que parte da procura activa passa pelos ADECOS.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 3.3.5.1.1 — Unidades com serviços de DNT que têm sistema de marcação para o seguimento regular dos doentes (*Percentage of facilities offering NCD services with appointment system for routine follow-up of NCD clients*; Q1504_3 = 1, entre as que oferecem serviços de DNT) — mede a marcação das consultas, não a identificação e a procura dos faltosos. Também próximo: 4.5.2.6.9 — Unidades que mantêm uma lista de utentes registados para grupos seleccionados (*Percentage of facilities that maintain a panel/list of registered patients for selected patient groups*; Q1006 = 2) — uma lista de utentes não é procura activa.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quando um doente com doença crónica não transmissível — por exemplo hipertensão, diabetes, asma, epilepsia ou depressão — falta a uma consulta de seguimento marcada, esta unidade sanitária identifica a falta e procura o doente activamente?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, há registo dos faltosos e a unidade procura-os activamente
+2. Sim, a falta é registada, mas não há procura activa
+3. Não, não sabemos quem são os utentes de quem perdemos o seguimento do cuidado
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Procura activa é qualquer contacto feito por iniciativa da unidade para trazer o utente de volta: telefone ou SMS, visita domiciliar pelo pessoal da unidade, ou pedido aos ADECOS para o localizar.
+:::
+
+::: {.nota .interno}
+**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 19.4.2, como função dos ADECOS.
+
+**Verificação a programar.** Na resposta 1, pedir para ver a lista ou o livro de faltosos do último mês.
+:::

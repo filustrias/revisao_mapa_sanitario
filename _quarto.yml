@@ -25,23 +25,24 @@ book:
     - formulario/01-identificacao.qmd
     - formulario/02-localizacao.qmd
     - formulario/03-populacao-referencia.qmd
-    - formulario/04-construcao-estado-fisico.qmd
-    - formulario/05-agua-energia-saneamento.qmd
-    - formulario/06-conectividade.qmd
-    - formulario/07-transportes.qmd
-    - formulario/08-camas.qmd
-    - formulario/09-aparelhos.qmd
-    - formulario/10-clinicos-cirurgicos.qmd
-    - formulario/11-doencas-cronicas.qmd
-    - formulario/12-diagnostico-apoio.qmd
-    - formulario/13-farmacia-medicamentos.qmd
-    - formulario/14-urgencia.qmd
-    - formulario/15-crianca-vacinacao.qmd
-    - formulario/16-materna-neonatal-pf.qmd
-    - formulario/17-vih-tb-malaria.qmd
-    - formulario/18-accao-comunitaria.qmd
-    - formulario/19-gestao.qmd
-    - formulario/20-servicos-gerais.qmd
+    - formulario/04-sistema-referencia.qmd
+    - formulario/05-construcao-estado-fisico.qmd
+    - formulario/06-agua-energia-saneamento.qmd
+    - formulario/07-conectividade.qmd
+    - formulario/08-transportes.qmd
+    - formulario/09-camas.qmd
+    - formulario/10-aparelhos.qmd
+    - formulario/11-clinicos-cirurgicos.qmd
+    - formulario/12-doencas-cronicas.qmd
+    - formulario/13-diagnostico-apoio.qmd
+    - formulario/14-farmacia-medicamentos.qmd
+    - formulario/15-urgencia.qmd
+    - formulario/16-crianca-vacinacao.qmd
+    - formulario/17-materna-neonatal-pf.qmd
+    - formulario/18-vih-tb-malaria.qmd
+    - formulario/19-accao-comunitaria.qmd
+    - formulario/20-gestao.qmd
+    - formulario/21-servicos-gerais.qmd
 
 format:
   html:

@@ -24,7 +24,6 @@ População da área de abrangência da unidade sanitária e unidades para onde 
 | 3.3.1 | Grupos de doentes com referência lateral, com a rede obstétrica em separado [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 3.3.2 a 3.3.4 | Unidade de referência lateral: designação, categoria e código [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 3.3.5 e 3.3.6 | Distância e tempo até à unidade de referência lateral [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 3.4 a 3.9 | Funcionamento do sistema de referência [(parqueado; 6 indicadores do HHFA)]{.hhfa} |
 
 </details>
 
@@ -37,8 +36,8 @@ População da área de abrangência da unidade sanitária e unidades para onde 
 
 - Número de unidades sanitárias por 10 000 habitantes — numerador: unidades inquiridas da área.
 - Número de unidades de cuidados primários por 10 000 habitantes — numerador: unidades da área com resposta 1 a 5 em 2.6.
-- Número de camas de internamento por 10 000 habitantes — numerador: soma das camas de internamento de adulto da área (8.2).
-- Número de camas de maternidade por 1 000 grávidas — numerador: soma das camas de maternidade da área (linha 8.2.7); denominador: grávidas esperadas na área, estimadas a partir da população de 3.1.
+- Número de camas de internamento por 10 000 habitantes — numerador: soma das camas de internamento de adulto da área (9.2).
+- Número de camas de maternidade por 1 000 grávidas — numerador: soma das camas de maternidade da área (linha 9.2.7); denominador: grávidas esperadas na área, estimadas a partir da população de 3.1.
 
 <!-- -->
 
@@ -48,7 +47,7 @@ População da área de abrangência da unidade sanitária e unidades para onde 
 
 Os mesmos quocientes, divididos pelas metas de referência — 2 unidades e 25 camas por 10 000 habitantes, 10 camas de maternidade por 1 000 grávidas —, dão os índices de densidade de unidades, de camas de internamento e de camas de maternidade.
 
-**Função no formulário.** Define o denominador populacional de todos os indicadores de densidade do formulário (unidades, 2.6; camas, secção 8) e, quando o pessoal da unidade for recolhido, das densidades de profissionais por habitante. A população de cada nó da rede de referência obtém-se somando à sua a das unidades que lhe referem doentes (árvore de 3.2.3).
+**Função no formulário.** Define o denominador populacional de todos os indicadores de densidade do formulário (unidades, 2.6; camas, secção 9) e, quando o pessoal da unidade for recolhido, das densidades de profissionais por habitante. A população de cada nó da rede de referência obtém-se somando à sua a das unidades que lhe referem doentes (árvore de 3.2.3).
 
 </details>
 
@@ -59,8 +58,8 @@ Os mesmos quocientes, divididos pelas metas de referência — 2 unidades e 25 c
 |---|---|---|---|
 | Resposta (população) — denominador | 1.1.1.1.1 | Número de unidades sanitárias por 10 000 habitantes<br>*Number of health facilities per 10,000 population* | Cada unidade conta 1 (FVRES ≠ 3 e ≠ 4); somado por área ÷ população da área geográfica |
 | Resposta (população) — denominador | 1.1.1.1.2 | Número de unidades de cuidados primários por 10 000 habitantes<br>*Number of primary care facilities per 10,000 population* | Entra no cálculo de 1.1.1.1.2 (ver 2.6) |
-| Resposta (população) — denominador | 1.1.1.1.3 | Número de camas de internamento por 10 000 habitantes<br>*Number of inpatient beds per 10,000 population* | Q403 (camas de internamento, secção 8); somado por área ÷ população da área geográfica |
-| Resposta (população) — base do denominador (grávidas) | 1.1.1.1.4 | Número de camas de maternidade por 1 000 grávidas<br>*Number of maternity beds per 1,000 pregnant women* | Q404_1 (camas de maternidade, secção 8); somado por área ÷ grávidas da área geográfica |
+| Resposta (população) — denominador | 1.1.1.1.3 | Número de camas de internamento por 10 000 habitantes<br>*Number of inpatient beds per 10,000 population* | Q403 (camas de internamento, secção 9); somado por área ÷ população da área geográfica |
+| Resposta (população) — base do denominador (grávidas) | 1.1.1.1.4 | Número de camas de maternidade por 1 000 grávidas<br>*Number of maternity beds per 1,000 pregnant women* | Q404_1 (camas de maternidade, secção 9); somado por área ÷ grávidas da área geográfica |
 | Resposta (população) — denominador | 1.2.2.1.1 | Médicos por 10 000 habitantes<br>*Medical doctors per 10,000 population* | Q304C + Q306C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
 | Resposta (população) — denominador | 1.2.2.1.2 | Profissionais paramédicos por 10 000 habitantes<br>*Paramedical practitioners per 10,000 population* | Q308_1C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
 | Resposta (população) — denominador | 1.2.2.1.3 | Profissionais de enfermagem e de partos por 10 000 habitantes<br>*Nursing and midwifery professionals per 10,000 population* | Q308_2C + Q308_3C + Q308_4C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
@@ -82,8 +81,8 @@ Os mesmos quocientes, divididos pelas metas de referência — 2 unidades e 25 c
 | Resposta (população) — denominador | 1.2.2.4.7 | Audiologistas e terapeutas da fala por 10 000 habitantes<br>*Audiologists and speech therapists per 10,000 population* | Q309_5C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
 | Resposta (população) — denominador | 1.2.2.4.8 | Optometristas e ópticos por 10 000 habitantes<br>*Optometrists and ophthalmic opticians per 10,000 population* | Q309_7C (pessoal; sem quesito neste formulário); somado por área ÷ população da área geográfica |
 | Resposta (população) — denominador | 1.4.1.1.1 | Índice de densidade de unidades sanitárias<br>*Health facility density score* | Cada unidade conta 1 (FVRES ≠ 3 e ≠ 4) ÷ 2 (meta: 2 unidades por 10 000 habitantes); somado por área ÷ população da área geográfica |
-| Resposta (população) — denominador | 1.4.1.1.2 | Índice de densidade de camas de internamento<br>*Inpatient bed density score* | Q401 (camas, secção 8) ÷ 25 (meta: 25 camas por 10 000 habitantes); somado por área ÷ população da área geográfica |
-| Resposta (população) — base do denominador (grávidas) | 1.4.1.1.3 | Índice de densidade de camas de maternidade<br>*Maternity bed density score* | Q404_1 (camas de maternidade, secção 8) ÷ 10 (meta: 10 camas por 1 000 grávidas); somado por área ÷ grávidas da área geográfica |
+| Resposta (população) — denominador | 1.4.1.1.2 | Índice de densidade de camas de internamento<br>*Inpatient bed density score* | Q401 (camas, secção 9) ÷ 25 (meta: 25 camas por 10 000 habitantes); somado por área ÷ população da área geográfica |
+| Resposta (população) — base do denominador (grávidas) | 1.4.1.1.3 | Índice de densidade de camas de maternidade<br>*Maternity bed density score* | Q404_1 (camas de maternidade, secção 9) ÷ 10 (meta: 10 camas por 1 000 grávidas); somado por área ÷ grávidas da área geográfica |
 
 A população de cada área obtém-se somando 3.1 das unidades da área, sem duplicações; o catálogo diz apenas «população da área geográfica» e não fixa a fonte.
 :::
@@ -235,7 +234,7 @@ Quantas unidades sanitárias referem habitualmente doentes para esta unidade?
 
 **Uso.** Identifica, para cada unidade, a sua unidade de referência superior — uma só, de preenchimento obrigatório.
 
-**Função no formulário.** Com a categoria (3.2.2) e o código (3.2.3), constrói a árvore de referência nacional, que permite ler, para cada unidade, os recursos da sua referência. Por exemplo, percentagem de postos de saúde cuja unidade de referência superior assiste partos: numerador, postos (2.6 = 1) cuja unidade indicada em 3.2.3 assiste partos (secção 16); denominador, todos os postos de saúde inquiridos. A árvore serve também para somar a população de cada nó (3.1).
+**Função no formulário.** Com a categoria (3.2.2) e o código (3.2.3), constrói a árvore de referência nacional, que permite ler, para cada unidade, os recursos da sua referência. Por exemplo, percentagem de postos de saúde cuja unidade de referência superior assiste partos: numerador, postos (2.6 = 1) cuja unidade indicada em 3.2.3 assiste partos (secção 17); denominador, todos os postos de saúde inquiridos. A árvore serve também para somar a população de cada nó (3.1).
 
 </details>
 
@@ -358,7 +357,7 @@ Código, 6 dígitos
 - **Denominador:** todas as unidades sanitárias inquiridas.
 - **Desagregação:** categoria (2.6), município e zona (2.11).
 
-Lido com o acesso a transporte de emergência (7.4 e 7.4.1), identifica as zonas sem evacuação exequível.
+Lido com o acesso a transporte de emergência (8.4 e 8.4.1), identifica as zonas sem evacuação exequível.
 
 </details>
 
@@ -367,7 +366,7 @@ Lido com o acesso a transporte de emergência (7.4 e 7.4.1), identifica as zonas
 
 **Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
 
-Indicador mais próximo: 2.1.1.1.7 — Unidades com sistema de transporte de emergência para doentes (*Percentage of facilities with emergency transportation system for patients*) — o HHFA pergunta se há viatura de emergência funcional na unidade ou disponível por chamada ((Q1232 = 1 ou 2) e Q1234 = 1; ver 7.4 e 7.4.1), e não o meio de facto usado para transferir doentes. Lidos em conjunto, identificam as zonas sem evacuação exequível.
+Indicador mais próximo: 2.1.1.1.7 — Unidades com sistema de transporte de emergência para doentes (*Percentage of facilities with emergency transportation system for patients*) — o HHFA pergunta se há viatura de emergência funcional na unidade ou disponível por chamada ((Q1232 = 1 ou 2) e Q1234 = 1; ver 8.4 e 8.4.1), e não o meio de facto usado para transferir doentes. Lidos em conjunto, identificam as zonas sem evacuação exequível.
 :::
 
 ::: {.enunciado .rotulado}
@@ -585,7 +584,7 @@ Tempo em minutos na época das chuvas.
 - **Denominador:** todas as unidades sanitárias inquiridas.
 - **Desagregação:** categoria (2.6) e município.
 
-**Função no formulário.** Porta da referência lateral. As unidades com resposta diferente de 0 formam o denominador de 3.3.2 a 3.3.6; as unidades com «Não» (0) saltam para a secção 4 e não entram nesses denominadores. O grupo indicado aqui é também a variável de desagregação de 3.3.3 a 3.3.6; o código 1 isola a rede obstétrica.
+**Função no formulário.** Porta da referência lateral. As unidades com resposta diferente de 0 formam o denominador de 3.3.2 a 3.3.6; as unidades com «Não» (0) saltam para a secção 5 e não entram nesses denominadores. O grupo indicado aqui é também a variável de desagregação de 3.3.3 a 3.3.6; o código 1 isola a rede obstétrica.
 
 </details>
 
@@ -709,7 +708,7 @@ Categoria da unidade indicada em 3.3.2, segundo a classificação do Mapa Sanit�
 
 **Uso.** Chave de ligação: liga cada ficha à da sua unidade de referência lateral pelo código do Mapa Sanitário, sem depender da grafia do nome. Aplica-se às unidades com resposta diferente de 0 em 3.3.1.
 
-**Função no formulário.** Permite ler, para cada unidade, os serviços da sua referência lateral — por exemplo, se a unidade que recebe as grávidas (3.3.1 = 1) assiste partos (secção 16).
+**Função no formulário.** Permite ler, para cada unidade, os serviços da sua referência lateral — por exemplo, se a unidade que recebe as grávidas (3.3.1 = 1) assiste partos (secção 17).
 
 </details>
 
@@ -799,46 +798,4 @@ Tempo em minutos na época seca.
 [Opções de resposta]{.rotulo}
 
 - Minutos, 3 dígitos; 997 intransitável, 998 não sabe
-:::
-
-## 3.4 a 3.9 Funcionamento do sistema de referência [PARQUEADO]{.etiqueta .parqueado}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-**Indicadores**, se o bloco entrar:
-
-- Percentagem de unidades sanitárias com sistema estabelecido para referir doentes a outras unidades — numerador: resposta afirmativa em 3.4.
-- Percentagem de unidades com normas escritas de referência — numerador: documento observado em 3.5.
-- Percentagem de unidades com normas escritas de contrarreferência — numerador: documento observado em 3.6.
-- Percentagem de unidades com registo das referências feitas — numerador: registo observado em 3.7.
-- Percentagem de unidades que recebem habitualmente informação de retorno sobre os doentes referidos — numerador: resposta afirmativa em 3.8.
-- Percentagem de unidades com acesso 24 horas a viatura em condições de funcionamento e a motorista para transporte de doentes — numerador: resposta afirmativa em 3.9, obtida também de 7.4 e 7.4.1.
-
-<!-- -->
-
-- **Denominador:** todas as unidades sanitárias inquiridas; em 3.5 a 3.7, que pedem para ver o documento, as unidades visitadas com observação (1.4 = 1).
-- **Desagregação:** categoria (2.6) e província.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| 3.4 · Sistema de referência estabelecido | 2.7.1.1.1 | Unidades com sistema para referir doentes a outras unidades<br>*Percentage of facilities with system to refer patients to other facilities* | Q1227 = 1; todas as unidades |
-| 3.5 · Normas escritas de referência | 2.7.1.1.2 | Unidades com normas ou protocolos de referência<br>*Percentage of facilities with guidelines or protocols for referral* | Q1228 = 1 (documento observado); todas as unidades |
-| 3.6 · Normas escritas de contrarreferência | 2.7.1.1.3 | Unidades com normas ou protocolos de contrarreferência<br>*Percentage of facilities with guidelines or protocols for counter-referral* | Q1229 = 1 (documento observado); todas as unidades |
-| 3.7 · Registo das referências feitas | 2.7.1.1.4 | Unidades com registo das referências feitas<br>*Percentage of facilities with records of referrals out* | Q1230 = 1 (registo observado); todas as unidades |
-| 3.8 · Informação de retorno | 2.7.1.1.5 | Unidades que recebem habitualmente informação de retorno sobre os doentes referidos<br>*Percentage of facilities with feedback routinely received on referrals out* | Q1231 = 1; todas as unidades |
-| 3.9 · Viatura e motorista 24 horas | 2.7.1.1.6 | Unidades com acesso 24 horas a viatura funcional e motorista para transporte de doentes<br>*Percentage of facilities with 24 hour access to functional vehicle and driver for patient transport* | Entra no cálculo de 2.7.1.1.6 (ver 7.4 e 7.4.1); no HHFA, (Q1232 = 1 ou 2) e Q1233 = 1 e Q1234 = 1 |
-
-Bloco parqueado: os códigos aplicam-se se o bloco entrar. Os quesitos 3.4 a 3.9 ainda não têm opções de resposta escritas; os itens referem-se a cada quesito no seu todo.
-:::
-
-::: {.nota}
-Fica para o bloco de gestão o funcionamento do sistema de referência: se existe sistema estabelecido, se há normas de referência e de contrarreferência, se as referências feitas são registadas e se há informação de retorno. O quesito 3.9, sobre o acesso a viatura em condições de funcionamento e a motorista 24 horas, obtém-se também dos quesitos 7.4 e 7.4.1, nos meios de transporte.
-
-São cinco medidas sobre o funcionamento da referência. Duas são declaradas — a existência do sistema e a informação de retorno —, e três pedem para ver o documento: as normas de referência, as normas de contrarreferência e o registo das referências feitas. Em recolha sem visita, estes três ficam vazios para a unidade. É candidato natural a entrar nesta ronda, se a revisão o considerar.
 :::

@@ -6,19 +6,19 @@ Trabalha-se um ponto de cada vez: cada ponto é feito, publicado e revisto antes
 
 ## Feito
 
-1. **Reorganização da secção 20.** Transporte de emergência em 7.4 e 7.4.1; opinião dos utentes em 19.2.19 a 19.2.19.2; remissões retiradas; serviços numa grelha, de 20.1 a 20.14. Correspondência em `correspondencia-codigos.md`.
+1. **Reorganização dos serviços gerais (agora secção 21).** Transporte de emergência em 8.4 e 8.4.1; opinião dos utentes em 20.2.19 a 20.2.19.2; remissões retiradas; serviços numa grelha, de 21.1 a 21.14. Correspondência em `correspondencia-codigos.md`.
+2. **Sistema de referência.** Nova secção 4 (4.1 a 4.6), a partir dos antigos 3.4 a 3.9; as secções 4 a 20 passaram a 5 a 21.
 
 ## A fazer
 
 | N.º | Ponto | Pedido | Como | Falta decidir |
 |---|---|---|---|---|
-| 2 | **Sistema de referência** (3.4 a 3.9) | Criar, em secção nova | Escrever perguntas e opções; 3.9 precisa de perguntar pelas 24 horas, que 7.4 e 7.4.1 não medem | Lugar da secção nova no formulário |
-| 3 | **Armazenamento e gestão de stocks** (13.32) | Criar, na secção 13 | Escrever a partir do inventário do HHFA; quesitos observados só com 1.4 = 1; actualizar o gerador `farmacia2.py` | Nada, à partida |
-| 4 | **Cuidados à criança** (15.2, 15.2.1 e 15.2.2) | Mudar de lugar | Mudar também a porta 15.2; renumerar; corrigir referências | Destino: secção 10 ou outro lugar |
-| 5 | **Cadeia de frio** (15.1.4) | Perceber porque está parqueada | Ver o motivo na resposta de 3 de Novembro | Se entra nesta ronda, só nas unidades com observação |
-| 6 | **Arquivo e reporte; comité de gestão** (19.2.1 + 19.2.10 e 19.2.2 + 19.2.6) | Definir | Rever em conjunto os cerca de 18 campos e definir os cerca de 8 indicadores da área 4.5 ainda por identificar | Conteúdo |
-| 7 | **Manutenção** (20.6, antes 20.8) | Definir em conjunto | Equipamento na secção 9; infraestrutura na secção 4 | Entra já ou fica parqueado; só perguntas declaradas ou também observadas; aplicação a todas as unidades; âmbito da secção 9 |
+| 3 | **Armazenamento e gestão de stocks** (14.32) | Criar, na secção 14 | Escrever a partir do inventário do HHFA; quesitos observados só com 1.4 = 1; actualizar o gerador `farmacia2.py` | Nada, à partida |
+| 4 | **Cuidados à criança** (16.2, 16.2.1 e 16.2.2) | Mudar de lugar | Mudar também a porta 16.2; renumerar; corrigir referências | Destino: secção 11 ou outro lugar |
+| 5 | **Cadeia de frio** (16.1.4) | Perceber porque está parqueada | Ver o motivo na resposta de 3 de Novembro | Se entra nesta ronda, só nas unidades com observação |
+| 6 | **Arquivo e reporte; comité de gestão** (20.2.1 + 20.2.10 e 20.2.2 + 20.2.6) | Definir | Rever em conjunto os cerca de 18 campos e definir os cerca de 8 indicadores da área 4.5 do HHFA ainda por identificar | Conteúdo |
+| 7 | **Manutenção** (21.6) | Definir em conjunto | Equipamento na secção 10; infraestrutura na secção 5 | Entra já ou fica parqueado; só perguntas declaradas ou também observadas; aplicação a todas as unidades; âmbito da secção 10 |
 
 ## Correcção a fazer
 
-- Nota interna de 17 sobre a PEP: diz que o bloco de medicamentos está parqueado, mas ele já é a secção 13.
+- Nota interna de 18 sobre a PEP: diz que o bloco de medicamentos está parqueado, mas ele já é a secção 14.

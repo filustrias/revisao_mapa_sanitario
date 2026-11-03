@@ -27,7 +27,7 @@ Localização administrativa, designação e categoria da unidade sanitária, o 
 
 **Uso.** Identificação de cada unidade sanitária e a sua localização administrativa, que permitem estratificar todas as análises feitas pelo Mapa Sanitário — por província, município, comuna e bairro — e servem também para determinar o denominador de diversos indicadores apresentados adiante. Com o código do Mapa Sanitário, são a chave de ligação da unidade entre rondas e com as outras bases de dados do MINSA.
 
-**Função no formulário.** A província e o município (2.1 e 2.2) definem as áreas geográficas em que se somam as unidades, as camas (secção 8) e a população (3.1) para calcular as densidades por habitante.
+**Função no formulário.** A província e o município (2.1 e 2.2) definem as áreas geográficas em que se somam as unidades, as camas (secção 9) e a população (3.1) para calcular as densidades por habitante.
 
 </details>
 
