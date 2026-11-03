@@ -25,7 +25,18 @@ Serviços gerais da unidade, como o transporte de emergência, a cozinha, a lava
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Unidades com acesso a veículo para o transporte de emergência de doentes — ambulância ou outro veículo, na unidade ou chamado de outro local. Cruzado com as distâncias da secção 3, mostra onde a evacuação obstétrica não é exequível em tempo útil.
+**Indicadores.**
+
+- Percentagem de unidades sanitárias com acesso a veículo em condições de funcionamento para o transporte de emergência de doentes — ambulância ou outro veículo, na unidade ou chamado de outro local.
+- Percentagem de unidades sanitárias com acesso a ambulância.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1 ou 2 em 20.1 (qualquer veículo); unidades com resposta 1 (ambulância).
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província e zona (2.11).
+
+**Função no formulário.** Porta de 20.1.1: as unidades com resposta 1 ou 2 respondem à disponibilidade do veículo hoje; as unidades com resposta 3 (Não) passam a 20.2 e contam como unidades sem transporte de emergência. Lida com a distância e o tempo até à unidade de referência (3.2.5, 3.2.8 e 3.2.9), mostra onde a evacuação, em especial a obstétrica, não é exequível em tempo útil.
 
 </details>
 
@@ -64,7 +75,19 @@ O enunciado inclui expressamente o veículo **chamado de outro local**, porque �
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Unidades com sistema de transporte de emergência para doentes — veículo em condições de funcionamento, com combustível e motorista, disponível hoje. Regra de cálculo: conta a unidade com 20.1 igual a 1 ou 2 e 20.1.1 igual a 1.
+**Indicadores.**
+
+- Percentagem de unidades sanitárias com sistema de transporte de emergência para doentes — veículo em condições de funcionamento, com combustível e motorista, disponível no dia da visita.
+- Percentagem de unidades que fazem partos com transporte de emergência disponível.
+- Proporção das unidades com acesso a veículo de emergência em que o veículo está disponível no dia da visita.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1 ou 2 em 20.1 e resposta 1 em 20.1.1 (para os três indicadores).
+- **Denominador:** todas as unidades sanitárias inquiridas (primeiro indicador); unidades com resposta 1 em 16.2 (partos); unidades com resposta 1 ou 2 em 20.1 (proporção).
+- **Desagregação:** categoria da unidade (2.6), província e zona (2.11).
+
+A diferença entre 20.1 e 20.1.1 mostra quantas unidades têm acesso declarado a um veículo que, na prática, não está pronto a sair.
 
 </details>
 
@@ -107,7 +130,19 @@ Esse veículo está disponível hoje, em condições de funcionamento, com combu
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Que serviços gerais de apoio existem em cada unidade sanitária e quais estiveram de facto a funcionar nos últimos 3 meses. Os sete serviços sem equivalente internacional — segurança, salão de actos, biblioteca, capela, parqueamento, ajardinamento e videovigilância — são medida própria do Mapa Sanitário.
+**Indicadores.** Para cada serviço geral da grelha (20.2 a 20.18):
+
+- Percentagem de unidades sanitárias em que o serviço existe.
+- Percentagem de unidades sanitárias em que existe e funcionou nos últimos 3 meses.
+- Proporção dos serviços existentes que funcionaram nos últimos 3 meses.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1 ou 2 na linha (existe); unidades com resposta 1 (existe e funcionou). Para o serviço de limpeza, higiene e lavandaria, resposta 1 ou 2 em 20.4 ou em 20.6.
+- **Denominador:** todas as unidades sanitárias inquiridas; para a proporção dos que funcionaram, unidades com resposta 1 ou 2 na linha.
+- **Desagregação:** categoria da unidade (2.6).
+
+**Função no formulário.** A linha 20.5.1 (morgue) condiciona 20.5.2: resposta 3 (não existe) obriga a 97 nas gavetas. A linha 20.18 (gabinete do utente) lê-se com 20.18.1 e 20.18.2, que medem se a opinião dos utentes é de facto recolhida e analisada.
 
 </details>
 
@@ -153,7 +188,18 @@ Mesma razão de 19.2: a escala de três níveis distingue o serviço que existe 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Capacidade da morgue de cada unidade sanitária, em número de gavetas. O código 97 separa a unidade sem morgue da unidade com morgue e sem gavetas. Verificação a programar: se 20.5.1 for 3, 20.5.2 tem de ser 97.
+**Indicadores.**
+
+- Número de gavetas mortuárias, por município e por província.
+- Média de gavetas mortuárias por unidade sanitária com morgue.
+
+<!-- -->
+
+- **Numerador:** soma das respostas a 20.5.2, excluído o código 97.
+- **Denominador:** para a média, unidades com morgue (resposta 1 ou 2 na linha 20.5.1), excluídas as que respondem 97 em 20.5.2.
+- **Desagregação:** categoria da unidade (2.6), município e província.
+
+**Função no formulário.** Verificação de coerência com 20.5.1: se 20.5.1 for 3, 20.5.2 tem de ser 97; uma morgue existente pode ter 0 gavetas.
 
 </details>
 
@@ -180,7 +226,13 @@ Quantas gavetas mortuárias tem a morgue desta unidade sanitária?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Unidades com procedimento de rotina para recolher ou reportar a opinião dos utentes. Só o procedimento observado entra no cálculo; «referido, não visto» não conta.
+**Indicador.** Percentagem de unidades sanitárias com procedimento de rotina para recolher ou reportar a opinião dos utentes, verificado pelo inquiridor.
+
+- **Numerador:** unidades com resposta 1 (Sim, observado) em 20.18.1. A resposta 2 (referido, não visto) não conta.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6).
+
+**Função no formulário.** Porta de 20.18.2: as unidades com resposta 1 ou 2 respondem à frequência da análise; as unidades com resposta 3 (Não) não a fazem. A resposta 1 é condição do indicador de 20.18.2.
 
 </details>
 
@@ -222,7 +274,10 @@ O Gabinete do Utente existe na Ficha como caixa e passa a ter o seu conteúdo me
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Unidades com sistema de análise da opinião dos utentes pelo menos a cada 3 meses. Regra de cálculo: conta a unidade com 20.18.1 igual a 1 e 20.18.2 igual a 1 ou 2.
+**Indicador.** Percentagem de unidades sanitárias com sistema de análise da opinião dos utentes pelo menos a cada 3 meses.
+
+- **Numerador:** unidades com resposta 1 em 20.18.1 e resposta 1 ou 2 em 20.18.2.
+- **Denominador:** todas as unidades sanitárias inquiridas; as unidades sem procedimento observado contam como não tendo análise. Pode ler-se também entre as unidades com resposta 1 em 20.18.1.
 
 </details>
 
@@ -258,7 +313,7 @@ Com que frequência é analisada a opinião dos utentes?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Nada nesta secção: a comunicação é medida na secção 6 e o tratamento do lixo nos quesitos 5.5 e 5.6. As linhas ficam para mostrar onde a informação é recolhida.
+**Uso.** Linhas de remissão, sem campo a preencher nesta secção: a comunicação mede-se na secção 6 e o tratamento do lixo nos quesitos 5.5 e 5.6. Não geram indicador aqui; servem para mostrar onde a informação é recolhida.
 
 </details>
 
@@ -277,7 +332,15 @@ Nada nesta secção: a comunicação é medida na secção 6 e o tratamento do l
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Nesta ronda, nada além da linha de manutenção na lista de três níveis. O bloco parqueado mediria a manutenção de rotina dos sistemas de infraestrutura e a do equipamento médico, de esterilização e de laboratório. Com a manutenção de veículos de 7.3, completaria a medição da manutenção.
+**Uso.** Bloco parqueado: nesta ronda não produz indicador próprio. A linha 20.8 da lista de três níveis dá apenas a existência e o funcionamento do serviço de manutenção.
+
+**Indicadores previstos, se o bloco entrar nesta ronda.**
+
+- Percentagem de unidades com manutenção de algum sistema de infraestrutura segundo um plano, e, para cada um de 9 sistemas (electricidade, água, saneamento, incinerador, ventilação ou ar condicionado, oxigénio central, comunicações, extintores, computadores), percentagem de unidades com manutenção de rotina desse sistema.
+- Percentagem de unidades com manutenção de rotina de algum equipamento médico, de esterilização ou de laboratório segundo um plano, e, para cada um de 11 equipamentos, percentagem de unidades com manutenção de rotina desse equipamento.
+- Percentagem de unidades com sistema de rotina de inspecção, manutenção e substituição do pequeno equipamento médico.
+
+Com a manutenção de veículos de 7.3, completaria a medição da manutenção.
 
 </details>
 

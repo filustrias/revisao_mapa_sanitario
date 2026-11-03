@@ -369,7 +369,21 @@ O que esta secção permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>População da área de abrangência directa de cada unidade. É o denominador dos indicadores de densidade — unidades sanitárias, camas e pessoal por habitante. A população de cada nó da rede passa a calcular-se a partir da árvore de referência — a própria mais a das unidades que lhe referem doentes —, sem contar ninguém duas vezes.</p>
+<p><strong>Indicadores.</strong> A resposta é o denominador das densidades por habitante:</p>
+<ul>
+<li>Número de unidades sanitárias por 10 000 habitantes — numerador: unidades inquiridas da área.</li>
+<li>Número de unidades de cuidados primários por 10 000 habitantes — numerador: unidades da área com resposta 1 a 5 em 2.6.</li>
+<li>Número de camas de internamento por 10 000 habitantes — numerador: soma das camas de internamento de adulto da área (8.2).</li>
+<li>Número de camas de maternidade por 1 000 grávidas — numerador: soma das camas de maternidade da área (linha 8.2.7); denominador: grávidas esperadas na área, estimadas a partir da população de 3.1.</li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Numerador:</strong> o de cada indicador, somado por área geográfica.</li>
+<li><strong>Denominador:</strong> população da área geográfica — soma de 3.1 de todas as unidades da área, cada uma com a população da sua área de abrangência directa, sem duplicações. O código 999998 (sem estimativa) não entra na soma como valor; as áreas com unidades nesse caso ficam assinaladas como tendo denominador incompleto.</li>
+<li><strong>Desagregação:</strong> província, município e zona (2.11).</li>
+</ul>
+<p>Os mesmos quocientes, divididos pelas metas de referência — 2 unidades e 25 camas por 10 000 habitantes, 10 camas de maternidade por 1 000 grávidas —, dão os índices de densidade de unidades, de camas de internamento e de camas de maternidade.</p>
+<p><strong>Função no formulário.</strong> Define o denominador populacional de todos os indicadores de densidade do formulário (unidades, 2.6; camas, secção 8) e, quando o pessoal da unidade for recolhido, das densidades de profissionais por habitante. A população de cada nó da rede de referência obtém-se somando à sua a das unidades que lhe referem doentes (árvore de 3.2.3).</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -579,7 +593,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Origem de cada estimativa da população. Permite decidir, na análise, que estimativas usar.</p>
+<p><strong>Indicador.</strong> Distribuição percentual das unidades sanitárias pela origem da estimativa da população.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com cada opção em 3.1.1 (1 a 5, 96 e 98).</li>
+<li><strong>Denominador:</strong> unidades com estimativa em 3.1 (resposta diferente de 999998).</li>
+</ul>
+<p><strong>Função no formulário.</strong> Qualifica o denominador de 3.1: permite escolher, na análise, que estimativas usar e comparar densidades só entre unidades com população da mesma origem.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -618,7 +637,7 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Ano de cada estimativa da população. Permite corrigir por crescimento populacional quando se comparam edições.</p>
+<p><strong>Uso.</strong> Qualifica o denominador de 3.1. Com o ano da estimativa, a população pode ser actualizada por crescimento demográfico até ao ano da recolha (1.1.3), para que as densidades sejam comparáveis entre unidades e entre edições. A diferença entre o ano da recolha e 3.1.2 dá a antiguidade de cada estimativa.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -642,7 +661,8 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Total de controlo da árvore de referência. Confrontado com o número de unidades que indicam esta como unidade de referência superior, mostra se faltam fichas e em que município procurar.</p>
+<p><strong>Uso.</strong> Controlo de qualidade da árvore de referência.</p>
+<p><strong>Função no formulário.</strong> Total de controlo: para cada unidade, compara-se 3.1.3 com o número de fichas que a indicam como referência superior (código em 3.2.3). Uma diferença assinala fichas em falta ou referências mal identificadas, e o município onde procurar.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -672,7 +692,8 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>A unidade para onde cada unidade transfere os doentes que precisam de cuidados de nível superior. Com a categoria (3.2.2) e o código (3.2.3), reconstrói-se a árvore de referência nacional — e com ela, por exemplo, a proporção de postos cujo centro de referência tem laboratório ou assiste partos.</p>
+<p><strong>Uso.</strong> Identifica, para cada unidade, a sua unidade de referência superior — uma só, de preenchimento obrigatório.</p>
+<p><strong>Função no formulário.</strong> Com a categoria (3.2.2) e o código (3.2.3), constrói a árvore de referência nacional, que permite ler, para cada unidade, os recursos da sua referência. Por exemplo, percentagem de postos de saúde cuja unidade de referência superior assiste partos: numerador, postos (2.6 = 1) cuja unidade indicada em 3.2.3 assiste partos (secção 16); denominador, todos os postos de saúde inquiridos. A árvore serve também para somar a população de cada nó (3.1).</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -699,7 +720,13 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>O nível da unidade para onde cada unidade transfere os doentes que precisam de cuidados de nível superior: permite ver, por exemplo, quantos postos referem directamente para um hospital e quantos para um centro de saúde de referência.</p>
+<p><strong>Indicador.</strong> Distribuição percentual das unidades sanitárias pela categoria da sua unidade de referência superior, por categoria da própria unidade.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com cada categoria (2 a 10) em 3.2.2.</li>
+<li><strong>Denominador:</strong> unidades da mesma categoria em 2.6 — todas as inquiridas, porque 3.2.1 é obrigatório.</li>
+<li><strong>Desagregação:</strong> categoria da própria unidade (2.6), província e município.</li>
+</ul>
+<p>Mostra, por exemplo, quantos postos de saúde referem directamente para um hospital (3.2.2 = 5 a 10) e quantos para um centro de saúde de referência (3.2.2 = 4).</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -733,7 +760,8 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Liga cada unidade à sua unidade de referência sem depender da grafia do nome, o que permite reconstruir a árvore de referência nacional a partir das fichas.</p>
+<p><strong>Uso.</strong> Chave de ligação: liga cada ficha à da sua unidade de referência superior pelo código do Mapa Sanitário, sem depender da grafia do nome.</p>
+<p><strong>Função no formulário.</strong> É por este código que se reconstrói a árvore de referência, se faz o total de controlo de 3.1.3, se soma a população de cada nó (3.1) e se lêem, para cada unidade, os serviços da sua referência. As unidades registadas «fora da lista» ficam fora da árvore até o código ser atribuído.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -757,7 +785,17 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>O meio de transporte de facto usado para transferir doentes para a referência superior. Lido em conjunto com a existência de sistema de transporte de emergência para doentes, recolhida nos serviços gerais, identifica as zonas sem evacuação exequível.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li>Percentagem de unidades sanitárias que transferem doentes para a referência superior sobretudo sem transporte sanitário — numerador: unidades com resposta 5 (transporte público ou particular pago pelo doente) ou 6 (a pé ou em maca) em 3.2.4.</li>
+<li>Distribuição percentual das unidades pelo meio de transporte mais usado nos últimos 12 meses — numerador: unidades com cada opção em 3.2.4.</li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
+<li><strong>Desagregação:</strong> categoria (2.6), município e zona (2.11).</li>
+</ul>
+<p>Lido com o acesso a transporte de emergência (20.1 e 20.1.1), identifica as zonas sem evacuação exequível.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -793,7 +831,23 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Distância de cada unidade à sua referência superior, pelo percurso habitual. Com 3.2.6 e 3.2.7, a parte do percurso em estrada asfaltada e em estrada de terra ou picada.</p>
+<p><strong>Indicadores.</strong> Com 3.2.6 e 3.2.7:</p>
+<ul>
+<li>Distância média, em quilómetros, das unidades sanitárias à sua referência superior, pelo percurso habitual.
+<ul>
+<li><strong>Numerador:</strong> soma de 3.2.5.</li>
+<li><strong>Denominador:</strong> unidades com distância registada em 3.2.5 (todas as inquiridas, porque 3.2.1 é obrigatório).</li>
+</ul></li>
+<li>Percentagem do percurso à referência superior feita em estrada de terra ou picada.
+<ul>
+<li><strong>Numerador:</strong> soma de 3.2.7.</li>
+<li><strong>Denominador:</strong> soma de 3.2.5.</li>
+</ul></li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Desagregação:</strong> categoria (2.6), município e zona (2.11).</li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -859,7 +913,23 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Tempo de cada unidade à sua referência superior, na época seca.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li>Tempo médio, em minutos, das unidades sanitárias à sua referência superior na época seca.
+<ul>
+<li><strong>Numerador:</strong> soma de 3.2.8, sem os códigos 997 e 998.</li>
+<li><strong>Denominador:</strong> unidades com tempo registado em 3.2.8 (excluídas as respostas 997 e 998).</li>
+</ul></li>
+<li>Percentagem de unidades cuja referência superior é intransitável na época seca.
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 997 em 3.2.8.</li>
+<li><strong>Denominador:</strong> unidades com resposta em 3.2.8 diferente de 998.</li>
+</ul></li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Desagregação:</strong> categoria (2.6), município e zona (2.11).</li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -882,7 +952,29 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Tempo de cada unidade à sua referência superior, na época das chuvas, e as referências que nessa época se tornam intransitáveis.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li>Tempo médio, em minutos, das unidades sanitárias à sua referência superior na época das chuvas.
+<ul>
+<li><strong>Numerador:</strong> soma de 3.2.9, sem os códigos 997 e 998.</li>
+<li><strong>Denominador:</strong> unidades com tempo registado em 3.2.9 (excluídas as respostas 997 e 998).</li>
+</ul></li>
+<li>Percentagem de unidades cuja referência superior fica intransitável na época das chuvas.
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 997 em 3.2.9.</li>
+<li><strong>Denominador:</strong> unidades com resposta em 3.2.9 diferente de 998.</li>
+</ul></li>
+<li>Aumento médio do tempo de viagem na época das chuvas.
+<ul>
+<li><strong>Numerador:</strong> soma de (3.2.9 − 3.2.8).</li>
+<li><strong>Denominador:</strong> unidades com tempo registado nas duas épocas.</li>
+</ul></li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Desagregação:</strong> município, província e zona (2.11).</li>
+</ul>
+<p>Mostra as unidades cuja referência deixa de ser exequível ou se torna muito mais demorada numa parte do ano.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -908,7 +1000,17 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Para que grupos de doentes cada unidade usa uma referência diferente da superior. Permite mapear a rede obstétrica separadamente da rede geral.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li>Percentagem de unidades sanitárias com referência lateral para algum grupo de doentes — numerador: unidades com resposta diferente de 0 em 3.3.1.</li>
+<li>Para cada grupo de doentes (obstetrícia e maternidade, pediatria, cirurgia, saúde mental, tuberculose): percentagem de unidades que referem esse grupo para uma unidade diferente da referência superior — numerador: unidades com o código do grupo em 3.3.1.</li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
+<li><strong>Desagregação:</strong> categoria (2.6) e município.</li>
+</ul>
+<p><strong>Função no formulário.</strong> Porta da referência lateral. As unidades com resposta diferente de 0 formam o denominador de 3.3.2 a 3.3.6; as unidades com «Não» (0) saltam para a secção 4 e não entram nesses denominadores. O grupo indicado aqui é também a variável de desagregação de 3.3.3 a 3.3.6; o código 1 isola a rede obstétrica.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -946,7 +1048,8 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Para onde cada unidade envia o grupo de doentes indicado em 3.3.1 — por exemplo, as grávidas enviadas a um centro materno-infantil. Com a categoria (3.3.3) e o código (3.3.4), a rede obstétrica pode ser mapeada separadamente da rede geral.</p>
+<p><strong>Uso.</strong> Identifica a unidade de referência lateral do grupo de doentes indicado em 3.3.1 (o grupo com mais doentes, se forem vários). Aplica-se às unidades com resposta diferente de 0 em 3.3.1.</p>
+<p><strong>Função no formulário.</strong> Com a categoria (3.3.3) e o código (3.3.4), constrói a rede de referência lateral; com 3.3.1 = 1, a rede obstétrica, mapeada separadamente da rede geral.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -970,7 +1073,13 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>O nível da unidade para onde cada unidade envia o grupo de doentes indicado em 3.3.1: permite ver, por exemplo, quantos postos referem directamente para um hospital e quantos para um centro de saúde de referência.</p>
+<p><strong>Indicador.</strong> Distribuição percentual das unidades com referência lateral pela categoria da unidade de destino, por grupo de doentes.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com cada categoria (2 a 10) em 3.3.3.</li>
+<li><strong>Denominador:</strong> unidades com resposta diferente de 0 em 3.3.1.</li>
+<li><strong>Desagregação:</strong> grupo de doentes (3.3.1) e categoria da própria unidade (2.6).</li>
+</ul>
+<p>Mostra, por exemplo, quantas unidades enviam as grávidas a um centro materno-infantil (3.3.3 = 3) e quantas a um hospital (3.3.3 = 5 a 10).</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1004,7 +1113,8 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Liga cada unidade à sua unidade de referência sem depender da grafia do nome, o que permite reconstruir a árvore de referência nacional a partir das fichas.</p>
+<p><strong>Uso.</strong> Chave de ligação: liga cada ficha à da sua unidade de referência lateral pelo código do Mapa Sanitário, sem depender da grafia do nome. Aplica-se às unidades com resposta diferente de 0 em 3.3.1.</p>
+<p><strong>Função no formulário.</strong> Permite ler, para cada unidade, os serviços da sua referência lateral — por exemplo, se a unidade que recebe as grávidas (3.3.1 = 1) assiste partos (secção 16).</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1028,7 +1138,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>A que distância está a referência lateral de cada unidade.</p>
+<p><strong>Indicador.</strong> Distância média, em quilómetros, das unidades sanitárias à sua referência lateral, por grupo de doentes.</p>
+<ul>
+<li><strong>Numerador:</strong> soma de 3.3.5, sem os códigos 997 e 998.</li>
+<li><strong>Denominador:</strong> unidades com resposta diferente de 0 em 3.3.1 e distância registada em 3.3.5 (excluídas as respostas 997 e 998).</li>
+<li><strong>Desagregação:</strong> grupo de doentes (3.3.1), com destaque para obstetrícia e maternidade (código 1).</li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1054,7 +1169,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Em quanto tempo se chega à referência lateral de cada unidade, na época seca.</p>
+<p><strong>Indicador.</strong> Tempo médio, em minutos, das unidades sanitárias à sua referência lateral na época seca, por grupo de doentes.</p>
+<ul>
+<li><strong>Numerador:</strong> soma de 3.3.6, sem os códigos 997 e 998.</li>
+<li><strong>Denominador:</strong> unidades com resposta diferente de 0 em 3.3.1 e tempo registado em 3.3.6 (excluídas as respostas 997 e 998).</li>
+<li><strong>Desagregação:</strong> grupo de doentes (3.3.1), com destaque para obstetrícia e maternidade (código 1).</li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1077,7 +1197,20 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se o sistema de referência funciona, e não apenas para onde se refere: se existe sistema estabelecido, normas escritas de referência e de contrarreferência, registo dos doentes referidos e informação de retorno. Nas normas e no registo, conta apenas o documento observado.</p>
+<p><strong>Indicadores</strong>, se o bloco entrar:</p>
+<ul>
+<li>Percentagem de unidades sanitárias com sistema estabelecido para referir doentes a outras unidades — numerador: resposta afirmativa em 3.4.</li>
+<li>Percentagem de unidades com normas escritas de referência — numerador: documento observado em 3.5.</li>
+<li>Percentagem de unidades com normas escritas de contrarreferência — numerador: documento observado em 3.6.</li>
+<li>Percentagem de unidades com registo das referências feitas — numerador: registo observado em 3.7.</li>
+<li>Percentagem de unidades que recebem habitualmente informação de retorno sobre os doentes referidos — numerador: resposta afirmativa em 3.8.</li>
+<li>Percentagem de unidades com acesso 24 horas a viatura em condições de funcionamento e a motorista para transporte de doentes — numerador: resposta afirmativa em 3.9, obtida também de 20.1 e 20.1.1.</li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas; em 3.5 a 3.7, que pedem para ver o documento, as unidades visitadas com observação (1.4 = 1).</li>
+<li><strong>Desagregação:</strong> categoria (2.6) e província.</li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>

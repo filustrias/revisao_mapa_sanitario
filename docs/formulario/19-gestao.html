@@ -338,7 +338,13 @@ O que esta secção permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Distribuição das unidades sanitárias por tipo de proprietário, e leitura de todos os indicadores por essa via. A proposta separa a rede confessional das organizações não governamentais e dá lugar às instituições públicas que não pertencem ao Serviço Nacional de Saúde.</p>
+<p><strong>Indicador.</strong> Distribuição percentual das unidades sanitárias por tipo de proprietário.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com cada opção de resposta em 19.1.1 (1 a 6 e 96).</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
+<li><strong>Desagregação:</strong> categoria da unidade (2.6) e província.</li>
+</ul>
+<p><strong>Função no formulário.</strong> Variável de desagregação de todos os indicadores do formulário: permite ler cada um separadamente para a rede do Serviço Nacional de Saúde, para a rede pública fora dele, para a rede confessional, para as organizações não governamentais e para o sector privado lucrativo.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -377,7 +383,13 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Distribuição das unidades sanitárias pelo nível que as gere — Ministério, Direcção Provincial ou Administração Municipal —, e leitura de todos os indicadores por essa via. Saber que nível administra cada unidade é condição para ligar a unidade ao orçamento que a financia.</p>
+<p><strong>Indicador.</strong> Distribuição percentual das unidades sanitárias pela entidade responsável pela gestão corrente.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com cada opção de resposta em 19.1.2 (1 a 5 e 96).</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
+<li><strong>Desagregação:</strong> categoria da unidade (2.6) e província.</li>
+</ul>
+<p><strong>Função no formulário.</strong> Variável de desagregação de todos os indicadores, em particular para separar a rede gerida pelo nível provincial da gerida pelo nível municipal. Lida com 19.1.1, mostra as unidades em que a gestão não coincide com a propriedade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -463,7 +475,20 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Que serviços e órgãos de gestão existem em cada unidade sanitária e quais estiveram de facto a funcionar nos últimos 3 meses. A diferença entre «existe» e «funcionou» mostra onde o órgão existe no papel sem actividade.</p>
+<p><strong>Indicadores.</strong> Para cada serviço ou órgão da grelha (19.2.1 a 19.2.17):</p>
+<ul>
+<li>Percentagem de unidades sanitárias em que o serviço ou órgão existe.</li>
+<li>Percentagem de unidades sanitárias em que existe e funcionou nos últimos 3 meses.</li>
+<li>Proporção dos serviços ou órgãos existentes que funcionaram nos últimos 3 meses.</li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 ou 2 na linha (existe); unidades com resposta 1 (existe e funcionou).</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas; para a proporção dos que funcionaram, unidades com resposta 1 ou 2 na linha.</li>
+<li><strong>Desagregação:</strong> categoria da unidade (2.6), sobretudo para as comissões, que se esperam nos hospitais.</li>
+</ul>
+<p><strong>Função no formulário.</strong> As linhas 19.2.13 (comissão de infecções) e 19.2.14 (comissão de óbitos) lêem-se com os blocos de actividade correspondentes, 19.2.13.1–19.2.13.2 e 19.2.14.1–19.2.14.4: a actividade pode existir sem o órgão constituído, e o órgão sem actividade.</p>
+<p>A diferença entre «existe» e «funcionou» mostra onde o órgão existe no papel sem actividade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -698,7 +723,19 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se as unidades com internamento revêem formalmente os óbitos — qualquer óbito, os maternos, os neonatais e os ocorridos nas 24 horas seguintes a uma intervenção cirúrgica — e se fizeram de facto alguma revisão nos últimos 3 meses.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li>Para cada tipo de óbito da grelha: percentagem de unidades com internamento que fazem revisão formal desses óbitos — qualquer óbito (19.2.14.1), materno (19.2.14.2), neonatal (19.2.14.3), nas 24 horas seguintes a uma intervenção cirúrgica (19.2.14.4).</li>
+<li>Percentagem de unidades com internamento que realizaram alguma revisão formal de óbito nos últimos 3 meses.</li>
+<li>Para cada tipo de óbito: percentagem de unidades com internamento que realizaram revisão desse tipo de óbito nos últimos 3 meses.</li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Numerador:</strong> por tipo, unidades com coluna A = 1 na linha; para a revisão recente, unidades com coluna B = 1 em qualquer linha; por tipo, coluna B = 1 na linha.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 8.1 (internamento). Para a linha 19.2.14.4, unidades com resposta 1 em 8.1 e grande cirurgia (resposta 1, 2 ou 3 em 10.29.2).</li>
+<li><strong>Desagregação:</strong> categoria da unidade (2.6).</li>
+</ul>
+<p><strong>Função no formulário.</strong> O bloco só se faz nas unidades com «Sim» em 8.1. A resposta 3 (não houve óbito desse tipo) deixa a coluna B em branco; quando a linha 19.2.14.1 é 3, as restantes linhas ficam por preencher e contam como «não houve».</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -820,7 +857,19 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Unidades com comissão técnica de prevenção e controlo de infecções, unidades com reuniões multidisciplinares que analisam os resultados de prevenção e controlo de infecções, e há quanto tempo foi a reunião mais recente. O denominador é o conjunto de todas as unidades, por isso o bloco é feito a todas.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li>Percentagem de unidades sanitárias com comissão técnica de prevenção e controlo de infecções.</li>
+<li>Percentagem de unidades sanitárias com reuniões multidisciplinares em que se analisam os resultados de prevenção e controlo de infecções.</li>
+<li>Percentagem de unidades sanitárias com reunião de análise da prevenção e controlo de infecções nos últimos 6 meses.</li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Numerador:</strong> unidades com coluna A = 1 em 19.2.13.1 (comissão); com coluna A = 1 em 19.2.13.2 (reuniões); com coluna B = 1, 2 ou 3 em qualquer das duas linhas (reunião nos últimos 6 meses).</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — o bloco é feito a todas.</li>
+<li><strong>Desagregação:</strong> categoria da unidade (2.6).</li>
+</ul>
+<p><strong>Função no formulário.</strong> A coluna B só se pergunta nas linhas com A = 1; as unidades sem comissão e sem reuniões contam como não tendo reunião recente.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -911,7 +960,13 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se cada unidade sanitária tem actividades de rotina de garantia de qualidade. É a porta do bloco 19.2.18.1 a 19.2.18.9: a actividade, não a comissão. O denominador é o conjunto de todas as unidades.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades sanitárias que realizam rotineiramente actividades de garantia de qualidade em alguma área de serviço.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 (Sim) em 19.2.18.1.</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
+<li><strong>Desagregação:</strong> categoria da unidade (2.6) e província.</li>
+</ul>
+<p><strong>Função no formulário.</strong> Porta do bloco da garantia de qualidade. As unidades com «Sim» formam o denominador de 19.2.18.2 a 19.2.18.9 (âmbito, comissão, documentação, ponto focal, formação e apoio externo). As unidades com «Não» terminam o bloco e não entram nesses denominadores; quando algum desses indicadores se exprime sobre toda a rede, contam como unidades que não têm o elemento medido.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -964,7 +1019,17 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se as actividades de garantia de qualidade abrangem toda a unidade ou apenas alguns serviços — e, neste caso, quais.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li>Percentagem de unidades com actividades de garantia de qualidade aplicadas em toda a unidade.</li>
+<li>Percentagem de unidades com actividades de garantia de qualidade apenas em serviços específicos.</li>
+<li>Para cada serviço da grelha (19.2.18.2.2 a 19.2.18.2.10): percentagem de unidades com actividades de garantia de qualidade que as aplicam nesse serviço.</li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 em 19.2.18.2.1 (toda a unidade); com resposta 2 em 19.2.18.2.1 e resposta 1 em pelo menos uma das linhas 19.2.18.2.2 a 19.2.18.2.10 (serviços específicos); por serviço, resposta 1 na linha do serviço ou resposta 1 em 19.2.18.2.1.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 19.2.18.1.</li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1103,7 +1168,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se a unidade sanitária tem uma comissão de garantia de qualidade.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades com actividades de garantia de qualidade que têm comissão de garantia de qualidade.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 (Sim) em 19.2.18.3.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 19.2.18.1.</li>
+</ul>
+<p><strong>Função no formulário.</strong> As unidades com «Sim» formam o denominador da frequência das reuniões (19.2.18.4) e da reunião mais recente (19.2.18.5). As unidades com «Não» passam a 19.2.18.6.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1153,7 +1223,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Com que periodicidade se reúne a comissão de garantia de qualidade.</p>
+<p><strong>Indicador.</strong> Percentagem de comissões de garantia de qualidade que se reúnem pelo menos a cada 3 meses.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 ou 2 em 19.2.18.4. A distribuição completa das opções 1 a 4 mostra a periodicidade das reuniões.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 19.2.18.3.</li>
+</ul>
+<p><strong>Função no formulário.</strong> Lê-se com 19.2.18.5: uma comissão declarada como mensal cuja reunião mais recente foi há mais de 6 meses é uma inconsistência a verificar.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1183,7 +1258,16 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se a comissão de garantia de qualidade se reuniu nos últimos 3 meses.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li>Percentagem de unidades com actividades de garantia de qualidade cuja comissão de garantia de qualidade se reuniu nos últimos 3 meses.</li>
+<li>Proporção das comissões de garantia de qualidade que se reuniram nos últimos 3 meses.</li>
+</ul>
+<!-- -->
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 em 19.2.18.3 e resposta 1 ou 2 em 19.2.18.5.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 19.2.18.1 (primeiro indicador); unidades com resposta 1 em 19.2.18.3 (proporção das comissões).</li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1236,7 +1320,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se existe documentação que mostre que a informação de garantia de qualidade é analisada.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades com actividades de garantia de qualidade em que existe documentação, verificada pelo inquiridor, de que a informação de garantia de qualidade é analisada.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 (Sim, observado) em 19.2.18.6. Somando a resposta 2 obtém-se a existência declarada.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 19.2.18.1.</li>
+</ul>
+<p>A diferença entre a documentação observada e a apenas referida separa o sistema que funciona do sistema declarado.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1290,7 +1379,11 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se a unidade sanitária tem um ponto focal para melhoria da qualidade e segurança do doente.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades com actividades de garantia de qualidade que têm ponto focal para a melhoria da qualidade e a segurança do doente.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 (Sim) em 19.2.18.7.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 19.2.18.1.</li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1337,7 +1430,11 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se algum profissional da unidade recebeu formação em melhoria da qualidade ou em segurança do doente nos últimos 2 anos.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades com actividades de garantia de qualidade em que algum profissional recebeu formação em melhoria da qualidade ou segurança do doente nos últimos 2 anos.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 (Sim) em 19.2.18.8.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 19.2.18.1.</li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1384,7 +1481,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se a unidade sanitária recebe apoio de parceiros externos para garantia ou melhoria da qualidade.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades com actividades de garantia de qualidade que recebem apoio de parceiros externos para a garantia ou melhoria da qualidade.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 (Sim) em 19.2.18.9.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 19.2.18.1.</li>
+<li><strong>Desagregação:</strong> província.</li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1435,7 +1537,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Nesta ronda, nada além do que já dá a lista de três níveis. Os dois blocos parqueados mediriam: a cadeia de arquivo, registo e reporte de dados; e a equipa de gestão — equipa ou comissão de gestão que se reuniu nos últimos 3 meses, sistema de rotina de participação da comunidade nas decisões de gestão, plano operacional escrito e referência ao plano nas reuniões.</p>
+<p><strong>Uso.</strong> Bloco parqueado: nesta ronda não produz indicador próprio. As linhas 19.2.1, 19.2.2, 19.2.6 e 19.2.10 da lista de três níveis dão apenas a existência e o funcionamento desses serviços.</p>
+<p><strong>Indicadores previstos, se os blocos entrarem nesta ronda.</strong></p>
+<ul>
+<li>Equipa de gestão: percentagem de unidades com equipa ou comissão de gestão que se reuniu nos últimos 3 meses; com sistema de rotina de participação da comunidade nas decisões de gestão; com plano operacional escrito; em que as reuniões de gestão se referem ao plano operacional.</li>
+<li>Cadeia de arquivo e reporte: percentagem de unidades em que os relatórios de rotina são introduzidos num sistema electrónico; guardados num servidor da unidade; guardados num servidor externo.</li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>

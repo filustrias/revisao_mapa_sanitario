@@ -174,7 +174,7 @@ Qual foi a data da visita anterior a esta unidade sanitária?
 :::
 
 ::: {.nota .interno}
-**Para que serve.** Cruzada com 1.1, dá o intervalo entre visitas, e identifica as unidades que nunca foram visitadas. O Guião já prevê esta informação (folha 2).
+**Para que serve.** Com 1.1, dá o intervalo entre visitas, e identifica as unidades que nunca foram visitadas. O Guião já prevê esta informação (folha 2).
 
 **Verificação a programar.** Se 1.6.4 estiver marcada, 1.6.1 a 1.6.3 ficam vazias, e vice-versa.
 :::

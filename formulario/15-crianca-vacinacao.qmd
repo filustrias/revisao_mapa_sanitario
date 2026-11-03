@@ -25,9 +25,18 @@ Vacinação de rotina — periodicidade, vacinas administradas, rupturas de stoc
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que oferecem qualquer serviço de imunização. É a porta do bloco do PAV: quem responde «Não» ou «Não, apenas em campanhas» salta as grelhas da vacinação.
+**Indicadores.**
 
-A mesma caixa dá também o indicador correspondente na lista geral de serviços disponíveis.
+- Percentagem de unidades sanitárias que realizam vacinação de rotina com periodicidade fixa.
+  - **Numerador:** unidades com resposta 1 em 15.1.
+  - **Denominador:** todas as unidades sanitárias inquiridas.
+- Percentagem de unidades sanitárias que vacinam apenas em campanhas.
+  - **Numerador:** unidades com resposta 2 em 15.1.
+  - **Denominador:** todas as unidades sanitárias inquiridas.
+
+**Desagregação:** categoria da unidade (2.6), província, município e zona (2.11).
+
+**Função no formulário.** É a porta do bloco da vacinação. As unidades com resposta 1 formam o denominador dos indicadores de 15.1.1, 15.1.2, 15.1.3 (se incluída) e 15.1.5, e, na fase da observação, os de 15.1.4. As unidades com resposta 2 ou 3 saltam para 15.2 e não entram nesses denominadores.
 
 </details>
 
@@ -70,7 +79,15 @@ Esta unidade sanitária realiza vacinação de rotina, com periodicidade fixa, m
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que fazem vacinação infantil de rotina todos os dias, todas as semanas, ou todos os meses ou trimestres — três indicadores a partir de uma só pergunta. A opção 1 dá o indicador diário, a opção 2 o semanal, e as opções 3 e 4, juntas, o mensal ou trimestral.
+**Indicadores.** Três indicadores, mutuamente exclusivos, a partir de uma só pergunta:
+
+- Percentagem de unidades que vacinam que fazem vacinação infantil de rotina todos os dias de funcionamento — **numerador:** opção 1 em 15.1.1.
+- Percentagem de unidades que vacinam que a fazem semanalmente — **numerador:** opção 2.
+- Percentagem de unidades que vacinam que a fazem mensal ou trimestralmente — **numerador:** opção 3 ou 4.
+- **Denominador (comum):** unidades com resposta 1 em 15.1. As opções 5 e 98 ficam no denominador e fora dos três numeradores.
+- **Desagregação:** categoria da unidade (2.6) e zona (2.11).
+
+A distância entre vacinar todos os dias e vacinar uma vez por mês explica oportunidades perdidas de vacinação sem que falte nada na unidade.
 
 </details>
 
@@ -116,9 +133,16 @@ Uma caixa, três indicadores. Aproveita a instrução do Guião, que já manda a
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que administram cada vacina, antigénio a antigénio e por momento do calendário — dose ao nascer, lactente, criança, adolescente ou adulto. São 25 indicadores: 17, um por antigénio; 4 agregados por grupo de idade, calculados a partir da grelha; 3 na lista geral de serviços disponíveis; e 1 na saúde do adolescente (vacina contra o HPV).
+**Indicadores.**
 
-A linha 11 (reforços do calendário infantil) não tem indicador próprio e entra apenas no agregado da criança; a linha 19 (febre amarela) é medida própria do Mapa Sanitário. Ambas servem a leitura nacional.
+- Para cada vacina da grelha (linhas 15.1.2.1 a 15.1.2.19): percentagem de unidades que vacinam que administram habitualmente essa vacina.
+  - **Numerador:** unidades com coluna 1 na linha.
+- Por momento do calendário: percentagem de unidades que vacinam que administram pelo menos uma vacina do grupo — dose ao nascer (linhas 1 a 3), lactente (linhas 4 a 10), criança de 1 a 5 anos (linhas 11 e 12), adolescente ou adulto (linhas 13 a 18).
+  - **Numerador:** unidades com coluna 1 em pelo menos uma das linhas do grupo.
+- **Denominador (de todos):** unidades com resposta 1 em 15.1. A resposta 98 fica no denominador e fora do numerador.
+- **Desagregação:** categoria da unidade (2.6), província e município.
+
+A linha 19 (febre amarela) tem indicador próprio e não entra nos agregados por grupo de idade. O conjunto mostra que antigénio falta e onde.
 
 </details>
 
@@ -203,7 +227,13 @@ A **febre amarela** é acrescento próprio, por ser doença com transmissão em 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se a coluna for incluída: percentagem de unidades que tiveram ruptura de stock de cada vacina nos últimos 3 meses — 11 indicadores, um por vacina. Só entram na contagem da secção se a coluna for aprovada.
+Só se a coluna for incluída.
+
+**Indicadores.** Para cada uma das 11 vacinas da grelha: percentagem de unidades que vacinam que tiveram ruptura de stock dessa vacina em algum período dos últimos 3 meses.
+
+- **Numerador:** unidades com resposta 1 na linha da vacina.
+- **Denominador:** unidades com resposta 1 em 15.1. A resposta 98 fica no denominador e fora do numerador.
+- **Desagregação:** província e município, para localizar as falhas de abastecimento.
 
 </details>
 
@@ -268,7 +298,7 @@ Nos últimos 3 meses, houve algum período em que esta vacina não estivesse dis
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Nada nesta fase. Na fase da observação, a cadeia de frio alimentará a tabela de prontidão da imunização, em particular a caixa térmica ou porta-vacinas com acumuladores, o frigorífico funcional, o dispositivo de monitorização da temperatura e a temperatura mantida entre 2 e 8 °C, e ainda a manutenção de rotina dos frigoríficos.
+**Uso.** Nenhum indicador nesta fase: o quesito fica parqueado para a fase da observação. Nessa fase dará, entre as unidades com resposta 1 em 15.1, a percentagem com caixa térmica ou porta-vacinas com acumuladores, com frigorífico funcional, com dispositivo de monitorização da temperatura e com temperatura do frigorífico mantida entre 2 e 8 °C; e, entre todas as unidades, a percentagem com manutenção de rotina dos frigoríficos (bloco 20.8).
 
 </details>
 
@@ -297,7 +327,13 @@ Parqueada para a fase da observação. **Não é omissão, é fronteira de módu
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que identificam as crianças com doses de vacina em atraso e as procuram para completar o calendário, dentre as unidades que vacinam. Lido com 18.4.2, mostra se a procura conta com os ADECOS.
+**Indicador.** Percentagem de unidades que vacinam que registam as crianças com doses de vacina em atraso e as procuram activamente para completar o calendário.
+
+- **Numerador:** unidades com opção 1 em 15.1.5.
+- **Denominador:** unidades com resposta 1 em 15.1.
+- **Desagregação:** a opção 2 (registo da falta sem procura activa) lê-se à parte.
+
+**Função no formulário.** Lido com 18.4.2, mostra que parte desta procura passa pelos ADECOS.
 
 </details>
 
@@ -342,7 +378,13 @@ Quando uma criança tem uma dose de vacina em atraso, esta unidade sanitária id
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que prestam quaisquer cuidados preventivos ou curativos a crianças menores de 5 anos. É a porta da grelha dos cuidados à criança.
+**Indicador.** Percentagem de unidades sanitárias que prestam cuidados preventivos ou curativos a crianças menores de 5 anos.
+
+- **Numerador:** unidades com resposta 1 em 15.2.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província, município e zona (2.11).
+
+**Função no formulário.** É a porta dos cuidados à criança. As unidades com resposta 1 formam o denominador dos indicadores de 15.2.1 e 15.2.2. As unidades com resposta 2 saltam para 16.1 e não entram nesses denominadores.
 
 </details>
 
@@ -381,7 +423,16 @@ Esta unidade sanitária presta cuidados preventivos ou curativos a crianças men
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que prestam cada serviço à criança menor de 5 anos: crescimento, malnutrição nos seus três níveis de manejo, vitamina A, anemia, diarreia, malária, rede mosquiteira. A desparasitação de rotina (linha 7) é medida própria do Mapa Sanitário.
+**Indicadores.**
+
+- Para cada serviço da grelha (linhas 15.2.1.1 a 15.2.1.12): percentagem de unidades com cuidados à criança menor de 5 anos que prestam habitualmente esse serviço.
+  - **Numerador:** unidades com coluna 1 na linha.
+- Percentagem de unidades com cuidados à criança menor de 5 anos que fazem o diagnóstico da malária com teste de sangue e o tratamento de primeira linha.
+  - **Numerador:** unidades com coluna 1 nas linhas 15.2.1.10 e 15.2.1.11.
+- **Denominador (de todos):** unidades com resposta 1 em 15.2. A resposta 98 fica no denominador e fora do numerador.
+- **Desagregação:** categoria da unidade (2.6) e zona (2.11).
+
+As linhas 15.2.1.3 a 15.2.1.5 dão os três níveis de manejo da malnutrição — ambulatório da forma aguda grave, ambulatório da forma moderada e internamento da forma grave.
 
 </details>
 
@@ -439,7 +490,13 @@ O **albendazol** ganha linha própria: a desparasitação de rotina é contribut
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que identificam e procuram as crianças menores de 1 ano que faltam à consulta de puericultura, dentre as unidades que oferecem consulta de puericultura. Lido com 18.4.2, mostra se a procura conta com os ADECOS.
+**Indicador.** Percentagem de unidades com cuidados à criança menor de 5 anos que registam e procuram activamente as crianças menores de 1 ano que faltam à consulta de puericultura.
+
+- **Numerador:** unidades com opção 1 em 15.2.2.
+- **Denominador:** unidades com resposta 1 em 15.2.
+- **Desagregação:** a opção 2 (registo da falta sem procura activa) lê-se à parte.
+
+**Função no formulário.** Lido com 18.4.2, mostra que parte desta procura passa pelos ADECOS.
 
 </details>
 

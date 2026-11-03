@@ -23,7 +23,13 @@ Camas instaladas por serviço — enfermarias, cuidados intensivos e intermédio
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que oferecem algum serviço de internamento. É a resposta a esta pergunta — e não o tipo de unidade — que decide o percurso da secção, porque há postos de saúde com camas e centros de saúde sem internamento.
+**Indicador.** Percentagem de unidades sanitárias que oferecem algum serviço de internamento.
+
+- **Numerador:** unidades com resposta 1 em 8.1.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província, município e zona (2.11).
+
+**Função no formulário.** Define o universo das unidades com internamento. As unidades com resposta 1 preenchem toda a grelha 8.2; as unidades com resposta 0 preenchem apenas os grupos D (hospital de dia) e E (observação) e entram com zero nos totais de camas de internamento (grupos A a C). Para médias de camas por unidade com internamento, o denominador são as unidades com resposta 1 em 8.1. É esta resposta — e não a categoria da unidade — que decide o percurso, porque há postos de saúde com camas e centros de saúde sem internamento.
 
 </details>
 
@@ -64,7 +70,32 @@ Esta unidade sanitária tem internamento, isto é, doentes que pernoitam na unid
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de camas instaladas em cada unidade, por serviço e por tipo de cama — enfermarias, cuidados intensivos e intermédios por idade, isolamento, hospital de dia e observação. Cada cama conta uma só vez, pelo que os totais — camas de internamento de adulto, pediátricas e berços de recém-nascido — se obtêm somando as linhas. Cruzado com a população da área de abrangência (secção 3), dá as camas de internamento por 10 000 habitantes.
+**Indicadores.**
+
+- Número total de camas de internamento de adulto.
+  - **Numerador:** soma das linhas 8.2.1 a 8.2.7, 8.2.9, 8.2.11 a 8.2.13, 8.2.16 e 8.2.19.
+  - **Denominador:** não se aplica (soma em cada unidade e por município e província).
+- Densidade de camas hospitalares pela população coberta (camas de internamento por 10 000 habitantes).
+  - **Numerador:** a mesma soma das camas de adulto, agregada por município ou província.
+  - **Denominador:** população da área (soma das populações adstritas, 3.1) ÷ 10 000.
+- Número total de camas de internamento pediátricas.
+  - **Numerador:** soma das linhas 8.2.10, 8.2.14, 8.2.17 e 8.2.20.
+  - **Denominador:** não se aplica (soma).
+- Número total de berços neonatais.
+  - **Numerador:** soma das linhas 8.2.8, 8.2.15 e 8.2.18.
+  - **Denominador:** não se aplica (soma).
+- Número de camas de maternidade e número de camas de maternidade por 1 000 grávidas.
+  - **Numerador:** linha 8.2.7.
+  - **Denominador:** para a densidade, grávidas esperadas na área, estimadas a partir da população adstrita (3.1), ÷ 1 000.
+- Número de camas dedicadas por serviço.
+  - **Numerador:** cirurgia, soma de 8.2.4 a 8.2.6; psiquiatria, 8.2.11; cuidados intensivos de adultos, 8.2.13; pediátricos, 8.2.14; neonatais, 8.2.15; alta dependência de adultos, 8.2.16; isolamento, soma de 8.2.19 e 8.2.20; observação de urgência, 8.2.22.
+  - **Denominador:** não se aplica (soma).
+
+**Desagregação:** categoria da unidade (2.6), província e município.
+
+**Leitura.** A densidade de camas hospitalares pela população coberta será útil para o planeamento da expansão da rede hospitalar.
+
+**Função no formulário.** Como cada cama conta numa só linha, os totais obtêm-se somando linhas, sem contagens paralelas. O hospital de dia (8.2.21) e a observação (8.2.22 e 8.2.23) não entram nos totais de internamento. As linhas dos grupos A a C só são preenchidas pelas unidades com resposta 1 em 8.1. A soma das camas de adulto compara-se com as camas autorizadas (8.3).
 
 </details>
 
@@ -147,7 +178,15 @@ A observação e a curta estadia ficam na mesma grelha mas fora dos totais de in
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de camas de internamento de adulto autorizadas para a unidade no seu quadro oficial. Comparado com as camas de adulto contadas em 8.2, mostra a diferença entre o que está autorizado e o que está instalado.
+**Indicadores.**
+
+- Número de camas de internamento de adulto autorizadas no quadro oficial, por unidade e somado por município e província.
+  - **Numerador:** resposta a 8.3; ficam fora as unidades com 998.
+  - **Denominador:** não se aplica (contagem).
+- Diferença entre camas de adulto autorizadas e instaladas.
+  - **Cálculo:** 8.3 menos a soma das camas de adulto da grelha 8.2 (8.2.1 a 8.2.7, 8.2.9, 8.2.11 a 8.2.13, 8.2.16 e 8.2.19), em cada unidade com 8.3 diferente de 998.
+
+**Função no formulário.** Controla a grelha 8.2: assinala-se quando as camas de adulto instaladas excedem as autorizadas. A distância entre o autorizado e o instalado é informação de planeamento.
 
 </details>
 
@@ -178,7 +217,18 @@ Número inteiro (0–999) · **998** Não sabe
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de equipamentos de exame existentes e a funcionar em cada unidade. A verificação destes equipamentos em cada serviço — consulta pré-natal, parto, rastreio do cancro do colo do útero — faz-se nas secções 10 a 18.
+**Indicadores.**
+
+- Para cada equipamento da grelha: número existente e número a funcionar, por unidade e somados por município e província.
+  - **Numerador:** colunas «Número existente» e «Número a funcionar» da linha.
+  - **Denominador:** não se aplica (contagem).
+- Para cada equipamento da grelha: percentagem de unidades sanitárias com pelo menos um a funcionar.
+  - **Numerador:** unidades com «Número a funcionar» ≥ 1 na linha.
+  - **Denominador:** todas as unidades sanitárias inquiridas.
+
+**Desagregação:** categoria da unidade (2.6) e província.
+
+A presença e o funcionamento destes equipamentos na área de cada serviço — consulta pré-natal, parto, rastreio do cancro do colo do útero — verificam-se nas secções 10 a 18.
 
 </details>
 
@@ -214,7 +264,12 @@ Para cada um dos seguintes equipamentos, quantos existem nesta unidade sanitári
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de camas de internamento guardadas em armazém ou fora de uso — a capacidade latente de expansão de cada unidade.
+**Indicador.** Número de camas de internamento guardadas em armazém ou fora de uso, por unidade e somado por município e província.
+
+- **Numerador:** resposta a 8.5; ficam fora as unidades com 998.
+- **Denominador:** não se aplica (contagem).
+
+Mostra a capacidade latente de expansão de cada unidade. Estas camas não entram nos totais de 8.2.
 
 </details>
 
@@ -243,7 +298,7 @@ Número inteiro (0–999) · **998** Não sabe
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Outros recursos de estadia ou de exame relevantes na unidade que não tenham lugar nas perguntas anteriores.
+**Uso.** Campo aberto de designação e quantidade, para recursos de estadia ou de exame que não cabem nas perguntas anteriores. Não sustenta um indicador: serve para explicar valores atípicos na análise e para rever as listas de 8.2 e 8.4 em edições futuras.
 
 </details>
 

@@ -25,7 +25,9 @@ Localização administrativa, designação e categoria da unidade sanitária, o 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Identificação de cada unidade sanitária e a sua localização administrativa, que permitem estratificar todas as análises feitas pelo Mapa Sanitário.
+**Uso.** Identificação de cada unidade sanitária e a sua localização administrativa, que permitem estratificar todas as análises feitas pelo Mapa Sanitário — por província, município, comuna e bairro — e servem também para determinar o denominador de diversos indicadores apresentados adiante. Com o código do Mapa Sanitário, são a chave de ligação da unidade entre rondas e com as outras bases de dados do MINSA.
+
+**Função no formulário.** A província e o município (2.1 e 2.2) definem as áreas geográficas em que se somam as unidades, as camas (secção 8) e a população (3.1) para calcular as densidades por habitante.
 
 </details>
 
@@ -58,7 +60,13 @@ Uso na análise: identificador da unidade e estratificador por província, munic
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Permite ler todos os indicadores por nível de cuidados. É também a categoria que decide que unidades contam como de cuidados primários no indicador «Número de unidades de cuidados primários por 10 000 habitantes».
+**Indicador.** Número de unidades de cuidados primários por 10 000 habitantes.
+
+- **Numerador:** unidades com resposta 1 a 5 em 2.6 — posto de saúde, centro de saúde, centro materno-infantil, centro de saúde de referência e hospital municipal (nível primário, segundo o REGUSAP) —, somadas por área geográfica.
+- **Denominador:** população da área geográfica (soma de 3.1 das unidades da área); o quociente multiplica-se por 10 000.
+- **Desagregação:** província, município e zona (2.11).
+
+**Função no formulário.** É o estratificador principal da análise: todos os indicadores do formulário se leem por categoria da unidade. Não define saltos nem denominadores de outros quesitos.
 
 </details>
 
@@ -106,7 +114,7 @@ Categoria da unidade, segundo a classificação do Mapa Sanitário.
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Endereço de cada unidade sanitária, para a localizar no terreno e para a comunicação com a unidade.
+**Uso.** Localiza a unidade no terreno e serve à comunicação com ela. Com as coordenadas (2.8 e 2.9), servirá para os cálculos de cobertura populacional, de densidade de equipamentos médicos e de densidade de oferta de serviços por população coberta.
 
 </details>
 
@@ -139,7 +147,9 @@ Endereço completo da unidade sanitária: rua ou avenida, número, bairro e um p
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Localização exacta de cada unidade sanitária, base para calcular distâncias e o acesso geográfico. Os indicadores de densidade contam unidades e camas por habitante numa área geográfica; com a coordenada, cada unidade é atribuída à área certa e as densidades podem calcular-se para qualquer recorte do território, sempre com a população do quesito 3.1.
+**Uso.** Georreferenciam cada unidade sanitária e servirão para os cálculos de cobertura populacional, de densidade de equipamentos médicos e de densidade de oferta de serviços por população coberta, com a população de 3.1. Permitem também calcular distâncias e acesso geográfico para qualquer recorte do território, e não apenas para as divisões administrativas.
+
+**Função no formulário.** Só entram na análise espacial as leituras com precisão aceitável em 2.10.
 
 </details>
 
@@ -170,7 +180,9 @@ Indicador mais próximo: 1.1.1.1.1 — Número de unidades sanitárias por 10 00
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Precisão de cada leitura de coordenadas. Permite excluir da análise as leituras de má qualidade, em vez de as usar sem saber.
+**Uso.** Controlo de qualidade da georreferenciação: qualifica cada leitura de 2.8 e 2.9.
+
+**Função no formulário.** Filtra as coordenadas usadas na análise: as leituras com erro, em metros, acima do limiar fixado para a análise ficam fora dos cálculos de distância e de acesso geográfico, em vez de serem usadas sem se saber.
 
 </details>
 
@@ -203,7 +215,9 @@ Uma caixa que qualifica a leitura anterior. Uma coordenada com precisão de 4 me
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Classificação de cada unidade em zona urbana, rural ou periurbana. Permite desagregar por estas três zonas todos os indicadores do formulário.
+**Uso.** Estratificador: classifica cada unidade em zona urbana (1), rural (2) ou periurbana (3).
+
+**Função no formulário.** Variável de desagregação de todos os indicadores do formulário pelas três zonas. Não define saltos nem denominadores.
 
 </details>
 

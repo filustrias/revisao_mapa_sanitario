@@ -350,7 +350,26 @@ O que esta secção permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias que realizam, no momento da consulta, cada um dos testes rápidos da lista. Como o bloco não tem porta, é por aqui que um posto de saúde entra nos indicadores de diagnóstico.</p>
+<p><strong>Indicadores.</strong> Para cada teste rápido da grelha (12.C.0.1 a 12.C.0.11): percentagem de unidades sanitárias que realizam o teste no momento da consulta.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 na linha.</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
+<li><strong>Desagregação:</strong> categoria da unidade (2.6) e zona (2.11).</li>
+</ul>
+<p>Dois indicadores combinam esta grelha com outros quesitos:</p>
+<ul>
+<li><strong>Percentagem de unidades sanitárias com capacidade de diagnóstico da malária.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 em 12.C.0.8 (teste rápido) ou com opção 1 em 12.C.IV.5 (gota espessa).</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
+</ul></li>
+<li><strong>Percentagem de unidades sanitárias que oferecem testagem diagnóstica do VIH.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 em 12.C.0.1 ou com oferta de testagem do VIH em 17.1.</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
+</ul></li>
+</ul>
+<p><strong>Função no formulário.</strong> Bloco sem porta, feito a todas as unidades, antes da porta do laboratório (12.1): é por aqui que as unidades sem laboratório, incluindo os postos de saúde, entram nos indicadores de diagnóstico.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -539,7 +558,13 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias que realizam exames de laboratório, recolhem amostras para análise noutro local ou encaminham doentes para exames noutra unidade. É uma porta: não gera indicador por si, mas dá acesso aos quatro blocos de exames. Torna também verificável, item a item, o mínimo que o Guião exige para marcar «Laboratório».</p>
+<p><strong>Indicador.</strong> Percentagem de unidades sanitárias com acesso a exames de laboratório — realizados na unidade, por recolha e envio de amostras ou por encaminhamento do doente.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta «Sim» (1) em 12.1.</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
+</ul>
+<p><strong>Função no formulário.</strong> Porta dos quatro blocos de exames. As unidades com «Sim» respondem a 12.C.I a 12.C.IV e formam o denominador dos seus indicadores; as unidades com «Não» saltam para 12.A.0 (imagiologia). Como a porta inclui o envio de amostras e o encaminhamento, uma resposta «Não» significa que a unidade não obtém nenhum exame de laboratório por nenhuma via: quando um indicador de 12.C se exprime sobre o total das unidades inquiridas, estas unidades contam como não realizando o exame.</p>
+<p><strong>Leitura.</strong> Com as linhas 12.C.I.1 (hemoglobina ou hematócrito), 12.C.IV.3 (fezes), 12.C.IV.4 (urina) e 12.C.IV.5 (gota espessa), verifica-se item a item o mínimo que o Guião exige para marcar «Laboratório».</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte:</strong> medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.</p>
@@ -570,7 +595,27 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Para cada exame, se a unidade o realiza, se recolhe a amostra e a envia para fora com retorno do resultado, ou se o exame não é obtido por nenhuma via. Os indicadores contam, em regra, apenas a opção 1 — realizado nesta unidade —; a opção 2 é medida própria do Mapa e mostra o acesso garantido por envio de amostra. A lista de cada bloco está na caixa respectiva.</p>
+<p><strong>Indicadores.</strong> Para cada exame dos quatro blocos, com a escala comum de três situações:</p>
+<ul>
+<li><strong>Percentagem de unidades sanitárias que realizam o exame na unidade.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 na linha.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.1.</li>
+</ul></li>
+<li><strong>Percentagem de unidades sanitárias que obtêm o exame por envio da amostra, com retorno do resultado.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 2 na linha.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.1.</li>
+</ul></li>
+<li><strong>Percentagem de unidades sanitárias com acesso ao exame por alguma via.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 ou 2 na linha.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.1.</li>
+</ul></li>
+</ul>
+<p>Em todos, a resposta 98 fica no denominador e não conta no numerador. Os indicadores de cada bloco, incluindo os que se calculam entre as unidades com um dado serviço clínico, estão na caixa do bloco.</p>
+<p><strong>Função no formulário.</strong> As portas de grupo 12.C.I.0, 12.C.II.0 e 12.C.III.0 (o bloco 12.C.IV não tem porta de grupo): com resposta 2 ou 3, a unidade salta as linhas do bloco e conta como não realizando na unidade nenhum exame desse bloco — continua no denominador. Qualquer linha respondida com a opção 2 abre a pergunta sobre o destino das amostras (12.C.V).</p>
+<p><strong>Leitura.</strong> A opção 3 distingue a unidade onde o exame não acontece da que, não o fazendo, garante o acesso por envio de amostra: mede acesso efectivo, e não só capacidade instalada.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte:</strong> os indicadores são gerados linha a linha e estão na caixa de cada bloco — 12.C.I (5), 12.C.II (11), 12.C.III (8) e 12.C.IV (10): 34 códigos distintos. Contam a opção 1 (realizado nesta unidade), com uma excepção: o 3.3.2.3.3 (HbA1c, 12.C.II) conta também a opção 2. A opção 3 e o resto da opção 2 são medida própria do Mapa Sanitário.</p>
@@ -602,7 +647,13 @@ O que este quesito permite medir
 <summary>
 O que este bloco permite medir
 </summary>
-<p>Cinco indicadores: hemoglobina ou hematócrito, hemograma completo, contagem de leucócitos, contagem de plaquetas e velocidade de hemossedimentação. O TAP/INR, o TTPa, a electroforese de hemoglobina e a pesquisa de hemoglobina S são medida própria do Mapa.</p>
+<p><strong>Indicadores.</strong> Para cada exame do bloco (12.C.I.1 a 12.C.I.9) — entre eles hemoglobina ou hematócrito, hemograma completo, leucócitos, plaquetas, velocidade de hemossedimentação, TAP/INR, TTPa, electroforese de hemoglobina e pesquisa de hemoglobina S: percentagem de unidades sanitárias que realizam o exame na unidade.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 na linha.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.1 (as unidades com resposta 2 ou 3 na porta de grupo 12.C.I.0 contam como não realizando).</li>
+</ul>
+<p><strong>Função no formulário.</strong> A porta de grupo 12.C.I.0 (qualquer exame de glóbulos brancos e vermelhos) não gera indicador: com resposta 2 ou 3 salta as linhas 12.C.I.1 a 12.C.I.9.</p>
+<p><strong>Leitura.</strong> A electroforese de hemoglobina e a pesquisa de hemoglobina S mostram onde se pode confirmar a drepanocitose.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -791,7 +842,31 @@ O que este bloco permite medir
 <summary>
 O que este bloco permite medir
 </summary>
-<p>Dez indicadores directos: glicemia, ionograma, função renal (por creatinina ou ureia), função hepática (por transaminases ou bilirrubinas) e seis exames da tabela de prontidão — creatinina, ureia, colesterol total, perfil lipídico, amilase ou lipase e TSH. A HbA1c dá ainda um indicador — unidades com serviços de diabetes que dispõem de HbA1c —, quando cruzada com a oferta de serviços de diabetes de 11.3. Os restantes exames do bloco são medida própria do Mapa.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li><strong>Para cada exame do bloco (12.C.II.1 a 12.C.II.23):</strong> percentagem de unidades sanitárias que realizam o exame na unidade.
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 na linha.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.1 (as unidades com resposta 2 ou 3 na porta de grupo 12.C.II.0 contam como não realizando).</li>
+</ul></li>
+<li><strong>Percentagem de unidades sanitárias que realizam provas de função renal.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 em 12.C.II.7 (creatinina) ou em 12.C.II.8 (ureia).</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.1.</li>
+</ul></li>
+<li><strong>Percentagem de unidades sanitárias que realizam provas de função hepática.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 em 12.C.II.12 (bilirrubinas) ou em 12.C.II.13 (transaminases).</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.1.</li>
+</ul></li>
+<li><strong>Percentagem de unidades com serviços para a diabetes que dispõem de hemoglobina glicada (HbA1c).</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 ou 2 em 12.C.II.6.</li>
+<li><strong>Denominador:</strong> unidades com «Sim» em pelo menos uma célula das linhas 11.3.1 ou 11.3.2 (as que não passaram a 12.1 ou a 12.C.II.0 contam como não dispondo).</li>
+</ul></li>
+</ul>
+<p><strong>Função no formulário.</strong> A porta de grupo 12.C.II.0 (qualquer exame de bioquímica do sangue) não gera indicador: com resposta 2 ou 3 salta as linhas 12.C.II.1 a 12.C.II.23.</p>
+<p><strong>Leitura.</strong> A capacidade de medir a glicemia por qualquer via lê-se juntando a glicose (12.C.II.4) à glicemia capilar (12.C.0.7).</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1128,7 +1203,26 @@ O que este bloco permite medir
 <summary>
 O que este bloco permite medir
 </summary>
-<p>Oito indicadores: grupo sanguíneo, hepatite B, hepatite C, sífilis por teste que não o rápido, PCR para COVID-19, antigénio criptocócico, carga viral do VIH e contagem de CD4. Os dois últimos calculam-se entre as unidades que oferecem tratamento antirretroviral. Os restantes exames do bloco são medida própria do Mapa.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li><strong>Para cada exame do bloco (12.C.III.1 a 12.C.III.19):</strong> percentagem de unidades sanitárias que realizam o exame na unidade.
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 na linha.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.1 (as unidades com resposta 2 ou 3 na porta de grupo 12.C.III.0 contam como não realizando).</li>
+</ul></li>
+<li><strong>Percentagem de unidades sanitárias que realizam tipagem e grupo sanguíneo.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 em 12.C.III.1 (ABO) e em 12.C.III.2 (factor Rh).</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.1.</li>
+</ul></li>
+<li><strong>Percentagem de unidades com tratamento antirretroviral que realizam a carga viral do VIH</strong>, e <strong>que realizam a contagem de CD4.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 em 12.C.III.9 (carga viral) ou em 12.C.III.10 (CD4), respectivamente. O acesso por envio de amostra (opção 1 ou 2) lê-se com o mesmo denominador.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 17.4 (as que não passaram a 12.1 ou a 12.C.III.0 contam como não realizando).</li>
+</ul></li>
+</ul>
+<p><strong>Função no formulário.</strong> A porta de grupo 12.C.III.0 (qualquer exame de grupo sanguíneo ou serologia) não gera indicador: com resposta 2 ou 3 salta as linhas 12.C.III.1 a 12.C.III.19.</p>
+<p><strong>Leitura.</strong> Saber que unidades com tratamento antirretroviral medem a carga viral, na unidade ou por envio de amostra, orienta directamente o investimento em equipamento e em transporte de amostras.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1415,7 +1509,36 @@ O que este bloco permite medir
 <summary>
 O que este bloco permite medir
 </summary>
-<p>Dez indicadores: microscopia, cultura e antibiograma, tuberculose por baciloscopia ou por teste molecular, os exames de microbiologia e parasitologia da tabela de prontidão e a biópsia, esta entre as unidades que oferecem serviços de cancro. A gota espessa entra no indicador de capacidade de diagnóstico de malária, contado em 12.C.0. O exame parasitológico de fezes, a urina tipo II, o teste de HPV e o PSA são medida própria do Mapa.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li><strong>Para cada exame do bloco (12.C.IV.1 a 12.C.IV.15):</strong> percentagem de unidades sanitárias que realizam o exame na unidade.
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 na linha.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.1.</li>
+</ul></li>
+<li><strong>Percentagem de unidades sanitárias que realizam microscopia geral.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 em 12.C.IV.1 ou em 12.C.IV.2.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.1.</li>
+</ul></li>
+<li><strong>Percentagem de unidades sanitárias que realizam teste de diagnóstico da tuberculose.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 em 12.C.IV.6 (baciloscopia) ou em 12.C.IV.7 (teste molecular).</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.1.</li>
+</ul></li>
+<li><strong>Percentagem de unidades sanitárias que realizam cultura e antibiograma.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 em 12.C.IV.8 e em 12.C.IV.10.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.1.</li>
+</ul></li>
+<li><strong>Percentagem de unidades com serviço de cancro que realizam biópsia.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 em 12.C.IV.15.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 11.8.0 (as que não passaram a 12.1 contam como não realizando).</li>
+</ul></li>
+</ul>
+<p><strong>Função no formulário.</strong> Bloco sem porta de grupo. A gota espessa (12.C.IV.5, opção 1) entra no indicador de capacidade de diagnóstico da malária, com o teste rápido de 12.C.0.8, e lê-se com a via de diagnóstico da malária (17.8.2).</p>
+<p><strong>Leitura.</strong> A separação entre baciloscopia e teste molecular mostra por que via se cumpre o diagnóstico da tuberculose — o que orienta a colocação de equipamento de teste molecular.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1673,7 +1796,12 @@ O que este bloco permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Para onde vão habitualmente as amostras que a unidade envia para análise: a unidade de referência indicada na secção 3, outra unidade pública, um laboratório privado ou outro destino. Liga o laboratório à árvore de referência; nenhum instrumento internacional recolhe esta informação.</p>
+<p><strong>Indicador.</strong> Distribuição das unidades sanitárias que enviam amostras para fora segundo o destino habitual — a unidade de referência indicada em 3.2.1, outra unidade pública, um laboratório privado ou outro destino.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com cada resposta (1, 2, 3 ou 96) em 12.C.V.</li>
+<li><strong>Denominador:</strong> unidades com opção 2 em pelo menos uma linha dos blocos 12.C.I a 12.C.IV.</li>
+</ul>
+<p><strong>Função no formulário.</strong> Liga o laboratório à árvore de referência da secção 3: a resposta 1 confirma que a amostra segue a referência superior declarada em 3.2.1; as respostas 2 e 3 mostram percursos fora dela.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte:</strong> medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.</p>
@@ -1713,7 +1841,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias que realizam algum exame de imagem ou encaminham doentes para os realizarem noutra unidade. É uma porta: não gera indicador por si, mas dá acesso à grelha de 12.A.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades sanitárias com acesso a exames de imagem — realizados na unidade ou por encaminhamento do doente.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta «Sim» (1) em 12.A.0.</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
+</ul>
+<p><strong>Função no formulário.</strong> Porta da grelha de imagiologia: as unidades com «Sim» respondem a 12.A e formam o denominador dos seus indicadores. As unidades com «Não» saltam para 12.B; quando um indicador de 12.A se exprime sobre o total das unidades inquiridas, contam como sem exame de imagem por nenhuma via.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte:</strong> medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.</p>
@@ -1740,7 +1873,26 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias que realizam cada um de onze exames de imagem, com a ecografia separada por tipo — obstétrica, abdominal ou geral, cardíaca e Doppler vascular. Os indicadores contam apenas a opção 1, realizado nesta unidade; a opção 2, encaminhamento com retorno do resultado, é medida própria do Mapa e distingue a unidade que garante o acesso daquela onde o exame não acontece.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li><strong>Para cada exame da grelha (12.A.1 a 12.A.11):</strong> percentagem de unidades sanitárias que realizam o exame na unidade.
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 na linha.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.A.0.</li>
+</ul></li>
+<li><strong>Percentagem de unidades sanitárias que realizam ecografia</strong>, de qualquer tipo.
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 em pelo menos uma das linhas 12.A.1 a 12.A.4.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.A.0.</li>
+</ul></li>
+<li><strong>Para cada exame:</strong> percentagem de unidades que o obtêm por encaminhamento, com retorno do resultado, e percentagem com acesso por alguma via.
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 2 na linha; unidades com opção 1 ou 2 na linha.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 12.A.0.</li>
+</ul></li>
+</ul>
+<p>Em todos, a resposta 98 fica no denominador e não conta no numerador.</p>
+<p><strong>Função no formulário.</strong> Lê-se com a contagem de aparelhos da secção 9: uma unidade que declara realizar ecografia ou raio X e conta zero aparelhos correspondentes assinala-se para verificação.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1989,7 +2141,14 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias que realizam cada um de onze procedimentos e tecnologias, uma caixa por indicador.</p>
+<p><strong>Indicadores.</strong> Para cada procedimento ou tecnologia da grelha (12.B.1 a 12.B.11): percentagem de unidades sanitárias que o realizam.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 na linha. Na transfusão de sangue (12.B.9), conta também a resposta 1 na linha 16.2.3.9 (funções-sinal obstétricas).</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas (o quesito não tem porta). A resposta 98 fica no denominador e não conta no numerador.</li>
+<li><strong>Desagregação:</strong> categoria da unidade (2.6).</li>
+</ul>
+<p><strong>Função no formulário.</strong> A transfusão de sangue (12.B.9) lê-se com o banco de sangue (12.D.5) e com as funções-sinal obstétricas (16.2.3).</p>
+<p><strong>Leitura.</strong> A administração de oxigénio (12.B.11) é a tecnologia de maior rendimento clínico num centro de saúde.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -2219,7 +2378,13 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Que serviços de apoio existem e estão em funcionamento em cada unidade. Duas linhas geram indicador: unidades que oferecem algum cuidado de reabilitação — na definição larga, que inclui terapia ocupacional, terapia da fala e adaptação de próteses e ortóteses — e unidades que oferecem algum cuidado paliativo. As outras quatro linhas são medida própria do Mapa.</p>
+<p><strong>Indicadores.</strong> Para cada serviço da grelha (12.D.1 a 12.D.6) — anatomia patológica, anestesia, reabilitação, gases medicinais canalizados, banco de sangue e cuidados paliativos: percentagem de unidades sanitárias com o serviço existente e em funcionamento.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 na linha.</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas (o quesito não tem porta). A resposta 98 fica no denominador e não conta no numerador.</li>
+</ul>
+<p><strong>Função no formulário.</strong> A anestesia (12.D.2) lê-se com a grande cirurgia (10.29.2) e com as salas de operações (10.29.2.1); o banco de sangue (12.D.5), com a transfusão (12.B.9); a reabilitação (12.D.3), com a fisiatria e a fisioterapia de 10.A (linhas 10.11 e 10.35).</p>
+<p><strong>Leitura.</strong> A reabilitação conta na definição larga, que inclui terapia ocupacional, terapia da fala e adaptação de próteses e ortóteses; os cuidados paliativos medem uma oferta própria dos cuidados primários e do domicílio.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>

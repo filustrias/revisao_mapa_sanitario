@@ -29,7 +29,13 @@ Número e área dos edifícios e das residências do pessoal, período de constr
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de edifícios de cada unidade sanitária, agregável por município e por província.
+**Indicador.** Número médio de edifícios por unidade sanitária.
+
+- **Numerador:** soma de 4.1.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria (2.6), província e município.
+
+A soma de 4.1 dá também o número total de edifícios da rede, por município e por província.
 
 </details>
 
@@ -64,7 +70,15 @@ Quantos edifícios, no total, compõem esta unidade sanitária?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Área coberta de cada unidade sanitária, agregável por município e por província. Comparada com o quesito 4.9 — metros quadrados por estado de conservação —, a área coberta permite estimar a área a reabilitar.
+**Indicador.** Área coberta média por unidade sanitária, em metros quadrados.
+
+- **Numerador:** soma de 4.2, sem o código 9998.
+- **Denominador:** unidades com área registada em 4.2 (resposta diferente de 9998).
+- **Desagregação:** categoria (2.6), província e município.
+
+A soma de 4.2 dá também a área coberta total da rede, por município e por província.
+
+**Função no formulário.** Total de controlo de 4.9: a soma de 4.9.1 a 4.9.4 deve ser igual a 4.2.
 
 </details>
 
@@ -91,7 +105,16 @@ Qual é a superfície total coberta desses edifícios, em metros quadrados?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de residências para trabalhadores de cada unidade sanitária.
+**Indicadores.**
+
+- Percentagem de unidades sanitárias com residências para trabalhadores — numerador: unidades com 4.3 ≥ 1; denominador: todas as unidades inquiridas.
+- Número total de residências para trabalhadores — soma de 4.3, por município e por província.
+
+<!-- -->
+
+- **Desagregação:** zona (2.11) e categoria (2.6) — a disponibilidade de residência pesa na fixação de pessoal nas zonas rurais.
+
+**Função no formulário.** As unidades com pelo menos uma residência (4.3 ≥ 1) formam o denominador de 4.4.
 
 </details>
 
@@ -122,7 +145,16 @@ Quantas residências para trabalhadores existem no recinto desta unidade ou sob 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Área coberta das residências para trabalhadores de cada unidade sanitária, na mesma medida usada para os edifícios da unidade em 4.2.
+**Indicadores.**
+
+- Área coberta média das residências por unidade com residências, em metros quadrados.
+  - **Numerador:** soma de 4.4, sem o código 9998.
+  - **Denominador:** unidades com 4.3 ≥ 1 e área registada em 4.4 (resposta diferente de 9998).
+- Área coberta média por residência, em metros quadrados.
+  - **Numerador:** soma de 4.4, sem o código 9998.
+  - **Denominador:** soma de 4.3 nas mesmas unidades.
+
+A área é medida da mesma forma que a dos edifícios da unidade (4.2).
 
 </details>
 
@@ -153,7 +185,13 @@ Qual é a superfície total coberta dessas residências, em metros quadrados?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Ano de construção do edifício principal de cada unidade sanitária. Quando o ano não é conhecido, o período de 4.6 classifica o caso.
+**Indicador.** Idade média do edifício principal, em anos.
+
+- **Numerador:** soma, por unidade, do ano da recolha (1.1.3) menos o ano de 4.5.
+- **Denominador:** unidades com ano registado em 4.5 (resposta diferente de 9998).
+- **Desagregação:** categoria (2.6) e província.
+
+**Função no formulário.** Quando 4.5 = 9998, é o período de 4.6 que classifica a unidade.
 
 </details>
 
@@ -188,7 +226,13 @@ No ano (4.5) acrescenta-se a instrução sobre reconstrução, que decide o caso
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Distribuição das unidades sanitárias por período de construção do edifício principal, comparável com as quatro edições anteriores do Mapa Sanitário.
+**Indicador.** Distribuição percentual das unidades sanitárias por período de construção do edifício principal.
+
+- **Numerador:** unidades com cada opção (1 a 5) em 4.6.
+- **Denominador:** todas as unidades sanitárias inquiridas; as respostas 98 («Não sabe») apresentam-se à parte.
+- **Desagregação:** categoria (2.6) e província.
+
+Comparável com as quatro edições anteriores do Mapa Sanitário, porque os períodos se mantêm.
 
 </details>
 
@@ -231,7 +275,13 @@ As cinco categorias do período (4.6) mantêm-se sem alteração: correspondem a
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Distribuição das unidades sanitárias pelo material predominante das paredes exteriores do edifício principal — informação de base para estimar custos de reabilitação.
+**Indicador.** Distribuição percentual das unidades sanitárias pelo material predominante das paredes exteriores do edifício principal.
+
+- **Numerador:** unidades com cada opção (1 a 5 e 96) em 4.7.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria (2.6), província e zona (2.11).
+
+Para a comparação com as edições anteriores, as opções 3 (tijolo cozido) e 4 (bloco de cimento) somam-se. É informação de base para estimar custos de reabilitação.
 
 </details>
 
@@ -274,7 +324,17 @@ Qual é o material predominante das paredes exteriores do edifício principal?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Distribuição das unidades sanitárias pelo estado físico do edifício principal, em quatro categorias — de «bom estado» a «construção ou reconstrução» —, agregável por município e por província e comparável com as edições anteriores do Mapa Sanitário, porque as categorias se mantêm.
+**Indicadores.**
+
+- Distribuição percentual das unidades sanitárias pelo estado físico do edifício principal — numerador: unidades com cada opção (1 a 4) em 4.8.
+- Percentagem de unidades cujo edifício principal precisa de reabilitação pesada ou de construção ou reconstrução — numerador: unidades com resposta 3 ou 4 em 4.8.
+
+<!-- -->
+
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria (2.6), município e província.
+
+Comparável com as edições anteriores do Mapa Sanitário, porque as quatro categorias se mantêm.
 
 </details>
 
@@ -312,7 +372,13 @@ As quatro categorias mantêm-se com a redacção da Ficha. O que muda é o enunc
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-O estado de cada um dos sete elementos construtivos do edifício principal. Em vez de saber apenas que uma unidade precisa de reabilitação, passa a saber-se o que precisa de obra — o que permite orçamentar por tipo de intervenção e agrupar obras do mesmo tipo, por exemplo todas as coberturas de um município.
+**Indicador.** Para cada elemento construtivo da grelha — fundação, estrutura, pavimento, paredes, cobertura, tecto falso e latrina: percentagem de unidades sanitárias com o elemento em cada estado (1 a 4), e em particular a percentagem com o elemento a precisar de reabilitação pesada ou de reconstrução (resposta 3 ou 4).
+
+- **Numerador:** unidades com a resposta em causa na linha do elemento.
+- **Denominador:** todas as unidades sanitárias inquiridas; na latrina (4.8.7), só as unidades com latrina — excluídas as respostas 97.
+- **Desagregação:** município, província e categoria (2.6).
+
+Diz que obra é precisa, e não apenas que a unidade precisa de obra: permite orçamentar por tipo de intervenção, agrupar obras do mesmo tipo — por exemplo, todas as coberturas de um município — e confrontar a classificação global de 4.8 com os sete elementos.
 
 </details>
 
@@ -359,7 +425,16 @@ Para cada elemento construtivo do edifício principal, indique o estado, aplican
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Área coberta, em metros quadrados, em cada estado de conservação. É o dado que o Guião pede «para calcular os custos da reabilitação/manutenção necessários», agora em números que se podem somar por unidade, por município e para toda a rede. A soma das quatro parcelas deve ser igual à área coberta registada em 4.2.
+**Indicadores.**
+
+- Área coberta em cada estado de conservação, em metros quadrados — soma de 4.9.1, de 4.9.2, de 4.9.3 e de 4.9.4, por unidade, por município, por província e para toda a rede.
+- Percentagem da área coberta que precisa de reabilitação ou de reconstrução.
+  - **Numerador:** soma de 4.9.2, 4.9.3 e 4.9.4.
+  - **Denominador:** soma de 4.9.1 a 4.9.4 (igual a 4.2).
+
+**Função no formulário.** Controlo de coerência com 4.2: a soma das quatro parcelas deve ser igual à área coberta da unidade.
+
+Multiplicados pelo custo unitário de cada tipo de intervenção, os metros quadrados de cada estado dão a estimativa do custo de reabilitação e de manutenção da rede.
 
 </details>
 

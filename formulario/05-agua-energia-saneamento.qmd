@@ -29,7 +29,20 @@ Fontes de água e de electricidade e a sua disponibilidade, saneamento, recolha 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Junto com 5.1.3, a «Percentagem de unidades sanitárias com fonte de água melhorada». Contam como fontes melhoradas as categorias 01 a 05, 07 e 09 a 12; não contam o poço e a nascente não protegidos (06 e 08) nem a água de superfície (13). As «Outras» fontes mostram de que depende a unidade quando a principal falha — informação própria do Mapa.
+**Indicadores.**
+
+- Percentagem de unidades sanitárias com serviços básicos de água — numerador: coluna «Principal» com resposta 01 a 05, 07 ou 09 a 12 (fontes melhoradas).
+- Percentagem de unidades sanitárias com fonte de água melhorada — numerador: fonte principal melhorada (01 a 05, 07 ou 09 a 12) **e** resposta 1 ou 2 em 5.1.3.
+- Percentagem de unidades com fonte de água alternativa — numerador: pelo menos uma fonte marcada na coluna «Outras».
+
+<!-- -->
+
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria (2.6), província e zona (2.11).
+
+Não contam como fontes melhoradas o poço e a nascente não protegidos (06 e 08), a água de superfície (13) nem a ausência de fonte (00).
+
+**Função no formulário.** A categoria da fonte principal combina-se com 5.1.3 no indicador de fonte de água melhorada.
 
 </details>
 
@@ -92,7 +105,13 @@ Qual é a fonte de água mais utilizada por esta unidade sanitária neste moment
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Fecha o indicador «Percentagem de unidades sanitárias com fonte de água melhorada»: conta como sim quando a fonte principal de 5.1 é melhorada **e** a resposta aqui não é 3 nem 4. Ter fonte melhorada não basta — a água tem de estar disponível no edifício ou no recinto.
+**Indicador.** Percentagem de unidades sanitárias com fonte de água melhorada (em conjunto com 5.1).
+
+- **Numerador:** unidades com fonte principal melhorada em 5.1 (01 a 05, 07 ou 09 a 12) **e** resposta 1 ou 2 em 5.1.3 — água observada dentro do edifício ou no recinto.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** forma de recolha (1.4) — as respostas 1 e 2 exigem observação, que só a recolha presencial com observação (1.4 = 1) permite; categoria (2.6) e zona (2.11).
+
+Ter uma fonte melhorada não basta: a água tem de estar disponível no edifício ou no recinto, e ser vista.
 
 </details>
 
@@ -136,7 +155,18 @@ Se sim: posso ver a água que está disponível hoje? A água pode estar canaliz
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Junto com 5.2.3, a «Percentagem de unidades sanitárias com electricidade». As fontes de reserva, na coluna «Outras», mostram quantas unidades têm alternativa quando a principal falha.
+**Indicadores.**
+
+- Percentagem de unidades sanitárias com electricidade — numerador: fonte principal diferente de 4 («Não tem») em 5.2 **e** resposta 1 ou 2 em 5.2.3.
+- Para cada fonte principal — rede geral (1), painéis solares (2), gerador (3): percentagem de unidades cuja fonte principal de electricidade é essa — numerador: coluna «Principal» com o código da fonte.
+- Percentagem de unidades com fonte de electricidade de reserva — numerador: pelo menos uma fonte marcada na coluna «Outras».
+
+<!-- -->
+
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria (2.6), província e zona (2.11).
+
+**Função no formulário.** A fonte principal combina-se com 5.2.3 no indicador de unidades com electricidade.
 
 </details>
 
@@ -180,7 +210,13 @@ As categorias mantêm-se — são adequadas e correspondem às da classificaçã
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Fecha o indicador «Percentagem de unidades sanitárias com electricidade»: conta como sim quando 5.2 é diferente de «não tem» **e** a resposta aqui é 1 ou 2 — isto é, sem cortes de mais de 2 horas nos últimos 7 dias, durante o horário de funcionamento. Ter fonte não basta: o indicador pede continuidade.
+**Indicador.** Percentagem de unidades sanitárias com electricidade (em conjunto com 5.2).
+
+- **Numerador:** unidades com fonte principal diferente de 4 («Não tem») em 5.2 **e** resposta 1 ou 2 em 5.2.3 — electricidade sempre disponível, ou com interrupções de menos de 2 horas por dia, nos últimos 7 dias, sempre que a unidade esteve aberta.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria (2.6), zona (2.11) e fonte principal (5.2).
+
+Ter fonte não basta: o indicador pede continuidade. Lido com o equipamento de cadeia de frio, identifica as unidades com risco na conservação de vacinas.
 
 </details>
 
@@ -221,7 +257,13 @@ Nos últimos 7 dias, houve electricidade — da fonte principal ou de qualquer f
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-A «Percentagem de unidades sanitárias com instalações sanitárias melhoradas acessíveis a utentes e pessoal». Conta como sim quando a resposta é 1, 2 ou 4 — autoclismo ligado a rede de esgotos ou a fossa séptica, ou latrina melhorada ventilada.
+**Indicador.** Percentagem de unidades sanitárias com instalações sanitárias melhoradas acessíveis a utentes e pessoal.
+
+- **Numerador:** unidades com resposta 1, 2 ou 4 em 5.3 — autoclismo ligado a rede de esgotos ou a fossa séptica, ou latrina melhorada ventilada.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria (2.6), província e zona (2.11).
+
+A resposta 7 dá, à parte, a percentagem de unidades sem qualquer sanitário ou latrina.
 
 </details>
 
@@ -270,7 +312,15 @@ Se sim: de que tipo é? Posso vê-lo?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Distribuição das unidades sanitárias pelo modo de recolha do lixo comum, incluindo as que não têm recolha organizada.
+**Indicadores.**
+
+- Distribuição percentual das unidades sanitárias pelo modo de recolha do lixo comum — numerador: unidades com cada opção (1 a 3 e 96) em 5.4.
+- Percentagem de unidades sem recolha organizada do lixo comum — numerador: unidades com resposta 00 em 5.4.
+
+<!-- -->
+
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** município e zona (2.11).
 
 </details>
 
@@ -311,7 +361,13 @@ Categorias mantidas. Acrescenta-se apenas o código 00, para que a ausência de 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Distribuição das unidades sanitárias pelo destino final dos resíduos comuns. É medida própria do Mapa.
+**Indicador.** Distribuição percentual das unidades sanitárias pelo destino final da maior parte dos resíduos comuns.
+
+- **Numerador:** unidades com cada opção (1 a 3 e 96) em 5.5.
+- **Denominador:** todas as unidades sanitárias inquiridas; as respostas 98 apresentam-se à parte.
+- **Desagregação:** município e zona (2.11).
+
+**Função no formulário.** A resposta 1 (incinerador) abre 5.6.1 e 5.6.2, tal como a resposta 1 em 5.6.
 
 </details>
 
@@ -356,7 +412,20 @@ Categorias mantidas.
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-A partir do destino dos resíduos hospitalares (5.6), e com 5.6.1 e 5.6.2, a «Percentagem de unidades sanitárias com destino final seguro dos resíduos cortantes» e a «Percentagem de unidades sanitárias com destino final seguro dos resíduos infecciosos não cortantes». O que decide é se o destino é adequado — incineração com o incinerador a funcionar e com combustível, recolha e tratamento por empresa especializada, aterro — ou não, como a queima ao ar livre.
+**Indicadores.**
+
+- Percentagem de unidades sanitárias com destino final seguro dos resíduos cortantes.
+- Percentagem de unidades sanitárias com destino final seguro dos resíduos infecciosos não cortantes.
+
+<!-- -->
+
+- **Numerador (os dois):** unidades com resposta 2 (recolha e tratamento por empresa especializada) ou 3 (aterro sanitário) em 5.6; ou com resposta 1 (incinerador da unidade) **e**, ao mesmo tempo, 5.6.1 = 1 (incinerador observado a funcionar) e 5.6.2 = 1 (combustível observado). A queima ao ar livre (4) não conta.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria (2.6) e província.
+
+Como 5.6 regista o destino dos resíduos hospitalares no seu conjunto, os dois indicadores calculam-se com a mesma resposta.
+
+**Função no formulário.** Porta de 5.6.1 e 5.6.2: são feitas às unidades com resposta 1 (incinerador) em 5.5 ou em 5.6; as restantes saltam para 5.7. Nos indicadores de destino seguro, 5.6.1 e 5.6.2 só contam quando 5.6 = 1.
 
 </details>
 
@@ -409,7 +478,15 @@ E qual é o destino final dos resíduos hospitalares — cortantes, perfurantes 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Completa os indicadores de destino final seguro dos resíduos cortantes e dos resíduos infecciosos não cortantes: quando o destino é a incineração, só conta como seguro se o incinerador estiver a funcionar e, com 5.6.2, tiver combustível. Dá também, por si só, a lista dos incineradores parados.
+**Indicador.** Percentagem de unidades com o incinerador a funcionar, entre as que usam incinerador.
+
+- **Numerador:** unidades com resposta 1 em 5.6.1 (observado a funcionar).
+- **Denominador:** unidades com resposta 1 (incinerador) em 5.5 ou em 5.6.
+- **Desagregação:** província e categoria (2.6).
+
+As respostas 2 dão a lista dos incineradores parados.
+
+**Função no formulário.** Entra no numerador dos indicadores de destino final seguro dos resíduos cortantes e dos infecciosos não cortantes (ver 5.6): com 5.6 = 1, a incineração só conta como destino seguro se 5.6.1 = 1 e 5.6.2 = 1.
 
 </details>
 
@@ -454,7 +531,12 @@ O incinerador desta unidade estava a funcionar hoje?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Completa os indicadores de destino final seguro dos resíduos cortantes e dos resíduos infecciosos não cortantes: quando o destino é a incineração, só conta como seguro se o incinerador tiver combustível.
+**Indicador.** Percentagem de unidades com combustível disponível para o incinerador, entre as que usam incinerador.
+
+- **Numerador:** unidades com resposta 1 em 5.6.2 (combustível observado).
+- **Denominador:** unidades com resposta 1 (incinerador) em 5.5 ou em 5.6.
+
+**Função no formulário.** Entra no numerador dos indicadores de destino final seguro dos resíduos cortantes e dos infecciosos não cortantes (ver 5.6): com 5.6 = 1, a incineração só conta como destino seguro se 5.6.1 = 1 e 5.6.2 = 1.
 
 </details>
 
@@ -493,7 +575,11 @@ Havia hoje combustível disponível para o incinerador?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-A «Percentagem de unidades sanitárias com normas de gestão de resíduos sanitários», que conta como sim apenas quando as normas são observadas (resposta 1).
+**Indicador.** Percentagem de unidades sanitárias com normas de gestão de resíduos sanitários.
+
+- **Numerador:** unidades com resposta 1 em 5.7 (normas observadas). A resposta 2 (referidas mas não vistas) não conta.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** forma de recolha (1.4) — a resposta 1 exige ver o documento — e categoria (2.6).
 
 </details>
 
@@ -532,7 +618,11 @@ Duas caixas, dois indicadores, e a ligação ao bloco de prevenção e controlo 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-A «Percentagem de unidades sanitárias com pessoal formado em gestão de resíduos sanitários», que conta como sim quando pelo menos um profissional recebeu formação nos últimos 2 anos.
+**Indicador.** Percentagem de unidades sanitárias com pessoal formado em gestão de resíduos sanitários.
+
+- **Numerador:** unidades com resposta 1 em 5.8 — pelo menos um profissional que trabalha actualmente na unidade recebeu formação nos últimos 2 anos.
+- **Denominador:** todas as unidades sanitárias inquiridas (as respostas 98 contam no denominador e não no numerador).
+- **Desagregação:** categoria (2.6) e província.
 
 </details>
 
@@ -566,7 +656,13 @@ Nos últimos 2 anos, algum profissional que actualmente trabalha nesta unidade r
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de unidades sanitárias com estação ou sistema de tratamento de águas residuais.
+**Indicador.** Percentagem de unidades sanitárias com estação ou sistema de tratamento de águas residuais.
+
+- **Numerador:** unidades com resposta 1 («Sim») em 5.9.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria (2.6) e província.
+
+**Função no formulário.** Porta de 5.9.1: as unidades com «Sim» (1) formam o denominador do funcionamento do tratamento; as unidades com «Não» (2) saltam para a secção 6 e não entram nesse denominador.
 
 </details>
 
@@ -602,7 +698,13 @@ Os dois campos mantêm-se. A codificação passa a ser Sim = 1 e Não = 2 nas du
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Das unidades sanitárias com tratamento de águas residuais, quantas o tiveram a funcionar nos últimos 30 dias, com as causas de não funcionamento.
+**Indicador.** Percentagem de unidades com o tratamento de águas residuais a funcionar nos últimos 30 dias, entre as que o têm.
+
+- **Numerador:** unidades com resposta 1 em 5.9.1.
+- **Denominador:** unidades com resposta 1 em 5.9.
+- **Desagregação:** categoria (2.6) e província.
+
+As respostas 2, com a causa especificada, dão a distribuição das causas de não funcionamento.
 
 </details>
 

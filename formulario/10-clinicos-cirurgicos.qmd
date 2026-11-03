@@ -30,7 +30,28 @@ Atendimento por especialidade clínica, serviços a sobreviventes de violência 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-A densidade de oferta de atendimento em cada uma das 28 especialidades da Ficha e na fisioterapia, dentro da área de abrangência da unidade: que especialidades são oferecidas, por quantos especialistas e em quantos turnos de atendimento por semana. Cruzada com a população da área de abrangência (secção 3), permite medir melhor a relação entre a oferta e a demanda de serviços e de especialidades. A forma de acesso — marcação directa ou carta de encaminhamento — mostra onde a especialidade funciona como porta de entrada e onde depende da referência.
+**Indicadores.** Para cada especialidade da grelha (10.1 a 10.28) e para a fisioterapia (10.35):
+
+- **Percentagem de unidades sanitárias que oferecem atendimento regular na especialidade.**
+  - **Numerador:** unidades com coluna A = 1 na linha.
+  - **Denominador:** todas as unidades sanitárias inquiridas.
+- **Número de especialistas que atendem na especialidade por 10 000 habitantes.**
+  - **Numerador:** soma da coluna B das unidades da área geográfica (o código 00 conta zero).
+  - **Denominador:** população da área geográfica (ver 3.1).
+- **Percentagem de unidades em que o atendimento é prestado sem especialista dessa área.**
+  - **Numerador:** unidades com coluna B = 00 na linha.
+  - **Denominador:** unidades com coluna A = 1 na linha.
+- **Média de turnos de atendimento por semana**, e **número de turnos por semana por 10 000 habitantes.**
+  - **Numerador:** soma da coluna C da linha.
+  - **Denominador:** unidades com coluna A = 1 na linha (média); população da área geográfica, ver 3.1 (densidade).
+- **Percentagem de unidades em que o acesso à especialidade exige carta de encaminhamento.**
+  - **Numerador:** unidades com coluna D = 2 na linha (a distribuição completa inclui o acesso directo, D = 1, e misto, D = 3).
+  - **Denominador:** unidades com coluna A = 1 na linha.
+- **Desagregação:** categoria da unidade (2.6), província e município (2.1 a 2.5).
+
+**Função no formulário.** A coluna A funciona como salto linha a linha: só com A = 1 se perguntam as colunas B, C e D, e é esse o denominador dos indicadores de dimensão e de acesso. O número de especialistas declarado aqui compara-se com o quadro de pessoal da unidade.
+
+**Leitura.** Com a população da área, mede a relação entre a oferta e a procura de cada especialidade; a coluna D mostra onde a especialidade funciona como porta de entrada e onde depende da referência.
 
 </details>
 
@@ -113,7 +134,12 @@ Vou ler uma lista de especialidades clínicas. Para cada uma, diga-me se esta un
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que prestam algum serviço a sobreviventes de violação, de violência sexual ou por parceiro íntimo, ou a crianças afectadas por maus-tratos. É a porta do bloco 10.E.
+**Indicador.** Percentagem de unidades sanitárias que prestam algum serviço a sobreviventes de violação, de violência sexual ou por parceiro íntimo, ou a crianças vítimas de maus-tratos.
+
+- **Numerador:** unidades com resposta «Sim» (1) em 10.E.0.
+- **Denominador:** todas as unidades sanitárias inquiridas. A resposta 98 fica no denominador e não conta no numerador.
+
+**Função no formulário.** Define o universo do bloco dos sobreviventes de violência: as unidades com «Sim» formam o denominador dos indicadores de 10.E.1 a 10.E.4. As unidades com «Não» saltam para 10.29 e não entram nesses denominadores; expresso sobre o total das unidades inquiridas, contam como sem o serviço.
 
 </details>
 
@@ -157,7 +183,12 @@ Esta unidade sanitária presta algum serviço a sobreviventes de violação, de 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que prestam serviços a sobreviventes de violação ou de violência sexual ou por parceiro íntimo.
+**Indicador.** Percentagem de unidades sanitárias que prestam serviços a sobreviventes de violação ou de violência sexual ou por parceiro íntimo.
+
+- **Numerador:** unidades com resposta «Sim» (1) em 10.E.1.
+- **Denominador:** unidades com resposta 1 em 10.E.0.
+
+**Função no formulário.** Identifica as unidades a que se dirigem as prestações de 10.E.3 e a condição de acesso de 10.E.4; esses indicadores podem também ler-se só entre as unidades com resposta 1 em 10.E.1.
 
 </details>
 
@@ -191,7 +222,10 @@ Esta unidade sanitária presta serviços a sobreviventes de violação ou de vio
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que prestam serviços a crianças afectadas por maus-tratos.
+**Indicador.** Percentagem de unidades sanitárias que prestam serviços a crianças afectadas por maus-tratos.
+
+- **Numerador:** unidades com resposta «Sim» (1) em 10.E.2.
+- **Denominador:** unidades com resposta 1 em 10.E.0.
 
 </details>
 
@@ -226,7 +260,13 @@ E a crianças afectadas por maus-tratos?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Que prestações as unidades sanitárias oferecem aos sobreviventes de violação ou de violência por parceiro íntimo — entre elas a profilaxia pós-exposição ao VIH (PEP). Cada linha dá um indicador.
+**Indicadores.** Para cada prestação da grelha (linhas 1 a 8 — exame forense, hepatite B, profilaxia pós-exposição ao VIH, contracepção de emergência, tratamento presuntivo de IST, vacina antitetânica, aconselhamento e serviços de interrupção da gravidez): percentagem de unidades sanitárias que oferecem habitualmente a prestação aos sobreviventes de violação ou de violência por parceiro íntimo.
+
+- **Numerador:** unidades com resposta 1 na linha.
+- **Denominador:** unidades com resposta 1 em 10.E.0. A resposta 98 fica no denominador e não conta no numerador.
+- **Desagregação:** as mesmas percentagens entre as unidades com resposta 1 em 10.E.1.
+
+**Leitura.** A linha 3 é a medida da profilaxia pós-exposição ao VIH (PEP) oferecida aos sobreviventes; a PEP fora do contexto da violência mede-se em 17.3.
 
 </details>
 
@@ -282,7 +322,12 @@ Para cada linha: 1 Sim · 2 Não · 98 Não sabe
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se há sempre um profissional de saúde do mesmo sexo do sobrevivente disponível para realizar o exame ou estar presente na sala — uma condição de acesso.
+**Indicador.** Percentagem de unidades sanitárias com um profissional de saúde do mesmo sexo do sobrevivente sempre disponível para realizar o exame ou estar presente na sala.
+
+- **Numerador:** unidades com resposta «Sim» (1) em 10.E.4.
+- **Denominador:** unidades com resposta 1 em 10.E.0. A resposta 98 fica no denominador e não conta no numerador.
+
+**Leitura.** Não mede uma prestação clínica mas uma condição de acesso: determina se a pessoa chega a ser examinada.
 
 </details>
 
@@ -321,7 +366,13 @@ Está sempre disponível nesta unidade sanitária um profissional de saúde do m
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que realizam algum procedimento cirúrgico, de pequena ou de grande cirurgia. É a porta do bloco da cirurgia (10.29 a 10.34).
+**Indicador.** Percentagem de unidades sanitárias que realizam algum procedimento cirúrgico, de pequena ou de grande cirurgia.
+
+- **Numerador:** unidades com resposta «Sim» (1) em 10.29.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província e município (2.1 a 2.5).
+
+**Função no formulário.** Define o universo da cirurgia: as unidades com «Sim» formam o denominador de 10.29.1 (pequena cirurgia), de 10.29.2 (grande cirurgia) e da cirurgia de especialidade (10.30 a 10.34). As unidades com «Não» saltam para a secção 11 e não entram nesses denominadores; expresso sobre o total das unidades inquiridas, contam como não realizando nenhum procedimento cirúrgico.
 
 </details>
 
@@ -355,7 +406,12 @@ Esta unidade sanitária realiza algum procedimento cirúrgico, de pequena ou de 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que realizam procedimentos de pequena cirurgia.
+**Indicador.** Percentagem de unidades sanitárias que realizam procedimentos de pequena cirurgia (sob anestesia local, sem bloco operatório).
+
+- **Numerador:** unidades com resposta «Sim» (1) em 10.29.1.
+- **Denominador:** unidades com resposta 1 em 10.29.
+
+**Função no formulário.** Porta encadeada dentro de 10.29. As unidades com «Sim» formam o denominador da grelha de procedimentos de pequena cirurgia (10.29.1.1 a 10.29.1.12); as unidades com «Não» saltam para 10.29.2 e não entram nesse denominador.
 
 </details>
 
@@ -394,7 +450,12 @@ Realiza procedimentos de pequena cirurgia, isto é, efectuados sob anestesia loc
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que realizaram cada procedimento de pequena cirurgia nos últimos 12 meses — do desbridamento de feridas à cistostomia.
+**Indicadores.** Para cada procedimento da grelha (10.29.1.1 a 10.29.1.12), incluindo a circuncisão masculina médica voluntária para prevenção do VIH (10.29.1.12): percentagem de unidades sanitárias que realizaram o procedimento nos últimos 12 meses.
+
+- **Numerador:** unidades com resposta 1 na linha.
+- **Denominador:** unidades com resposta 1 em 10.29.1.
+
+**Leitura.** Pergunta o que foi feito nos últimos 12 meses, e não o que a unidade poderia fazer: o conjunto das linhas dá o perfil de resolução cirúrgica de primeira linha da unidade.
 
 </details>
 
@@ -455,7 +516,13 @@ Quais dos procedimentos de pequena cirurgia seguintes foram realizados nesta uni
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que realizam procedimentos de grande cirurgia. A distinção entre urgência e electiva, dentro da grande cirurgia, é informação própria do Mapa.
+**Indicador.** Percentagem de unidades sanitárias que realizam procedimentos de grande cirurgia (sob anestesia geral ou regional, em bloco operatório).
+
+- **Numerador:** unidades com resposta 1, 2 ou 3 em 10.29.2.
+- **Denominador:** unidades com resposta 1 em 10.29.
+- **Desagregação:** pelo tipo de grande cirurgia — de urgência e electiva (1), apenas de urgência (2), apenas electiva (3) —, com o mesmo denominador.
+
+**Função no formulário.** Porta encadeada dentro de 10.29. As unidades com resposta 1, 2 ou 3 formam o denominador das salas de operações (10.29.2.1) e da grelha de procedimentos de grande cirurgia (10.29.2.2 a 10.29.2.22), e também dos indicadores de prontidão da grande cirurgia noutras secções (por exemplo, a esterilização, 9.2). As unidades com «Não» (4) saltam para 10.30 e não entram nesses denominadores.
 
 </details>
 
@@ -496,7 +563,17 @@ Realiza procedimentos de grande cirurgia, isto é, efectuados sob anestesia gera
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de salas de operações em condições de utilização em cada unidade — a capacidade instalada de grande cirurgia, agregável por município e por província.
+**Indicadores.**
+
+- **Número de salas de operações em condições de utilização por 100 000 habitantes.**
+  - **Numerador:** soma das respostas a 10.29.2.1 das unidades da área geográfica.
+  - **Denominador:** população da área geográfica (ver 3.1).
+- **Média de salas de operações por unidade com grande cirurgia.**
+  - **Numerador:** soma das respostas a 10.29.2.1.
+  - **Denominador:** unidades com resposta 1, 2 ou 3 em 10.29.2 e com número declarado (excluindo «Não sabe»).
+- **Desagregação:** província e município (2.1 a 2.5), categoria da unidade (2.6).
+
+**Função no formulário.** Lida com a grelha de grande cirurgia (10.29.2.2 a 10.29.2.22) e com a anestesia (12.D.2), distingue a capacidade instalada da capacidade utilizada; uma unidade que declara grande cirurgia e zero salas assinala-se para verificação.
 
 </details>
 
@@ -531,7 +608,19 @@ Número de 00 a 99 · **98** Não sabe
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que realizaram cada procedimento de grande cirurgia nos últimos 12 meses. As três primeiras linhas são os procedimentos de referência — cesariana, laparotomia e fractura exposta —, que medem a capacidade cirúrgica essencial efectiva, porque perguntam o que foi feito e não o que a unidade poderia fazer.
+**Indicadores.**
+
+- **Percentagem de unidades sanitárias que realizaram pelo menos um dos três procedimentos de referência** — cesariana, laparotomia, redução e fixação de fractura exposta de osso longo — nos últimos 12 meses.
+  - **Numerador:** unidades com resposta 1 em pelo menos uma das linhas 10.29.2.2 a 10.29.2.4.
+  - **Denominador:** unidades com resposta 1, 2 ou 3 em 10.29.2.
+- **Percentagem de unidades sanitárias que realizaram os três procedimentos de referência.**
+  - **Numerador:** unidades com resposta 1 nas três linhas 10.29.2.2, 10.29.2.3 e 10.29.2.4.
+  - **Denominador:** unidades com resposta 1, 2 ou 3 em 10.29.2.
+- **Para cada procedimento da grelha (10.29.2.2 a 10.29.2.22):** percentagem de unidades que o realizaram nos últimos 12 meses.
+  - **Numerador:** unidades com resposta 1 na linha. Na cesariana, conta também a resposta 1 na linha 16.2.3.8 (funções-sinal obstétricas).
+  - **Denominador:** unidades com resposta 1, 2 ou 3 em 10.29.2.
+
+**Leitura.** Os três procedimentos de referência perguntam o que foi feito, e não o que a unidade poderia fazer: medem a capacidade cirúrgica essencial efectiva.
 
 </details>
 
@@ -605,7 +694,7 @@ Quais dos procedimentos de grande cirurgia seguintes foram realizados nesta unid
 :::
 
 ::: {.nota .interno}
-**Porque mudou.** Os três procedimentos de referência (antigo 10.29.4) passam a abrir uma grelha com a lista de procedimentos de grande cirurgia, cada um com o seu indicador. Cruzam-se com as salas de operações (10.29.2.1) e com a anestesia (12.D.2).
+**Porque mudou.** Os três procedimentos de referência (antigo 10.29.4) passam a abrir uma grelha com a lista de procedimentos de grande cirurgia, cada um com o seu indicador. Lêem-se com as salas de operações (10.29.2.1) e com a anestesia (12.D.2).
 :::
 
 ## 10.30 a 10.34 · Cirurgia de especialidade [ALTERADO]{.etiqueta .alterado}
@@ -613,7 +702,14 @@ Quais dos procedimentos de grande cirurgia seguintes foram realizados nesta unid
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que realizam procedimentos de cirurgia de especialidade.
+**Indicadores.**
+
+- **Percentagem de unidades sanitárias que realizam cirurgia de especialidade.**
+  - **Numerador:** unidades com resposta 1 em pelo menos uma das linhas 10.30 a 10.34.
+  - **Denominador:** unidades com resposta 1 em 10.29.
+- **Para cada área** — cirurgia pediátrica (10.30), maxilofacial (10.31), vascular (10.32), neurocirurgia (10.33), plástica e de queimados (10.34): percentagem de unidades que realizam procedimentos nessa área.
+  - **Numerador:** unidades com resposta 1 na linha.
+  - **Denominador:** unidades com resposta 1 em 10.29.
 
 </details>
 

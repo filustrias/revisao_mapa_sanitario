@@ -357,7 +357,37 @@ O que esta secção permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>A densidade de oferta de atendimento em cada uma das 28 especialidades da Ficha e na fisioterapia, dentro da área de abrangência da unidade: que especialidades são oferecidas, por quantos especialistas e em quantos turnos de atendimento por semana. Cruzada com a população da área de abrangência (secção 3), permite medir melhor a relação entre a oferta e a demanda de serviços e de especialidades. A forma de acesso — marcação directa ou carta de encaminhamento — mostra onde a especialidade funciona como porta de entrada e onde depende da referência.</p>
+<p><strong>Indicadores.</strong> Para cada especialidade da grelha (10.1 a 10.28) e para a fisioterapia (10.35):</p>
+<ul>
+<li><strong>Percentagem de unidades sanitárias que oferecem atendimento regular na especialidade.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com coluna A = 1 na linha.</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
+</ul></li>
+<li><strong>Número de especialistas que atendem na especialidade por 10 000 habitantes.</strong>
+<ul>
+<li><strong>Numerador:</strong> soma da coluna B das unidades da área geográfica (o código 00 conta zero).</li>
+<li><strong>Denominador:</strong> população da área geográfica (ver 3.1).</li>
+</ul></li>
+<li><strong>Percentagem de unidades em que o atendimento é prestado sem especialista dessa área.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com coluna B = 00 na linha.</li>
+<li><strong>Denominador:</strong> unidades com coluna A = 1 na linha.</li>
+</ul></li>
+<li><strong>Média de turnos de atendimento por semana</strong>, e <strong>número de turnos por semana por 10 000 habitantes.</strong>
+<ul>
+<li><strong>Numerador:</strong> soma da coluna C da linha.</li>
+<li><strong>Denominador:</strong> unidades com coluna A = 1 na linha (média); população da área geográfica, ver 3.1 (densidade).</li>
+</ul></li>
+<li><strong>Percentagem de unidades em que o acesso à especialidade exige carta de encaminhamento.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com coluna D = 2 na linha (a distribuição completa inclui o acesso directo, D = 1, e misto, D = 3).</li>
+<li><strong>Denominador:</strong> unidades com coluna A = 1 na linha.</li>
+</ul></li>
+<li><strong>Desagregação:</strong> categoria da unidade (2.6), província e município (2.1 a 2.5).</li>
+</ul>
+<p><strong>Função no formulário.</strong> A coluna A funciona como salto linha a linha: só com A = 1 se perguntam as colunas B, C e D, e é esse o denominador dos indicadores de dimensão e de acesso. O número de especialistas declarado aqui compara-se com o quadro de pessoal da unidade.</p>
+<p><strong>Leitura.</strong> Com a população da área, mede a relação entre a oferta e a procura de cada especialidade; a coluna D mostra onde a especialidade funciona como porta de entrada e onde depende da referência.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -688,7 +718,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias que prestam algum serviço a sobreviventes de violação, de violência sexual ou por parceiro íntimo, ou a crianças afectadas por maus-tratos. É a porta do bloco 10.E.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades sanitárias que prestam algum serviço a sobreviventes de violação, de violência sexual ou por parceiro íntimo, ou a crianças vítimas de maus-tratos.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta «Sim» (1) em 10.E.0.</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas. A resposta 98 fica no denominador e não conta no numerador.</li>
+</ul>
+<p><strong>Função no formulário.</strong> Define o universo do bloco dos sobreviventes de violência: as unidades com «Sim» formam o denominador dos indicadores de 10.E.1 a 10.E.4. As unidades com «Não» saltam para 10.29 e não entram nesses denominadores; expresso sobre o total das unidades inquiridas, contam como sem o serviço.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -757,7 +792,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias que prestam serviços a sobreviventes de violação ou de violência sexual ou por parceiro íntimo.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades sanitárias que prestam serviços a sobreviventes de violação ou de violência sexual ou por parceiro íntimo.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta «Sim» (1) em 10.E.1.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 10.E.0.</li>
+</ul>
+<p><strong>Função no formulário.</strong> Identifica as unidades a que se dirigem as prestações de 10.E.3 e a condição de acesso de 10.E.4; esses indicadores podem também ler-se só entre as unidades com resposta 1 em 10.E.1.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -808,7 +848,11 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias que prestam serviços a crianças afectadas por maus-tratos.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades sanitárias que prestam serviços a crianças afectadas por maus-tratos.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta «Sim» (1) em 10.E.2.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 10.E.0.</li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -865,7 +909,13 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Que prestações as unidades sanitárias oferecem aos sobreviventes de violação ou de violência por parceiro íntimo — entre elas a profilaxia pós-exposição ao VIH (PEP). Cada linha dá um indicador.</p>
+<p><strong>Indicadores.</strong> Para cada prestação da grelha (linhas 1 a 8 — exame forense, hepatite B, profilaxia pós-exposição ao VIH, contracepção de emergência, tratamento presuntivo de IST, vacina antitetânica, aconselhamento e serviços de interrupção da gravidez): percentagem de unidades sanitárias que oferecem habitualmente a prestação aos sobreviventes de violação ou de violência por parceiro íntimo.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 na linha.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 10.E.0. A resposta 98 fica no denominador e não conta no numerador.</li>
+<li><strong>Desagregação:</strong> as mesmas percentagens entre as unidades com resposta 1 em 10.E.1.</li>
+</ul>
+<p><strong>Leitura.</strong> A linha 3 é a medida da profilaxia pós-exposição ao VIH (PEP) oferecida aos sobreviventes; a PEP fora do contexto da violência mede-se em 17.3.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -974,7 +1024,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se há sempre um profissional de saúde do mesmo sexo do sobrevivente disponível para realizar o exame ou estar presente na sala — uma condição de acesso.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades sanitárias com um profissional de saúde do mesmo sexo do sobrevivente sempre disponível para realizar o exame ou estar presente na sala.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta «Sim» (1) em 10.E.4.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 10.E.0. A resposta 98 fica no denominador e não conta no numerador.</li>
+</ul>
+<p><strong>Leitura.</strong> Não mede uma prestação clínica mas uma condição de acesso: determina se a pessoa chega a ser examinada.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1034,7 +1089,13 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias que realizam algum procedimento cirúrgico, de pequena ou de grande cirurgia. É a porta do bloco da cirurgia (10.29 a 10.34).</p>
+<p><strong>Indicador.</strong> Percentagem de unidades sanitárias que realizam algum procedimento cirúrgico, de pequena ou de grande cirurgia.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta «Sim» (1) em 10.29.</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
+<li><strong>Desagregação:</strong> categoria da unidade (2.6), província e município (2.1 a 2.5).</li>
+</ul>
+<p><strong>Função no formulário.</strong> Define o universo da cirurgia: as unidades com «Sim» formam o denominador de 10.29.1 (pequena cirurgia), de 10.29.2 (grande cirurgia) e da cirurgia de especialidade (10.30 a 10.34). As unidades com «Não» saltam para a secção 11 e não entram nesses denominadores; expresso sobre o total das unidades inquiridas, contam como não realizando nenhum procedimento cirúrgico.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1084,7 +1145,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias que realizam procedimentos de pequena cirurgia.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades sanitárias que realizam procedimentos de pequena cirurgia (sob anestesia local, sem bloco operatório).</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta «Sim» (1) em 10.29.1.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 10.29.</li>
+</ul>
+<p><strong>Função no formulário.</strong> Porta encadeada dentro de 10.29. As unidades com «Sim» formam o denominador da grelha de procedimentos de pequena cirurgia (10.29.1.1 a 10.29.1.12); as unidades com «Não» saltam para 10.29.2 e não entram nesse denominador.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1143,7 +1209,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias que realizaram cada procedimento de pequena cirurgia nos últimos 12 meses — do desbridamento de feridas à cistostomia.</p>
+<p><strong>Indicadores.</strong> Para cada procedimento da grelha (10.29.1.1 a 10.29.1.12), incluindo a circuncisão masculina médica voluntária para prevenção do VIH (10.29.1.12): percentagem de unidades sanitárias que realizaram o procedimento nos últimos 12 meses.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 na linha.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 10.29.1.</li>
+</ul>
+<p><strong>Leitura.</strong> Pergunta o que foi feito nos últimos 12 meses, e não o que a unidade poderia fazer: o conjunto das linhas dá o perfil de resolução cirúrgica de primeira linha da unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1348,7 +1419,13 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias que realizam procedimentos de grande cirurgia. A distinção entre urgência e electiva, dentro da grande cirurgia, é informação própria do Mapa.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades sanitárias que realizam procedimentos de grande cirurgia (sob anestesia geral ou regional, em bloco operatório).</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1, 2 ou 3 em 10.29.2.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 10.29.</li>
+<li><strong>Desagregação:</strong> pelo tipo de grande cirurgia — de urgência e electiva (1), apenas de urgência (2), apenas electiva (3) —, com o mesmo denominador.</li>
+</ul>
+<p><strong>Função no formulário.</strong> Porta encadeada dentro de 10.29. As unidades com resposta 1, 2 ou 3 formam o denominador das salas de operações (10.29.2.1) e da grelha de procedimentos de grande cirurgia (10.29.2.2 a 10.29.2.22), e também dos indicadores de prontidão da grande cirurgia noutras secções (por exemplo, a esterilização, 9.2). As unidades com «Não» (4) saltam para 10.30 e não entram nesses denominadores.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1409,7 +1486,21 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Número de salas de operações em condições de utilização em cada unidade — a capacidade instalada de grande cirurgia, agregável por município e por província.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li><strong>Número de salas de operações em condições de utilização por 100 000 habitantes.</strong>
+<ul>
+<li><strong>Numerador:</strong> soma das respostas a 10.29.2.1 das unidades da área geográfica.</li>
+<li><strong>Denominador:</strong> população da área geográfica (ver 3.1).</li>
+</ul></li>
+<li><strong>Média de salas de operações por unidade com grande cirurgia.</strong>
+<ul>
+<li><strong>Numerador:</strong> soma das respostas a 10.29.2.1.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1, 2 ou 3 em 10.29.2 e com número declarado (excluindo «Não sabe»).</li>
+</ul></li>
+<li><strong>Desagregação:</strong> província e município (2.1 a 2.5), categoria da unidade (2.6).</li>
+</ul>
+<p><strong>Função no formulário.</strong> Lida com a grelha de grande cirurgia (10.29.2.2 a 10.29.2.22) e com a anestesia (12.D.2), distingue a capacidade instalada da capacidade utilizada; uma unidade que declara grande cirurgia e zero salas assinala-se para verificação.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1436,7 +1527,25 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias que realizaram cada procedimento de grande cirurgia nos últimos 12 meses. As três primeiras linhas são os procedimentos de referência — cesariana, laparotomia e fractura exposta —, que medem a capacidade cirúrgica essencial efectiva, porque perguntam o que foi feito e não o que a unidade poderia fazer.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li><strong>Percentagem de unidades sanitárias que realizaram pelo menos um dos três procedimentos de referência</strong> — cesariana, laparotomia, redução e fixação de fractura exposta de osso longo — nos últimos 12 meses.
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 em pelo menos uma das linhas 10.29.2.2 a 10.29.2.4.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1, 2 ou 3 em 10.29.2.</li>
+</ul></li>
+<li><strong>Percentagem de unidades sanitárias que realizaram os três procedimentos de referência.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 nas três linhas 10.29.2.2, 10.29.2.3 e 10.29.2.4.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1, 2 ou 3 em 10.29.2.</li>
+</ul></li>
+<li><strong>Para cada procedimento da grelha (10.29.2.2 a 10.29.2.22):</strong> percentagem de unidades que o realizaram nos últimos 12 meses.
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 na linha. Na cesariana, conta também a resposta 1 na linha 16.2.3.8 (funções-sinal obstétricas).</li>
+<li><strong>Denominador:</strong> unidades com resposta 1, 2 ou 3 em 10.29.2.</li>
+</ul></li>
+</ul>
+<p><strong>Leitura.</strong> Os três procedimentos de referência perguntam o que foi feito, e não o que a unidade poderia fazer: medem a capacidade cirúrgica essencial efectiva.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1758,7 +1867,7 @@ O que este quesito permite medir
 </table>
 </div>
 <div class="nota interno">
-<p><strong>Porque mudou.</strong> Os três procedimentos de referência (antigo 10.29.4) passam a abrir uma grelha com a lista de procedimentos de grande cirurgia, cada um com o seu indicador. Cruzam-se com as salas de operações (10.29.2.1) e com a anestesia (12.D.2).</p>
+<p><strong>Porque mudou.</strong> Os três procedimentos de referência (antigo 10.29.4) passam a abrir uma grelha com a lista de procedimentos de grande cirurgia, cada um com o seu indicador. Lêem-se com as salas de operações (10.29.2.1) e com a anestesia (12.D.2).</p>
 </div>
 </section>
 <section id="a-10.34-cirurgia-de-especialidade-alterado" class="level2">
@@ -1767,7 +1876,19 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias que realizam procedimentos de cirurgia de especialidade.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li><strong>Percentagem de unidades sanitárias que realizam cirurgia de especialidade.</strong>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 em pelo menos uma das linhas 10.30 a 10.34.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 10.29.</li>
+</ul></li>
+<li><strong>Para cada área</strong> — cirurgia pediátrica (10.30), maxilofacial (10.31), vascular (10.32), neurocirurgia (10.33), plástica e de queimados (10.34): percentagem de unidades que realizam procedimentos nessa área.
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 na linha.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 10.29.</li>
+</ul></li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>

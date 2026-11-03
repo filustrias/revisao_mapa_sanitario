@@ -49,7 +49,13 @@ Serviço de farmácia, quem dispensa os medicamentos, e a lista de produtos farm
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com serviço de farmácia em funcionamento.
+**Indicador.** Percentagem de unidades sanitárias com serviço de farmácia em funcionamento.
+
+- **Numerador:** opção 1 em 13.1.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6) e província.
+
+**Função no formulário.** Define o universo de 13.2: só as unidades com farmácia em funcionamento respondem aos dias de funcionamento. As unidades sem farmácia continuam a responder a 13.3 e à lista de produtos, porque os medicamentos podem ser dispensados na própria consulta.
 
 </details>
 
@@ -87,7 +93,14 @@ Existe nesta unidade sanitária um serviço de farmácia em funcionamento?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de dias por semana em que a farmácia está aberta, nas unidades que a têm — o acesso efectivo aos medicamentos.
+**Indicadores.**
+
+- Média de dias por semana de funcionamento da farmácia, entre as unidades com farmácia.
+- Percentagem de unidades com farmácia aberta todos os dias da semana (7 dias).
+  - **Numerador:** 13.2 = 7.
+  - **Denominador:** unidades com opção 1 em 13.1.
+
+**Leitura.** Uma farmácia aberta poucos dias por semana limita o acesso aos medicamentos mesmo quando o stock existe.
 
 </details>
 
@@ -116,7 +129,14 @@ Número de 0 a 7 · **98** Não sabe
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Que profissional dispensa habitualmente os medicamentos em cada unidade — onde a dispensa depende de pessoal sem formação em farmácia.
+**Indicadores.**
+
+- Distribuição das unidades sanitárias pelo profissional que dispensa habitualmente os medicamentos.
+- Percentagem de unidades em que a dispensa é feita por farmacêutico ou técnico de farmácia.
+  - **Numerador:** opção 1 em 13.3.
+  - **Denominador:** unidades que dispensam medicamentos (todas as unidades, excepto as com opção 97).
+
+**Leitura.** Mostra onde a dispensa depende de pessoal sem formação em farmácia — enfermeiros, outros profissionais ou pessoal não clínico.
 
 </details>
 
@@ -160,7 +180,14 @@ Quem dispensa habitualmente os medicamentos aos utentes nesta unidade sanitária
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que armazenam algum medicamento, vacina ou contraceptivo. É a porta da lista de produtos farmacêuticos.
+**Indicador.** Percentagem de unidades sanitárias que armazenam algum medicamento, vacina ou contraceptivo.
+
+- **Numerador:** unidades com «Sim» em 13.4.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+
+**Indicadores compostos**, calculados com as grelhas 13.5 a 13.31 sobre os produtos da lista de medicamentos essenciais traçadores: percentagem média de produtos traçadores disponíveis e dentro da validade por unidade; e percentagem de unidades com todos os produtos traçadores disponíveis. Numerador: código 1 da escala A; denominador: todas as unidades inquiridas.
+
+**Função no formulário.** Abre a lista de produtos farmacêuticos. As unidades com «Não» saltam as grelhas 13.5 a 13.31 e contam, nos indicadores de disponibilidade, como unidades sem nenhum dos produtos.
 
 </details>
 
@@ -201,7 +228,13 @@ Este estabelecimento armazena algum medicamento, vacina ou contraceptivo?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada medicamento do grupo «Anti-infecciosos e antiparasitários» disponível — 28 produtos.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.5.1 a 13.5.28): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 contam como unidades sem o produto.
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -298,7 +331,13 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada medicamento do grupo «Respiratório» disponível — 5 produtos.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.6.1 a 13.6.5): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 contam como unidades sem o produto.
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -346,7 +385,13 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada medicamento do grupo «Cardiovascular» disponível — 9 produtos.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.7.1 a 13.7.9): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 contam como unidades sem o produto.
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -402,7 +447,13 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada medicamento do grupo «Diabetes» disponível — 8 produtos.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.8.1 a 13.8.8): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 contam como unidades sem o produto.
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -457,7 +508,13 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada medicamento do grupo «Cancro» disponível — 4 produtos.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.9.1 a 13.9.4): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 contam como unidades sem o produto.
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -500,7 +557,13 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada medicamento do grupo «Outros e gerais» disponível — 51 produtos.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.10.1 a 13.10.51): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 contam como unidades sem o produto.
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -648,7 +711,13 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada medicamento do grupo «Saúde mental e neurologia» disponível — 21 produtos.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.11.1 a 13.11.21): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 contam como unidades sem o produto.
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -728,7 +797,13 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada medicamento do grupo «Materno-neonatal» disponível — 9 produtos.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.12.1 a 13.12.9): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 contam como unidades sem o produto.
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -785,7 +860,12 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades com ocitocina disponível que a guardam em frio — a ocitocina perde potência fora da cadeia de frio e é o uterotónico de primeira linha na hemorragia pós-parto.
+**Indicador.** Percentagem de unidades com ocitocina que a guardam em frio.
+
+- **Numerador:** «Sim» em 13.13.
+- **Denominador:** unidades com código 1, 2 ou 3 na linha da ocitocina (13.12.9).
+
+**Leitura.** A ocitocina perde potência fora da cadeia de frio e é o uterotónico de primeira linha na hemorragia pós-parto: uma unidade que a tem mas não a guarda em frio pode não dispor, de facto, de um uterotónico eficaz.
 
 </details>
 
@@ -817,7 +897,13 @@ A ocitocina está guardada em frio?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada medicamento do grupo «Medicamentos para anestesia» disponível — 11 produtos.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.14.1 a 13.14.11): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 contam como unidades sem o produto.
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -874,7 +960,13 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada medicamento do grupo «Fluidos intravenosos» disponível — 5 produtos.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.15.1 a 13.15.5): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 contam como unidades sem o produto.
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -919,7 +1011,12 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que armazenam produtos do grupo «Antimaláricos». É a porta do bloco.
+**Indicador.** Percentagem de unidades sanitárias que armazenam produtos do grupo «Antimaláricos».
+
+- **Numerador:** «Sim» em 13.16.
+- **Denominador:** unidades com «Sim» em 13.4.
+
+**Função no formulário.** Define o universo do bloco: só as unidades com «Sim» respondem à grelha seguinte, e são o denominador da leitura «entre as unidades que armazenam estes produtos». As unidades com «Não» saltam para 13.19 e contam como unidades sem nenhum destes produtos.
 
 </details>
 
@@ -951,7 +1048,17 @@ Este estabelecimento armazena algum medicamento para o tratamento da malária?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada produto do grupo «Antimaláricos — primeira linha» disponível — 4 produtos, e percentagem que teve ruptura de stock nos últimos 3 meses.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.17.1 a 13.17.4): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 ou em 13.16 contam como unidades sem o produto.
+  - **Leitura complementar:** a mesma percentagem entre as unidades com «Sim» em 13.16, que mede a completude do stock onde este bloco de produtos existe.
+- **Para cada produto com coluna B:** percentagem de unidades com ruptura de stock nos últimos 3 meses.
+  - **Numerador:** B = 1.
+  - **Denominador:** unidades com código 1 ou 3 na coluna A desse produto (as que responderam à coluna B).
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -996,7 +1103,17 @@ Algum dos medicamentos para a malária seguintes está disponível hoje no estab
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada produto do grupo «Antimaláricos — outros» disponível — 14 produtos, e percentagem que teve ruptura de stock nos últimos 3 meses.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.18.1 a 13.18.14): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 ou em 13.16 contam como unidades sem o produto.
+  - **Leitura complementar:** a mesma percentagem entre as unidades com «Sim» em 13.16, que mede a completude do stock onde este bloco de produtos existe.
+- **Para cada produto com coluna B:** percentagem de unidades com ruptura de stock nos últimos 3 meses.
+  - **Numerador:** B = 1.
+  - **Denominador:** unidades com código 1 ou 3 na coluna A desse produto (as que responderam à coluna B).
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -1061,7 +1178,12 @@ Algum dos outros medicamentos para a malária seguintes está disponível hoje n
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que armazenam produtos do grupo «Anti-tuberculose». É a porta do bloco.
+**Indicador.** Percentagem de unidades sanitárias que armazenam produtos do grupo «Anti-tuberculose».
+
+- **Numerador:** «Sim» em 13.19.
+- **Denominador:** unidades com «Sim» em 13.4.
+
+**Função no formulário.** Define o universo do bloco: só as unidades com «Sim» respondem à grelha seguinte, e são o denominador da leitura «entre as unidades que armazenam estes produtos». As unidades com «Não» saltam para 13.21 e contam como unidades sem nenhum destes produtos.
 
 </details>
 
@@ -1093,7 +1215,18 @@ Este estabelecimento armazena algum medicamento para o tratamento da tuberculose
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada produto do grupo «Anti-tuberculose» disponível — 15 produtos, e percentagem que teve ruptura de stock nos últimos 3 meses.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.20.1 a 13.20.15): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 ou em 13.19 contam como unidades sem o produto.
+  - **Leitura complementar:** a mesma percentagem entre as unidades com «Sim» em 13.19, que mede a completude do stock onde este bloco de produtos existe.
+- **Para cada produto com coluna B:** percentagem de unidades com ruptura de stock nos últimos 3 meses.
+  - **Numerador:** B = 1.
+  - **Denominador:** unidades com código 1 ou 3 na coluna A desse produto (as que responderam à coluna B).
+- **Para cada produto com coluna C:** distribuição das unidades pela duração da ruptura nas últimas 4 semanas (menos de 7 dias, 7 a 14 dias, mais de 14 dias), entre as unidades que responderam à coluna C.
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -1160,7 +1293,12 @@ Algum dos medicamentos para a tuberculose seguintes está disponível hoje no es
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que armazenam produtos do grupo «Antirretrovirais». É a porta do bloco.
+**Indicador.** Percentagem de unidades sanitárias que armazenam produtos do grupo «Antirretrovirais».
+
+- **Numerador:** «Sim» em 13.21.
+- **Denominador:** unidades com «Sim» em 13.4.
+
+**Função no formulário.** Define o universo do bloco: só as unidades com «Sim» respondem à grelha seguinte, e são o denominador da leitura «entre as unidades que armazenam estes produtos». As unidades com «Não» saltam para 13.24 e contam como unidades sem nenhum destes produtos.
 
 </details>
 
@@ -1192,7 +1330,9 @@ Este estabelecimento armazena algum medicamento antirretroviral (ARV) para a pre
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Onde estão guardados estes produtos. No desenho do instrumento internacional, só continua o bloco quem os guarda na farmácia principal.
+**Uso.** Local do armazém principal destes produtos: percentagem de unidades que os guardam na farmácia principal (numerador: opção 1; denominador: unidades com «Sim» na porta do bloco).
+
+**Função no formulário.** Só as unidades com a opção 1 respondem à grelha seguinte; as que guardam os produtos noutro local saltam para 13.24.
 
 </details>
 
@@ -1224,7 +1364,14 @@ Onde é o armazém principal destes produtos?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada produto do grupo «Antirretrovirais» disponível — 20 produtos.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.23.1 a 13.23.20): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 ou em 13.21 contam como unidades sem o produto.
+  - **Leitura complementar:** a mesma percentagem entre as unidades com «Sim» em 13.21, que mede a completude do stock onde este bloco de produtos existe.
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -1301,7 +1448,12 @@ Algum dos ARV seguintes está disponível hoje neste estabelecimento?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que armazenam produtos do grupo «Inibidores da protease e da integrase». É a porta do bloco.
+**Indicador.** Percentagem de unidades sanitárias que armazenam produtos do grupo «Inibidores da protease e da integrase».
+
+- **Numerador:** «Sim» em 13.24.
+- **Denominador:** unidades com «Sim» em 13.4.
+
+**Função no formulário.** Define o universo do bloco: só as unidades com «Sim» respondem à grelha seguinte, e são o denominador da leitura «entre as unidades que armazenam estes produtos». As unidades com «Não» saltam para 13.27 e contam como unidades sem nenhum destes produtos.
 
 </details>
 
@@ -1333,7 +1485,9 @@ Este estabelecimento armazena algum inibidor da protease para o tratamento do VI
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Onde estão guardados estes produtos. No desenho do instrumento internacional, só continua o bloco quem os guarda na farmácia principal.
+**Uso.** Local do armazém principal destes produtos: percentagem de unidades que os guardam na farmácia principal (numerador: opção 1; denominador: unidades com «Sim» na porta do bloco).
+
+**Função no formulário.** Só as unidades com a opção 1 respondem à grelha seguinte; as que guardam os produtos noutro local saltam para 13.27.
 
 </details>
 
@@ -1365,7 +1519,14 @@ Onde é o armazém principal destes produtos?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada produto do grupo «Inibidores da protease e da integrase» disponível — 12 produtos.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.26.1 a 13.26.12): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 ou em 13.24 contam como unidades sem o produto.
+  - **Leitura complementar:** a mesma percentagem entre as unidades com «Sim» em 13.24, que mede a completude do stock onde este bloco de produtos existe.
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -1424,7 +1585,12 @@ Algum dos inibidores da protease seguintes está disponível hoje neste estabele
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que armazenam produtos do grupo «Planeamento familiar». É a porta do bloco.
+**Indicador.** Percentagem de unidades sanitárias que armazenam produtos do grupo «Planeamento familiar».
+
+- **Numerador:** «Sim» em 13.27.
+- **Denominador:** unidades com «Sim» em 13.4.
+
+**Função no formulário.** Define o universo do bloco: só as unidades com «Sim» respondem à grelha seguinte, e são o denominador da leitura «entre as unidades que armazenam estes produtos». As unidades com «Não» saltam para 13.30 e contam como unidades sem nenhum destes produtos.
 
 </details>
 
@@ -1456,7 +1622,9 @@ Este estabelecimento armazena algum produto de planeamento familiar ou contracep
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Onde estão guardados estes produtos. No desenho do instrumento internacional, só continua o bloco quem os guarda na farmácia principal.
+**Uso.** Local do armazém principal destes produtos: percentagem de unidades que os guardam na farmácia principal (numerador: opção 1; denominador: unidades com «Sim» na porta do bloco).
+
+**Função no formulário.** Só as unidades com a opção 1 respondem à grelha seguinte; as que guardam os produtos noutro local saltam para 13.30.
 
 </details>
 
@@ -1488,7 +1656,17 @@ Onde é o armazém principal destes produtos?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada produto do grupo «Planeamento familiar» disponível — 10 produtos, e percentagem que teve ruptura de stock nos últimos 3 meses.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.29.1 a 13.29.10): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 ou em 13.27 contam como unidades sem o produto.
+  - **Leitura complementar:** a mesma percentagem entre as unidades com «Sim» em 13.27, que mede a completude do stock onde este bloco de produtos existe.
+- **Para cada produto com coluna B:** percentagem de unidades com ruptura de stock nos últimos 3 meses.
+  - **Numerador:** B = 1.
+  - **Denominador:** unidades com código 1 ou 3 na coluna A desse produto (as que responderam à coluna B).
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 
@@ -1545,7 +1723,12 @@ Algum dos produtos de planeamento familiar seguintes está disponível hoje nest
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias que armazenam produtos do grupo «Suplementos nutricionais para a malnutrição». É a porta do bloco.
+**Indicador.** Percentagem de unidades sanitárias que armazenam produtos do grupo «Suplementos nutricionais para a malnutrição».
+
+- **Numerador:** «Sim» em 13.30.
+- **Denominador:** unidades com «Sim» em 13.4.
+
+**Função no formulário.** Define o universo do bloco: só as unidades com «Sim» respondem à grelha seguinte, e são o denominador da leitura «entre as unidades que armazenam estes produtos». As unidades com «Não» saltam para 13.32 e contam como unidades sem nenhum destes produtos.
 
 </details>
 
@@ -1577,7 +1760,14 @@ Há neste estabelecimento algum suplemento nutricional para a malnutrição?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades sanitárias com cada produto do grupo «Suplementos nutricionais para a malnutrição» disponível — 4 produtos.
+**Indicadores.**
+
+- **Para cada produto da grelha** (13.31.1 a 13.31.4): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+  - **Numerador:** código 1 da escala A na linha do produto.
+  - **Denominador:** todas as unidades sanitárias inquiridas — as unidades com «Não» em 13.4 ou em 13.30 contam como unidades sem o produto.
+  - **Leitura complementar:** a mesma percentagem entre as unidades com «Sim» em 13.30, que mede a completude do stock onde este bloco de produtos existe.
+
+**Leitura.** A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.
 
 </details>
 

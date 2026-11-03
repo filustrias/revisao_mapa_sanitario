@@ -26,7 +26,13 @@ Propriedade e entidade gestora da unidade, orçamento próprio, serviços e órg
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Distribuição das unidades sanitárias por tipo de proprietário, e leitura de todos os indicadores por essa via. A proposta separa a rede confessional das organizações não governamentais e dá lugar às instituições públicas que não pertencem ao Serviço Nacional de Saúde.
+**Indicador.** Distribuição percentual das unidades sanitárias por tipo de proprietário.
+
+- **Numerador:** unidades com cada opção de resposta em 19.1.1 (1 a 6 e 96).
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6) e província.
+
+**Função no formulário.** Variável de desagregação de todos os indicadores do formulário: permite ler cada um separadamente para a rede do Serviço Nacional de Saúde, para a rede pública fora dele, para a rede confessional, para as organizações não governamentais e para o sector privado lucrativo.
 
 </details>
 
@@ -72,7 +78,13 @@ A quem pertence esta unidade sanitária, isto é, quem é o proprietário das in
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Distribuição das unidades sanitárias pelo nível que as gere — Ministério, Direcção Provincial ou Administração Municipal —, e leitura de todos os indicadores por essa via. Saber que nível administra cada unidade é condição para ligar a unidade ao orçamento que a financia.
+**Indicador.** Distribuição percentual das unidades sanitárias pela entidade responsável pela gestão corrente.
+
+- **Numerador:** unidades com cada opção de resposta em 19.1.2 (1 a 5 e 96).
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6) e província.
+
+**Função no formulário.** Variável de desagregação de todos os indicadores, em particular para separar a rede gerida pelo nível provincial da gerida pelo nível municipal. Lida com 19.1.1, mostra as unidades em que a gestão não coincide com a propriedade.
 
 </details>
 
@@ -149,7 +161,21 @@ Esta unidade sanitária tem orçamento próprio?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Que serviços e órgãos de gestão existem em cada unidade sanitária e quais estiveram de facto a funcionar nos últimos 3 meses. A diferença entre «existe» e «funcionou» mostra onde o órgão existe no papel sem actividade.
+**Indicadores.** Para cada serviço ou órgão da grelha (19.2.1 a 19.2.17):
+
+- Percentagem de unidades sanitárias em que o serviço ou órgão existe.
+- Percentagem de unidades sanitárias em que existe e funcionou nos últimos 3 meses.
+- Proporção dos serviços ou órgãos existentes que funcionaram nos últimos 3 meses.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1 ou 2 na linha (existe); unidades com resposta 1 (existe e funcionou).
+- **Denominador:** todas as unidades sanitárias inquiridas; para a proporção dos que funcionaram, unidades com resposta 1 ou 2 na linha.
+- **Desagregação:** categoria da unidade (2.6), sobretudo para as comissões, que se esperam nos hospitais.
+
+**Função no formulário.** As linhas 19.2.13 (comissão de infecções) e 19.2.14 (comissão de óbitos) lêem-se com os blocos de actividade correspondentes, 19.2.13.1–19.2.13.2 e 19.2.14.1–19.2.14.4: a actividade pode existir sem o órgão constituído, e o órgão sem actividade.
+
+A diferença entre «existe» e «funcionou» mostra onde o órgão existe no papel sem actividade.
 
 </details>
 
@@ -210,7 +236,19 @@ Vou ler uma lista de serviços e órgãos de gestão. Para cada um, diga-me se e
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se as unidades com internamento revêem formalmente os óbitos — qualquer óbito, os maternos, os neonatais e os ocorridos nas 24 horas seguintes a uma intervenção cirúrgica — e se fizeram de facto alguma revisão nos últimos 3 meses.
+**Indicadores.**
+
+- Para cada tipo de óbito da grelha: percentagem de unidades com internamento que fazem revisão formal desses óbitos — qualquer óbito (19.2.14.1), materno (19.2.14.2), neonatal (19.2.14.3), nas 24 horas seguintes a uma intervenção cirúrgica (19.2.14.4).
+- Percentagem de unidades com internamento que realizaram alguma revisão formal de óbito nos últimos 3 meses.
+- Para cada tipo de óbito: percentagem de unidades com internamento que realizaram revisão desse tipo de óbito nos últimos 3 meses.
+
+<!-- -->
+
+- **Numerador:** por tipo, unidades com coluna A = 1 na linha; para a revisão recente, unidades com coluna B = 1 em qualquer linha; por tipo, coluna B = 1 na linha.
+- **Denominador:** unidades com resposta 1 em 8.1 (internamento). Para a linha 19.2.14.4, unidades com resposta 1 em 8.1 e grande cirurgia (resposta 1, 2 ou 3 em 10.29.2).
+- **Desagregação:** categoria da unidade (2.6).
+
+**Função no formulário.** O bloco só se faz nas unidades com «Sim» em 8.1. A resposta 3 (não houve óbito desse tipo) deixa a coluna B em branco; quando a linha 19.2.14.1 é 3, as restantes linhas ficam por preencher e contam como «não houve».
 
 </details>
 
@@ -259,7 +297,19 @@ Para cada tipo de óbito seguinte, diga-me (A) se esta unidade sanitária faz re
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Unidades com comissão técnica de prevenção e controlo de infecções, unidades com reuniões multidisciplinares que analisam os resultados de prevenção e controlo de infecções, e há quanto tempo foi a reunião mais recente. O denominador é o conjunto de todas as unidades, por isso o bloco é feito a todas.
+**Indicadores.**
+
+- Percentagem de unidades sanitárias com comissão técnica de prevenção e controlo de infecções.
+- Percentagem de unidades sanitárias com reuniões multidisciplinares em que se analisam os resultados de prevenção e controlo de infecções.
+- Percentagem de unidades sanitárias com reunião de análise da prevenção e controlo de infecções nos últimos 6 meses.
+
+<!-- -->
+
+- **Numerador:** unidades com coluna A = 1 em 19.2.13.1 (comissão); com coluna A = 1 em 19.2.13.2 (reuniões); com coluna B = 1, 2 ou 3 em qualquer das duas linhas (reunião nos últimos 6 meses).
+- **Denominador:** todas as unidades sanitárias inquiridas — o bloco é feito a todas.
+- **Desagregação:** categoria da unidade (2.6).
+
+**Função no formulário.** A coluna B só se pergunta nas linhas com A = 1; as unidades sem comissão e sem reuniões contam como não tendo reunião recente.
 
 </details>
 
@@ -301,7 +351,13 @@ Vou perguntar sobre a estrutura de gestão da prevenção e controlo de infecç�
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se cada unidade sanitária tem actividades de rotina de garantia de qualidade. É a porta do bloco 19.2.18.1 a 19.2.18.9: a actividade, não a comissão. O denominador é o conjunto de todas as unidades.
+**Indicador.** Percentagem de unidades sanitárias que realizam rotineiramente actividades de garantia de qualidade em alguma área de serviço.
+
+- **Numerador:** unidades com resposta 1 (Sim) em 19.2.18.1.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6) e província.
+
+**Função no formulário.** Porta do bloco da garantia de qualidade. As unidades com «Sim» formam o denominador de 19.2.18.2 a 19.2.18.9 (âmbito, comissão, documentação, ponto focal, formação e apoio externo). As unidades com «Não» terminam o bloco e não entram nesses denominadores; quando algum desses indicadores se exprime sobre toda a rede, contam como unidades que não têm o elemento medido.
 
 </details>
 
@@ -339,7 +395,16 @@ Esta unidade sanitária realiza rotineiramente actividades de garantia de qualid
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se as actividades de garantia de qualidade abrangem toda a unidade ou apenas alguns serviços — e, neste caso, quais.
+**Indicadores.**
+
+- Percentagem de unidades com actividades de garantia de qualidade aplicadas em toda a unidade.
+- Percentagem de unidades com actividades de garantia de qualidade apenas em serviços específicos.
+- Para cada serviço da grelha (19.2.18.2.2 a 19.2.18.2.10): percentagem de unidades com actividades de garantia de qualidade que as aplicam nesse serviço.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1 em 19.2.18.2.1 (toda a unidade); com resposta 2 em 19.2.18.2.1 e resposta 1 em pelo menos uma das linhas 19.2.18.2.2 a 19.2.18.2.10 (serviços específicos); por serviço, resposta 1 na linha do serviço ou resposta 1 em 19.2.18.2.1.
+- **Denominador:** unidades com resposta 1 em 19.2.18.1.
 
 </details>
 
@@ -389,7 +454,12 @@ Essas actividades de garantia de qualidade são aplicadas em toda a unidade? Se 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se a unidade sanitária tem uma comissão de garantia de qualidade.
+**Indicador.** Percentagem de unidades com actividades de garantia de qualidade que têm comissão de garantia de qualidade.
+
+- **Numerador:** unidades com resposta 1 (Sim) em 19.2.18.3.
+- **Denominador:** unidades com resposta 1 em 19.2.18.1.
+
+**Função no formulário.** As unidades com «Sim» formam o denominador da frequência das reuniões (19.2.18.4) e da reunião mais recente (19.2.18.5). As unidades com «Não» passam a 19.2.18.6.
 
 </details>
 
@@ -423,7 +493,12 @@ Esta unidade sanitária tem uma comissão de garantia de qualidade?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Com que periodicidade se reúne a comissão de garantia de qualidade.
+**Indicador.** Percentagem de comissões de garantia de qualidade que se reúnem pelo menos a cada 3 meses.
+
+- **Numerador:** unidades com resposta 1 ou 2 em 19.2.18.4. A distribuição completa das opções 1 a 4 mostra a periodicidade das reuniões.
+- **Denominador:** unidades com resposta 1 em 19.2.18.3.
+
+**Função no formulário.** Lê-se com 19.2.18.5: uma comissão declarada como mensal cuja reunião mais recente foi há mais de 6 meses é uma inconsistência a verificar.
 
 </details>
 
@@ -457,7 +532,15 @@ Com que frequência se reúne essa comissão?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se a comissão de garantia de qualidade se reuniu nos últimos 3 meses.
+**Indicadores.**
+
+- Percentagem de unidades com actividades de garantia de qualidade cuja comissão de garantia de qualidade se reuniu nos últimos 3 meses.
+- Proporção das comissões de garantia de qualidade que se reuniram nos últimos 3 meses.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1 em 19.2.18.3 e resposta 1 ou 2 em 19.2.18.5.
+- **Denominador:** unidades com resposta 1 em 19.2.18.1 (primeiro indicador); unidades com resposta 1 em 19.2.18.3 (proporção das comissões).
 
 </details>
 
@@ -493,7 +576,12 @@ Quando foi a reunião mais recente dessa comissão?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se existe documentação que mostre que a informação de garantia de qualidade é analisada.
+**Indicador.** Percentagem de unidades com actividades de garantia de qualidade em que existe documentação, verificada pelo inquiridor, de que a informação de garantia de qualidade é analisada.
+
+- **Numerador:** unidades com resposta 1 (Sim, observado) em 19.2.18.6. Somando a resposta 2 obtém-se a existência declarada.
+- **Denominador:** unidades com resposta 1 em 19.2.18.1.
+
+A diferença entre a documentação observada e a apenas referida separa o sistema que funciona do sistema declarado.
 
 </details>
 
@@ -532,7 +620,10 @@ O quesito **19.2.18.6** é o que separa um sistema real de um sistema declarado:
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se a unidade sanitária tem um ponto focal para melhoria da qualidade e segurança do doente.
+**Indicador.** Percentagem de unidades com actividades de garantia de qualidade que têm ponto focal para a melhoria da qualidade e a segurança do doente.
+
+- **Numerador:** unidades com resposta 1 (Sim) em 19.2.18.7.
+- **Denominador:** unidades com resposta 1 em 19.2.18.1.
 
 </details>
 
@@ -562,7 +653,10 @@ Esta unidade sanitária tem um ponto focal para melhoria da qualidade e seguran�
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se algum profissional da unidade recebeu formação em melhoria da qualidade ou em segurança do doente nos últimos 2 anos.
+**Indicador.** Percentagem de unidades com actividades de garantia de qualidade em que algum profissional recebeu formação em melhoria da qualidade ou segurança do doente nos últimos 2 anos.
+
+- **Numerador:** unidades com resposta 1 (Sim) em 19.2.18.8.
+- **Denominador:** unidades com resposta 1 em 19.2.18.1.
 
 </details>
 
@@ -592,7 +686,11 @@ O senhor, ou algum profissional desta unidade, recebeu formação em melhoria da
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se a unidade sanitária recebe apoio de parceiros externos para garantia ou melhoria da qualidade.
+**Indicador.** Percentagem de unidades com actividades de garantia de qualidade que recebem apoio de parceiros externos para a garantia ou melhoria da qualidade.
+
+- **Numerador:** unidades com resposta 1 (Sim) em 19.2.18.9.
+- **Denominador:** unidades com resposta 1 em 19.2.18.1.
+- **Desagregação:** província.
 
 </details>
 
@@ -626,7 +724,12 @@ Esta unidade sanitária recebe apoio de parceiros externos na implementação de
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Nesta ronda, nada além do que já dá a lista de três níveis. Os dois blocos parqueados mediriam: a cadeia de arquivo, registo e reporte de dados; e a equipa de gestão — equipa ou comissão de gestão que se reuniu nos últimos 3 meses, sistema de rotina de participação da comunidade nas decisões de gestão, plano operacional escrito e referência ao plano nas reuniões.
+**Uso.** Bloco parqueado: nesta ronda não produz indicador próprio. As linhas 19.2.1, 19.2.2, 19.2.6 e 19.2.10 da lista de três níveis dão apenas a existência e o funcionamento desses serviços.
+
+**Indicadores previstos, se os blocos entrarem nesta ronda.**
+
+- Equipa de gestão: percentagem de unidades com equipa ou comissão de gestão que se reuniu nos últimos 3 meses; com sistema de rotina de participação da comunidade nas decisões de gestão; com plano operacional escrito; em que as reuniões de gestão se referem ao plano operacional.
+- Cadeia de arquivo e reporte: percentagem de unidades em que os relatórios de rotina são introduzidos num sistema electrónico; guardados num servidor da unidade; guardados num servidor externo.
 
 </details>
 

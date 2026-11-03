@@ -28,7 +28,15 @@ VIH — testagem, profilaxia pré-exposição ao VIH (PrEP) e profilaxia pós-ex
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que oferecem quaisquer serviços de aconselhamento e testagem do VIH. É a porta do bloco do VIH. Na lista geral de serviços disponíveis, a mesma caixa dá dois indicadores: quaisquer serviços de VIH e testagem do VIH.
+**Indicador.** Percentagem de unidades sanitárias que oferecem aconselhamento e testagem do VIH.
+
+- **Numerador:** unidades com resposta 1 (Sim) em 17.1.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província, município e zona (2.11).
+
+A mesma resposta entra no indicador de unidades com capacidade de diagnóstico do VIH, que se cumpre também pelo teste rápido do VIH ou pelo autoteste em 12.C.0.
+
+**Função no formulário.** Porta do bloco da testagem e da profilaxia do VIH. As unidades com «Sim» formam o denominador da testagem por grupo de idade (17.1.1), da profilaxia pré-exposição (17.2.1 e, através dela, 17.2.2 a 17.2.6) e da profilaxia pós-exposição (17.3.1 a 17.3.3). As unidades com «Não» saltam para 17.4 e não entram nesses denominadores; quando algum desses indicadores se exprime sobre toda a rede, contam como unidades que não oferecem o serviço.
 
 </details>
 
@@ -73,7 +81,15 @@ A caixa da Ficha fica como está e rende três indicadores. Articula-se com o la
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que oferecem testagem do VIH a cada grupo de idade. Cinco indicadores: os três grupos na tabela da testagem, e as duas idades pediátricas também na subárea do VIH pediátrico. Com a porta 17.1, fica completo o conjunto da testagem do VIH.
+**Indicador.** Para cada grupo de idade da grelha: percentagem de unidades sanitárias que oferecem testagem do VIH a esse grupo — crianças menores de 5 anos (17.1.1.1), crianças de 5 a 14 anos (17.1.1.2), adolescentes e adultos (17.1.1.3).
+
+- **Numerador:** unidades com resposta 1 (Sim) na linha do grupo.
+- **Denominador:** unidades com resposta 1 em 17.1.
+- **Desagregação:** categoria da unidade (2.6) e província.
+
+**Função no formulário.** As linhas 17.1.1.1 e 17.1.1.2 entram, com as linhas pediátricas do tratamento antirretroviral (17.4.1.1 e 17.4.1.2), no indicador de unidades que oferecem algum serviço pediátrico de VIH (ver 17.4.1).
+
+A comparação entre as três linhas mostra a distância entre a cobertura da testagem pediátrica e a dos adultos.
 
 </details>
 
@@ -115,7 +131,18 @@ Três caixas, cinco indicadores, e fecha a tabela da testagem. A separação por
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Onde há profilaxia pré-exposição ao VIH (PrEP), e se a unidade a inicia ou apenas segue quem a iniciou. É a porta da grelha seguinte. É medida própria do Mapa Sanitário.
+**Indicadores.**
+
+- Percentagem de unidades sanitárias que fornecem profilaxia pré-exposição ao VIH (PrEP), iniciando-a ou apenas seguindo-a.
+- Percentagem de unidades sanitárias que iniciam a PrEP.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1 ou 2 em 17.2.1 (fornecem); unidades com resposta 1 (iniciam).
+- **Denominador:** unidades com resposta 1 em 17.1.
+- **Desagregação:** categoria da unidade (2.6) e província.
+
+**Função no formulário.** Porta da grelha 17.2.2 a 17.2.6: as unidades com resposta 1 ou 2 formam o denominador dos grupos a quem a PrEP é oferecida. As unidades com resposta 3 (Não) saltam para 17.3.1.
 
 </details>
 
@@ -162,7 +189,12 @@ A escala distingue iniciar de seguir pela mesma razão que no tratamento antirre
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-A que grupos é oferecida a profilaxia pré-exposição ao VIH (PrEP). É medida própria do Mapa Sanitário.
+**Indicador.** Para cada grupo da grelha (17.2.2 a 17.2.6): percentagem de unidades que fornecem profilaxia pré-exposição ao VIH (PrEP) e a oferecem a esse grupo.
+
+- **Numerador:** unidades com resposta 1 (Sim) na linha do grupo.
+- **Denominador:** unidades com resposta 1 ou 2 em 17.2.1.
+
+Mostra que populações prioritárias têm acesso efectivo à PrEP onde ela existe.
 
 </details>
 
@@ -199,7 +231,17 @@ A que grupos é habitualmente oferecida a profilaxia pré-exposição ao VIH (Pr
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Onde há profilaxia pós-exposição ao VIH (PEP) para o pessoal de saúde após exposição ocupacional, e a que horas está disponível. É medida própria do Mapa Sanitário.
+**Indicadores.**
+
+- Percentagem de unidades sanitárias que fornecem profilaxia pós-exposição ao VIH (PEP) ao pessoal de saúde após exposição ocupacional.
+- Percentagem de unidades sanitárias que a fornecem a qualquer hora do dia ou da noite.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1 ou 2 em 17.3.1 (fornecem); unidades com resposta 1 (a qualquer hora).
+- **Denominador:** unidades com resposta 1 em 17.1.
+
+Como a PEP tem de começar nas 72 horas seguintes à exposição, só a disponibilidade a qualquer hora cobre os acidentes ocorridos fora do horário de funcionamento.
 
 </details>
 
@@ -240,7 +282,17 @@ A escala pergunta pelo horário porque a janela é de 72 horas e, na prática, u
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Onde há profilaxia pós-exposição ao VIH (PEP) após exposição sexual de risco fora do contexto da violência, e a que horas está disponível. É medida própria do Mapa Sanitário.
+**Indicadores.**
+
+- Percentagem de unidades sanitárias que fornecem profilaxia pós-exposição ao VIH (PEP) após exposição sexual de risco fora do contexto da violência.
+- Percentagem de unidades sanitárias que a fornecem a qualquer hora do dia ou da noite.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1 ou 2 em 17.3.2 (fornecem); unidades com resposta 1 (a qualquer hora).
+- **Denominador:** unidades com resposta 1 em 17.1.
+
+**Função no formulário.** Lê-se com 10.E.3.3, onde está a PEP após violência sexual: uma unidade que fornece a PEP aqui e não a declara em 10.E.3.3 é uma inconsistência a verificar.
 
 </details>
 
@@ -279,7 +331,10 @@ E após exposição sexual de risco que não decorra de violência?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Unidades com protocolo escrito de profilaxia pós-exposição ao VIH (PEP). É medida própria do Mapa Sanitário.
+**Indicador.** Percentagem de unidades sanitárias com protocolo escrito de profilaxia pós-exposição ao VIH (PEP), verificado pelo inquiridor.
+
+- **Numerador:** unidades com resposta 1 (Sim, observado) em 17.3.3. Somando a resposta 2 obtém-se a existência declarada.
+- **Denominador:** unidades com resposta 1 em 17.1. Pode ler-se também entre as unidades que fornecem PEP (resposta 1 ou 2 em 17.3.1 ou em 17.3.2).
 
 </details>
 
@@ -308,7 +363,13 @@ Existe nesta unidade sanitária um protocolo escrito de profilaxia pós-exposiç
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que oferecem tratamento antirretroviral de longa duração ou seguimento de doentes já em tratamento. É a porta do bloco do tratamento.
+**Indicador.** Percentagem de unidades sanitárias que prestam tratamento antirretroviral de longa duração ou seguimento de doentes já em tratamento.
+
+- **Numerador:** unidades com resposta 1 (Sim) em 17.4.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província, município e zona (2.11).
+
+**Função no formulário.** Porta do bloco do tratamento antirretroviral. As unidades com «Sim» formam o denominador dos grupos de idade tratados (17.4.1), dos componentes do tratamento (17.4.2) e da procura activa de faltosos (17.4.3). As unidades com «Não» saltam para 17.5 e não entram nesses denominadores; quando algum desses indicadores se exprime sobre toda a rede, contam como unidades que não prestam o serviço.
 
 </details>
 
@@ -351,7 +412,19 @@ Esta unidade sanitária presta serviços de tratamento antirretroviral de longa 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que prestam tratamento antirretroviral a cada grupo de idade. O indicador conta as opções 1 e 2: o seguimento conta como prestação. Sete indicadores, entre eles o de quaisquer serviços pediátricos de VIH, calculado a partir destas linhas e das de 17.1.1.
+**Indicadores.**
+
+- Para cada grupo de idade da grelha (17.4.1.1 a 17.4.1.3): percentagem de unidades que prestam tratamento antirretroviral a esse grupo, iniciando-o ou apenas seguindo-o.
+- Para cada grupo de idade: percentagem de unidades que iniciam o tratamento antirretroviral nesse grupo.
+- Percentagem de unidades sanitárias que oferecem algum serviço pediátrico de VIH.
+
+<!-- -->
+
+- **Numerador:** por grupo, unidades com resposta 1 ou 2 na linha (prestam) e unidades com resposta 1 (iniciam). Para o serviço pediátrico: unidades com resposta 1 ou 2 em 17.4.1.1 ou 17.4.1.2, ou com resposta 1 em 17.1.1.1 ou 17.1.1.2.
+- **Denominador:** por grupo, unidades com resposta 1 em 17.4. Para o serviço pediátrico, que junta dois blocos com portas diferentes: todas as unidades sanitárias inquiridas, contando como «Não» as que saltaram por 17.1 ou por 17.4.
+- **Desagregação:** categoria da unidade (2.6) e província.
+
+A diferença entre as linhas pediátricas e a dos adultos mostra onde o tratamento descentralizado ainda não chega à criança.
 
 </details>
 
@@ -397,7 +470,16 @@ O indicador conta as opções 1 e 2 — isto é, o seguimento conta como presta�
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que asseguram a prescrição ou dispensa dos antirretrovirais, o seguimento clínico, e o aconselhamento e seguimento da adesão. Quatro linhas, três indicadores; o da adesão exige as linhas 1 e 3 ao mesmo tempo. Com 17.4 e 17.4.1, fica completo o conjunto do tratamento antirretroviral.
+**Indicadores.**
+
+- Percentagem de unidades que asseguram a prescrição ou dispensa dos antirretrovirais.
+- Percentagem de unidades que asseguram o seguimento clínico do doente em tratamento antirretroviral.
+- Percentagem de unidades que asseguram o aconselhamento e o seguimento da adesão ao tratamento.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1 em 17.4.2.4 (prescrição ou dispensa); com resposta 1 em 17.4.2.2 (seguimento clínico); com resposta 1 em 17.4.2.1 **e** em 17.4.2.3 (adesão — as duas linhas ao mesmo tempo).
+- **Denominador:** unidades com resposta 1 em 17.4.
 
 </details>
 
@@ -439,7 +521,12 @@ O que conta aqui é menos quem **inicia** o tratamento e mais quem o **mantém**
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que identificam e procuram os doentes em tratamento antirretroviral que faltam à consulta ou ao levantamento dos medicamentos, dentre as unidades que oferecem tratamento antirretroviral. Lido com 18.4.2, mostra se a procura conta com os ADECOS.
+**Indicador.** Percentagem de unidades que registam e procuram activamente os doentes em tratamento antirretroviral que faltam à consulta ou ao levantamento dos medicamentos.
+
+- **Numerador:** unidades com resposta 1 em 17.4.3. Somando a resposta 2 obtém-se a percentagem de unidades que pelo menos registam as faltas.
+- **Denominador:** unidades com resposta 1 em 17.4.
+
+**Função no formulário.** Lê-se com a linha 18.4.2.5: mostra se a procura dos faltosos do tratamento antirretroviral conta com os ADECOS.
 
 </details>
 
@@ -484,7 +571,16 @@ Quando um doente em tratamento antirretroviral falta a uma consulta ou a um leva
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que oferecem quaisquer serviços de prevenção da transmissão vertical do VIH. O indicador cumpre-se com qualquer das opções 1, 2 ou 3.
+**Indicadores.**
+
+- Percentagem de unidades sanitárias que oferecem algum serviço de prevenção da transmissão vertical do VIH.
+- Percentagem de unidades sanitárias que oferecem a prevenção da transmissão vertical completa, à mãe e ao recém-nascido.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1, 2 ou 3 em 17.5 (algum serviço); unidades com resposta 1 (completa). As respostas 2 e 3, isoladas, mostram as unidades que só cobrem a mãe ou só o recém-nascido.
+- **Denominador:** todas as unidades sanitárias inquiridas. Pode ler-se também entre as unidades com consulta pré-natal (16.1) ou com partos (resposta 1 em 16.2).
+- **Desagregação:** categoria da unidade (2.6) e província.
 
 </details>
 
@@ -530,7 +626,11 @@ Mantém-se o código e a posição na Ficha; muda apenas o enunciado, que passa 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que oferecem quaisquer cuidados e apoio a pessoas que vivem com VIH, para além do tratamento antirretroviral.
+**Indicador.** Percentagem de unidades sanitárias que prestam cuidados e apoio a pessoas que vivem com VIH, para além do tratamento antirretroviral.
+
+- **Numerador:** unidades com resposta 1 (Sim) em 17.6.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6) e província.
 
 </details>
 
@@ -569,7 +669,13 @@ Uma caixa, dois indicadores. **Acrescenta à testagem e ao tratamento a terceira
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que oferecem quaisquer serviços de tuberculose. É a porta do bloco da tuberculose.
+**Indicador.** Percentagem de unidades sanitárias que oferecem algum serviço de tuberculose — diagnóstico, tratamento, seguimento de doentes ou rastreio de contactos.
+
+- **Numerador:** unidades com resposta 1 (Sim) em 17.7.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província, município e zona (2.11).
+
+**Função no formulário.** Porta do bloco da tuberculose. As unidades com «Sim» formam o denominador do diagnóstico (17.7.1), do seguimento do doente (17.7.2), da testagem do VIH nos doentes com tuberculose (17.7.3), da tuberculose resistente (17.7.4), do quarto de isolamento (17.7.5) e da procura activa de faltosos (17.7.6). As unidades com «Não» saltam para 17.8.1 e não entram nesses denominadores; quando algum desses indicadores se exprime sobre toda a rede, contam como unidades que não oferecem o serviço.
 
 </details>
 
@@ -614,7 +720,18 @@ A porta alarga-se para qualquer serviço de tuberculose, e **o DOTS propriamente
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que oferecem testagem de diagnóstico da tuberculose. O indicador conta as opções 1, 2 e 3; a lista geral de serviços disponíveis acrescenta o de diagnóstico e tratamento da tuberculose.
+**Indicadores.**
+
+- Percentagem de unidades que oferecem diagnóstico da tuberculose por qualquer via — exame na própria unidade, envio de amostra ou encaminhamento do doente.
+- Percentagem de unidades que realizam os exames de diagnóstico da tuberculose na própria unidade.
+- Percentagem de unidades em que o diagnóstico depende do encaminhamento do doente para outra unidade.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1, 2 ou 3 em 17.7.1 (qualquer via); com resposta 1 (na própria unidade); com resposta 3 (encaminhamento do doente).
+- **Denominador:** unidades com resposta 1 em 17.7.
+
+Separar o envio da amostra do encaminhamento do doente distingue o acesso garantido do acesso que depende de o doente chegar à outra unidade.
 
 </details>
 
@@ -657,7 +774,17 @@ A terceira opção está separada porque **na tuberculose o encaminhamento do do
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que asseguram aos doentes com tuberculose o seguimento clínico e a prescrição, a redispensa dos medicamentos nas consultas de seguimento, e o apoio à adesão. Três linhas, quatro indicadores: um por linha, mais o de seguimento de doentes na lista geral de serviços disponíveis.
+**Indicadores.**
+
+- Para cada prestação da grelha: percentagem de unidades que a asseguram aos doentes com tuberculose — seguimento clínico e prescrição (17.7.2.1), redispensa dos medicamentos (17.7.2.2), apoio à adesão, incluindo o tratamento directamente observado (17.7.2.3).
+- Percentagem de unidades que asseguram algum seguimento do doente com tuberculose.
+
+<!-- -->
+
+- **Numerador:** por prestação, unidades com resposta 1 na linha; para o seguimento em geral, unidades com resposta 1 em qualquer das linhas 17.7.2.1 a 17.7.2.3.
+- **Denominador:** unidades com resposta 1 em 17.7.
+
+As três linhas correspondem às três condições para completar o tratamento: consulta, medicamento e acompanhamento.
 
 </details>
 
@@ -699,7 +826,12 @@ A separação das três prestações é a mesma opção de desenho do tratamento
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que oferecem, como rotina, a testagem do VIH aos doentes com tuberculose.
+**Indicador.** Percentagem de unidades que oferecem, como rotina, a testagem do VIH a todos os doentes com tuberculose.
+
+- **Numerador:** unidades com resposta 1 em 17.7.3. A resposta 2 (apenas a alguns) não conta.
+- **Denominador:** unidades com resposta 1 em 17.7.
+
+**Função no formulário.** Lê-se com 12.C.0 (teste rápido do VIH) e com 17.1: uma unidade que trata tuberculose, dispõe de teste rápido do VIH e não testa os doentes com tuberculose tem uma lacuna de organização, e não de recursos.
 
 </details>
 
@@ -739,7 +871,13 @@ A todos os doentes com tuberculose diagnosticada nesta unidade sanitária é ofe
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que prestam quaisquer serviços a doentes com tuberculose resistente aos medicamentos.
+**Indicador.** Percentagem de unidades que prestam algum serviço a doentes com tuberculose resistente aos medicamentos.
+
+- **Numerador:** unidades com resposta 1 (Sim) em 17.7.4.
+- **Denominador:** unidades com resposta 1 em 17.7.
+- **Desagregação:** província.
+
+O resultado mostra para onde referir estes doentes em cada província.
 
 </details>
 
@@ -777,7 +915,13 @@ Esta unidade sanitária presta algum serviço a doentes com tuberculose resisten
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades com internamento que possuem quarto de internamento dedicado a isolamento de pacientes com tuberculose ou outras infecções respiratórias de transmissão aérea.
+**Indicador.** Percentagem de unidades com internamento que dispõem de quarto ou enfermaria dedicada ao isolamento de doentes com tuberculose ou outra infecção respiratória de transmissão aérea.
+
+- **Numerador:** unidades com resposta 1 (Sim) em 17.7.5.
+- **Denominador:** unidades com resposta 1 em 17.7, excluídas as que respondem 97 (sem internamento).
+- **Desagregação:** categoria da unidade (2.6).
+
+**Função no formulário.** A resposta 97 deve coincidir com a resposta 0 (Não) em 8.1; uma divergência é inconsistência a verificar.
 
 </details>
 
@@ -816,7 +960,12 @@ Existe nesta unidade sanitária um quarto ou enfermaria de isolamento dedicado, 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que identificam e procuram os doentes em tratamento da tuberculose que faltam à consulta ou à toma dos medicamentos, dentre as unidades que oferecem atendimento aos doentes com tuberculose. Lido com 18.4.2, mostra se a procura conta com os ADECOS.
+**Indicador.** Percentagem de unidades que registam e procuram activamente os doentes em tratamento da tuberculose que faltam à consulta ou à toma dos medicamentos.
+
+- **Numerador:** unidades com resposta 1 em 17.7.6. Somando a resposta 2 obtém-se a percentagem de unidades que pelo menos registam as faltas.
+- **Denominador:** unidades com resposta 1 em 17.7.
+
+**Função no formulário.** Lê-se com a linha 18.4.2.6: mostra se a procura dos faltosos da tuberculose conta com os ADECOS.
 
 </details>
 
@@ -861,7 +1010,13 @@ Quando um doente em tratamento da tuberculose falta a uma consulta ou à toma do
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que oferecem quaisquer serviços de malária. É a porta do bloco da malária. Com as duas perguntas seguintes e a articulação com os ADECOS em 18.4.1, fica completo o conjunto da malária.
+**Indicador.** Percentagem de unidades sanitárias que oferecem algum serviço de malária — diagnóstico, tratamento ou prevenção.
+
+- **Numerador:** unidades com resposta 1 (Sim) em 17.8.1.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província, município e zona (2.11).
+
+**Função no formulário.** Porta do bloco da malária. As unidades com «Sim» formam o denominador da via de diagnóstico (17.8.2), do tratamento (17.8.3) e da distribuição de redes mosquiteiras (18.1). As unidades com «Não» saltam para 18.2 e não entram nesses denominadores. A articulação com os ADECOS na malária mede-se em 18.4.1.4.
 
 </details>
 
@@ -904,7 +1059,22 @@ Esta unidade sanitária presta algum serviço relacionado com a malária — dia
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Por que via a unidade diagnostica a malária — teste rápido, microscopia, ou apenas pelos sinais e sintomas. Três linhas, cinco indicadores.
+**Indicadores.**
+
+- Percentagem de unidades que diagnosticam a malária por qualquer via.
+- Percentagem de unidades que diagnosticam a malária por teste rápido (TDR).
+- Percentagem de unidades que diagnosticam a malária por microscopia.
+- Percentagem de unidades que fazem testagem de diagnóstico da malária (teste rápido ou microscopia).
+- Percentagem de unidades que diagnosticam a malária apenas por sinais e sintomas, sem teste.
+
+<!-- -->
+
+- **Numerador:** resposta 1 em qualquer das linhas 17.8.2.1 a 17.8.2.3 (qualquer via); resposta 1 em 17.8.2.1 (teste rápido); resposta 1 em 17.8.2.2, ou gota espessa disponível em 12.C.IV.5 (microscopia); resposta 1 em 17.8.2.1 ou em 17.8.2.2, ou gota espessa em 12.C.IV.5 (testagem); resposta 1 em 17.8.2.3 (diagnóstico clínico).
+- **Denominador:** unidades com resposta 1 em 17.8.1.
+
+**Função no formulário.** Lê-se com o laboratório: o teste rápido de malária em 12.C.0.8 e a gota espessa em 12.C.IV.5 devem ser coerentes com as linhas 17.8.2.1 e 17.8.2.2.
+
+A linha 17.8.2.3 dimensiona uma prática a corrigir: tratar sem teste trata quem não tem malária e deixa sem diagnóstico quem tem outra doença.
 
 </details>
 
@@ -945,13 +1115,18 @@ Como é habitualmente diagnosticada a malária nesta unidade sanitária? Indique
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que tratam casos de malária, por gravidade:
+**Indicadores.**
 
-- percentagem de unidades que tratam a malária grave (opção 1);
-- percentagem de unidades que tratam apenas a malária simples e referem os casos graves (opção 2);
-- percentagem de unidades que não tratam e referem todos os casos (opção 3).
+- Percentagem de unidades que tratam casos de malária.
+- Percentagem de unidades que tratam a malária grave.
+- Percentagem de unidades que tratam apenas a malária simples e referem os casos graves.
+- Percentagem de unidades que não tratam e referem todos os casos.
 
-Somadas, as opções 1 e 2 dão a percentagem de unidades que tratam malária.
+<!-- -->
+
+- **Numerador:** unidades com resposta 1 ou 2 em 17.8.3 (tratam); com resposta 1 (malária grave); com resposta 2 (só malária simples); com resposta 3 (referem todos os casos).
+- **Denominador:** unidades com resposta 1 em 17.8.1.
+- **Desagregação:** categoria da unidade (2.6) e província.
 
 </details>
 

@@ -27,7 +27,18 @@ Consulta pré-natal, partos e cuidados obstétricos de urgência, consulta pós-
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que oferecem quaisquer serviços de consulta pré-natal. É a porta da grelha seguinte, que permite confrontar a classificação «completa» ou «incompleta» com as prestações declaradas.
+**Indicadores.**
+
+- Percentagem de unidades sanitárias que realizam consulta pré-natal.
+  - **Numerador:** unidades com opção 1 ou 2 em 16.1.
+  - **Denominador:** todas as unidades sanitárias inquiridas.
+- Percentagem de unidades com consulta pré-natal que a classificam como completa, segundo os critérios do Guião.
+  - **Numerador:** unidades com opção 1 em 16.1.
+  - **Denominador:** unidades com opção 1 ou 2 em 16.1.
+
+**Desagregação:** categoria da unidade (2.6), província, município e zona (2.11).
+
+**Função no formulário.** É a porta da consulta pré-natal. As unidades com opção 1 ou 2 formam o denominador dos indicadores de 16.1.1 e 16.1.2. As unidades com opção 3 saltam para 16.2 e não entram nesses denominadores. A classificação «completa» ou «incompleta» confronta-se com as prestações declaradas em 16.1.1.
 
 </details>
 
@@ -74,7 +85,16 @@ O Guião define ainda os critérios de «completa» — cartão de grávida, ana
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades em que cada prestação faz parte da consulta pré-natal — catorze linhas, um indicador por linha; a testagem do VIH conta também no programa do VIH. Com a porta 16.1 e a articulação com os ADECOS em 18.4.1, a consulta pré-natal fica medida por inteiro.
+**Indicadores.**
+
+- Para cada prestação da grelha (linhas 16.1.1.1 a 16.1.1.14): percentagem de unidades com consulta pré-natal em que a prestação faz habitualmente parte da consulta.
+  - **Numerador:** unidades com coluna 1 na linha.
+  - **Denominador:** unidades com opção 1 ou 2 em 16.1. A resposta 98 fica no denominador e fora do numerador.
+- Percentagem de unidades sanitárias que oferecem testagem do VIH às grávidas.
+  - **Numerador:** unidades com coluna 1 na linha 16.1.1.10.
+  - **Denominador:** todas as unidades sanitárias inquiridas (as unidades sem consulta pré-natal contam como não oferecendo).
+
+**Função no formulário.** Serve de verificação de 16.1: as prestações declaradas permitem confirmar a classificação «completa». As linhas 16.1.1.7 (proteínas na urina), 16.1.1.10 (VIH) e 16.1.1.11 (sífilis) lêem-se com os testes rápidos de 12.C.0.9, 12.C.0.1 e 12.C.0.3, e a linha 16.1.1.10 lê-se também com a prevenção da transmissão vertical (17.5).
 
 </details>
 
@@ -140,7 +160,13 @@ Catorze linhas, um indicador por linha; com a porta 16.1 e a articulação com o
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que identificam e procuram as grávidas que faltam à consulta pré-natal, dentre as unidades que oferecem consulta pré-natal. Lido com 18.4.2, mostra se a procura conta com os ADECOS.
+**Indicador.** Percentagem de unidades com consulta pré-natal que registam e procuram activamente as grávidas que faltam à consulta marcada.
+
+- **Numerador:** unidades com opção 1 em 16.1.2.
+- **Denominador:** unidades com opção 1 ou 2 em 16.1.
+- **Desagregação:** a opção 2 (registo da falta sem procura activa) lê-se à parte.
+
+**Função no formulário.** Lido com 18.4.2, mostra que parte desta procura passa pelos ADECOS.
 
 </details>
 
@@ -185,7 +211,13 @@ Quando uma grávida falta a uma consulta pré-natal marcada, esta unidade sanit�
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que oferecem quaisquer serviços de parto. É a porta do bloco dos partos: só a unidade com sala de partos própria responde às perguntas seguintes.
+**Indicador.** Percentagem de unidades sanitárias que atendem partos em sala de partos própria.
+
+- **Numerador:** unidades com resposta 1 em 16.2.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província, município e zona (2.11).
+
+**Função no formulário.** É a porta do bloco dos partos. As unidades com resposta 1 formam o denominador dos indicadores de 16.2.1, 16.2.2, 16.2.3 e 16.2.4, e do indicador do método canguru entre as unidades com partos (16.3.2.1). As unidades com resposta 2 saltam para 16.3 e não entram nesses denominadores; quando um destes indicadores se exprimir sobre o total das unidades inquiridas, contam como não tendo o atributo medido.
 
 </details>
 
@@ -231,7 +263,13 @@ Conserva-se integralmente a instrução do Guião (folha 12), que manda registar
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades com cuidados obstétricos e neonatais de urgência básicos (CONU-B). Uma caixa, dois indicadores: CONU-B na tabela dos serviços de parto e na lista geral de serviços disponíveis.
+**Indicador.** Percentagem de unidades com partos que declaram capacidade para cuidados obstétricos e neonatais de urgência básicos (CONU-B).
+
+- **Numerador:** unidades com resposta 1 em 16.2.1.
+- **Denominador:** unidades com resposta 1 em 16.2.
+- **Desagregação:** categoria da unidade (2.6), província e município.
+
+**Função no formulário.** A capacidade declarada confronta-se com as sete funções-sinal do CONU-B efectivamente realizadas nos últimos 3 meses (16.2.3, linhas 1 a 7).
 
 </details>
 
@@ -274,7 +312,13 @@ Esta unidade tem capacidade para Cuidados Obstétricos e Neonatais de Urgência 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades com cuidados obstétricos e neonatais de urgência completos (CONU-C). Uma caixa, três indicadores: CONU-C na tabela dos serviços de parto, outra vez na área própria dos cuidados obstétricos completos, e na lista geral de serviços disponíveis.
+**Indicador.** Percentagem de unidades com partos que declaram capacidade para cuidados obstétricos e neonatais de urgência completos (CONU-C).
+
+- **Numerador:** unidades com resposta 1 em 16.2.2.
+- **Denominador:** unidades com resposta 1 em 16.2.
+- **Desagregação:** categoria da unidade (2.6), província e município.
+
+**Função no formulário.** A capacidade declarada confronta-se com as nove funções-sinal do CONU-C efectivamente realizadas nos últimos 3 meses (16.2.3, linhas 1 a 9).
 
 </details>
 
@@ -310,7 +354,24 @@ E para Cuidados Obstétricos e Neonatais de Urgência Completos (CONU-C)?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que realizaram as funções-sinal obstétricas e neonatais nos últimos 3 meses. A grelha dá quinze indicadores: cada uma das sete funções do CONU-B, entre as unidades com partos (linhas 1 a 7); as sete do CONU-B todas realizadas; as nove do CONU-C todas realizadas (linhas 1 a 9); a cesariana e a transfusão de sangue; e, partilhados com a cirurgia e com o serviço de sangue, mais quatro indicadores de cesariana, remoção de restos ovulares e transfusão.
+**Indicadores.**
+
+- Para cada função-sinal da grelha (linhas 16.2.3.1 a 16.2.3.9): percentagem de unidades com partos que a realizaram pelo menos uma vez nos últimos 3 meses.
+  - **Numerador:** unidades com coluna 1 na linha.
+  - **Denominador:** unidades com resposta 1 em 16.2.
+- Percentagem de unidades com partos que realizaram as sete funções-sinal do CONU-B.
+  - **Numerador:** unidades com coluna 1 em todas as linhas 16.2.3.1 a 16.2.3.7.
+  - **Denominador:** unidades com resposta 1 em 16.2.
+- Percentagem de unidades com partos que realizaram as nove funções-sinal do CONU-C.
+  - **Numerador:** unidades com coluna 1 em todas as linhas 16.2.3.1 a 16.2.3.9.
+  - **Denominador:** unidades com resposta 1 em 16.2.
+- Percentagem de unidades sanitárias que fazem cesariana, e que fazem transfusão de sangue.
+  - **Numerador:** cesariana — coluna 1 na linha 16.2.3.8 ou cesariana assinalada na grande cirurgia (10.29.2.2); transfusão — coluna 1 na linha 16.2.3.9 ou transfusão assinalada em 12.B.9.
+  - **Denominador:** todas as unidades sanitárias inquiridas.
+
+A resposta 98 fica no denominador e fora do numerador; nos indicadores de conjunto, basta uma linha sem coluna 1 para a unidade não contar.
+
+**Função no formulário.** Verifica a capacidade declarada em 16.2.1 (CONU-B) e 16.2.2 (CONU-C). Uma unidade que declara CONU-B e não realizou uma das funções-sinal no período assinala uma discrepância a ler com cuidado: pode significar ausência de casos e não ausência de capacidade.
 
 </details>
 
@@ -369,7 +430,11 @@ Para cada prestação seguinte, diga-me se foi realizada nesta unidade sanitári
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades com serviço de partos 24 horas por dia e 7 dias por semana, assegurado por pessoal qualificado. O indicador conta as opções 1 e 2 — pessoal presente ou de chamada.
+**Indicador.** Percentagem de unidades com partos que asseguram o atendimento de partos 24 horas por dia, todos os dias, por pessoal qualificado.
+
+- **Numerador:** unidades com opção 1 ou 2 em 16.2.4.
+- **Denominador:** unidades com resposta 1 em 16.2.
+- **Desagregação:** pessoal presente na unidade (opção 1) ou de chamada fora do horário (opção 2); categoria da unidade (2.6).
 
 </details>
 
@@ -411,7 +476,11 @@ Uma caixa, e uma informação nova no instrumento: **o parto é o acto que menos
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que oferecem quaisquer cuidados pós-parto à mãe ou ao recém-nascido. O indicador cumpre-se com qualquer das opções 1, 2 ou 3.
+**Indicador.** Percentagem de unidades sanitárias que realizam consulta pós-parto à mãe, ao recém-nascido, ou a ambos.
+
+- **Numerador:** unidades com opção 1, 2 ou 3 em 16.3.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** destinatário da consulta — à mãe (opção 1 ou 2), ao recém-nascido (opção 1 ou 3), a ambos (opção 1); categoria da unidade (2.6) e zona (2.11).
 
 </details>
 
@@ -457,7 +526,13 @@ A única alteração é separar a mãe do recém-nascido nas opções, porque s�
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Onde é realizado algum rastreio ao recém-nascido. É a porta da grelha seguinte. É medida própria do Mapa Sanitário.
+**Indicador.** Percentagem de unidades sanitárias que realizam algum rastreio ao recém-nascido.
+
+- **Numerador:** unidades com resposta 1 em 16.3.1.0.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província e município.
+
+**Função no formulário.** É a porta da grelha dos rastreios. As unidades com resposta 1 formam o denominador dos indicadores de 16.3.1.1 a 16.3.1.8. As unidades com resposta 2 saltam para 16.3.2.0 e não entram nesse denominador.
 
 </details>
 
@@ -495,7 +570,15 @@ Nesta unidade sanitária é realizado algum rastreio ao recém-nascido?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Onde é rastreado o recém-nascido, rastreio a rastreio, e por que via: na própria unidade ou por envio da amostra com retorno do resultado. É medida própria do Mapa Sanitário.
+**Indicadores.** Para cada rastreio da grelha (linhas 16.3.1.1 a 16.3.1.8):
+
+- Percentagem de unidades com rastreio do recém-nascido que asseguram esse rastreio, na própria unidade ou por envio da amostra com retorno do resultado.
+  - **Numerador:** unidades com opção 1 ou 2 na linha.
+- Percentagem de unidades com rastreio do recém-nascido que o realizam na própria unidade (**numerador:** opção 1) e que o asseguram por envio da amostra (**numerador:** opção 2).
+- **Denominador (de todos):** unidades com resposta 1 em 16.3.1.0. A resposta 98 fica no denominador e fora do numerador.
+- **Desagregação:** província e município, para ver onde a amostra sai e o resultado volta.
+
+A linha 16.3.1.2 (rastreio sistemático das hemoglobinopatias) lê-se com a disponibilidade do exame em 12.C.I.
 
 </details>
 
@@ -541,7 +624,15 @@ A escala de três níveis é a mesma dos blocos de laboratório, pela mesma raz�
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se o bloco for incluído: percentagem de unidades que prestam cuidados em internamento ao recém-nascido pequeno ou doente, com ou sem unidade de cuidados especiais. Só entram na contagem da secção se o bloco for aprovado.
+Só se o bloco for incluído.
+
+**Indicador.** Percentagem de unidades sanitárias que prestam cuidados em internamento ao recém-nascido pequeno ou doente.
+
+- **Numerador:** unidades com opção 1 ou 2 em 16.3.2.0.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** com unidade de cuidados especiais (opção 1) ou sem ela (opção 2); categoria da unidade (2.6).
+
+**Função no formulário.** É a porta da grelha dos cuidados ao recém-nascido pequeno ou doente. As unidades com opção 1 ou 2 formam o denominador dos indicadores de 16.3.2.1 a 16.3.2.10. As unidades com opção 3 terminam o bloco e não entram nesse denominador.
 
 </details>
 
@@ -586,7 +677,16 @@ A porta de três níveis distingue a unidade com unidade de cuidados especiais d
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Se o bloco for incluído: quais os cuidados prestados ao recém-nascido pequeno ou doente, cuidado a cuidado. Só entram na contagem da secção se o bloco for aprovado.
+Só se o bloco for incluído.
+
+**Indicadores.**
+
+- Para cada cuidado da grelha (linhas 16.3.2.1 a 16.3.2.10): percentagem de unidades com internamento do recém-nascido pequeno ou doente em que o cuidado está rotineiramente disponível quando necessário.
+  - **Numerador:** unidades com coluna 1 na linha.
+  - **Denominador:** unidades com opção 1 ou 2 em 16.3.2.0. A resposta 98 fica no denominador e fora do numerador.
+- Percentagem de unidades com partos que oferecem o método canguru.
+  - **Numerador:** unidades com resposta 1 em 16.2 e coluna 1 na linha 16.3.2.1.
+  - **Denominador:** unidades com resposta 1 em 16.2 (as que responderam opção 3 em 16.3.2.0 contam como não oferecendo).
 
 </details>
 
@@ -630,7 +730,13 @@ Se o bloco for incluído: quais os cuidados prestados ao recém-nascido pequeno 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que oferecem planeamento familiar. É a porta da grelha dos métodos.
+**Indicador.** Percentagem de unidades sanitárias que oferecem serviços de planeamento familiar.
+
+- **Numerador:** unidades com resposta 1 em 16.4.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província, município e zona (2.11).
+
+**Função no formulário.** É a porta do planeamento familiar. As unidades com resposta 1 formam o denominador dos indicadores de 16.4.1 a 16.4.12 e de 16.4.13. As unidades com resposta 2 saltam para 17.1 e não entram nesses denominadores.
 
 </details>
 
@@ -669,7 +775,18 @@ Esta unidade sanitária oferece serviços de planeamento familiar?
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Método a método, quais os métodos de planeamento familiar fornecidos. As doze linhas dão 14 indicadores, entre eles o de qualquer método moderno, calculado a partir da grelha — que inclui o preservativo masculino e o feminino e deixa de fora apenas o colar do ciclo.
+**Indicadores.**
+
+- Para cada método da grelha (linhas 16.4.1 a 16.4.12): percentagem de unidades com planeamento familiar que fornecem habitualmente esse método.
+  - **Numerador:** unidades com coluna 1 na linha.
+- Percentagem de unidades com planeamento familiar que fornecem qualquer método contraceptivo moderno.
+  - **Numerador:** unidades com coluna 1 em pelo menos uma das linhas 16.4.1 a 16.4.9, 16.4.11 ou 16.4.12 (fica de fora apenas o colar do ciclo, 16.4.10).
+- Percentagem de unidades com planeamento familiar que fornecem pelo menos um método moderno além do preservativo, na definição do Guião.
+  - **Numerador:** unidades com coluna 1 em pelo menos uma das linhas 16.4.1 a 16.4.4, 16.4.7 a 16.4.9, 16.4.11 ou 16.4.12.
+- **Denominador (de todos):** unidades com resposta 1 em 16.4. A resposta 98 fica no denominador e fora do numerador.
+- **Desagregação:** categoria da unidade (2.6), província e município.
+
+A leitura método a método distingue a unidade que só fornece pílula ou injectável da que coloca implantes e DIU.
 
 </details>
 
@@ -728,7 +845,13 @@ Com o preservativo perguntado em linha própria, a grelha permite os dois cálcu
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Percentagem de unidades que identificam e procuram as utentes de planeamento familiar que faltam à consulta de seguimento ou de reabastecimento, dentre as unidades que oferecem planeamento familiar. Lido com 18.4.2, mostra se a procura conta com os ADECOS.
+**Indicador.** Percentagem de unidades com planeamento familiar que registam e procuram activamente as utentes que faltam à consulta de seguimento ou de reabastecimento.
+
+- **Numerador:** unidades com opção 1 em 16.4.13.
+- **Denominador:** unidades com resposta 1 em 16.4.
+- **Desagregação:** a opção 2 (registo da falta sem procura activa) lê-se à parte.
+
+**Função no formulário.** Lido com 18.4.2, mostra que parte desta procura passa pelos ADECOS.
 
 </details>
 

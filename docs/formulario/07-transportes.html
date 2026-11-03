@@ -315,7 +315,26 @@ O que esta secção permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Frota de cada unidade sanitária por tipo de veículo e por estado. As colunas 1 e 2 somadas dão o número de veículos funcionais tal como o Guião o define, o que mantém a série das edições anteriores; a coluna 2 mostra, além disso, quantos veículos voltariam a circular com uma reparação ao alcance da unidade.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li>Para cada tipo de veículo da grelha: número de veículos funcionais, por unidade e somado por município e província.
+<ul>
+<li><strong>Numerador:</strong> coluna 1 + coluna 2 da linha (em funcionamento mais avariados com reparação ao alcance da unidade — a definição de funcional do Guião, que mantém a série das edições anteriores). A coluna 3 dá os não funcionais.</li>
+<li><strong>Denominador:</strong> não se aplica (contagem); as caixas com 98 ficam fora da soma.</li>
+</ul></li>
+<li>Para cada tipo de veículo da grelha: percentagem de unidades sanitárias com pelo menos um veículo funcional.
+<ul>
+<li><strong>Numerador:</strong> unidades com coluna 1 + coluna 2 ≥ 1 na linha.</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
+</ul></li>
+<li>Percentagem de unidades sanitárias com pelo menos uma ambulância em funcionamento hoje.
+<ul>
+<li><strong>Numerador:</strong> unidades com coluna 1 ≥ 1 em 7.1.1.</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
+</ul></li>
+</ul>
+<p><strong>Desagregação:</strong> categoria da unidade (2.6), província e município.</p>
+<p><strong>Função no formulário.</strong> A contagem de 7.1.1 a 7.1.10 controla a resposta a 7.3.1: se todas as colunas forem zero, 7.3.1 tem de ser «A unidade não tem veículos» (5). A coluna 2 mostra quantos veículos voltariam a circular com uma reparação ao alcance da unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte:</strong> medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.</p>
@@ -484,7 +503,13 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias com plano de manutenção de rotina para algum dos seus veículos. Lida com a coluna das avarias de 7.1, mostra se o problema da frota tende a agravar-se ou a resolver-se.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades sanitárias com veículos que seguem um plano de manutenção de rotina para algum dos seus veículos.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 em 7.3.1.</li>
+<li><strong>Denominador:</strong> unidades com veículos (resposta 1 ou 2 em 7.3.1); as unidades com resposta 5 ficam fora.</li>
+<li><strong>Desagregação:</strong> categoria da unidade (2.6) e província.</li>
+</ul>
+<p><strong>Função no formulário.</strong> Define dois universos: as unidades com veículos (respostas 1 e 2), denominador deste indicador e do de cumprimento do plano (7.3.2); e as unidades com plano (resposta 1), as únicas a quem se faz 7.3.2. As unidades com resposta 2 ou 5 terminam a secção. Lida com a coluna 2 de 7.1, mostra se o problema da frota tende a agravar-se ou a resolver-se.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -548,7 +573,19 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Percentagem de unidades sanitárias que cumprem rotineiramente o plano de manutenção dos seus veículos.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li>Percentagem de unidades sanitárias com veículos que cumprem rotineiramente um plano de manutenção dos veículos.
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 em 7.3.1 e resposta 1 em 7.3.2.</li>
+<li><strong>Denominador:</strong> unidades com veículos (resposta 1 ou 2 em 7.3.1); as unidades sem plano contam como não cumprindo.</li>
+</ul></li>
+<li>Percentagem de unidades sanitárias com plano de manutenção que o cumprem rotineiramente.
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 em 7.3.2.</li>
+<li><strong>Denominador:</strong> unidades com plano (resposta 1 em 7.3.1), as únicas a quem a pergunta é feita.</li>
+</ul></li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>

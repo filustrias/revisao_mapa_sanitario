@@ -333,7 +333,13 @@ O que esta secção permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se a unidade atende urgências — com ou sem banco de urgência próprio. É a porta do bloco 13.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades sanitárias que prestam atendimento a doentes em situação de urgência, com ou sem banco de urgência próprio.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 (Sim) em 14.1.</li>
+<li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
+<li><strong>Desagregação:</strong> categoria da unidade (2.6), província, município e zona (2.11).</li>
+</ul>
+<p><strong>Função no formulário.</strong> É a porta da secção 14. As unidades com resposta 1 formam o denominador de todos os indicadores seguintes da secção (14.2.1 a 14.8). As unidades com resposta 2 saltam para a secção 15 e não entram nesses denominadores; quando um indicador da secção se exprimir sobre o total das unidades inquiridas, estas contam como não tendo o atributo medido.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -392,7 +398,13 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se a unidade tem um banco ou unidade de urgência com espaço próprio, distinto das salas de consulta.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades com atendimento de urgência que têm banco ou unidade de urgência com espaço próprio, distinto das salas de consulta.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 em 14.2.1.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 14.1.</li>
+<li><strong>Desagregação:</strong> categoria da unidade (2.6).</li>
+</ul>
+<p><strong>Função no formulário.</strong> Abre 14.2.2: só as unidades com resposta 1 dizem as horas de funcionamento, e são elas o denominador da distribuição das horas. A resposta 1 é também condição do numerador do indicador de banco de urgência 24 horas (14.2.2).</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -439,7 +451,19 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Horas de funcionamento do banco de urgência. Onde o indicador se calcula de «igual a 24», pergunta-se o número de horas, que dá o indicador e o gradiente.</p>
+<p><strong>Indicadores.</strong></p>
+<ul>
+<li>Percentagem de unidades com atendimento de urgência que têm banco de urgência com espaço próprio a funcionar 24 horas por dia.
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 em 14.2.1 e valor 24 em 14.2.2.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 14.1.</li>
+</ul></li>
+<li>Horas diárias de funcionamento do banco de urgência: média e distribuição por classes de horas.
+<ul>
+<li><strong>Base de cálculo:</strong> unidades com resposta 1 em 14.2.1.</li>
+</ul></li>
+</ul>
+<p>O valor 24 corresponde à antiga categoria «24 Horas» e os valores 01 a 23 à categoria «Só Diurno», o que mantém a comparação com a série histórica.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -502,7 +526,13 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se existe triagem formal, com critérios escritos de prioridade, dos doentes que chegam em situação de urgência.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades com atendimento de urgência que têm sistema formal de triagem, com critérios escritos de prioridade.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com resposta 1 em 14.3.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 14.1 (a resposta 98 fica no denominador e fora do numerador).</li>
+<li><strong>Desagregação:</strong> categoria da unidade (2.6) e existência de banco de urgência com espaço próprio (14.2.1).</li>
+</ul>
+<p>Indica se o doente grave é atendido por ordem de gravidade e não por ordem de chegada.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -551,7 +581,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se o banco de urgência tem pessoal próprio, afecto permanentemente ao serviço, ou depende de profissionais em rotação.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades com atendimento de urgência cujo banco de urgência tem pessoal próprio afecto permanentemente ao serviço.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 em 14.4.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 14.1. Para a leitura restrita às unidades com banco de urgência com espaço próprio, o denominador passa a ser as unidades com resposta 1 em 14.2.1.</li>
+<li><strong>Desagregação:</strong> distribuição das três situações — pessoal próprio (1), rotação (2), combinação das duas (3).</li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -612,7 +647,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se há presença clínica permanente, 24 horas por dia, para atender urgências — médico ou outro clínico habilitado a prescrever, e enfermeiro.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades com atendimento de urgência em que estão presentes na unidade, 24 horas por dia, um médico ou outro clínico habilitado a prescrever <strong>e</strong> um enfermeiro.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 em 14.5.1 e opção 1 em 14.5.2.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 14.1.</li>
+<li><strong>Desagregação:</strong> cada caixa em separado (14.5.1, 14.5.2) e pelas opções 2 a 4 (presença em parte do dia, apenas de chamada, ausência), que mostram a distância de cada unidade à presença permanente.</li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -671,7 +711,13 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se a unidade tem acesso rápido a transporte, a qualquer hora, para transferir um doente de urgência, e de que tipo.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades com atendimento de urgência que têm acesso rápido, a qualquer hora do dia ou da noite, a transporte para transferir um doente de urgência.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1, 2 ou 3 em 14.6.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 14.1.</li>
+<li><strong>Desagregação:</strong> tipo de transporte (ambulância na unidade, ambulância chamada de outro local, outro veículo), categoria da unidade (2.6) e zona (2.11).</li>
+</ul>
+<p>Lido com a secção 7 (transportes), distingue a unidade que transfere com viatura própria da que depende de meios de outro local.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -727,7 +773,12 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Se o doente de urgência transferido é habitualmente acompanhado durante o transporte por um médico ou por um enfermeiro da unidade.</p>
+<p><strong>Indicador.</strong> Percentagem de unidades com atendimento de urgência em que o doente transferido é habitualmente acompanhado, durante o transporte, por um médico ou enfermeiro da unidade.</p>
+<ul>
+<li><strong>Numerador:</strong> unidades com opção 1 em 14.7.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 14.1.</li>
+<li><strong>Desagregação:</strong> a opção 2 (apenas em alguns casos) lê-se à parte, como acompanhamento irregular.</li>
+</ul>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -782,7 +833,16 @@ O que este quesito permite medir
 <summary>
 O que este quesito permite medir
 </summary>
-<p>Horas por dia de farmácia, imagem e laboratório para o atendimento de urgência. Onde o indicador se calcula de «igual a 24», pergunta-se o número de horas, que dá o indicador e o gradiente.</p>
+<p><strong>Indicadores.</strong> Para cada serviço de apoio da grelha — farmácia (14.8.1), exames de imagem (14.8.2) e exames de laboratório (14.8.3):</p>
+<ul>
+<li>Percentagem de unidades com atendimento de urgência em que o serviço está disponível para a urgência 24 horas por dia.
+<ul>
+<li><strong>Numerador:</strong> unidades com valor 24 na caixa do serviço.</li>
+<li><strong>Denominador:</strong> unidades com resposta 1 em 14.1; os códigos 97 (serviço inexistente) e 98 ficam no denominador e fora do numerador.</li>
+</ul></li>
+<li>Percentagem de unidades com atendimento de urgência sem o serviço (código 97), e distribuição das horas de disponibilidade entre as que o têm.</li>
+</ul>
+<p>Lido com 14.2.2, mostra as unidades com banco de urgência aberto 24 horas mas sem farmácia, imagem ou laboratório disponíveis durante todo esse período.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>

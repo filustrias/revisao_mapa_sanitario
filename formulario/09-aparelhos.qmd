@@ -23,7 +23,18 @@ Número de aparelhos médico-cirúrgicos de cada tipo e, nas unidades visitadas,
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Número de aparelhos de cada tipo em condições de utilização em cada unidade sanitária. Somado por município e província, orienta a distribuição de equipamento na rede.
+**Indicadores.**
+
+- Para cada tipo de aparelho da grelha: número de aparelhos em condições de utilização no último mês, por unidade e somado por município e província.
+  - **Numerador:** número declarado na linha; as linhas com 998 ficam fora da soma.
+  - **Denominador:** não se aplica (contagem).
+- Para cada tipo de aparelho da grelha: percentagem de unidades sanitárias com pelo menos um aparelho em condições de utilização.
+  - **Numerador:** unidades com número ≥ 1 na linha.
+  - **Denominador:** unidades a que a secção se aplica nesta versão (centros e postos de saúde).
+
+**Desagregação:** categoria da unidade (2.6), província e município.
+
+**Função no formulário.** A linha 9.1.1 (esterilizador ≥ 1) entra no indicador de esterilização de 9.2. As linhas 9.1.3, 9.1.4, 9.1.7 e 9.1.8 repetem-se na verificação do equipamento básico (9.1.16 a 9.1.23): a comparação entre a contagem declarada e o aparelho observado a funcionar mostra a dimensão dos problemas de manutenção. Somada por município e província, a contagem orienta a distribuição de equipamento na rede.
 
 </details>
 
@@ -77,7 +88,20 @@ Para cada um dos aparelhos seguintes, indique quantas unidades existem nesta uni
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Presença e funcionamento de doze itens de equipamento básico na área principal de atendimento, nas unidades visitadas, e a proporção desse equipamento reunida em cada unidade. Conta apenas o aparelho observado e a funcionar (coluna A = 1 e coluna B = 1). Comparada com a contagem de 9.1.1 a 9.1.15, mostra a dimensão dos problemas de manutenção.
+**Indicadores.**
+
+- Para cada um dos doze itens da grelha: percentagem de unidades sanitárias com o item observado e a funcionar na área principal de atendimento.
+  - **Numerador:** unidades com coluna A = 1 (Observado) e coluna B = 1 (Sim, funciona) na linha; na fita métrica (9.1.22), só coluna A = 1.
+  - **Denominador:** unidades visitadas com observação (resposta 1 em 1.4) a que a secção se aplica.
+- Percentagem média dos doze itens de equipamento básico disponíveis por unidade.
+  - **Cálculo:** em cada unidade, número de itens que cumprem a condição acima ÷ 12; média entre as unidades do mesmo denominador.
+- Percentagem de unidades sanitárias com os doze itens de equipamento básico.
+  - **Numerador:** unidades em que os doze itens cumprem a condição acima.
+  - **Denominador:** o mesmo.
+
+**Desagregação:** categoria da unidade (2.6) e província.
+
+**Função no formulário.** O aparelho referido mas não visto (A = 2) ou de funcionamento desconhecido (B = 98) não conta. As unidades com outra forma de recolha (1.4 diferente de 1) não respondem a esta grelha e ficam fora do denominador. Comparada com a contagem de 9.1.1 a 9.1.15, a verificação mostra onde estão as falhas de manutenção.
 
 </details>
 
@@ -145,7 +169,19 @@ Vou perguntar por alguns aparelhos que devem existir na área principal de atend
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-Como cada unidade esteriliza o material reutilizável — na própria unidade, com autoclave ou estufa, ou enviando-o para outra unidade. Com a contagem dos esterilizadores em condições de utilização (9.1.1), dá a percentagem de unidades com equipamento de esterilização a funcionar ou com sistema de envio do material para esterilizar fora.
+**Indicadores.**
+
+- Percentagem de unidades sanitárias com equipamento de esterilização a funcionar na unidade ou com sistema de envio do material para esterilizar fora.
+  - **Numerador:** unidades com resposta 1 ou 2 em 9.2 e esterilizador em condições de utilização (9.1.1 ≥ 1), ou com resposta 4 em 9.2.
+  - **Denominador:** unidades a que a secção se aplica (centros e postos de saúde).
+- Percentagem de unidades com partos que têm equipamento de esterilização em condições de utilização.
+  - **Numerador:** unidades com 9.1.1 ≥ 1.
+  - **Denominador:** unidades com partos (resposta 1 em 16.2).
+- Percentagem de unidades com grande cirurgia que têm equipamento de esterilização a funcionar ou envio do material para fora.
+  - **Numerador:** o mesmo do primeiro indicador.
+  - **Denominador:** unidades com grande cirurgia (resposta 1, 2 ou 3 em 10.29.2).
+
+**Função no formulário.** Lê-se com a contagem de esterilizadores (9.1.1) e com as portas dos partos (16.2) e da grande cirurgia (10.29.2). A ebulição ou desinfecção química (resposta 3) não conta como esterilização.
 
 </details>
 
