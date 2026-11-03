@@ -16,7 +16,7 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 4](formulario/04-construcao-estado-fisico.qmd) | Construção e estado físico. Edifícios, superfície, ano e material de construção e estado de conservação. |
 | [Secção 5](formulario/05-agua-energia-saneamento.qmd) | Água, energia, saneamento e resíduos. Fontes de água e electricidade, saneamento e destino dos resíduos comuns e hospitalares. |
 | [Secção 6](formulario/06-conectividade.qmd) | Conectividade e meios informáticos. Rede móvel, internet, equipamento informático e uso de bases de dados. |
-| [Secção 7](formulario/07-transportes.qmd) | Meios de transporte. Veículos por tipo e estado de funcionamento, e manutenção de rotina. |
+| [Secção 7](formulario/07-transportes.qmd) | Meios de transporte. Veículos por tipo e estado de funcionamento, manutenção de rotina e transporte de emergência. |
 | [Secção 8](formulario/08-camas.qmd) | Camas e equipamentos de exame. Camas instaladas por serviço — enfermarias, cuidados intensivos, isolamento, hospital de dia e observação — e macas. |
 | [Secção 9](formulario/09-aparelhos.qmd) | Aparelhos médico-cirúrgicos. Número de aparelhos por tipo e verificação do equipamento básico. |
 | [Secção 10](formulario/10-clinicos-cirurgicos.qmd) | Serviços clínicos e cirúrgicos. Atendimento nas 28 especialidades e na fisioterapia, sobreviventes de violência e cirurgia. |
@@ -28,5 +28,5 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 16](formulario/16-materna-neonatal-pf.qmd) | Saúde materna, do recém-nascido e planeamento familiar. Consulta pré-natal, partos, cuidados ao recém-nascido e métodos contraceptivos. |
 | [Secção 17](formulario/17-vih-tb-malaria.qmd) | VIH, tuberculose e malária. Testagem, profilaxia e tratamento do VIH, diagnóstico e seguimento da tuberculose, e malária. |
 | [Secção 18](formulario/18-accao-comunitaria.qmd) | Acção comunitária. Redes mosquiteiras, brigadas móveis e articulação com os ADECOS. |
-| [Secção 19](formulario/19-gestao.qmd) | Gestão. Propriedade, órgãos de gestão, revisão de óbitos, controlo de infecções e qualidade. |
-| [Secção 20](formulario/20-servicos-gerais.qmd) | Serviços gerais. Transporte de emergência, serviços de apoio e opinião dos utentes. |
+| [Secção 19](formulario/19-gestao.qmd) | Gestão. Propriedade, órgãos de gestão, revisão de óbitos, controlo de infecções, qualidade e opinião dos utentes. |
+| [Secção 20](formulario/20-servicos-gerais.qmd) | Serviços gerais. Serviços de apoio, como cozinha, lavandaria, morgue, limpeza e segurança. |

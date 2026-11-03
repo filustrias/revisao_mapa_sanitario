@@ -2,9 +2,9 @@
 title: "Secção 7 — Meios de transporte"
 ---
 
-Veículos afectos à unidade sanitária, por tipo e por estado de funcionamento, e manutenção de rotina desses veículos.
+Veículos afectos à unidade sanitária, por tipo e por estado de funcionamento, manutenção de rotina desses veículos e acesso a transporte de emergência.
 
-[36 campos, contra 24 na Ficha 19_01.]{.campos}
+[38 campos, contra 25 na Ficha 19_01, incluindo o acesso a transporte de emergência, que vem dos serviços gerais.]{.campos}
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
@@ -15,6 +15,7 @@ Veículos afectos à unidade sanitária, por tipo e por estado de funcionamento,
 | 7.2 | Situações que a contagem não exprime — viaturas partilhadas, cedidas ou imobilizadas por falta de documentação [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 7.3.1 | Unidades com plano de manutenção de rotina dos veículos [(1 indicador do HHFA)]{.hhfa} |
 | 7.3.2 | Unidades que cumprem rotineiramente o plano de manutenção [(1 indicador do HHFA)]{.hhfa} |
+| 7.4 e 7.4.1 | Transporte de emergência disponível hoje, com combustível e motorista [(2 indicadores do HHFA)]{.hhfa} |
 
 </details>
 
@@ -44,7 +45,7 @@ Veículos afectos à unidade sanitária, por tipo e por estado de funcionamento,
 ::: {.hhfa .fonte-indicadores}
 **Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
 
-Indicador mais próximo: 2.1.1.1.7 — unidades com sistema de transporte de emergência para doentes (*Percentage of facilities with emergency transportation system for patients*) — porque não é o mesmo: mede o acesso a transporte de emergência (próprio ou chamado de outro local), perguntado em 20.1; aqui conta-se a frota própria por tipo e estado.
+Indicador mais próximo: 2.1.1.1.7 — unidades com sistema de transporte de emergência para doentes (*Percentage of facilities with emergency transportation system for patients*) — porque não é o mesmo: mede o acesso a transporte de emergência (próprio ou chamado de outro local), perguntado em 7.4; aqui conta-se a frota própria por tipo e estado.
 :::
 
 ::: {.enunciado .rotulado}
@@ -134,7 +135,7 @@ Texto livre
 - **Denominador:** unidades com veículos (resposta 1 ou 2 em 7.3.1); as unidades com resposta 5 ficam fora.
 - **Desagregação:** categoria da unidade (2.6) e província.
 
-**Função no formulário.** Define dois universos: as unidades com veículos (respostas 1 e 2), denominador deste indicador e do de cumprimento do plano (7.3.2); e as unidades com plano (resposta 1), as únicas a quem se faz 7.3.2. As unidades com resposta 2 ou 5 terminam a secção. Lida com a coluna 2 de 7.1, mostra se o problema da frota tende a agravar-se ou a resolver-se.
+**Função no formulário.** Define dois universos: as unidades com veículos (respostas 1 e 2), denominador deste indicador e do de cumprimento do plano (7.3.2); e as unidades com plano (resposta 1), as únicas a quem se faz 7.3.2. As unidades com resposta 2 ou 5 passam a 7.4. Lida com a coluna 2 de 7.1, mostra se o problema da frota tende a agravar-se ou a resolver-se.
 
 </details>
 
@@ -165,7 +166,7 @@ Esta unidade sanitária segue um plano de manutenção de rotina para algum dos 
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 7.3.1 for «Não» ou «A unidade não tem veículos», terminar a secção sem fazer 7.3.2.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 7.3.1 for «Não» ou «A unidade não tem veículos», passar a 7.4 sem fazer 7.3.2.
 :::
 
 ::: {.nota .interno}
@@ -212,8 +213,113 @@ Esta unidade sanitária cumpre o plano de manutenção dos seus veículos?
 3. Nunca
 :::
 
+## 7.4 · Acesso a transporte de emergência [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- Percentagem de unidades sanitárias com acesso a veículo em condições de funcionamento para o transporte de emergência de doentes — ambulância ou outro veículo, na unidade ou chamado de outro local.
+- Percentagem de unidades sanitárias com acesso a ambulância.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1 ou 2 em 7.4 (qualquer veículo); unidades com resposta 1 (ambulância).
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província e zona (2.11).
+
+**Função no formulário.** Porta de 7.4.1: as unidades com resposta 1 ou 2 respondem à disponibilidade do veículo hoje; as unidades com resposta 3 (Não) terminam a secção e contam como unidades sem transporte de emergência. Lida com a distância e o tempo até à unidade de referência (3.2.5, 3.2.8 e 3.2.9), mostra onde a evacuação, em especial a obstétrica, não é exequível em tempo útil.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opções 1 e 2 (Sim, ambulância; Sim, outro veículo) | 2.1.1.1.7 · 3.1.3.3.6 | Entra no cálculo (ver 7.4.1) | Q1232 = 1 ou 2 |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária tem acesso a uma ambulância ou a outro veículo em condições de funcionamento para o transporte de emergência de doentes — quer esteja estacionado nesta unidade, quer possa ser chamado de outro local?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, ambulância
+2. Sim, outro tipo de veículo
+3. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», terminar a secção.
+:::
+
+::: {.nota .interno}
+O enunciado inclui expressamente o veículo **chamado de outro local**, porque é essa a situação da maior parte dos centros de saúde — e uma pergunta sobre veículo próprio deixaria essas unidades contadas como unidades sem transporte de emergência.
+:::
+
+## 7.4.1 · Transporte de emergência disponível hoje [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- Percentagem de unidades sanitárias com sistema de transporte de emergência para doentes — veículo em condições de funcionamento, com combustível e motorista, disponível no dia da visita.
+- Percentagem de unidades que fazem partos com transporte de emergência disponível.
+- Proporção das unidades com acesso a veículo de emergência em que o veículo está disponível no dia da visita.
+
+<!-- -->
+
+- **Numerador:** unidades com resposta 1 ou 2 em 7.4 e resposta 1 em 7.4.1 (para os três indicadores).
+- **Denominador:** todas as unidades sanitárias inquiridas (primeiro indicador); unidades com resposta 1 em 16.2 (partos); unidades com resposta 1 ou 2 em 7.4 (proporção).
+- **Desagregação:** categoria da unidade (2.6), província e zona (2.11).
+
+A diferença entre 7.4 e 7.4.1 mostra quantas unidades têm acesso declarado a um veículo que, na prática, não está pronto a sair.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim), com 7.4 = 1 ou 2 | 2.1.1.1.7 | Unidades com sistema de transporte de emergência para doentes<br>*Percentage of facilities with emergency transportation system for patients* | (Q1232 = 1 ou 2) e Q1234 = 1; todas as unidades |
+| Resposta 1 (Sim), com 7.4 = 1 ou 2 | 3.1.3.3.6 | Unidades que fazem partos com transporte de emergência<br>*Percentage of facilities offering delivery services with emergency transport* | (Q1232 = 1 ou 2) e Q1234 = 1; entre as unidades que fazem partos (no HHFA: Q2201 = 1) |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esse veículo está disponível hoje, em condições de funcionamento, com combustível e com motorista?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se o respondente não tiver a certeza, pedir que confirme com quem saiba.
+:::
+
+::: {.nota .interno}
+**7.4.1 é a verificação da declaração:** ter acesso a uma ambulância e ter uma ambulância com combustível e motorista hoje são coisas diferentes. Articula-se com 14.6 (urgência), com 3.9 (sistema de referência) e com 7.1 (frota), sem duplicação de campo.
+:::
+
 ## Pendência desta secção
 
 ::: {.nota}
-**Nível a que se regista a frota.** A secção conta apenas os veículos da própria unidade. Para a maioria das unidades de cuidados primários, o que decide a evacuação de um doente é haver uma viatura disponível no município ou na região. A capacidade de chamar um veículo de outro local já está nos quesitos 20.1 e 20.1.1 (transporte de emergência) e 14.6 (transporte para referir doentes de urgência). Falta decidir onde se regista a frota ao nível municipal: num quesito à unidade sobre a frota a que tem acesso através do município, ou num instrumento próprio dirigido à Direcção Municipal de Saúde, fora da ficha da unidade.
+**Nível a que se regista a frota.** A secção conta apenas os veículos da própria unidade. Para a maioria das unidades de cuidados primários, o que decide a evacuação de um doente é haver uma viatura disponível no município ou na região. A capacidade de chamar um veículo de outro local já está nos quesitos 7.4 e 7.4.1 (transporte de emergência) e 14.6 (transporte para referir doentes de urgência). Falta decidir onde se regista a frota ao nível municipal: num quesito à unidade sobre a frota a que tem acesso através do município, ou num instrumento próprio dirigido à Direcção Municipal de Saúde, fora da ficha da unidade.
 :::

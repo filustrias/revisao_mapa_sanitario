@@ -82,7 +82,7 @@ Isto não é uma subtileza de redacção. Se a porta fosse o órgão, perderíam
 A proposta é de revisão e não de substituição, e isso deve ser visível na leitura. Em concreto:
 
 - **os quesitos foram reorganizados por tema e renumerados** de forma sequencial, pela ordem em que o inquiridor percorre a unidade;
-- **as listas nomeadas da Ficha mantêm-se por inteiro** — as 28 especialidades clínicas, os 7 tipos de veículo, os 15 tipos de aparelho, os 17 serviços e órgãos de gestão, os 15 serviços gerais. Nenhuma foi encurtada;
+- **as listas nomeadas da Ficha mantêm-se por inteiro** — as 28 especialidades clínicas, os 7 tipos de veículo, os 15 tipos de aparelho, os 17 serviços e órgãos de gestão, os 15 serviços gerais (o gabinete do utente passa a estar junto da gestão). Nenhuma foi encurtada;
 - **as contagens da Ficha mantêm-se**: a Ficha conta camas, aparelhos e veículos, e essa contagem é informação de gestão logística própria do Mapa Sanitário;
 - **as definições do Guião foram conservadas e, em muitos casos, trazidas para dentro da pergunta**. Em vários quesitos, a proposta dá campo próprio a informação que o Guião já pede: as camas guardadas em armazém, que o Guião manda registar «aparte»; a data da visita anterior, com a indicação de unidade «nunca visitada»; a quantidade de ADECOS; e a classificação da consulta pré-natal como «completa, incompleta ou não é realizada». Nestes casos a proposta limita-se a acompanhar o que a instrução já prevê.
 
@@ -99,7 +99,7 @@ Ficam ainda parqueados:
 
 - o **funcionamento do sistema de referência** (3.4 a 3.9) — normas de referência e contrarreferência, registo dos doentes referidos e informação de retorno —, que passa para o bloco de gestão;
 - para o bloco de gestão e finanças que será desenhado depois, o **orçamento próprio** (19.1.3) e a **cadeia de arquivo e reporte de dados e o comité de gestão** (19.2.1 + 19.2.10 e 19.2.2 + 19.2.6);
-- o **bloco de manutenção** de infraestrutura e de equipamento (20.8).
+- o **bloco de manutenção** de infraestrutura e de equipamento (20.6).
 
 ## Decisões que esta revisão deve tomar
 
@@ -112,7 +112,7 @@ Estas são as questões em aberto. Estão assinaladas no texto com a etiqueta [A
 5. **Âmbito da secção 9** (aparelhos médico-cirúrgicos). O Guião restringe a secção a centros e postos de saúde, com fundamento. Mantendo a restrição, perde-se a leitura do equipamento no topo da árvore de referência.
 6. **Frota ao nível municipal** (secção 7). Para a maioria das unidades de cuidados primários, o que decide a evacuação de um doente não é a unidade ter viatura própria mas o município ter uma viatura disponível — pelo que importa decidir se a frota municipal deve ser recolhida, e onde.
 7. **Unidades de ensino** (19.2.8 e 19.2.9). Propõe-se um quesito que registe se a unidade acolhe formação de estudantes, internos, médicos em especialização ou técnicos de saúde.
-8. **Bloco de manutenção** (20.8). São cerca de 25 caixas, cobrindo a manutenção de 9 sistemas de infraestrutura e de 11 tipos de equipamento. Está parqueado, mas a decisão de o activar agora é legítima.
+8. **Bloco de manutenção** (20.6). São cerca de 25 caixas, cobrindo a manutenção de 9 sistemas de infraestrutura e de 11 tipos de equipamento. Está parqueado, mas a decisão de o activar agora é legítima.
 
 ## Pendências a pedir ao MINSA
 

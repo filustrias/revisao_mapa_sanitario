@@ -98,6 +98,8 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 7.2 | 10.2 | Observações | 7 |
 | 7.3.1 | 10.3.1 | Plano de manutenção dos veículos | 7 |
 | 7.3.2 | 10.3.2 | Cumprimento do plano de manutenção | 7 |
+| 7.4 | 7.5.1 | Acesso a transporte de emergência | 7 |
+| 7.4.1 | 7.5.1.1 | Transporte de emergência disponível hoje | 7 |
 | 10.A | 7.1.A | Especialidades clínicas (10.1 a 10.28) | 10 |
 | 11.1 | 7.1.B.0 | Doenças crónicas não transmissíveis — porta | 11 |
 | 11.2 a 11.5 | 7.1.B | Grelhas por família (cardiovasculares, endócrinas, respiratórias, renal/anemias/desnutrição); substituem a grelha única | 11 |
@@ -209,11 +211,36 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 19.2.18.8 | 7.4.18.8 | Formação em qualidade | 19 |
 | 19.2.18.9 | 7.4.18.9 | Apoio externo para a qualidade | 19 |
 | 19.2.1 + 19.2.10 e 19.2.2 + 19.2.6 | 7.4.1 + 7.4.10 e 7.4.2 + 7.4.6 | Arquivo, reporte e comité de gestão | 19 |
-| 20.1 | 7.5.1 | Acesso a transporte de emergência | 20 |
-| 20.1.1 | 7.5.1.1 | Transporte de emergência disponível hoje | 20 |
-| 20.2 a 20.18 | 7.5.2 a 7.5.18 | Lista dos serviços gerais | 20 |
-| 20.5.2 | 7.5.5.2 | Gavetas mortuárias | 20 |
-| 20.18.1 | 7.5.18.1 | Recolha da opinião dos utentes | 20 |
-| 20.18.2 | 7.5.18.2 | Análise da opinião dos utentes | 20 |
-| 20.7 e 20.16 | 7.5.7 e 7.5.16 | Duas remissões | 20 |
-| 20.8 | 7.5.8 | Bloco de manutenção | 20 |
+| 19.2.19 | 7.5.18 | Gabinete do utente | 19 |
+| 19.2.19.1 | 7.5.18.1 | Recolha da opinião dos utentes | 19 |
+| 19.2.19.2 | 7.5.18.2 | Análise da opinião dos utentes | 19 |
+| 20.1 a 20.14 | 7.5.2 a 7.5.6, 7.5.8 a 7.5.15 e 7.5.17 | Lista dos serviços gerais | 20 |
+| 20.4.1 | 7.5.5.2 | Gavetas mortuárias | 20 |
+| 20.6 | 7.5.8 | Bloco de manutenção | 20 |
+
+## Reorganização da secção 20 (3 de Novembro de 2026)
+
+Comentários recebidos antes desta data usam os códigos da coluna «Antes». As linhas de remissão 20.7 (comunicação) e 20.16 (tratamento do lixo) saíram: a informação recolhe-se nas secções 6 e 5.
+
+| Antes | Agora | Quesito |
+|---|---|---|
+| 20.1 | 7.4 | Acesso a transporte de emergência |
+| 20.1.1 | 7.4.1 | Transporte de emergência disponível hoje |
+| 20.2 | 20.1 | Cozinha |
+| 20.3 | 20.2 | Refeitório ou cantina |
+| 20.4 | 20.3 | Lavandaria |
+| 20.5.1 | 20.4 | Morgue |
+| 20.5.2 | 20.4.1 | Gavetas mortuárias |
+| 20.6 | 20.5 | Higiene e limpeza |
+| 20.8 | 20.6 | Manutenção |
+| 20.9 | 20.7 | Segurança |
+| 20.10 | 20.8 | Salão de actos |
+| 20.11 | 20.9 | Biblioteca |
+| 20.12 | 20.10 | Residência |
+| 20.13 | 20.11 | Capela |
+| 20.14 | 20.12 | Parqueamento |
+| 20.15 | 20.13 | Ajardinamento |
+| 20.17 | 20.14 | Videovigilância |
+| 20.18 | 19.2.19 | Gabinete do utente |
+| 20.18.1 | 19.2.19.1 | Recolha da opinião dos utentes |
+| 20.18.2 | 19.2.19.2 | Análise da opinião dos utentes |

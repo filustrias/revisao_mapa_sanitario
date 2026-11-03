@@ -2,9 +2,9 @@
 title: "Secção 19 — Gestão"
 ---
 
-Propriedade e entidade gestora da unidade, orçamento próprio, serviços e órgãos de gestão, revisão de óbitos, prevenção e controlo de infecções e garantia de qualidade.
+Propriedade e entidade gestora da unidade, orçamento próprio, serviços e órgãos de gestão, revisão de óbitos, prevenção e controlo de infecções, garantia de qualidade e opinião dos utentes.
 
-[40 campos, contra 22 na Ficha 19_01, incluindo a propriedade e a entidade gestora (19.1.1 e 19.1.2) e o orçamento próprio (19.1.3).]{.campos}
+[43 campos, contra 23 na Ficha 19_01, incluindo a propriedade e a entidade gestora (19.1.1 e 19.1.2) e o orçamento próprio (19.1.3).]{.campos}
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
@@ -13,10 +13,11 @@ Propriedade e entidade gestora da unidade, orçamento próprio, serviços e órg
 |---|---|
 | 19.1.1 | Tipo de proprietário da unidade — leitura de todos os indicadores por essa via [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 19.1.2 | Nível que gere a unidade — nacional, provincial ou municipal [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 19.2.1 a 19.2.17 | Existência e funcionamento de 17 serviços e órgãos de gestão [(4 indicadores do HHFA)]{.hhfa} |
+| 19.2.1 a 19.2.17 e 19.2.19 | Existência e funcionamento de 18 serviços e órgãos de gestão [(4 indicadores do HHFA)]{.hhfa} |
 | 19.2.14.1 a 19.2.14.4 | Revisão de óbitos, por tipo de óbito, nas unidades com internamento [(5 indicadores do HHFA)]{.hhfa} |
 | 19.2.13.1 e 19.2.13.2 | Prevenção e controlo de infecções: comissão, reuniões multidisciplinares e reunião mais recente [(3 indicadores do HHFA)]{.hhfa} |
 | 19.2.18.1 a 19.2.18.9 | Garantia e melhoria da qualidade [(7 indicadores do HHFA)]{.hhfa} |
+| 19.2.19.1 e 19.2.19.2 | Recolha e análise da opinião dos utentes [(2 indicadores do HHFA)]{.hhfa} |
 | Parqueados | Arquivo e reporte de dados; equipa de gestão [(7 indicadores do HHFA identificados e cerca de 8 da área 4.5 por definir, fora desta ronda)]{.hhfa} |
 
 </details>
@@ -156,12 +157,12 @@ Esta unidade sanitária tem orçamento próprio?
 **Porque está aqui.** Na Ficha, este quesito está no cabeçalho, junto da data da recolha. É um quesito de gestão financeira e passa para esta secção, onde deve ser combinado com outras informações sobre o financiamento da unidade. Conserva o código 19.1.3 até essa decisão; as opções estão nas pendências, no fim desta subsecção.
 :::
 
-## 19.2.1 a 19.2.17 · Lista dos serviços e órgãos de gestão [ALTERADO]{.etiqueta .alterado}
+## 19.2.1 a 19.2.17 e 19.2.19 · Lista dos serviços e órgãos de gestão [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-**Indicadores.** Para cada serviço ou órgão da grelha (19.2.1 a 19.2.17):
+**Indicadores.** Para cada serviço ou órgão da grelha (19.2.1 a 19.2.17 e 19.2.19):
 
 - Percentagem de unidades sanitárias em que o serviço ou órgão existe.
 - Percentagem de unidades sanitárias em que existe e funcionou nos últimos 3 meses.
@@ -173,7 +174,7 @@ Esta unidade sanitária tem orçamento próprio?
 - **Denominador:** todas as unidades sanitárias inquiridas; para a proporção dos que funcionaram, unidades com resposta 1 ou 2 na linha.
 - **Desagregação:** categoria da unidade (2.6), sobretudo para as comissões, que se esperam nos hospitais.
 
-**Função no formulário.** As linhas 19.2.13 (comissão de infecções) e 19.2.14 (comissão de óbitos) lêem-se com os blocos de actividade correspondentes, 19.2.13.1–19.2.13.2 e 19.2.14.1–19.2.14.4: a actividade pode existir sem o órgão constituído, e o órgão sem actividade.
+**Função no formulário.** As linhas 19.2.13 (comissão de infecções) e 19.2.14 (comissão de óbitos) lêem-se com os blocos de actividade correspondentes, 19.2.13.1–19.2.13.2 e 19.2.14.1–19.2.14.4: a actividade pode existir sem o órgão constituído, e o órgão sem actividade. A linha 19.2.19 (gabinete do utente) lê-se com 19.2.19.1 e 19.2.19.2, que medem se a opinião dos utentes é de facto recolhida e analisada.
 
 A diferença entre «existe» e «funcionou» mostra onde o órgão existe no papel sem actividade.
 
@@ -191,6 +192,7 @@ A diferença entre «existe» e «funcionou» mostra onde o órgão existe no pa
 | Linha 19.2.13 · Comissão de infecções hospitalares | — (medida própria) | A comissão e as reuniões de prevenção e controlo de infecções medem-se em 19.2.13.1 e 19.2.13.2 | — |
 | Linha 19.2.14 · Comissão de óbitos hospitalares | — (medida própria) | A revisão de óbitos mede-se em 19.2.14.1 a 19.2.14.4 | — |
 | Linha 19.2.15 · Comissão de medicamentos | — (medida própria) | Pendente: ver «Pendências desta subsecção» | — |
+| Linha 19.2.19 · Gabinete do utente | — (medida própria) | A recolha e a análise da opinião dos utentes medem-se em 19.2.19.1 e 19.2.19.2 | — |
 | Linhas 19.2.1 a 19.2.4, 19.2.6, 19.2.8, 19.2.9.1, 19.2.9.2, 19.2.10, 19.2.12, 19.2.16 e 19.2.17 | — (medida própria) |  | — |
 :::
 
@@ -223,6 +225,7 @@ Vou ler uma lista de serviços e órgãos de gestão. Para cada um, diga-me se e
 | 19.2.15 | Comissão de medicamentos | ☐ | ☐ | ☐ |
 | 19.2.16 | Comissão de segurança no trabalho | ☐ | ☐ | ☐ |
 | 19.2.17 | Comissão de disciplina e auditoria | ☐ | ☐ | ☐ |
+| 19.2.19 | Gabinete do utente | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota .interno}
@@ -713,6 +716,93 @@ Esta unidade sanitária recebe apoio de parceiros externos na implementação de
 
 1. Sim
 2. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+## 19.2.19.1 · Recolha da opinião dos utentes [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias com procedimento de rotina para recolher ou reportar a opinião dos utentes, verificado pelo inquiridor.
+
+- **Numerador:** unidades com resposta 1 (Sim, observado) em 19.2.19.1. A resposta 2 (referido, não visto) não conta.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6).
+
+**Função no formulário.** Porta de 19.2.19.2: as unidades com resposta 1 ou 2 respondem à frequência da análise; as unidades com resposta 3 (Não) não a fazem. A resposta 1 é condição do indicador de 19.2.19.2.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1 (Sim, observado) | 4.4.2.3.9 | Unidades com sistema para recolher a opinião dos utentes sobre os serviços<br>*Percentage of facilities with system for eliciting client opinions on facility services* | Q730 = 1; todas as unidades |
+| Opção 1 (Sim, observado) | 4.4.2.3.10 | Entra no cálculo (ver 19.2.19.2) | Faz as vezes da Q731 = 1 |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Existe nesta unidade sanitária um procedimento de rotina para recolher ou reportar a opinião dos utentes?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, observado
+2. Sim, referido, não visto
+3. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for sim, pedir para ver notas ou relatórios relativos à opinião dos utentes antes de marcar «Sim, observado» ou «Sim, referido, não visto».
+
+Se a resposta for «Não», não fazer 19.2.19.2.
+:::
+
+::: {.nota .interno}
+O Gabinete do Utente existe na Ficha como caixa e passa a ter o seu conteúdo medido: não se pergunta apenas se existe, mas se a opinião dos utentes é de facto recolhida e analisada, e com que periodicidade. É a única porta de entrada do instrumento para a perspectiva de quem usa os serviços.
+:::
+
+## 19.2.19.2 · Análise da opinião dos utentes [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias com sistema de análise da opinião dos utentes pelo menos a cada 3 meses.
+
+- **Numerador:** unidades com resposta 1 em 19.2.19.1 e resposta 1 ou 2 em 19.2.19.2.
+- **Denominador:** todas as unidades sanitárias inquiridas; as unidades sem procedimento observado contam como não tendo análise. Pode ler-se também entre as unidades com resposta 1 em 19.2.19.1.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opções 1 e 2 (pelo menos a cada 3 meses), com 19.2.19.1 = 1 | 4.4.2.3.10 | Unidades com sistema de análise da opinião dos utentes pelo menos a cada 3 meses<br>*Percentage of facilities with system of reviewing client feedback at least every 3 months* | Q731 = 1 e Q732 = 1 ou 2; todas as unidades. O formulário não tem pergunta própria equivalente à Q731; faz as vezes dela 19.2.19.1 = 1 |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Com que frequência é analisada a opinião dos utentes?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Pelo menos mensalmente
+2. Pelo menos a cada 3 meses
+3. Pelo menos a cada 6 meses
+4. Menos de uma vez a cada 6 meses
 
 <!-- -->
 
