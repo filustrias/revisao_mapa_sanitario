@@ -2,35 +2,34 @@
 title: "Secção 4 — Funcionamento do sistema de referência"
 ---
 
-Como a unidade sanitária refere os doentes a outras unidades: sistema estabelecido, normas de referência e de contrarreferência, registo das referências feitas, informação de retorno e acesso a transporte 24 horas. As unidades de referência, a distância e o tempo de viagem estão na secção 3.
+Como a unidade sanitária refere os doentes a outras unidades: mecanismo de referência, normas de referência e de contrarreferência, registo dos doentes referidos e informação de retorno. As unidades de referência, a distância e o tempo de viagem estão na secção 3; o transporte, na secção 8.
 
-[6 campos.]{.campos}
+[5 campos.]{.campos}
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
 
 | Quesito | O que se obtém |
 |---|---|
-| 4.1 | Unidades com sistema estabelecido para referir doentes [(1 indicador do HHFA)]{.hhfa} |
+| 4.1 | Unidades com mecanismo para referir doentes [(1 indicador do HHFA)]{.hhfa} |
 | 4.2 e 4.3 | Unidades com normas escritas de referência e de contrarreferência [(2 indicadores do HHFA)]{.hhfa} |
-| 4.4 | Unidades com registo das referências feitas [(1 indicador do HHFA)]{.hhfa} |
-| 4.5 | Unidades que recebem habitualmente informação de retorno sobre os doentes referidos [(1 indicador do HHFA)]{.hhfa} |
-| 4.6 | Unidades com acesso 24 horas a veículo e motorista para o transporte de doentes [(1 indicador do HHFA)]{.hhfa} |
+| 4.4 | Unidades com registo dos doentes referidos [(1 indicador do HHFA)]{.hhfa} |
+| 4.5 | Unidades que recebem habitualmente informação de retorno [(1 indicador do HHFA)]{.hhfa} |
 
 </details>
 
-## 4.1 · Sistema de referência [NOVO]{.etiqueta .novo}
+## 4.1 · Mecanismo de referência [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-**Indicador.** Percentagem de unidades sanitárias com sistema estabelecido para referir doentes a outras unidades sanitárias.
+**Indicador.** Percentagem de unidades sanitárias com mecanismo para referir doentes a outras unidades sanitárias.
 
 - **Numerador:** unidades com resposta 1 em 4.1.
 - **Denominador:** todas as unidades sanitárias inquiridas.
 - **Desagregação:** categoria da unidade (2.6) e província.
 
-**Função no formulário.** Porta de 4.2 a 4.5: só as unidades com resposta 1 respondem às normas, ao registo e à informação de retorno. As unidades com resposta 2 passam a 4.6 e contam, nesses indicadores, como unidades sem normas, sem registo e sem retorno.
+**Função no formulário.** Porta de 4.2 a 4.5: só as unidades com resposta 1 respondem às normas, ao registo e à informação de retorno. As unidades com resposta 2 saltam para a secção 5 e contam, nesses indicadores, como não tendo.
 
 </details>
 
@@ -45,7 +44,7 @@ Como a unidade sanitária refere os doentes a outras unidades: sistema estabelec
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-Esta unidade sanitária tem um sistema estabelecido para referir doentes a outras unidades sanitárias?
+Esta unidade sanitária tem um mecanismo para referir doentes a outras unidades sanitárias, para serviços que não se podem obter nesta unidade?
 :::
 
 ::: {.respostas .rotulado}
@@ -56,27 +55,25 @@ Esta unidade sanitária tem um sistema estabelecido para referir doentes a outra
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Entende-se por sistema estabelecido um procedimento habitual e conhecido pelo pessoal, e não uma decisão tomada caso a caso. Se a resposta for «Não», passar a 4.6.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para a secção 5.
 :::
 
-## 4.2 a 4.4 · Normas de referência e de contrarreferência e registo das referências [NOVO]{.etiqueta .novo}
+::: {.nota .interno}
+**Origem.** O texto, as opções e os saltos de 4.1 a 4.5 são a tradução de Q1227 a Q1231 do questionário combinado do HHFA de Junho de 2023. No HHFA, o salto de Q1227 vai para Q1232, que neste formulário é o 8.4: por isso a resposta «Não» passa à secção 5.
+:::
+
+## 4.2 · Normas de referência [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-**Indicadores.**
+**Indicador.** Percentagem de unidades sanitárias com normas ou protocolos de referência.
 
-- Percentagem de unidades sanitárias com normas ou protocolos escritos de referência (4.2).
-- Percentagem de unidades sanitárias com normas ou protocolos escritos de contrarreferência (4.3).
-- Percentagem de unidades sanitárias com registo das referências feitas (4.4).
-
-<!-- -->
-
-- **Numerador:** unidades com coluna 1 (Sim, observado) na linha. A coluna 2 (referido, não visto) não conta.
-- **Denominador:** unidades visitadas com observação (resposta 1 em 1.4). As que entre elas têm resposta 2 em 4.1 contam como unidades sem o documento.
+- **Numerador:** unidades com resposta 1 em 4.2.
+- **Denominador:** todas as unidades sanitárias inquiridas; as unidades com resposta 2 em 4.1 contam como não tendo.
 - **Desagregação:** categoria da unidade (2.6) e província.
 
-**Leitura.** Em todas as unidades inquiridas, as colunas 1 e 2 somadas dão a declaração de que o documento existe, e a distância até à coluna 1 mostra o que não foi possível confirmar.
+**Leitura.** A resposta 2 (referido, não visto) não conta. Numa recolha sem visita não se pode marcar «observado», por isso este indicador só se compara entre unidades com a mesma forma de recolha (1.4).
 
 </details>
 
@@ -85,29 +82,103 @@ Esta unidade sanitária tem um sistema estabelecido para referir doentes a outra
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha 4.2, coluna 1 | 2.7.1.1.2 | Unidades com normas ou protocolos de referência<br>*Percentage of facilities with guidelines or protocols for referral* | Q1228 = 1; todas as unidades (aqui: unidades visitadas com observação) |
-| Linha 4.3, coluna 1 | 2.7.1.1.3 | Unidades com normas ou protocolos de contrarreferência<br>*Percentage of facilities with guidelines or protocols for counter-referral* | Q1229 = 1; todas as unidades (aqui: unidades visitadas com observação) |
-| Linha 4.4, coluna 1 | 2.7.1.1.4 | Unidades com registo das referências feitas<br>*Percentage of facilities with records of referrals out* | Q1230 = 1; todas as unidades (aqui: unidades visitadas com observação) |
+| Opção 1 (Sim, observado) | 2.7.1.1.2 | Unidades com normas ou protocolos de referência<br>*Percentage of facilities with guidelines or protocols for referral* | Q1228 = 1; todas as unidades |
 :::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-Vou perguntar por três documentos sobre a referência de doentes. Para cada um, diga-me se existe nesta unidade sanitária e, se existir, peço que mo mostre.
+Esta unidade sanitária tem protocolos ou normas para referir doentes a outras unidades sanitárias? Se sim: posso vê-los?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, observado
+2. Sim, referido, não visto
+3. Não
+:::
+
+## 4.3 · Normas de contrarreferência [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias com normas ou protocolos de contrarreferência.
+
+- **Numerador:** unidades com resposta 1 em 4.3.
+- **Denominador:** todas as unidades sanitárias inquiridas; as unidades com resposta 2 em 4.1 contam como não tendo.
+- **Desagregação:** categoria da unidade (2.6) e província.
+
+**Leitura.** A resposta 2 (referido, não visto) não conta. Numa recolha sem visita não se pode marcar «observado», por isso este indicador só se compara entre unidades com a mesma forma de recolha (1.4).
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1 (Sim, observado) | 2.7.1.1.3 | Unidades com normas ou protocolos de contrarreferência<br>*Percentage of facilities with guidelines or protocols for counter-referral* | Q1229 = 1; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária tem protocolos ou normas para a contrarreferência (referência de retorno) de doentes? Se sim: posso vê-los?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, observado
+2. Sim, referido, não visto
+3. Não
+
+<!-- -->
+
+5. Não aplicável
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar «Sim, observado» apenas quando o documento for visto. Em recolha sem visita (resposta diferente de 1 em 1.4), usar só as colunas 2 e 3.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Isto significa a referência dos doentes de volta à unidade de origem, com informação de retorno escrita.
 :::
 
-::: {.grelha .rotulado}
-[Grelha de resposta]{.rotulo}
+## 4.4 · Registo dos doentes referidos [NOVO]{.etiqueta .novo}
 
-| Código | Documento | 1 · Sim, observado | 2 · Sim, referido, não visto | 3 · Não |
-|---|---|:-:|:-:|:-:|
-| 4.2 | Normas ou protocolos escritos de referência de doentes [HHFA 2.7.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 4.3 | Normas ou protocolos escritos de contrarreferência — o retorno do doente e da informação à unidade que o referiu [HHFA 2.7.1.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 4.4 | Registo das referências feitas, em papel ou electrónico [HHFA 2.7.1.1.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias com registo dos doentes referidos.
+
+- **Numerador:** unidades com resposta 1 em 4.4.
+- **Denominador:** todas as unidades sanitárias inquiridas; as unidades com resposta 2 em 4.1 contam como não tendo.
+- **Desagregação:** categoria da unidade (2.6) e província.
+
+**Leitura.** A resposta 2 (referido, não visto) não conta. Numa recolha sem visita não se pode marcar «observado», por isso este indicador só se compara entre unidades com a mesma forma de recolha (1.4).
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1 (Sim, observado) | 2.7.1.1.4 | Unidades com registo dos doentes referidos<br>*Percentage of facilities with records of referrals out* | Q1230 = 1; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária mantém registos (por exemplo, um livro de registo) dos doentes referidos para fora? Se sim: posso ver os registos dos doentes referidos para fora?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, observado
+2. Sim, referido, não visto
+3. Não
 :::
 
 ## 4.5 · Informação de retorno [NOVO]{.etiqueta .novo}
@@ -118,7 +189,7 @@ Vou perguntar por três documentos sobre a referência de doentes. Para cada um,
 **Indicador.** Percentagem de unidades sanitárias que recebem habitualmente informação de retorno sobre os doentes referidos.
 
 - **Numerador:** unidades com resposta 1 em 4.5.
-- **Denominador:** todas as unidades sanitárias inquiridas; as unidades com resposta 2 em 4.1 contam como não recebendo. Pode ler-se também entre as unidades com resposta 1 em 4.1.
+- **Denominador:** todas as unidades sanitárias inquiridas; as unidades com resposta 2 em 4.1 contam como não recebendo.
 - **Desagregação:** categoria da unidade (2.6) e província.
 
 </details>
@@ -134,61 +205,14 @@ Vou perguntar por três documentos sobre a referência de doentes. Para cada um,
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-Quando esta unidade sanitária refere um doente, a unidade que o recebe envia informação de retorno sobre esse doente?
+Esta unidade sanitária recebe informação de retorno sobre os doentes referidos para fora?
 :::
 
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
 1. Sim, habitualmente
-2. Sim, às vezes, mas não habitualmente
+2. Sim, às vezes
 3. Não
-
-<!-- -->
-
-98. Não sabe
 :::
 
-## 4.6 · Acesso 24 horas a veículo e motorista [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-**Indicador.** Percentagem de unidades sanitárias com acesso 24 horas a veículo em condições de funcionamento e a motorista para o transporte de doentes.
-
-- **Numerador:** unidades com resposta 1 em 4.6, resposta 1 ou 2 em 8.4 e resposta 1 em 8.4.1.
-- **Denominador:** todas as unidades sanitárias inquiridas.
-- **Desagregação:** categoria da unidade (2.6), província e zona (2.11).
-
-**Função no formulário.** Controlo de coerência com a secção 8: uma unidade com resposta 3 em 8.4 (sem acesso a veículo) não pode ter resposta 1 em 4.6. Lê-se com 15.6, que mede o acesso a transporte nas unidades com atendimento de urgência.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Resposta 1 (Sim), com 8.4 = 1 ou 2 e 8.4.1 = 1 | 2.7.1.1.6 | Unidades com acesso 24 horas a viatura funcional e motorista para transporte de doentes<br>*Percentage of facilities with 24 hour access to functional vehicle and driver for patient transport* | (Q1232 = 1 ou 2) e Q1233 = 1 e Q1234 = 1; todas as unidades. Aqui: Q1232 corresponde a 8.4, Q1233 a 4.6 e Q1234 a 8.4.1 |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Esta unidade sanitária tem acesso, 24 horas por dia, a um veículo em condições de funcionamento e a um motorista para o transporte de doentes — quer o veículo esteja nesta unidade, quer possa ser chamado de outro local?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Sim
-2. Não
-
-<!-- -->
-
-98. Não sabe
-:::
-
-::: {.nota .interno}
-**Porque é necessária.** A pergunta sobre as 24 horas não existia: 8.4 pergunta pelo acesso a um veículo e 8.4.1 pela disponibilidade hoje, e o indicador exige as três condições.
-:::

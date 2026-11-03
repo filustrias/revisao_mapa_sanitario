@@ -13,7 +13,7 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 1](formulario/01-identificacao.qmd) | Identificação e finalização da recolha. Data, hora e forma da recolha, quem recolheu os dados e quem respondeu. |
 | [Secção 2](formulario/02-localizacao.qmd) | Localização. Província, município, endereço, categoria da unidade e coordenadas geográficas. |
 | [Secção 3](formulario/03-populacao-referencia.qmd) | População e unidades de referência. População adstrita e distância e tempo até às unidades de referência. |
-| [Secção 4](formulario/04-sistema-referencia.qmd) | Funcionamento do sistema de referência. Sistema estabelecido, normas, registo, informação de retorno e transporte 24 horas. |
+| [Secção 4](formulario/04-sistema-referencia.qmd) | Funcionamento do sistema de referência. Mecanismo de referência, normas, registo e informação de retorno. |
 | [Secção 5](formulario/05-construcao-estado-fisico.qmd) | Construção e estado físico. Edifícios, superfície, ano e material de construção e estado de conservação. |
 | [Secção 6](formulario/06-agua-energia-saneamento.qmd) | Água, energia, saneamento e resíduos. Fontes de água e electricidade, saneamento e destino dos resíduos comuns e hospitalares. |
 | [Secção 7](formulario/07-conectividade.qmd) | Conectividade e meios informáticos. Rede móvel, internet, equipamento informático e uso de bases de dados. |

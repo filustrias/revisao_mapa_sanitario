@@ -40,9 +40,14 @@ Serviço de farmácia, quem dispensa os medicamentos, a lista de produtos farmac
 | 14.29.1 a 14.29.10 | Planeamento familiar (10 produtos) [(1 indicadores do HHFA da lista traçadora)]{.hhfa} |
 | 14.30 | Suplementos nutricionais para a malnutrição: porta do bloco [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 14.31.1 a 14.31.4 | Suplementos nutricionais para a malnutrição (4 produtos) [(1 indicadores do HHFA da lista traçadora)]{.hhfa} |
-| 14.32 | Armazém a granel: porta [(sem indicador próprio; filtro da tabela do HHFA)]{.hhfa} |
-| 14.32.1 a 14.32.16 | Condições do armazém principal e do armazém a granel [(30 indicadores do HHFA, com 14.32.17 e 14.32.18)]{.hhfa} |
-| 14.32.17 e 14.32.18 | Registos de stock e da retirada de produtos fora da validade [(incluídos nos 30 indicadores)]{.hhfa} |
+| 14.32.1 a 14.32.6 | Armazém principal: condições observadas [(6 indicadores do HHFA)]{.hhfa} |
+| 14.32.7 a 14.32.10 | Armazém principal: segurança [(4 indicadores do HHFA)]{.hhfa} |
+| 14.32.11 a 14.32.16 | Armazém principal: temperatura e frigorífico [(3 indicadores do HHFA)]{.hhfa} |
+| 14.32.17 e 14.32.18 | Registos da gestão de stocks; itens do armazém principal [(4 indicadores do HHFA)]{.hhfa} |
+| 14.33 | Armazém a granel: porta [(sem indicador próprio; filtro da tabela do HHFA)]{.hhfa} |
+| 14.33.1 a 14.33.4 | Armazém a granel: condições observadas [(4 indicadores do HHFA)]{.hhfa} |
+| 14.33.5 a 14.33.8 | Armazém a granel: segurança [(4 indicadores do HHFA)]{.hhfa} |
+| 14.33.9 a 14.33.14 | Armazém a granel: temperatura e frigorífico [(5 indicadores do HHFA, com os dois índices do armazém a granel)]{.hhfa} |
 
 </details>
 
@@ -1730,7 +1735,7 @@ Algum dos produtos de planeamento familiar seguintes está disponível hoje nest
 - **Numerador:** «Sim» em 14.30.
 - **Denominador:** unidades com «Sim» em 14.4.
 
-**Função no formulário.** Define o universo do bloco: só as unidades com «Sim» respondem à grelha seguinte, e são o denominador da leitura «entre as unidades que armazenam estes produtos». As unidades com «Não» saltam para 14.32 e contam como unidades sem nenhum destes produtos.
+**Função no formulário.** Define o universo do bloco: só as unidades com «Sim» respondem à grelha seguinte, e são o denominador da leitura «entre as unidades que armazenam estes produtos». As unidades com «Não» saltam para 14.32.1 e contam como unidades sem nenhum destes produtos.
 
 </details>
 
@@ -1754,7 +1759,7 @@ Há neste estabelecimento algum suplemento nutricional para a malnutrição?
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 14.32.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 14.32.1.
 :::
 
 ## 14.31.1 a 14.31.4 · Suplementos nutricionais para a malnutrição [NOVO]{.etiqueta .novo}
@@ -1809,30 +1814,382 @@ Quais dos suplementos nutricionais para a malnutrição seguintes estão dispon�
 | 14.31.4 | Pó de micronutrientes (PMN) | ☐1 ☐2 ☐3 ☐4 ☐5 |
 :::
 
-## 14.32 · Armazém a granel — porta [NOVO]{.etiqueta .novo}
+## 14.32.1 a 14.32.6 · Armazém principal — condições observadas [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-**Indicador.** Percentagem de unidades sanitárias que armazenam produtos farmacêuticos e têm armazém a granel, separado do armazém principal.
+**Indicadores.** Para cada condição da grelha: percentagem de unidades sanitárias com a condição cumprida no armazém principal.
 
-- **Numerador:** unidades com resposta 1 em 14.32.
-- **Denominador:** unidades com resposta 1 em 14.4 e resposta 1 em 1.4 (visitadas com observação).
+- **Numerador:** coluna 1 (Sim) na linha; em 14.32.2, coluna 2 (Não), porque a pergunta é sobre o risco de danos.
+- **Denominador:** unidades com resposta 1 em 14.4.
+- **Desagregação:** categoria da unidade (2.6) e província.
 
-**Função no formulário.** Define o universo da coluna B de 14.32.1 a 14.32.16: as unidades com resposta 2 preenchem só a coluna A.
+**Leitura.** Os itens observados só se comparam entre unidades com a mesma forma de recolha (1.4).
 
 </details>
 
 ::: {.hhfa .fonte-indicadores}
 **Fonte dos indicadores** · catálogo do HHFA (OMS)
 
-**Fonte:** sem indicador próprio. É o filtro da tabela 2.4.5.2 (Q3145 = 1; `Q12553` no inventário).
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 14.32.1, coluna 1 (Sim) | 2.4.5.1.1 | Armazém principal: medicamentos afastados do chão<br>*Percentage of facilities with main pharmacy store with medicines off the floor* | Q3134_1 = 1; aqui: 14.4 = 1 |
+| Linha 14.32.2, coluna 2 (Não) | 2.4.5.1.2 | Armazém principal: medicamentos protegidos da água<br>*Percentage of facilities with main pharmacy store with medicines protected from water* | Q3134_2 = 2; aqui: 14.4 = 1 |
+| Linha 14.32.3, coluna 1 (Sim) | 2.4.5.1.3 | Armazém principal: medicamentos protegidos da luz solar directa<br>*Percentage of facilities with main pharmacy store with medicines protected from direct sunlight* | Q3134_3 = 1; aqui: 14.4 = 1 |
+| Linha 14.32.4, coluna 1 (Sim) | 2.4.5.1.4 | Armazém principal: sem sinais de pragas ou de roedores<br>*Percentage of facilities with main pharmacy store with no evidence of pests or rodents* | Q3134_4 = 1; aqui: 14.4 = 1 |
+| Linha 14.32.5, coluna 1 (Sim) | 2.4.5.1.5 | Armazém principal: área varrida e limpa<br>*Percentage of facilities with main pharmacy store with storage area swept and clean* | Q3134_5 = 1; aqui: 14.4 = 1 |
+| Linha 14.32.6, coluna 1 (Sim) | 2.4.5.1.6 | Armazém principal: circulação de ar suficiente<br>*Percentage of facilities with main pharmacy store with sufficient air flow* | Q3134_6 = 1; aqui: 14.4 = 1 |
+
+As perguntas Q3100 (filtro) e Q3134 a Q3143 são traduzidas do questionário combinado de Junho de 2023. A regra para a recolha sem visita é do Mapa Sanitário: estes itens exigem observação.
+:::
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Observar o local principal de armazenamento dos produtos farmacêuticos e indicar a presença ou a ausência de cada uma das condições seguintes.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se houver farmácias separadas para o internamento e para o ambulatório, avaliar a do ambulatório. Em recolha sem visita (resposta diferente de 1 em 1.4), estes campos ficam por preencher.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Condição | 1 · Sim | 2 · Não |
+|---|---|:-:|:-:|
+| 14.32.1 | Os medicamentos estão afastados do chão? [HHFA 2.4.5.1.1]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 14.32.2 | Os medicamentos estão em risco de danos causados pela água, devido a infiltrações ou a outras causas? [HHFA 2.4.5.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 14.32.3 | Os medicamentos estão protegidos da luz solar directa? [HHFA 2.4.5.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 14.32.4 | A sala está livre de sinais de roedores (morcegos, ratos) ou de pragas (baratas, etc.)? [HHFA 2.4.5.1.4]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 14.32.5 | A sala está varrida, sem derrames nem sujidade evidente nos balcões ou no chão? [HHFA 2.4.5.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 14.32.6 | A circulação de ar é suficiente para reduzir o risco de bolor e de humidade? [HHFA 2.4.5.1.6]{.hhfa .cod-hhfa} | ☐ | ☐ |
+:::
+
+## 14.32.7 a 14.32.10 · Armazém principal — segurança [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.** Para cada condição da grelha: percentagem de unidades sanitárias com a condição cumprida no armazém principal.
+
+- **Numerador:** coluna 1 (Sim) na linha.
+- **Denominador:** unidades com resposta 1 em 14.4.
+- **Desagregação:** categoria da unidade (2.6) e província.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 14.32.7, coluna 1 | 2.4.5.1.7 | Armazém principal: área que pode ser fechada à chave<br>*Percentage of facilities with main pharmacy store with storage area that can be locked* | Q3135_1 = 1; aqui: 14.4 = 1 |
+| Linha 14.32.8, coluna 1 | 2.4.5.1.8 | Armazém principal: acesso limitado à área<br>*Percentage of facilities with main pharmacy store with limited access to  storage area* | Q3135_2 = 1; aqui: 14.4 = 1 |
+| Linha 14.32.9, coluna 1 | 2.4.5.1.9 | Armazém principal: todas as portas sólidas<br>*Percentage of facilities with main pharmacy store with all doors solid in storage area* | Q3135_3 = 1; aqui: 14.4 = 1 |
+| Linha 14.32.10, coluna 1 | 2.4.5.1.10 | Armazém principal: todas as janelas seguras<br>*Percentage of facilities with main pharmacy store with all windows secure in storage area* | Q3135_4 = 1; aqui: 14.4 = 1 |
+:::
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Olhar para o local de armazenamento e verificar cada item com o respondente.
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em recolha sem visita (resposta diferente de 1 em 1.4), estes campos ficam por preencher.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Condição | 1 · Sim | 2 · Não |
+|---|---|:-:|:-:|
+| 14.32.7 | O local principal de armazenamento pode ser fechado à chave? [HHFA 2.4.5.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 14.32.8 | O acesso ao local principal de armazenamento é limitado? [HHFA 2.4.5.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 14.32.9 | Observar se todas as portas que separam o armazenamento farmacêutico de outras áreas de armazenamento são sólidas. [HHFA 2.4.5.1.9]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 14.32.10 | Observar se as janelas têm grades, portadas ou outros meios de segurança. Se não houver janelas, marcar «Sim». [HHFA 2.4.5.1.10]{.hhfa .cod-hhfa} | ☐ | ☐ |
+:::
+
+## 14.32.11 · Termómetro da sala [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias com termómetro ou termóstato a funcionar na sala.
+
+- **Numerador:** unidades com resposta 1 em 14.32.11.
+- **Denominador:** unidades com resposta 1 em 14.4.
+
+**Função no formulário.** As respostas 2 e 3 passam a 14.32.13 e não respondem a 14.32.12.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1 | 2.4.5.1.11 | Termómetro ou termóstato a funcionar<br>*Percentage of facilities with main pharmacy store with functional thermometer/thermostat* | Q3136 = 1; aqui: 14.4 = 1 |
 :::
 
 ::: {.enunciado .rotulado}
 [Pergunta · ler ao respondente]{.rotulo}
 
-Esta unidade sanitária tem um armazém a granel, separado do armazém principal dos produtos farmacêuticos?
+Existe um termómetro ou termóstato para a sala? Se sim: posso ver o termómetro ou termóstato?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, a funcionar
+2. Sim, não está a funcionar
+3. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Verificar se está a funcionar. Nas opções 2 e 3, passar a 14.32.13.
+:::
+
+## 14.32.12 · Temperatura actual da sala [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias com a temperatura actual da sala entre 15 °C e 25 °C.
+
+- **Numerador:** unidades com opção 2 em 14.32.12.
+- **Denominador:** unidades com resposta 1 em 14.4; as unidades sem termómetro a funcionar contam como não cumprindo.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 2 | 2.4.5.1.12 | Temperatura actual da sala entre 15 °C e 25 °C<br>*Percentage of facilities with main pharmacy store with current room temperature 15C to 25C* | Q3137 = 2; aqui: 14.4 = 1 |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Qual é agora a temperatura na sala?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Abaixo de 15 °C
+2. Entre 15 °C e 25 °C, inclusive
+3. Acima de 25 °C
+
+<!-- -->
+
+98. Não sabe
+:::
+
+## 14.32.13 · Frigorífico de medicamentos [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias com frigorífico de medicamentos a 2–8 °C, limpo e usado só para produtos farmacêuticos.
+
+- **Numerador:** unidades com resposta 1 em 14.32.13, resposta 1 em 14.32.14, resposta 1 em 14.32.15 e resposta 2 em 14.32.16.
+- **Denominador:** unidades com resposta 1 em 14.4.
+
+**Função no formulário.** As respostas 2 e 3 passam a 14.32.17.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1, com 14.32.14 = 1, 14.32.15 = 1 e 14.32.16 = 2 | 2.4.5.1.13 | Frigorífico a 2–8 °C, limpo e usado só para produtos farmacêuticos<br>*Percentage of facilities with main pharmacy store with fridge at temperature 2-8C, clean and used only for pharmaceuticals* | Q3138 = 1 AND Q3139 = 1 AND Q3140 = 1 AND Q3141 = 2; aqui: 14.4 = 1 |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Existe um frigorífico a funcionar, separado do usado para as vacinas, que é usado para guardar alguns medicamentos ou frascos reconstituídos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Observado, a funcionar
+2. Observado, não está a funcionar
+3. Sem frigorífico para medicamentos
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se sim, pedir para ver o frigorífico e indicar se está a funcionar ou não. Nas opções 2 e 3, passar a 14.32.17.
+:::
+
+## 14.32.14 · Temperatura do frigorífico de medicamentos [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Uso.** Entra no indicador do frigorífico de medicamentos (ver 14.32.13).
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1 | 2.4.5.1.13 | Entra no cálculo de 2.4.5.1.13 (ver 14.32.13) | Q3139 = 1 |
+:::
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Verificar o termómetro do frigorífico e registar a temperatura no momento do inquérito.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Entre 2 °C e 8 °C, inclusive
+2. Fora do intervalo
+
+<!-- -->
+
+98. Não sabe
+:::
+
+## 14.32.15 · Limpeza do frigorífico de medicamentos [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Uso.** Entra no indicador do frigorífico de medicamentos (ver 14.32.13).
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1 | 2.4.5.1.13 | Entra no cálculo de 2.4.5.1.13 (ver 14.32.13) | Q3140 = 1 |
+:::
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Observar o interior do frigorífico. Está limpo (por exemplo, sem medicamentos derramados, sem lixo)?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+## 14.32.16 · Outros produtos no frigorífico de medicamentos [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Uso.** Entra no indicador do frigorífico de medicamentos (ver 14.32.13).
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 2 (Não) | 2.4.5.1.13 | Entra no cálculo de 2.4.5.1.13 (ver 14.32.13) | Q3141 = 2 |
+:::
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Há hoje produtos alimentares ou outros produtos não farmacêuticos guardados no frigorífico?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+## 14.32.17 e 14.32.18 · Documentos da gestão de stocks [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- Percentagem de unidades sanitárias com registo que mostra os produtos recebidos, distribuídos e o saldo (14.32.17).
+- Percentagem de unidades sanitárias com registo da retirada do inventário dos medicamentos fora da validade ou inutilizáveis (14.32.18).
+- Percentagem média de itens cumpridos no armazém principal e percentagem de unidades com todos os itens: 15 itens, de 14.32.1 a 14.32.18, contando 14.32.13 a 14.32.16 como um só.
+
+<!-- -->
+
+- **Numerador:** coluna 1 (Observado) na linha. A coluna 2 (referido, não visto) não conta.
+- **Denominador:** unidades com resposta 1 em 14.4.
+- **Desagregação:** categoria da unidade (2.6) e província.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 14.32.17, coluna 1 | 2.4.5.1.14 | Armazém principal: registos de stock com entradas, saídas e saldo<br>*Percentage of facilities with main pharmacy store with stock records with items in, out and balance* | Q3143_1 = 1; aqui: 14.4 = 1 |
+| Linha 14.32.18, coluna 1 | 2.4.5.1.15 | Armazém principal: registo da retirada de produtos fora da validade ou inutilizáveis<br>*Percentage of facilities with main pharmacy store with record indicating removal of expired/unusable drugs from inventory* | Q3143_2 = 1; aqui: 14.4 = 1 |
+| Calculado com 14.32.1 a 14.32.18 | 2.4.5.1.16 | Armazém principal: percentagem média de itens<br>*Pharmaceutical storage area - main facility pharmacy store: mean percentage of items at facilities* | Média da proporção dos 15 itens cumpridos; aqui: 14.4 = 1 |
+| O mesmo | 2.4.5.1.17 | Armazém principal: unidades com todos os itens<br>*Pharmaceutical storage area - main facility pharmacy store: percentage of facilities with all items* | Os 15 itens cumpridos; aqui: 14.4 = 1 |
+
+As linhas 03 a 05 de Q3143 e Q3144 pertencem ao módulo de gestão do questionário e não entram aqui.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Gostaria de saber se os documentos seguintes estão disponíveis hoje neste local de serviço. Para cada documento que eu perguntar, por favor mostre-mo.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Documento | 1 · Observado | 2 · Referido, não visto | 3 · Não disponível |
+|---|---|:-:|:-:|:-:|
+| 14.32.17 | Registo que mostra cada produto farmacêutico recebido, distribuído e o saldo. Em geral, um livro de registo ou uma ficha de stock [HHFA 2.4.5.1.14]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.32.18 | Registo que mostra os medicamentos fora da validade ou inutilizáveis retirados do inventário. Pode estar no mesmo registo dos produtos recebidos e distribuídos [HHFA 2.4.5.1.15]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+:::
+
+## 14.33 · Armazém a granel — porta [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Uso.** Porta do armazém a granel: só as unidades com resposta 1 respondem a 14.33.1 a 14.33.14, e são o denominador desses indicadores. As unidades com resposta 2 passam à secção 15.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** sem indicador próprio. É o filtro da tabela 2.4.5.2 (Q3145 = 1).
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Existe nesta unidade sanitária um armazém a granel para produtos farmacêuticos?
 :::
 
 ::: {.respostas .rotulado}
@@ -1843,25 +2200,21 @@ Esta unidade sanitária tem um armazém a granel, separado do armazém principal
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Fazer 14.32 a 14.32.18 só nas unidades com resposta «Sim» em 14.4 e visitadas com observação (resposta 1 em 1.4); nas outras, passar à secção 15. Entende-se por armazém a granel o local onde se guarda o stock de reserva, de onde saem os produtos para o armazém principal.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se sim, pedir para ser levado ao armazém a granel e encontrar a pessoa que melhor o conhece. Se «Não», passar à secção 15.
 :::
 
-## 14.32.1 a 14.32.16 · Condições de armazenamento [NOVO]{.etiqueta .novo}
+## 14.33.1 a 14.33.4 · Armazém a granel — condições observadas [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-**Indicadores.**
+**Indicadores.** Para cada condição da grelha: percentagem de unidades sanitárias com a condição cumprida no armazém a granel.
 
-- Para cada condição da grelha: percentagem de unidades sanitárias com a condição cumprida no armazém principal e no armazém a granel, em separado. As linhas 14.32.13 a 14.32.16 contam como um só indicador: frigorífico a 2–8 °C, limpo e usado só para produtos farmacêuticos.
-  - **Numerador:** código 1 na linha, nas colunas A ou B.
-  - **Denominador:** coluna A, unidades com resposta 1 em 14.4 e 1 em 1.4; coluna B, unidades com resposta 1 em 14.32 e 1 em 1.4.
-- Percentagem média de itens cumpridos por unidade e percentagem de unidades com todos os itens, por armazém: 15 itens no armazém principal (com a documentação de 14.32.17 e 14.32.18) e 11 no armazém a granel.
-  - **Cálculo:** em cada unidade, itens cumpridos ÷ total de itens; média entre as unidades do mesmo denominador.
+- **Numerador:** coluna 1 (Sim) na linha; em 14.33.2, coluna 2 (Não), porque a pergunta é sobre o risco de danos.
+- **Denominador:** unidades com resposta 1 em 14.33.
+- **Desagregação:** categoria da unidade (2.6) e província.
 
-**Desagregação:** categoria da unidade (2.6) e província.
-
-**Função no formulário.** Sem termómetro (14.32.11 = 2), a linha 14.32.12 fica por preencher e não conta como cumprida; sem frigorífico (14.32.13 = 2), o mesmo para 14.32.14 a 14.32.16.
+**Leitura.** Os itens observados só se comparam entre unidades com a mesma forma de recolha (1.4).
 
 </details>
 
@@ -1870,94 +2223,43 @@ Esta unidade sanitária tem um armazém a granel, separado do armazém principal
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha 14.32.1, coluna A | 2.4.5.1.1 | Armazém principal: produtos afastados do chão<br>*Percentage of facilities with main pharmacy store with medicines off the floor* | Q3134_1 = 1; entre as unidades que armazenam produtos farmacêuticos. Aqui: 14.4 = 1 e 1.4 = 1 |
-| Linha 14.32.1, coluna B | 2.4.5.2.1 | Armazém a granel: produtos afastados do chão<br>*Percentage of facilities with bulk pharmacy stores with medicines off the floor* | Q3147_1 = 1; entre as unidades com armazém a granel. Aqui: 14.32 = 1 e 1.4 = 1 |
-| Linha 14.32.2, coluna A | 2.4.5.1.2 | Armazém principal: produtos protegidos da água<br>*Percentage of facilities with main pharmacy store with medicines protected from water* | Q3134_2 = 2; entre as unidades que armazenam produtos farmacêuticos. Aqui: 14.4 = 1 e 1.4 = 1 |
-| Linha 14.32.2, coluna B | 2.4.5.2.2 | Armazém a granel: produtos protegidos da água<br>*Percentage of facilities with bulk pharmacy stores with medicines protected from water* | Q3147_2 = 2; entre as unidades com armazém a granel. Aqui: 14.32 = 1 e 1.4 = 1 |
-| Linha 14.32.3, coluna A | 2.4.5.1.3 | Armazém principal: produtos protegidos da luz solar directa<br>*Percentage of facilities with main pharmacy store with medicines protected from direct sunlight* | Q3134_3 = 1; entre as unidades que armazenam produtos farmacêuticos. Aqui: 14.4 = 1 e 1.4 = 1 |
-| Linha 14.32.3, coluna B | 2.4.5.2.3 | Armazém a granel: produtos protegidos da luz solar directa<br>*Percentage of facilities with bulk pharmacy stores with medicines protected from direct sunlight* | Q3147_3 = 1; entre as unidades com armazém a granel. Aqui: 14.32 = 1 e 1.4 = 1 |
-| Linha 14.32.4, coluna A | 2.4.5.1.4 | Armazém principal: sem sinais de pragas ou de roedores<br>*Percentage of facilities with main pharmacy store with no evidence of pests or rodents* | Q3134_4 = 1; entre as unidades que armazenam produtos farmacêuticos. Aqui: 14.4 = 1 e 1.4 = 1 |
-| Linha 14.32.4, coluna B | 2.4.5.2.4 | Armazém a granel: sem sinais de pragas ou de roedores<br>*Percentage of facilities with bulk pharmacy stores with no evidence of pests or rodents* | Q3147_4 = 1; entre as unidades com armazém a granel. Aqui: 14.32 = 1 e 1.4 = 1 |
-| Linha 14.32.5, coluna A | 2.4.5.1.5 | Armazém principal: área varrida e limpa<br>*Percentage of facilities with main pharmacy store with storage area swept and clean* | Q3134_5 = 1; entre as unidades que armazenam produtos farmacêuticos. Aqui: 14.4 = 1 e 1.4 = 1 |
-| Linha 14.32.6, coluna A | 2.4.5.1.6 | Armazém principal: circulação de ar suficiente<br>*Percentage of facilities with main pharmacy store with sufficient air flow* | Q3134_6 = 1; entre as unidades que armazenam produtos farmacêuticos. Aqui: 14.4 = 1 e 1.4 = 1 |
-| Linha 14.32.7, coluna A | 2.4.5.1.7 | Armazém principal: área que pode ser fechada à chave<br>*Percentage of facilities with main pharmacy store with storage area that can be locked* | Q3135_1 = 1; entre as unidades que armazenam produtos farmacêuticos. Aqui: 14.4 = 1 e 1.4 = 1 |
-| Linha 14.32.7, coluna B | 2.4.5.2.5 | Armazém a granel: área que pode ser fechada à chave<br>*Percentage of facilities with bulk pharmacy stores with storage area that can be locked* | Q3148_1 = 1; entre as unidades com armazém a granel. Aqui: 14.32 = 1 e 1.4 = 1 |
-| Linha 14.32.8, coluna A | 2.4.5.1.8 | Armazém principal: acesso limitado à área<br>*Percentage of facilities with main pharmacy store with limited access to  storage area* | Q3135_2 = 1; entre as unidades que armazenam produtos farmacêuticos. Aqui: 14.4 = 1 e 1.4 = 1 |
-| Linha 14.32.8, coluna B | 2.4.5.2.6 | Armazém a granel: acesso limitado à área<br>*Percentage of facilities with bulk pharmacy stores with limited access to storage area* | Q3148_2 = 1; entre as unidades com armazém a granel. Aqui: 14.32 = 1 e 1.4 = 1 |
-| Linha 14.32.9, coluna A | 2.4.5.1.9 | Armazém principal: todas as portas sólidas<br>*Percentage of facilities with main pharmacy store with all doors solid in storage area* | Q3135_3 = 1; entre as unidades que armazenam produtos farmacêuticos. Aqui: 14.4 = 1 e 1.4 = 1 |
-| Linha 14.32.9, coluna B | 2.4.5.2.7 | Armazém a granel: todas as portas sólidas<br>*Percentage of facilities with bulk pharmacy stores with all doors solid leading to storage area* | Q3148_3 = 1; entre as unidades com armazém a granel. Aqui: 14.32 = 1 e 1.4 = 1 |
-| Linha 14.32.10, coluna A | 2.4.5.1.10 | Armazém principal: todas as janelas seguras<br>*Percentage of facilities with main pharmacy store with all windows secure in storage area* | Q3135_4 = 1; entre as unidades que armazenam produtos farmacêuticos. Aqui: 14.4 = 1 e 1.4 = 1 |
-| Linha 14.32.10, coluna B | 2.4.5.2.8 | Armazém a granel: todas as janelas seguras<br>*Percentage of facilities with bulk pharmacy stores with all windows secure in storage area* | Q3148_4 = 1; entre as unidades com armazém a granel. Aqui: 14.32 = 1 e 1.4 = 1 |
-| Linha 14.32.11, coluna A | 2.4.5.1.11 | Armazém principal: termómetro ou termóstato a funcionar<br>*Percentage of facilities with main pharmacy store with functional thermometer/thermostat* | Q3136 = 1; entre as unidades que armazenam produtos farmacêuticos. Aqui: 14.4 = 1 e 1.4 = 1 |
-| Linha 14.32.11, coluna B | 2.4.5.2.9 | Armazém a granel: termómetro ou termóstato a funcionar<br>*Percentage of facilities with bulk pharmacy stores with functional thermometer/thermostat* | Q3149 = 1; entre as unidades com armazém a granel. Aqui: 14.32 = 1 e 1.4 = 1 |
-| Linha 14.32.12, coluna A | 2.4.5.1.12 | Armazém principal: temperatura actual da sala entre 15 °C e 25 °C<br>*Percentage of facilities with main pharmacy store with current room temperature 15C to 25C* | Q3137 = 2; entre as unidades que armazenam produtos farmacêuticos. Aqui: 14.4 = 1 e 1.4 = 1 |
-| Linha 14.32.12, coluna B | 2.4.5.2.10 | Armazém a granel: temperatura actual da sala entre 15 °C e 25 °C<br>*Percentage of facilities with bulk pharmacy stores with current room temperature 15C to 25C* | Q3150 = 2; entre as unidades com armazém a granel. Aqui: 14.32 = 1 e 1.4 = 1 |
-| Linha 14.32.13, coluna A a 14.32.16 | 2.4.5.1.13 | Armazém principal: frigorífico a 2–8 °C, limpo e usado só para produtos farmacêuticos<br>*Percentage of facilities with main pharmacy store with fridge at temperature 2-8C, clean and used only for pharmaceuticals* | Q3138 = 1 AND Q3139 = 1 AND Q3140 = 1 AND Q3141 = 2; entre as unidades que armazenam produtos farmacêuticos. Aqui: 14.4 = 1 e 1.4 = 1 |
-| Linha 14.32.13, coluna B a 14.32.16 | 2.4.5.2.11 | Armazém a granel: frigorífico a 2–8 °C, limpo e usado só para produtos farmacêuticos<br>*Percentage of facilities with bulk pharmacy stores with fridge at temperature 2-8C, clean and used only for pharmaceuticals* | Q3151 = 1 AND Q3152 = 1 AND Q3153 = 1 AND Q3154 = 2; entre as unidades com armazém a granel. Aqui: 14.32 = 1 e 1.4 = 1 |
-| Calculado com a coluna A e 14.32.17 e 14.32.18 | 2.4.5.1.16 | Armazém principal: percentagem média de itens<br>*Pharmaceutical storage area - main facility pharmacy store: mean percentage of items at facilities* | Média da proporção dos 15 itens cumpridos; aqui: 14.4 = 1 e 1.4 = 1 |
-| O mesmo | 2.4.5.1.17 | Armazém principal: unidades com todos os itens<br>*Pharmaceutical storage area - main facility pharmacy store: percentage of facilities with all items* | Os 15 itens cumpridos; aqui: 14.4 = 1 e 1.4 = 1 |
-| Calculado com a coluna B | 2.4.5.2.12 | Armazém a granel: percentagem média de itens<br>*Pharmaceutical storage area - bulk store: mean percentage of items at facilities* | Média da proporção dos 11 itens cumpridos; aqui: 14.32 = 1 e 1.4 = 1 |
-| O mesmo | 2.4.5.2.13 | Armazém a granel: unidades com todos os itens<br>*Pharmaceutical storage area - bulk store: percentage of facilities with all items* | Os 11 itens cumpridos; aqui: 14.32 = 1 e 1.4 = 1 |
-
-O catálogo não descreve cada variável do frigorífico (Q3138 a Q3141 e Q3151 a Q3154) nem o sentido de Q3134_2 e Q3147_2. A correspondência com as linhas segue o nome do indicador e o inventário (`Q12545` a `Q12548`). Rever com o questionário quando estiver disponível.
+| Linha 14.33.1, coluna 1 (Sim) | 2.4.5.2.1 | Armazém a granel: medicamentos afastados do chão<br>*Percentage of facilities with bulk pharmacy stores with medicines off the floor* | Q3147_1 = 1; aqui: 14.33 = 1 |
+| Linha 14.33.2, coluna 2 (Não) | 2.4.5.2.2 | Armazém a granel: medicamentos protegidos da água<br>*Percentage of facilities with bulk pharmacy stores with medicines protected from water* | Q3147_2 = 2; aqui: 14.33 = 1 |
+| Linha 14.33.3, coluna 1 (Sim) | 2.4.5.2.3 | Armazém a granel: medicamentos protegidos da luz solar directa<br>*Percentage of facilities with bulk pharmacy stores with medicines protected from direct sunlight* | Q3147_3 = 1; aqui: 14.33 = 1 |
+| Linha 14.33.4, coluna 1 (Sim) | 2.4.5.2.4 | Armazém a granel: sem sinais de pragas ou de roedores<br>*Percentage of facilities with bulk pharmacy stores with no evidence of pests or rodents* | Q3147_4 = 1; aqui: 14.33 = 1 |
 :::
 
 ::: {.enunciado .rotulado}
 [Campo · preenchido pelo inquiridor]{.rotulo}
 
-Observar o armazém principal e, se existir, o armazém a granel. Para cada condição, marcar o que se observa no dia da visita.
+Observar o armazém a granel e indicar a presença ou a ausência de cada uma das condições seguintes.
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar com base no que se vê, sem perguntar ao respondente, excepto para confirmar se o acesso é limitado e para ler as temperaturas no termómetro. Se não houver termómetro, deixar a linha da temperatura por preencher; se não houver frigorífico de medicamentos, deixar por preencher as três linhas seguintes.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em recolha sem visita (resposta diferente de 1 em 1.4), estes campos ficam por preencher.
 :::
 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-1 Sim · 2 Não
-
-| Código | Condição | A · Armazém principal | B · Armazém a granel |
+| Código | Condição | 1 · Sim | 2 · Não |
 |---|---|:-:|:-:|
-| 14.32.1 | Produtos afastados do chão [HHFA 2.4.5.1.1 · 2.4.5.2.1]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | ☐ 1 ☐ 2 |
-| 14.32.2 | Produtos protegidos da água — sem sinais de infiltração ou de danos causados pela água [HHFA 2.4.5.1.2 · 2.4.5.2.2]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | ☐ 1 ☐ 2 |
-| 14.32.3 | Produtos protegidos da luz solar directa [HHFA 2.4.5.1.3 · 2.4.5.2.3]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | ☐ 1 ☐ 2 |
-| 14.32.4 | Sem sinais de pragas ou de roedores [HHFA 2.4.5.1.4 · 2.4.5.2.4]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | ☐ 1 ☐ 2 |
-| 14.32.5 | Área varrida e limpa [HHFA 2.4.5.1.5]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | — |
-| 14.32.6 | Circulação de ar suficiente [HHFA 2.4.5.1.6]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | — |
-| 14.32.7 | A área pode ser fechada à chave [HHFA 2.4.5.1.7 · 2.4.5.2.5]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | ☐ 1 ☐ 2 |
-| 14.32.8 | Acesso limitado às pessoas autorizadas [HHFA 2.4.5.1.8 · 2.4.5.2.6]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | ☐ 1 ☐ 2 |
-| 14.32.9 | Todas as portas são sólidas [HHFA 2.4.5.1.9 · 2.4.5.2.7]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | ☐ 1 ☐ 2 |
-| 14.32.10 | Todas as janelas são seguras [HHFA 2.4.5.1.10 · 2.4.5.2.8]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | ☐ 1 ☐ 2 |
-| 14.32.11 | Termómetro ou termóstato a funcionar [HHFA 2.4.5.1.11 · 2.4.5.2.9]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | ☐ 1 ☐ 2 |
-| 14.32.12 | Temperatura actual da sala entre 15 °C e 25 °C [HHFA 2.4.5.1.12 · 2.4.5.2.10]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | ☐ 1 ☐ 2 |
-| 14.32.13 | Frigorífico de medicamentos, distinto do frigorífico das vacinas [HHFA 2.4.5.1.13 · 2.4.5.2.11]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | ☐ 1 ☐ 2 |
-| 14.32.14 | Temperatura actual do frigorífico entre 2 °C e 8 °C [HHFA 2.4.5.1.13 · 2.4.5.2.11]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | ☐ 1 ☐ 2 |
-| 14.32.15 | Frigorífico limpo [HHFA 2.4.5.1.13 · 2.4.5.2.11]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | ☐ 1 ☐ 2 |
-| 14.32.16 | Frigorífico usado só para produtos farmacêuticos, sem alimentos [HHFA 2.4.5.1.13 · 2.4.5.2.11]{.hhfa .cod-hhfa} | ☐ 1 ☐ 2 | ☐ 1 ☐ 2 |
+| 14.33.1 | Os medicamentos estão afastados do chão? [HHFA 2.4.5.2.1]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 14.33.2 | Os medicamentos estão em risco de danos causados pela água, devido a infiltrações ou a outras causas? [HHFA 2.4.5.2.2]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 14.33.3 | Os medicamentos estão protegidos da luz solar directa? [HHFA 2.4.5.2.3]{.hhfa .cod-hhfa} | ☐ | ☐ |
+| 14.33.4 | A sala está livre de sinais de roedores (morcegos, ratos) ou de pragas (baratas, etc.)? [HHFA 2.4.5.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ |
 :::
 
-::: {.nota .interno}
-**Porque entra.** O formulário já prevê a observação nas unidades visitadas (1.4), por isso estas condições deixam de depender de uma fase posterior. Armazém principal e armazém a granel ficam numa só grelha porque as condições são as mesmas; as linhas 5 e 6 não têm indicador para o armazém a granel. Os armazéns próprios de tuberculose e de antirretrovirais (`Q12519` a `Q12535`) não entram: não têm indicador no catálogo.
-:::
-
-## 14.32.17 e 14.32.18 · Documentação da gestão de stocks [NOVO]{.etiqueta .novo}
+## 14.33.5 a 14.33.8 · Armazém a granel — segurança [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
-**Indicadores.**
+**Indicadores.** Para cada condição da grelha: percentagem de unidades sanitárias com a condição cumprida no armazém a granel.
 
-- Percentagem de unidades sanitárias com registos de stock que mostram as entradas, as saídas e o saldo (14.32.17).
-- Percentagem de unidades sanitárias com registo da retirada do inventário dos produtos fora da validade ou inutilizáveis (14.32.18).
-
-<!-- -->
-
-- **Numerador:** coluna 1 (Sim, observado) na linha. A coluna 2 (referido, não visto) não conta.
-- **Denominador:** unidades com resposta 1 em 14.4 e resposta 1 em 1.4.
+- **Numerador:** coluna 1 (Sim) na linha.
+- **Denominador:** unidades com resposta 1 em 14.33.
 - **Desagregação:** categoria da unidade (2.6) e província.
-
-**Leitura.** Os dois itens entram nos 15 do armazém principal. Lidos com as rupturas de stock das grelhas 14.5 a 14.31, mostram se a unidade tem a informação necessária para gerir o abastecimento.
 
 </details>
 
@@ -1966,25 +2268,246 @@ Observar o armazém principal e, se existir, o armazém a granel. Para cada cond
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha 14.32.17, coluna 1 | 2.4.5.1.14 | Armazém principal: registos de stock com entradas, saídas e saldo<br>*Percentage of facilities with main pharmacy store with stock records with items in, out and balance* | Q3143_1 = 1; entre as unidades que armazenam produtos farmacêuticos. Aqui: 14.4 = 1 e 1.4 = 1 |
-| Linha 14.32.18, coluna 1 | 2.4.5.1.15 | Armazém principal: registo da retirada de produtos fora da validade ou inutilizáveis<br>*Percentage of facilities with main pharmacy store with record indicating removal of expired/unusable drugs from inventory* | Q3143_2 = 1; entre as unidades que armazenam produtos farmacêuticos. Aqui: 14.4 = 1 e 1.4 = 1 |
+| Linha 14.33.5, coluna 1 | 2.4.5.2.5 | Armazém a granel: área que pode ser fechada à chave<br>*Percentage of facilities with bulk pharmacy stores with storage area that can be locked* | Q3148_1 = 1; aqui: 14.33 = 1 |
+| Linha 14.33.6, coluna 1 | 2.4.5.2.6 | Armazém a granel: acesso limitado à área<br>*Percentage of facilities with bulk pharmacy stores with limited access to storage area* | Q3148_2 = 1; aqui: 14.33 = 1 |
+| Linha 14.33.7, coluna 1 | 2.4.5.2.7 | Armazém a granel: todas as portas sólidas<br>*Percentage of facilities with bulk pharmacy stores with all doors solid leading to storage area* | Q3148_3 = 1; aqui: 14.33 = 1 |
+| Linha 14.33.8, coluna 1 | 2.4.5.2.8 | Armazém a granel: todas as janelas seguras<br>*Percentage of facilities with bulk pharmacy stores with all windows secure in storage area* | Q3148_4 = 1; aqui: 14.33 = 1 |
 :::
 
 ::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
+[Campo · preenchido pelo inquiridor]{.rotulo}
 
-Vou perguntar por dois registos da gestão de stocks. Para cada um, diga-me se existe nesta unidade sanitária e, se existir, peço que mo mostre.
+Olhar para o local de armazenamento e verificar cada item com o respondente.
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Marcar «Sim, observado» apenas quando o registo for visto.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Em recolha sem visita (resposta diferente de 1 em 1.4), estes campos ficam por preencher.
 :::
 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Registo | 1 · Sim, observado | 2 · Sim, referido, não visto | 3 · Não |
+| Código | Condição | 1 · Sim | 2 · Não | 5 · Não aplicável |
 |---|---|:-:|:-:|:-:|
-| 14.32.17 | Registos de stock com as entradas, as saídas e o saldo [HHFA 2.4.5.1.14]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 14.32.18 | Registo da retirada do inventário dos produtos fora da validade ou inutilizáveis [HHFA 2.4.5.1.15]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 14.33.5 | O local de armazenamento a granel pode ser fechado à chave? [HHFA 2.4.5.2.5]{.hhfa .cod-hhfa} | ☐ | ☐ | — |
+| 14.33.6 | O acesso ao local de armazenamento a granel é limitado? [HHFA 2.4.5.2.6]{.hhfa .cod-hhfa} | ☐ | ☐ | — |
+| 14.33.7 | Observar se todas as portas que separam o armazenamento farmacêutico de outras áreas de armazenamento são sólidas. [HHFA 2.4.5.2.7]{.hhfa .cod-hhfa} | ☐ | ☐ | — |
+| 14.33.8 | Observar se as janelas têm grades, portadas ou outros meios de segurança. [HHFA 2.4.5.2.8]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 :::
+
+## 14.33.9 · Termómetro da sala [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias com termómetro ou termóstato a funcionar na sala.
+
+- **Numerador:** unidades com resposta 1 em 14.33.9.
+- **Denominador:** unidades com resposta 1 em 14.33.
+
+**Função no formulário.** As respostas 2 e 3 passam a 14.33.11 e não respondem a 14.33.10.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1 | 2.4.5.2.9 | Termómetro ou termóstato a funcionar<br>*Percentage of facilities with bulk pharmacy stores with functional thermometer/thermostat* | Q3149 = 1; aqui: 14.33 = 1 |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Existe um termómetro para a sala? Se sim: posso ver o termómetro?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, a funcionar
+2. Sim, não está a funcionar
+3. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Verificar se está a funcionar. Nas opções 2 e 3, passar a 14.33.11.
+:::
+
+## 14.33.10 · Temperatura actual da sala [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias com a temperatura actual da sala entre 15 °C e 25 °C.
+
+- **Numerador:** unidades com opção 2 em 14.33.10.
+- **Denominador:** unidades com resposta 1 em 14.33; as unidades sem termómetro a funcionar contam como não cumprindo.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 2 | 2.4.5.2.10 | Temperatura actual da sala entre 15 °C e 25 °C<br>*Percentage of facilities with bulk pharmacy stores with current room temperature 15C to 25C* | Q3150 = 2; aqui: 14.33 = 1 |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Qual é agora a temperatura na sala?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Abaixo de 15 °C
+2. Entre 15 °C e 25 °C, inclusive
+3. Acima de 25 °C
+
+<!-- -->
+
+98. Não sabe
+:::
+
+## 14.33.11 · Frigorífico de medicamentos [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias com frigorífico de medicamentos a 2–8 °C, limpo e usado só para produtos farmacêuticos.
+
+- **Numerador:** unidades com resposta 1 em 14.33.11, resposta 1 em 14.33.12, resposta 1 em 14.33.13 e resposta 2 em 14.33.14.
+- **Denominador:** unidades com resposta 1 em 14.33.
+
+**Função no formulário.** As respostas 2 e 3 passam a a secção 15.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1, com 14.33.12 = 1, 14.33.13 = 1 e 14.33.14 = 2 | 2.4.5.2.11 | Frigorífico a 2–8 °C, limpo e usado só para produtos farmacêuticos<br>*Percentage of facilities with bulk pharmacy stores with fridge at temperature 2-8C, clean and used only for pharmaceuticals* | Q3151 = 1 AND Q3152 = 1 AND Q3153 = 1 AND Q3154 = 2; aqui: 14.33 = 1 |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Existe um frigorífico a funcionar, separado do usado para as vacinas, que é usado para guardar alguns medicamentos ou frascos reconstituídos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Observado, a funcionar
+2. Observado, não está a funcionar
+3. Sem frigorífico para medicamentos
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se sim, pedir para ver o frigorífico e indicar se está a funcionar ou não. Nas opções 2 e 3, passar à secção 15.
+:::
+
+## 14.33.12 · Temperatura do frigorífico de medicamentos [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Uso.** Entra no indicador do frigorífico de medicamentos (ver 14.33.11).
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1 | 2.4.5.2.11 | Entra no cálculo de 2.4.5.2.11 (ver 14.33.11) | Q3152 = 1 |
+:::
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Verificar o termómetro do frigorífico e registar a temperatura no momento do inquérito.
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Entre 2 °C e 8 °C, inclusive
+2. Fora do intervalo
+
+<!-- -->
+
+98. Não sabe
+:::
+
+## 14.33.13 · Limpeza do frigorífico de medicamentos [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Uso.** Entra no indicador do frigorífico de medicamentos (ver 14.33.11).
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 1 | 2.4.5.2.11 | Entra no cálculo de 2.4.5.2.11 (ver 14.33.11) | Q3153 = 1 |
+:::
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Observar o interior do frigorífico. Está limpo (por exemplo, sem medicamentos derramados, sem lixo)?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+## 14.33.14 · Outros produtos no frigorífico de medicamentos [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Uso.** Entra no indicador do frigorífico de medicamentos (ver 14.33.11).
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Opção 2 (Não) | 2.4.5.2.11 | Entra no cálculo de 2.4.5.2.11 (ver 14.33.11) | Q3154 = 2 |
+:::
+
+::: {.enunciado .rotulado}
+[Campo · preenchido pelo inquiridor]{.rotulo}
+
+Há hoje produtos alimentares ou outros produtos não farmacêuticos guardados no frigorífico?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.nota .interno}
+**Itens do armazém a granel.** Com 14.33.1 a 14.33.14, contando 14.33.11 a 14.33.14 como um só, são 11 itens: 2.4.5.2.12 (percentagem média) e 2.4.5.2.13 (unidades com todos os itens).
+:::
+

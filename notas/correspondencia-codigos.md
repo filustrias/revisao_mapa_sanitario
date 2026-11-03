@@ -37,12 +37,11 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 3.3.2 a 3.3.4 | 3.3.2 a 3.3.4 | Unidade de referência lateral | 3 |
 | 3.3.5 | 3.3.5 | Distância à referência lateral | 3 |
 | 3.3.6 | 3.3.6 | Tempo à referência lateral na época seca | 3 |
-| 4.1 | 3.4 | Sistema de referência | 4 |
+| 4.1 | 3.4 | Mecanismo de referência | 4 |
 | 4.2 | 3.5 | Normas de referência | 4 |
 | 4.3 | 3.6 | Normas de contrarreferência | 4 |
-| 4.4 | 3.7 | Registo das referências feitas | 4 |
+| 4.4 | 3.7 | Registo dos doentes referidos | 4 |
 | 4.5 | 3.8 | Informação de retorno | 4 |
-| 4.6 | 3.9 | Acesso 24 horas a veículo e motorista | 4 |
 | 5.1 | 4.1 | Número de edifícios da unidade | 5 |
 | 5.2 | 4.2 | Superfície coberta da unidade | 5 |
 | 5.3 | 4.3 | Residências dos trabalhadores | 5 |
@@ -104,7 +103,8 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 8.3.1 | 10.3.1 | Plano de manutenção dos veículos | 8 |
 | 8.3.2 | 10.3.2 | Cumprimento do plano de manutenção | 8 |
 | 8.4 | 7.5.1 | Acesso a transporte de emergência | 8 |
-| 8.4.1 | 7.5.1.1 | Transporte de emergência disponível hoje | 8 |
+| 8.4.1 | 3.9 | Veículo de emergência e motorista disponíveis 24 horas | 8 |
+| 8.4.2 | 7.5.1.1 | Transporte de emergência disponível hoje | 8 |
 | 11.A | 7.1.A | Especialidades clínicas (10.1 a 10.28) | 11 |
 | 12.1 | 7.1.B.0 | Doenças crónicas não transmissíveis — porta | 12 |
 | 12.2 a 12.5 | 7.1.B | Grelhas por família (cardiovasculares, endócrinas, respiratórias, renal/anemias/desnutrição); substituem a grelha única | 12 |
@@ -230,7 +230,7 @@ Comentários recebidos antes desta data usam os códigos da coluna «Antes». As
 | Antes | Agora | Quesito |
 |---|---|---|
 | 20.1 | 8.4 | Acesso a transporte de emergência |
-| 20.1.1 | 8.4.1 | Transporte de emergência disponível hoje |
+| 20.1.1 | 8.4.2 | Transporte de emergência disponível hoje |
 | 20.2 | 21.1 | Cozinha |
 | 20.3 | 21.2 | Refeitório ou cantina |
 | 20.4 | 21.3 | Lavandaria |
@@ -266,3 +266,13 @@ Os cuidados à criança saíram da secção 16 e entraram na secção 17, antes 
 | 17.4 | 17.5 | Planeamento familiar — porta |
 | 17.4.1 a 17.4.12 | 17.5.1 a 17.5.12 | Métodos de planeamento familiar |
 | 17.4.13 | 17.5.13 | Procura activa de faltosas — planeamento familiar |
+
+## Alinhamento com o questionário do HHFA (3 de Novembro de 2026)
+
+| Antes | Agora | Quesito |
+|---|---|---|
+| 4.6 | 8.4.1 | Veículo de emergência e motorista disponíveis 24 horas |
+| 8.4.1 | 8.4.2 | Transporte de emergência disponível hoje |
+| 14.32 | 14.33 | Armazém a granel: porta |
+| 14.32.1 a 14.32.16, coluna A | 14.32.1 a 14.32.16 | Armazém principal |
+| 14.32.1 a 14.32.4 e 14.32.7 a 14.32.16, coluna B | 14.33.1 a 14.33.14 | Armazém a granel |
