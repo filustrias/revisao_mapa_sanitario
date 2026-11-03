@@ -2,7 +2,7 @@
 title: "Secção 13 — Diagnóstico e serviços de apoio"
 ---
 
-Testes rápidos, exames de laboratório e de imagem, procedimentos e tecnologias e outros serviços de apoio. A farmácia e os medicamentos estão na secção 14; os serviços de urgência, na secção 14.
+Testes rápidos, exames de laboratório e de imagem, procedimentos e tecnologias e outros serviços de apoio. A farmácia e os medicamentos estão na secção 14; os serviços de urgência, na secção 15.
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
@@ -662,7 +662,7 @@ Considere a situação habitual dos últimos 3 meses, e não uma avaria pontual 
 
 **Articula-se com a secção 10**, onde se **contam** os aparelhos de ecografia e de raio X: aqui mede-se a oferta do exame, lá o inventário do equipamento.
 
-**Verificação a programar.** Assinalar quando a unidade declara realizar ecografia ou raio X e conta zero aparelhos correspondentes na secção 9.
+**Verificação a programar.** Assinalar quando a unidade declara realizar ecografia ou raio X e conta zero aparelhos correspondentes na secção 10.
 :::
 
 ## 13.B · Procedimentos e tecnologias [NOVO]{.etiqueta .novo}

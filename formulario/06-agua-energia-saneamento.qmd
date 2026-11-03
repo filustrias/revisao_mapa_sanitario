@@ -686,7 +686,7 @@ Existe nesta unidade uma estação ou sistema de tratamento de águas residuais?
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 6.9 for «Não», saltar para a secção 6.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 6.9 for «Não», saltar para a secção 7.
 :::
 
 ::: {.nota .interno}

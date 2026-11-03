@@ -31,7 +31,7 @@ Atendimento a doentes em situação de urgência — com ou sem banco de urgênc
 - **Denominador:** todas as unidades sanitárias inquiridas.
 - **Desagregação:** categoria da unidade (2.6), província, município e zona (2.11).
 
-**Função no formulário.** É a porta da secção 14. As unidades com resposta 1 formam o denominador de todos os indicadores seguintes da secção (15.2.1 a 15.8). As unidades com resposta 2 saltam para a secção 16 e não entram nesses denominadores; quando um indicador da secção se exprimir sobre o total das unidades inquiridas, estas contam como não tendo o atributo medido.
+**Função no formulário.** É a porta da secção 15. As unidades com resposta 1 formam o denominador de todos os indicadores seguintes da secção (15.2.1 a 15.8). As unidades com resposta 2 saltam para a secção 16 e não entram nesses denominadores; quando um indicador da secção se exprimir sobre o total das unidades inquiridas, estas contam como não tendo o atributo medido.
 
 </details>
 
@@ -58,7 +58,7 @@ Esta unidade sanitária presta atendimento a doentes em situação de urgência,
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para a secção 15.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para a secção 16.
 :::
 
 ::: {.nota .interno}

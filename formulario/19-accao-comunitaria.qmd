@@ -194,7 +194,7 @@ Existem Agentes de Desenvolvimento Comunitário e de Saúde (ADECOS) a trabalhar
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 19.4 for «Não», não perguntar 19.4.0 e saltar para a secção 19.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta a 19.4 for «Não», não perguntar 19.4.0 e saltar para a secção 20.
 :::
 
 ::: {.nota .interno}

@@ -2,7 +2,7 @@
 title: "Secção 11 — Serviços clínicos e cirúrgicos"
 ---
 
-Atendimento por especialidade clínica, serviços a sobreviventes de violência e cirurgia. As doenças crónicas não transmissíveis, a saúde mental, as doenças neurológicas e o cancro estão na secção 11.
+Atendimento por especialidade clínica, serviços a sobreviventes de violência e cirurgia. As doenças crónicas não transmissíveis, a saúde mental, as doenças neurológicas e o cancro estão na secção 12.
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
@@ -398,7 +398,7 @@ Esta unidade sanitária realiza algum procedimento cirúrgico, de pequena ou de 
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para a secção 11.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para a secção 12.
 :::
 
 ## 11.29.1 · Pequena cirurgia [ALTERADO]{.etiqueta .alterado}
@@ -741,7 +741,7 @@ Para cada uma das áreas de especialidade seguintes, diga-me se esta unidade san
 :::
 
 ::: {.nota .interno}
-**Fecho da secção 10.** Decisão de fundo a registar: nesta secção adopta-se o olhar internacional, que é o mais adequado ao objecto, **sem retirar a lista de especialidades da Ficha**. As duas convivem porque respondem a perguntas diferentes — a especialidade diz como a unidade está organizada e serve a gestão da rede; a condição diz o que a unidade consegue resolver e serve o planeamento do cuidado. É o mesmo desenho usado nas comissões de 20.2, onde o órgão e a actividade convivem.
+**Fecho da secção 11.** Decisão de fundo a registar: nesta secção adopta-se o olhar internacional, que é o mais adequado ao objecto, **sem retirar a lista de especialidades da Ficha**. As duas convivem porque respondem a perguntas diferentes — a especialidade diz como a unidade está organizada e serve a gestão da rede; a condição diz o que a unidade consegue resolver e serve o planeamento do cuidado. É o mesmo desenho usado nas comissões de 20.2, onde o órgão e a actividade convivem.
 
 [**81 indicadores do HHFA** nesta secção.]{.hhfa}
 :::

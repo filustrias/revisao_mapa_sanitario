@@ -1,5 +1,5 @@
 ---
-title: "Secção 3 — População e sistema de referência"
+title: "Secção 3 — População e unidades de referência"
 ---
 
 População da área de abrangência da unidade sanitária e unidades para onde refere os doentes, com o meio de transporte, a distância e o tempo de viagem.
@@ -584,7 +584,7 @@ Tempo em minutos na época das chuvas.
 - **Denominador:** todas as unidades sanitárias inquiridas.
 - **Desagregação:** categoria (2.6) e município.
 
-**Função no formulário.** Porta da referência lateral. As unidades com resposta diferente de 0 formam o denominador de 3.3.2 a 3.3.6; as unidades com «Não» (0) saltam para a secção 5 e não entram nesses denominadores. O grupo indicado aqui é também a variável de desagregação de 3.3.3 a 3.3.6; o código 1 isola a rede obstétrica.
+**Função no formulário.** Porta da referência lateral. As unidades com resposta diferente de 0 formam o denominador de 3.3.2 a 3.3.6; as unidades com «Não» (0) saltam para a secção 4 e não entram nesses denominadores. O grupo indicado aqui é também a variável de desagregação de 3.3.3 a 3.3.6; o código 1 isola a rede obstétrica.
 
 </details>
 
