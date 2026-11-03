@@ -150,9 +150,6 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 16.1.3 | 7.3.1.3 | Rupturas de stock por antigénio | 16 |
 | 16.1.4 | 7.3.1.4 | Cadeia de frio | 16 |
 | 16.1.5 | — (novo) | Procura activa de faltosos — vacinação | 16 |
-| 16.2 | 7.3.5 | Puericultura — porta dos cuidados à criança | 16 |
-| 16.2.1 | 7.3.5.1 | Cuidados à criança menor de 5 anos | 16 |
-| 16.2.2 | — (novo) | Procura activa de faltosos — puericultura | 16 |
 | 17.1 | 7.3.6 | Consulta pré-natal | 17 |
 | 17.1.1 | 7.3.6.1 | Componentes da consulta pré-natal | 17 |
 | 17.1.2 | — (novo) | Procura activa de faltosas — consulta pré-natal | 17 |
@@ -166,9 +163,12 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 17.3.1.1 a 17.3.1.8 | 7.3.8.1.1 a 7.3.8.1.8 | Rastreios do recém-nascido, rastreio a rastreio | 17 |
 | 17.3.2.0 | 7.3.8.2.0 | Recém-nascido pequeno ou doente — porta | 17 |
 | 17.3.2.1 a 17.3.2.10 | 7.3.8.2.1 a 7.3.8.2.10 | Cuidados ao recém-nascido pequeno ou doente | 17 |
-| 17.4 | 7.3.9 | Planeamento familiar — porta | 17 |
-| 17.4.1 a 17.4.12 | 7.3.9.1 a 7.3.9.12 | Métodos de planeamento familiar | 17 |
-| 17.4.13 | — (novo) | Procura activa de faltosas — planeamento familiar | 17 |
+| 17.4 | 7.3.5 | Puericultura — porta dos cuidados à criança | 17 |
+| 17.4.1 | 7.3.5.1 | Cuidados à criança menor de 5 anos | 17 |
+| 17.4.2 | — (novo) | Procura activa de faltosos — puericultura | 17 |
+| 17.5 | 7.3.9 | Planeamento familiar — porta | 17 |
+| 17.5.1 a 17.5.12 | 7.3.9.1 a 7.3.9.12 | Métodos de planeamento familiar | 17 |
+| 17.5.13 | — (novo) | Procura activa de faltosas — planeamento familiar | 17 |
 | 18.1 | 7.3.10 | VIH — aconselhamento e testagem | 18 |
 | 18.1.1 | 7.3.10.1 | Testagem do VIH por grupo de idade | 18 |
 | 18.2.1 | 7.3.10.2.1 | Profilaxia pré-exposição (PrEP) ao VIH | 18 |
@@ -253,3 +253,16 @@ Comentários recebidos antes desta data usam os códigos da coluna «Antes». As
 ## Inclusão da secção 4 (3 de Novembro de 2026)
 
 A nova secção 4, Funcionamento do sistema de referência, recebe os antigos 3.4 a 3.9. As secções 4 a 20 passam a 5 a 21: cada código soma 1 ao primeiro número (por exemplo, 13.32 passa a 14.32). Os códigos do HHFA não mudam. Comentários recebidos antes desta data usam a numeração anterior.
+
+## Cuidados à criança e planeamento familiar (3 de Novembro de 2026)
+
+Os cuidados à criança saíram da secção 16 e entraram na secção 17, antes do planeamento familiar. A secção 16 passa a chamar-se «Vacinação».
+
+| Antes | Agora | Quesito |
+|---|---|---|
+| 16.2 | 17.4 | Puericultura — porta dos cuidados à criança |
+| 16.2.1 e 16.2.1.1 a 16.2.1.12 | 17.4.1 e 17.4.1.1 a 17.4.1.12 | Cuidados à criança menor de 5 anos |
+| 16.2.2 | 17.4.2 | Procura activa de faltosos — puericultura |
+| 17.4 | 17.5 | Planeamento familiar — porta |
+| 17.4.1 a 17.4.12 | 17.5.1 a 17.5.12 | Métodos de planeamento familiar |
+| 17.4.13 | 17.5.13 | Procura activa de faltosas — planeamento familiar |

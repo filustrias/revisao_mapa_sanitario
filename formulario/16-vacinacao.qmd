@@ -1,10 +1,10 @@
 ---
-title: "Secção 16 — Saúde da criança e vacinação"
+title: "Secção 16 — Vacinação"
 ---
 
-Vacinação de rotina — periodicidade, vacinas administradas, rupturas de stock e cadeia de frio — e cuidados à criança menor de 5 anos.
+Vacinação de rotina: periodicidade, vacinas administradas, rupturas de stock, cadeia de frio e procura activa de crianças com doses em atraso.
 
-[33 campos, contra 7 na Ficha 19_01.]{.campos}
+[19 campos, contra 6 na Ficha 19_01.]{.campos}
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
@@ -15,8 +15,6 @@ Vacinação de rotina — periodicidade, vacinas administradas, rupturas de stoc
 | 16.1.3 | Rupturas de stock por antigénio nos últimos 3 meses [(a decidir nesta revisão; 11 indicadores do HHFA, se incluída)]{.hhfa} |
 | 16.1.4 | Cadeia de frio (parqueado, para a fase da observação) [(nenhum indicador do HHFA nesta fase; 5 parqueados)]{.hhfa} |
 | 16.1.5 | Procura activa de crianças com doses de vacina em atraso [(medida própria do Mapa Sanitário)]{.hhfa} |
-| 16.2 e 16.2.1 | Cuidados à criança menor de 5 anos, serviço a serviço [(12 indicadores do HHFA)]{.hhfa} |
-| 16.2.2 | Procura activa de crianças menores de 1 ano que faltam à puericultura [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
@@ -36,7 +34,7 @@ Vacinação de rotina — periodicidade, vacinas administradas, rupturas de stoc
 
 **Desagregação:** categoria da unidade (2.6), província, município e zona (2.11).
 
-**Função no formulário.** É a porta do bloco da vacinação. As unidades com resposta 1 formam o denominador dos indicadores de 16.1.1, 16.1.2, 16.1.3 (se incluída) e 16.1.5, e, na fase da observação, os de 16.1.4. As unidades com resposta 2 ou 3 saltam para 16.2 e não entram nesses denominadores.
+**Função no formulário.** É a porta do bloco da vacinação. As unidades com resposta 1 formam o denominador dos indicadores de 16.1.1, 16.1.2, 16.1.3 (se incluída) e 16.1.5, e, na fase da observação, os de 16.1.4. As unidades com resposta 2 ou 3 saltam para a secção 17 e não entram nesses denominadores.
 
 </details>
 
@@ -65,7 +63,7 @@ Esta unidade sanitária realiza vacinação de rotina, com periodicidade fixa, m
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não, apenas em campanhas» ou «Não», saltar para 16.2.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não, apenas em campanhas» ou «Não», saltar para a secção 17.
 :::
 
 ::: {.nota .interno}
@@ -349,169 +347,6 @@ Indicador mais próximo: 4.5.2.6.9 — Unidades que mantêm uma lista de utentes
 [Pergunta · ler ao respondente]{.rotulo}
 
 Quando uma criança tem uma dose de vacina em atraso, esta unidade sanitária identifica o atraso e procura a criança activamente para completar a vacinação?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Sim, há registo dos faltosos e a unidade procura-os activamente
-2. Sim, a falta é registada, mas não há procura activa
-3. Não
-
-<!-- -->
-
-98. Não sabe
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Procura activa é qualquer contacto feito por iniciativa da unidade para trazer o utente de volta: telefone ou SMS, visita domiciliar pelo pessoal da unidade, ou pedido aos ADECOS para o localizar.
-:::
-
-::: {.nota .interno}
-**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 19.4.2, como função dos ADECOS.
-
-**Verificação a programar.** Na resposta 1, pedir para ver a lista ou o livro de faltosos do último mês.
-:::
-
-## 16.2 · Puericultura — porta dos cuidados à criança [ALTERADO]{.etiqueta .alterado}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-**Indicador.** Percentagem de unidades sanitárias que prestam cuidados preventivos ou curativos a crianças menores de 5 anos.
-
-- **Numerador:** unidades com resposta 1 em 16.2.
-- **Denominador:** todas as unidades sanitárias inquiridas.
-- **Desagregação:** categoria da unidade (2.6), província, município e zona (2.11).
-
-**Função no formulário.** É a porta dos cuidados à criança. As unidades com resposta 1 formam o denominador dos indicadores de 16.2.1 e 16.2.2. As unidades com resposta 2 saltam para 17.1 e não entram nesses denominadores.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Resposta 1 (Sim) | 3.1.8.1.1 | Unidades que oferecem a crianças menores de 5 anos quaisquer serviços preventivos ou curativos<br>*Percentage of facilities offering for children < 5 years any preventative or curative care services* | Q2000 = 1; todas as unidades |
-| Resposta 1 (Sim) | 1.3.2.1.1 | Unidades que oferecem serviços preventivos e/ou curativos a crianças menores de 5 anos (lista geral de serviços)<br>*Percentage of facilities offering preventive and/or curative care services for children under 5* | Q204_11 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido de 16.2 |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Esta unidade sanitária presta cuidados preventivos ou curativos a crianças menores de 5 anos?
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Sim
-2. Não
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 17.1.
-:::
-
-::: {.nota .interno}
-**A puericultura deixa de ser uma caixa entre outras e passa a ser a porta de toda a família dos cuidados à criança**, porque é isso que ela é na prática: o Guião define-a como «quando inclui peso e registo do mesmo no cartão infantil» (folha 12), isto é, a consulta de vigilância da criança. A monitorização do crescimento, que é o conteúdo dessa definição, passa a ser a primeira linha da grelha seguinte, onde gera indicador próprio.
-:::
-
-## 16.2.1 · Cuidados à criança menor de 5 anos [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-**Indicadores.**
-
-- Para cada serviço da grelha (linhas 16.2.1.1 a 16.2.1.12): percentagem de unidades com cuidados à criança menor de 5 anos que prestam habitualmente esse serviço.
-  - **Numerador:** unidades com coluna 1 na linha.
-- Percentagem de unidades com cuidados à criança menor de 5 anos que fazem o diagnóstico da malária com teste de sangue e o tratamento de primeira linha.
-  - **Numerador:** unidades com coluna 1 nas linhas 16.2.1.10 e 16.2.1.11.
-- **Denominador (de todos):** unidades com resposta 1 em 16.2. A resposta 98 fica no denominador e fora do numerador.
-- **Desagregação:** categoria da unidade (2.6) e zona (2.11).
-
-As linhas 16.2.1.3 a 16.2.1.5 dão os três níveis de manejo da malnutrição — ambulatório da forma aguda grave, ambulatório da forma moderada e internamento da forma grave.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Linha 16.2.1.1 · Monitorização do crescimento | 3.1.8.1.2 | Unidades que oferecem a crianças menores de 5 anos monitorização de rotina do crescimento<br>*Percentage of facilities offering for children < 5 years routine growth monitoring* | Q2002_1 = 1; todas as unidades |
-| Linha 16.2.1.2 · Malnutrição | 3.1.8.1.3 | Unidades que oferecem a crianças menores de 5 anos diagnóstico e/ou tratamento da malnutrição<br>*Percentage of facilities offering for children < 5 years diagnosis and/or treatment of malnutrition* | Q2002_2 = 1; todas as unidades |
-| Linha 16.2.1.3 · Malnutrição aguda grave, ambulatório | 3.1.8.1.4 | Unidades que oferecem a crianças menores de 5 anos tratamento em ambulatório da malnutrição aguda grave sem complicações<br>*Percentage of facilities offering for children < 5 years outpatient management of severe acute malnutrition without complications* | Q2002_3 = 1; todas as unidades |
-| Linha 16.2.1.4 · Malnutrição moderada, ambulatório | 3.1.8.1.5 | Unidades que oferecem a crianças menores de 5 anos tratamento em ambulatório de outras categorias de malnutrição/desnutrição<br>*Percentage of facilities offering for children < 5 years outpatient management of other categories of malnutrition/undernutrition* | Q2002_4 = 1; todas as unidades. O HHFA diz «outras categorias»; a nossa linha diz «moderada» |
-| Linha 16.2.1.5 · Malnutrição grave, internamento | 3.1.8.1.6 | Unidades que oferecem a crianças menores de 5 anos tratamento em internamento da malnutrição grave com complicações<br>*Percentage of facilities offering for children < 5 years inpatient management of severe malnutrition with complications* | Q2002_5 = 1; todas as unidades |
-| Linha 16.2.1.6 · Vitamina A | 3.1.8.1.7 | Unidades que oferecem a crianças menores de 5 anos suplementação de rotina com vitamina A<br>*Percentage of facilities offering for children < 5 years routine vitamin A supplementation* | Q2002_6 = 1; todas as unidades |
-| Linha 16.2.1.7 · Desparasitação de rotina | — (medida própria) | Indicador mais próximo: 3.1.8.2.21 — unidades com cuidados a menores de 5 anos com mebendazol/albendazol (*Percentage of facilities offering < 5 preventative and curative services with mebendazole/albendazole tab/cap*) — não é o mesmo: verifica o medicamento em stock, não o serviço | Q3103_1 = 1 (observação), entre Q2000 = 1 |
-| Linha 16.2.1.8 · Anemia | 3.1.8.1.8 | Unidades que oferecem a crianças menores de 5 anos diagnóstico e tratamento da anemia com suplementação de ferro<br>*Percentage of facilities offering for children < 5 years diagnosis and treatment of anaemia with iron supplementation* | Q2002_7 = 1; todas as unidades. O HHFA especifica «com suplementação de ferro» |
-| Linha 16.2.1.9 · Diarreia | 3.1.8.1.9 | Unidades que oferecem a crianças menores de 5 anos diagnóstico e tratamento da diarreia com SRO e zinco<br>*Percentage of facilities offering for children < 5 years diagnosis and treatment of diarrhoea with ORS and zinc* | Q2002_11 = 1; todas as unidades |
-| Linhas 16.2.1.10 e 16.2.1.11 · Malária: tratamento de primeira linha e teste de sangue | 3.1.8.1.11 | Unidades que oferecem a crianças menores de 5 anos diagnóstico da malária com teste de sangue e tratamento com ACT<br>*Percentage of facilities offering for children < 5 years diagnosis of malaria with blood test and treatment with ACT* | Q2002_9 = 1; todas as unidades. No HHFA é uma só pergunta; aqui, ambas as linhas «Sim» |
-| Linha 16.2.1.12 · Rede mosquiteira | 3.1.8.1.12 | Unidades que oferecem a crianças menores de 5 anos rede mosquiteira tratada de longa duração (RMTL) ou voucher<br>*Percentage of facilities offering for children < 5 years LLIN or voucher for LLIN* | Q2002_10 = 1; todas as unidades |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Para cada serviço seguinte, diga-me se é habitualmente prestado a crianças menores de 5 anos nesta unidade sanitária.
-:::
-
-::: {.grelha .rotulado}
-[Grelha de resposta]{.rotulo}
-
-| Código | Serviço | 1 · Sim, habitualmente prestado | 2 · Não | 98 · Não sabe |
-|---|---|:-:|:-:|:-:|
-| 16.2.1.1 | Monitorização do crescimento, com peso e registo no cartão infantil [HHFA 3.1.8.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 16.2.1.2 | Diagnóstico ou tratamento da malnutrição [HHFA 3.1.8.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 16.2.1.3 | Tratamento em ambulatório da malnutrição aguda grave, com alimento terapêutico [HHFA 3.1.8.1.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 16.2.1.4 | Tratamento em ambulatório da malnutrição moderada, com suplementos alimentares [HHFA 3.1.8.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 16.2.1.5 | Tratamento em internamento da malnutrição grave [HHFA 3.1.8.1.6]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 16.2.1.6 | Suplementação de rotina com vitamina A [HHFA 3.1.8.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 16.2.1.7 | Desparasitação de rotina com albendazol ou mebendazol | ☐ | ☐ | ☐ |
-| 16.2.1.8 | Diagnóstico e tratamento da anemia [HHFA 3.1.8.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 16.2.1.9 | Diagnóstico e tratamento da diarreia com sais de reidratação oral e zinco [HHFA 3.1.8.1.9]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 16.2.1.10 | Diagnóstico e tratamento de primeira linha da malária [HHFA 3.1.8.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 16.2.1.11 | Diagnóstico da malária com teste de sangue [HHFA 3.1.8.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 16.2.1.12 | Entrega de rede mosquiteira tratada de longa duração, ou de voucher para a obter [HHFA 3.1.8.1.12]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-:::
-
-::: {.nota .interno}
-**Cinco caixas da Ficha entram aqui e nenhuma se perde, com uma correspondência exacta** que vale registar: a Reidratação Oral (5.1 RO) é a linha 9; o Centro Nutricional Terapêutico, que o Guião define como serviço de tratamento da criança malnutrida grave «que inclui regime de internamento», é a linha 5; o Centro Nutricional Suplementar, «sem internamento, e que inclui o fornecimento de suplementos alimentares», é a linha 4; a vitamina A é a linha 6; e a puericultura é a linha 1. **As três caixas de nutrição da Ficha mapeiam-se exactamente nos três níveis de manejo do instrumento internacional**, o que mostra a solidez do desenho original.
-
-O **albendazol** ganha linha própria: a desparasitação de rotina é contributo próprio do Mapa Sanitário, e conserva-se porque é a âncora de medicamentos mais simples do instrumento.
-:::
-
-## 16.2.2 · Procura activa de faltosos — puericultura [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-**Indicador.** Percentagem de unidades com cuidados à criança menor de 5 anos que registam e procuram activamente as crianças menores de 1 ano que faltam à consulta de puericultura.
-
-- **Numerador:** unidades com opção 1 em 16.2.2.
-- **Denominador:** unidades com resposta 1 em 16.2.
-- **Desagregação:** a opção 2 (registo da falta sem procura activa) lê-se à parte.
-
-**Função no formulário.** Lido com 19.4.2, mostra que parte desta procura passa pelos ADECOS.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
-
-Indicador mais próximo: 4.5.2.6.9 — Unidades que mantêm uma lista de utentes registados para grupos seleccionados (*Percentage of facilities that maintain a panel/list of registered patients for selected patient groups*) — porque regista utentes, mas não diz se a unidade identifica e procura os faltosos.
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Quando uma criança menor de 1 ano falta a uma consulta de puericultura marcada, esta unidade sanitária identifica a falta e procura a criança activamente?
 :::
 
 ::: {.respostas .rotulado}

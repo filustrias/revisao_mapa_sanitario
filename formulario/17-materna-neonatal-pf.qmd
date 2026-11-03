@@ -1,10 +1,10 @@
 ---
-title: "Secção 17 — Saúde materna, do recém-nascido e planeamento familiar"
+title: "Secção 17 — Saúde materna, do recém-nascido e da criança, e planeamento familiar"
 ---
 
-Consulta pré-natal, partos e cuidados obstétricos de urgência, consulta pós-parto, rastreios e cuidados ao recém-nascido, e planeamento familiar.
+Consulta pré-natal, partos e cuidados obstétricos de urgência, consulta pós-parto, rastreios e cuidados ao recém-nascido, cuidados à criança menor de 5 anos e planeamento familiar.
 
-[51 campos, contra 5 na Ficha 19_01; mais 11 se o bloco do recém-nascido pequeno ou doente (17.3.2) for incluído.]{.campos}
+[65 campos, contra 6 na Ficha 19_01; mais 11 se o bloco do recém-nascido pequeno ou doente (17.3.2) for incluído.]{.campos}
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
@@ -17,8 +17,10 @@ Consulta pré-natal, partos e cuidados obstétricos de urgência, consulta pós-
 | 17.3 | Consulta pós-parto à mãe e ao recém-nascido [(2 indicadores do HHFA)]{.hhfa} |
 | 17.3.1.0 a 17.3.1.8 | Rastreios do recém-nascido, realizados na unidade ou por envio de amostra [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 17.3.2.0 a 17.3.2.10 | Cuidados ao recém-nascido pequeno ou doente (a decidir) [(13 indicadores do HHFA, se incluído)]{.hhfa} |
-| 17.4 a 17.4.12 | Planeamento familiar, método a método [(16 indicadores do HHFA)]{.hhfa} |
-| 17.4.13 | Procura activa de utentes de planeamento familiar que faltam ao seguimento [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 17.4 e 17.4.1 | Cuidados à criança menor de 5 anos, serviço a serviço [(12 indicadores do HHFA)]{.hhfa} |
+| 17.4.2 | Procura activa de crianças menores de 1 ano que faltam à puericultura [(medida própria do Mapa Sanitário)]{.hhfa} |
+| 17.5 a 17.5.12 | Planeamento familiar, método a método [(16 indicadores do HHFA)]{.hhfa} |
+| 17.5.13 | Procura activa de utentes de planeamento familiar que faltam ao seguimento [(medida própria do Mapa Sanitário)]{.hhfa} |
 
 </details>
 
@@ -725,18 +727,181 @@ Só se o bloco for incluído.
 | 17.3.2.10 | Fototerapia para icterícia neonatal [HHFA 3.1.7.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 :::
 
-## 17.4 · Planeamento familiar — porta [ALTERADO]{.etiqueta .alterado}
+## 17.4 · Puericultura — porta dos cuidados à criança [ALTERADO]{.etiqueta .alterado}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades sanitárias que prestam cuidados preventivos ou curativos a crianças menores de 5 anos.
+
+- **Numerador:** unidades com resposta 1 em 17.4.
+- **Denominador:** todas as unidades sanitárias inquiridas.
+- **Desagregação:** categoria da unidade (2.6), província, município e zona (2.11).
+
+**Função no formulário.** É a porta dos cuidados à criança. As unidades com resposta 1 formam o denominador dos indicadores de 17.4.1 e 17.4.2. As unidades com resposta 2 saltam para 17.5 e não entram nesses denominadores.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Resposta 1 (Sim) | 3.1.8.1.1 | Unidades que oferecem a crianças menores de 5 anos quaisquer serviços preventivos ou curativos<br>*Percentage of facilities offering for children < 5 years any preventative or curative care services* | Q2000 = 1; todas as unidades |
+| Resposta 1 (Sim) | 1.3.2.1.1 | Unidades que oferecem serviços preventivos e/ou curativos a crianças menores de 5 anos (lista geral de serviços)<br>*Percentage of facilities offering preventive and/or curative care services for children under 5* | Q204_11 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido de 17.4 |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Esta unidade sanitária presta cuidados preventivos ou curativos a crianças menores de 5 anos?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim
+2. Não
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Se a resposta for «Não», saltar para 17.5.
+:::
+
+::: {.nota .interno}
+**A puericultura deixa de ser uma caixa entre outras e passa a ser a porta de toda a família dos cuidados à criança**, porque é isso que ela é na prática: o Guião define-a como «quando inclui peso e registo do mesmo no cartão infantil» (folha 12), isto é, a consulta de vigilância da criança. A monitorização do crescimento, que é o conteúdo dessa definição, passa a ser a primeira linha da grelha seguinte, onde gera indicador próprio.
+:::
+
+## 17.4.1 · Cuidados à criança menor de 5 anos [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicadores.**
+
+- Para cada serviço da grelha (linhas 17.4.1.1 a 17.4.1.12): percentagem de unidades com cuidados à criança menor de 5 anos que prestam habitualmente esse serviço.
+  - **Numerador:** unidades com coluna 1 na linha.
+- Percentagem de unidades com cuidados à criança menor de 5 anos que fazem o diagnóstico da malária com teste de sangue e o tratamento de primeira linha.
+  - **Numerador:** unidades com coluna 1 nas linhas 17.4.1.10 e 17.4.1.11.
+- **Denominador (de todos):** unidades com resposta 1 em 17.4. A resposta 98 fica no denominador e fora do numerador.
+- **Desagregação:** categoria da unidade (2.6) e zona (2.11).
+
+As linhas 17.4.1.3 a 17.4.1.5 dão os três níveis de manejo da malnutrição — ambulatório da forma aguda grave, ambulatório da forma moderada e internamento da forma grave.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
+|---|---|---|---|
+| Linha 17.4.1.1 · Monitorização do crescimento | 3.1.8.1.2 | Unidades que oferecem a crianças menores de 5 anos monitorização de rotina do crescimento<br>*Percentage of facilities offering for children < 5 years routine growth monitoring* | Q2002_1 = 1; todas as unidades |
+| Linha 17.4.1.2 · Malnutrição | 3.1.8.1.3 | Unidades que oferecem a crianças menores de 5 anos diagnóstico e/ou tratamento da malnutrição<br>*Percentage of facilities offering for children < 5 years diagnosis and/or treatment of malnutrition* | Q2002_2 = 1; todas as unidades |
+| Linha 17.4.1.3 · Malnutrição aguda grave, ambulatório | 3.1.8.1.4 | Unidades que oferecem a crianças menores de 5 anos tratamento em ambulatório da malnutrição aguda grave sem complicações<br>*Percentage of facilities offering for children < 5 years outpatient management of severe acute malnutrition without complications* | Q2002_3 = 1; todas as unidades |
+| Linha 17.4.1.4 · Malnutrição moderada, ambulatório | 3.1.8.1.5 | Unidades que oferecem a crianças menores de 5 anos tratamento em ambulatório de outras categorias de malnutrição/desnutrição<br>*Percentage of facilities offering for children < 5 years outpatient management of other categories of malnutrition/undernutrition* | Q2002_4 = 1; todas as unidades. O HHFA diz «outras categorias»; a nossa linha diz «moderada» |
+| Linha 17.4.1.5 · Malnutrição grave, internamento | 3.1.8.1.6 | Unidades que oferecem a crianças menores de 5 anos tratamento em internamento da malnutrição grave com complicações<br>*Percentage of facilities offering for children < 5 years inpatient management of severe malnutrition with complications* | Q2002_5 = 1; todas as unidades |
+| Linha 17.4.1.6 · Vitamina A | 3.1.8.1.7 | Unidades que oferecem a crianças menores de 5 anos suplementação de rotina com vitamina A<br>*Percentage of facilities offering for children < 5 years routine vitamin A supplementation* | Q2002_6 = 1; todas as unidades |
+| Linha 17.4.1.7 · Desparasitação de rotina | — (medida própria) | Indicador mais próximo: 3.1.8.2.21 — unidades com cuidados a menores de 5 anos com mebendazol/albendazol (*Percentage of facilities offering < 5 preventative and curative services with mebendazole/albendazole tab/cap*) — não é o mesmo: verifica o medicamento em stock, não o serviço | Q3103_1 = 1 (observação), entre Q2000 = 1 |
+| Linha 17.4.1.8 · Anemia | 3.1.8.1.8 | Unidades que oferecem a crianças menores de 5 anos diagnóstico e tratamento da anemia com suplementação de ferro<br>*Percentage of facilities offering for children < 5 years diagnosis and treatment of anaemia with iron supplementation* | Q2002_7 = 1; todas as unidades. O HHFA especifica «com suplementação de ferro» |
+| Linha 17.4.1.9 · Diarreia | 3.1.8.1.9 | Unidades que oferecem a crianças menores de 5 anos diagnóstico e tratamento da diarreia com SRO e zinco<br>*Percentage of facilities offering for children < 5 years diagnosis and treatment of diarrhoea with ORS and zinc* | Q2002_11 = 1; todas as unidades |
+| Linhas 17.4.1.10 e 17.4.1.11 · Malária: tratamento de primeira linha e teste de sangue | 3.1.8.1.11 | Unidades que oferecem a crianças menores de 5 anos diagnóstico da malária com teste de sangue e tratamento com ACT<br>*Percentage of facilities offering for children < 5 years diagnosis of malaria with blood test and treatment with ACT* | Q2002_9 = 1; todas as unidades. No HHFA é uma só pergunta; aqui, ambas as linhas «Sim» |
+| Linha 17.4.1.12 · Rede mosquiteira | 3.1.8.1.12 | Unidades que oferecem a crianças menores de 5 anos rede mosquiteira tratada de longa duração (RMTL) ou voucher<br>*Percentage of facilities offering for children < 5 years LLIN or voucher for LLIN* | Q2002_10 = 1; todas as unidades |
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Para cada serviço seguinte, diga-me se é habitualmente prestado a crianças menores de 5 anos nesta unidade sanitária.
+:::
+
+::: {.grelha .rotulado}
+[Grelha de resposta]{.rotulo}
+
+| Código | Serviço | 1 · Sim, habitualmente prestado | 2 · Não | 98 · Não sabe |
+|---|---|:-:|:-:|:-:|
+| 17.4.1.1 | Monitorização do crescimento, com peso e registo no cartão infantil [HHFA 3.1.8.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.2 | Diagnóstico ou tratamento da malnutrição [HHFA 3.1.8.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.3 | Tratamento em ambulatório da malnutrição aguda grave, com alimento terapêutico [HHFA 3.1.8.1.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.4 | Tratamento em ambulatório da malnutrição moderada, com suplementos alimentares [HHFA 3.1.8.1.5]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.5 | Tratamento em internamento da malnutrição grave [HHFA 3.1.8.1.6]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.6 | Suplementação de rotina com vitamina A [HHFA 3.1.8.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.7 | Desparasitação de rotina com albendazol ou mebendazol | ☐ | ☐ | ☐ |
+| 17.4.1.8 | Diagnóstico e tratamento da anemia [HHFA 3.1.8.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.9 | Diagnóstico e tratamento da diarreia com sais de reidratação oral e zinco [HHFA 3.1.8.1.9]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.10 | Diagnóstico e tratamento de primeira linha da malária [HHFA 3.1.8.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.11 | Diagnóstico da malária com teste de sangue [HHFA 3.1.8.1.11]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.4.1.12 | Entrega de rede mosquiteira tratada de longa duração, ou de voucher para a obter [HHFA 3.1.8.1.12]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+:::
+
+::: {.nota .interno}
+**Cinco caixas da Ficha entram aqui e nenhuma se perde, com uma correspondência exacta** que vale registar: a Reidratação Oral (5.1 RO) é a linha 9; o Centro Nutricional Terapêutico, que o Guião define como serviço de tratamento da criança malnutrida grave «que inclui regime de internamento», é a linha 5; o Centro Nutricional Suplementar, «sem internamento, e que inclui o fornecimento de suplementos alimentares», é a linha 4; a vitamina A é a linha 6; e a puericultura é a linha 1. **As três caixas de nutrição da Ficha mapeiam-se exactamente nos três níveis de manejo do instrumento internacional**, o que mostra a solidez do desenho original.
+
+O **albendazol** ganha linha própria: a desparasitação de rotina é contributo próprio do Mapa Sanitário, e conserva-se porque é a âncora de medicamentos mais simples do instrumento.
+:::
+
+## 17.4.2 · Procura activa de faltosos — puericultura [NOVO]{.etiqueta .novo}
+
+<details class="medir">
+<summary>O que este quesito permite medir</summary>
+
+**Indicador.** Percentagem de unidades com cuidados à criança menor de 5 anos que registam e procuram activamente as crianças menores de 1 ano que faltam à consulta de puericultura.
+
+- **Numerador:** unidades com opção 1 em 17.4.2.
+- **Denominador:** unidades com resposta 1 em 17.4.
+- **Desagregação:** a opção 2 (registo da falta sem procura activa) lê-se à parte.
+
+**Função no formulário.** Lido com 19.4.2, mostra que parte desta procura passa pelos ADECOS.
+
+</details>
+
+::: {.hhfa .fonte-indicadores}
+**Fonte dos indicadores** · catálogo do HHFA (OMS)
+
+**Fonte:** medida própria do Mapa Sanitário — o catálogo do HHFA não tem indicador para este item.
+
+Indicador mais próximo: 4.5.2.6.9 — Unidades que mantêm uma lista de utentes registados para grupos seleccionados (*Percentage of facilities that maintain a panel/list of registered patients for selected patient groups*) — porque regista utentes, mas não diz se a unidade identifica e procura os faltosos.
+:::
+
+::: {.enunciado .rotulado}
+[Pergunta · ler ao respondente]{.rotulo}
+
+Quando uma criança menor de 1 ano falta a uma consulta de puericultura marcada, esta unidade sanitária identifica a falta e procura a criança activamente?
+:::
+
+::: {.respostas .rotulado}
+[Opções de resposta]{.rotulo}
+
+1. Sim, há registo dos faltosos e a unidade procura-os activamente
+2. Sim, a falta é registada, mas não há procura activa
+3. Não
+
+<!-- -->
+
+98. Não sabe
+:::
+
+::: {.instrucao .rotulado}
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Procura activa é qualquer contacto feito por iniciativa da unidade para trazer o utente de volta: telefone ou SMS, visita domiciliar pelo pessoal da unidade, ou pedido aos ADECOS para o localizar.
+:::
+
+::: {.nota .interno}
+**Porque entra.** A continuidade dos cuidados depende de a unidade saber quem faltou e ir procurá-lo. A mesma pergunta repete-se em cada linha de cuidado com consultas marcadas e, no fim, em 19.4.2, como função dos ADECOS.
+
+**Verificação a programar.** Na resposta 1, pedir para ver a lista ou o livro de faltosos do último mês.
+:::
+
+## 17.5 · Planeamento familiar — porta [ALTERADO]{.etiqueta .alterado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 **Indicador.** Percentagem de unidades sanitárias que oferecem serviços de planeamento familiar.
 
-- **Numerador:** unidades com resposta 1 em 17.4.
+- **Numerador:** unidades com resposta 1 em 17.5.
 - **Denominador:** todas as unidades sanitárias inquiridas.
 - **Desagregação:** categoria da unidade (2.6), província, município e zona (2.11).
 
-**Função no formulário.** É a porta do planeamento familiar. As unidades com resposta 1 formam o denominador dos indicadores de 17.4.1 a 17.4.12 e de 17.4.13. As unidades com resposta 2 saltam para 18.1 e não entram nesses denominadores.
+**Função no formulário.** É a porta do planeamento familiar. As unidades com resposta 1 formam o denominador dos indicadores de 17.5.1 a 17.5.12 e de 17.5.13. As unidades com resposta 2 saltam para 18.1 e não entram nesses denominadores.
 
 </details>
 
@@ -746,7 +911,7 @@ Só se o bloco for incluído.
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
 | Resposta 1 (Sim) | 3.1.1.1.1 | Unidades que oferecem quaisquer serviços de planeamento familiar<br>*Percentage of facilities offering any family planning services* | Q1800 = 1; todas as unidades |
-| Resposta 1 (Sim) | 1.3.2.1.3 | Unidades que oferecem planeamento familiar (lista geral de serviços)<br>*Percentage of facilities offering family planning* | Q204_1 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido de 17.4 |
+| Resposta 1 (Sim) | 1.3.2.1.3 | Unidades que oferecem planeamento familiar (lista geral de serviços)<br>*Percentage of facilities offering family planning* | Q204_1 = 1, 2 ou 3 (lista geral de serviços disponíveis); todas as unidades. Aqui obtido de 17.5 |
 :::
 
 ::: {.enunciado .rotulado}
@@ -770,20 +935,20 @@ Esta unidade sanitária oferece serviços de planeamento familiar?
 **Dezasseis indicadores por treze campos, e o ganho não é só de volume — é de conteúdo.** O Guião manda marcar a caixa «se é oferecido pelo menos um método de planeamento familiar moderno (depo injetável, pílula, DiU, diafragma) excluindo o preservativo». A grelha método a método distingue a unidade que só tem pílula da unidade que coloca implantes e DIU — e a diferença entre as duas é justamente a que decide se uma mulher consegue um método de longa duração sem sair do seu município.
 :::
 
-## 17.4.1 a 17.4.12 · Métodos de planeamento familiar [NOVO]{.etiqueta .novo}
+## 17.5.1 a 17.5.12 · Métodos de planeamento familiar [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 **Indicadores.**
 
-- Para cada método da grelha (linhas 17.4.1 a 17.4.12): percentagem de unidades com planeamento familiar que fornecem habitualmente esse método.
+- Para cada método da grelha (linhas 17.5.1 a 17.5.12): percentagem de unidades com planeamento familiar que fornecem habitualmente esse método.
   - **Numerador:** unidades com coluna 1 na linha.
 - Percentagem de unidades com planeamento familiar que fornecem qualquer método contraceptivo moderno.
-  - **Numerador:** unidades com coluna 1 em pelo menos uma das linhas 17.4.1 a 17.4.9, 17.4.11 ou 17.4.12 (fica de fora apenas o colar do ciclo, 17.4.10).
+  - **Numerador:** unidades com coluna 1 em pelo menos uma das linhas 17.5.1 a 17.5.9, 17.5.11 ou 17.5.12 (fica de fora apenas o colar do ciclo, 17.5.10).
 - Percentagem de unidades com planeamento familiar que fornecem pelo menos um método moderno além do preservativo, na definição do Guião.
-  - **Numerador:** unidades com coluna 1 em pelo menos uma das linhas 17.4.1 a 17.4.4, 17.4.7 a 17.4.9, 17.4.11 ou 17.4.12.
-- **Denominador (de todos):** unidades com resposta 1 em 17.4. A resposta 98 fica no denominador e fora do numerador.
+  - **Numerador:** unidades com coluna 1 em pelo menos uma das linhas 17.5.1 a 17.5.4, 17.5.7 a 17.5.9, 17.5.11 ou 17.5.12.
+- **Denominador (de todos):** unidades com resposta 1 em 17.5. A resposta 98 fica no denominador e fora do numerador.
 - **Desagregação:** categoria da unidade (2.6), província e município.
 
 A leitura método a método distingue a unidade que só fornece pílula ou injectável da que coloca implantes e DIU.
@@ -795,20 +960,20 @@ A leitura método a método distingue a unidade que só fornece pílula ou injec
 
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
-| Linha 17.4.1 · Pílula combinada | 3.1.1.1.3 | Unidades que oferecem pílula contraceptiva oral combinada<br>*Percentage of facilities offering combined oral contraceptive pills* | Q1802_1 = 1; todas as unidades |
-| Linha 17.4.2 · Pílula só de progestagénio | 3.1.1.1.4 | Unidades que oferecem pílula só de progestagénio<br>*Percentage of facilities offering progestin-only contraceptive pills* | Q1802_2 = 1; todas as unidades |
-| Linha 17.4.3 · Injectável combinado | 3.1.1.1.5 | Unidades que oferecem contraceptivo injectável combinado<br>*Percentage of facilities offering combined injectable contraceptives* | Q1802_3 = 1; todas as unidades |
-| Linha 17.4.4 · Injectável só de progestagénio | 3.1.1.1.6 | Unidades que oferecem contraceptivo injectável só de progestagénio<br>*Percentage of facilities offering progestin-only injectable contraceptives* | Q1802_4 = 1; todas as unidades |
-| Linha 17.4.5 · Preservativo masculino | 3.1.1.1.7 | Unidades que oferecem preservativo masculino<br>*Percentage of facilities offering male condoms* | Q1802_5 = 1; todas as unidades |
-| Linha 17.4.5 · Preservativo masculino | 3.1.9.2.9 | Unidades com serviços para adolescentes que têm preservativo masculino no serviço de planeamento familiar<br>*Percentage of facilities offering adolescent health services with male condoms at familiy planning service site* | Q1802_5 = 1; entre as unidades com serviços para adolescentes (Q2007 = 1) |
-| Linha 17.4.6 · Preservativo feminino | 3.1.1.1.8 | Unidades que oferecem preservativo feminino<br>*Percentage of facilities offering female condoms* | Q1802_6 = 1; todas as unidades |
-| Linha 17.4.7 · DIU | 3.1.1.1.9 | Unidades que oferecem dispositivo intra-uterino (DIU)<br>*Percentage of facilities offering intrauterine contraceptive devices (IUCD)* | Q1802_9A = 1 ou Q1802_9B = 1; todas as unidades. O HHFA pergunta dois tipos de DIU; aqui uma só linha |
-| Linha 17.4.8 · Implante | 3.1.1.1.10 | Unidades que oferecem implantes<br>*Percentage of facilities offering implants* | Q1802_7 = 1; todas as unidades |
-| Linha 17.4.9 · Contracepção de emergência | 3.1.1.1.11 | Unidades que oferecem contracepção de emergência<br>*Percentage of facilities offering emergency contraceptives* | Q1802_8 = 1; todas as unidades |
-| Linha 17.4.10 · Colar do ciclo | 3.1.1.1.14 | Unidades que oferecem colar do ciclo para o método dos dias fixos<br>*Percentage of facilities offering cycle beads for standard days method* | Q1802_10 = 1; todas as unidades |
-| Linha 17.4.11 · Esterilização masculina | 3.1.1.1.12 | Unidades que oferecem esterilização masculina<br>*Percentage of facilities offering male sterilization* | Q1802_11 = 1; todas as unidades |
-| Linha 17.4.12 · Esterilização feminina | 3.1.1.1.13 | Unidades que oferecem esterilização feminina<br>*Percentage of facilities offering female sterilization* | Q1802_12 = 1; todas as unidades |
-| Calculado com as linhas 17.4.1 a 17.4.9, 17.4.11 e 17.4.12 | 3.1.1.1.2 | Unidades que oferecem qualquer método contraceptivo moderno<br>*Percentage of facilities offering any modern method of contraception* | Q1802_1 a Q1802_8, Q1802_9A, Q1802_9B, Q1802_11 ou Q1802_12 = 1 (sem o colar do ciclo, Q1802_10); todas as unidades |
+| Linha 17.5.1 · Pílula combinada | 3.1.1.1.3 | Unidades que oferecem pílula contraceptiva oral combinada<br>*Percentage of facilities offering combined oral contraceptive pills* | Q1802_1 = 1; todas as unidades |
+| Linha 17.5.2 · Pílula só de progestagénio | 3.1.1.1.4 | Unidades que oferecem pílula só de progestagénio<br>*Percentage of facilities offering progestin-only contraceptive pills* | Q1802_2 = 1; todas as unidades |
+| Linha 17.5.3 · Injectável combinado | 3.1.1.1.5 | Unidades que oferecem contraceptivo injectável combinado<br>*Percentage of facilities offering combined injectable contraceptives* | Q1802_3 = 1; todas as unidades |
+| Linha 17.5.4 · Injectável só de progestagénio | 3.1.1.1.6 | Unidades que oferecem contraceptivo injectável só de progestagénio<br>*Percentage of facilities offering progestin-only injectable contraceptives* | Q1802_4 = 1; todas as unidades |
+| Linha 17.5.5 · Preservativo masculino | 3.1.1.1.7 | Unidades que oferecem preservativo masculino<br>*Percentage of facilities offering male condoms* | Q1802_5 = 1; todas as unidades |
+| Linha 17.5.5 · Preservativo masculino | 3.1.9.2.9 | Unidades com serviços para adolescentes que têm preservativo masculino no serviço de planeamento familiar<br>*Percentage of facilities offering adolescent health services with male condoms at familiy planning service site* | Q1802_5 = 1; entre as unidades com serviços para adolescentes (Q2007 = 1) |
+| Linha 17.5.6 · Preservativo feminino | 3.1.1.1.8 | Unidades que oferecem preservativo feminino<br>*Percentage of facilities offering female condoms* | Q1802_6 = 1; todas as unidades |
+| Linha 17.5.7 · DIU | 3.1.1.1.9 | Unidades que oferecem dispositivo intra-uterino (DIU)<br>*Percentage of facilities offering intrauterine contraceptive devices (IUCD)* | Q1802_9A = 1 ou Q1802_9B = 1; todas as unidades. O HHFA pergunta dois tipos de DIU; aqui uma só linha |
+| Linha 17.5.8 · Implante | 3.1.1.1.10 | Unidades que oferecem implantes<br>*Percentage of facilities offering implants* | Q1802_7 = 1; todas as unidades |
+| Linha 17.5.9 · Contracepção de emergência | 3.1.1.1.11 | Unidades que oferecem contracepção de emergência<br>*Percentage of facilities offering emergency contraceptives* | Q1802_8 = 1; todas as unidades |
+| Linha 17.5.10 · Colar do ciclo | 3.1.1.1.14 | Unidades que oferecem colar do ciclo para o método dos dias fixos<br>*Percentage of facilities offering cycle beads for standard days method* | Q1802_10 = 1; todas as unidades |
+| Linha 17.5.11 · Esterilização masculina | 3.1.1.1.12 | Unidades que oferecem esterilização masculina<br>*Percentage of facilities offering male sterilization* | Q1802_11 = 1; todas as unidades |
+| Linha 17.5.12 · Esterilização feminina | 3.1.1.1.13 | Unidades que oferecem esterilização feminina<br>*Percentage of facilities offering female sterilization* | Q1802_12 = 1; todas as unidades |
+| Calculado com as linhas 17.5.1 a 17.5.9, 17.5.11 e 17.5.12 | 3.1.1.1.2 | Unidades que oferecem qualquer método contraceptivo moderno<br>*Percentage of facilities offering any modern method of contraception* | Q1802_1 a Q1802_8, Q1802_9A, Q1802_9B, Q1802_11 ou Q1802_12 = 1 (sem o colar do ciclo, Q1802_10); todas as unidades |
 :::
 
 ::: {.enunciado .rotulado}
@@ -822,33 +987,33 @@ Para cada método seguinte, diga-me se é habitualmente fornecido nesta unidade 
 
 | Código | Método | 1 · Sim, habitualmente fornecido | 2 · Não | 98 · Não sabe |
 |---|---|:-:|:-:|:-:|
-| 17.4.1 | Pílula combinada de estrogénio e progestagénio [HHFA 3.1.1.1.3 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 17.4.2 | Pílula só de progestagénio [HHFA 3.1.1.1.4 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 17.4.3 | Injectável combinado [HHFA 3.1.1.1.5 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 17.4.4 | Injectável só de progestagénio [HHFA 3.1.1.1.6 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 17.4.5 | Preservativo masculino [HHFA 3.1.1.1.7 · 3.1.9.2.9 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 17.4.6 | Preservativo feminino [HHFA 3.1.1.1.8 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 17.4.7 | Dispositivo intra-uterino (DIU) [HHFA 3.1.1.1.9 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 17.4.8 | Implante subcutâneo [HHFA 3.1.1.1.10 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 17.4.9 | Contracepção de emergência [HHFA 3.1.1.1.11 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 17.4.10 | Colar do ciclo [HHFA 3.1.1.1.14]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 17.4.11 | Esterilização masculina [HHFA 3.1.1.1.12 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-| 17.4.12 | Esterilização feminina [HHFA 3.1.1.1.13 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.5.1 | Pílula combinada de estrogénio e progestagénio [HHFA 3.1.1.1.3 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.5.2 | Pílula só de progestagénio [HHFA 3.1.1.1.4 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.5.3 | Injectável combinado [HHFA 3.1.1.1.5 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.5.4 | Injectável só de progestagénio [HHFA 3.1.1.1.6 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.5.5 | Preservativo masculino [HHFA 3.1.1.1.7 · 3.1.9.2.9 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.5.6 | Preservativo feminino [HHFA 3.1.1.1.8 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.5.7 | Dispositivo intra-uterino (DIU) [HHFA 3.1.1.1.9 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.5.8 | Implante subcutâneo [HHFA 3.1.1.1.10 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.5.9 | Contracepção de emergência [HHFA 3.1.1.1.11 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.5.10 | Colar do ciclo [HHFA 3.1.1.1.14]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.5.11 | Esterilização masculina [HHFA 3.1.1.1.12 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
+| 17.5.12 | Esterilização feminina [HHFA 3.1.1.1.13 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 :::
 
 ::: {.nota .interno}
 Com o preservativo perguntado em linha própria, a grelha permite os dois cálculos: o «método moderno» do Guião, que exclui o preservativo, e o «qualquer método moderno», que o inclui. O preservativo tem, além disso, indicador próprio e é o método mais distribuído da rede.
 :::
 
-## 17.4.13 · Procura activa de faltosas — planeamento familiar [NOVO]{.etiqueta .novo}
+## 17.5.13 · Procura activa de faltosas — planeamento familiar [NOVO]{.etiqueta .novo}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
 
 **Indicador.** Percentagem de unidades com planeamento familiar que registam e procuram activamente as utentes que faltam à consulta de seguimento ou de reabastecimento.
 
-- **Numerador:** unidades com opção 1 em 17.4.13.
-- **Denominador:** unidades com resposta 1 em 17.4.
+- **Numerador:** unidades com opção 1 em 17.5.13.
+- **Denominador:** unidades com resposta 1 em 17.5.
 - **Desagregação:** a opção 2 (registo da falta sem procura activa) lê-se à parte.
 
 **Função no formulário.** Lido com 19.4.2, mostra que parte desta procura passa pelos ADECOS.

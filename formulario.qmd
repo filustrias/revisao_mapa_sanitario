@@ -25,8 +25,8 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 13](formulario/13-diagnostico-apoio.qmd) | Diagnóstico e serviços de apoio. Testes rápidos, laboratório, imagiologia, procedimentos e serviços de apoio. |
 | [Secção 14](formulario/14-farmacia-medicamentos.qmd) | Farmácia e medicamentos. Serviço de farmácia, quem dispensa os medicamentos, e a lista de produtos farmacêuticos do instrumento internacional — 230 produtos —, em dez grupos e seis blocos condicionais, e condições de armazenamento e gestão de stocks. |
 | [Secção 15](formulario/15-urgencia.qmd) | Serviços de urgência. Atendimento de urgência, banco de urgência, triagem, pessoal, transferência e serviços de apoio 24 horas. |
-| [Secção 16](formulario/16-crianca-vacinacao.qmd) | Saúde da criança e vacinação. Vacinação de rotina, antigénios oferecidos e cuidados à criança menor de 5 anos. |
-| [Secção 17](formulario/17-materna-neonatal-pf.qmd) | Saúde materna, do recém-nascido e planeamento familiar. Consulta pré-natal, partos, cuidados ao recém-nascido e métodos contraceptivos. |
+| [Secção 16](formulario/16-vacinacao.qmd) | Vacinação. Vacinação de rotina, antigénios oferecidos, rupturas de stock e cadeia de frio. |
+| [Secção 17](formulario/17-materna-neonatal-pf.qmd) | Saúde materna, do recém-nascido e da criança, e planeamento familiar. Consulta pré-natal, partos, cuidados ao recém-nascido, cuidados à criança menor de 5 anos e métodos contraceptivos. |
 | [Secção 18](formulario/18-vih-tb-malaria.qmd) | VIH, tuberculose e malária. Testagem, profilaxia e tratamento do VIH, diagnóstico e seguimento da tuberculose, e malária. |
 | [Secção 19](formulario/19-accao-comunitaria.qmd) | Acção comunitária. Redes mosquiteiras, brigadas móveis e articulação com os ADECOS. |
 | [Secção 20](formulario/20-gestao.qmd) | Gestão. Propriedade, órgãos de gestão, revisão de óbitos, controlo de infecções, qualidade e opinião dos utentes. |
