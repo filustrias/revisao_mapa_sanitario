@@ -18,7 +18,7 @@ Propriedade e entidade gestora da unidade, orçamento próprio, serviços e órg
 | 20.2.13.1 e 20.2.13.2 | Prevenção e controlo de infecções: comissão, reuniões multidisciplinares e reunião mais recente [(3 indicadores do HHFA)]{.hhfa} |
 | 20.2.18.1 a 20.2.18.9 | Garantia e melhoria da qualidade [(7 indicadores do HHFA)]{.hhfa} |
 | 20.2.19.1 e 20.2.19.2 | Recolha e análise da opinião dos utentes [(2 indicadores do HHFA)]{.hhfa} |
-| Parqueados | Arquivo e reporte de dados; equipa de gestão [(7 indicadores do HHFA identificados e cerca de 8 da área 4.5 por definir, fora desta ronda)]{.hhfa} |
+| Parqueados | Equipa de gestão [(4 indicadores do HHFA identificados, fora desta ronda; o arquivo e reporte de dados passou para 7.3.10 e 7.3.11)]{.hhfa} |
 
 </details>
 
@@ -809,7 +809,7 @@ Com que frequência é analisada a opinião dos utentes?
 98. Não sabe
 :::
 
-## 20.2.1 + 20.2.10 e 20.2.2 + 20.2.6 · Arquivo, reporte e comité de gestão [PARQUEADO]{.etiqueta .parqueado}
+## 20.2.2 + 20.2.6 · Comité de gestão [PARQUEADO]{.etiqueta .parqueado}
 
 <details class="medir">
 <summary>O que este quesito permite medir</summary>
@@ -819,7 +819,6 @@ Com que frequência é analisada a opinião dos utentes?
 **Indicadores previstos, se os blocos entrarem nesta ronda.**
 
 - Equipa de gestão: percentagem de unidades com equipa ou comissão de gestão que se reuniu nos últimos 3 meses; com sistema de rotina de participação da comunidade nas decisões de gestão; com plano operacional escrito; em que as reuniões de gestão se referem ao plano operacional.
-- Cadeia de arquivo e reporte: percentagem de unidades em que os relatórios de rotina são introduzidos num sistema electrónico; guardados num servidor da unidade; guardados num servidor externo.
 
 </details>
 
@@ -834,18 +833,14 @@ Blocos parqueados: o que gerariam, se entrarem nesta ronda.
 | Equipa de gestão · participação da comunidade | 4.1.1.1.5 | Unidades com sistema de rotina de participação da comunidade nas decisões de gestão<br>*Percentage of facilities with a routine system for community input into facility management decisions* | Q510 = 1; todas as unidades |
 | Equipa de gestão · plano operacional escrito | 4.1.1.1.6 | Unidades com plano operacional ou de gestão escrito<br>*Percentage of facilities with a written operational/management plan* | Q508 = 1; todas as unidades |
 | Equipa de gestão · referência ao plano nas reuniões | 4.1.1.1.7 | Unidades em que cada reunião da comissão de gestão se refere ao plano operacional<br>*Percentage of facilities with reference to operational/management plan at each management committee meeting* | Q509 = 1; todas as unidades |
-| Cadeia de arquivo e reporte (a partir de 20.2.1 e 20.2.10) · relatórios introduzidos em sistema electrónico | 4.5.2.5.4 | Unidades em que o conteúdo dos relatórios de rotina é introduzido num sistema electrónico<br>*Percentage of facilities with routine report contents entered into an electronic system* | Q1106_3 = 1; todas as unidades |
-| Cadeia de arquivo e reporte · relatórios em servidor da unidade | 4.5.2.5.5 | Unidades com relatórios de rotina guardados em ficheiro electrónico num servidor da unidade<br>*Percentage of facilities with routine reports stored as electronic files on a local facility server* | Q1106_4 = 1; todas as unidades |
-| Cadeia de arquivo e reporte · relatórios em servidor externo | 4.5.2.5.6 | Unidades com relatórios de rotina guardados em ficheiro electrónico num servidor externo<br>*Percentage of facilities with routine reports stored as electronic files on an external server* | Q1106_5 = 1; todas as unidades |
-| Cadeia de arquivo e reporte · restantes itens | — (por definir) | Cerca de 8 indicadores da área 4.5 (sistemas de informação), a identificar quando o bloco for desenhado | — |
 :::
 
 ::: {.nota}
-As caixas mantêm-se na lista de três níveis. Ficam para o domínio de gestão dois blocos completos:
-
-**Cadeia de arquivo, registo e reporte de dados** (a partir de 20.2.1 e 20.2.10) — cerca de 12 campos.
+As caixas mantêm-se na lista de três níveis. Fica para o domínio de gestão um bloco completo:
 
 **Equipa ou comissão de gestão** (a partir de 20.2.2 e 20.2.6) — periodicidade e data das reuniões, plano operacional escrito e referência ao plano nas decisões, e sistema de rotina de participação da comunidade na gestão — cerca de 6 campos.
+
+A cadeia de arquivo, registo e reporte de dados (a partir de 20.2.1 e 20.2.10) passou para a secção 7: 7.3.10 e 7.3.11 (cópias dos relatórios) e 7.5.8 a 7.5.11 (arquivo dos processos dos utentes).
 :::
 
 ## Pendências desta subsecção

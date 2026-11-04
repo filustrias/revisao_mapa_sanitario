@@ -16,7 +16,7 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 4](formulario/04-sistema-referencia.qmd) | Funcionamento do sistema de referência. Mecanismo de referência, normas, registo e informação de retorno. |
 | [Secção 5](formulario/05-construcao-estado-fisico.qmd) | Construção e estado físico. Edifícios, superfície, ano e material de construção e estado de conservação. |
 | [Secção 6](formulario/06-agua-energia-saneamento.qmd) | Água, energia, saneamento e resíduos. Fontes de água e electricidade, saneamento e destino dos resíduos comuns e hospitalares. |
-| [Secção 7](formulario/07-conectividade.qmd) | Conectividade e meios informáticos. Rede móvel, internet, equipamento informático e uso de bases de dados. |
+| [Secção 7](formulario/07-conectividade.qmd) | Gestão da informação, conectividade e meios informáticos. Registo da informação dos utentes em papel e em suporte electrónico, arquivo, relatórios, qualidade dos dados, codificação, rede móvel, internet e equipamento informático. |
 | [Secção 8](formulario/08-transportes.qmd) | Meios de transporte. Veículos por tipo e estado de funcionamento, manutenção de rotina e transporte de emergência. |
 | [Secção 9](formulario/09-camas.qmd) | Camas e equipamentos de exame. Camas instaladas por serviço — enfermarias, cuidados intensivos, isolamento, hospital de dia e observação — e macas. |
 | [Secção 10](formulario/10-aparelhos.qmd) | Aparelhos médico-cirúrgicos. Número de aparelhos por tipo e verificação do equipamento básico. |

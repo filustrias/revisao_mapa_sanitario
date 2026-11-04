@@ -73,13 +73,46 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 7.1.5 | 13.1.5 | Disponibilidade da ligação nos últimos 7 dias | 7 |
 | 7.2.1 a 7.2.6 | 13.2.1 a 13.2.6 | Equipamento informático e telefone | 7 |
 | 7.3.1 | 13.3.1 | Bases de dados electrónicas — porta | 7 |
-| 7.3.2 | 13.3.2 | Tipos de informação em base de dados | 7 |
+| 7.3.2 | 13.3.2 | Registo de cada tipo de informação: suporte e forma | 7 |
 | 7.3.3 | 13.3.3 | Protecção por senha | 7 |
 | 7.3.4 | 13.3.4 | Cópias de segurança | 7 |
 | 7.3.5 | 13.3.5 | Formato do reporte de rotina | 7 |
 | 7.3.6 | 13.3.6 | Plataforma de registo e reporte | 7 |
 | 7.4.1 | 13.4.1 | Pessoa designada para a gestão dos dados | 7 |
 | 7.4.2 | 13.4.2 | Pessoal formado no uso dos dados | 7 |
+| 7.3.7 | — | Destinatários dos relatórios | 7 |
+| 7.3.8 | — | Periodicidade dos relatórios de serviços e diagnósticos | 7 |
+| 7.3.9 | — | Periodicidade dos relatórios de doenças de notificação obrigatória | 7 |
+| 7.3.10 | — | Cópias dos relatórios enviados | 7 |
+| 7.3.11 | — | Onde se guardam as cópias dos relatórios | 7 |
+| 7.3.12 | — | Verificação dos três últimos relatórios | 7 |
+| 7.4.3 | — | Reuniões de análise dos dados | 7 |
+| 7.4.4 | — | Uso dos dados na gestão | 7 |
+| 7.5.1 | — | Lista de utentes inscritos na unidade | 7 |
+| 7.5.2 | — | Número único do utente | 7 |
+| 7.5.3 | — | Mesmo número no internamento e no ambulatório | 7 |
+| 7.5.4 | — | Processo clínico individual | 7 |
+| 7.5.5 | — | Processo único e longitudinal | 7 |
+| 7.5.6 | — | Programa informático do processo clínico electrónico | 7 |
+| 7.5.7 | — | Livro de registo dos atendimentos | 7 |
+| 7.5.8 | — | Guarda dos processos individuais | 7 |
+| 7.5.9 | — | Onde se guardam os processos | 7 |
+| 7.5.10 | — | Localização dos processos quando são precisos | 7 |
+| 7.5.11 | — | Pessoa responsável pelo arquivo dos processos | 7 |
+| 7.5.12 | — | Acesso do utente ao seu processo | 7 |
+| 7.6.1 | — | Verificação da qualidade dos dados | 7 |
+| 7.6.2 | — | Norma escrita para a verificação | 7 |
+| 7.6.3 | — | Registo escrito dos resultados da verificação | 7 |
+| 7.6.4 | — | Frequência do registo dos resultados | 7 |
+| 7.6.5 | — | Correcção dos problemas encontrados | 7 |
+| 7.6.6 | — | Verificação externa dos dados | 7 |
+| 7.7.1 | — | Codificação dos diagnósticos | 7 |
+| 7.7.2 | — | Formação de quem codifica os diagnósticos | 7 |
+| 7.7.3 | — | Usos dos códigos da CID | 7 |
+| 7.7.4 | — | Determinação da causa de morte | 7 |
+| 7.7.5 | — | Certificado de óbito | 7 |
+| 7.7.6 | — | Codificação das causas de morte | 7 |
+| 7.7.7 | — | Formação e regras na codificação das causas de morte | 7 |
 | 9.0.1 | 8.0.1 | Internamento — porta | 9 |
 | 9.1.1 | 8.1.1 | Camas de internamento de adulto | 9 |
 | 9.1.2 | 8.1.2 | Camas pediátricas e berços de lactentes | 9 |
@@ -215,7 +248,7 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 20.2.18.7 | 7.4.18.7 | Ponto focal para a qualidade | 20 |
 | 20.2.18.8 | 7.4.18.8 | Formação em qualidade | 20 |
 | 20.2.18.9 | 7.4.18.9 | Apoio externo para a qualidade | 20 |
-| 20.2.1 + 20.2.10 e 20.2.2 + 20.2.6 | 7.4.1 + 7.4.10 e 7.4.2 + 7.4.6 | Arquivo, reporte e comité de gestão | 20 |
+| 20.2.2 + 20.2.6 | 7.4.2 + 7.4.6 | Comité de gestão | 20 |
 | 20.2.19 | 7.5.18 | Gabinete do utente | 20 |
 | 20.2.19.1 | 7.5.18.1 | Recolha da opinião dos utentes | 20 |
 | 20.2.19.2 | 7.5.18.2 | Análise da opinião dos utentes | 20 |
