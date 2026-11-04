@@ -1,5 +1,5 @@
 ---
-title: "Revisão da segunda versão do Mapa Sanitário (2026)"
+title: "Revisão do instrumento de coleta das informações do Mapa Sanitário (2026)"
 subtitle: "Proposta de revisão da Ficha de Cadastramento de Unidades Sanitárias · documento para revisão"
 ---
 
@@ -11,7 +11,7 @@ subtitle: "Proposta de revisão da Ficha de Cadastramento de Unidades Sanitária
 Este trabalho é realizado pela equipa do GEPE/MINSA com apoio da OMS Angola.
 :::
 
-Este documento apresenta a proposta de revisão da **Ficha de Cadastramento de Unidades Sanitárias** do Mapa Sanitário de 2019, na forma em que será aplicada: como formulário.
+Este documento apresenta a proposta de revisão do instrumento de coleta de dados do Mapa Sanitário, a **Ficha de Cadastramento de Unidades Sanitárias** de 2019, na forma em que será aplicado: como formulário.
 
 | Para começar | |
 |---|---|

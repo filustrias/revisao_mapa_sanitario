@@ -4,7 +4,7 @@ title: "Nota de apresentação e orientações de leitura"
 
 ## O que é este documento
 
-Este documento apresenta a proposta de revisão da **Ficha de Cadastramento de Unidades Sanitárias** do Mapa Sanitário de 2019 — a versão 19_01, de Janeiro de 2019, e o respectivo Guião de Preenchimento, de Abril de 2019, ambos do GEPE/MINSA — na forma em que ela será efectivamente aplicada: como formulário.
+Este documento apresenta a proposta de revisão do instrumento de coleta de dados do Mapa Sanitário — a **Ficha de Cadastramento de Unidades Sanitárias**, versão 19_01, de Janeiro de 2019, e o respectivo Guião de Preenchimento, de Abril de 2019, ambos do GEPE/MINSA — na forma em que será efectivamente aplicado: como formulário.
 
 As páginas seguintes mostram, secção a secção e quesito a quesito, **o que será perguntado, por que palavras, com que opções de resposta, e o que acontece a seguir a cada resposta**. É deliberadamente o formulário e não o relatório sobre o formulário: a sequência é a que o inquiridor percorrerá, os enunciados estão escritos para serem lidos em voz alta, e os saltos estão assinalados onde ocorrem.
 

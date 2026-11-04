@@ -1,6 +1,6 @@
-# Revisão do Mapa Sanitário — formulário V2
+# Revisão do instrumento de coleta das informações do Mapa Sanitário (2026)
 
-Livro Quarto que apresenta a proposta de revisão da **Ficha de Cadastramento de Unidades Sanitárias** do Mapa Sanitário de Angola (versão 19_01, GEPE/MINSA, Janeiro de 2019) na forma de formulário comentado, para circulação entre revisores.
+Livro Quarto que apresenta a proposta de revisão do instrumento de coleta de dados do Mapa Sanitário de Angola, a **Ficha de Cadastramento de Unidades Sanitárias** (versão 19_01, GEPE/MINSA, Janeiro de 2019), na forma de formulário comentado, para circulação entre revisores.
 
 GEPE/MINSA · OMS Angola · projecto HIIP
 
