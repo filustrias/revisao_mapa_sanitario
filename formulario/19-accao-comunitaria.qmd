@@ -56,7 +56,7 @@ Esta unidade sanitária distribui redes mosquiteiras tratadas de longa duração
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -100,7 +100,7 @@ A partir desta unidade sanitária realizam-se periodicamente brigadas móveis de
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -150,7 +150,7 @@ E equipas avançadas de vacinação na área de referência, a menos de 10 km?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -281,7 +281,7 @@ Para cada área seguinte, diga-me se existe articulação regular entre esta uni
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Área | 1 · Sim, articulação regular | 2 · Não | 98 · Não sabe |
+| Código | Área | 1 · Sim, articulação regular | 2 · Não | 98 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|:-:|
 | 19.4.1.1 | Planeamento familiar [HHFA 3.1.1.1.15]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 | 19.4.1.2 | Consulta pré-natal [HHFA 3.1.2.1.16]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
@@ -330,7 +330,7 @@ Para cada área seguinte, diga-me se os ADECOS procuram, a pedido desta unidade 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Área | 1 · Sim | 2 · Não | 97 · A unidade não oferece este serviço | 98 · Não sabe |
+| Código | Área | 1 · Sim | 2 · Não | 97 · A unidade não oferece este serviço | 98 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|:-:|:-:|
 | 19.4.2.1 | Consulta pré-natal | ☐ | ☐ | ☐ | ☐ |
 | 19.4.2.2 | Puericultura (criança menor de 1 ano) | ☐ | ☐ | ☐ | ☐ |

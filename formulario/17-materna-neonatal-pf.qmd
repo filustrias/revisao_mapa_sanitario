@@ -69,7 +69,7 @@ Nesta unidade sanitária realiza-se consulta pré-natal?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -131,7 +131,7 @@ Para cada prestação seguinte, diga-me se faz habitualmente parte da consulta p
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Prestação | 1 · Sim, faz parte habitualmente | 2 · Não | 98 · Não sabe |
+| Código | Prestação | 1 · Sim, faz parte habitualmente | 2 · Não | 98 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|:-:|
 | 17.1.1.1 | Suplementação com ferro [HHFA 3.1.2.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 | 17.1.1.2 | Suplementação com ácido fólico [HHFA 3.1.2.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
@@ -195,7 +195,7 @@ Quando uma grávida falta a uma consulta pré-natal marcada, esta unidade sanit�
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -247,7 +247,7 @@ São atendidos partos nesta unidade sanitária, em sala de partos própria?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -298,7 +298,7 @@ Esta unidade tem capacidade para Cuidados Obstétricos e Neonatais de Urgência 
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -348,7 +348,7 @@ E para Cuidados Obstétricos e Neonatais de Urgência Completos (CONU-C)?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ## 17.2.3 · Funções-sinal obstétricas e neonatais [NOVO]{.etiqueta .novo}
@@ -408,7 +408,7 @@ Para cada prestação seguinte, diga-me se foi realizada nesta unidade sanitári
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Prestação | 1 · Sim, realizada nos últimos 3 meses | 2 · Não realizada | 98 · Não sabe |
+| Código | Prestação | 1 · Sim, realizada nos últimos 3 meses | 2 · Não realizada | 98 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|:-:|
 | 17.2.3.1 | Administração parenteral de antibióticos [HHFA 3.1.3.2.1 · 3.1.3.1.4 · 3.1.4.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 | 17.2.3.2 | Administração parenteral de uterotónicos (ocitocina) [HHFA 3.1.3.2.2 · 3.1.3.1.4 · 3.1.4.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
@@ -464,7 +464,7 @@ Os partos são atendidos nesta unidade sanitária 24 horas por dia e todos os di
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -512,7 +512,7 @@ Nesta unidade sanitária realiza-se consulta pós-parto à mãe, ao recém-nasci
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -601,7 +601,7 @@ Para cada rastreio seguinte, diga-me qual destas três situações descreve o qu
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Rastreio | 1 · Realizado nesta unidade | 2 · Amostra recolhida aqui e enviada para fora, com retorno do resultado | 3 · Não obtido por nenhuma destas vias | 98 · Não sabe |
+| Código | Rastreio | 1 · Realizado nesta unidade | 2 · Amostra recolhida aqui e enviada para fora, com retorno do resultado | 3 · Não obtido por nenhuma destas vias | 98 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|:-:|:-:|
 | 17.3.1.1 | **Rastreio metabólico por punção do calcanhar em papel de filtro (teste do pezinho)** — hipotiroidismo congénito, fenilcetonúria, hiperplasia congénita da suprarrenal e fibrose cística | ☐ | ☐ | ☐ | ☐ |
 | 17.3.1.2 | Pesquisa de hemoglobinopatias no recém-nascido (drepanocitose) | ☐ | ☐ | ☐ | ☐ |
@@ -713,7 +713,7 @@ Só se o bloco for incluído.
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Cuidado | 1 · Sim, rotineiramente disponível quando necessário | 2 · Não | 98 · Não sabe |
+| Código | Cuidado | 1 · Sim, rotineiramente disponível quando necessário | 2 · Não | 98 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|:-:|
 | 17.3.2.1 | Método canguru [HHFA 3.1.7.1.2 · 3.1.3.2.10]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 | 17.3.2.2 | Método canguru efectivamente praticado nos últimos 3 meses [HHFA 3.1.7.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
@@ -817,7 +817,7 @@ Para cada serviço seguinte, diga-me se é habitualmente prestado a crianças me
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Serviço | 1 · Sim, habitualmente prestado | 2 · Não | 98 · Não sabe |
+| Código | Serviço | 1 · Sim, habitualmente prestado | 2 · Não | 98 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|:-:|
 | 17.4.1.1 | Monitorização do crescimento, com peso e registo no cartão infantil [HHFA 3.1.8.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 | 17.4.1.2 | Diagnóstico ou tratamento da malnutrição [HHFA 3.1.8.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
@@ -877,7 +877,7 @@ Quando uma criança menor de 1 ano falta a uma consulta de puericultura marcada,
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -985,7 +985,7 @@ Para cada método seguinte, diga-me se é habitualmente fornecido nesta unidade 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Método | 1 · Sim, habitualmente fornecido | 2 · Não | 98 · Não sabe |
+| Código | Método | 1 · Sim, habitualmente fornecido | 2 · Não | 98 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|:-:|
 | 17.5.1 | Pílula combinada de estrogénio e progestagénio [HHFA 3.1.1.1.3 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 | 17.5.2 | Pílula só de progestagénio [HHFA 3.1.1.1.4 · 3.1.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
@@ -1043,7 +1043,7 @@ Quando uma utente de planeamento familiar falta a uma consulta de seguimento ou 
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}

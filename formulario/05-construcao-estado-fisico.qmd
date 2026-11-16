@@ -214,7 +214,7 @@ Em que ano foi concluída a construção do edifício principal desta unidade?
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- 4 dígitos · **9998** Não sabe
+- 4 dígitos · **9998** Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -229,7 +229,7 @@ No ano (5.5) acrescenta-se a instrução sobre reconstrução, que decide o caso
 **Indicador.** Distribuição percentual das unidades sanitárias por período de construção do edifício principal.
 
 - **Numerador:** unidades com cada opção (1 a 5) em 5.6.
-- **Denominador:** todas as unidades sanitárias inquiridas; as respostas 98 («Não sabe») apresentam-se à parte.
+- **Denominador:** todas as unidades sanitárias inquiridas; as respostas 98 («Ninguém na unidade sabe responder») apresentam-se à parte.
 - **Desagregação:** categoria (2.6) e província.
 
 Comparável com as quatro edições anteriores do Mapa Sanitário, porque os períodos se mantêm.
@@ -263,7 +263,7 @@ Em que período foi construído o edifício principal?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}

@@ -160,7 +160,6 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 13.C.0 | 7.2.C.0 | Testes rápidos de diagnóstico | 13 |
 | 13.1 | 7.2.1 | Porta geral do laboratório | 13 |
 | 13.C.I a 13.C.IV | 7.2.C.I a 7.2.C.IV | Os quatro blocos de exames | 13 |
-| 13.C.V | 7.2.C.V | Destino da amostra ou do doente | 13 |
 | 13.A.0 | 7.2.A.0 | Imagiologia — porta | 13 |
 | 13.A | 7.2.A | Imagiologia — exames de imagem | 13 |
 | 13.B | 7.2.B | Procedimentos e tecnologias | 13 |

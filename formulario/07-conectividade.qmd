@@ -53,7 +53,7 @@ Existe cobertura de rede móvel no recinto desta unidade sanitária?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -961,7 +961,7 @@ Algum profissional desta unidade recebeu formação em análise e uso dos dados 
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ## 7.4.3 Reuniões de análise dos dados [NOVO]{.etiqueta .novo}

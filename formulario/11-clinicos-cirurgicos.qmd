@@ -150,7 +150,7 @@ Vou ler uma lista de especialidades clínicas. Para cada uma, diga-me se esta un
 |---|---|---|---|
 | Resposta 1 (Sim) | 1.3.2.6.3 | Unidades que oferecem algum serviço para sobreviventes de violência<br>*Percentage of facilities offering any services for survivors of violence* | Q203_3 = 1, 2 ou 3; todas as unidades |
 | Resposta 1 (Sim) | 3.6.3.1.1 | Unidades que oferecem algum serviço a sobreviventes de violação, de violência sexual ou por parceiro íntimo<br>*Percentage of facilities offering any services for survivors of rape,  sexual or intimate partner violence* | Q1713 = 1; todas as unidades. A porta inclui também as crianças vítimas de maus-tratos, que o indicador não abrange |
-| Resposta 98 (Não sabe) | — (medida própria) | Sem indicador | — |
+| Resposta 98 (Ninguém na unidade sabe responder) | — (medida própria) | Sem indicador | — |
 :::
 
 ::: {.enunciado .rotulado}
@@ -167,7 +167,7 @@ Esta unidade sanitária presta algum serviço a sobreviventes de violação, de 
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -214,7 +214,7 @@ Esta unidade sanitária presta serviços a sobreviventes de violação ou de vio
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ## 11.E.2 · Crianças afectadas por maus-tratos [NOVO]{.etiqueta .novo}
@@ -252,7 +252,7 @@ E a crianças afectadas por maus-tratos?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ## 11.E.3 · Prestações oferecidas aos sobreviventes [NOVO]{.etiqueta .novo}
@@ -283,7 +283,7 @@ E a crianças afectadas por maus-tratos?
 | Linha 6 · Vacina antitetânica ou imunoglobulina — Sim | 3.6.3.1.5 | Unidades que oferecem toxóide tetânico ou imunoglobulina aos sobreviventes<br>*Percentage of facilities offering tetanus toxoid or immunoglobulin for survivors* | Q1714_6 = 1; todas as unidades |
 | Linha 7 · Aconselhamento sobre interrupção da gravidez — Sim | 3.6.3.1.9 | Unidades que oferecem aconselhamento sobre serviços de interrupção da gravidez aos sobreviventes<br>*Percentage of facilities offering counseling on induced abortion services for survivors* | Q1714_7 = 1; todas as unidades. Se a linha sair por razão legal, perde-se este indicador |
 | Linha 8 · Serviços de interrupção da gravidez — Sim | 3.6.3.1.10 | Unidades que oferecem serviços de interrupção da gravidez aos sobreviventes, se necessário<br>*Percentage of facilities offering induced abortion services for survivors if needed* | Q1714_8 = 1; todas as unidades. Se a linha sair por razão legal, perde-se este indicador |
-| Resposta 98 (Não sabe), em qualquer linha | — (medida própria) | Sem indicador | — |
+| Resposta 98 (Ninguém na unidade sabe responder), em qualquer linha | — (medida própria) | Sem indicador | — |
 :::
 
 ::: {.enunciado .rotulado}
@@ -308,7 +308,7 @@ Para cada prestação seguinte, diga-me se é habitualmente oferecida aos sobrev
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-Para cada linha: 1 Sim · 2 Não · 98 Não sabe
+Para cada linha: 1 Sim · 2 Não · 98 Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -337,7 +337,7 @@ Para cada linha: 1 Sim · 2 Não · 98 Não sabe
 | Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
 |---|---|---|---|
 | Resposta 1 (Sim) | 3.6.3.1.8 | Unidades com profissional de saúde do mesmo sexo para realizar o exame ou estar na sala com os sobreviventes<br>*Percentage of facilities offering health worker of same sex  to conduct exam / be in room with survivors* | Q1716 = 1; todas as unidades |
-| Resposta 98 (Não sabe) | — (medida própria) | Sem indicador | — |
+| Resposta 98 (Ninguém na unidade sabe responder) | — (medida própria) | Sem indicador | — |
 :::
 
 ::: {.enunciado .rotulado}
@@ -354,7 +354,7 @@ Está sempre disponível nesta unidade sanitária um profissional de saúde do m
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -570,7 +570,7 @@ Realiza procedimentos de grande cirurgia, isto é, efectuados sob anestesia gera
   - **Denominador:** população da área geográfica (ver 3.1).
 - **Média de salas de operações por unidade com grande cirurgia.**
   - **Numerador:** soma das respostas a 11.29.2.1.
-  - **Denominador:** unidades com resposta 1, 2 ou 3 em 11.29.2 e com número declarado (excluindo «Não sabe»).
+  - **Denominador:** unidades com resposta 1, 2 ou 3 em 11.29.2 e com número declarado (excluindo «Ninguém na unidade sabe responder»).
 - **Desagregação:** província e município (2.1 a 2.5), categoria da unidade (2.6).
 
 **Função no formulário.** Lida com a grelha de grande cirurgia (11.29.2.2 a 11.29.2.22) e com a anestesia (13.D.2), distingue a capacidade instalada da capacidade utilizada; uma unidade que declara grande cirurgia e zero salas assinala-se para verificação.
@@ -596,7 +596,7 @@ Quantas salas de operações, equipadas e em condições de utilização, existe
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-Número de 00 a 99 · **98** Não sabe
+Número de 00 a 99 · **98** Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}

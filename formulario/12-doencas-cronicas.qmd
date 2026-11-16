@@ -593,7 +593,7 @@ Quando um doente com doença crónica não transmissível — por exemplo hipert
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}

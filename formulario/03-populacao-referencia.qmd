@@ -152,7 +152,7 @@ De onde provém essa estimativa da população?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -519,7 +519,7 @@ Tempo em minutos na época seca.
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- Minutos, 3 dígitos; **997** se intransitável, **998** se não sabe
+- Minutos, 3 dígitos; **997** se intransitável, **998** se ninguém na unidade souber responder
 :::
 
 ## 3.2.9 Tempo à unidade de referência superior na época das chuvas [NOVO]{.etiqueta .novo}
@@ -562,7 +562,7 @@ Tempo em minutos na época das chuvas.
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- Minutos, 3 dígitos; **997** se intransitável, **998** se não sabe
+- Minutos, 3 dígitos; **997** se intransitável, **998** se ninguém na unidade souber responder
 :::
 
 ::: {.nota .interno}
@@ -762,7 +762,7 @@ Distância total em quilómetros.
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- Quilómetros, 3 dígitos; 997 intransitável, 998 não sabe
+- Quilómetros, 3 dígitos; 997 intransitável, 998 ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -797,5 +797,5 @@ Tempo em minutos na época seca.
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- Minutos, 3 dígitos; 997 intransitável, 998 não sabe
+- Minutos, 3 dígitos; 997 intransitável, 998 ninguém na unidade sabe responder
 :::

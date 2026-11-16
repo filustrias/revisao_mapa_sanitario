@@ -93,7 +93,7 @@ Qual é a fonte de água mais utilizada por esta unidade sanitária neste moment
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -400,7 +400,7 @@ Qual é o destino final dos resíduos comuns produzidos nesta unidade?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -462,7 +462,7 @@ E qual é o destino final dos resíduos hospitalares — cortantes, perfurantes 
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -519,7 +519,7 @@ O incinerador desta unidade estava a funcionar hoje?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -567,7 +567,7 @@ Havia hoje combustível disponível para o incinerador?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ## 6.7 Normas de gestão de resíduos [NOVO]{.etiqueta .novo}
@@ -648,7 +648,7 @@ Nos últimos 2 anos, algum profissional que actualmente trabalha nesta unidade r
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ## 6.9 Tratamento de águas residuais [ALTERADO]{.etiqueta .alterado}
@@ -729,7 +729,7 @@ Se existe, esteve a funcionar nos últimos 30 dias? Se não, qual a causa?
 <!-- -->
 
 97. Não se aplica
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}

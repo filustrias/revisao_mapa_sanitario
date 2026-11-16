@@ -128,7 +128,7 @@ Em quantos dias por semana está a farmácia aberta?
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-Número de 0 a 7 · **98** Não sabe
+Número de 0 a 7 · **98** Ninguém na unidade sabe responder
 :::
 
 ## 14.3 · Quem dispensa os medicamentos [NOVO]{.etiqueta .novo}
@@ -1987,7 +1987,7 @@ Qual é agora a temperatura na sala?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ## 14.32.13 · Frigorífico de medicamentos [NOVO]{.etiqueta .novo}
@@ -2061,7 +2061,7 @@ Verificar o termómetro do frigorífico e registar a temperatura no momento do i
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ## 14.32.15 · Limpeza do frigorífico de medicamentos [NOVO]{.etiqueta .novo}
@@ -2370,7 +2370,7 @@ Qual é agora a temperatura na sala?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ## 14.33.11 · Frigorífico de medicamentos [NOVO]{.etiqueta .novo}
@@ -2444,7 +2444,7 @@ Verificar o termómetro do frigorífico e registar a temperatura no momento do i
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ## 14.33.13 · Limpeza do frigorífico de medicamentos [NOVO]{.etiqueta .novo}

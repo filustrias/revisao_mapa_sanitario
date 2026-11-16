@@ -301,7 +301,7 @@ O veículo de emergência e um motorista estão disponíveis 24 horas?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ## 8.4.2 · Transporte de emergência disponível hoje [ALTERADO]{.etiqueta .alterado}
@@ -348,7 +348,7 @@ Esse veículo está disponível hoje, em condições de funcionamento, com combu
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}

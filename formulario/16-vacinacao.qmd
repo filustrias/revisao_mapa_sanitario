@@ -117,7 +117,7 @@ Com que periodicidade é realizada a vacinação de rotina das crianças nesta u
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -189,7 +189,7 @@ Considere os últimos 3 meses, e não uma falha pontual de stock.
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Vacina | 1 · Sim, habitualmente administrada | 2 · Não | 98 · Não sabe |
+| Código | Vacina | 1 · Sim, habitualmente administrada | 2 · Não | 98 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|:-:|
 | 16.1.2.1 | Hepatite B — dose ao nascer [HHFA 3.2.1.1.9 · 3.2.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 | 16.1.2.2 | BCG — dose ao nascer [HHFA 3.2.1.1.10 · 3.2.1.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
@@ -266,7 +266,7 @@ Nos últimos 3 meses, houve algum período em que esta vacina não estivesse dis
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Vacina | 1 · Sim | 2 · Não | 98 · Não sabe |
+| Vacina | 1 · Sim | 2 · Não | 98 · Ninguém na unidade sabe responder |
 |---|:-:|:-:|:-:|
 | BCG [HHFA 3.2.1.4.1]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 | VOP [HHFA 3.2.1.4.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
@@ -371,13 +371,13 @@ Sim, observado:
 
 1. A funcionar
 2. Não está a funcionar
-3. Não sabe
+3. Ninguém na unidade sabe responder
 
 Sim, referido:
 
 4. A funcionar
 5. Não está a funcionar
-6. Não sabe
+6. Ninguém na unidade sabe responder
 
 <!-- -->
 
@@ -423,7 +423,7 @@ Para cada item que eu perguntar, por favor mostre-me o item e diga-me se está a
 [Grelha de resposta]{.rotulo}
 
 - **A · Disponível:** 1 Sim · 2 Não
-- **B · A funcionar:** 1 Sim · 2 Não · 98 Não sabe
+- **B · A funcionar:** 1 Sim · 2 Não · 98 Ninguém na unidade sabe responder
 
 | Código | Item | A · Disponível | B · A funcionar |
 |---|---|:-:|:-:|
@@ -573,7 +573,7 @@ Qual é agora a temperatura no frigorífico?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -618,7 +618,7 @@ Quando uma criança tem uma dose de vacina em atraso, esta unidade sanitária id
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}

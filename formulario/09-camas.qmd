@@ -135,7 +135,7 @@ Quantas camas, instaladas e disponíveis para receber doentes no dia da visita, 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Serviço e tipo de cama | Número de camas (0–999) | 998 · Não sabe |
+| Código | Serviço e tipo de cama | Número de camas (0–999) | 998 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|
 | | **A · Enfermarias de internamento** | | |
 | 9.2.1 | Medicina — enfermaria masculina [HHFA 1.1.2.1.1 · 1.1.1.1.3]{.hhfa .cod-hhfa} | \_\_\_ | ☐ |
@@ -203,7 +203,7 @@ Quantas camas de internamento de adulto estão autorizadas ou aprovadas para est
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-Número inteiro (0–999) · **998** Não sabe
+Número inteiro (0–999) · **998** Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -286,7 +286,7 @@ Além das camas contadas acima, quantas camas de internamento estão guardadas e
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-Número inteiro (0–999) · **998** Não sabe
+Número inteiro (0–999) · **998** Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}

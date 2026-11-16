@@ -182,7 +182,7 @@ Existe nesta unidade sanitária um sistema formal de triagem dos doentes que che
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-1. Sim · 2 Não · 98 Não sabe
+1. Sim · 2 Não · 98 Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -226,7 +226,7 @@ O banco de urgência tem pessoal próprio, afecto permanentemente ao serviço, o
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -270,7 +270,7 @@ Durante as 24 horas do dia, está permanentemente presente na unidade — e não
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-Para cada caixa: 1 Sim, presente na unidade 24 horas por dia · 2 Presente apenas em parte do dia · 3 Apenas de chamada · 4 Não · 98 Não sabe
+Para cada caixa: 1 Sim, presente na unidade 24 horas por dia · 2 Presente apenas em parte do dia · 3 Apenas de chamada · 4 Não · 98 Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -316,7 +316,7 @@ Em caso de necessidade de transferir um doente de urgência, esta unidade sanit�
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -354,7 +354,7 @@ Quando um doente de urgência é transferido para outra unidade sanitária, é h
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-1. Sim, habitualmente · 2 Apenas em alguns casos · 3 Não · 98 Não sabe
+1. Sim, habitualmente · 2 Apenas em alguns casos · 3 Não · 98 Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -402,7 +402,7 @@ Durante quantas horas por dia estão habitualmente disponíveis para o atendimen
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-Para cada caixa: número de horas por dia, 00 a 24 · **97** o serviço não existe nesta unidade · **98** não sabe
+Para cada caixa: número de horas por dia, 00 a 24 · **97** o serviço não existe nesta unidade · **98** Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}

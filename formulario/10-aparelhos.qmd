@@ -57,7 +57,7 @@ Para cada um dos aparelhos seguintes, indique quantas unidades existem nesta uni
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Aparelho | Número (0–999) | 998 · Não sabe |
+| Código | Aparelho | Número (0–999) | 998 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|
 | 10.1.1 | Esterilizador (estufa ou autoclave) | \_\_\_ | ☐ |
 | 10.1.2 | Mini-arca do Programa Alargado de Vacinação | \_\_\_ | ☐ |
@@ -140,7 +140,7 @@ Vou perguntar por alguns aparelhos que devem existir na área principal de atend
 [Grelha de resposta]{.rotulo}
 
 - **A · Disponibilidade:** 1 Observado · 2 Referido, não visto · 3 Não tem
-- **B · Funcionamento:** 1 Sim, funciona · 2 Não funciona · 98 Não sabe
+- **B · Funcionamento:** 1 Sim, funciona · 2 Não funciona · 98 Ninguém na unidade sabe responder
 
 | Código | Aparelho | A · Disponibilidade | B · Funcionamento |
 |---|---|:-:|:-:|

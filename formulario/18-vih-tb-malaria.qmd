@@ -65,7 +65,7 @@ A mesma resposta entra no indicador de unidades com capacidade de diagnóstico d
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -115,7 +115,7 @@ A quem é habitualmente oferecida a testagem do VIH nesta unidade sanitária?
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Grupo de idade | 1 · Sim | 2 · Não | 98 · Não sabe |
+| Código | Grupo de idade | 1 · Sim | 2 · Não | 98 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|:-:|
 | 18.1.1.1 | Crianças menores de 5 anos [HHFA 3.2.4.1.4 · 3.2.7.1.2]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 | 18.1.1.2 | Crianças de 5 a 14 anos [HHFA 3.2.4.1.3 · 3.2.7.1.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
@@ -169,7 +169,7 @@ Esta unidade sanitária fornece profilaxia pré-exposição ao VIH (PrEP) a pess
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -213,7 +213,7 @@ A que grupos é habitualmente oferecida a profilaxia pré-exposição ao VIH (Pr
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Grupo | 1 · Sim | 2 · Não | 98 · Não sabe |
+| Código | Grupo | 1 · Sim | 2 · Não | 98 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|:-:|
 | 18.2.2 | Parceiro ou parceira de pessoa com VIH em casal serodiscordante | ☐ | ☐ | ☐ |
 | 18.2.3 | Grávidas e lactantes com risco elevado | ☐ | ☐ | ☐ |
@@ -266,7 +266,7 @@ Esta unidade sanitária fornece profilaxia pós-exposição ao VIH (PEP) ao pess
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -274,7 +274,7 @@ Esta unidade sanitária fornece profilaxia pós-exposição ao VIH (PEP) ao pess
 
 **A profilaxia pós-exposição ao VIH (PEP) ocupacional é a que protege o próprio pessoal de saúde** e pertence ao mesmo universo da segurança no trabalho que a comissão de 20.2.16.
 
-A escala pergunta pelo horário porque a janela é de 72 horas e, na prática, um acidente ocorre em turno: uma unidade que só fornece a profilaxia pós-exposição ao VIH (PEP) de manhã fornece-a a uma fracção dos casos. **Depende do bloco de medicamentos, que está parqueado** — sem antirretrovirais em stock a declaração não se verifica.
+A escala pergunta pelo horário porque a janela é de 72 horas e, na prática, um acidente ocorre em turno: uma unidade que só fornece a profilaxia pós-exposição ao VIH (PEP) de manhã fornece-a a uma fracção dos casos. **Lê-se com os antirretrovirais da secção 14** — sem antirretrovirais em stock a declaração não se verifica.
 :::
 
 ## 18.3.2 · Profilaxia pós-exposição ao VIH (PEP) após exposição sexual fora do contexto da violência [NOVO]{.etiqueta .novo}
@@ -319,7 +319,7 @@ E após exposição sexual de risco que não decorra de violência?
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -396,7 +396,7 @@ Esta unidade sanitária presta serviços de tratamento antirretroviral de longa 
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -452,7 +452,7 @@ A que grupos é habitualmente prestado o tratamento antirretroviral nesta unidad
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Grupo de idade | 1 · Sim, início e seguimento | 2 · Sim, apenas seguimento de doentes já em tratamento | 3 · Não | 98 · Não sabe |
+| Código | Grupo de idade | 1 · Sim, início e seguimento | 2 · Sim, apenas seguimento de doentes já em tratamento | 3 · Não | 98 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|:-:|:-:|
 | 18.4.1.1 | Crianças menores de 5 anos [HHFA 3.2.5.1.4 · 3.2.7.1.4 · 3.2.7.1.1 · 1.3.2.3.6]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ | ☐ |
 | 18.4.1.2 | Crianças de 5 a 14 anos [HHFA 3.2.5.1.3 · 3.2.7.1.5 · 3.2.7.1.1 · 1.3.2.3.6]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ | ☐ |
@@ -502,7 +502,7 @@ Para cada prestação seguinte, diga-me se é habitualmente feita nesta unidade 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Prestação | 1 · Sim | 2 · Não | 98 · Não sabe |
+| Código | Prestação | 1 · Sim | 2 · Não | 98 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|:-:|
 | 18.4.2.1 | Aconselhamento de adesão ao tratamento [HHFA 3.2.5.1.7]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 | 18.4.2.2 | Seguimento clínico do doente em tratamento [HHFA 3.2.5.1.6]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
@@ -553,7 +553,7 @@ Quando um doente em tratamento antirretroviral falta a uma consulta ou a um leva
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -610,7 +610,7 @@ Esta unidade sanitária presta serviços de prevenção da transmissão vertical
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -657,7 +657,7 @@ Esta unidade sanitária presta cuidados e apoio a pessoas que vivem com VIH, par
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -702,7 +702,7 @@ Esta unidade sanitária presta algum serviço relacionado com a tuberculose — 
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -760,7 +760,7 @@ Esta unidade sanitária realiza exames de diagnóstico da tuberculose, recolhe a
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -808,7 +808,7 @@ Para cada prestação seguinte, diga-me se é habitualmente feita nesta unidade 
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Prestação | 1 · Sim | 2 · Não | 98 · Não sabe |
+| Código | Prestação | 1 · Sim | 2 · Não | 98 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|:-:|
 | 18.7.2.1 | Seguimento clínico e prescrição dos medicamentos anti-TB [HHFA 3.2.3.1.4 · 1.3.2.3.9]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 | 18.7.2.2 | Redispensa dos medicamentos anti-TB nas consultas de seguimento [HHFA 3.2.3.1.5 · 1.3.2.3.9]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
@@ -859,7 +859,7 @@ A todos os doentes com tuberculose diagnosticada nesta unidade sanitária é ofe
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -903,7 +903,7 @@ Esta unidade sanitária presta algum serviço a doentes com tuberculose resisten
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -948,7 +948,7 @@ Existe nesta unidade sanitária um quarto ou enfermaria de isolamento dedicado, 
 <!-- -->
 
 97. A unidade não tem internamento
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}
@@ -992,7 +992,7 @@ Quando um doente em tratamento da tuberculose falta a uma consulta ou à toma do
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -1043,7 +1043,7 @@ Esta unidade sanitária presta algum serviço relacionado com a malária — dia
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
@@ -1099,7 +1099,7 @@ Como é habitualmente diagnosticada a malária nesta unidade sanitária? Indique
 ::: {.grelha .rotulado}
 [Grelha de resposta]{.rotulo}
 
-| Código | Via de diagnóstico | 1 · Sim, via utilizada | 2 · Não | 98 · Não sabe |
+| Código | Via de diagnóstico | 1 · Sim, via utilizada | 2 · Não | 98 · Ninguém na unidade sabe responder |
 |---|---|:-:|:-:|:-:|
 | 18.8.2.1 | Teste rápido de diagnóstico (TDR) [HHFA 3.2.2.1.3 · 3.2.2.1.2 · 3.2.2.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 | 18.8.2.2 | Microscopia — gota espessa ou esfregaço [HHFA 3.2.2.1.4 · 3.2.2.1.2 · 3.2.2.1.8]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
@@ -1154,7 +1154,7 @@ Esta unidade sanitária trata casos de malária, de acordo com o protocolo nacio
 
 <!-- -->
 
-98. Não sabe
+98. Ninguém na unidade sabe responder
 :::
 
 ::: {.instrucao .rotulado}
