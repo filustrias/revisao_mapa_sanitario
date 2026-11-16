@@ -3,6 +3,10 @@
    O tema (cosmo) é só claro: as cores abaixo não mudam com o modo escuro do sistema,
    senão as caixas escurecem e o texto do tema continua escuro. */
 
+/* Lista das secções (Novo formulário): código numa só linha, linhas compactas */
+.tabela-seccoes table td, .tabela-seccoes table th { padding: 0.4rem 0.75rem; line-height: 1.45; vertical-align: top; }
+.tabela-seccoes table td:first-child, .tabela-seccoes table th:first-child { white-space: nowrap; width: 1%; }
+
 /* Visor do PDF da ficha antiga (Antigo formulário) */
 .pdf-visor {
   margin: 1.5rem 0 0.9rem;

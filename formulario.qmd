@@ -4,10 +4,11 @@ title: "Novo formulário"
 
 {{< include _legenda.qmd >}}
 
-O formulário está dividido em 21 secções, pela ordem em que o inquiridor o percorre. Cada secção pode ser lida e discutida por si, numa sessão de revisão.
+O formulário está dividido em 22 secções, pela ordem em que o inquiridor o percorre. Cada secção pode ser lida e discutida por si, numa sessão de revisão.
 
 Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário curto já com o código do quesito preenchido. As [Orientações aos revisores](revisores.qmd) explicam como comentar.
 
+::: {.tabela-seccoes}
 | Secção | Conteúdo |
 |---|---|
 | [Secção 1](formulario/01-identificacao.qmd) | Identificação e finalização da recolha. Data, hora e forma da recolha, quem recolheu os dados e quem respondeu. |
@@ -31,3 +32,5 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 19](formulario/19-accao-comunitaria.qmd) | Acção comunitária. Redes mosquiteiras, brigadas móveis e articulação com os ADECOS. |
 | [Secção 20](formulario/20-gestao.qmd) | Gestão. Propriedade, órgãos de gestão, revisão de óbitos, controlo de infecções, qualidade e opinião dos utentes. |
 | [Secção 21](formulario/21-servicos-gerais.qmd) | Serviços gerais. Serviços de apoio, como cozinha, lavandaria, morgue, limpeza e segurança. |
+| [Secção 22](formulario/22-manutencao.qmd) | Manutenção da infraestrutura e do equipamento. Serviço de manutenção, manutenção dos sistemas de infraestrutura e do equipamento médico, de esterilização e de laboratório, e quem a faz. |
+:::

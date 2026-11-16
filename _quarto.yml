@@ -45,6 +45,7 @@ book:
     - formulario/19-accao-comunitaria.qmd
     - formulario/20-gestao.qmd
     - formulario/21-servicos-gerais.qmd
+    - formulario/22-manutencao.qmd
 
 format:
   html:

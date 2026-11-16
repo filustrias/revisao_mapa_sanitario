@@ -7,7 +7,7 @@ Esta é a ficha com que o Gabinete de Estudos, Planeamento e Estatística do Min
 
 Fica aqui na forma em que circula, para que se possa consultar ao lado do novo formulário. Nas secções do novo formulário, a etiqueta de cada quesito indica se ele se mantém, foi alterado ou é novo em relação a esta ficha.
 
-::: {.pdf-visor .column-page}
+::: {.pdf-visor}
 <iframe src="documentos/ficha-cadastramento-19_01.pdf#zoom=page-width" title="Ficha de Cadastramento de Unidades Sanitárias, versão 19_01"></iframe>
 :::
 

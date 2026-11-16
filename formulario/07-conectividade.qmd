@@ -832,7 +832,7 @@ De que formas esta unidade guarda as cópias dos relatórios enviados?
 :::
 
 ::: {.nota .interno}
-**Sai do parqueamento.** Com 7.3.10 e 7.3.11 entra a parte da «cadeia de arquivo e reporte» que estava parqueada na secção 20 (20.2.1 + 20.2.10). O comité de gestão (20.2.2 + 20.2.6) continua parqueado.
+**Sai do parqueamento.** Com 7.3.10 e 7.3.11 entra a parte da «cadeia de arquivo e reporte» que estava parqueada na secção 20 (20.2.1 + 20.2.10).
 :::
 
 ## 7.3.12 Verificação dos três últimos relatórios [NOVO]{.etiqueta .novo}

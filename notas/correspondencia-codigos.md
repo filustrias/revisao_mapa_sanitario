@@ -248,13 +248,21 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 20.2.18.7 | 7.4.18.7 | Ponto focal para a qualidade | 20 |
 | 20.2.18.8 | 7.4.18.8 | Formação em qualidade | 20 |
 | 20.2.18.9 | 7.4.18.9 | Apoio externo para a qualidade | 20 |
-| 20.2.2 + 20.2.6 | 7.4.2 + 7.4.6 | Comité de gestão | 20 |
 | 20.2.19 | 7.5.18 | Gabinete do utente | 20 |
 | 20.2.19.1 | 7.5.18.1 | Recolha da opinião dos utentes | 20 |
 | 20.2.19.2 | 7.5.18.2 | Análise da opinião dos utentes | 20 |
 | 21.1 a 21.14 | 7.5.2 a 7.5.6, 7.5.8 a 7.5.15 e 7.5.17 | Lista dos serviços gerais | 21 |
 | 21.4.1 | 7.5.5.2 | Gavetas mortuárias | 21 |
-| 21.6 | 7.5.8 | Bloco de manutenção | 21 |
+| 22.1 | 7.5.8 | Serviço de manutenção (antes 21.6) | 22 |
+| 22.2 | — | Manutenção dos sistemas de infraestrutura — porta | 22 |
+| 22.3 | — | Plano de manutenção da infraestrutura | 22 |
+| 22.4.1 a 22.4.9 | — | Manutenção de cada sistema de infraestrutura | 22 |
+| 22.5.1 a 22.5.4 | — | Quem faz a manutenção da infraestrutura | 22 |
+| 22.6 | — | Manutenção do equipamento médico — porta | 22 |
+| 22.7 | — | Plano de manutenção do equipamento | 22 |
+| 22.8.1 a 22.8.11 | — | Manutenção de cada equipamento | 22 |
+| 22.9.1 a 22.9.4 | — | Quem faz a manutenção do equipamento | 22 |
+| 22.10 | — | Pequeno equipamento médico | 22 |
 
 ## Reorganização da secção 20 (3 de Novembro de 2026)
 
@@ -309,3 +317,11 @@ Os cuidados à criança saíram da secção 16 e entraram na secção 17, antes 
 | 14.32 | 14.33 | Armazém a granel: porta |
 | 14.32.1 a 14.32.16, coluna A | 14.32.1 a 14.32.16 | Armazém principal |
 | 14.32.1 a 14.32.4 e 14.32.7 a 14.32.16, coluna B | 14.33.1 a 14.33.14 | Armazém a granel |
+
+## Manutenção passa a secção 22 (16 de Novembro de 2026)
+
+A linha 21.6 (manutenção) da lista dos serviços gerais passou a 22.1; o bloco de manutenção, antes parqueado, é a secção 22 (22.2 a 22.10). O comité de gestão (20.2.2 + 20.2.6), antes parqueado, saiu do formulário; as caixas 20.2.2 e 20.2.6 mantêm-se na lista dos serviços e órgãos de gestão. O orçamento próprio (20.1.3) deixou de estar parqueado.
+
+| Antes | Agora | Quesito |
+|---|---|---|
+| 21.6 | 22.1 | Serviço de manutenção |
