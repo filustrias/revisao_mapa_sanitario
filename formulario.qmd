@@ -35,3 +35,16 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 22](formulario/22-manutencao.qmd) | Manutenção da infraestrutura e do equipamento. Serviço de manutenção, manutenção dos sistemas de infraestrutura e do equipamento médico, de esterilização e de laboratório, e quem a faz. |
 | [Secção 23](formulario/23-prevencao-infeccoes.qmd) | Prevenção e controlo de infecções. Avaliação da prevenção e controlo de infecções e da higiene das mãos, normas, pessoal e formação, limpeza, equipamento de esterilização e artigos de protecção. |
 :::
+
+## Tempo de aplicação
+
+Estimativa do tempo de aplicação do formulário inteiro, em minutos. Cada secção mostra a sua no cabeçalho.
+
+::: {.tempo-aplicacao}
+| Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
+|---|:-:|:-:|
+| Com visita (presencial, com inquiridor) | 374 (cerca de 6,2 horas) | 169 (cerca de 2,8 horas) |
+| Autorreferida | 204 (cerca de 3,4 horas) | 112 (cerca de 1,9 horas) |
+:::
+
+**Como se calcula.** Contam-se os campos de cada secção e aplica-se um tempo por tipo de campo. Na recolha com visita: 15 segundos por pergunta de escolha, 8 por linha ou caixa de grelha, 20 por número ou texto, 45 por pergunta de verificação e 15 por caixa de verificação numa grelha, mais 30 segundos de abertura por secção. Na recolha autorreferida: 8, 5 e 15 segundos, sem verificação. «Portas abertas» é a unidade que responde «Sim» a todas as perguntas que abrem outras; «portas fechadas», a que responde «Não» a todas e salta tudo o que delas depende. Uma unidade real fica entre os dois valores. Não se conta o tempo de deslocação entre serviços nem o de procurar registos.

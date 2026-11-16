@@ -6,6 +6,15 @@ Número e área dos edifícios e das residências do pessoal, período de constr
 
 [19 campos.]{.campos}
 
+::: {.tempo-aplicacao}
+**Tempo estimado de aplicação, em minutos**
+
+| Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
+|---|:-:|:-:|
+| Com visita (presencial, com inquiridor) | 6 | 6 |
+| Autorreferida | 4 | 4 |
+:::
+
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
 

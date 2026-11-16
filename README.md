@@ -14,6 +14,7 @@ GEPE/MINSA · OMS Angola · projecto HIIP
 | `formulario-antigo.qmd` | «Antigo formulário»: a Ficha de Cadastramento 19_01 em PDF (`documentos/`) |
 | `formulario.qmd` | «Novo formulário»: página de entrada, com a lista das 23 secções |
 | `formulario/` | O formulário em 23 secções, por tema, quesito a quesito: enunciado, opções de resposta e comentário |
+| `ferramentas/tempo_aplicacao.py` | Calcula o tempo estimado de aplicação de cada secção e escreve-o no cabeçalho das secções e na página «Novo formulário»; correr de novo sempre que o formulário mudar |
 | `_legenda.qmd` | Legenda das caixas e etiquetas, incluída no topo de cada capítulo |
 | `comentar.html` | Botão «Comentar» ao lado de cada quesito, que abre o Google Forms com o quesito, o nome e o email preenchidos; o link do formulário configura-se em `FORMULARIO` |
 | `_quarto.yml` | Configuração do livro |

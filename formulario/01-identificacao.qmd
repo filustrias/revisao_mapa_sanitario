@@ -6,6 +6,15 @@ Quando, como e por quem foi feita a recolha e em que situação estava a unidade
 
 [48 campos, contra 27 na Ficha 19_01.]{.campos}
 
+::: {.tempo-aplicacao}
+**Tempo estimado de aplicação, em minutos**
+
+| Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
+|---|:-:|:-:|
+| Com visita (presencial, com inquiridor) | 16 | 16 |
+| Autorreferida | 11 | 11 |
+:::
+
 ## 1.1 Data desta recolha [ALTERADO]{.etiqueta .alterado}
 
 ::: {.hhfa .fonte-indicadores}

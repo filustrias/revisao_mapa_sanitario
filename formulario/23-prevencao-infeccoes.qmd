@@ -6,6 +6,15 @@ Avaliação da prevenção e controlo de infecções e da higiene das mãos, nor
 
 [42 campos, todos novos.]{.campos}
 
+::: {.tempo-aplicacao}
+**Tempo estimado de aplicação, em minutos**
+
+| Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
+|---|:-:|:-:|
+| Com visita (presencial, com inquiridor) | 10 | 6 |
+| Autorreferida | 7 | 3 |
+:::
+
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
 

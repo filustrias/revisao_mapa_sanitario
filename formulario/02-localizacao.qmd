@@ -6,6 +6,15 @@ Localização administrativa, designação e categoria da unidade sanitária, o 
 
 [17 campos.]{.campos}
 
+::: {.tempo-aplicacao}
+**Tempo estimado de aplicação, em minutos**
+
+| Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
+|---|:-:|:-:|
+| Com visita (presencial, com inquiridor) | 4 | 4 |
+| Autorreferida | 3 | 3 |
+:::
+
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
 

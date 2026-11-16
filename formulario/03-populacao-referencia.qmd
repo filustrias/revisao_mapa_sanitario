@@ -6,6 +6,15 @@ População da área de abrangência da unidade sanitária e unidades para onde 
 
 [19 campos.]{.campos}
 
+::: {.tempo-aplicacao}
+**Tempo estimado de aplicação, em minutos**
+
+| Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
+|---|:-:|:-:|
+| Com visita (presencial, com inquiridor) | 7 | 5 |
+| Autorreferida | 5 | 4 |
+:::
+
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
 
