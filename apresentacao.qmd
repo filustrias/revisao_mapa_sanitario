@@ -30,8 +30,8 @@ Vale ver isto com números concretos, porque é a diferença entre um formulári
 
 **Num centro de saúde típico**, sem laboratório completo, sem imagiologia, sem internamento, sem bloco operatório e sem banco de urgência com espaço próprio, fecham-se de uma vez:
 
-- a porta geral do laboratório (quesito 13.1) fecha os quatro blocos de exames — **69 caixas** — e a pergunta do destino da amostra, **mais 1**; sobram as 11 linhas dos testes rápidos, que são exactamente aquilo que um centro de saúde faz;
-- a porta da imagiologia (13.A.0) fecha a grelha dos exames de imagem — **8 caixas**;
+- a porta geral do laboratório (quesito 13.2) fecha os quatro blocos de exames — **69 caixas**; sobram as 11 linhas dos testes rápidos, que são exactamente aquilo que um centro de saúde faz;
+- a porta da imagiologia (13.7) fecha a grelha dos exames de imagem — **8 caixas**;
 - a porta dos partos (17.2) fecha as duas caixas de CONU, a grelha das nove funções-sinal e a cobertura permanente — **12 caixas**;
 - a porta da cirurgia (11.29) fecha os procedimentos de pequena e de grande cirurgia, as salas de operações e as especialidades cirúrgicas — **41 caixas**;
 - a porta do internamento (9.1) fecha os grupos de internamento da grelha de camas — **20 linhas** — e, na secção de gestão, o bloco de revisão de óbitos;
@@ -47,7 +47,7 @@ A leitura prática, para a revisão: **não avalie o volume total, avalie o volu
 
 Cada quesito é apresentado sempre com a mesma estrutura.
 
-**O código** identifica o quesito. Os quesitos estão numerados de forma sequencial dentro de cada secção, e um quesito que depende de outro recebe um código que o prende a esse quesito: 16.1.2 é a grelha dos antigénios que depende da porta da vacinação, 16.1; 13.C.I é o primeiro bloco de exames que depende da porta do laboratório. Os códigos são a referência estável para comentar: um comentário que diga «17.1.1.14» é inequívoco, um que diga «aquela pergunta da mutilação genital» obriga a procurar.
+**O código** identifica o quesito. Os quesitos estão numerados de forma sequencial dentro de cada secção, e um quesito que depende de outro recebe um código que o prende a esse quesito: 16.1.2 é a grelha dos antigénios que depende da porta da vacinação, 16.1; 13.3 é o primeiro bloco de exames que depende da porta do laboratório. Os códigos são a referência estável para comentar: um comentário que diga «17.1.1.14» é inequívoco, um que diga «aquela pergunta da mutilação genital» obriga a procurar.
 
 **A etiqueta** diz, de relance, o estado do quesito:
 

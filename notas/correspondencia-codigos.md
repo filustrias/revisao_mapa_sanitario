@@ -157,14 +157,14 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 11.29.1.12 | 7.1.29.3 | Circuncisão masculina médica voluntária (linha da grelha da pequena cirurgia) | 11 |
 | 11.29.2.2 a 11.29.2.4 | 7.1.29.4 | Procedimentos de referência nos últimos 12 meses | 11 |
 | 11.30 a 11.34 | 7.1.30 a 7.1.34 | Cirurgia de especialidade | 11 |
-| 13.C.0 | 7.2.C.0 | Testes rápidos de diagnóstico | 13 |
-| 13.1 | 7.2.1 | Porta geral do laboratório | 13 |
-| 13.C.I a 13.C.IV | 7.2.C.I a 7.2.C.IV | Os quatro blocos de exames | 13 |
-| 13.A.0 | 7.2.A.0 | Imagiologia — porta | 13 |
-| 13.A | 7.2.A | Imagiologia — exames de imagem | 13 |
-| 13.B | 7.2.B | Procedimentos e tecnologias | 13 |
-| 13.D | 7.2.D | Outros serviços de apoio | 13 |
-| 13.D.5 | 7.2.D.5 | Número de blocos operatórios | 13 |
+| 13.1 | 7.2.C.0 | Testes rápidos de diagnóstico | 13 |
+| 13.2 | 7.2.1 | Porta geral do laboratório | 13 |
+| 13.3 a 13.6 | 7.2.C.I a 7.2.C.IV | Os quatro blocos de exames | 13 |
+| 13.7 | 7.2.A.0 | Imagiologia — porta | 13 |
+| 13.7 | 7.2.A | Imagiologia — exames de imagem | 13 |
+| 13.8 | 7.2.B | Procedimentos e tecnologias | 13 |
+| 13.9 | 7.2.D | Outros serviços de apoio | 13 |
+| 13.9.5 | 7.2.D.5 | Número de blocos operatórios | 13 |
 | 15.1 | 7.2.E.1 | Serviços de urgência — porta | 13 |
 | 15.2.1 | 7.2.E.2.1 | Banco de urgência com espaço próprio | 13 |
 | 15.2.2 | 7.2.E.2.2 | Horas de funcionamento do banco de urgência | 13 |
@@ -347,3 +347,20 @@ Nova secção 23 (23.1 a 23.18.17), tradução das perguntas 733 a 751, 1225 e d
 ## Armazenamento simplificado e outros cortes (16 de Novembro de 2026)
 
 O armazenamento dos medicamentos deixa de seguir as condições do HHFA: 14.32.1 a 14.32.18 (armazém principal) e 14.33 a 14.33.14 (armazém a granel) dão lugar a 14.32.1 a 14.32.3 (armazém principal, armazém a granel e sala de dispensação) e 14.33 (fraccionamento dos medicamentos). Saem 14.5.27 (pomada de Whitfield), 23.3 e 23.4 (ano e resultado da avaliação da prevenção e controlo de infecções) e 23.7 e 23.8 (o mesmo para a higiene das mãos); os códigos seguintes não mudam. O soro fisiológico, a dextrose e o lactato de Ringer (14.15.1 a 14.15.4) passam a quatro linhas cada, uma por volume (100, 250, 500 e 1000 mL): 14.15.1.1 a 14.15.4.4.
+
+## Secção 13 com numeração só de números (16 de Novembro de 2026)
+
+Os códigos com letras herdados da Ficha passam a números sequenciais, pela ordem da página. As linhas de cada grelha mantêm o número de ordem.
+
+| Antes | Agora | Quesito |
+|---|---|---|
+| 13.C.0 (linhas 13.C.0.1 a 13.C.0.11) | 13.1 (13.1.1 a 13.1.11) | Testes rápidos de diagnóstico |
+| 13.1 | 13.2 | Porta geral do laboratório |
+| 13.C.I (13.C.I.0 a 13.C.I.9) | 13.3 (13.3.0 a 13.3.9) | Hematologia e imuno-hematologia |
+| 13.C.II (13.C.II.0 a 13.C.II.23) | 13.4 (13.4.0 a 13.4.23) | Bioquímica |
+| 13.C.III (13.C.III.0 a 13.C.III.19) | 13.5 (13.5.0 a 13.5.19) | Grupo sanguíneo e serologias |
+| 13.C.IV (13.C.IV.1 a 13.C.IV.15) | 13.6 (13.6.1 a 13.6.15) | Microbiologia, parasitologia e outros |
+| 13.A.0 | 13.7 | Imagiologia — porta |
+| 13.A.1 a 13.A.11 | 13.7.1 a 13.7.11 | Imagiologia — exames de imagem |
+| 13.B.1 a 13.B.11 | 13.8.1 a 13.8.11 | Procedimentos e tecnologias |
+| 13.D.1 a 13.D.6 | 13.9.1 a 13.9.6 | Outros serviços de apoio |

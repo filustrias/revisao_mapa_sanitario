@@ -96,7 +96,7 @@ O Guião define ainda os critérios de «completa» — cartão de grávida, ana
   - **Numerador:** unidades com coluna 1 na linha 17.1.1.10.
   - **Denominador:** todas as unidades sanitárias inquiridas (as unidades sem consulta pré-natal contam como não oferecendo).
 
-**Função no formulário.** Serve de verificação de 17.1: as prestações declaradas permitem confirmar a classificação «completa». As linhas 17.1.1.7 (proteínas na urina), 17.1.1.10 (VIH) e 17.1.1.11 (sífilis) lêem-se com os testes rápidos de 13.C.0.9, 13.C.0.1 e 13.C.0.3, e a linha 17.1.1.10 lê-se também com a prevenção da transmissão vertical (18.5).
+**Função no formulário.** Serve de verificação de 17.1: as prestações declaradas permitem confirmar a classificação «completa». As linhas 17.1.1.7 (proteínas na urina), 17.1.1.10 (VIH) e 17.1.1.11 (sífilis) lêem-se com os testes rápidos de 13.1.9, 13.1.1 e 13.1.3, e a linha 17.1.1.10 lê-se também com a prevenção da transmissão vertical (18.5).
 
 </details>
 
@@ -152,7 +152,7 @@ Para cada prestação seguinte, diga-me se faz habitualmente parte da consulta p
 ::: {.nota .interno}
 Catorze linhas, um indicador por linha; com a porta 17.1 e a articulação com os ADECOS em 19.4.1, a consulta pré-natal fica medida por inteiro. **Quatro destas linhas são o mínimo que o próprio Guião exige para classificar a consulta como completa**, pelo que a grelha permite calcular a resposta de 17.1 em vez de a pedir como juízo.
 
-**Articula-se com o laboratório:** a pesquisa de proteínas na urina é a fita reagente de 13.C.0.9, a testagem da sífilis é o teste rápido de 13.C.0.3 e a testagem do VIH é a de 13.C.0.1 — três pontos onde a coerência interna do formulário passa a ser verificável.
+**Articula-se com o laboratório:** a pesquisa de proteínas na urina é a fita reagente de 13.1.9, a testagem da sífilis é o teste rápido de 13.1.3 e a testagem do VIH é a de 13.1.1 — três pontos onde a coerência interna do formulário passa a ser verificável.
 
 **A linha 14, sobre mutilação genital feminina, pode ser retirada** se não for pertinente para Angola: perde-se apenas um indicador e nada mais na tabela.
 :::
@@ -368,7 +368,7 @@ E para Cuidados Obstétricos e Neonatais de Urgência Completos (CONU-C)?
   - **Numerador:** unidades com coluna 1 em todas as linhas 17.2.3.1 a 17.2.3.9.
   - **Denominador:** unidades com resposta 1 em 17.2.
 - Percentagem de unidades sanitárias que fazem cesariana, e que fazem transfusão de sangue.
-  - **Numerador:** cesariana — coluna 1 na linha 17.2.3.8 ou cesariana assinalada na grande cirurgia (11.29.2.2); transfusão — coluna 1 na linha 17.2.3.9 ou transfusão assinalada em 13.B.9.
+  - **Numerador:** cesariana — coluna 1 na linha 17.2.3.8 ou cesariana assinalada na grande cirurgia (11.29.2.2); transfusão — coluna 1 na linha 17.2.3.9 ou transfusão assinalada em 13.8.9.
   - **Denominador:** todas as unidades sanitárias inquiridas.
 
 A resposta 98 fica no denominador e fora do numerador; nos indicadores de conjunto, basta uma linha sem coluna 1 para a unidade não contar.
@@ -580,7 +580,7 @@ Nesta unidade sanitária é realizado algum rastreio ao recém-nascido?
 - **Denominador (de todos):** unidades com resposta 1 em 17.3.1.0. A resposta 98 fica no denominador e fora do numerador.
 - **Desagregação:** província e município, para ver onde a amostra sai e o resultado volta.
 
-A linha 17.3.1.2 (rastreio sistemático das hemoglobinopatias) lê-se com a disponibilidade do exame em 13.C.I.
+A linha 17.3.1.2 (rastreio sistemático das hemoglobinopatias) lê-se com a disponibilidade do exame em 13.3.
 
 </details>
 
@@ -616,7 +616,7 @@ Para cada rastreio seguinte, diga-me qual destas três situações descreve o qu
 ::: {.nota .interno}
 A escala de três níveis é a mesma dos blocos de laboratório, pela mesma razão: num rastreio em papel de filtro o que importa é saber se a amostra sai e o resultado volta.
 
-**Duas remissões, para não duplicar:** o diagnóstico precoce do VIH no recém-nascido exposto está em 18.5; a electroforese de hemoglobina e a pesquisa de hemoglobina S estão em 13.C.I, pelo que a linha 2 pergunta pelo **rastreio sistemático**, que é coisa distinta de ter o exame disponível.
+**Duas remissões, para não duplicar:** o diagnóstico precoce do VIH no recém-nascido exposto está em 18.5; a electroforese de hemoglobina e a pesquisa de hemoglobina S estão em 13.3, pelo que a linha 2 pergunta pelo **rastreio sistemático**, que é coisa distinta de ter o exame disponível.
 
 **Nota para a revisão:** se for preciso cortar, as linhas 3 a 6 são as de menor exequibilidade na rede de cuidados primários e as candidatas naturais; as linhas 1, 2, 7 e 8 fazem-se com uma punção e um papel de filtro.
 :::
