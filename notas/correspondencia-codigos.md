@@ -267,8 +267,6 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 23.2.1 e 23.2.2 | — | Quadro usado na avaliação | 23 |
 | 23.5 | — | Avaliação da higiene das mãos — porta | 23 |
 | 23.6.1 e 23.6.2 | — | Quadro usado na avaliação da higiene das mãos | 23 |
-| 23.7 | — | Ano da avaliação mais recente da higiene das mãos | 23 |
-| 23.8 | — | Resultado da avaliação mais recente da higiene das mãos | 23 |
 | 23.9 | — | Normas de prevenção e controlo de infecções | 23 |
 | 23.10 | — | Normas de isolamento | 23 |
 | 23.11 | — | Pessoal designado para a monitorização — porta | 23 |
@@ -348,4 +346,4 @@ Nova secção 23 (23.1 a 23.18.17), tradução das perguntas 733 a 751, 1225 e d
 
 ## Armazenamento simplificado e outros cortes (16 de Novembro de 2026)
 
-O armazenamento dos medicamentos deixa de seguir as condições do HHFA: 14.32.1 a 14.32.18 (armazém principal) e 14.33 a 14.33.14 (armazém a granel) dão lugar a 14.32.1 a 14.32.3 (armazém principal, armazém a granel e sala de dispensação) e 14.33 (fraccionamento dos medicamentos). Saem 14.5.27 (pomada de Whitfield) e 23.3 e 23.4 (ano e resultado da avaliação da prevenção e controlo de infecções); os códigos seguintes não mudam.
+O armazenamento dos medicamentos deixa de seguir as condições do HHFA: 14.32.1 a 14.32.18 (armazém principal) e 14.33 a 14.33.14 (armazém a granel) dão lugar a 14.32.1 a 14.32.3 (armazém principal, armazém a granel e sala de dispensação) e 14.33 (fraccionamento dos medicamentos). Saem 14.5.27 (pomada de Whitfield), 23.3 e 23.4 (ano e resultado da avaliação da prevenção e controlo de infecções) e 23.7 e 23.8 (o mesmo para a higiene das mãos); os códigos seguintes não mudam. O soro fisiológico (14.15.1) passa a quatro linhas, uma por volume: 14.15.1.1 a 14.15.1.4.

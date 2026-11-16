@@ -2,7 +2,7 @@
 title: "Secção 14 — Farmácia e medicamentos"
 ---
 
-Serviço de farmácia, quem dispensa os medicamentos, a lista de produtos farmacêuticos do instrumento internacional — 229 produtos, em dez grupos de medicamentos gerais e seis blocos condicionais — os locais de armazenamento e de dispensa e o fraccionamento dos medicamentos.
+Serviço de farmácia, quem dispensa os medicamentos, a lista de produtos farmacêuticos do instrumento internacional — 232 produtos, em dez grupos de medicamentos gerais e seis blocos condicionais — os locais de armazenamento e de dispensa e o fraccionamento dos medicamentos.
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
@@ -23,7 +23,7 @@ Serviço de farmácia, quem dispensa os medicamentos, a lista de produtos farmac
 | 14.12.1 a 14.12.9 | Medicamentos gerais — Materno-neonatal (9 produtos) [(3 indicadores do HHFA da lista traçadora)]{.hhfa} |
 | 14.13 | Ocitocina guardada em frio [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 14.14.1 a 14.14.11 | Medicamentos gerais — Medicamentos para anestesia (11 produtos) [(sem indicador da lista traçadora)]{.hhfa} |
-| 14.15.1 a 14.15.5 | Medicamentos gerais — Fluidos intravenosos (5 produtos) [(sem indicador da lista traçadora)]{.hhfa} |
+| 14.15.1 a 14.15.5 | Medicamentos gerais — Fluidos intravenosos (8 produtos; o soro fisiológico em quatro volumes) [(sem indicador da lista traçadora)]{.hhfa} |
 | 14.16 | Antimaláricos: porta do bloco [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 14.17.1 a 14.17.4 | Antimaláricos — primeira linha (4 produtos) [(1 indicadores do HHFA da lista traçadora)]{.hhfa} |
 | 14.18.1 a 14.18.14 | Antimaláricos — outros (14 produtos) [(1 indicadores do HHFA da lista traçadora)]{.hhfa} |
@@ -306,7 +306,7 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 | 14.5.3 | Amoxicilina, comprimido (250 mg) [HHFA 2.4.1.1.15]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.5.4 | Amoxicilina, suspensão ou comprimido dispersível (250 ou 500 mg) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.5.5 | Ampicilina, pó para injectável | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
-| 14.5.6 | Anfotericina, injectável [MEDICAMENTO IV PARA INFECÇÃO FÚNGICA] | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.5.6 | Anfotericina, injectável | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.5.7 | Azitromicina, comprimido ou suspensão | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.5.8 | Benzilpenicilina benzatínica, pó para injectável (acção prolongada) [HHFA 2.4.1.1.16]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.5.9 | Cefixima (cápsula/comprimido) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
@@ -316,8 +316,8 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 | 14.5.13 | Cotrimoxazol, xarope ou comprimidos dispersíveis | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.5.14 | Dietilcarbamazina (DEC) (oral) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.5.15 | Doxiciclina, comprimidos | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
-| 14.5.16 | Fluconazol (cápsula/comprimido) [TRATAMENTO DE CONTINUAÇÃO DA INFECÇÃO FÚNGICA] [HHFA 2.4.1.1.33]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
-| 14.5.17 | Flucitosina, injectável [MEDICAMENTO IV PARA INFECÇÃO FÚNGICA] | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.5.16 | Fluconazol (cápsula/comprimido) [HHFA 2.4.1.1.33]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.5.17 | Flucitosina, injectável | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.5.18 | Gentamicina, injectável [HHFA 2.4.1.1.17]{.hhfa .cod-hhfa} | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.5.19 | Ivermectina (oral) (oncocercose) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.5.20 | Metronidazol (cápsula/comprimido) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
@@ -1024,7 +1024,7 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 
 **Códigos do questionário HHFA** (`Q12511`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
 
-- 14.15.1 (01) — BAC, BAT, BDV, BQF, CHA, CQN, MEC, MEL, MEM, LOY, LOZ, OAO, OAY, OAZ, MZP, MZY, MZZ, KWP, KWY, KWZ, MDB, MDL, MDM
+- 14.15.1.1 a 14.15.1.4 (01) — BAC, BAT, BDV, BQF, CHA, CQN, MEC, MEL, MEM, LOY, LOZ, OAO, OAY, OAZ, MZP, MZY, MZZ, KWP, KWY, KWZ, MDB, MDL, MDM
 - 14.15.2 (02) — BAC, BDV, BQF, MEC, MEL, MEM, OAO, OAY, OAZ, MZP, MZY, MZZ
 - 14.15.3 (03) — BAC, BDV, BQF, CHA, CQN, MEC, MEL, MEM, OAO, OAY, OAZ, MZP, MZY, MZZ, KWP, KWY, KWZ, MDB, MDL, MDM
 - 14.15.4 (04) — BAC, BDV, BQF, MEC, MEL, MEM, OAO, OAY, OAZ, MZP, MZY, MZZ
@@ -1048,7 +1048,10 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 
 | Código | Produto | A · Disponível? | B · Verificação (só na recolha com visita) |
 |---|---|:-:|:-:|
-| 14.15.1 | Cloreto de sódio a 0,9% (soro fisiológico) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.1.1 | Cloreto de sódio a 0,9% (soro fisiológico), 100 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.1.2 | Cloreto de sódio a 0,9% (soro fisiológico), 250 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.1.3 | Cloreto de sódio a 0,9% (soro fisiológico), 500 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.1.4 | Cloreto de sódio a 0,9% (soro fisiológico), 1000 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.15.2 | Dextrose a 5% em soro fisiológico (D5NS) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.15.3 | Lactato de sódio (lactato de Ringer) (RL) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.15.4 | Dextrose a 5% em água (D5W) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
@@ -1349,7 +1352,7 @@ Algum dos medicamentos para a tuberculose seguintes está disponível hoje no es
 | 14.20.12 | Formulação pediátrica de pirazinamida (pode ser em associação) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
 | 14.20.13 | Formulação pediátrica de etambutol (pode ser em associação) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
 | 14.20.14 | Estreptomicina, injectável | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
-| 14.20.15 | Esquema nacional de primeira linha para a TB multirresistente [ADAPTAR AO PAÍS] | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
+| 14.20.15 | Esquema nacional de primeira linha para a TB multirresistente | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 | ☐1 ☐2 | ☐1 ☐2 ☐3 |
 :::
 
 ## 14.21 · Antirretrovirais — porta [NOVO]{.etiqueta .novo}
@@ -1651,7 +1654,7 @@ Algum dos inibidores da protease seguintes está disponível hoje neste estabele
 | 14.26.9 | Raltegravir (cápsula/comprimido) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.26.10 | Dolutegravir (cápsula/comprimido) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.26.11 | Etravirina (cápsula/comprimido) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
-| 14.26.12 | Inibidor não nucleosídeo da transcriptase reversa (INNTR) de terceira linha (cápsula/comprimido) [ADAPTAR AO PAÍS] | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.26.12 | Inibidor não nucleosídeo da transcriptase reversa (INNTR) de terceira linha (cápsula/comprimido) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 :::
 
 ## 14.27 · Planeamento familiar — porta [NOVO]{.etiqueta .novo}
