@@ -106,7 +106,7 @@ Qual é a superfície total coberta desses edifícios, em metros quadrados?
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- 4 dígitos, **9998** se não souber
+- 4 dígitos, **9998** Ninguém na unidade sabe responder
 :::
 
 ## 5.3 Residências dos trabalhadores [ALTERADO]{.etiqueta .alterado}
@@ -182,7 +182,7 @@ Qual é a superfície total coberta dessas residências, em metros quadrados?
 ::: {.respostas .rotulado}
 [Opções de resposta]{.rotulo}
 
-- 4 dígitos, **9998** se não souber
+- 4 dígitos, **9998** Ninguém na unidade sabe responder
 :::
 
 ::: {.nota .interno}

@@ -452,7 +452,7 @@ O que este quesito permite medir
 <div class="respostas rotulado">
 <p><span class="rotulo">Opções de resposta</span></p>
 <ul>
-<li>4 dígitos, <strong>9998</strong> se não souber</li>
+<li>4 dígitos, <strong>9998</strong> Ninguém na unidade sabe responder</li>
 </ul>
 </div>
 </section>
@@ -523,7 +523,7 @@ O que este quesito permite medir
 <div class="respostas rotulado">
 <p><span class="rotulo">Opções de resposta</span></p>
 <ul>
-<li>4 dígitos, <strong>9998</strong> se não souber</li>
+<li>4 dígitos, <strong>9998</strong> Ninguém na unidade sabe responder</li>
 </ul>
 </div>
 <div class="nota interno">
@@ -1289,6 +1289,58 @@ O que este quesito permite medir
   if (!m) return;
 
   document.body.classList.add("pagina-seccao");
+
+  // Paleta nova em teste: na secção 5, ou em qualquer secção com ?paleta=1 no endereço
+
+  const PALETA = ["5"];
+
+  if (PALETA.indexOf(m[1]) >= 0 || new URLSearchParams(location.search).get("paleta") === "1") {
+
+    document.body.classList.add("paleta-nova");
+
+    // Colunas de verificação nas grelhas: a classe vai do cabeçalho para as células da coluna
+
+    document.querySelectorAll("main .grelha table").forEach(function (tab) {
+
+      const cab = Array.from(tab.querySelectorAll("thead th"));
+
+      cab.forEach(function (th, i) {
+
+        if (!/erificação/.test(th.textContent)) return;
+
+        th.classList.add("col-verificacao");
+
+        tab.querySelectorAll("tbody tr").forEach(function (tr) {
+
+          if (tr.children[i]) tr.children[i].classList.add("col-verificacao");
+
+        });
+
+      });
+
+    });
+
+    // Sub-quesitos de verificação, para levarem a cor da verificação
+
+    document.querySelectorAll("main section.level3").forEach(function (s) {
+
+      const h = s.querySelector("h3");
+
+      if (h && /só na recolha com visita/.test(h.textContent)) s.classList.add("sub-verificacao");
+
+    });
+
+    // Opções curtas em duas colunas
+
+    document.querySelectorAll("main .respostas ol").forEach(function (ol) {
+
+      const itens = Array.from(ol.children);
+
+      if (itens.length >= 4 && itens.every(function (li) { return li.textContent.trim().length <= 32; })) ol.classList.add("duas-colunas");
+
+    });
+
+  }
 
 
 

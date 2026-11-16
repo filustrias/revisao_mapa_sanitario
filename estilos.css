@@ -751,3 +751,83 @@ img.capa-foto { width: 100%; border-radius: 6px; margin: 0.4rem 0 1.2rem; }
 @media print {
   .pagina-seccao main section.level2 { box-shadow: none; break-inside: avoid-page; }
 }
+
+/* ------------------------------------------------------------------ *
+ *  Paleta nova (em teste na secção 5; noutras secções com ?paleta=1)  *
+ *  Quatro funções, uma cor cada: pergunta (escuro), verificação       *
+ *  (verde-azulado), medir (azul) e pendências (amarelo).              *
+ * ------------------------------------------------------------------ */
+:root {
+  --ms-pergunta: #1f3b57;
+  --ms-fundo-pergunta: #eef3f8;
+  --ms-verif: #0f766e;
+  --ms-fundo-verif: #e9f6f4;
+  --ms-zebra: #f6f8fa;
+}
+
+/* Pergunta: o elemento mais forte do cartão */
+.paleta-nova .enunciado {
+  background: var(--ms-fundo-pergunta);
+  border-left: 5px solid var(--ms-pergunta);
+  border-radius: 0 6px 6px 0;
+  font-size: 1.08rem;
+  color: #14202b;
+}
+.paleta-nova .enunciado.rotulado .rotulo { color: var(--ms-pergunta); }
+
+/* Opções de resposta: neutras e compactas; as curtas em duas colunas */
+.paleta-nova .respostas.rotulado,
+.paleta-nova .grelha.rotulado { border-color: #e3e8ee; background: #fff; }
+.paleta-nova .respostas li { margin-bottom: 0.05rem; }
+.paleta-nova .respostas ol.duas-colunas { columns: 2; column-gap: 2.5rem; }
+.paleta-nova .respostas ol.duas-colunas li { break-inside: avoid; }
+
+/* Instrução ao inquiridor: sem caixa, uma linha discreta com ícone */
+.paleta-nova .instrucao.rotulado {
+  position: relative;
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 0.15rem 0 0.15rem 1.7rem;
+  margin: 0.4rem 0 0.9rem;
+}
+.paleta-nova .instrucao.rotulado::before {
+  content: "i";
+  position: absolute;
+  left: 0.15rem;
+  top: 0.12rem;
+  width: 1.15rem;
+  height: 1.15rem;
+  border-radius: 50%;
+  background: #e6eaee;
+  color: #4f5f6f;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.78rem;
+  line-height: 1.15rem;
+  text-align: center;
+}
+
+/* Verificação «só na recolha com visita»: cor própria */
+.paleta-nova main section.level2 section.level3.sub-verificacao {
+  border-left-color: var(--ms-verif);
+  background: var(--ms-fundo-verif);
+  border-radius: 0 8px 8px 0;
+  padding: 0.5rem 0.9rem 0.3rem;
+}
+.paleta-nova section.sub-verificacao > h3 > .codigo-quesito { color: var(--ms-verif); border-color: var(--ms-verif); }
+.paleta-nova section.sub-verificacao .enunciado { background: #fff; border-left-color: var(--ms-verif); }
+.paleta-nova section.sub-verificacao .enunciado.rotulado .rotulo { color: var(--ms-verif); }
+
+/* Grelhas: linhas alternadas, cabeçalho fixo ao rolar, código sem quebra, coluna de verificação a verde-azulado */
+.paleta-nova .grelha table tbody tr:nth-child(even) td { background: var(--ms-zebra); }
+.paleta-nova .grelha table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #e9eef3;
+  box-shadow: inset 0 -1px 0 #d3dbe3;
+}
+.paleta-nova .grelha table td:first-child { white-space: nowrap; font-weight: 600; color: #34495e; }
+.paleta-nova .grelha th.col-verificacao { background: #d5efea; color: var(--ms-verif); }
+.paleta-nova .grelha td.col-verificacao { background: var(--ms-fundo-verif) !important; }

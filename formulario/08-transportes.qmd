@@ -65,7 +65,7 @@ Vou perguntar pelos meios de transporte afectos a esta unidade sanitária. Para 
 :::
 
 ::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Contar apenas os veículos que pertencem à unidade ou que lhe estão permanentemente afectos. A ambulância define-se pela preparação para o transporte de doentes, e não pelo tipo de viatura. Um veículo imobilizado por falta de documentação não é avaria: não entra em nenhuma coluna e regista-se em 8.2. Em cada caixa, um número de 0 a 97; 98 se não souber.
+[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Contar apenas os veículos que pertencem à unidade ou que lhe estão permanentemente afectos. A ambulância define-se pela preparação para o transporte de doentes, e não pelo tipo de viatura. Um veículo imobilizado por falta de documentação não é avaria: não entra em nenhuma coluna e regista-se em 8.2. Em cada caixa, um número de 0 a 97; 98 se ninguém na unidade souber responder.
 :::
 
 ::: {.grelha .rotulado}

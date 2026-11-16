@@ -1390,6 +1390,58 @@ O que este quesito permite medir
 
   document.body.classList.add("pagina-seccao");
 
+  // Paleta nova em teste: na secção 5, ou em qualquer secção com ?paleta=1 no endereço
+
+  const PALETA = ["5"];
+
+  if (PALETA.indexOf(m[1]) >= 0 || new URLSearchParams(location.search).get("paleta") === "1") {
+
+    document.body.classList.add("paleta-nova");
+
+    // Colunas de verificação nas grelhas: a classe vai do cabeçalho para as células da coluna
+
+    document.querySelectorAll("main .grelha table").forEach(function (tab) {
+
+      const cab = Array.from(tab.querySelectorAll("thead th"));
+
+      cab.forEach(function (th, i) {
+
+        if (!/erificação/.test(th.textContent)) return;
+
+        th.classList.add("col-verificacao");
+
+        tab.querySelectorAll("tbody tr").forEach(function (tr) {
+
+          if (tr.children[i]) tr.children[i].classList.add("col-verificacao");
+
+        });
+
+      });
+
+    });
+
+    // Sub-quesitos de verificação, para levarem a cor da verificação
+
+    document.querySelectorAll("main section.level3").forEach(function (s) {
+
+      const h = s.querySelector("h3");
+
+      if (h && /só na recolha com visita/.test(h.textContent)) s.classList.add("sub-verificacao");
+
+    });
+
+    // Opções curtas em duas colunas
+
+    document.querySelectorAll("main .respostas ol").forEach(function (ol) {
+
+      const itens = Array.from(ol.children);
+
+      if (itens.length >= 4 && itens.every(function (li) { return li.textContent.trim().length <= 32; })) ol.classList.add("duas-colunas");
+
+    });
+
+  }
+
 
 
   // Cabeçalho: «Secção N» em pequeno e o nome em grande, e tudo até ao primeiro quesito numa faixa
