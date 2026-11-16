@@ -11,7 +11,7 @@ Propriedade e entidade gestora da unidade, orçamento próprio, serviços e órg
 
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
-| Com visita (presencial, com inquiridor) | 10 | 9 |
+| Com visita (presencial, com inquiridor) | 10 | 8 |
 | Autorreferida | 6 | 5 |
 :::
 

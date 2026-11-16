@@ -11,7 +11,7 @@ As páginas seguintes mostram, secção a secção e quesito a quesito, **o que 
 O que este documento **não** é: não é a justificação técnica de cada decisão de desenho. Essa está na matriz de decisão da adaptação, uma folha de cálculo com uma linha por quesito, que registra o item original, o item proposto, o tipo de mudança, a explicação da decisão e o seu estado. A matriz é a fonte; este documento é a face legível dela.
 
 ::: {.callout-note appearance="simple"}
-**Estado da proposta.** O formulário está organizado em 23 secções, por tema e pela ordem em que o inquiridor o percorre. Os quesitos estão numerados de forma sequencial. Alguns quesitos aguardam decisão; estão assinalados no texto e listados no fim desta nota.
+**Estado da proposta.** O formulário está organizado em 23 secções, por tema e pela ordem em que o inquiridor o percorre, com 307 quesitos numerados de forma sequencial: 217 novos, 66 alterados e 20 que se mantêm iguais aos da Ficha 19_01; 5 aguardam decisão e estão listados no fim desta nota. Contando cada linha das grelhas e cada campo de verificação, são cerca de 1 750 campos de resposta — dos quais cerca de 560 na lista de medicamentos da secção 14.
 :::
 
 ## Um formulário único para toda a rede
@@ -19,27 +19,45 @@ O que este documento **não** é: não é a justificação técnica de cada deci
 Este é um ponto que convém fixar antes de qualquer leitura, porque sem ele o documento parece desproporcionado.
 
 ::: {.aviso-tamanho}
-**O instrumento é grande.** A maioria das unidades sanitárias não terá todas as informações, porque não oferece todas as acções de saúde que o formulário cobre; os blocos que não se aplicam são saltados. **Não se preocupe com isso.**
+**O instrumento é grande.** A maioria das unidades sanitárias não terá todas as informações, porque não oferece todas as acções de saúde que o formulário cobre; os blocos que não se aplicam são saltados. **Não se preocupe com isso**: o tempo de aplicação de cada secção, com as portas abertas e fechadas, está no cabeçalho de cada uma.
 :::
 
 **O formulário é um só e serve toda a rede de unidades sanitárias** — do posto de saúde ao hospital central. Não há versões diferentes por tipo de unidade, e isso é uma opção de desenho. Ao demarcarmos os tipos de unidade sanitária podemos gerar análises estratificadas, por tipo, por tamanho, por zona rural ou urbana, por município e província, por nível de atenção. A rede sanitária será melhor mapeada desta forma.
 
 **Em consequência, a maior parte das perguntas não será feita à maior parte das unidades.** É para isso que servem as **perguntas-porta**: perguntas que abrem ou fecham um bloco inteiro. Quando a resposta à pergunta-porta é negativa, todas as perguntas que dependem dela são saltadas. Na versão digital, o salto é automático e o inquiridor nem chega a ver essas perguntas; na versão em papel, cada pergunta-porta tem ao lado uma instrução de salto bem visível.
 
-Vale ver isto com números concretos, porque é a diferença entre um formulário longo e um formulário pesado.
+### Quanto tempo leva
 
-**Num centro de saúde típico**, sem laboratório completo, sem imagiologia, sem internamento, sem bloco operatório e sem banco de urgência com espaço próprio, fecham-se de uma vez:
+Cada secção mostra no cabeçalho o **tempo estimado de aplicação**, em minutos, em quatro situações, que resultam de combinar duas coisas:
 
-- a porta geral do laboratório (quesito 13.2) fecha os quatro blocos de exames — **69 caixas**; sobram as 11 linhas dos testes rápidos, que são exactamente aquilo que um centro de saúde faz;
-- a porta da imagiologia (13.7) fecha a grelha dos exames de imagem — **8 caixas**;
-- a porta dos partos (17.2) fecha as duas caixas de CONU, a grelha das nove funções-sinal e a cobertura permanente — **12 caixas**;
-- a porta da cirurgia (11.29) fecha os procedimentos de pequena e de grande cirurgia, as salas de operações e as especialidades cirúrgicas — **41 caixas**;
-- a porta do internamento (9.1) fecha os grupos de internamento da grelha de camas — **20 linhas** — e, na secção de gestão, o bloco de revisão de óbitos;
-- a porta das doenças crónicas não transmissíveis (12.1), se a unidade não as acompanhar, fecha a secção 12 inteira — **29 condições em seis grelhas, 116 caixas**, mais o cancro e a procura de faltosos; a do cancro, sozinha, **4**; a dos sobreviventes de violência, **11**; a do recém-nascido pequeno ou doente, **10**.
+- **a forma de recolha** — *com visita*, quando o inquiridor está presente na unidade e faz também as perguntas de verificação; ou *autorreferida*, quando a própria unidade preenche o formulário, em papel ou em linha, sem verificação;
+- **as portas** — *todas abertas*, a unidade que responde «Sim» a todas as perguntas-porta e percorre todos os blocos; ou *todas fechadas*, a que responde «Não» a todas e salta tudo o que delas depende.
 
-Só nestes blocos são mais de **280 caixas que a unidade não vê**. Um posto de saúde fecha ainda mais: sem vacinação de rotina com periodicidade fixa saltam as 19 caixas dos antigénios; sem tratamento antirretroviral saltam 7; sem serviços de tuberculose, 7.
+Para o formulário inteiro:
 
-**O inverso também acontece.** A secção de aparelhos médico-cirúrgicos — secção 10 tanto na Ficha como nesta proposta, 39 caixas — é hoje dirigida apenas a centros e postos de saúde, por instrução expressa do Guião (folha 17), pelo que um hospital não a percorre. O formulário adapta-se nos dois sentidos.
+::: {.tempo-aplicacao}
+| Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
+|---|:-:|:-:|
+| Com visita (presencial, com inquiridor) | cerca de 6 h 15 min | cerca de 2 h 45 min |
+| Autorreferida | cerca de 3 h 20 min | cerca de 1 h 50 min |
+:::
+
+Os dois extremos servem de referência: uma unidade real fica entre eles. Um posto de saúde fica perto das portas fechadas; um hospital provincial, perto das portas abertas. A recolha presencial sem observação (1.4 = 2) e a recolha por telefone ficam entre a recolha com visita e a autorreferida.
+
+O tempo calcula-se contando os campos de cada secção e aplicando um tempo por tipo de campo — por exemplo, 15 segundos por pergunta de escolha e 8 por linha de grelha numa recolha com visita, 8 e 5 numa recolha autorreferida, e 15 segundos por produto verificado na farmácia. Não inclui as deslocações entre serviços nem o tempo de procurar registos. Os valores e o método estão no fim da página [Novo formulário](formulario.qmd), e devem ser confirmados com a cronometragem de algumas aplicações-piloto.
+
+### O que as portas poupam
+
+Numa recolha com visita, as portas fechadas reduzem o formulário de mais de seis horas para menos de três. As portas que mais pesam são estas:
+
+- **a lista de medicamentos** (14.4 e as portas dos blocos de antimaláricos, antituberculosos, antirretrovirais, planeamento familiar e suplementos nutricionais): de cerca de 1 h 45 min para 2 minutos numa recolha com visita, e de 28 para 1 minuto numa recolha autorreferida;
+- **a gestão da informação** (secção 7): as bases de dados electrónicas, os relatórios, o arquivo dos processos e a codificação das causas de morte, de 49 para 25 minutos;
+- **as doenças crónicas não transmissíveis** (12.1): se a unidade não as acompanha, a secção 12 fecha-se quase inteira, de 19 minutos para 1;
+- **o laboratório e a imagiologia** (13.2 e 13.7): de 16 para 5 minutos; sobram os testes rápidos, que são exactamente aquilo que um centro de saúde faz;
+- **os partos, a vacinação, o VIH e a tuberculose** (17.2, 16.1, 18.4 e 18.7), cada um com poucos minutos, mas que somados fazem a diferença num posto de saúde;
+- **a cirurgia** (11.29) e **o internamento** (9.1), que fecham os procedimentos cirúrgicos, as salas de operações e os grupos de internamento da grelha de camas.
+
+**O inverso também acontece.** A secção de aparelhos médico-cirúrgicos (secção 10) é hoje dirigida apenas a centros e postos de saúde, por instrução expressa do Guião (folha 17), pelo que um hospital não a percorre. O formulário adapta-se nos dois sentidos.
 
 A leitura prática, para a revisão: **não avalie o volume total, avalie o volume por tipo de unidade.** A pergunta útil não é «são muitas perguntas?», mas «quantas destas perguntas chegam de facto a um posto de saúde do Cuanza Sul, e são as certas?».
 
@@ -76,14 +94,14 @@ Isto não é uma subtileza de redacção. Se a porta fosse o órgão, perderíam
 
 **Segunda: é a resposta que decide o percurso, nunca o tipo de unidade.** Nenhum salto deste formulário é accionado pelo tipo de unidade sanitária, e há razão para isso em cada caso: há postos com camas e centros de saúde sem internamento; há centros de saúde que seguem trezentos hipertensos e hospitais que não têm cardiologista. O percurso é decidido pelo que a unidade responde sobre si mesma.
 
-**Terceira: quase tudo pode ser autorreferido.** A arquitectura da proposta assenta em perguntas declaradas, respondidas pelo responsável da unidade, porque é isso que torna possível um censo de toda a rede. A observação física aparece em poucos lugares, todos assinalados no texto: a contagem de camas e de macas, a grelha de verificação do equipamento básico, o estado dos aparelhos, a água disponível no recinto (6.1.3) e o incinerador e o seu combustível (6.6.1 e 6.6.2). A secção 1 tem um campo (1.4) que regista se a unidade foi efectivamente visitada: sem ele, na análise, não se distingue «não tem» de «não foi verificado».
+**Terceira: quase tudo pode ser autorreferido.** A arquitectura da proposta assenta em perguntas declaradas, respondidas pelo responsável da unidade, porque é isso que torna possível um censo de toda a rede. A observação física fica separada, nas perguntas de verificação «só na recolha com visita» (ver «Duas formas de resposta», acima). A secção 1 tem um campo (1.4) que regista a forma de recolha: sem ele, na análise, não se distingue «não tem» de «não foi verificado».
 
 ## O que se mantém
 
 A proposta é de revisão e não de substituição, e isso deve ser visível na leitura. Em concreto:
 
 - **os quesitos foram reorganizados por tema e renumerados** de forma sequencial, pela ordem em que o inquiridor percorre a unidade;
-- **as listas nomeadas da Ficha mantêm-se por inteiro** — as 28 especialidades clínicas, os 7 tipos de veículo, os 15 tipos de aparelho, os 17 serviços e órgãos de gestão, os 15 serviços gerais (o gabinete do utente passa a estar junto da gestão). Nenhuma foi encurtada;
+- **as listas nomeadas da Ficha mantêm-se por inteiro** — as 28 especialidades clínicas, os 7 tipos de veículo, os 15 tipos de aparelho, os 17 serviços e órgãos de gestão e os 15 serviços gerais, que ficam repartidos pelos temas — a maioria na secção 21, o transporte de emergência na 8, a comunicação na 7, o tratamento do lixo na 6, o gabinete do utente na 20 e a manutenção na 22. Nenhuma foi encurtada;
 - **as contagens da Ficha mantêm-se**: a Ficha conta camas, aparelhos e veículos, e essa contagem é informação de gestão logística própria do Mapa Sanitário;
 - **as definições do Guião foram conservadas e, em muitos casos, trazidas para dentro da pergunta**. Em vários quesitos, a proposta dá campo próprio a informação que o Guião já pede: as camas guardadas em armazém, que o Guião manda registar «aparte»; a data da visita anterior, com a indicação de unidade «nunca visitada»; a quantidade de ADECOS; e a classificação da consulta pré-natal como «completa, incompleta ou não é realizada». Nestes casos a proposta limita-se a acompanhar o que a instrução já prevê.
 

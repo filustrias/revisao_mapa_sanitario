@@ -101,8 +101,8 @@ for f in sorted(glob.glob('formulario/[012][0-9]-*.qmd')):
         cod = re.match(r'#{2,3} (\d+(?:\.\d+)*)', b).group(1)
         tit = b.split('\n')[0]
         instr = ' '.join(caixa(b, 'instrucao'))
-        verif = 'só na recolha com visita' in tit or 'Campo de verificação' in b or 'Pergunta de verificação' in b
-        cond = bool(re.search(r'Perguntar só|Fazer só se|— Só se|Só na recolha presencial|Perguntar apenas|só nas colunas', instr))
+        verif = 'só na recolha com visita' in tit or 'Campo de verificação' in b or 'Pergunta de verificação' in b or 'Aplicar só nas unidades visitadas' in instr
+        cond = bool(re.search(r'Perguntar só|Fazer só se|— Só se|Só na recolha presencial|Perguntar apenas|só nas colunas|apenas nas unidades|Aplicar só', instr))
         saltos = re.findall(r'(?:saltar|passar)(?: para| a| à)? ?(?:a )?(secção \d+|\d+(?:\.\d+)*)', instr)
         fim = bool(re.search(r'terminar a secção', instr, flags=re.I))
         qs.append(dict(cod=cod, cond=cond, saltos=saltos, fim=fim, c=campos(b, verif)))
