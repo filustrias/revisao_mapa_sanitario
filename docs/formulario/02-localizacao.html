@@ -990,6 +990,112 @@ O que este quesito permite medir
 
 </script>
 
+
+
+<script>
+
+// Identidade visual das páginas de secção: cabeçalho da secção e um cartão por quesito,
+
+// com o código em destaque (os estilos estão em estilos.css, em «Cartões dos quesitos»).
+
+// Corre depois do script dos comentários, que já leu os títulos com o código inteiro.
+
+(function () {
+
+  const titulo = document.querySelector("main h1.title");
+
+  if (!titulo) return;
+
+  const m = titulo.textContent.replace(/\s+/g, " ").trim().match(/^Secção (\d+) — (.+)$/);
+
+  if (!m) return;
+
+  document.body.classList.add("pagina-seccao");
+
+
+
+  // Cabeçalho: «Secção N» em pequeno e o nome em grande, e tudo até ao primeiro quesito numa faixa
+
+  const alvo = titulo.querySelector(".chapter-title") || titulo;
+
+  alvo.textContent = "";
+
+  const num = document.createElement("span");
+
+  num.className = "seccao-numero";
+
+  num.textContent = "Secção " + m[1];
+
+  const nome = document.createElement("span");
+
+  nome.className = "seccao-nome";
+
+  nome.textContent = m[2];
+
+  alvo.append(num, nome);
+
+  const cabecalho = document.getElementById("title-block-header");
+
+  if (cabecalho) {
+
+    const faixa = document.createElement("div");
+
+    faixa.className = "cabecalho-seccao";
+
+    cabecalho.before(faixa);
+
+    let n = cabecalho;
+
+    while (n && !(n.nodeType === 1 && n.matches("section.level2, nav.page-navigation"))) {
+
+      const seguinte = n.nextSibling;
+
+      faixa.appendChild(n);
+
+      n = seguinte;
+
+    }
+
+  }
+
+
+
+  // Código do quesito («4.2», «13.7.1 a 13.7.11», «2.8 e 2.9») numa etiqueta própria
+
+  const COD = /^\s*(\d+(?:\.[0-9A-Za-z]+)+(?:\s+(?:a|e)\s+\d+(?:\.[0-9A-Za-z]+)+)?)\s*(?:·\s*)?/;
+
+  document.querySelectorAll("main section.level2 > h2, main section.level3 > h3").forEach(function (h) {
+
+    const texto = h.firstChild;
+
+    const c = texto && texto.nodeType === 3 ? texto.nodeValue.match(COD) : null;
+
+    if (!c) {
+
+      if (h.tagName === "H2") h.parentElement.classList.add("sem-codigo");
+
+      return;
+
+    }
+
+    texto.nodeValue = texto.nodeValue.slice(c[0].length);
+
+    const etiqueta = document.createElement("span");
+
+    etiqueta.className = "codigo-quesito";
+
+    etiqueta.textContent = c[1];
+
+    h.insertBefore(etiqueta, texto);
+
+    h.insertBefore(document.createTextNode(" "), texto);
+
+  });
+
+})();
+
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

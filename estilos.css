@@ -638,3 +638,123 @@ img.capa-foto { width: 100%; border-radius: 6px; margin: 0.4rem 0 1.2rem; }
 
 /* Linhas de grupo dentro das grelhas (primeira célula vazia): A · Enfermarias, B · Cuidados intensivos... */
 .grelha tr:has(> td:first-child:empty) td { background: #eef2f7; padding-top: 0.45rem; padding-bottom: 0.45rem; }
+
+/* ------------------------------------------------------------------ *
+ *  Cartões dos quesitos e cabeçalho das secções                       *
+ *  A classe pagina-seccao e as marcas codigo-quesito, cabecalho-seccao *
+ *  e sem-codigo são postas por comentar.html, só nas páginas de secção *
+ * ------------------------------------------------------------------ */
+
+/* Cabeçalho da secção: número em pequeno, nome em grande, numa faixa própria */
+.pagina-seccao .cabecalho-seccao {
+  background: #f3f6f9;
+  border: 1px solid var(--ms-regra);
+  border-top: 5px solid var(--ms-borda-enunciado);
+  border-radius: 10px;
+  padding: 1.1rem 1.4rem 0.5rem;
+  margin: 0 0 2.2rem;
+}
+.pagina-seccao .cabecalho-seccao #title-block-header { margin-bottom: 0.4rem; }
+.pagina-seccao .cabecalho-seccao h1.title { margin: 0 0 0.3rem; }
+.pagina-seccao .seccao-numero {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ms-borda-medir);
+  margin-bottom: 0.15rem;
+}
+.pagina-seccao .seccao-nome { display: block; font-size: 1.85rem; line-height: 1.2; }
+.pagina-seccao .cabecalho-seccao .medir-seccao { background: #fff; }
+.pagina-seccao .cabecalho-seccao .tempo-aplicacao table { background: #fff; }
+
+/* Um cartão por quesito, com o título numa faixa no topo */
+.pagina-seccao main section.level2 {
+  background: #fff;
+  border: 1px solid #cfd6de;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(31, 41, 51, 0.07);
+  padding: 0 1.25rem 0.5rem;
+  margin: 0 0 1.8rem;
+}
+.pagina-seccao main section.level2 > h2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.6rem;
+  margin: 0 -1.25rem 0.9rem;
+  padding: 0.7rem 1.25rem;
+  border-top: none;
+  border-bottom: 1px solid #dde3e9;
+  border-radius: 10px 10px 0 0;
+  background: #eef2f6;
+  font-size: 1.12rem;
+  line-height: 1.3;
+}
+.pagina-seccao main section.level2 > h2 > .etiqueta { margin-left: 0; }
+.pagina-seccao main section.level2 > h2 > .codigo-quesito + .etiqueta,
+.pagina-seccao main section.level2.sem-codigo > h2 > .etiqueta:first-of-type { margin-left: auto; }
+.pagina-seccao main section.level2 > h2 > .ms-comentar { margin-left: auto; vertical-align: baseline; }
+.pagina-seccao main section.level2 > h2 > .etiqueta ~ .ms-comentar { margin-left: 0; }
+
+/* Código do quesito em destaque */
+.codigo-quesito {
+  display: inline-block;
+  background: var(--ms-borda-enunciado);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  font-variant-numeric: tabular-nums;
+  padding: 0.15rem 0.55rem;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+/* Blocos sem código (pendências da secção): cartão amarelo, sem faixa escura */
+.pagina-seccao main section.level2.sem-codigo { background: var(--ms-fundo-nota); border-color: #e6d9a8; }
+.pagina-seccao main section.level2.sem-codigo > h2 { background: transparent; border-bottom-color: #e6d9a8; }
+
+/* Sub-quesitos (verificações, 7.5.1.1…): dentro do cartão do quesito, recuados */
+.pagina-seccao main section.level2 section.level3 {
+  border-left: 3px solid #9aa8b6;
+  padding: 0.1rem 0 0.2rem 0.9rem;
+  margin: 1.2rem 0 0.8rem 0.4rem;
+}
+.pagina-seccao main section.level3 > h3 {
+  margin-top: 0.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem 0.5rem;
+}
+.pagina-seccao main section.level3 > h3 > .codigo-quesito {
+  background: #fff;
+  color: var(--ms-borda-enunciado);
+  border: 1.5px solid var(--ms-borda-enunciado);
+  font-size: 0.85rem;
+}
+
+/* Menos ruído: rótulos mais pequenos e mais claros */
+.pagina-seccao .rotulo { font-size: 0.64rem; letter-spacing: 0.08em; color: var(--ms-apagado); }
+.pagina-seccao .enunciado.rotulado .rotulo { color: var(--ms-apagado); }
+.pagina-seccao .rotulo.em-linha { font-size: inherit; letter-spacing: 0; }
+
+/* Botão de comentar discreto até se passar o rato pelo quesito (no telemóvel fica sempre visível) */
+@media (hover: hover) and (pointer: fine) {
+  .pagina-seccao main section.level2 .ms-comentar { opacity: 0.35; transition: opacity 0.15s; }
+  .pagina-seccao main section.level2:hover .ms-comentar,
+  .pagina-seccao main section.level2 .ms-comentar:focus-visible,
+  .pagina-seccao main section.level2 .ms-comentar.ms-comentado { opacity: 1; }
+}
+
+@media (max-width: 600px) {
+  .pagina-seccao main section.level2 { padding: 0 0.8rem 0.4rem; }
+  .pagina-seccao main section.level2 > h2 { margin: 0 -0.8rem 0.8rem; padding: 0.6rem 0.8rem; font-size: 1.02rem; }
+  .pagina-seccao .cabecalho-seccao { padding: 0.9rem 0.9rem 0.3rem; }
+  .pagina-seccao .seccao-nome { font-size: 1.45rem; }
+}
+
+@media print {
+  .pagina-seccao main section.level2 { box-shadow: none; break-inside: avoid-page; }
+}
