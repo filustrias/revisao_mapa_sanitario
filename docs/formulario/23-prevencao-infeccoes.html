@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../pendencias.html" rel="next">
 <link href="../formulario/22-manutencao.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -248,6 +249,11 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../formulario/23-prevencao-infeccoes.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Secção 23 — Prevenção e controlo de infecções</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pendencias.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Pendências</span></a>
   </div>
 </li>
     </ul>
@@ -1967,7 +1973,7 @@ O que este quesito permite medir
 
   const titulo = document.querySelector("main h1.title");
 
-  if (!titulo || !/^(Secç|\d|Domínios)/.test(textoDo(titulo))) return;
+  if (!titulo || !/^(Secç|\d|Domínios|Pendências)/.test(textoDo(titulo))) return;
 
   const linha = document.createElement("div");
 
@@ -2413,6 +2419,9 @@ O que este quesito permite medir
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../pendencias.html" class="pagination-link" aria-label="Pendências">
+        <span class="nav-page-text"><span class="chapter-title">Pendências</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

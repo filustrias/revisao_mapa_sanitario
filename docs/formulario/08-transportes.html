@@ -251,6 +251,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="../formulario/23-prevencao-infeccoes.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Secção 23 — Prevenção e controlo de infecções</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pendencias.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Pendências</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -1268,7 +1273,7 @@ O que este quesito permite medir
 
   const titulo = document.querySelector("main h1.title");
 
-  if (!titulo || !/^(Secç|\d|Domínios)/.test(textoDo(titulo))) return;
+  if (!titulo || !/^(Secç|\d|Domínios|Pendências)/.test(textoDo(titulo))) return;
 
   const linha = document.createElement("div");
 

@@ -47,6 +47,7 @@ book:
     - formulario/21-servicos-gerais.qmd
     - formulario/22-manutencao.qmd
     - formulario/23-prevencao-infeccoes.qmd
+    - pendencias.qmd
 
 format:
   html:

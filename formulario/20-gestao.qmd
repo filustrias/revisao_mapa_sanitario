@@ -211,7 +211,7 @@ A diferença entre «existe» e «funcionou» mostra onde o órgão existe no pa
 | Linha 20.2.11 · Assistência social, opções 1 e 2 | 4.1.1.2.3 | Unidades com serviço de apoio de assistência social<br>*Percentage of facilities with support services for social services* | Q520_3 = 1, 2 ou 3; todas as unidades. No HHFA contam os códigos 1, 2 e 3; aqui contam as opções 1 e 2 (existe) |
 | Linha 20.2.13 · Comissão de infecções hospitalares | — (medida própria) | A comissão e as reuniões de prevenção e controlo de infecções medem-se em 20.2.13.1 e 20.2.13.2 | — |
 | Linha 20.2.14 · Comissão de óbitos hospitalares | — (medida própria) | A revisão de óbitos mede-se em 20.2.14.1 a 20.2.14.4 | — |
-| Linha 20.2.15 · Comissão de medicamentos | — (medida própria) | Pendente: ver «Pendências desta subsecção» | — |
+| Linha 20.2.15 · Comissão de medicamentos | — (medida própria) | Pendente: ver «Pendências desta secção» | — |
 | Linha 20.2.19 · Gabinete do utente | — (medida própria) | A recolha e a análise da opinião dos utentes medem-se em 20.2.19.1 e 20.2.19.2 | — |
 | Linhas 20.2.1 a 20.2.4, 20.2.6, 20.2.8, 20.2.9.1, 20.2.9.2, 20.2.10, 20.2.12, 20.2.16 e 20.2.17 | — (medida própria) |  | — |
 :::

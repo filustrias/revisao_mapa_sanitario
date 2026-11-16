@@ -19,3 +19,4 @@ Este documento apresenta a proposta de revisão do instrumento de coleta de dado
 | [Orientações aos revisores](revisores.qmd) | O que se pede a cada revisor e como enviar comentários |
 | [Antigo formulário](formulario-antigo.qmd) | A Ficha de Cadastramento 19_01, tal como está em uso |
 | [Novo formulário](formulario.qmd) | As 23 secções do formulário, com ligação a cada uma |
+| [Pendências](pendencias.qmd) | As decisões ainda em aberto, reunidas numa só página |
