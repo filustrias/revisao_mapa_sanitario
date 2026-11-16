@@ -1018,13 +1018,19 @@ O que este quesito permite medir
 
   document.body.classList.add("pagina-seccao");
 
-  // Paleta nova em teste: na secção 5, ou em qualquer secção com ?paleta=1 no endereço
+  // Paleta: pergunta, verificação, medir e pendências, cada uma com a sua cor (estilos.css, «Paleta nova»)
 
-  const PALETA = ["5"];
-
-  if (PALETA.indexOf(m[1]) >= 0 || new URLSearchParams(location.search).get("paleta") === "1") {
+  {
 
     document.body.classList.add("paleta-nova");
+
+    // Frase «Só na recolha com visita» dentro dos enunciados, na cor da verificação
+
+    document.querySelectorAll("main .enunciado strong").forEach(function (s) {
+
+      if (/^Só na recolha com visita/.test(s.textContent.trim())) s.classList.add("marca-verificacao");
+
+    });
 
     // Colunas de verificação nas grelhas: a classe vai do cabeçalho para as células da coluna
 

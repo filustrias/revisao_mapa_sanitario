@@ -213,10 +213,13 @@
   const m = titulo.textContent.replace(/\s+/g, " ").trim().match(/^Secção (\d+) — (.+)$/);
   if (!m) return;
   document.body.classList.add("pagina-seccao");
-  // Paleta nova em teste: na secção 5, ou em qualquer secção com ?paleta=1 no endereço
-  const PALETA = ["5"];
-  if (PALETA.indexOf(m[1]) >= 0 || new URLSearchParams(location.search).get("paleta") === "1") {
+  // Paleta: pergunta, verificação, medir e pendências, cada uma com a sua cor (estilos.css, «Paleta nova»)
+  {
     document.body.classList.add("paleta-nova");
+    // Frase «Só na recolha com visita» dentro dos enunciados, na cor da verificação
+    document.querySelectorAll("main .enunciado strong").forEach(function (s) {
+      if (/^Só na recolha com visita/.test(s.textContent.trim())) s.classList.add("marca-verificacao");
+    });
     // Colunas de verificação nas grelhas: a classe vai do cabeçalho para as células da coluna
     document.querySelectorAll("main .grelha table").forEach(function (tab) {
       const cab = Array.from(tab.querySelectorAll("thead th"));

@@ -410,7 +410,7 @@ O que este quesito permite medir
 <p>Vou perguntar pelos meios de transporte afectos a esta unidade sanitária. Para cada tipo, indique quantos estão em funcionamento hoje, quantos estão avariados com uma avaria que a unidade pode resolver com os seus próprios recursos, e quantos estão avariados sem possibilidade de reparação com os recursos da unidade.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — Contar apenas os veículos que pertencem à unidade ou que lhe estão permanentemente afectos. A ambulância define-se pela preparação para o transporte de doentes, e não pelo tipo de viatura. Um veículo imobilizado por falta de documentação não é avaria: não entra em nenhuma coluna e regista-se em 8.2. Em cada caixa, um número de 0 a 97; 98 se não souber.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — Contar apenas os veículos que pertencem à unidade ou que lhe estão permanentemente afectos. A ambulância define-se pela preparação para o transporte de doentes, e não pelo tipo de viatura. Um veículo imobilizado por falta de documentação não é avaria: não entra em nenhuma coluna e regista-se em 8.2. Em cada caixa, um número de 0 a 97; 98 se ninguém na unidade souber responder.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
@@ -1329,13 +1329,19 @@ O que este quesito permite medir
 
   document.body.classList.add("pagina-seccao");
 
-  // Paleta nova em teste: na secção 5, ou em qualquer secção com ?paleta=1 no endereço
+  // Paleta: pergunta, verificação, medir e pendências, cada uma com a sua cor (estilos.css, «Paleta nova»)
 
-  const PALETA = ["5"];
-
-  if (PALETA.indexOf(m[1]) >= 0 || new URLSearchParams(location.search).get("paleta") === "1") {
+  {
 
     document.body.classList.add("paleta-nova");
+
+    // Frase «Só na recolha com visita» dentro dos enunciados, na cor da verificação
+
+    document.querySelectorAll("main .enunciado strong").forEach(function (s) {
+
+      if (/^Só na recolha com visita/.test(s.textContent.trim())) s.classList.add("marca-verificacao");
+
+    });
 
     // Colunas de verificação nas grelhas: a classe vai do cabeçalho para as células da coluna
 

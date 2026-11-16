@@ -753,7 +753,7 @@ img.capa-foto { width: 100%; border-radius: 6px; margin: 0.4rem 0 1.2rem; }
 }
 
 /* ------------------------------------------------------------------ *
- *  Paleta nova (em teste na secção 5; noutras secções com ?paleta=1)  *
+ *  Paleta das páginas de secção (aplicada a todas as secções)        *
  *  Quatro funções, uma cor cada: pergunta (escuro), verificação       *
  *  (verde-azulado), medir (azul) e pendências (amarelo).              *
  * ------------------------------------------------------------------ */
@@ -831,3 +831,4 @@ img.capa-foto { width: 100%; border-radius: 6px; margin: 0.4rem 0 1.2rem; }
 .paleta-nova .grelha table td:first-child { white-space: nowrap; font-weight: 600; color: #34495e; }
 .paleta-nova .grelha th.col-verificacao { background: #d5efea; color: var(--ms-verif); }
 .paleta-nova .grelha td.col-verificacao { background: var(--ms-fundo-verif) !important; }
+.paleta-nova .enunciado strong.marca-verificacao { color: var(--ms-verif); }
