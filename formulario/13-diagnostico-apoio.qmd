@@ -711,7 +711,7 @@ A escala é de sim ou não porque nenhum destes procedimentos se faz por encamin
 - **Numerador:** unidades com resposta 1 na linha.
 - **Denominador:** todas as unidades sanitárias inquiridas (o quesito não tem porta). A resposta 98 fica no denominador e não conta no numerador.
 
-**Função no formulário.** A anestesia (13.9.2) lê-se com a grande cirurgia (11.29.2) e com as salas de operações (11.29.2.1); o banco de sangue (13.9.5), com a transfusão (13.8.9); a reabilitação (13.9.3), com a fisiatria e a fisioterapia de 11.A (linhas 11.11 e 11.35).
+**Função no formulário.** A anestesia (13.9.2) lê-se com a grande cirurgia (11.31.2) e com as salas de operações (11.31.2.1); o banco de sangue (13.9.5), com a transfusão (13.8.9); a reabilitação (13.9.3), com a fisiatria e a fisioterapia de 11.1 a 11.29 (linhas 11.11 e 11.12).
 
 **Leitura.** A reabilitação conta na definição larga, que inclui terapia ocupacional, terapia da fala e adaptação de próteses e ortóteses; os cuidados paliativos medem uma oferta própria dos cuidados primários e do domicílio.
 
@@ -749,7 +749,7 @@ Para cada um dos serviços seguintes, diga-me se existe nesta unidade sanitária
 :::
 
 ::: {.nota .interno}
-**Porque mudou.** As caixas da Ficha mantêm-se com o mesmo sentido; muda o enunciado, que passa a dizer «em funcionamento» por palavras. O bloco operatório e o número de blocos passam para a cirurgia, como salas de operações (11.29.2.1).
+**Porque mudou.** As caixas da Ficha mantêm-se com o mesmo sentido; muda o enunciado, que passa a dizer «em funcionamento» por palavras. O bloco operatório e o número de blocos passam para a cirurgia, como salas de operações (11.31.2.1).
 
 A reabilitação ganha a definição internacional, mais larga do que a fisioterapia. O acrescento são os **cuidados paliativos**, uma oferta própria dos cuidados primários: o controlo da dor no doente oncológico avançado faz-se no centro de saúde e no domicílio, não no hospital.
 :::

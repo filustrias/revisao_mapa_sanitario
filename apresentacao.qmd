@@ -55,7 +55,7 @@ Numa recolha com visita, as portas fechadas reduzem o formulário de mais de sei
 - **as doenças crónicas não transmissíveis** (12.1): se a unidade não as acompanha, a secção 12 fecha-se quase inteira, de 19 minutos para 1;
 - **o laboratório e a imagiologia** (13.2 e 13.7): de 16 para 5 minutos; sobram os testes rápidos, que são exactamente aquilo que um centro de saúde faz;
 - **os partos, a vacinação, o VIH e a tuberculose** (17.2, 16.1, 18.4 e 18.7), cada um com poucos minutos, mas que somados fazem a diferença num posto de saúde;
-- **a cirurgia** (11.29) e **o internamento** (9.1), que fecham os procedimentos cirúrgicos, as salas de operações e os grupos de internamento da grelha de camas.
+- **a cirurgia** (11.31) e **o internamento** (9.1), que fecham os procedimentos cirúrgicos, as salas de operações e os grupos de internamento da grelha de camas.
 
 **O inverso também acontece.** A secção de aparelhos médico-cirúrgicos (secção 10) é hoje dirigida apenas a centros e postos de saúde, por instrução expressa do Guião (folha 17), pelo que um hospital não a percorre. O formulário adapta-se nos dois sentidos.
 
@@ -112,7 +112,7 @@ Estas são as principais questões em aberto; a lista completa, com as normas a 
 1. **Rupturas de stock de vacinas** (16.1.3). Acrescentar uma coluna à grelha dos antigénios, perguntando se houve ruptura nos últimos 3 meses. A ruptura é memória de quem responde e não exige verificação física. Custa fazer a grelha do PAV passar de 18 para 29 caixas. Recomendação: incluir, mas só para os antigénios do calendário infantil de rotina.
 2. **Cuidados ao recém-nascido pequeno ou doente** (17.3.2.0 a 17.3.2.10). São 11 caixas, todas declaradas. É a maior lacuna da proposta no que respeita ao recém-nascido.
 3. **Registo de cada tipo de informação** (7.3.2). A grelha passou a perguntar-se a todas as unidades, com o suporte do registo (papel, electrónico ou ambos) e a forma (livro, ficha individual ou cartão do utente), em 19 linhas. Falta decidir se fica no formulário geral ou se passa para um questionário próprio sobre os sistemas de registo, aplicado com visita.
-4. **Interrupção da gravidez** (11.E.3.7 e 11.E.3.8). As duas linhas devem ser confirmadas contra o quadro legal angolano antes de irem a terreno. Se a prestação não for legalmente possível, as duas linhas saem.
+4. **Interrupção da gravidez** (11.30.3.7 e 11.30.3.8). As duas linhas devem ser confirmadas contra o quadro legal angolano antes de irem a terreno. Se a prestação não for legalmente possível, as duas linhas saem.
 5. **Âmbito da secção 10** (aparelhos médico-cirúrgicos). O Guião restringe a secção a centros e postos de saúde, com fundamento. Mantendo a restrição, perde-se a leitura do equipamento no topo da árvore de referência.
 6. **Frota ao nível municipal** (secção 8). Para a maioria das unidades de cuidados primários, o que decide a evacuação de um doente não é a unidade ter viatura própria mas o município ter uma viatura disponível — pelo que importa decidir se a frota municipal deve ser recolhida, e onde.
 7. **Unidades de ensino** (20.2.8 e 20.2.9). Propõe-se um quesito que registe se a unidade acolhe formação de estudantes, internos, médicos em especialização ou técnicos de saúde.
@@ -127,5 +127,5 @@ Seis normas nacionais são invocadas pela proposta e não estão em nosso poder.
 | **Lista Nacional de Medicamentos Essenciais**, com o exigido a cada nível da rede | Única forma defensável de definir que medicamentos verificar em cada nível da rede |
 | **Calendário nacional de vacinação** em vigor | Confirmar as 19 linhas de antigénios, retirando os que Angola não utiliza e acrescentando os que faltem |
 | **Populações-chave definidas pelo PNLS** para a profilaxia pré-exposição ao VIH (PrEP) | Fixar a grelha de 18.2 |
-| **Norma nacional sobre atendimento a sobreviventes de violência sexual**, se existir | Ancorar o enunciado do bloco 11.E, que de outro modo cria expectativa de capacidade sem base normativa |
+| **Norma nacional sobre atendimento a sobreviventes de violência sexual**, se existir | Ancorar o enunciado do bloco 11.30, que de outro modo cria expectativa de capacidade sem base normativa |
 | **Nomenclatura nacional de carreiras da saúde** | Fechar a lista de categorias profissionais de 1.8.3, que servirá também o futuro bloco de pessoal |

@@ -377,7 +377,7 @@ E para Cuidados Obstétricos e Neonatais de Urgência Completos (CONU-C)?
   - **Numerador:** unidades com coluna 1 em todas as linhas 17.2.3.1 a 17.2.3.9.
   - **Denominador:** unidades com resposta 1 em 17.2.
 - Percentagem de unidades sanitárias que fazem cesariana, e que fazem transfusão de sangue.
-  - **Numerador:** cesariana — coluna 1 na linha 17.2.3.8 ou cesariana assinalada na grande cirurgia (11.29.2.2); transfusão — coluna 1 na linha 17.2.3.9 ou transfusão assinalada em 13.8.9.
+  - **Numerador:** cesariana — coluna 1 na linha 17.2.3.8 ou cesariana assinalada na grande cirurgia (11.31.2.2); transfusão — coluna 1 na linha 17.2.3.9 ou transfusão assinalada em 13.8.9.
   - **Denominador:** todas as unidades sanitárias inquiridas.
 
 A resposta 98 fica no denominador e fora do numerador; nos indicadores de conjunto, basta uma linha sem coluna 1 para a unidade não contar.
@@ -433,7 +433,7 @@ Para cada prestação seguinte, diga-me se foi realizada nesta unidade sanitári
 ::: {.nota .interno}
 **Transforma a marcação de CONU-B e CONU-C de juízo em cálculo:** as caixas de 17.2.1 e 17.2.2 continuam a ser respondidas, e passam a poder ser confrontadas com as nove linhas que as definem. Uma unidade que marca CONU-B e declara não ter administrado anticonvulsivante parenteral nos últimos 3 meses é uma inconsistência a assinalar — e é informação útil, não um erro a corrigir, porque pode significar ausência de casos e não ausência de capacidade.
 
-**O período de referência é de 3 meses e pergunta pelo que foi FEITO**, não pelo que a unidade poderia fazer: é a mesma opção de desenho dos três procedimentos de referência de 11.F, e por isso mede capacidade efectiva.
+**O período de referência é de 3 meses e pergunta pelo que foi FEITO**, não pelo que a unidade poderia fazer: é a mesma opção de desenho dos três procedimentos de referência de 11.31.2, e por isso mede capacidade efectiva.
 :::
 
 ## 17.2.4 · Partos 24 horas por pessoal qualificado [NOVO]{.etiqueta .novo}

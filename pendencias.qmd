@@ -23,7 +23,7 @@ Estão escritos, mas a inclusão ou a forma final depende desta revisão. No tex
 | [7.3.2](formulario/07-conectividade.qmd) · Registo de cada tipo de informação | Se a grelha, com 19 linhas, fica no formulário geral ou passa para um questionário próprio sobre os sistemas de registo, aplicado com visita. |
 | [Secção 8](formulario/08-transportes.qmd) · Frota | Se a frota se regista também ao nível do município: para a maioria das unidades de cuidados primários, o que decide a evacuação de um doente é o município ter uma viatura disponível. |
 | [Secção 10](formulario/10-aparelhos.qmd) · Âmbito | Se os aparelhos médico-cirúrgicos se perguntam só a centros e postos de saúde, como manda o Guião, ou também aos hospitais. |
-| [11.E.3.7 e 11.E.3.8](formulario/11-clinicos-cirurgicos.qmd) · Interrupção da gravidez | Confirmar as duas linhas contra o quadro legal angolano. Se a prestação não for legalmente possível, saem. |
+| [11.30.3.7 e 11.30.3.8](formulario/11-clinicos-cirurgicos.qmd) · Interrupção da gravidez | Confirmar as duas linhas contra o quadro legal angolano. Se a prestação não for legalmente possível, saem. |
 | [13.3 a 13.6](formulario/13-diagnostico-apoio.qmd) · Blocos de exames | Agrupar os exames pelos Laboratórios tipo I e tipo II do INSP, quando houver o texto da norma. |
 | [16.1.2](formulario/16-vacinacao.qmd) · Antigénios | Confirmar as 19 linhas contra o calendário nacional de vacinação em vigor. |
 | [20.1.3](formulario/20-gestao.qmd) · Orçamento próprio | Que informações sobre o financiamento da unidade acompanham o quesito: autonomia de gestão, linhas orçamentais, fontes de financiamento, taxas cobradas aos utentes ou auditoria financeira. |
@@ -40,5 +40,5 @@ Normas nacionais que a proposta invoca e que não estão em nosso poder. Cada um
 | **Lista Nacional de Medicamentos Essenciais**, com o exigido a cada nível da rede | Definir que medicamentos verificar em cada nível da rede |
 | **Calendário nacional de vacinação** em vigor | Confirmar as 19 linhas de antigénios |
 | **Populações-chave definidas pelo PNLS** para a profilaxia pré-exposição ao VIH (PrEP) | Fixar a grelha de 18.2 |
-| **Norma nacional sobre atendimento a sobreviventes de violência sexual**, se existir | Ancorar o enunciado do bloco 11.E |
+| **Norma nacional sobre atendimento a sobreviventes de violência sexual**, se existir | Ancorar o enunciado do bloco 11.30 |
 | **Nomenclatura nacional de carreiras da saúde** | Fechar a lista de categorias profissionais de 1.8.3 |

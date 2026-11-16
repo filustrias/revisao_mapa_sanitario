@@ -138,7 +138,7 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 8.4 | 7.5.1 | Acesso a transporte de emergência | 8 |
 | 8.4.1 | 3.9 | Veículo de emergência e motorista disponíveis 24 horas | 8 |
 | 8.4.2 | 7.5.1.1 | Transporte de emergência disponível hoje | 8 |
-| 11.A | 7.1.A | Especialidades clínicas (10.1 a 10.28) | 11 |
+| 11.1 a 11.29 | 7.1.A | Especialidades clínicas (10.1 a 10.28) | 11 |
 | 12.1 | 7.1.B.0 | Doenças crónicas não transmissíveis — porta | 12 |
 | 12.2 a 12.5 | 7.1.B | Grelhas por família (cardiovasculares, endócrinas, respiratórias, renal/anemias/desnutrição); substituem a grelha única | 12 |
 | 12.9 | — (novo) | Procura activa de faltosos — doenças crónicas não transmissíveis | 12 |
@@ -146,17 +146,17 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 12.6 | 7.1.C.2 | Doenças neurológicas (grelha por condição) | 12 |
 | 12.8.0 | 7.1.D.0 | Cancro — porta | 12 |
 | 12.8.1 a 12.8.4 | 7.1.D.1 a 7.1.D.4 | Cancro, por localização | 12 |
-| 11.E.0 | 7.1.E.0 | Sobreviventes de violência — porta | 11 |
-| 11.E.1 | 7.1.E.1 | Sobreviventes de violação ou de violência sexual ou por parceiro íntimo | 11 |
-| 11.E.2 | 7.1.E.2 | Crianças afectadas por maus-tratos | 11 |
-| 11.E.3 | 7.1.E.3 | Prestações oferecidas aos sobreviventes | 11 |
-| 11.E.4 | 7.1.E.4 | Profissional do mesmo sexo para o exame | 11 |
-| 11.29 | 7.1.29 | Cirurgia — porta | 11 |
-| 11.29.1 | 7.1.29.1 | Pequena cirurgia | 11 |
-| 11.29.2 | 7.1.29.2 | Grande cirurgia | 11 |
-| 11.29.1.12 | 7.1.29.3 | Circuncisão masculina médica voluntária (linha da grelha da pequena cirurgia) | 11 |
-| 11.29.2.2 a 11.29.2.4 | 7.1.29.4 | Procedimentos de referência nos últimos 12 meses | 11 |
-| 11.30 a 11.34 | 7.1.30 a 7.1.34 | Cirurgia de especialidade | 11 |
+| 11.30 | 7.1.E.0 | Sobreviventes de violência — porta | 11 |
+| 11.30.1 | 7.1.E.1 | Sobreviventes de violação ou de violência sexual ou por parceiro íntimo | 11 |
+| 11.30.2 | 7.1.E.2 | Crianças afectadas por maus-tratos | 11 |
+| 11.30.3 | 7.1.E.3 | Prestações oferecidas aos sobreviventes | 11 |
+| 11.30.4 | 7.1.E.4 | Profissional do mesmo sexo para o exame | 11 |
+| 11.31 | 7.1.29 | Cirurgia — porta | 11 |
+| 11.31.1 | 7.1.29.1 | Pequena cirurgia | 11 |
+| 11.31.2 | 7.1.29.2 | Grande cirurgia | 11 |
+| 11.31.1.12 | 7.1.29.3 | Circuncisão masculina médica voluntária (linha da grelha da pequena cirurgia) | 11 |
+| 11.31.2.2 a 11.31.2.4 | 7.1.29.4 | Procedimentos de referência nos últimos 12 meses | 11 |
+| 11.32 a 11.36 | 7.1.30 a 7.1.34 | Cirurgia de especialidade | 11 |
 | 13.1 | 7.2.C.0 | Testes rápidos de diagnóstico | 13 |
 | 13.2 | 7.2.1 | Porta geral do laboratório | 13 |
 | 13.3 a 13.6 | 7.2.C.I a 7.2.C.IV | Os quatro blocos de exames | 13 |
@@ -364,3 +364,18 @@ Os códigos com letras herdados da Ficha passam a números sequenciais, pela ord
 | 13.A.1 a 13.A.11 | 13.7.1 a 13.7.11 | Imagiologia — exames de imagem |
 | 13.B.1 a 13.B.11 | 13.8.1 a 13.8.11 | Procedimentos e tecnologias |
 | 13.D.1 a 13.D.6 | 13.9.1 a 13.9.6 | Outros serviços de apoio |
+
+## Secção 11 com numeração só de números (16 de Novembro de 2026)
+
+Os códigos com letras e a fisioterapia, que estava fora de ordem, passam a números sequenciais, pela ordem da página.
+
+| Antes | Agora | Quesito |
+|---|---|---|
+| 11.A (linhas 11.1 a 11.28 e 11.35) | 11.1 a 11.29 | Especialidades clínicas |
+| 11.1 a 11.11 | 11.1 a 11.11 | Medicina geral a fisiatria (sem mudança) |
+| 11.35 | 11.12 | Fisioterapia |
+| 11.12 a 11.28 | 11.13 a 11.29 | Gastroenterologia a urologia |
+| 11.E.0 | 11.30 | Sobreviventes de violência — porta |
+| 11.E.1 a 11.E.4 (e linhas 11.E.3.n) | 11.30.1 a 11.30.4 (e 11.30.3.n) | Serviços e prestações aos sobreviventes de violência |
+| 11.29 (e 11.29.1…, 11.29.2…) | 11.31 (e 11.31.1…, 11.31.2…) | Cirurgia |
+| 11.30 a 11.34 | 11.32 a 11.36 | Cirurgia de especialidade |

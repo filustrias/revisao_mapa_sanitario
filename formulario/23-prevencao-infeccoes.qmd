@@ -531,7 +531,7 @@ Todo o pessoal responsável pela limpeza recebeu formação?
 - Percentagem de unidades sanitárias com equipamento de esterilização observado e a funcionar, ou com envio do material para esterilizar fora.
   - **Numerador:** unidades com resposta 1, 2 ou 3 em 10.2 e, em 23.17, autoclave eléctrica (linha 1) ou estufa eléctrica (linha 2) com A = 1 e B = 1, ou autoclave não eléctrica e fonte de calor (linhas 3 e 4) ambas com A = 1 e B = 1; ou unidades com resposta 4 em 10.2.
   - **Denominador:** todas as unidades sanitárias inquiridas.
-- O mesmo indicador entre as unidades com partos (17.2 = 1) e entre as unidades com grande cirurgia (11.29.2 = 1, 2 ou 3).
+- O mesmo indicador entre as unidades com partos (17.2 = 1) e entre as unidades com grande cirurgia (11.31.2 = 1, 2 ou 3).
 
 **Desagregação:** categoria da unidade (2.6) e província.
 
@@ -546,7 +546,7 @@ Todo o pessoal responsável pela limpeza recebeu formação?
 |---|---|---|---|
 | Linhas 23.17.1 a 23.17.4, colunas A e B, com 10.2 | 2.5.1.1.8 | Unidades com equipamento de esterilização na unidade ou com sistema de envio do material para esterilizar fora<br>*Percentage of facilities with sterilization equipment in facility or system for sending items outside for sterilization* | ((Q1223 = 1, 2, 3 ou 6) e ((Q1225_1A = 1 e Q1225_1B = 1) ou (Q1225_2A = 1 e Q1225_2B = 1) ou (Q1225_3A = 1 e Q1225_3B = 1 e Q1225_4A = 1 e Q1225_4B = 1))) ou Q1223 = 4; todas as unidades. Aqui Q1223 é 10.2 |
 | O mesmo, entre as unidades com partos (17.2) | 3.1.3.3.7 | Unidades com partos que têm equipamento de esterilização<br>*Percentage of facilities offering delivery services with sterilization equipment* | Q1225 como acima; unidades com partos |
-| O mesmo, entre as unidades com grande cirurgia (11.29.2) | 3.4.2.6.11 | Unidades com grande cirurgia que têm equipamento de esterilização ou envio para fora<br>*Percentage of facilities offering major surgery with sterilization equipment in facility or system for sending items outside for sterilization* | Como 2.5.1.1.8; unidades com grande cirurgia |
+| O mesmo, entre as unidades com grande cirurgia (11.31.2) | 3.4.2.6.11 | Unidades com grande cirurgia que têm equipamento de esterilização ou envio para fora<br>*Percentage of facilities offering major surgery with sterilization equipment in facility or system for sending items outside for sterilization* | Como 2.5.1.1.8; unidades com grande cirurgia |
 :::
 
 ::: {.enunciado .rotulado}
@@ -584,7 +584,7 @@ Agora queria ver o equipamento usado para esterilizar ou para a desinfecção de
 **Indicadores.** Para cada artigo da grelha: percentagem de unidades sanitárias com o artigo disponível e observado, com pelo menos um dentro do prazo de validade.
 
 - **Numerador:** unidades com resposta 1 na linha (para as luvas, as batas e os outros artigos agrupados no mesmo indicador, resposta 1 em pelo menos uma das linhas do grupo).
-- **Denominador:** todas as unidades sanitárias inquiridas; para as luvas esterilizadas na pequena cirurgia, unidades com pequena cirurgia (11.29.1 = 1).
+- **Denominador:** todas as unidades sanitárias inquiridas; para as luvas esterilizadas na pequena cirurgia, unidades com pequena cirurgia (11.31.1 = 1).
 - **Desagregação:** categoria da unidade (2.6) e província.
 
 **Leitura.** Só a resposta 1 conta; numa recolha sem visita só se podem marcar as respostas 3, 4 e 5, por isso o indicador só se calcula para as unidades com recolha presencial e observação (1.4 = 1). A resposta 4 (não disponível hoje) mostra rupturas; a resposta 5, artigos que a unidade nunca teve.
@@ -605,7 +605,7 @@ Agora queria ver o equipamento usado para esterilizar ou para a desinfecção de
 | Linha 23.18.8 · resposta 1 | 2.5.1.2.8 | Unidades com toucas<br>*Percentage of facilities with hair covers* | Q3003_8 = 1 ou o mesmo artigo nos serviços; todas as unidades. Aqui só o armazém |
 | Linha 23.18.10 · resposta 1 | 2.5.1.2.1 | Unidades com luvas (quaisquer)<br>*Percentage of facilities with gloves (any)* | Q3003_10 = 1 ou Q3001_22 = 1 ou luvas nos serviços; todas as unidades. Aqui só as luvas esterilizadas do armazém; as luvas não esterilizadas são o artigo 22 da lista 3001, que este formulário não tem |
 | Linha 23.18.10 · resposta 1 | 2.4.2.1.11 | Unidades com luvas de exame de látex, de uso único<br>*Percentage of facilities with examination gloves, latex, single use* | Mesmo cálculo de 2.5.1.2.1; todas as unidades |
-| Linha 23.18.10 · resposta 1 | 3.4.1.2.3 | Unidades com pequena cirurgia que têm luvas de látex esterilizadas<br>*Percentage of facilities offering minor surgery with latex gloves (sterile)* | Q3003_10 = 1; unidades com pequena cirurgia (aqui 11.29.1 = 1) |
+| Linha 23.18.10 · resposta 1 | 3.4.1.2.3 | Unidades com pequena cirurgia que têm luvas de látex esterilizadas<br>*Percentage of facilities offering minor surgery with latex gloves (sterile)* | Q3003_10 = 1; unidades com pequena cirurgia (aqui 11.31.1 = 1) |
 | Linha 23.18.11 · resposta 1 | 2.5.1.1.9 | Unidades com desinfectante de superfícies<br>*Percentage of facilities with environmental disinfectant* | Q3003_11 = 1 ou o mesmo artigo nos serviços; todas as unidades. Aqui só o armazém |
 | Linha 23.18.17 · resposta 1 | 2.5.1.1.7 | Unidades com seringas descartáveis de uso único ou autobloqueáveis<br>*Percentage of facilities with single use standard disposable or auto-disable syringes* | Q3003_17 = 1 ou o mesmo artigo nos serviços ou na vacinação (Q2108_1); todas as unidades. Aqui só o armazém |
 | Linhas 23.18.9 e 23.18.12 a 23.18.16 | — | Sem indicador do catálogo | Itens da lista 3003 do questionário |
