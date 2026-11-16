@@ -370,9 +370,15 @@ ul.task-list li input[type="checkbox"] {
 
         <option>DNH</option>
 
-        <option>Direção provincial</option>
+        <option>Gabinete Provincial</option>
+
+        <option>Hospital Municipal ou Provincial</option>
+
+        <option>Centro de Saúde</option>
 
         <option>Unidade sanitária</option>
+
+        <option>Nações Unidas</option>
 
       </select>
 
@@ -480,7 +486,15 @@ ul.task-list li input[type="checkbox"] {
 
   function revisor() {
 
-    try { return JSON.parse(localStorage.getItem(CHAVE)) || null; } catch (e) { return null; }
+    let quem = null;
+
+    try { quem = JSON.parse(localStorage.getItem(CHAVE)) || null; } catch (e) { return null; }
+
+    // «Direção provincial» passou a chamar-se «Gabinete Provincial» no Forms
+
+    if (quem && quem.instituicao === "Direção provincial") quem.instituicao = "Gabinete Provincial";
+
+    return quem;
 
   }
 

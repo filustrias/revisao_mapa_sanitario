@@ -2,7 +2,7 @@
 title: "Secção 14 — Farmácia e medicamentos"
 ---
 
-Serviço de farmácia, quem dispensa os medicamentos, a lista de produtos farmacêuticos do instrumento internacional — 232 produtos, em dez grupos de medicamentos gerais e seis blocos condicionais — os locais de armazenamento e de dispensa e o fraccionamento dos medicamentos.
+Serviço de farmácia, quem dispensa os medicamentos, a lista de produtos farmacêuticos do instrumento internacional — 241 produtos, em dez grupos de medicamentos gerais e seis blocos condicionais — os locais de armazenamento e de dispensa e o fraccionamento dos medicamentos.
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
@@ -23,7 +23,7 @@ Serviço de farmácia, quem dispensa os medicamentos, a lista de produtos farmac
 | 14.12.1 a 14.12.9 | Medicamentos gerais — Materno-neonatal (9 produtos) [(3 indicadores do HHFA da lista traçadora)]{.hhfa} |
 | 14.13 | Ocitocina guardada em frio [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 14.14.1 a 14.14.11 | Medicamentos gerais — Medicamentos para anestesia (11 produtos) [(sem indicador da lista traçadora)]{.hhfa} |
-| 14.15.1 a 14.15.5 | Medicamentos gerais — Fluidos intravenosos (8 produtos; o soro fisiológico em quatro volumes) [(sem indicador da lista traçadora)]{.hhfa} |
+| 14.15.1 a 14.15.5 | Medicamentos gerais — Fluidos intravenosos (17 produtos; o soro fisiológico, a dextrose e o lactato de Ringer em quatro volumes cada) [(sem indicador da lista traçadora)]{.hhfa} |
 | 14.16 | Antimaláricos: porta do bloco [(medida própria do Mapa Sanitário)]{.hhfa} |
 | 14.17.1 a 14.17.4 | Antimaláricos — primeira linha (4 produtos) [(1 indicadores do HHFA da lista traçadora)]{.hhfa} |
 | 14.18.1 a 14.18.14 | Antimaláricos — outros (14 produtos) [(1 indicadores do HHFA da lista traçadora)]{.hhfa} |
@@ -1025,9 +1025,9 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 **Códigos do questionário HHFA** (`Q12511`, versão Core de 2022), linha a linha, como no inventário `hhfa-terapeuticas_novo.md`. São os códigos de três letras impressos na margem do questionário; não têm tabela de conversão para a numeração do catálogo:
 
 - 14.15.1.1 a 14.15.1.4 (01) — BAC, BAT, BDV, BQF, CHA, CQN, MEC, MEL, MEM, LOY, LOZ, OAO, OAY, OAZ, MZP, MZY, MZZ, KWP, KWY, KWZ, MDB, MDL, MDM
-- 14.15.2 (02) — BAC, BDV, BQF, MEC, MEL, MEM, OAO, OAY, OAZ, MZP, MZY, MZZ
-- 14.15.3 (03) — BAC, BDV, BQF, CHA, CQN, MEC, MEL, MEM, OAO, OAY, OAZ, MZP, MZY, MZZ, KWP, KWY, KWZ, MDB, MDL, MDM
-- 14.15.4 (04) — BAC, BDV, BQF, MEC, MEL, MEM, OAO, OAY, OAZ, MZP, MZY, MZZ
+- 14.15.2.1 a 14.15.2.4 (02) — BAC, BDV, BQF, MEC, MEL, MEM, OAO, OAY, OAZ, MZP, MZY, MZZ
+- 14.15.3.1 a 14.15.3.4 (03) — BAC, BDV, BQF, CHA, CQN, MEC, MEL, MEM, OAO, OAY, OAZ, MZP, MZY, MZZ, KWP, KWY, KWZ, MDB, MDL, MDM
+- 14.15.4.1 a 14.15.4.4 (04) — BAC, BDV, BQF, MEC, MEL, MEM, OAO, OAY, OAZ, MZP, MZY, MZZ
 - 14.15.5 (05) — CQO, MDB, MDL, MDM
 :::
 
@@ -1052,9 +1052,18 @@ Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabel
 | 14.15.1.2 | Cloreto de sódio a 0,9% (soro fisiológico), 250 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.15.1.3 | Cloreto de sódio a 0,9% (soro fisiológico), 500 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.15.1.4 | Cloreto de sódio a 0,9% (soro fisiológico), 1000 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
-| 14.15.2 | Dextrose a 5% em soro fisiológico (D5NS) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
-| 14.15.3 | Lactato de sódio (lactato de Ringer) (RL) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
-| 14.15.4 | Dextrose a 5% em água (D5W) | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.2.1 | Dextrose a 5% em soro fisiológico (D5NS), 100 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.2.2 | Dextrose a 5% em soro fisiológico (D5NS), 250 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.2.3 | Dextrose a 5% em soro fisiológico (D5NS), 500 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.2.4 | Dextrose a 5% em soro fisiológico (D5NS), 1000 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.3.1 | Lactato de sódio (lactato de Ringer) (RL), 100 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.3.2 | Lactato de sódio (lactato de Ringer) (RL), 250 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.3.3 | Lactato de sódio (lactato de Ringer) (RL), 500 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.3.4 | Lactato de sódio (lactato de Ringer) (RL), 1000 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.4.1 | Dextrose a 5% em água (D5W), 100 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.4.2 | Dextrose a 5% em água (D5W), 250 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.4.3 | Dextrose a 5% em água (D5W), 500 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
+| 14.15.4.4 | Dextrose a 5% em água (D5W), 1000 mL | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 | 14.15.5 | Nutrição parenteral | ☐1 ☐2 ☐3 | ☐1 ☐2 ☐3 |
 :::
 
