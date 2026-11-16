@@ -1,0 +1,18 @@
+---
+title: "Antigo formulário"
+subtitle: "Ficha de Cadastramento de Unidades Sanitárias, versão 19_01"
+---
+
+Esta é a ficha com que o Gabinete de Estudos, Planeamento e Estatística do Ministério da Saúde regista as unidades sanitárias do Sistema Nacional de Saúde: a versão 19_01, de Janeiro de 2019, em quatro páginas, com as respostas já codificadas para introdução em sistema.
+
+Fica aqui na forma em que circula, para que se possa consultar ao lado do novo formulário. Nas secções do novo formulário, a etiqueta de cada quesito indica se ele se mantém, foi alterado ou é novo em relação a esta ficha.
+
+::: {.pdf-visor .column-page}
+<iframe src="documentos/ficha-cadastramento-19_01.pdf#zoom=page-width" title="Ficha de Cadastramento de Unidades Sanitárias, versão 19_01"></iframe>
+:::
+
+[Abrir a ficha em separado](documentos/ficha-cadastramento-19_01.pdf){.pdf-ligacao target="_blank"}
+
+## De onde vem
+
+Ministério da Saúde de Angola, Gabinete de Estudos, Planeamento e Estatística (GEPE), Departamento de Estudos e Estatística. *Ficha de Cadastramento de Unidades Sanitárias do Sistema Nacional de Saúde*, versão 19_01. Quatro páginas.

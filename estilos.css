@@ -3,6 +3,29 @@
    O tema (cosmo) é só claro: as cores abaixo não mudam com o modo escuro do sistema,
    senão as caixas escurecem e o texto do tema continua escuro. */
 
+/* Visor do PDF da ficha antiga (Antigo formulário) */
+.pdf-visor {
+  margin: 1.5rem 0 0.9rem;
+  border: 1px solid var(--ms-regra);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--ms-fundo-enunciado);
+}
+.pdf-visor iframe { display: block; width: 100%; height: 78vh; min-height: 420px; border: 0; }
+.pdf-ligacao {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 0.92rem;
+  padding: 7px 14px;
+  border: 1px solid var(--ms-regra);
+  border-radius: 8px;
+  text-decoration: none;
+}
+.pdf-ligacao:hover { border-color: var(--ms-borda-medir); }
+@media (max-width: 48rem) {
+  .pdf-visor iframe { height: 50vh; min-height: 260px; }
+}
+
 :root {
   color-scheme: light;
   --ms-texto: #1f2933;

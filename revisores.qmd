@@ -21,7 +21,7 @@ Não precisa de comentar todos os quesitos. Se não houver problema no quesito, 
 
 **Não precisa de rever tudo**
 
-Se não tiver tempo, vá directamente à secção de maior interesse para si e àquela em que tem maior experiência e envolvimento. A lista está em [Sobre o formulário](formulario.qmd).
+Se não tiver tempo, vá directamente à secção de maior interesse para si e àquela em que tem maior experiência e envolvimento. A lista está em [Novo formulário](formulario.qmd).
 :::
 
 ::: {.rev-cartao .rev-amarelo}

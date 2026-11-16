@@ -4,6 +4,7 @@ project:
   resources:
     - .nojekyll
     - unidade_sanitaria_rural.jpeg
+    - documentos/ficha-cadastramento-19_01.pdf
 
 lang: pt
 
@@ -21,6 +22,7 @@ book:
       href: index.qmd
     - apresentacao.qmd
     - revisores.qmd
+    - formulario-antigo.qmd
     - formulario.qmd
     - formulario/01-identificacao.qmd
     - formulario/02-localizacao.qmd
