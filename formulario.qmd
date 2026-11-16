@@ -4,7 +4,7 @@ title: "Novo formulário"
 
 {{< include _legenda.qmd >}}
 
-O formulário está dividido em 22 secções, pela ordem em que o inquiridor o percorre. Cada secção pode ser lida e discutida por si, numa sessão de revisão.
+O formulário está dividido em 23 secções, pela ordem em que o inquiridor o percorre. Cada secção pode ser lida e discutida por si, numa sessão de revisão.
 
 Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário curto já com o código do quesito preenchido. As [Orientações aos revisores](revisores.qmd) explicam como comentar.
 
@@ -33,4 +33,5 @@ Cada quesito tem ao lado um botão **💬 Comentar**, que abre um formulário cu
 | [Secção 20](formulario/20-gestao.qmd) | Gestão. Propriedade, órgãos de gestão, revisão de óbitos, controlo de infecções, qualidade e opinião dos utentes. |
 | [Secção 21](formulario/21-servicos-gerais.qmd) | Serviços gerais. Serviços de apoio, como cozinha, lavandaria, morgue, limpeza e segurança. |
 | [Secção 22](formulario/22-manutencao.qmd) | Manutenção da infraestrutura e do equipamento. Serviço de manutenção, manutenção dos sistemas de infraestrutura e do equipamento médico, de esterilização e de laboratório, e quem a faz. |
+| [Secção 23](formulario/23-prevencao-infeccoes.qmd) | Prevenção e controlo de infecções. Avaliação da prevenção e controlo de infecções e da higiene das mãos, normas, pessoal e formação, limpeza, equipamento de esterilização e artigos de protecção. |
 :::

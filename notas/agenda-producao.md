@@ -14,6 +14,7 @@ Trabalha-se um ponto de cada vez: cada ponto é feito, publicado e revisto antes
 5A. **Alinhamento com o questionário do HHFA.** Secção 4 (4.1 a 4.5), 8.4.1 (24 horas) e armazenamento (14.32 e 14.33) passaram a ser a tradução de Q1227 a Q1233 e de Q3134 a Q3154.
 5B. **Secção 7.** Passa a «Gestão da informação, conectividade e meios informáticos»: 7.3.2 para todas as unidades, 7.3.7 a 7.3.12, 7.4.3, 7.4.4 e subsecções 7.5 a 7.7. A cadeia de arquivo e reporte saiu do parqueamento da secção 20.
 5C. **Fim dos parqueamentos.** Capítulo «Antigo formulário» com a Ficha 19_01; orçamento próprio (20.1.3) deixa de estar parqueado; comité de gestão (20.2.2 + 20.2.6) sai; manutenção passa a secção 22 (22.1 a 22.10, tradução de Q803 a Q811).
+5D. **Prevenção e controlo de infecções.** Secção 23 (Q733 a Q751, Q1225 e lista Q3003); 7.7.3.1 com a CIF, a ICHI e a CIAP-2; 13.C.V retirado; código 98 uniformizado.
 
 ## A fazer
 

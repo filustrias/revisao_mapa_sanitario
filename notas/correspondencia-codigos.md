@@ -262,6 +262,25 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 22.8.1 a 22.8.11 | — | Manutenção de cada equipamento | 22 |
 | 22.9.1 a 22.9.4 | — | Quem faz a manutenção do equipamento | 22 |
 | 22.10 | — | Pequeno equipamento médico | 22 |
+| 7.7.3.1 | — | Outras classificações (CIF, ICHI, CIAP-2) | 7 |
+| 23.1 | — | Avaliação da prevenção e controlo de infecções — porta | 23 |
+| 23.2.1 e 23.2.2 | — | Quadro usado na avaliação | 23 |
+| 23.3 | — | Ano da avaliação mais recente | 23 |
+| 23.4 | — | Resultado da avaliação mais recente | 23 |
+| 23.5 | — | Avaliação da higiene das mãos — porta | 23 |
+| 23.6.1 e 23.6.2 | — | Quadro usado na avaliação da higiene das mãos | 23 |
+| 23.7 | — | Ano da avaliação mais recente da higiene das mãos | 23 |
+| 23.8 | — | Resultado da avaliação mais recente da higiene das mãos | 23 |
+| 23.9 | — | Normas de prevenção e controlo de infecções | 23 |
+| 23.10 | — | Normas de isolamento | 23 |
+| 23.11 | — | Pessoal designado para a monitorização — porta | 23 |
+| 23.12 | — | Formação do pessoal encarregado da monitorização | 23 |
+| 23.13 | — | Registo das reuniões ou relatório | 23 |
+| 23.14.1 a 23.14.4 | — | Formação em higiene das mãos | 23 |
+| 23.15 | — | Normas de limpeza da unidade | 23 |
+| 23.16 | — | Formação do pessoal de limpeza | 23 |
+| 23.17.1 a 23.17.4 | — | Equipamento de esterilização ou de desinfecção de alto nível | 23 |
+| 23.18.1 a 23.18.17 | — | Artigos de protecção e de precauções padrão | 23 |
 
 ## Reorganização da secção 20 (3 de Novembro de 2026)
 
@@ -324,3 +343,7 @@ A linha 21.6 (manutenção) da lista dos serviços gerais passou a 22.1; o bloco
 | Antes | Agora | Quesito |
 |---|---|---|
 | 21.6 | 22.1 | Serviço de manutenção |
+
+## Prevenção e controlo de infecções e outras classificações (16 de Novembro de 2026)
+
+Nova secção 23 (23.1 a 23.18.17), tradução das perguntas 733 a 751, 1225 e da lista 3003 do HHFA. Novo quesito 7.7.3.1 (pergunta 1127 do HHFA, com a CIAP-2). Saiu 13.C.V (destino da amostra).

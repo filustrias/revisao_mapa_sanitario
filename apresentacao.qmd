@@ -11,7 +11,7 @@ As páginas seguintes mostram, secção a secção e quesito a quesito, **o que 
 O que este documento **não** é: não é a justificação técnica de cada decisão de desenho. Essa está na matriz de decisão da adaptação, uma folha de cálculo com uma linha por quesito, que registra o item original, o item proposto, o tipo de mudança, a explicação da decisão e o seu estado. A matriz é a fonte; este documento é a face legível dela.
 
 ::: {.callout-note appearance="simple"}
-**Estado da proposta.** O formulário está organizado em 22 secções, por tema e pela ordem em que o inquiridor o percorre. Os quesitos estão numerados de forma sequencial. Alguns quesitos aguardam decisão; estão assinalados no texto e listados no fim desta nota.
+**Estado da proposta.** O formulário está organizado em 23 secções, por tema e pela ordem em que o inquiridor o percorre. Os quesitos estão numerados de forma sequencial. Alguns quesitos aguardam decisão; estão assinalados no texto e listados no fim desta nota.
 :::
 
 ## Um formulário único para toda a rede

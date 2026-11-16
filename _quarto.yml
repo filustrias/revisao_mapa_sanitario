@@ -46,6 +46,7 @@ book:
     - formulario/20-gestao.qmd
     - formulario/21-servicos-gerais.qmd
     - formulario/22-manutencao.qmd
+    - formulario/23-prevencao-infeccoes.qmd
 
 format:
   html:

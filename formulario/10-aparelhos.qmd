@@ -220,7 +220,7 @@ Como é habitualmente esterilizado o material reutilizável desta unidade sanit�
 :::
 
 ::: {.nota .interno}
-**Porque mudou.** A caixa «esterilização» da lista de serviços de apoio (antigo 12.14, parqueado) passa para junto do esterilizador, e a pergunta muda de «existe serviço de esterilização?» para «como se esteriliza o material?». O indicador internacional é declarado e calcula-se do método e do equipamento a funcionar, que já se conta em 10.1.1 — por isso deixa de estar parqueado. O que exige observação — o autoclave a funcionar no dia da visita, o indicador de processo, a formação do pessoal — fica para o bloco de prevenção e controlo de infecções.
+**Porque mudou.** A caixa «esterilização» da lista de serviços de apoio (antigo 12.14, parqueado) passa para junto do esterilizador, e a pergunta muda de «existe serviço de esterilização?» para «como se esteriliza o material?». O indicador internacional é declarado e calcula-se do método e do equipamento a funcionar, que já se conta em 10.1.1 — por isso deixa de estar parqueado. A observação do equipamento de esterilização a funcionar no dia da visita está em 23.17.
 :::
 
 ## 10.3 Observações [MANTÉM-SE]{.etiqueta .mantem}

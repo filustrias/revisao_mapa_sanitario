@@ -18,4 +18,4 @@ Este documento apresenta a proposta de revisão do instrumento de coleta de dado
 | [Nota de apresentação](apresentacao.qmd) | O que é este documento, como ler um quesito e as convenções do formulário |
 | [Orientações aos revisores](revisores.qmd) | O que se pede a cada revisor e como enviar comentários |
 | [Antigo formulário](formulario-antigo.qmd) | A Ficha de Cadastramento 19_01, tal como está em uso |
-| [Novo formulário](formulario.qmd) | As 22 secções do formulário, com ligação a cada uma |
+| [Novo formulário](formulario.qmd) | As 23 secções do formulário, com ligação a cada uma |

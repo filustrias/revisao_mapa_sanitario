@@ -610,7 +610,7 @@ Existem nesta unidade normas escritas ou instruções de trabalho sobre a gestã
 :::
 
 ::: {.nota .interno}
-Duas caixas, dois indicadores, e a ligação ao bloco de prevenção e controlo de infecções — que fica parqueado, mas de que estas duas perguntas são a parte que se responde por declaração.
+Duas caixas, dois indicadores, e a ligação à prevenção e controlo de infecções da secção 23, de que estas duas perguntas são a parte que se responde por declaração.
 :::
 
 ## 6.8 Formação em gestão de resíduos [NOVO]{.etiqueta .novo}
