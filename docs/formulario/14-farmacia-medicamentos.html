@@ -637,7 +637,7 @@ O que este quesito permite medir
 <li><strong>Numerador:</strong> unidades com «Sim» em 14.4.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas.</li>
 </ul>
-<p><strong>Indicadores compostos</strong>, calculados com as grelhas 14.5 a 14.31 sobre os produtos da lista de medicamentos essenciais traçadores: percentagem média de produtos traçadores disponíveis e dentro da validade por unidade; e percentagem de unidades com todos os produtos traçadores disponíveis. Numerador: código 1 da escala A; denominador: todas as unidades inquiridas.</p>
+<p><strong>Indicadores compostos</strong>, calculados com as grelhas 14.5 a 14.31 sobre os produtos da lista de medicamentos essenciais traçadores: percentagem média de produtos traçadores disponíveis e dentro da validade por unidade; e percentagem de unidades com todos os produtos traçadores disponíveis. Calculam-se em duas versões: a declarada (código 1 na coluna A; todas as unidades inquiridas) e a verificada (código 1 na coluna B; unidades com recolha com visita, 1.4 = 1).</p>
 <p><strong>Função no formulário.</strong> Abre a lista de produtos farmacêuticos. As unidades com «Não» saltam as grelhas 14.5 a 14.31 e contam, nos indicadores de disponibilidade, como unidades sem nenhum dos produtos.</p>
 </details>
 <div class="hhfa fonte-indicadores">
@@ -659,7 +659,7 @@ O que este quesito permite medir
 </thead>
 <tbody>
 <tr class="odd">
-<td>Calculado com todas as linhas da lista traçadora (as que têm código 2.4.1.1.x), escala A</td>
+<td>Calculado com todas as linhas da lista traçadora (as que têm código 2.4.1.1.x), coluna B</td>
 <td>2.4.1.1.36</td>
 <td>Medicamentos essenciais: percentagem média de produtos disponíveis<br><em>Essential medicines: mean percentage of items at facilities</em></td>
 <td>Média da proporção de produtos com código 1; todas as unidades. A versão de 2022 não tem linha para a levotiroxina (2.4.1.1.35) nem para a nistatina (2.4.1.1.34)</td>
@@ -686,7 +686,7 @@ O que este quesito permite medir
 </ol>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — Se a resposta for «Não», saltar para a secção 15. Se for «Sim», pedir para ver a área principal de armazenamento dos produtos farmacêuticos.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — Se a resposta for «Não», saltar para a secção 15. Se for «Sim» e a recolha for com visita (1.4 = 1), pedir para ver a área principal de armazenamento dos produtos farmacêuticos.</p>
 </div>
 <div class="nota interno">
 <p><strong>Porque entra.</strong> A lista de produtos farmacêuticos segue, linha a linha, a secção 22 do questionário de prontidão do instrumento internacional (versão Core de Janeiro de 2022), com os rótulos em português do inventário <code>hhfa-terapeuticas_novo.md</code>. A lista deve ser validada contra a Lista Nacional de Medicamentos Essenciais, que está pedida ao MINSA, e é preciso decidir a versão do instrumento (2022 ou 2023), porque as listas não coincidem.</p>
@@ -700,13 +700,18 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.5.1 a 14.5.28): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.5.1 a 14.5.28): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
 </ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
+</ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -727,34 +732,34 @@ O que este quesito permite medir
 </thead>
 <tbody>
 <tr class="odd">
-<td>Linhas 14.5.2, 14.5.3 — escala A, código 1 em pelo menos uma</td>
+<td>Linhas 14.5.2, 14.5.3 — coluna B, código 1 em pelo menos uma</td>
 <td>2.4.1.1.15</td>
 <td>Unidades com amoxicilina, comprimido/cápsula<br><em>Percentage of facilities with amoxicillin tab/cap</em></td>
-<td>Q3103_2 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3103_2 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="even">
-<td>Linhas 14.5.8, 14.5.25 — escala A, código 1 em pelo menos uma</td>
+<td>Linhas 14.5.8, 14.5.25 — coluna B, código 1 em pelo menos uma</td>
 <td>2.4.1.1.16</td>
 <td>Unidades com penicilina procaína ou benzatina, injectável<br><em>Percentage of facilities with procaine penicillin or benzathine penicillin injection</em></td>
-<td>Q3103_7 = 1 ou Q3103_25 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3103_7 = 1 ou Q3103_25 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="odd">
-<td>Linha 14.5.10 — escala A, código 1</td>
+<td>Linha 14.5.10 — coluna B, código 1</td>
 <td>2.4.1.1.18</td>
 <td>Unidades com ceftriaxona, injectável<br><em>Percentage of facilities with ceftriaxone injection</em></td>
-<td>Q3103_9 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3103_9 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="even">
-<td>Linha 14.5.16 — escala A, código 1</td>
+<td>Linha 14.5.16 — coluna B, código 1</td>
 <td>2.4.1.1.33</td>
 <td>Unidades com fluconazol<br><em>Percentage of facilities with fluconazole tab/cap</em></td>
-<td>Q3103_15 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3103_15 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="odd">
-<td>Linha 14.5.18 — escala A, código 1</td>
+<td>Linha 14.5.18 — coluna B, código 1</td>
 <td>2.4.1.1.17</td>
 <td>Unidades com gentamicina, injectável<br><em>Percentage of facilities with gentamicin injection</em></td>
-<td>Q3103_17 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3103_17 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 </tbody>
 </table>
@@ -792,166 +797,197 @@ O que este quesito permite medir
 </div>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
-<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p><strong>Só na recolha com visita:</strong> Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.5.1</td>
 <td>Albendazol ou mebendazol, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.5.2</td>
 <td>Amoxicilina, comprimido/cápsula (500 mg) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.15</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.5.3</td>
 <td>Amoxicilina, comprimido (250 mg) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.15</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.5.4</td>
 <td>Amoxicilina, suspensão ou comprimido dispersível (250 ou 500 mg)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.5.5</td>
 <td>Ampicilina, pó para injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.5.6</td>
 <td>Anfotericina, injectável [MEDICAMENTO IV PARA INFECÇÃO FÚNGICA]</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.5.7</td>
 <td>Azitromicina, comprimido ou suspensão</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.5.8</td>
 <td>Benzilpenicilina benzatínica, pó para injectável (acção prolongada) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.16</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.5.9</td>
 <td>Cefixima (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.5.10</td>
 <td>Ceftriaxona, injectável <span class="hhfa cod-hhfa">HHFA 2.4.1.1.18</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.5.11</td>
 <td>Ciprofloxacina (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.5.12</td>
 <td>Cotrimoxazol (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.5.13</td>
 <td>Cotrimoxazol, xarope ou comprimidos dispersíveis</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.5.14</td>
 <td>Dietilcarbamazina (DEC) (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.5.15</td>
 <td>Doxiciclina, comprimidos</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.5.16</td>
 <td>Fluconazol (cápsula/comprimido) [TRATAMENTO DE CONTINUAÇÃO DA INFECÇÃO FÚNGICA] <span class="hhfa cod-hhfa">HHFA 2.4.1.1.33</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.5.17</td>
 <td>Flucitosina, injectável [MEDICAMENTO IV PARA INFECÇÃO FÚNGICA]</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.5.18</td>
 <td>Gentamicina, injectável <span class="hhfa cod-hhfa">HHFA 2.4.1.1.17</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.5.19</td>
 <td>Ivermectina (oral) (oncocercose)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.5.20</td>
 <td>Metronidazol (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.5.21</td>
 <td>Metronidazol, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.5.22</td>
 <td>Pentamidina (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.5.23</td>
 <td>Permanganato de potássio (tópico)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.5.24</td>
 <td>Praziquantel (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.5.25</td>
 <td>Benzilpenicilina procaínica, injectável <span class="hhfa cod-hhfa">HHFA 2.4.1.1.16</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.5.26</td>
 <td>Vancomicina, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.5.27</td>
 <td>Pomada de Whitfield</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.5.28</td>
 <td>Antibióticos tópicos (ex. povidona iodada, polisporina, bacitracina)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 </tbody>
 </table>
@@ -965,13 +1001,18 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.6.1 a 14.6.5): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.6.1 a 14.6.5): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
 </ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
+</ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -992,16 +1033,16 @@ O que este quesito permite medir
 </thead>
 <tbody>
 <tr class="odd">
-<td>Linha 14.6.1 — escala A, código 1</td>
+<td>Linha 14.6.1 — coluna B, código 1</td>
 <td>2.4.1.1.2</td>
 <td>Unidades com beclometasona ou outro corticóide, inalador<br><em>Percentage of facilities with beclometasone or other corticosteroid inhaler</em></td>
-<td>Q3104_1 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3104_1 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="even">
-<td>Linha 14.6.2 — escala A, código 1</td>
+<td>Linha 14.6.2 — coluna B, código 1</td>
 <td>2.4.1.1.1</td>
 <td>Unidades com salbutamol, inalador<br><em>Percentage of facilities with salbutamol inhaler</em></td>
-<td>Q3104_2 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3104_2 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 </tbody>
 </table>
@@ -1016,51 +1057,59 @@ O que este quesito permite medir
 </div>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
-<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p><strong>Só na recolha com visita:</strong> Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.6.1</td>
 <td>Beclometasona, inalador <span class="hhfa cod-hhfa">HHFA 2.4.1.1.2</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.6.2</td>
 <td>Salbutamol, inalador <span class="hhfa cod-hhfa">HHFA 2.4.1.1.1</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.6.3</td>
 <td>Salbutamol, solução para nebulização</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.6.4</td>
 <td>Medidores de débito expiratório máximo (peak flow)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.6.5</td>
 <td>Câmaras expansoras para inaladores</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 </tbody>
 </table>
@@ -1074,13 +1123,18 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.7.1 a 14.7.9): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.7.1 a 14.7.9): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
 </ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
+</ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1101,16 +1155,16 @@ O que este quesito permite medir
 </thead>
 <tbody>
 <tr class="odd">
-<td>Linhas 14.7.1, 14.7.2, 14.7.3, 14.7.6 — escala A, pelo menos dois dos quatro com código 1</td>
+<td>Linhas 14.7.1, 14.7.2, 14.7.3, 14.7.6 — coluna B, pelo menos dois dos quatro com código 1</td>
 <td>2.4.1.1.6</td>
 <td>Unidades com pelo menos dois de quatro anti-hipertensores (betabloqueante, bloqueador dos canais de cálcio, diurético tiazídico, IECA)<br><em>Percentage of facilities with any two of the following anti-hypertensive tabs/caps: beta blocker, calcium blocker, thiazide-like diuretic, ACE inhibitor</em></td>
-<td>(IFELSE(Q3105_3 = 1, 1, 0) + IFELSE(Q3105_4 = 1, 1, 0) + IFELSE(Q3105_16 = 1, 1, 0) + IFELSE(Q3105_1 = 1, 1, 0))&gt;=2; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>(IFELSE(Q3105_3 = 1, 1, 0) + IFELSE(Q3105_4 = 1, 1, 0) + IFELSE(Q3105_16 = 1, 1, 0) + IFELSE(Q3105_1 = 1, 1, 0))&gt;=2; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="even">
-<td>Linha 14.7.8 — escala A, código 1</td>
+<td>Linha 14.7.8 — coluna B, código 1</td>
 <td>2.4.1.1.7</td>
 <td>Unidades com sinvastatina ou outra estatina<br><em>Percentage of facilities with simvastatin or other statin tab/cap</em></td>
-<td>Q3105_13 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3105_13 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 </tbody>
 </table>
@@ -1129,71 +1183,83 @@ O que este quesito permite medir
 </div>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
-<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p><strong>Só na recolha com visita:</strong> Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.7.1</td>
 <td>Bloqueador dos canais de cálcio (ex. amlodipina), comprimido (oral) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.6</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.7.2</td>
 <td>Betabloqueante (ex. bisoprolol, metoprolol, carvedilol), comprimido (oral) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.6</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.7.3</td>
 <td>Inibidor da ECA (ex. enalapril, captopril, ramipril, lisinopril), comprimido (oral) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.6</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.7.4</td>
 <td>Digoxina, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.7.5</td>
 <td>Trinitrato de glicerilo, comprimido sublingual</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.7.6</td>
 <td>Diurético tiazídico ou similar (ex. hidroclorotiazida, clortalidona, indapamida), comprimido (oral) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.6</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.7.7</td>
 <td>Dinitrato de isossorbida (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.7.8</td>
 <td>Estatina (ex. sinvastatina), comprimido (oral) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.7</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.7.9</td>
 <td>Varfarina (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 </tbody>
 </table>
@@ -1207,13 +1273,18 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.8.1 a 14.8.8): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.8.1 a 14.8.8): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
 </ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
+</ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1234,22 +1305,22 @@ O que este quesito permite medir
 </thead>
 <tbody>
 <tr class="odd">
-<td>Linha 14.8.1 — escala A, código 1</td>
+<td>Linha 14.8.1 — coluna B, código 1</td>
 <td>2.4.1.1.4</td>
 <td>Unidades com metformina<br><em>Percentage of facilities with metformin cap/tab</em></td>
-<td>Q3106_5 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3106_5 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="even">
-<td>Linhas 14.8.2, 14.8.7 — escala A, código 1 em pelo menos uma</td>
+<td>Linhas 14.8.2, 14.8.7 — coluna B, código 1 em pelo menos uma</td>
 <td>2.4.1.1.3</td>
 <td>Unidades com gliclazida ou outra sulfonilureia<br><em>Percentage of facilities with gliclazide or other sulphonylurea tab/cap</em></td>
-<td>Q3106_1 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3106_1 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="odd">
-<td>Linha 14.8.3 — escala A, código 1</td>
+<td>Linha 14.8.3 — coluna B, código 1</td>
 <td>2.4.1.1.5</td>
 <td>Unidades com insulina regular, injectável<br><em>Percentage of facilities with insulin (regular) injection</em></td>
-<td>Q3106_3 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3106_3 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 </tbody>
 </table>
@@ -1267,66 +1338,77 @@ O que este quesito permite medir
 </div>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
-<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p><strong>Só na recolha com visita:</strong> Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.8.1</td>
 <td>Metformina (cápsula/comprimido) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.4</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.8.2</td>
 <td>Glibenclamida, comprimido <span class="hhfa cod-hhfa">HHFA 2.4.1.1.3</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.8.3</td>
 <td>Insulina de acção curta (regular), injectável <span class="hhfa cod-hhfa">HHFA 2.4.1.1.5</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.8.4</td>
 <td>Insulina de acção intermédia (NPH), injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.8.5</td>
 <td>Insulina de acção longa (glargina, detemir), injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.8.6</td>
 <td>Insulina de acção rápida e ultra-rápida (lispro, asparte), injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.8.7</td>
 <td>Gliclazida ou outra sulfonilureia (ex. glipizida), comprimido (oral) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.3</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.8.8</td>
 <td>Glucose a 50%, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 </tbody>
 </table>
@@ -1340,13 +1422,18 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.9.1 a 14.9.4): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.9.1 a 14.9.4): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
 </ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
+</ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1361,46 +1448,53 @@ O que este quesito permite medir
 </div>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
-<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p><strong>Só na recolha com visita:</strong> Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.9.1</td>
 <td>Tamoxifeno, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.9.2</td>
 <td>Ciclofosfamida, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.9.3</td>
 <td>Fluorouracilo (5FU), intravenoso (cancro colorrectal)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.9.4</td>
 <td>Cisplatina, intravenosa (cancro do colo do útero)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 </tbody>
 </table>
@@ -1414,13 +1508,18 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.10.1 a 14.10.51): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.10.1 a 14.10.51): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
 </ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
+</ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1441,64 +1540,64 @@ O que este quesito permite medir
 </thead>
 <tbody>
 <tr class="odd">
-<td>Linha 14.10.1 — escala A, código 1</td>
+<td>Linha 14.10.1 — coluna B, código 1</td>
 <td>2.4.1.1.10</td>
 <td>Unidades com paracetamol<br><em>Percentage of facilities with paracetamol tab/cap</em></td>
-<td>Q3108_17 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3108_17 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="even">
-<td>Linha 14.10.3 — escala A, código 1</td>
+<td>Linha 14.10.3 — coluna B, código 1</td>
 <td>2.4.1.1.8</td>
 <td>Unidades com ácido acetilsalicílico<br><em>Percentage of facilities with aspirin tab/cap</em></td>
-<td>Q3105_2 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3105_2 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="odd">
-<td>Linha 14.10.4 — escala A, código 1</td>
+<td>Linha 14.10.4 — coluna B, código 1</td>
 <td>2.4.1.1.31</td>
 <td>Unidades com adrenalina, injectável<br><em>Percentage of facilities with adrenalin/epinephrine injection</em></td>
-<td>Q3108_1 = 1 OR Q2549_13 = 1 OR Q2658_1 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3108_1 = 1 OR Q2549_13 = 1 OR Q2658_1 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="even">
-<td>Linha 14.10.13 — escala A, código 1</td>
+<td>Linha 14.10.13 — coluna B, código 1</td>
 <td>2.4.1.1.32</td>
 <td>Unidades com dexametasona, injectável<br><em>Percentage of facilities with dexamethasone injection</em></td>
-<td>Q2236_3A = 1 OR Q3108_5 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q2236_3A = 1 OR Q3108_5 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="odd">
-<td>Linha 14.10.17 — escala A, código 1</td>
+<td>Linha 14.10.17 — coluna B, código 1</td>
 <td>2.4.1.1.27</td>
 <td>Unidades com ácido fólico<br><em>Percentage of facilities with folic acid tab/cap</em></td>
-<td>Q3110_7 = 1 ou Q3110_6 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3110_7 = 1 ou Q3110_6 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="even">
-<td>Linhas 14.10.19, 14.10.20 — escala A, código 1 em pelo menos uma</td>
+<td>Linhas 14.10.19, 14.10.20 — coluna B, código 1 em pelo menos uma</td>
 <td>2.4.1.1.9</td>
 <td>Unidades com furosemida<br><em>Percentage of facilities with furosemide tab/cap or injection</em></td>
-<td>Q3105_9 = 1 OR Q3105_8 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3105_9 = 1 OR Q3105_8 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="odd">
-<td>Linha 14.10.26 — escala A, código 1</td>
+<td>Linha 14.10.26 — coluna B, código 1</td>
 <td>2.4.1.1.11</td>
 <td>Unidades com ibuprofeno<br><em>Percentage of facilities with ibuprofen tab/cap</em></td>
-<td>Q3108_10 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3108_10 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="even">
-<td>Linhas 14.10.32, 14.10.33 — escala A, código 1 em pelo menos uma</td>
+<td>Linhas 14.10.32, 14.10.33 — coluna B, código 1 em pelo menos uma</td>
 <td>2.4.1.1.12</td>
 <td>Unidades com morfina, oral ou injectável<br><em>Percentage of facilities with morphine (oral or injectable)</em></td>
-<td>Q2658_16 = 1 OR Q3108_14 = 1 OR Q3108_15 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q2658_16 = 1 OR Q3108_14 = 1 OR Q3108_15 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="odd">
-<td>Linha 14.10.35 — escala A, código 1</td>
+<td>Linha 14.10.35 — coluna B, código 1</td>
 <td>2.4.1.1.24</td>
 <td>Unidades com sais de reidratação oral<br><em>Percentage of facilities with oral rehydration salts (ORS)</em></td>
-<td>Q3110_15 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3110_15 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="even">
-<td>Linhas 14.10.50, 14.10.51 — escala A, código 1 em pelo menos uma</td>
+<td>Linhas 14.10.50, 14.10.51 — coluna B, código 1 em pelo menos uma</td>
 <td>2.4.1.1.25</td>
 <td>Unidades com sulfato de zinco<br><em>Percentage of facilities with zinc sulfate tab or syrup</em></td>
-<td>Q3110_17 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3110_17 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 </tbody>
 </table>
@@ -1559,281 +1658,335 @@ O que este quesito permite medir
 </div>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
-<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p><strong>Só na recolha com visita:</strong> Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.10.1</td>
 <td>Paracetamol (acetaminofeno) (cápsula/comprimido) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.10</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.2</td>
 <td>Paracetamol, xarope/suspensão</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.3</td>
 <td>Ácido acetilsalicílico (aspirina) (oral) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.8</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.4</td>
 <td>Adrenalina (epinefrina), injectável <span class="hhfa cod-hhfa">HHFA 2.4.1.1.31</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.5</td>
 <td>Atropina, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.6</td>
 <td>Betametasona, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.7</td>
 <td>Buprenorfina (Buprenex), analgésico narcótico (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.8</td>
 <td>Gluconato de cálcio, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.9</td>
 <td>Cloreto de cálcio, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.10</td>
 <td>Diazepam, supositório/gel</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.11</td>
 <td>Diazepam (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.12</td>
 <td>Diazepam, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.13</td>
 <td>Dexametasona, injectável <span class="hhfa cod-hhfa">HHFA 2.4.1.1.32</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.14</td>
 <td>Dopamina, injectável [ADAPTAR AO PAÍS — VASOPRESSOR]</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.15</td>
 <td>Efedrina (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.16</td>
 <td>Sulfato ferroso (ferro) (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.17</td>
 <td>Ácido fólico (cápsula/comprimido) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.27</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.18</td>
 <td>Comprimidos combinados de ferro e ácido fólico</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.19</td>
 <td>Furosemida (cápsula/comprimido) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.9</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.20</td>
 <td>Furosemida, injectável <span class="hhfa cod-hhfa">HHFA 2.4.1.1.9</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.21</td>
 <td>Heparina sódica, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.22</td>
 <td>Hidralazina, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.23</td>
 <td>Hidralazina, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.24</td>
 <td>Hidrocortisona, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.25</td>
 <td>Hioscina (butilbrometo), injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.26</td>
 <td>Ibuprofeno, comprimido <span class="hhfa cod-hhfa">HHFA 2.4.1.1.11</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.27</td>
 <td>Preparação de levodopa/carbidopa (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.28</td>
 <td>Loperamida, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.29</td>
 <td>Metadona (opiáceo usado no tratamento da dependência) (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.30</td>
 <td>Metildopa, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.31</td>
 <td>Metoclopramida, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.32</td>
 <td>Morfina, injectável <span class="hhfa cod-hhfa">HHFA 2.4.1.1.12</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.33</td>
 <td>Morfina, comprimido ou solução <span class="hhfa cod-hhfa">HHFA 2.4.1.1.12</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.34</td>
 <td>Naloxona (Narcan), injectável (antagonista dos opiáceos)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.35</td>
 <td>Sais de rehidratação oral (SRO) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.24</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.36</td>
 <td>Omeprazol, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.37</td>
 <td>Petidina (meperidina, Demerol) (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.38</td>
 <td>Nalbufina (Nubain, Manfine), injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.39</td>
 <td>Cloreto de potássio, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.40</td>
 <td>Prednisolona, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.41</td>
 <td>Protamina (sulfato), injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.42</td>
 <td>Inibidor da bomba de protões (ex. omeprazol, rabeprazol), comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.43</td>
 <td>Piridoxina (vitamina B6)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.44</td>
 <td>Ranitidina, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.45</td>
 <td>Preparação de sene (ou outro laxante) (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.46</td>
 <td>Espironolactona (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.47</td>
 <td>Estreptoquinase, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.48</td>
 <td>Vitamina A (retinol), cápsulas</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.49</td>
 <td>Vitamina K, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.10.50</td>
 <td>Sulfato de zinco, comprimido <span class="hhfa cod-hhfa">HHFA 2.4.1.1.25</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.10.51</td>
 <td>Sulfato de zinco, xarope ou comprimidos dispersíveis <span class="hhfa cod-hhfa">HHFA 2.4.1.1.25</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 </tbody>
 </table>
@@ -1847,13 +2000,18 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.11.1 a 14.11.21): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.11.1 a 14.11.21): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
 </ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
+</ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -1874,16 +2032,16 @@ O que este quesito permite medir
 </thead>
 <tbody>
 <tr class="odd">
-<td>Linhas 14.11.4, 14.11.19 — escala A, código 1 em pelo menos uma</td>
+<td>Linhas 14.11.4, 14.11.19 — coluna B, código 1 em pelo menos uma</td>
 <td>2.4.1.1.14</td>
 <td>Unidades com fenitoína ou carbamazepina<br><em>Percentage of facilities with phenytoin or carbamazepine tab/cap</em></td>
-<td>Q3109_3 = 1 ou Q3109_20 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3109_3 = 1 ou Q3109_20 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="even">
-<td>Linha 14.11.8 — escala A, código 1</td>
+<td>Linha 14.11.8 — coluna B, código 1</td>
 <td>2.4.1.1.13</td>
 <td>Unidades com fluoxetina ou outro ISRS<br><em>Percentage of facilities with fluoxetine or other SSRI tab/cap</em></td>
-<td>Q3109_8 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3109_8 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 </tbody>
 </table>
@@ -1914,131 +2072,155 @@ O que este quesito permite medir
 </div>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
-<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p><strong>Só na recolha com visita:</strong> Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.11.1</td>
 <td>Amitriptilina, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.11.2</td>
 <td>Benzodiazepina, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.11.3</td>
 <td>Triexifenidilo ou biperideno, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.11.4</td>
 <td>Carbamazepina, comprimido <span class="hhfa cod-hhfa">HHFA 2.4.1.1.14</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.11.5</td>
 <td>Clorpromazina, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.11.6</td>
 <td>Clozapina, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.11.7</td>
 <td>Clomipramina, cápsula</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.11.8</td>
 <td>Fluoxetina, cápsula <span class="hhfa cod-hhfa">HHFA 2.4.1.1.13</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.11.9</td>
 <td>Flufenazina, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.11.10</td>
 <td>Haloperidol, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.11.11</td>
 <td>Haloperidol, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.11.12</td>
 <td>Lamotrigina, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.11.13</td>
 <td>Carbonato de lítio, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.11.14</td>
 <td>Lorazepam, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.11.15</td>
 <td>Lorazepam, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.11.16</td>
 <td>Midazolam, solução</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.11.17</td>
 <td>Fenobarbital, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.11.18</td>
 <td>Fenobarbital, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.11.19</td>
 <td>Fenitoína, comprimido <span class="hhfa cod-hhfa">HHFA 2.4.1.1.14</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.11.20</td>
 <td>Risperidona, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.11.21</td>
 <td>Valproato de sódio, comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 </tbody>
 </table>
@@ -2052,13 +2234,18 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.12.1 a 14.12.9): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.12.1 a 14.12.9): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
 </ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
+</ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -2079,22 +2266,22 @@ O que este quesito permite medir
 </thead>
 <tbody>
 <tr class="odd">
-<td>Linha 14.12.3 — escala A, código 1</td>
+<td>Linha 14.12.3 — coluna B, código 1</td>
 <td>2.4.1.1.29</td>
 <td>Unidades com sulfato de magnésio, injectável<br><em>Percentage of facilities with magnesium sulfate injection</em></td>
-<td>Q2658_12 = 1 OR Q3110_10 = 1 OR Q2236_1A = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q2658_12 = 1 OR Q3110_10 = 1 OR Q2236_1A = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="even">
-<td>Linha 14.12.7 — escala A, código 1</td>
+<td>Linha 14.12.7 — coluna B, código 1</td>
 <td>2.4.1.1.30</td>
 <td>Unidades com desinfectante cutâneo ou clorexidina<br><em>Percentage of facilities with skin disinfectant/chlorhexidine</em></td>
-<td>Q2236_10A = 1 OR Q3001_18 = 1 OR Q3110_4 = 1 OR Q2658_23 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q2236_10A = 1 OR Q3001_18 = 1 OR Q3110_4 = 1 OR Q2658_23 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 <tr class="odd">
-<td>Linha 14.12.9 — escala A, código 1</td>
+<td>Linha 14.12.9 — coluna B, código 1</td>
 <td>2.4.1.1.28</td>
 <td>Unidades com ocitocina, injectável<br><em>Percentage of facilities with oxytocin injection</em></td>
-<td>Q2236_12A = 1 OR Q3110_18 = 1 OR Q2658_14 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q2236_12A = 1 OR Q3110_18 = 1 OR Q2658_14 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 </tbody>
 </table>
@@ -2113,71 +2300,83 @@ O que este quesito permite medir
 </div>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
-<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p><strong>Só na recolha com visita:</strong> Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha. Se a ocitocina (última linha) tiver código 1, 2 ou 3, fazer 14.13; caso contrário, saltar para 14.14.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha. Se a ocitocina (última linha) tiver A = 1, fazer 14.13; caso contrário, saltar para 14.14.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.12.1</td>
 <td>Pomada oftálmica para o recém-nascido ou para o tracoma (tetraciclina)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.12.2</td>
 <td>Citrato de cafeína, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.12.3</td>
 <td>Sulfato de magnésio, injectável <span class="hhfa cod-hhfa">HHFA 2.4.1.1.29</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.12.4</td>
 <td>Misoprostol, comprimido de 200 mcg</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.12.5</td>
 <td>Nifedipina 10 mg de libertação imediata (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.12.6</td>
 <td>Comprimidos de cálcio</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.12.7</td>
 <td>Solução de clorexidina a 4% para o cordão umbilical, para limpeza do períneo/colo, ou desinfectante da pele <span class="hhfa cod-hhfa">HHFA 2.4.1.1.30</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.12.8</td>
 <td>Imunoglobulina anti-D para incompatibilidade Rh, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.12.9</td>
 <td>Ocitocina, injectável <span class="hhfa cod-hhfa">HHFA 2.4.1.1.28</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 </tbody>
 </table>
@@ -2192,7 +2391,7 @@ O que este quesito permite medir
 <p><strong>Indicador.</strong> Percentagem de unidades com ocitocina que a guardam em frio.</p>
 <ul>
 <li><strong>Numerador:</strong> «Sim» em 14.13.</li>
-<li><strong>Denominador:</strong> unidades com código 1, 2 ou 3 na linha da ocitocina (14.12.9).</li>
+<li><strong>Denominador:</strong> unidades com A = 1 na linha da ocitocina (14.12.9).</li>
 </ul>
 <p><strong>Leitura.</strong> A ocitocina perde potência fora da cadeia de frio e é o uterotónico de primeira linha na hemorragia pós-parto: uma unidade que a tem mas não a guarda em frio pode não dispor, de facto, de um uterotónico eficaz.</p>
 </details>
@@ -2212,7 +2411,7 @@ O que este quesito permite medir
 </ol>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — Fazer só se a ocitocina (14.12.9) tiver código 1, 2 ou 3.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — Fazer só se a ocitocina (14.12.9) tiver A = 1.</p>
 </div>
 </section>
 <section id="a-14.14.11-medicamentos-gerais-medicamentos-para-anestesia-novo" class="level2">
@@ -2223,13 +2422,18 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.14.1 a 14.14.11): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.14.1 a 14.14.11): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
 </ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
+</ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -2251,81 +2455,95 @@ O que este quesito permite medir
 </div>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
-<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p><strong>Só na recolha com visita:</strong> Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.14.1</td>
 <td>Atracúrio (besilato), injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.14.2</td>
 <td>Bupivacaína, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.14.3</td>
 <td>Halotano (inalatório líquido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.14.4</td>
 <td>Isoflurano, desflurano ou sevoflurano (inalatório líquido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.14.5</td>
 <td>Cetamina, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.14.6</td>
 <td>Lidocaína a 1% ou 2%, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.14.7</td>
 <td>Lidocaína a 5% hiperbárica, injectável para raquianestesia</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.14.8</td>
 <td>Midazolam, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.14.9</td>
 <td>Óxido nitroso (gás)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.14.10</td>
 <td>Brometo ou cloreto de suxametónio, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.14.11</td>
 <td>Tiopental (pó) para injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 </tbody>
 </table>
@@ -2339,13 +2557,18 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.15.1 a 14.15.5): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.15.1 a 14.15.5): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
 </ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 contam como unidades sem o produto.</li>
+</ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -2361,51 +2584,59 @@ O que este quesito permite medir
 </div>
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
-<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p>Queria saber se os medicamentos seguintes estão disponíveis hoje neste estabelecimento. Vou também perguntar sobre rupturas de stock de alguns medicamentos específicos.</p>
+<p><strong>Só na recolha com visita:</strong> Queria também observar os que estiverem disponíveis. Se algum dos medicamentos que vou mencionar estiver guardado noutro local do estabelecimento, diga-me onde, para eu poder ir lá verificar.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Ver os medicamentos e confirmar que pelo menos uma unidade está dentro da validade. Uma resposta por linha.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.15.1</td>
 <td>Cloreto de sódio a 0,09% (soro fisiológico) (0.09NS)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.15.2</td>
 <td>Dextrose a 5% em soro fisiológico (D5NS)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.15.3</td>
 <td>Lactato de sódio (lactato de Ringer) (RL)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.15.4</td>
 <td>Dextrose a 5% em água (D5W)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.15.5</td>
 <td>Nutrição parenteral [DESIGNAÇÃO NACIONAL]</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 </tbody>
 </table>
@@ -2451,19 +2682,24 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.17.1 a 14.17.4): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.17.1 a 14.17.4): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 ou em 14.16 contam como unidades sem o produto.</li>
+</ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 ou em 14.16 contam como unidades sem o produto.</li>
 <li><strong>Leitura complementar:</strong> a mesma percentagem entre as unidades com «Sim» em 14.16, que mede a completude do stock onde este bloco de produtos existe.</li>
 </ul></li>
-<li><strong>Para cada produto com coluna B:</strong> percentagem de unidades com ruptura de stock nos últimos 3 meses.
+<li><strong>Para cada produto com coluna C:</strong> percentagem de unidades com ruptura de stock nos últimos 3 meses.
 <ul>
-<li><strong>Numerador:</strong> B = 1.</li>
-<li><strong>Denominador:</strong> unidades com código 1 ou 3 na coluna A desse produto (as que responderam à coluna B).</li>
+<li><strong>Numerador:</strong> C = 1.</li>
+<li><strong>Denominador:</strong> unidades com A = 1 nesse produto (as que responderam à coluna C).</li>
 </ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -2484,10 +2720,10 @@ O que este quesito permite medir
 </thead>
 <tbody>
 <tr class="odd">
-<td>Linhas 14.17.1, 14.17.2, 14.17.3, 14.17.4 — escala A, código 1 em pelo menos uma</td>
+<td>Linhas 14.17.1, 14.17.2, 14.17.3, 14.17.4 — coluna B, código 1 em pelo menos uma</td>
 <td>2.4.1.1.19</td>
 <td>Unidades com combinação terapêutica à base de artemisinina<br><em>Percentage of facilities with artemisinin-based combination therapy (ACT)</em></td>
-<td>Q3115_1A = 1 OR Q3115_2A = 1 OR (Q3115_3A = 1 AND (Q3115_6A = 1 OR Q3115_7A = 1)); todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3115_1A = 1 OR Q3115_2A = 1 OR (Q3115_3A = 1 AND (Q3115_6A = 1 OR Q3115_7A = 1)); todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 </tbody>
 </table>
@@ -2502,50 +2738,57 @@ O que este quesito permite medir
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
 <p>Algum dos medicamentos para a malária seguintes está disponível hoje no estabelecimento?</p>
+<p><strong>Só na recolha com visita:</strong> Queria também ver os que estiverem disponíveis.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. <strong>Escala B — ruptura de stock nos últimos 3 meses:</strong> 1 Sim, houve ruptura · 2 Não houve ruptura. Verificar que pelo menos uma unidade está dentro da validade. Uma resposta por linha; a coluna B (e a C, onde existir) só para os produtos com código 1 ou 3.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. <strong>C · Ruptura de stock nos últimos 3 meses:</strong> 1 Sim, houve ruptura · 2 Não houve ruptura. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha; as colunas C (e D, onde existir) só para os produtos com A = 1.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
-<th style="text-align: center;">B · Ruptura (3 meses)</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
+<th style="text-align: center;">C · Ruptura (3 meses)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.17.1</td>
 <td>Artemeter + lumefantrina (AL): embalagem de 6 comprimidos <span class="hhfa cod-hhfa">HHFA 2.4.1.1.19</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="even">
 <td>14.17.2</td>
 <td>Artemeter + lumefantrina (AL): embalagem de 12 comprimidos <span class="hhfa cod-hhfa">HHFA 2.4.1.1.19</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="odd">
 <td>14.17.3</td>
 <td>Artemeter + lumefantrina (AL): embalagem de 18 comprimidos <span class="hhfa cod-hhfa">HHFA 2.4.1.1.19</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="even">
 <td>14.17.4</td>
 <td>Artemeter + lumefantrina (AL): embalagem de 24 comprimidos <span class="hhfa cod-hhfa">HHFA 2.4.1.1.19</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 </tbody>
@@ -2560,19 +2803,24 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.18.1 a 14.18.14): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.18.1 a 14.18.14): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 ou em 14.16 contam como unidades sem o produto.</li>
+</ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 ou em 14.16 contam como unidades sem o produto.</li>
 <li><strong>Leitura complementar:</strong> a mesma percentagem entre as unidades com «Sim» em 14.16, que mede a completude do stock onde este bloco de produtos existe.</li>
 </ul></li>
-<li><strong>Para cada produto com coluna B:</strong> percentagem de unidades com ruptura de stock nos últimos 3 meses.
+<li><strong>Para cada produto com coluna C:</strong> percentagem de unidades com ruptura de stock nos últimos 3 meses.
 <ul>
-<li><strong>Numerador:</strong> B = 1.</li>
-<li><strong>Denominador:</strong> unidades com código 1 ou 3 na coluna A desse produto (as que responderam à coluna B).</li>
+<li><strong>Numerador:</strong> C = 1.</li>
+<li><strong>Denominador:</strong> unidades com A = 1 nesse produto (as que responderam à coluna C).</li>
 </ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -2593,10 +2841,10 @@ O que este quesito permite medir
 </thead>
 <tbody>
 <tr class="odd">
-<td>Linhas 14.18.4, 14.18.5 — escala A, código 1 em pelo menos uma</td>
+<td>Linhas 14.18.4, 14.18.5 — coluna B, código 1 em pelo menos uma</td>
 <td>2.4.1.1.20</td>
 <td>Unidades com artesunato, injectável ou supositório<br><em>Percentage of facilities with artesunate (injection or suppository)</em></td>
-<td>Q3115_6A = 1 ou Q3115_7A = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3115_6A = 1 ou Q3115_7A = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 </tbody>
 </table>
@@ -2621,110 +2869,127 @@ O que este quesito permite medir
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
 <p>Algum dos outros medicamentos para a malária seguintes está disponível hoje no estabelecimento?</p>
+<p><strong>Só na recolha com visita:</strong> Queria também ver os que estiverem disponíveis.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. <strong>Escala B — ruptura de stock nos últimos 3 meses:</strong> 1 Sim, houve ruptura · 2 Não houve ruptura. Verificar que pelo menos uma unidade está dentro da validade. Uma resposta por linha; a coluna B (e a C, onde existir) só para os produtos com código 1 ou 3.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. <strong>C · Ruptura de stock nos últimos 3 meses:</strong> 1 Sim, houve ruptura · 2 Não houve ruptura. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha; as colunas C (e D, onde existir) só para os produtos com A = 1.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
-<th style="text-align: center;">B · Ruptura (3 meses)</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
+<th style="text-align: center;">C · Ruptura (3 meses)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.18.1</td>
 <td>Fansidar/SP (sulfadoxina + pirimetamina), comprimidos</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="even">
 <td>14.18.2</td>
 <td>Quinino, comprimidos</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="odd">
 <td>14.18.3</td>
 <td>Quinino, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="even">
 <td>14.18.4</td>
 <td>Artesunato, injectável <span class="hhfa cod-hhfa">HHFA 2.4.1.1.20</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="odd">
 <td>14.18.5</td>
 <td>Artesunato, supositórios (via rectal) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.20</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="even">
 <td>14.18.6</td>
 <td>Artesunato + amodiaquina (ASAQ), comprimidos de 25 mg/67,5 mg</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="odd">
 <td>14.18.7</td>
 <td>Artesunato + amodiaquina (ASAQ), comprimidos de 50 mg/135 mg</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="even">
 <td>14.18.8</td>
 <td>Artesunato + amodiaquina (ASAQ), comprimidos de 100 mg/270 mg</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="odd">
 <td>14.18.9</td>
 <td>Cloroquina (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="even">
 <td>14.18.10</td>
 <td>Primaquina (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="odd">
 <td>14.18.11</td>
 <td>Outro antimalárico ___________ (ESPECIFICAR)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="even">
 <td>14.18.12</td>
 <td>Mosquiteiros tratados com insecticida (MTI) para os doentes, as suas famílias e agregados</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="odd">
 <td>14.18.13</td>
 <td>Voucher para mosquiteiros tratados com insecticida, para os doentes, as suas famílias e agregados</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="even">
 <td>14.18.14</td>
 <td>Mosquiteiros tratados com insecticida para lactentes</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 </tbody>
@@ -2771,20 +3036,25 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.20.1 a 14.20.15): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.20.1 a 14.20.15): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 ou em 14.19 contam como unidades sem o produto.</li>
+</ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 ou em 14.19 contam como unidades sem o produto.</li>
 <li><strong>Leitura complementar:</strong> a mesma percentagem entre as unidades com «Sim» em 14.19, que mede a completude do stock onde este bloco de produtos existe.</li>
 </ul></li>
-<li><strong>Para cada produto com coluna B:</strong> percentagem de unidades com ruptura de stock nos últimos 3 meses.
+<li><strong>Para cada produto com coluna C:</strong> percentagem de unidades com ruptura de stock nos últimos 3 meses.
 <ul>
-<li><strong>Numerador:</strong> B = 1.</li>
-<li><strong>Denominador:</strong> unidades com código 1 ou 3 na coluna A desse produto (as que responderam à coluna B).</li>
+<li><strong>Numerador:</strong> C = 1.</li>
+<li><strong>Denominador:</strong> unidades com A = 1 nesse produto (as que responderam à coluna C).</li>
 </ul></li>
-<li><strong>Para cada produto com coluna C:</strong> distribuição das unidades pela duração da ruptura nas últimas 4 semanas (menos de 7 dias, 7 a 14 dias, mais de 14 dias), entre as unidades que responderam à coluna C.</li>
+<li><strong>Para cada produto com coluna D:</strong> distribuição das unidades pela duração da ruptura nas últimas 4 semanas (menos de 7 dias, 7 a 14 dias, mais de 14 dias), entre as unidades que responderam à coluna D.</li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -2805,10 +3075,10 @@ O que este quesito permite medir
 </thead>
 <tbody>
 <tr class="odd">
-<td>Linhas 14.20.5, 14.20.6, 14.20.7, 14.20.8, 14.20.9 — escala A, código 1 em pelo menos uma</td>
+<td>Linhas 14.20.5, 14.20.6, 14.20.7, 14.20.8, 14.20.9 — coluna B, código 1 em pelo menos uma</td>
 <td>2.4.1.1.22</td>
 <td>Unidades com tratamento combinado da tuberculose<br><em>Percentage of facilities with combination therapy for tuberculosis</em></td>
-<td>Q3119_12A = 1 OR (Q3119_11A = 1 AND Q3119_4A = 1) OR (Q3119_10A = 1 AND Q3119_1A = 1) OR (Q3119_7A = 1 AND Q3119_1A = 1 AND Q3119_4A = 1) OR (Q3119_8A = 1 AND Q3119_4A = 1 AND Q3119_5A = 1) OR (Q3119_1A = 1 AND Q3119_2A = 1 AND Q3119_4A = 1 AND Q3119_5A = 1); todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3119_12A = 1 OR (Q3119_11A = 1 AND Q3119_4A = 1) OR (Q3119_10A = 1 AND Q3119_1A = 1) OR (Q3119_7A = 1 AND Q3119_1A = 1 AND Q3119_4A = 1) OR (Q3119_8A = 1 AND Q3119_4A = 1 AND Q3119_5A = 1) OR (Q3119_1A = 1 AND Q3119_2A = 1 AND Q3119_4A = 1 AND Q3119_5A = 1); todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 </tbody>
 </table>
@@ -2834,132 +3104,150 @@ O que este quesito permite medir
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
 <p>Algum dos medicamentos para a tuberculose seguintes está disponível hoje no estabelecimento?</p>
+<p><strong>Só na recolha com visita:</strong> Queria também ver os que estiverem disponíveis.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. <strong>Escala B — ruptura de stock nos últimos 3 meses:</strong> 1 Sim, houve ruptura · 2 Não houve ruptura. <strong>Escala C — dias de ruptura nas últimas 4 semanas:</strong> 1 Menos de 7 dias · 2 7 a 14 dias · 3 Mais de 14 dias. Verificar que pelo menos uma unidade está dentro da validade. Uma resposta por linha; a coluna B (e a C, onde existir) só para os produtos com código 1 ou 3.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. <strong>C · Ruptura de stock nos últimos 3 meses:</strong> 1 Sim, houve ruptura · 2 Não houve ruptura. <strong>D · Dias de ruptura nas últimas 4 semanas:</strong> 1 Menos de 7 dias · 2 7 a 14 dias · 3 Mais de 14 dias. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha; as colunas C (e D, onde existir) só para os produtos com A = 1.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
-<th style="text-align: center;">B · Ruptura (3 meses)</th>
-<th style="text-align: center;">C · Dias de ruptura (4 semanas)</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
+<th style="text-align: center;">C · Ruptura (3 meses)</th>
+<th style="text-align: center;">D · Dias de ruptura (4 semanas)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.20.1</td>
 <td>Etambutol (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 <td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.20.2</td>
 <td>Isoniazida (INH) (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 <td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.20.3</td>
 <td>Pirazinamida (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 <td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.20.4</td>
 <td>Rifampicina (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 <td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.20.5</td>
 <td>Isoniazida + rifampicina (2 DFC) (oral) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.22</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 <td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.20.6</td>
 <td>Isoniazida + etambutol (EH) (2 DFC) (oral) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.22</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 <td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.20.7</td>
 <td>Isoniazida + rifampicina + pirazinamida (RHZ) (3 DFC) (oral) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.22</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 <td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.20.8</td>
 <td>Isoniazida + rifampicina + etambutol (RHE) (3 DFC) (oral) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.22</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 <td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.20.9</td>
 <td>Isoniazida + rifampicina + pirazinamida + etambutol (4 DFC) (oral) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.22</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 <td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.20.10</td>
 <td>Formulação pediátrica de isoniazida — medicamento único, para terapia preventiva com isoniazida (TPI) (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 <td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.20.11</td>
 <td>Formulação pediátrica de rifampicina (pode ser em associação)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 <td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.20.12</td>
 <td>Formulação pediátrica de pirazinamida (pode ser em associação)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 <td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.20.13</td>
 <td>Formulação pediátrica de etambutol (pode ser em associação)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 <td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.20.14</td>
 <td>Estreptomicina, injectável</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 <td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.20.15</td>
 <td>Esquema nacional de primeira linha para a TB multirresistente [ADAPTAR AO PAÍS]</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 <td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
@@ -3035,14 +3323,19 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.23.1 a 14.23.20): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.23.1 a 14.23.20): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 ou em 14.21 contam como unidades sem o produto.</li>
+</ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 ou em 14.21 contam como unidades sem o produto.</li>
 <li><strong>Leitura complementar:</strong> a mesma percentagem entre as unidades com «Sim» em 14.21, que mede a completude do stock onde este bloco de produtos existe.</li>
 </ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -3063,10 +3356,10 @@ O que este quesito permite medir
 </thead>
 <tbody>
 <tr class="odd">
-<td>Linhas 14.23.19, 14.23.20 — escala A, código 1 em pelo menos uma</td>
+<td>Linhas 14.23.19, 14.23.20 — coluna B, código 1 em pelo menos uma</td>
 <td>2.4.1.1.21</td>
 <td>Unidades com ARV para tratamento combinado de primeira linha<br><em>Percentage of facilities with ARVs for first line combination treatment</em></td>
-<td>Q3123_18 = 1 OR (Q3126_9 = 1 AND Q3123_17 = 1) OR (Q3126_9 = 1 AND Q3123_16 = 1) OR (Q3123_4 = 1 AND Q3123_6 = 1 AND Q3126_9 = 1) OR (Q3123_11 = 1 AND Q3123_6 = 1 AND Q3126_9 = 1) OR (Q3123_17 = 1 AND Q3123_9 = 1) OR (Q3123_4 = 1 AND Q3123_6 = 1 AND Q3123_9 = 1); todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3123_18 = 1 OR (Q3126_9 = 1 AND Q3123_17 = 1) OR (Q3126_9 = 1 AND Q3123_16 = 1) OR (Q3123_4 = 1 AND Q3123_6 = 1 AND Q3126_9 = 1) OR (Q3123_11 = 1 AND Q3123_6 = 1 AND Q3126_9 = 1) OR (Q3123_17 = 1 AND Q3123_9 = 1) OR (Q3123_4 = 1 AND Q3123_6 = 1 AND Q3123_9 = 1); todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 </tbody>
 </table>
@@ -3097,125 +3390,148 @@ O que este quesito permite medir
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
 <p>Algum dos ARV seguintes está disponível hoje neste estabelecimento?</p>
+<p><strong>Só na recolha com visita:</strong> Queria também ver os que estiverem disponíveis.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Verificar que pelo menos uma unidade está dentro da validade. Uma resposta por linha; a coluna B (e a C, onde existir) só para os produtos com código 1 ou 3.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha; as colunas C (e D, onde existir) só para os produtos com A = 1.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.23.1</td>
 <td>Zidovudina (ZDV, AZT) (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.23.2</td>
 <td>Zidovudina (ZDV, AZT), xarope</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.23.3</td>
 <td>Abacavir (ABC) (oral)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.23.4</td>
 <td>Lamivudina (3TC) (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.23.5</td>
 <td>Lamivudina (3TC), xarope</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.23.6</td>
 <td>Tenofovir disoproxil fumarato (TDF) (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.23.7</td>
 <td>Nevirapina (NVP) (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.23.8</td>
 <td>Nevirapina (NVP), xarope</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.23.9</td>
 <td>Efavirenz (EFV) 600 mg (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.23.10</td>
 <td>Efavirenz (EFV) 400 mg (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.23.11</td>
 <td>Efavirenz (EFV), xarope</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.23.12</td>
 <td>Emtricitabina (FTC) (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.23.13</td>
 <td>Lamivudina + abacavir (3TC + ABC) (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.23.14</td>
 <td>Zidovudina + lamivudina (AZT + 3TC) (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.23.15</td>
 <td>Zidovudina + lamivudina + abacavir (AZT + 3TC + ABC) (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.23.16</td>
 <td>Zidovudina + lamivudina + nevirapina (AZT + 3TC + NVP) (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.23.17</td>
 <td>Tenofovir + emtricitabina (TDF + FTC) (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.23.18</td>
 <td>Tenofovir + lamivudina (TDF + 3TC) (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.23.19</td>
 <td>Tenofovir + lamivudina + efavirenz (TDF + 3TC + EFV) (cápsula/comprimido) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.21</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.23.20</td>
 <td>Tenofovir + emtricitabina + efavirenz (TDF + FTC + EFV) (cápsula/comprimido) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.21</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 </tbody>
 </table>
@@ -3289,14 +3605,19 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.26.1 a 14.26.12): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.26.1 a 14.26.12): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 ou em 14.24 contam como unidades sem o produto.</li>
+</ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 ou em 14.24 contam como unidades sem o produto.</li>
 <li><strong>Leitura complementar:</strong> a mesma percentagem entre as unidades com «Sim» em 14.24, que mede a completude do stock onde este bloco de produtos existe.</li>
 </ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -3320,85 +3641,100 @@ O que este quesito permite medir
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
 <p>Algum dos inibidores da protease seguintes está disponível hoje neste estabelecimento?</p>
+<p><strong>Só na recolha com visita:</strong> Queria também ver os que estiverem disponíveis.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Verificar que pelo menos uma unidade está dentro da validade. Uma resposta por linha; a coluna B (e a C, onde existir) só para os produtos com código 1 ou 3.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha; as colunas C (e D, onde existir) só para os produtos com A = 1.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.26.1</td>
 <td>Lopinavir (LPV), comprimidos</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.26.2</td>
 <td>Lopinavir (LPV), grânulos (pellets)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.26.3</td>
 <td>Lopinavir (LPV), xarope</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.26.4</td>
 <td>Ritonavir (RTV) (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.26.5</td>
 <td>Atazanavir (ATV) (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.26.6</td>
 <td>Darunavir (DRV) (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.26.7</td>
 <td>Lopinavir + ritonavir (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.26.8</td>
 <td>Atazanavir + ritonavir (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.26.9</td>
 <td>Raltegravir (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.26.10</td>
 <td>Dolutegravir (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.26.11</td>
 <td>Etravirina (cápsula/comprimido)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.26.12</td>
 <td>Inibidor não nucleosídeo da transcriptase reversa (INNTR) de terceira linha (cápsula/comprimido) [ADAPTAR AO PAÍS]</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 </tbody>
 </table>
@@ -3472,19 +3808,24 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.29.1 a 14.29.10): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.29.1 a 14.29.10): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 ou em 14.27 contam como unidades sem o produto.</li>
+</ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 ou em 14.27 contam como unidades sem o produto.</li>
 <li><strong>Leitura complementar:</strong> a mesma percentagem entre as unidades com «Sim» em 14.27, que mede a completude do stock onde este bloco de produtos existe.</li>
 </ul></li>
-<li><strong>Para cada produto com coluna B:</strong> percentagem de unidades com ruptura de stock nos últimos 3 meses.
+<li><strong>Para cada produto com coluna C:</strong> percentagem de unidades com ruptura de stock nos últimos 3 meses.
 <ul>
-<li><strong>Numerador:</strong> B = 1.</li>
-<li><strong>Denominador:</strong> unidades com código 1 ou 3 na coluna A desse produto (as que responderam à coluna B).</li>
+<li><strong>Numerador:</strong> C = 1.</li>
+<li><strong>Denominador:</strong> unidades com A = 1 nesse produto (as que responderam à coluna C).</li>
 </ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -3505,10 +3846,10 @@ O que este quesito permite medir
 </thead>
 <tbody>
 <tr class="odd">
-<td>Linhas 14.29.1, 14.29.2, 14.29.3, 14.29.4, 14.29.7 — escala A, código 1 em pelo menos uma</td>
+<td>Linhas 14.29.1, 14.29.2, 14.29.3, 14.29.4, 14.29.7 — coluna B, código 1 em pelo menos uma</td>
 <td>2.4.1.1.23</td>
 <td>Unidades com contraceptivos hormonais (orais, injectáveis ou implantes)<br><em>Percentage of facilities with hormonal contraceptives (oral, injectable and/or implants)</em></td>
-<td>Q3130_1A = 1 OR Q3130_2A = 1 OR Q3130_3A = 1 OR Q3130_4A = 1 OR Q3130_7A = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3130_1A = 1 OR Q3130_2A = 1 OR Q3130_3A = 1 OR Q3130_4A = 1 OR Q3130_7A = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 </tbody>
 </table>
@@ -3529,86 +3870,99 @@ O que este quesito permite medir
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
 <p>Algum dos produtos de planeamento familiar seguintes está disponível hoje neste estabelecimento?</p>
+<p><strong>Só na recolha com visita:</strong> Queria também ver os que estiverem disponíveis.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. <strong>Escala B — ruptura de stock nos últimos 3 meses:</strong> 1 Sim, houve ruptura · 2 Não houve ruptura. Verificar que pelo menos uma unidade está dentro da validade. Uma resposta por linha; a coluna B (e a C, onde existir) só para os produtos com código 1 ou 3.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. <strong>C · Ruptura de stock nos últimos 3 meses:</strong> 1 Sim, houve ruptura · 2 Não houve ruptura. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha; as colunas C (e D, onde existir) só para os produtos com A = 1.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
-<th style="text-align: center;">B · Ruptura (3 meses)</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
+<th style="text-align: center;">C · Ruptura (3 meses)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.29.1</td>
 <td>Pílulas contraceptivas orais combinadas (estrogénio + progestagénio) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.23</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="even">
 <td>14.29.2</td>
 <td>Pílulas contraceptivas só de progestagénio <span class="hhfa cod-hhfa">HHFA 2.4.1.1.23</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="odd">
 <td>14.29.3</td>
 <td>Contraceptivos injectáveis combinados (estrogénio + progestagénio) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.23</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="even">
 <td>14.29.4</td>
 <td>Contraceptivos injectáveis só de progestagénio <span class="hhfa cod-hhfa">HHFA 2.4.1.1.23</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="odd">
 <td>14.29.5</td>
 <td>Preservativos masculinos</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="even">
 <td>14.29.6</td>
 <td>Preservativos femininos</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="odd">
 <td>14.29.7</td>
 <td>Implante (ex. levonorgestrel, etonogestrel) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.23</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="even">
 <td>14.29.8</td>
 <td>Contraceptivo de emergência (ex. levonorgestrel, acetato de ulipristal, mifepristona 10-25 mg), comprimido</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="odd">
 <td>14.29.9</td>
 <td>Dispositivo intra-uterino (DIU)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 <tr class="even">
 <td>14.29.10</td>
 <td>Colar do ciclo, para o método dos dias fixos</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 <td style="text-align: center;">☐1 ☐2</td>
 </tr>
 </tbody>
@@ -3655,14 +4009,19 @@ O que este quesito permite medir
 </summary>
 <p><strong>Indicadores.</strong></p>
 <ul>
-<li><strong>Para cada produto da grelha</strong> (14.31.1 a 14.31.4): percentagem de unidades sanitárias com o produto disponível e dentro da validade no dia da visita.
+<li><strong>Para cada produto da grelha</strong> (14.31.1 a 14.31.4): percentagem de unidades sanitárias com o produto disponível hoje, segundo o respondente.
 <ul>
-<li><strong>Numerador:</strong> código 1 da escala A na linha do produto.</li>
+<li><strong>Numerador:</strong> código 1 na coluna A da linha do produto.</li>
 <li><strong>Denominador:</strong> todas as unidades sanitárias inquiridas — as unidades com «Não» em 14.4 ou em 14.30 contam como unidades sem o produto.</li>
+</ul></li>
+<li><strong>Para cada produto da grelha:</strong> percentagem de unidades sanitárias com o produto visto e dentro da validade.
+<ul>
+<li><strong>Numerador:</strong> código 1 na coluna B da linha do produto.</li>
+<li><strong>Denominador:</strong> unidades com recolha com visita (1.4 = 1) — as unidades com «Não» em 14.4 ou em 14.30 contam como unidades sem o produto.</li>
 <li><strong>Leitura complementar:</strong> a mesma percentagem entre as unidades com «Sim» em 14.30, que mede a completude do stock onde este bloco de produtos existe.</li>
 </ul></li>
 </ul>
-<p><strong>Leitura.</strong> A distribuição dos códigos 2 a 5 da escala A distingue o produto fora da validade, o referido mas não visto, a falta do dia e a ausência permanente — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
+<p><strong>Leitura.</strong> As colunas A e B distinguem a falta do dia (A = 2), a ausência permanente (A = 3) e, nas visitas, o produto fora da validade (B = 2) e o declarado mas não visto (B = 3) — o que separa um problema de abastecimento de um produto que nunca chegou à unidade.</p>
 </details>
 <div class="hhfa fonte-indicadores">
 <p><strong>Fonte dos indicadores</strong> · catálogo do HHFA (OMS)</p>
@@ -3683,10 +4042,10 @@ O que este quesito permite medir
 </thead>
 <tbody>
 <tr class="odd">
-<td>Linha 14.31.1 — escala A, código 1</td>
+<td>Linha 14.31.1 — coluna B, código 1</td>
 <td>2.4.1.1.26</td>
 <td>Unidades com alimento terapêutico pronto a usar<br><em>Percentage of facilities with ready-to-use therapeutic food (RUTF)</em></td>
-<td>Q3133_1 = 1; todas as unidades. Conta só o código 1 (observado, dentro da validade)</td>
+<td>Q3133_1 = 1; todas as unidades. Conta só o código 1 da coluna B (visto, dentro da validade), nas unidades com recolha com visita (1.4 = 1); a coluna A dá a versão declarada</td>
 </tr>
 </tbody>
 </table>
@@ -3701,45 +4060,52 @@ O que este quesito permite medir
 <div class="enunciado rotulado">
 <p><span class="rotulo">Pergunta · ler ao respondente</span></p>
 <p>Quais dos suplementos nutricionais para a malnutrição seguintes estão disponíveis neste estabelecimento?</p>
+<p><strong>Só na recolha com visita:</strong> Queria também ver os que estiverem disponíveis.</p>
 </div>
 <div class="instrucao rotulado">
-<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>Escala A — disponibilidade:</strong> 1 Pelo menos uma unidade dentro da validade · 2 Disponível, mas fora da validade · 3 Referido como disponível, mas não visto · 4 Habitualmente disponível, mas não hoje · 5 Nunca disponível. Verificar que pelo menos uma unidade está dentro da validade. Uma resposta por linha; a coluna B (e a C, onde existir) só para os produtos com código 1 ou 3.</p>
+<p><span class="rotulo em-linha">Instrução ao inquiridor (não ler para o respondente)</span> — <strong>A · Disponível? (declarado):</strong> 1 Sim, disponível hoje · 2 Habitualmente disponível, mas não hoje · 3 Nunca disponível. <strong>B · Verificação (só na recolha com visita, se A = 1):</strong> 1 Visto, pelo menos uma unidade dentro da validade · 2 Visto, mas fora da validade · 3 Não foi possível ver. Na recolha com visita, ver os medicamentos com A = 1 e confirmar a validade; nas outras formas de recolha, a coluna B fica em branco. Uma resposta por linha; as colunas C (e D, onde existir) só para os produtos com A = 1.</p>
 </div>
 <div class="grelha rotulado">
 <p><span class="rotulo">Grelha de resposta</span></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Código</th>
 <th>Produto</th>
-<th style="text-align: center;">A · Disponibilidade</th>
+<th style="text-align: center;">A · Disponível?</th>
+<th style="text-align: center;">B · Verificação (só na recolha com visita)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>14.31.1</td>
 <td>Alimento terapêutico pronto a usar (ATPU) <span class="hhfa cod-hhfa">HHFA 2.4.1.1.26</span></td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.31.2</td>
 <td>F-75 (Fórmula 75)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="odd">
 <td>14.31.3</td>
 <td>F-100 (Fórmula 100)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 <tr class="even">
 <td>14.31.4</td>
 <td>Pó de micronutrientes (PMN)</td>
-<td style="text-align: center;">☐1 ☐2 ☐3 ☐4 ☐5</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
+<td style="text-align: center;">☐1 ☐2 ☐3</td>
 </tr>
 </tbody>
 </table>
