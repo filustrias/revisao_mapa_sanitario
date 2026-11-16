@@ -265,8 +265,6 @@ Códigos dos quesitos nesta versão e códigos correspondentes na versão anteri
 | 7.7.3.1 | — | Outras classificações (CIF, ICHI, CIAP-2) | 7 |
 | 23.1 | — | Avaliação da prevenção e controlo de infecções — porta | 23 |
 | 23.2.1 e 23.2.2 | — | Quadro usado na avaliação | 23 |
-| 23.3 | — | Ano da avaliação mais recente | 23 |
-| 23.4 | — | Resultado da avaliação mais recente | 23 |
 | 23.5 | — | Avaliação da higiene das mãos — porta | 23 |
 | 23.6.1 e 23.6.2 | — | Quadro usado na avaliação da higiene das mãos | 23 |
 | 23.7 | — | Ano da avaliação mais recente da higiene das mãos | 23 |
@@ -347,3 +345,7 @@ A linha 21.6 (manutenção) da lista dos serviços gerais passou a 22.1; o bloco
 ## Prevenção e controlo de infecções e outras classificações (16 de Novembro de 2026)
 
 Nova secção 23 (23.1 a 23.18.17), tradução das perguntas 733 a 751, 1225 e da lista 3003 do HHFA. Novo quesito 7.7.3.1 (pergunta 1127 do HHFA, com a CIAP-2). Saiu 13.C.V (destino da amostra).
+
+## Armazenamento simplificado e outros cortes (16 de Novembro de 2026)
+
+O armazenamento dos medicamentos deixa de seguir as condições do HHFA: 14.32.1 a 14.32.18 (armazém principal) e 14.33 a 14.33.14 (armazém a granel) dão lugar a 14.32.1 a 14.32.3 (armazém principal, armazém a granel e sala de dispensação) e 14.33 (fraccionamento dos medicamentos). Saem 14.5.27 (pomada de Whitfield) e 23.3 e 23.4 (ano e resultado da avaliação da prevenção e controlo de infecções); os códigos seguintes não mudam.

@@ -4,14 +4,14 @@ title: "Secção 23 — Prevenção e controlo de infecções"
 
 Avaliação da prevenção e controlo de infecções e da higiene das mãos, normas, pessoal designado e formação, limpeza da unidade, equipamento de esterilização observado e artigos de protecção e de precauções padrão. A comissão técnica, as reuniões multidisciplinares e a data da reunião mais recente estão em 20.2.13.1 e 20.2.13.2; o método de esterilização, em 10.2; a gestão dos resíduos, em 6.6 a 6.8.
 
-[46 campos, todos novos.]{.campos}
+[44 campos, todos novos.]{.campos}
 
 <details class="medir-seccao">
 <summary>O que esta secção permite medir</summary>
 
 | Quesito | O que se obtém |
 |---|---|
-| 23.1 a 23.4 | Avaliação sistemática da prevenção e controlo de infecções: quadro usado, ano e resultado da avaliação mais recente [(8 indicadores do HHFA)]{.hhfa} |
+| 23.1 e 23.2 | Avaliação sistemática da prevenção e controlo de infecções e quadro usado [(3 indicadores do HHFA)]{.hhfa} |
 | 23.5 a 23.8 | Avaliação sistemática da higiene das mãos: quadro usado, ano e resultado da avaliação mais recente [(7 indicadores do HHFA)]{.hhfa} |
 | 23.9 e 23.10 | Normas de prevenção e controlo de infecções e de isolamento [(2 indicadores do HHFA)]{.hhfa} |
 | 23.11 a 23.13 | Pessoal designado para a monitorização, a sua formação e registo das reuniões [(2 indicadores do HHFA)]{.hhfa} |
@@ -41,7 +41,7 @@ Avaliação da prevenção e controlo de infecções e da higiene das mãos, nor
 - **Denominador:** todas as unidades sanitárias inquiridas.
 - **Desagregação:** categoria da unidade (2.6) e província.
 
-**Função no formulário.** É a porta de 23.2 a 23.4. As unidades com resposta 2 passam a 23.5 e, nos indicadores de 23.2 a 23.4, contam como não tendo feito avaliação.
+**Função no formulário.** É a porta de 23.2. As unidades com resposta 2 passam a 23.5 e, nos indicadores de 23.2, contam como não tendo feito avaliação.
 
 </details>
 
@@ -118,93 +118,6 @@ Que quadro de avaliação é usado? Posso ver um documento desse quadro?
 |---|---|:-:|:-:|:-:|
 | 23.2.1 | Quadro de Avaliação da Prevenção e Controlo de Infecções da OMS (IPCAF) [HHFA 4.4.1.2.3]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
 | 23.2.2 | Outro (especificar): \_\_\_\_\_\_\_\_ [HHFA 4.4.1.2.4]{.hhfa .cod-hhfa} | ☐ | ☐ | ☐ |
-:::
-
-## 23.3 · Ano da avaliação mais recente [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-**Indicadores.**
-
-- Percentagem de unidades sanitárias que avaliaram a prevenção e controlo de infecções no ano corrente.
-  - **Numerador:** unidades com resposta 1 em 23.1 e, em 23.3, o ano da data da recolha (1.1).
-  - **Denominador:** todas as unidades sanitárias inquiridas.
-- Percentagem de unidades sanitárias que a avaliaram no ano anterior.
-  - **Numerador:** unidades com resposta 1 em 23.1 e, em 23.3, o ano anterior ao da data da recolha.
-  - **Denominador:** todas as unidades sanitárias inquiridas.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Ano = ano da recolha | 4.4.1.2.1 | Unidades que avaliaram a prevenção e controlo de infecções no ano corrente<br>*Percentage of facilities that assessed IPC using specified framework in current calendar year* | Q733 = 1 e Q735 = ano da visita; todas as unidades |
-| Ano = ano anterior | 4.4.1.2.2 | Unidades que avaliaram a prevenção e controlo de infecções no ano anterior<br>*Percentage of facilities that assessed IPC using  specified framework in last completed calendar year* | Q733 = 1 e Q735 = ano da visita − 1; todas as unidades |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Em que ano foi feita a avaliação mais recente da prevenção e controlo de infecções?
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Perguntar só se 23.1 = 1.
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-- Ano, 4 dígitos · **9998** Ninguém na unidade sabe responder
-:::
-
-## 23.4 · Resultado da avaliação mais recente [NOVO]{.etiqueta .novo}
-
-<details class="medir">
-<summary>O que este quesito permite medir</summary>
-
-**Indicadores.** Percentagem de unidades sanitárias cuja avaliação mais recente teve resultado (a) insuficiente ou básico, (b) intermédio, (c) avançado.
-
-- **Numerador:** unidades com resposta 1 ou 2 (a), 3 (b) ou 4 (c) em 23.4.
-- **Denominador:** todas as unidades sanitárias inquiridas.
-- **Desagregação:** categoria da unidade (2.6) e província.
-
-</details>
-
-::: {.hhfa .fonte-indicadores}
-**Fonte dos indicadores** · catálogo do HHFA (OMS)
-
-| Item do quesito | Código HHFA | Indicador | Cálculo no HHFA |
-|---|---|---|---|
-| Respostas 1 ou 2 | 4.4.1.2.5 | Unidades com a última avaliação em nível insuficiente ou básico<br>*Percentage of facilities with last IPC score at inadequate or basic level* | Q736 = 1 ou 2; todas as unidades |
-| Resposta 3 | 4.4.1.2.6 | Unidades com a última avaliação em nível intermédio<br>*Percentage of facilities with last IPC score at intermediate level* | Q736 = 3; todas as unidades |
-| Resposta 4 | 4.4.1.2.7 | Unidades com a última avaliação em nível avançado<br>*Percentage of facilities with last IPC score at advanced level* | Q736 = 4; todas as unidades |
-:::
-
-::: {.enunciado .rotulado}
-[Pergunta · ler ao respondente]{.rotulo}
-
-Qual foi o resultado da avaliação mais recente?
-:::
-
-::: {.instrucao .rotulado}
-[Instrução ao inquiridor (não ler para o respondente)]{.rotulo .em-linha} — Perguntar só se 23.1 = 1.
-:::
-
-::: {.respostas .rotulado}
-[Opções de resposta]{.rotulo}
-
-1. Insuficiente
-2. Básico
-3. Intermédio
-4. Avançado
-
-<!-- -->
-
-98. Ninguém na unidade sabe responder
 :::
 
 ## 23.5 · Avaliação da higiene das mãos — porta [NOVO]{.etiqueta .novo}
