@@ -656,16 +656,9 @@ img.capa-foto { width: 100%; border-radius: 6px; margin: 0.4rem 0 1.2rem; }
 }
 .pagina-seccao .cabecalho-seccao #title-block-header { margin-bottom: 0.4rem; }
 .pagina-seccao .cabecalho-seccao h1.title { margin: 0 0 0.3rem; }
-.pagina-seccao .seccao-numero {
-  display: block;
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--ms-borda-medir);
-  margin-bottom: 0.15rem;
-}
-.pagina-seccao .seccao-nome { display: block; font-size: 1.85rem; line-height: 1.2; }
+.pagina-seccao .cabecalho-seccao h1.title { font-size: 1.85rem; line-height: 1.2; }
+.pagina-seccao .seccao-numero { color: var(--ms-borda-medir); white-space: nowrap; }
+.pagina-seccao .seccao-nome { }
 .pagina-seccao .cabecalho-seccao .medir-seccao { background: #fff; }
 .pagina-seccao .cabecalho-seccao .tempo-aplicacao table { background: #fff; }
 
@@ -752,7 +745,7 @@ img.capa-foto { width: 100%; border-radius: 6px; margin: 0.4rem 0 1.2rem; }
   .pagina-seccao main section.level2 { padding: 0 0.8rem 0.4rem; }
   .pagina-seccao main section.level2 > h2 { margin: 0 -0.8rem 0.8rem; padding: 0.6rem 0.8rem; font-size: 1.02rem; }
   .pagina-seccao .cabecalho-seccao { padding: 0.9rem 0.9rem 0.3rem; }
-  .pagina-seccao .seccao-nome { font-size: 1.45rem; }
+  .pagina-seccao .cabecalho-seccao h1.title { font-size: 1.45rem; }
 }
 
 @media print {
