@@ -18,6 +18,8 @@ Trabalha-se um ponto de cada vez: cada ponto é feito, publicado e revisto antes
 
 ## A fazer
 
+**Duas formas de resposta** (decidido a 16 de Novembro de 2026): pergunta declarada para todas as unidades, sem pedido de prova; verificação à parte, assinalada «só na recolha com visita» (1.4 = 1). Feito: secções 4 e 14. Falta, uma secção de cada vez: 6, 7, 10, 16, 18, 20, 22 e 23. Cor própria para a verificação fica para a revisão da paleta.
+
 | N.º | Ponto | Pedido | Como | Falta decidir |
 |---|---|---|---|---|
 
