@@ -2081,15 +2081,13 @@ O que este quesito permite medir
 
         <option>DNH</option>
 
-        <option>Gabinete Provincial</option>
+        <option>Gabinete provincial</option>
 
         <option>Hospital Municipal ou Provincial</option>
 
         <option>Centro de Saúde</option>
 
-        <option>Unidade sanitária</option>
-
-        <option>Nações Unidas</option>
+        <option>Nações Unidas (WHO, UNICEF, UNFPA, UNDP, UNOPS)</option>
 
       </select>
 
@@ -2201,9 +2199,23 @@ O que este quesito permite medir
 
     try { quem = JSON.parse(localStorage.getItem(CHAVE)) || null; } catch (e) { return null; }
 
-    // «Direção provincial» passou a chamar-se «Gabinete Provincial» no Forms
+    // Opções antigas guardadas no navegador passam para os nomes actuais do Forms;
 
-    if (quem && quem.instituicao === "Direção provincial") quem.instituicao = "Gabinete Provincial";
+    // «Unidade sanitária» saiu do Forms, e a janela volta a pedir a instituição
+
+    const NOVAS = {
+
+      "Direção provincial": "Gabinete provincial",
+
+      "Gabinete Provincial": "Gabinete provincial",
+
+      "Nações Unidas": "Nações Unidas (WHO, UNICEF, UNFPA, UNDP, UNOPS)",
+
+      "Unidade sanitária": ""
+
+    };
+
+    if (quem && Object.prototype.hasOwnProperty.call(NOVAS, quem.instituicao)) quem.instituicao = NOVAS[quem.instituicao];
 
     return quem;
 
