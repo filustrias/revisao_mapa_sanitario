@@ -11,7 +11,7 @@ Como a unidade sanitária refere os doentes a outras unidades: mecanismo de refe
 
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
-| Com visita (presencial, com inquiridor) | 4 | 1 |
+| Com visita (presencial, com inquiridor) | 5 | 1 |
 | Autorreferida | 1 | 1 |
 :::
 

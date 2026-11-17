@@ -11,8 +11,8 @@ Serviço de manutenção da unidade, manutenção dos sistemas de infraestrutura
 
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
-| Com visita (presencial, com inquiridor) | 7 | 2 |
-| Autorreferida | 4 | 1 |
+| Com visita (presencial, com inquiridor) | 9 | 2 |
+| Autorreferida | 6 | 1 |
 :::
 
 <details class="medir-seccao">

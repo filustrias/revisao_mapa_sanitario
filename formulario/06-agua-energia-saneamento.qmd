@@ -11,8 +11,8 @@ Fontes de água e de electricidade e a sua disponibilidade, saneamento, recolha 
 
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
-| Com visita (presencial, com inquiridor) | 4 | 4 |
-| Autorreferida | 2 | 2 |
+| Com visita (presencial, com inquiridor) | 6 | 5 |
+| Autorreferida | 3 | 2 |
 :::
 
 <details class="medir-seccao">

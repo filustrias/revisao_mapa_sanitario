@@ -11,8 +11,8 @@ VIH — testagem, profilaxia pré-exposição ao VIH (PrEP) e profilaxia pós-ex
 
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
-| Com visita (presencial, com inquiridor) | 8 | 2 |
-| Autorreferida | 5 | 1 |
+| Com visita (presencial, com inquiridor) | 10 | 3 |
+| Autorreferida | 6 | 1 |
 :::
 
 <details class="medir-seccao">

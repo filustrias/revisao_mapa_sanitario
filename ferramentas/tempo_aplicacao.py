@@ -18,8 +18,8 @@ os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # segundos por campo
 T = {
-    'visita': {'escolha': 15, 'celula': 8, 'numero': 20, 'verif_q': 45, 'verif_cel': 15, 'abertura': 30},
-    'auto': {'escolha': 8, 'celula': 5, 'numero': 15, 'verif_q': 0, 'verif_cel': 0, 'abertura': 0},
+    'visita': {'escolha': 20, 'celula': 10, 'numero': 20, 'verif_q': 45, 'verif_cel': 15, 'abertura': 30},
+    'auto': {'escolha': 10, 'celula': 8, 'numero': 15, 'verif_q': 0, 'verif_cel': 0, 'abertura': 0},
 }
 
 
@@ -161,9 +161,9 @@ x += ('\n## Tempo de aplicação\n\n'
       'Estimativa do tempo de aplicação do formulário inteiro, em minutos. Cada secção mostra a sua no cabeçalho.\n\n'
       '::: {.tempo-aplicacao}\n' + tabela(soma, horas=True) + ':::\n\n'
       '**Como se calcula.** Contam-se os campos de cada secção e aplica-se um tempo por tipo de campo. '
-      'Na recolha com visita: 15 segundos por pergunta de escolha, 8 por linha ou caixa de grelha, 20 por número ou texto, '
+      'Na recolha com visita: 20 segundos por pergunta de escolha, 10 por linha ou caixa de grelha, 20 por número ou texto, '
       '45 por pergunta de verificação e 15 por caixa de verificação numa grelha, mais 30 segundos de abertura por secção. '
-      'Na recolha autorreferida: 8, 5 e 15 segundos, sem verificação. '
+      'Na recolha autorreferida: 10, 8 e 15 segundos, sem verificação. '
       '«Portas abertas» é a unidade que responde «Sim» a todas as perguntas que abrem outras; «portas fechadas», a que responde «Não» a todas e salta tudo o que delas depende. '
       'Uma unidade real fica entre os dois valores. Não se conta o tempo de deslocação entre serviços nem o de procurar registos.\n')
 open(p, 'wb').write(x.replace('\n', nl).encode('utf-8'))

@@ -9,8 +9,8 @@ Atendimento a doentes em situação de urgência — com ou sem banco de urgênc
 
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
-| Com visita (presencial, com inquiridor) | 4 | 1 |
-| Autorreferida | 2 | 1 |
+| Com visita (presencial, com inquiridor) | 5 | 1 |
+| Autorreferida | 3 | 1 |
 :::
 
 <details class="medir-seccao">

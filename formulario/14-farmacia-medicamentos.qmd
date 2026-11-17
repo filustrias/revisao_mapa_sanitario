@@ -9,8 +9,8 @@ Serviço de farmácia, quem dispensa os medicamentos, a lista de produtos farmac
 
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
-| Com visita (presencial, com inquiridor) | 105 | 2 |
-| Autorreferida | 28 | 1 |
+| Com visita (presencial, com inquiridor) | 117 | 2 |
+| Autorreferida | 43 | 1 |
 :::
 
 <details class="medir-seccao">

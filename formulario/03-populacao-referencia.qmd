@@ -11,7 +11,7 @@ População da área de abrangência da unidade sanitária e unidades para onde 
 
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
-| Com visita (presencial, com inquiridor) | 7 | 5 |
+| Com visita (presencial, com inquiridor) | 7 | 6 |
 | Autorreferida | 5 | 4 |
 :::
 

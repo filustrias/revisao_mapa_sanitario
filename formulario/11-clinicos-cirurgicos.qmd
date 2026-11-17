@@ -9,8 +9,8 @@ Atendimento por especialidade clínica, serviços a sobreviventes de violência 
 
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
-| Com visita (presencial, com inquiridor) | 35 | 29 |
-| Autorreferida | 24 | 20 |
+| Com visita (presencial, com inquiridor) | 39 | 31 |
+| Autorreferida | 29 | 23 |
 :::
 
 <details class="medir-seccao">

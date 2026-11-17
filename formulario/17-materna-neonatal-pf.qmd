@@ -11,8 +11,8 @@ Consulta pré-natal, partos e cuidados obstétricos de urgência, consulta pós-
 
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
-| Com visita (presencial, com inquiridor) | 13 | 4 |
-| Autorreferida | 8 | 2 |
+| Com visita (presencial, com inquiridor) | 16 | 5 |
+| Autorreferida | 11 | 3 |
 :::
 
 <details class="medir-seccao">

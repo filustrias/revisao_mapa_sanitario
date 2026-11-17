@@ -11,7 +11,7 @@ Localização administrativa, designação e categoria da unidade sanitária, o 
 
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
-| Com visita (presencial, com inquiridor) | 4 | 4 |
+| Com visita (presencial, com inquiridor) | 5 | 5 |
 | Autorreferida | 3 | 3 |
 :::
 

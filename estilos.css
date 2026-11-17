@@ -832,3 +832,44 @@ img.capa-foto { width: 100%; border-radius: 6px; margin: 0.4rem 0 1.2rem; }
 .paleta-nova .grelha th.col-verificacao { background: #d5efea; color: var(--ms-verif); }
 .paleta-nova .grelha td.col-verificacao { background: var(--ms-fundo-verif) !important; }
 .paleta-nova .enunciado strong.marca-verificacao { color: var(--ms-verif); }
+
+/* ------------------------------------------------------------------ *
+ *  Nota de apresentação: caixas de destaque e espaçamento das partes  *
+ *  (a classe pagina-apresentacao vem de body-classes, no cabeçalho)   *
+ * ------------------------------------------------------------------ */
+.caixa {
+  border: 1px solid;
+  border-left-width: 6px;
+  border-radius: 10px;
+  padding: 1rem 1.4rem 0.4rem;
+  margin: 1.8rem 0 2.2rem;
+}
+.caixa h3 { margin-top: 0 !important; padding-top: 0; font-size: 1.2rem; }
+.caixa table { background: #fff; }
+.caixa .tempo-aplicacao { max-width: none; font-size: 0.95rem; }
+.caixa-portas { background: #fff6e5; border-color: #f0d49b; border-left-color: #c77700; }
+.caixa-portas h3 { color: #8a5300; }
+.caixa-coleta { background: #e9f6f4; border-color: #b5e0d9; border-left-color: #0f766e; }
+.caixa-coleta h3 { color: #0f766e; }
+.caixa-tempo { background: #eef3f8; border-color: #c6d5e4; border-left-color: #1f3b57; }
+.caixa-tempo h3 { color: #1f3b57; }
+.caixa-poupam { background: #edf7ee; border-color: #bfe0c4; border-left-color: #2f7d3a; }
+.caixa-poupam h3 { color: #276b31; }
+
+.pagina-apresentacao main section.level2 { margin-top: 3.2rem; }
+.pagina-apresentacao main section.level2:first-of-type { margin-top: 1rem; }
+.pagina-apresentacao main section.level2 > h2 {
+  background: #f3f6f9;
+  border: none;
+  border-left: 5px solid #1f3b57;
+  border-radius: 0 8px 8px 0;
+  padding: 0.55rem 1rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.45rem;
+}
+.pagina-apresentacao main section.level3 { margin-top: 1.8rem; }
+.pagina-apresentacao main .caixa section.level3 { margin-top: 0; }
+
+@media (max-width: 600px) {
+  .caixa { padding: 0.8rem 0.9rem 0.3rem; }
+}

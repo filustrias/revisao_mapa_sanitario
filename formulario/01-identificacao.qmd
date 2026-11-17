@@ -12,7 +12,7 @@ Quando, como e por quem foi feita a recolha e em que situação estava a unidade
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
 | Com visita (presencial, com inquiridor) | 16 | 16 |
-| Autorreferida | 11 | 11 |
+| Autorreferida | 12 | 12 |
 :::
 
 ## 1.1 Data desta recolha [ALTERADO]{.etiqueta .alterado}

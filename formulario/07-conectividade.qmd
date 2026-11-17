@@ -19,8 +19,8 @@ Como a unidade regista a informação dos utentes e das consultas — em papel o
 
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
-| Com visita (presencial, com inquiridor) | 49 | 25 |
-| Autorreferida | 34 | 17 |
+| Com visita (presencial, com inquiridor) | 53 | 27 |
+| Autorreferida | 37 | 18 |
 :::
 
 <details class="medir-seccao">

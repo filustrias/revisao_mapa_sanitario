@@ -11,8 +11,8 @@ Actividade da unidade na comunidade: distribuição de redes mosquiteiras, briga
 
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
-| Com visita (presencial, com inquiridor) | 4 | 2 |
-| Autorreferida | 2 | 1 |
+| Com visita (presencial, com inquiridor) | 5 | 2 |
+| Autorreferida | 3 | 1 |
 :::
 
 <details class="medir-seccao">

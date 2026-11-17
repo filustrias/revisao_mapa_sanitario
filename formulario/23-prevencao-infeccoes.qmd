@@ -11,8 +11,8 @@ Avaliação da prevenção e controlo de infecções e da higiene das mãos, nor
 
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
-| Com visita (presencial, com inquiridor) | 10 | 6 |
-| Autorreferida | 7 | 3 |
+| Com visita (presencial, com inquiridor) | 12 | 7 |
+| Autorreferida | 8 | 4 |
 :::
 
 <details class="medir-seccao">

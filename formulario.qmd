@@ -43,8 +43,8 @@ Estimativa do tempo de aplicação do formulário inteiro, em minutos. Cada sec�
 ::: {.tempo-aplicacao}
 | Forma de recolha | Todas as portas abertas | Todas as portas fechadas |
 |---|:-:|:-:|
-| Com visita (presencial, com inquiridor) | 377 (cerca de 6,3 horas) | 165 (cerca de 2,8 horas) |
-| Autorreferida | 202 (cerca de 3,4 horas) | 110 (cerca de 1,8 horas) |
+| Com visita (presencial, com inquiridor) | 425 (cerca de 7,1 horas) | 180 (cerca de 3,0 horas) |
+| Autorreferida | 253 (cerca de 4,2 horas) | 123 (cerca de 2,0 horas) |
 :::
 
-**Como se calcula.** Contam-se os campos de cada secção e aplica-se um tempo por tipo de campo. Na recolha com visita: 15 segundos por pergunta de escolha, 8 por linha ou caixa de grelha, 20 por número ou texto, 45 por pergunta de verificação e 15 por caixa de verificação numa grelha, mais 30 segundos de abertura por secção. Na recolha autorreferida: 8, 5 e 15 segundos, sem verificação. «Portas abertas» é a unidade que responde «Sim» a todas as perguntas que abrem outras; «portas fechadas», a que responde «Não» a todas e salta tudo o que delas depende. Uma unidade real fica entre os dois valores. Não se conta o tempo de deslocação entre serviços nem o de procurar registos.
+**Como se calcula.** Contam-se os campos de cada secção e aplica-se um tempo por tipo de campo. Na recolha com visita: 20 segundos por pergunta de escolha, 10 por linha ou caixa de grelha, 20 por número ou texto, 45 por pergunta de verificação e 15 por caixa de verificação numa grelha, mais 30 segundos de abertura por secção. Na recolha autorreferida: 10, 8 e 15 segundos, sem verificação. «Portas abertas» é a unidade que responde «Sim» a todas as perguntas que abrem outras; «portas fechadas», a que responde «Não» a todas e salta tudo o que delas depende. Uma unidade real fica entre os dois valores. Não se conta o tempo de deslocação entre serviços nem o de procurar registos.
