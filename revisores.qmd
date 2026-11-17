@@ -41,7 +41,7 @@ Cada quesito tem ao lado um botão [💬 Comentar]{.rev-botao}, e cada secção,
 :::: {.rev-passos}
 
 ::: {.rev-passo}
-**Identifique-se uma vez.** Na primeira vez, o botão pede o seu nome, email e instituição. Ficam guardados neste navegador e são preenchidos nos comentários seguintes.
+**Identifique-se (isso será necessário apenas na primeira vez).** Na primeira vez, o botão pede o seu nome, email e instituição. Ficam guardados neste navegador e são preenchidos nos comentários seguintes.
 :::
 
 ::: {.rev-passo}
@@ -50,6 +50,10 @@ Cada quesito tem ao lado um botão [💬 Comentar]{.rev-botao}, e cada secção,
 
 ::: {.rev-passo}
 **Siga em frente.** A janela fecha-se sozinha depois do envio, e o botão do quesito fica assinalado.
+:::
+
+::: {.rev-passo}
+**Lembre-se!** Não precisa comentar tudo. Gaste a sua energia comentando apenas o que lhe chamar a atenção.
 :::
 
 ::::
